@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599402",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "LEA: Improving Sentence Similarity Robustness to Typos Using Lexical Attention Bias",
+  "doi": "10.1145/3580305.3599402",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568477",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Textual noise typos abbreviations well-known issue penalizes vanilla Transformers most downstream tasks..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However all methods still suffer token distribution shift induced typos..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving show case sentence similarity fundamental task multiple domains e.g. matching retrieval paraphrasing..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Sentence similarity approached cross-encoders two sentences concatenated input allowing model exploit inter-relations between them..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work propose tackle textual noise equipping cross-encoders novel LExical-aware Attention module LEA incorporates lexical similarities between words both.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Previous works addressing noise issue mainly rely data augmentation strategies showing improved robustness when dealing corrupted samples similar.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving raw text similarities approach avoids tokenization shift problem obtaining improved robustness..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate attention bias introduced LEA helps cross-encoders tackle complex scenarios textual noise specially domains short-text descriptions limited context..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Textual noise typos abbreviations well-known issue penalizes vanilla Transformers most downstream tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However all methods still suffer token distribution shift induced typos..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show case sentence similarity fundamental task multiple domains e.g. matching retrieval paraphrasing..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Sentence similarity approached cross-encoders two sentences concatenated input allowing model exploit inter-relations between them..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Previous works addressing noise issue mainly rely data augmentation strategies showing improved robustness when dealing corrupted samples similar.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

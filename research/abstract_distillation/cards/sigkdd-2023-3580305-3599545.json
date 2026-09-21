@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599545",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Web-based Long-term Spine Treatment Outcome Forecasting",
+  "doi": "10.1145/3580305.3599545",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562624",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines aging global population witnessing increasing prevalence spinal disorders..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However recent evidences reveal some spine patients self-heal over time nonoperative treatment even surgeries not ease pain others.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Due development web technology possible spine patients obtain decision making suggestions Internet..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite few machine-learning-based methods have been proposed TOF performance feasibility mostly unsatisfactory due neglect practical challenges caused applying.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving light propose DeepTOF novel end-to-end deep learning model cope unique challenges web-based long-term continuous spine TOF..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments analysis show DeepTOF outperforms conventional solutions large margin..",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines aging global population witnessing increasing prevalence spinal disorders..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However recent evidences reveal some spine patients self-heal over time nonoperative treatment even surgeries not ease pain others.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Due development web technology possible spine patients obtain decision making suggestions Internet..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite few machine-learning-based methods have been proposed TOF performance feasibility mostly unsatisfactory due neglect practical challenges caused applying.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comprehensive experiments analysis show DeepTOF outperforms conventional solutions large margin..",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

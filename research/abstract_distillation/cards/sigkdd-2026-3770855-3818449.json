@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818449",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "ML-Powered LDAP Reconnaissance Detection using Weak Supervision",
+  "doi": "10.1145/3770855.3818449",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7166805718",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Lightweight Directory Access Protocol LDAP allows users query modify Active AD data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving capture threat actors early reconnaissance phase developed two machine learning frameworks detect LDAP ML classifier predict malicious queries.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving correlating LDAP queries endpoint detections first framework uses weak supervision label massive dataset classify malicious benign..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving immediate deployment second technique was developed top approach employ rigorous statistical hypothesis-testing framework mining novel malicious LDAP signatures..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Ultimately both LDAP classifier ML-based signature mining method achieved performance benchmarks achieving up 65 True Positive Rate TPR.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Lightweight Directory Access Protocol LDAP allows users query modify Active AD data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving capture threat actors early reconnaissance phase developed two machine learning frameworks detect LDAP ML classifier predict malicious queries.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving correlating LDAP queries endpoint detections first framework uses weak supervision label massive dataset classify malicious benign..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Ultimately both LDAP classifier ML-based signature mining method achieved performance benchmarks achieving up 65 True Positive Rate TPR.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

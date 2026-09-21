@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817673",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "EvoFEND: Dual Memory-Driven Self-Evolving Fake News Detection",
+  "doi": "10.1145/3770855.3817673",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197040718",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-world fake news inherently dynamic evidence within event accumulates conflicts over time deceptive tactics shift across events..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most prior work formulates detection static one-shot classification problem over fixed snapshots..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving alternative propose active non-parametric evolution fake news detection instead relying repeated parametric updates i.e. retraining handle changes model.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building idea introduce EvoFEND dual memory-driven self-evolving agent two complementary components Event Memory incrementally maintains dynamic working context.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving enable reliable evaluation under streaming conditions construct XNews-25 benchmark supports recent data..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving enable reliable evaluation under streaming conditions construct XNews-25 benchmark supports recent data..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show EvoFEND consistently outperforms competitive baselines supporting self-evolving paradigm fake news detection remains robust rapidly changing.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-world fake news inherently dynamic evidence within event accumulates conflicts over time deceptive tactics shift across events..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most prior work formulates detection static one-shot classification problem over fixed snapshots..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving alternative propose active non-parametric evolution fake news detection instead relying repeated parametric updates i.e. retraining handle changes model.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building idea introduce EvoFEND dual memory-driven self-evolving agent two complementary components Event Memory incrementally maintains dynamic working context.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving enable reliable evaluation under streaming conditions construct XNews-25 benchmark supports recent data..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817809",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Generalizable Multi-Pass Training of Ads Recommendation Models with Foundation Model Guidance",
+  "doi": "10.1145/3770855.3817809",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196928160",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines High-capacity Click-Through Rate CTR models ads recommendation often exhibit pronounced one-epoch overfitting performance peaks after single training pass.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving High-capacity Click-Through Rate CTR models ads recommendation often exhibit pronounced one-epoch overfitting performance peaks after single training pass.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose TeMPO principled framework generalizable multi-pass training recommendation models leverages supervision teacher Foundation Model FM.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Instead maximize joint likelihood observing both click labels teacher rich representational knowledge combining task loss teacher-guided alignment objectives..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments public benchmarks Meta production-scale ads application demonstrate TeMPO enables additional training passes improve rather degrade performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines High-capacity Click-Through Rate CTR models ads recommendation often exhibit pronounced one-epoch overfitting performance peaks after single training pass.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving High-capacity Click-Through Rate CTR models ads recommendation often exhibit pronounced one-epoch overfitting performance peaks after single training pass.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge propose TeMPO principled framework generalizable multi-pass training recommendation models leverages supervision teacher Foundation Model FM.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments public benchmarks Meta production-scale ads application demonstrate TeMPO enables additional training passes improve rather degrade performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

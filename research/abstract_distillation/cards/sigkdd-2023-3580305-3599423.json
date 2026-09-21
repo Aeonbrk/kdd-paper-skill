@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599423",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "MAPLE: Semi-Supervised Learning with Multi-Alignment and Pseudo-Learning",
+  "doi": "10.1145/3580305.3599423",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568181",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data augmentation has undoubtedly enabled significant leap forward training high-accuracy deep network..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However along plentiful data comes huge distribution gap between target different sources hybrid shift.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unlike previous methods paper focuses study learning deep models gathering knowledge multiple sources labor-free fashion further proposes Multi-Alignment.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition novel semi-supervised learning SSL manner introduced further facilitate utility MAPLE..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive evaluations conducted four benchmarks show effectiveness proposed MAPLE achieves state-of-the-art performance outperforming existing methods obvious margin..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Data augmentation has undoubtedly enabled significant leap forward training high-accuracy deep network..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive evaluations conducted four benchmarks show effectiveness proposed MAPLE achieves state-of-the-art performance outperforming existing methods obvious margin..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data augmentation has undoubtedly enabled significant leap forward training high-accuracy deep network..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However along plentiful data comes huge distribution gap between target different sources hybrid shift.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Unlike previous methods paper focuses study learning deep models gathering knowledge multiple sources labor-free fashion further proposes Multi-Alignment.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving addition novel semi-supervised learning SSL manner introduced further facilitate utility MAPLE..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Data augmentation has undoubtedly enabled significant leap forward training high-accuracy deep network..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

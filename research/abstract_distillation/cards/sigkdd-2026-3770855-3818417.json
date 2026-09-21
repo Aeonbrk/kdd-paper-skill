@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818417",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "From Bootstrapping to Sequence Modeling: A Unified Generative Framework for Personalized Landing-Page Modeling",
+  "doi": "10.1145/3770855.3818417",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197035436",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern online platforms increasingly adopt multi-page architectures accommodate diverse user needs..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However CQL-based approaches suffer two fundamental limitations Markov assumption fails capture strong non-Markovian temporal dependencies inherent real-world user.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving optimize process Kuaishou formulated task Personalized Landing Page Modeling PLPM proposed KLAN reinforcement learning framework built upon Conservative.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose GLAN Generative Landing-page Adaptive Navigator sequence modeling framework built Decision Transformer tackle PLPM unified global-local.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First design L-RTG module captures users inter-day consumption dynamics provide accurate global guidance all page assignments within day..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive online experiments conducted Kuaishou platform demonstrate effectiveness GLAN achieving 0.158% 0.108% improvements Daily Active Users DAU user.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern online platforms increasingly adopt multi-page architectures accommodate diverse user needs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However CQL-based approaches suffer two fundamental limitations Markov assumption fails capture strong non-Markovian temporal dependencies inherent real-world user.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving optimize process Kuaishou formulated task Personalized Landing Page Modeling PLPM proposed KLAN reinforcement learning framework built upon Conservative.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose GLAN Generative Landing-page Adaptive Navigator sequence modeling framework built Decision Transformer tackle PLPM unified global-local.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive online experiments conducted Kuaishou platform demonstrate effectiveness GLAN achieving 0.158% 0.108% improvements Daily Active Users DAU user.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

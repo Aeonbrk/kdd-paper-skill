@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737163",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Towards Interpretable Drug-Drug Interaction Prediction: A Graph-Based Approach with Molecular and Network-Level Explanations",
+  "doi": "10.1145/3711896.3737163",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825852",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Drug-drug interactions DDIs represent critical challenge pharmacology often leading adverse drug reactions significant implications patient safety healthcare outcomes..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving study propose MolecBioNet novel graph-based framework integrates molecular biomedical knowledge robust interpretable DDI prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework extracts local subgraphs biomedical knowledge graphs constructs hierarchical interaction molecular representations leveraging classical graph neural network methods.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving enhance accuracy interpretability MolecBioNet introduces two domain-specific pooling strategies context-aware subgraph CASPool emphasizes biologically relevant entities attention-guided influence.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving graph-based methods have achieved strong predictive performance most approaches treat drug pairs independently overlooking complex context-dependent interactions unique.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving enhance accuracy interpretability MolecBioNet introduces two domain-specific pooling strategies context-aware subgraph CASPool emphasizes biologically relevant entities attention-guided influence.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate MolecBioNet outperforms state-of-the-art methods DDI prediction ablation studies embedding visualizations further validate advantages unified drug.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Drug-drug interactions DDIs represent critical challenge pharmacology often leading adverse drug reactions significant implications patient safety healthcare outcomes..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study propose MolecBioNet novel graph-based framework integrates molecular biomedical knowledge robust interpretable DDI prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework extracts local subgraphs biomedical knowledge graphs constructs hierarchical interaction molecular representations leveraging classical graph neural network methods.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving graph-based methods have achieved strong predictive performance most approaches treat drug pairs independently overlooking complex context-dependent interactions unique.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

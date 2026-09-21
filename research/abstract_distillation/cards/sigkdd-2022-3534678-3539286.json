@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539286",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "JuryGCN: Quantifying Jackknife Uncertainty on Graph Convolutional Networks",
+  "doi": "10.1145/3534678.3539286",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927803",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Convolutional Network GCN has exhibited strong empirical performance many real-world applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Despite being cornerstone trustworthy graph mining uncertainty quantification GCN has not been well studied scarce existing efforts either.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose first frequentist-based approach named JuryGCN quantifying uncertainty GCN key idea quantify node width confidence interval jackknife.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Moreover leverage influence functions estimate change GCN parameters without re-training scale up computation..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving vast majority existing works GCN primarily focus accuracy ignoring how confident uncertain respect predictions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving perform extensive experimental evaluation real-world datasets tasks both active learning semi-supervised node classification demonstrate efficacy proposed method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Convolutional Network GCN has exhibited strong empirical performance many real-world applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite being cornerstone trustworthy graph mining uncertainty quantification GCN has not been well studied scarce existing efforts either.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose first frequentist-based approach named JuryGCN quantifying uncertainty GCN key idea quantify node width confidence interval jackknife.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving vast majority existing works GCN primarily focus accuracy ignoring how confident uncertain respect predictions..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737443",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FULTR: A Large-scale Fusion Learning to Rank Dataset and its application for Satisfaction-Oriented Ranking",
+  "doi": "10.1145/3711896.3737443",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876988",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines exponential growth online content increasingly diverse user needs have underscored necessity ranking models go beyond traditional relevance assessments..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although several open-source benchmarks have significantly advanced academic research Learning-to-Rank LTR datasets predominantly focus either text-based relevance user.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper introduce FULTR-a large-scale prior-posterior FUsion LTR dataset..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving unifying dual perspectives FULTR establishes robust reproducible benchmark satisfaction-oriented ranking enabling researchers develop models better capture real-world search.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving addition propose strong LTR baseline merges satisfaction ranker leverages pre-trained language models integrate diverse signals behavior captures user.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving outputs combined via fusion layer yielding significant performance gains multiple evaluation metrics confirmed extensive experiments ablation studies..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines exponential growth online content increasingly diverse user needs have underscored necessity ranking models go beyond traditional relevance assessments..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although several open-source benchmarks have significantly advanced academic research Learning-to-Rank LTR datasets predominantly focus either text-based relevance user.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce FULTR-a large-scale prior-posterior FUsion LTR dataset..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving unifying dual perspectives FULTR establishes robust reproducible benchmark satisfaction-oriented ranking enabling researchers develop models better capture real-world search.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving outputs combined via fusion layer yielding significant performance gains multiple evaluation metrics confirmed extensive experiments ablation studies..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

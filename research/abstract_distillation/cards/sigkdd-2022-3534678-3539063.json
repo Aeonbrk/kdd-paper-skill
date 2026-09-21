@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539063",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "A Meta Reinforcement Learning Approach for Predictive Autoscaling in the Cloud",
+  "doi": "10.1145/3534678.3539063",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281641923",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Predictive autoscaling workload forecasting important mechanism supports autonomous adjustment computing resources accordance fluctuating demands Cloud..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However RL methods face following challenges steering predictive autoscaling lack accuracy decision-making inefficient sampling significant variability workload patterns.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving recent works Reinforcement Learning RL has been introduced promising approach learn resource management policies guide scaling actions under.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving end propose end-to-end predictive meta model-based RL algorithm aiming optimally allocate resource maintain stable CPU utilization level incorporates.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving algorithm not only ensures predictability accuracy scaling strategy but enables decisions adapt changing workloads high sample efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However RL methods face following challenges steering predictive autoscaling lack accuracy decision-making inefficient sampling significant variability workload patterns.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving algorithm not only ensures predictability accuracy scaling strategy but enables decisions adapt changing workloads high sample efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving method has achieved significant performance improvement compared existing algorithms been deployed online Alipay supporting autoscaling applications world-leading payment.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Predictive autoscaling workload forecasting important mechanism supports autonomous adjustment computing resources accordance fluctuating demands Cloud..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However RL methods face following challenges steering predictive autoscaling lack accuracy decision-making inefficient sampling significant variability workload patterns.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving recent works Reinforcement Learning RL has been introduced promising approach learn resource management policies guide scaling actions under.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose end-to-end predictive meta model-based RL algorithm aiming optimally allocate resource maintain stable CPU utilization level incorporates.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However RL methods face following challenges steering predictive autoscaling lack accuracy decision-making inefficient sampling significant variability workload patterns.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

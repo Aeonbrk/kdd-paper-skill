@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671781",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Natural Language Explainable Recommendation with Robustness Enhancement",
+  "doi": "10.1145/3637528.3671781",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864001",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Natural language explainable recommendation has become promising direction facilitate efficient informed user decisions..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However robustness problem has been largely ignored requires explanations generated similar user-item pairs should not too much different..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based characteristics formulate solve novel problem recommendation domain robust natural language explainable recommendation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically base modeling adversarial robust optimization design four types heuristic methods modify outputs weighted token probabilities synonym replacements..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore consider mutual influence between above characteristics regard language generation decision-making problem design dual-policy reinforcement learning framework improve.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Previous models mostly focus how enhance explanation accuracy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Different traditional classification problems improving robustness natural languages has two unique characteristics token importances tokens play various roles.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore consider mutual influence between above characteristics regard language generation decision-making problem design dual-policy reinforcement learning framework improve.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Natural language explainable recommendation has become promising direction facilitate efficient informed user decisions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However robustness problem has been largely ignored requires explanations generated similar user-item pairs should not too much different..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based characteristics formulate solve novel problem recommendation domain robust natural language explainable recommendation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically base modeling adversarial robust optimization design four types heuristic methods modify outputs weighted token probabilities synonym replacements..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Previous models mostly focus how enhance explanation accuracy..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

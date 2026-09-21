@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672058",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Can Modifying Data Address Graph Domain Adaptation?",
+  "doi": "10.1145/3637528.3672058",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863481",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks GNNs have demonstrated remarkable success numerous analytical tasks..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However critical examination reveals limitations inherent model-centric methods data-centric method allowed modify source graph provably demonstrates considerable potential..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recently Unsupervised Graph Domain Adaptation UGDA has been introduced resolve issue..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Current UGDA efforts primarily focus model-centric methods employing domain invariant learning strategies designing model architectures..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However critical examination reveals limitations inherent model-centric methods data-centric method allowed modify source graph provably demonstrates considerable potential..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph neural networks GNNs have demonstrated remarkable success numerous analytical tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However critical examination reveals limitations inherent model-centric methods data-centric method allowed modify source graph provably demonstrates considerable potential..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments under various transfer scenarios demonstrate GraphAlign outperforms best baselines average 2.16% training generated graph small 0.25.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks GNNs have demonstrated remarkable success numerous analytical tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However critical examination reveals limitations inherent model-centric methods data-centric method allowed modify source graph provably demonstrates considerable potential..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently Unsupervised Graph Domain Adaptation UGDA has been introduced resolve issue..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Current UGDA efforts primarily focus model-centric methods employing domain invariant learning strategies designing model architectures..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph neural networks GNNs have demonstrated remarkable success numerous analytical tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

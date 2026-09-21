@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599914",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Towards Disentangling Relevance and Bias in Unbiased Learning to Rank",
+  "doi": "10.1145/3580305.3599914",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562516",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Unbiased learning rank ULTR studies problem mitigating various biases implicit user feedback data clicks has been receiving considerable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work identify critical issue existing ULTR methods ignored bias tower confounded relevance via underlying true relevance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving particular positions were determined logging policy i.e. previous production model would possess relevance information..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving give both theoretical analysis empirical results show negative effects relevance tower due correlation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving give both theoretical analysis empirical results show negative effects relevance tower due correlation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Offline empirical results both controlled public datasets large-scale industry dataset show effectiveness proposed approaches..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct live experiment popular web store four weeks find significant improvement user clicks over baseline ignores negative confounding.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Unbiased learning rank ULTR studies problem mitigating various biases implicit user feedback data clicks has been receiving considerable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work identify critical issue existing ULTR methods ignored bias tower confounded relevance via underlying true relevance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving particular positions were determined logging policy i.e. previous production model would possess relevance information..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving give both theoretical analysis empirical results show negative effects relevance tower due correlation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

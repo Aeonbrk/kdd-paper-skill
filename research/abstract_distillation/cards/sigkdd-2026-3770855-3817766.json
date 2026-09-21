@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817766",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Agile Online Model Selection: Resolving Adaptation Lag via Safeguarded Large Learning Rates",
+  "doi": "10.1145/3770855.3817766",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162679817",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing tuning-free algorithms face fundamental trade-off between robustness agility..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving resolve propose novel optimistic online mirror descent utilizes safeguarded large learning rates up number rounds..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving show cumulative penalty remains log allowing algorithm match near-optimal worst-case guarantees achieving superior rates benign cases..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving show cumulative penalty remains log allowing algorithm match near-optimal worst-case guarantees achieving superior rates benign cases..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical evaluations three synthetic eleven diverse real-world datasets demonstrate approach reduces adaptation lag hundreds rounds few consistently outperforming.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing tuning-free algorithms face fundamental trade-off between robustness agility..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving resolve propose novel optimistic online mirror descent utilizes safeguarded large learning rates up number rounds..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Maintaining predictive accuracy non-stationary environments requires online model selection adapt autonomously unknown distribution shifts..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671712",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "SiGeo: Sub-One-Shot NAS via Geometry of Loss Landscape",
+  "doi": "10.1145/3637528.3671712",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857104",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural Architecture Search NAS has become widely used tool automating network design..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving other hand zero-shot NAS utilizes training-free proxies evaluate candidate architecture test performance but has two limitations inability use.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Neural Architecture Search NAS has become widely used tool automating network design..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving synthesize benefits both methods introduce sub-one-shot paradigm serves bridge between zero-shot one-shot NAS..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving sub-one-shot NAS supernet trained only small subset training data phase refer warm-up. Within framework present SiGeo proxy founded.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving other hand zero-shot NAS utilizes training-free proxies evaluate candidate architecture test performance but has two limitations inability use.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments have consistently shown SiGeo when properly warmed up surpasses state-of-the-art NAS proxies many established benchmarks computer.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore when tested recommendation system benchmarks SiGeo demonstrates ability match performance state-of-the-art weight-sharing one-shot NAS methods significantly reducing.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural Architecture Search NAS has become widely used tool automating network design..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving other hand zero-shot NAS utilizes training-free proxies evaluate candidate architecture test performance but has two limitations inability use.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Neural Architecture Search NAS has become widely used tool automating network design..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving synthesize benefits both methods introduce sub-one-shot paradigm serves bridge between zero-shot one-shot NAS..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving other hand zero-shot NAS utilizes training-free proxies evaluate candidate architecture test performance but has two limitations inability use.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

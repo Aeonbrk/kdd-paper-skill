@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671648",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Learning to Rank for Maps at Airbnb",
+  "doi": "10.1145/3637528.3671648",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863435",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines two-sided marketplace Airbnb brings together hosts who own listings rent prospective guests around globe..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving But some basic assumptions underlying ranking built world search results presented lists simply break down maps..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Both interfaces since inception have used same ranking algorithm orders listings booking probabilities selects top display..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving But some basic assumptions underlying ranking built world search results presented lists simply break down maps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper describes how rebuilt ranking maps revising mathematical foundations users interact search results..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Results guest search listings displayed primarily through two interfaces list rectangular cards contain them listing image price rating.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving But some basic assumptions underlying ranking built world search results presented lists simply break down maps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper describes how rebuilt ranking maps revising mathematical foundations users interact search results..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines two-sided marketplace Airbnb brings together hosts who own listings rent prospective guests around globe..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving But some basic assumptions underlying ranking built world search results presented lists simply break down maps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Both interfaces since inception have used same ranking algorithm orders listings booking probabilities selects top display..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving But some basic assumptions underlying ranking built world search results presented lists simply break down maps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Results guest search listings displayed primarily through two interfaces list rectangular cards contain them listing image price rating.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

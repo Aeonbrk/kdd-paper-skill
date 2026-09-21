@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599916",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Towards Fairness in Personalized Ads Using Impression Variance Aware Reinforcement Learning",
+  "doi": "10.1145/3580305.3599916",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379919443",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Variances ad impression outcomes across demographic groups increasingly considered potentially indicative algorithmic bias personalized ads systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving there many definitions fairness could applicable context personalized systems present framework call Variance Reduction System VRS achieving equitable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving first define metrics quantify fairness gaps terms ad impression variances respect PC attributes including gender estimated race..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving then present VRS re-ranking ads impression variance-aware manner..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving there many definitions fairness could applicable context personalized systems present framework call Variance Reduction System VRS achieving equitable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving VRS seeks achieve distribution impressions respect selected protected class PC attributes closely aligns demographics ad eligible audience function.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate VRS via extensive simulations over different parameter choices study effect chosen fairness metric..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Variances ad impression outcomes across demographic groups increasingly considered potentially indicative algorithmic bias personalized ads systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving there many definitions fairness could applicable context personalized systems present framework call Variance Reduction System VRS achieving equitable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving first define metrics quantify fairness gaps terms ad impression variances respect PC attributes including gender estimated race..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving there many definitions fairness could applicable context personalized systems present framework call Variance Reduction System VRS achieving equitable.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

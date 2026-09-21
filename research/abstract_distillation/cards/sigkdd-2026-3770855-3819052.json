@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819052",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "TACK: A Statistical Evaluation of Degradation Activity on a Novel TArgeting Chimeras Knowledge Dataset",
+  "doi": "10.1145/3770855.3819052",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164148843",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Proteolysis-targeting chimeras PROTACs represent promising therapeutic modality induces targeted protein degradation hijacking ubiquitin-proteasome system..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However rational PROTAC design remains challenging due complex interplay between molecular structure target proteins E3 ligases cellular context..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However rational PROTAC design remains challenging due complex interplay between molecular structure target proteins E3 ligases cellular context..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving present TACK statistical evaluation degradation activity novel TArgeting Chimeras Knowledge dataset 514 PROTACs 561 endpoints aggregated three major.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving scaffold-based cross-validation perform rigorous statistical comparison three machine learning methods predict PROTAC degradation activity across tasks DC50 Dmax.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving present TACK statistical evaluation degradation activity novel TArgeting Chimeras Knowledge dataset 514 PROTACs 561 endpoints aggregated three major.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving scaffold-based cross-validation perform rigorous statistical comparison three machine learning methods predict PROTAC degradation activity across tasks DC50 Dmax.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Feature ablation demonstrates cellular context features simple protein representations rival complex ESM embeddings highlighting importance engineering over architectural.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Proteolysis-targeting chimeras PROTACs represent promising therapeutic modality induces targeted protein degradation hijacking ubiquitin-proteasome system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However rational PROTAC design remains challenging due complex interplay between molecular structure target proteins E3 ligases cellular context..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However rational PROTAC design remains challenging due complex interplay between molecular structure target proteins E3 ligases cellular context..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present TACK statistical evaluation degradation activity novel TArgeting Chimeras Knowledge dataset 514 PROTACs 561 endpoints aggregated three major.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving present TACK statistical evaluation degradation activity novel TArgeting Chimeras Knowledge dataset 514 PROTACs 561 endpoints aggregated three major.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

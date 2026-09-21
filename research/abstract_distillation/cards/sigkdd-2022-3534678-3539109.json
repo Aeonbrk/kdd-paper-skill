@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539109",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "CMMD: Cross-Metric Multi-Dimensional Root Cause Analysis",
+  "doi": "10.1145/3534678.3539109",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4224329784",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines large-scale online services crucial metrics a.k.a. key performance indicators KPIs monitored periodically check running statuses..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However analyses limited data abnormal metric ignore other metrics related anomalies leading imprecise even incorrect root causes..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Once abnormal KPI values observed root cause analysis RCA applied identify reasons anomalies so troubleshoot quickly..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recently several automatic RCA techniques were proposed localize related dimensions combination explain anomalies..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose cross-metric multi-dimensional root cause analysis method named CMMD consists two key components relationship modeling utilizes graph.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments synthetic datasets real-world online production environments demonstrate superiority proposed CMMD method compared baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines large-scale online services crucial metrics a.k.a. key performance indicators KPIs monitored periodically check running statuses..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However analyses limited data abnormal metric ignore other metrics related anomalies leading imprecise even incorrect root causes..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Once abnormal KPI values observed root cause analysis RCA applied identify reasons anomalies so troubleshoot quickly..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently several automatic RCA techniques were proposed localize related dimensions combination explain anomalies..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments synthetic datasets real-world online production environments demonstrate superiority proposed CMMD method compared baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

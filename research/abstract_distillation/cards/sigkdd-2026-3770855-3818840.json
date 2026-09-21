@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818840",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Breaking Bad Molecules: Are MLLMs Ready for Structure-Level Molecular Detoxification?",
+  "doi": "10.1145/3770855.3818840",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417357105",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Despite advances molecular design property prediction task toxicity repair generating structurally valid alternatives reduced has not yet been.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gap introduce ToxiMol first benchmark task general-purpose Multimodal Large Language Models MLLMs focused molecular toxicity repair..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving parallel propose automated evaluation framework ToxiEval integrates toxicity endpoint prediction synthetic accessibility drug-likeness structural similarity high-throughput chain repair.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving systematically assess 43 mainstream general-purpose MLLMs conduct multiple ablation studies analyze key issues including evaluation metrics candidate diversity.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results show although current MLLMs still face significant challenges task they begin demonstrate promising capabilities toxicity understanding.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Toxicity remains leading cause early-stage drug development failure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite advances molecular design property prediction task toxicity repair generating structurally valid alternatives reduced has not yet been.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving parallel propose automated evaluation framework ToxiEval integrates toxicity endpoint prediction synthetic accessibility drug-likeness structural similarity high-throughput chain repair.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

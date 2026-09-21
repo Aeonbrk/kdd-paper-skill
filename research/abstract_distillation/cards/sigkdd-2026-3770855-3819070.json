@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819070",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "A Framework for Evaluating and Benchmarking Concept Drift Detection Methods",
+  "doi": "10.1145/3770855.3819070",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196995308",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data stream mining fundamentally challenged concept drift distributional changes degrade model performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Data stream mining fundamentally challenged concept drift distributional changes degrade model performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap novel benchmarking framework comprising three contributions drift simulation method injects controlled distributional changes real-world datasets via.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark 14 widely used drift detection methods real-world datasets across types class prior label swap feature permutation filtering.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite proliferation drift detection methods progress field hindered inconsistent evaluation practices studies rely oversimplified synthetic data generators adopt.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address gap novel benchmarking framework comprising three contributions drift simulation method injects controlled distributional changes real-world datasets via.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results provide insights strengths weaknesses current drift detection approaches establishing baseline performance metrics future research area..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data stream mining fundamentally challenged concept drift distributional changes degrade model performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Data stream mining fundamentally challenged concept drift distributional changes degrade model performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap novel benchmarking framework comprising three contributions drift simulation method injects controlled distributional changes real-world datasets via.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite proliferation drift detection methods progress field hindered inconsistent evaluation practices studies rely oversimplified synthetic data generators adopt.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

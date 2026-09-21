@@ -1,0 +1,166 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671759",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Adapting Job Recommendations to User Preference Drift with Behavioral-Semantic Fusion Learning",
+  "doi": "10.1145/3637528.3671759",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4400267074",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Job recommender systems crucial aligning opportunities job-seekers online job-seeking..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However users tend adjust job preferences secure employment opportunities continually limits performance recommendations..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose novel session-based framework BISTRO timely model user preference through fusion learning semantic behavioral information..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Subsequently design hypergraph wavelet learning method capture nuanced job preference drift..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate effect noise interactions caused frequent preference drift innovatively propose adaptive wavelet filtering technique remove noisy interaction..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Initially BISTRO segments user interaction sequence sessions leverages session-based semantic clustering achieve broad identification person-job matching..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments three real-world offline recruitment datasets demonstrate significant performances framework..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Significantly BISTRO excels online experiments affirming effectiveness live recruitment settings..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Job recommender systems crucial aligning opportunities job-seekers online job-seeking..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However users tend adjust job preferences secure employment opportunities continually limits performance recommendations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose novel session-based framework BISTRO timely model user preference through fusion learning semantic behavioral information..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Subsequently design hypergraph wavelet learning method capture nuanced job preference drift..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Initially BISTRO segments user interaction sequence sessions leverages session-based semantic clustering achieve broad identification person-job matching..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

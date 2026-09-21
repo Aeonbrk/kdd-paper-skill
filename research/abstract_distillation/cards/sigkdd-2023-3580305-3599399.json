@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599399",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Knowledge Graph Reasoning over Entities and Numerical Values",
+  "doi": "10.1145/3580305.3599399",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568208",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines complex logic query knowledge graph refers expressed form conveys meaning did Canadian Turing award winner graduate.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing complex query answering CQA methods simply treat numerical values same way they entities..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work inspired recent advances numerical encoding knowledge graph reasoning propose complex query answering..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving task introduce new numerical variables operations describe queries involving attribute values..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address difference between entities numerical values propose framework Number Reasoning Network NRN alternatively encoding separate structures..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results show NRN consistently improves various query encoding methods three different knowledge graphs achieves state-of-the-art results..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines complex logic query knowledge graph refers expressed form conveys meaning did Canadian Turing award winner graduate.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing complex query answering CQA methods simply treat numerical values same way they entities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work inspired recent advances numerical encoding knowledge graph reasoning propose complex query answering..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving task introduce new numerical variables operations describe queries involving attribute values..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results show NRN consistently improves various query encoding methods three different knowledge graphs achieves state-of-the-art results..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

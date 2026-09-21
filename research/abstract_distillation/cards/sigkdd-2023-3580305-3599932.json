@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599932",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Workplace Recommendation with Temporal Network Objectives",
+  "doi": "10.1145/3580305.3599932",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567621",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Workplace communication software Microsoft Teams Slack Google Workspace have become integral collaboration especially due rise remote work..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work focus optimizing information flow highly temporal presents number novel algorithmic challenges..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome develop tractable measures temporal information flow design efficient online recommendation algorithms jointly optimize relevance cross-team flow..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving demonstrate potential impact approaches rich multi-modal dataset capturing one month communication between 180 Microsoft employees through email chats.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving making easier access relevant useful information recommender systems platforms have potential improve efficient cross-team flow through company communication.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate potential impact approaches rich multi-modal dataset capturing one month communication between 180 Microsoft employees through email chats.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving design offline model-based evaluation pipeline estimate effects recommendations temporal communication network..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Workplace communication software Microsoft Teams Slack Google Workspace have become integral collaboration especially due rise remote work..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work focus optimizing information flow highly temporal presents number novel algorithmic challenges..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome develop tractable measures temporal information flow design efficient online recommendation algorithms jointly optimize relevance cross-team flow..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving making easier access relevant useful information recommender systems platforms have potential improve efficient cross-team flow through company communication.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

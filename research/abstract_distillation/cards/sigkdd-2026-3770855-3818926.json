@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818926",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MOSIC: Model-Agnostic Optimal Subgroup Identification with Multi-Constraint for Improved Reliability",
+  "doi": "10.1145/3770855.3818926",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417172220",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Current subgroup identification methods typically follow two-step approach first estimate conditional average treatment effects CATEs then apply thresholding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving constraints operate fundamentally different axes CATE estimation not naturally accommodated within existing frameworks thereby limiting practical applicability methods..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose unified optimization framework directly solves primal constrained problem identify optimal subgroups..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving key innovation reformulation constrained primal problem unconstrained differentiable min-max objective solved via gradient descent-ascent algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments synthetic real-world datasets demonstrate effectiveness identifying high-benefit subgroups maintaining better satisfaction constraints..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Current subgroup identification methods typically follow two-step approach first estimate conditional average treatment effects CATEs then apply thresholding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving constraints operate fundamentally different axes CATE estimation not naturally accommodated within existing frameworks thereby limiting practical applicability methods..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose unified optimization framework directly solves primal constrained problem identify optimal subgroups..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments synthetic real-world datasets demonstrate effectiveness identifying high-benefit subgroups maintaining better satisfaction constraints..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

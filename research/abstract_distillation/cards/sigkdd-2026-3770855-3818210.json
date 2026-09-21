@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818210",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Integrated Learnware Identification and Reuse via Reusability-Aware Metric Learning",
+  "doi": "10.1145/3770855.3818210",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196925469",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines learnware paradigm aims help users solve machine learning tasks reusing existing well-trained models instead building scratch..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However whether identified learnwares benefit user depends not only task similarity but how they perform after reuse making.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving models accommodated learnware dock system each consists model specification characterizes capability enabling effectively identified reused future tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Specifically system treats each hosted learnware pseudo-user task evaluates performance achieved identifying reusing other learnwares tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Under supervision system-wide evaluations system evolves specifications reusability-aware specification space shorter distances correspond higher expected reuse performance..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate reusability-aware identification system effectively recommend learnwares benefit new user tasks after reuse..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines learnware paradigm aims help users solve machine learning tasks reusing existing well-trained models instead building scratch..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However whether identified learnwares benefit user depends not only task similarity but how they perform after reuse making.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving models accommodated learnware dock system each consists model specification characterizes capability enabling effectively identified reused future tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Specifically system treats each hosted learnware pseudo-user task evaluates performance achieved identifying reusing other learnwares tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599469",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Precursor-of-Anomaly Detection for Irregular Time Series",
+  "doi": "10.1145/3580305.3599469",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4382603012",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Anomaly detection important field aims identify unexpected patterns data points closely related many real-world problems particularly applications finance.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving anomaly detection has been studied extensively various fields detecting future anomalies before they occur remains unexplored territory..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper present novel type anomaly detection called Precursor-of-Anomaly PoA detection..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve both problems same time present neural controlled differential equation-based network multi-task learning algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conduct experiments 17 baselines datasets including regular irregular time series demonstrate presented method outperforms almost all cases..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct experiments 17 baselines datasets including regular irregular time series demonstrate presented method outperforms almost all cases..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Anomaly detection important field aims identify unexpected patterns data points closely related many real-world problems particularly applications finance.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving anomaly detection has been studied extensively various fields detecting future anomalies before they occur remains unexplored territory..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present novel type anomaly detection called Precursor-of-Anomaly PoA detection..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve both problems same time present neural controlled differential equation-based network multi-task learning algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct experiments 17 baselines datasets including regular irregular time series demonstrate presented method outperforms almost all cases..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

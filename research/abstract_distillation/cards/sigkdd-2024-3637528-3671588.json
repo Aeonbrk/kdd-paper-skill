@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671588",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Inductive Modeling for Realtime Cold Start Recommendations",
+  "doi": "10.1145/3637528.3671588",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857634",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recommendation systems timely delivery new content relevant audiences critical generating growing high quality collection all users..",
+      "source_ids": [
+        "S1",
+        "S9"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving both public industry datasets demonstrate IHM not only outperform baselines recommending cold start contents but achieves SoTA real-timeness.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving First information loss problem standard Two Tower model due limited feature interactions between user item towers exacerbated cold.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome two challenges propose novel architecture Item History Model IHM.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving both public industry datasets demonstrate IHM not only outperform baselines recommending cold start contents but achieves SoTA real-timeness.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving both public industry datasets demonstrate IHM not only outperform baselines recommending cold start contents but achieves SoTA real-timeness.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recommendation systems timely delivery new content relevant audiences critical generating growing high quality collection all users..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving both public industry datasets demonstrate IHM not only outperform baselines recommending cold start contents but achieves SoTA real-timeness.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First information loss problem standard Two Tower model due limited feature interactions between user item towers exacerbated cold.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome two challenges propose novel architecture Item History Model IHM.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving both public industry datasets demonstrate IHM not only outperform baselines recommending cold start contents but achieves SoTA real-timeness.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

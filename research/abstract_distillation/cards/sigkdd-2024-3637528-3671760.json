@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671760",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Mining of Switching Sparse Networks for Missing Value Imputation in Multivariate Time Series",
+  "doi": "10.1145/3637528.3671760",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863431",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multivariate time series data suffer problem missing values hinders application many analytical methods..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world scenarios normally know neither network structure nor when changes beforehand..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However real-world scenarios normally know neither network structure nor when changes beforehand..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Here propose missing value imputation method multivariate time series namely MissNet designed exploit temporal dependency state-space model inter-correlation.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving algorithm scales linearly reference length data alternatively infers networks fills missing values discovering switching networks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve accurate imputation missing values exploiting inter-correlation employing relationships between sequences i.e. network important use temporal dependency since.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate MissNet outperforms state-of-the-art algorithms multivariate time series imputation provides interpretable results..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multivariate time series data suffer problem missing values hinders application many analytical methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world scenarios normally know neither network structure nor when changes beforehand..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However real-world scenarios normally know neither network structure nor when changes beforehand..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Here propose missing value imputation method multivariate time series namely MissNet designed exploit temporal dependency state-space model inter-correlation.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve accurate imputation missing values exploiting inter-correlation employing relationships between sequences i.e. network important use temporal dependency since.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

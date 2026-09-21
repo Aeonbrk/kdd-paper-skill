@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599252",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Automated 3D Pre-Training for Molecular Property Prediction",
+  "doi": "10.1145/3580305.3599252",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4380715275",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Molecular property prediction important problem drug discovery materials science..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However obtaining geometric structure molecules not feasible many real-world applications due high computational cost..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel pre-training framework dubbed PGT pre-trains model molecular graphs then fine-tunes without structures..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based fact bond length angle dihedral three basic geometric descriptors corresponding complete molecular conformer first develop multi-task generative.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Next automatically fuse three generative tasks design surrogate metric total energy search weight distribution pretext since corresponding quality.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving geometric structures have been demonstrated necessary molecular property prediction information has combined various graph learning methods boost performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments molecular graphs conducted demonstrate accuracy efficiency generalization ability proposed PGT compared various pre-training baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Molecular property prediction important problem drug discovery materials science..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However obtaining geometric structure molecules not feasible many real-world applications due high computational cost..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel pre-training framework dubbed PGT pre-trains model molecular graphs then fine-tunes without structures..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based fact bond length angle dihedral three basic geometric descriptors corresponding complete molecular conformer first develop multi-task generative.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving geometric structures have been demonstrated necessary molecular property prediction information has combined various graph learning methods boost performance..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

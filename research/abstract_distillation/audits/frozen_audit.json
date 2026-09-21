@@ -1,0 +1,10 @@
+{
+  "sample_size": 60,
+  "selection": "fixed sha256 order outside the pilot",
+  "outcomes": {
+    "pass": 60,
+    "minor_correction": 0,
+    "material_correction": 0
+  },
+  "population_accuracy_claim": null
+}

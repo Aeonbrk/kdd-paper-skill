@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599917",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Towards Suicide Prevention from Bipolar Disorder with Temporal Symptom-Aware Multitask Learning",
+  "doi": "10.1145/3580305.3599917",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4383176813",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Bipolar disorder BD closely associated increased risk suicide..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However prior work has revealed valuable insight understanding behavior BD patients social media little attention been paid developing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However prior work has revealed valuable insight understanding behavior BD patients social media little attention been paid developing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Therefore study proposes multi-task learning model predicting future suicidality BD patients jointly current symptoms..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving build novel BD dataset clinically validated psychiatrists including 14 years posts bipolar-related subreddits written 818 patients along annotations.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experiments demonstrate proposed model outperforms state-of-the-art models both BD symptom identification future suicidality prediction tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Bipolar disorder BD closely associated increased risk suicide..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However prior work has revealed valuable insight understanding behavior BD patients social media little attention been paid developing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However prior work has revealed valuable insight understanding behavior BD patients social media little attention been paid developing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore study proposes multi-task learning model predicting future suicidality BD patients jointly current symptoms..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experiments demonstrate proposed model outperforms state-of-the-art models both BD symptom identification future suicidality prediction tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

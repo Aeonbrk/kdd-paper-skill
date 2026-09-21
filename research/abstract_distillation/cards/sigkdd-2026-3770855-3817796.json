@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817796",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "UniRank: End-to-End Domain-Specific Reranking of Hybrid Text-Image Candidates",
+  "doi": "10.1145/3770855.3817796",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196945351",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Reranking critical component many information retrieval pipelines..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite remarkable progress text-only settings multimodal reranking remains challenging particularly when candidate set contains hybrid text image items..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However most VLM-based rerankers encode all candidates images treating text introduces substantial computational overhead..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose UniRank VLM-based reranking framework natively scores orders hybrid text-image candidates without any modality conversion..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Extensive experiments scientific literature retrieval design patent search demonstrate UniRank consistently outperforms state-of-the-art baselines improving Recall 8.9% 7.3%.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments scientific literature retrieval design patent search demonstrate UniRank consistently outperforms state-of-the-art baselines improving Recall 8.9% 7.3%.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Reranking critical component many information retrieval pipelines..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite remarkable progress text-only settings multimodal reranking remains challenging particularly when candidate set contains hybrid text image items..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However most VLM-based rerankers encode all candidates images treating text introduces substantial computational overhead..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose UniRank VLM-based reranking framework natively scores orders hybrid text-image candidates without any modality conversion..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments scientific literature retrieval design patent search demonstrate UniRank consistently outperforms state-of-the-art baselines improving Recall 8.9% 7.3%.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

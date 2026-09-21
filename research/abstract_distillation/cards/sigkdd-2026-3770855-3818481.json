@@ -1,0 +1,151 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818481",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Slowing Down Forgetting in Continual Learning: Evidence from Manufacturing",
+  "doi": "10.1145/3770855.3818481",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196936919",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Continual learning CL aims incrementally update machine models stream data without forgetting previously acquired knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel framework called ReCL slow down forgetting CL..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework exploits implicit bias gradient-based neural networks due converge margin maximization points..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving convergence points allow us reconstruct old data previous tasks then combine current training data..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving first demonstrate performance gain framework across large series experiments three established public CL datasets MNIST CIFAR10 TinyImageNet industrial.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then evaluate performance ReCL predictive maintenance manufacturing environment Bosch global engineering company internal real-world time-series feature dataset captured.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across all experiments find large performance gains through ReCL..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Continual learning CL aims incrementally update machine models stream data without forgetting previously acquired knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel framework called ReCL slow down forgetting CL..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework exploits implicit bias gradient-based neural networks due converge margin maximization points..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving first demonstrate performance gain framework across large series experiments three established public CL datasets MNIST CIFAR10 TinyImageNet industrial.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

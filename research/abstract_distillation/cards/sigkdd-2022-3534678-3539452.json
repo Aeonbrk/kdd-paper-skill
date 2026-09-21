@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539452",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Learning Binarized Graph Representations with Multi-faceted Quantization Reinforcement for Top-K Recommendation",
+  "doi": "10.1145/3534678.3539452",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281613206",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning vectorized embeddings core various recommender systems user-item matching..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing work merely focuses numerical quantization whilst ignoring concomitant information loss issue consequently leads conspicuous performance degradation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel quantization framework learn Binarized Graph Representations Top-K Recommendation BiGeaR.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce multi-faceted quantization reinforcement pre- mid- post-stage binarized representation learning substantially retains informativeness against embedding binarization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving addition saving memory footprint further develops solid online inference acceleration bitwise operations providing alternative flexibility realistic deployment..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving empirical results over five large real-world benchmarks show BiGeaR achieves about 22% 40% performance improvement state-of-the-art quantization-based recommender.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning vectorized embeddings core various recommender systems user-item matching..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing work merely focuses numerical quantization whilst ignoring concomitant information loss issue consequently leads conspicuous performance degradation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel quantization framework learn Binarized Graph Representations Top-K Recommendation BiGeaR.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce multi-faceted quantization reinforcement pre- mid- post-stage binarized representation learning substantially retains informativeness against embedding binarization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving empirical results over five large real-world benchmarks show BiGeaR achieves about 22% 40% performance improvement state-of-the-art quantization-based recommender.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

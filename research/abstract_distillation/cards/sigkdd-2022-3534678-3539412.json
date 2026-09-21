@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539412",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Flexible Modeling and Multitask Learning using Differentiable Tree Ensembles",
+  "doi": "10.1145/3534678.3539412",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290876177",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Decision tree ensembles widely used competitive learning models..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However unlike classical trees differentiable difficult scale..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose flexible framework learning tree ensembles goes beyond existing toolkits support arbitrary loss functions missing responses multi-task learning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework builds differentiable a.k.a. soft tree ensembles trained first-order methods..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving therefore propose novel tensor-based formulation differentiable trees allows efficient vectorization GPUs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving perform experiments collection 28 real open-source proprietary datasets demonstrate framework lead 100 compact 23% expressive tree ensembles those.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Decision tree ensembles widely used competitive learning models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However unlike classical trees differentiable difficult scale..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose flexible framework learning tree ensembles goes beyond existing toolkits support arbitrary loss functions missing responses multi-task learning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework builds differentiable a.k.a. soft tree ensembles trained first-order methods..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving perform experiments collection 28 real open-source proprietary datasets demonstrate framework lead 100 compact 23% expressive tree ensembles those.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737113",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Robustness Evaluation of Graph-based News Detection Using Network Structural Information",
+  "doi": "10.1145/3711896.3737113",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876975",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although Graph Neural Networks GNNs have shown promising potential fake news detection they remain highly vulnerable adversarial manipulations.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although Graph Neural Networks GNNs have shown promising potential fake news detection they remain highly vulnerable adversarial manipulations.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel Structural Information principles-guided Adversarial Attack Framework namely SI2AF effectively challenges graph-based detectors further probes detection.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically structural entropy introduced quantify dynamic uncertainty social engagements identify hierarchical communities encompass all user accounts news posts..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving influence metric presented measure each account probability engaging random interactions facilitating design multiple agents manage distinct malicious accounts..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing methods primarily establish connections between malicious accounts individual target news investigate vulnerability graph-based detectors they neglect structural.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving incorporating adversarial manipulations generated SI2AF enrich original network structure refine graph-based detectors improve robustness against attacks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive evaluations demonstrate SI2AF significantly outperforms state-of-the-art baselines attack effectiveness average improvement 16.71% enhances GNN-based detection robustness 41.54%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although Graph Neural Networks GNNs have shown promising potential fake news detection they remain highly vulnerable adversarial manipulations.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although Graph Neural Networks GNNs have shown promising potential fake news detection they remain highly vulnerable adversarial manipulations.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel Structural Information principles-guided Adversarial Attack Framework namely SI2AF effectively challenges graph-based detectors further probes detection.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically structural entropy introduced quantify dynamic uncertainty social engagements identify hierarchical communities encompass all user accounts news posts..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing methods primarily establish connections between malicious accounts individual target news investigate vulnerability graph-based detectors they neglect structural.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

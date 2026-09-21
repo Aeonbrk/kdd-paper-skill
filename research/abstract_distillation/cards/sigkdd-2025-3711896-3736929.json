@@ -1,0 +1,104 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736929",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Empowering Economic Simulation for Massively Multiplayer Online Games through Generative Agent-Based Modeling",
+  "doi": "10.1145/3711896.3736929",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876896",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Within domain Massively Multiplayer Online MMO economy research Agent-Based Modeling ABM has emerged robust tool analyzing game economics.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Nevertheless existing works encounter significant challenges when attempting emulate human-like economic activities among agents particularly regarding agent reliability.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Leveraging LLMs role-playing proficiency generative capacity reasoning aptitude design LLM-driven agents human-like decision-making adaptability..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Simulation experiments focusing in-game economic activities demonstrate LLM-empowered agents promote emergent phenomena like role specialization price fluctuations line.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Within domain Massively Multiplayer Online MMO economy research Agent-Based Modeling ABM has emerged robust tool analyzing game economics.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless existing works encounter significant challenges when attempting emulate human-like economic activities among agents particularly regarding agent reliability.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Leveraging LLMs role-playing proficiency generative capacity reasoning aptitude design LLM-driven agents human-like decision-making adaptability..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Simulation experiments focusing in-game economic activities demonstrate LLM-empowered agents promote emergent phenomena like role specialization price fluctuations line.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

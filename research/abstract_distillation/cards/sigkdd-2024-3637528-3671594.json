@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671594",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "TACCO: Task-guided Co-clustering of Clinical Concepts and Patient Visits for Disease Subtyping based on EHR Data",
+  "doi": "10.1145/3637528.3671594",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4399759344",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines growing availability well-organized Electronic Health Records EHR data has enabled development various machine learning models towards disease risk.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing risk prediction methods overlook heterogeneity complex diseases failing model potential disease subtypes regarding corresponding patient visits.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving growing availability well-organized Electronic Health Records EHR data has enabled development various machine learning models towards disease risk.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing risk prediction methods overlook heterogeneity complex diseases failing model potential disease subtypes regarding corresponding patient visits.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce TACCO novel framework jointly discovers clusters clinical concepts patient visits based hypergraph modeling EHR data..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments conducted public MIMIC-III dataset Emory internal CRADLE over downstream clinical tasks phenotype classification cardiovascular risk prediction.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving In-depth model analysis clustering results clinical case studies further validate improved utilities insightful interpretations delivered TACCO..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines growing availability well-organized Electronic Health Records EHR data has enabled development various machine learning models towards disease risk.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing risk prediction methods overlook heterogeneity complex diseases failing model potential disease subtypes regarding corresponding patient visits.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving growing availability well-organized Electronic Health Records EHR data has enabled development various machine learning models towards disease risk.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing risk prediction methods overlook heterogeneity complex diseases failing model potential disease subtypes regarding corresponding patient visits.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comprehensive experiments conducted public MIMIC-III dataset Emory internal CRADLE over downstream clinical tasks phenotype classification cardiovascular risk prediction.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

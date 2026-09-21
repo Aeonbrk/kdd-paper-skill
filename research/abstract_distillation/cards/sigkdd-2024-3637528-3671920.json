@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671920",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Robust Predictions with Ambiguous Time Delays: A Bootstrap Strategy",
+  "doi": "10.1145/3637528.3671920",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863460",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines contemporary data-driven environments generation processing multivariate time series data omnipresent challenge often complicated delays between different series..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving delays originating multitude sources like varying data transmission dynamics sensor interferences environmental changes introduce significant complexities..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue introduce Time Series Model Bootstrap TSMB versatile framework designed handle potentially varying even nondeterministic delays modeling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving TSMB significantly bolsters performance models trained make predictions framework making highly suitable wide range dynamic interconnected data environments..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Traditional Time Delay Estimation methods typically assume fixed constant not fully capture variabilities compromising precision predictive models diverse.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines contemporary data-driven environments generation processing multivariate time series data omnipresent challenge often complicated delays between different series..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving delays originating multitude sources like varying data transmission dynamics sensor interferences environmental changes introduce significant complexities..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue introduce Time Series Model Bootstrap TSMB versatile framework designed handle potentially varying even nondeterministic delays modeling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Traditional Time Delay Estimation methods typically assume fixed constant not fully capture variabilities compromising precision predictive models diverse.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

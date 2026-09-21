@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817646",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CTR-Sink: Attention Sink for Language Models in Click-Through Rate Prediction",
+  "doi": "10.1145/3770855.3817646",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417165436",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Click-Through Rate CTR prediction core task recommendation systems estimates user click likelihood historical behavioral data..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However critical structural gap exists user behavior sequences consist discrete actions connected semantically empty separators differing fundamentally coherent.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose CTR-Sink novel framework introducing behavior-level attention sinks tailored recommendation scenarios..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically insert sink tokens between consecutive behaviors incorporating recommendation-specific signals temporal distance serve stable attention sinks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving enhance generality design two-stage training strategy explicitly guides LM attention toward sink tokens mechanism amplifies inter-sink dependencies better.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments one industrial dataset two open-source datasets MovieLens Kuairec alongside visualization results validate method effectiveness across scenarios..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Click-Through Rate CTR prediction core task recommendation systems estimates user click likelihood historical behavioral data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However critical structural gap exists user behavior sequences consist discrete actions connected semantically empty separators differing fundamentally coherent.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose CTR-Sink novel framework introducing behavior-level attention sinks tailored recommendation scenarios..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically insert sink tokens between consecutive behaviors incorporating recommendation-specific signals temporal distance serve stable attention sinks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments one industrial dataset two open-source datasets MovieLens Kuairec alongside visualization results validate method effectiveness across scenarios..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539142",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Pricing the Long Tail by Explainable Product Aggregation and Monotonic Bandits",
+  "doi": "10.1145/3534678.3539142",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943707",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines several e-commerce scenarios pricing long-tail products effectively central task companies there broad agreement Artificial Intelligence AI will play.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper provide novel online learning algorithm dynamic pricing deals non-stationary settings due e.g. seasonality adaptive competitors very efficient.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore dynamic pricing algorithm paired clustering long-tail products aggregates similar data all same cluster merged used choose best.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving first evaluate algorithms offline synthetic setting comparing performance state art showing robust data-efficient long-tail settings..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving first evaluate algorithms offline synthetic setting comparing performance state art showing robust data-efficient long-tail settings..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Subsequently evaluate algorithms online setting 000 products including popular long-tail A/B test humans about two months..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines several e-commerce scenarios pricing long-tail products effectively central task companies there broad agreement Artificial Intelligence AI will play.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper provide novel online learning algorithm dynamic pricing deals non-stationary settings due e.g. seasonality adaptive competitors very efficient.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore dynamic pricing algorithm paired clustering long-tail products aggregates similar data all same cluster merged used choose best.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving first evaluate algorithms offline synthetic setting comparing performance state art showing robust data-efficient long-tail settings..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

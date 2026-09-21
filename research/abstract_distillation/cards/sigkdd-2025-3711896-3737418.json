@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737418",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors",
+  "doi": "10.1145/3711896.3737418",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875486",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs advance Machine-Generated Texts MGTs have become increasingly fluent high-quality informative..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However adversaries attempt humanize MGTs evade detection named evading attacks requires only minor modifications bypass MGT detectors..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Existing wide-range MGT detectors designed identify MGTs prevent spread plagiarism misinformation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Unfortunately existing attacks generally lack unified comprehensive evaluation framework they assessed different experimental settings model architectures datasets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gap introduce Text-Humanization Benchmark TH-Bench first comprehensive evaluate evading attacks against MGT detectors..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Unfortunately existing attacks generally lack unified comprehensive evaluation framework they assessed different experimental settings model architectures datasets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving fill gap introduce Text-Humanization Benchmark TH-Bench first comprehensive evaluate evading attacks against MGT detectors..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving TH-Bench evaluate attacks across three key dimensions evading effectiveness text quality computational overhead..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs advance Machine-Generated Texts MGTs have become increasingly fluent high-quality informative..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However adversaries attempt humanize MGTs evade detection named evading attacks requires only minor modifications bypass MGT detectors..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing wide-range MGT detectors designed identify MGTs prevent spread plagiarism misinformation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Unfortunately existing attacks generally lack unified comprehensive evaluation framework they assessed different experimental settings model architectures datasets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Unfortunately existing attacks generally lack unified comprehensive evaluation framework they assessed different experimental settings model architectures datasets..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

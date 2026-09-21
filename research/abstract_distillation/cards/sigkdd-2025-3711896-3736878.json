@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736878",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "CityGPT: Empowering Urban Spatial Cognition of Large Language Models",
+  "doi": "10.1145/3711896.3736878",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825678",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs powerful generation reasoning capabilities have already achieved notable success many domains e.g. math code.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they often fall short when tackling real-life geospatial tasks within urban environments..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address gap propose CityGPT systematic framework designed enhance LLMs understanding urban space improve ability solve related tasks integrating.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Firstly construct diverse instruction tuning dataset CityInstruction injecting urban knowledge LLMs effectively boosting spatial reasoning capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving combination CityInstruction open source general instruction data introduce novel easy-to-use self-weighted fine-tuning method SWFT train various LLMs including.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language models LLMs powerful generation reasoning capabilities have already achieved notable success many domains e.g. math code.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address gap propose CityGPT systematic framework designed enhance LLMs understanding urban space improve ability solve related tasks integrating.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving combination CityInstruction open source general instruction data introduce novel easy-to-use self-weighted fine-tuning method SWFT train various LLMs including.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs powerful generation reasoning capabilities have already achieved notable success many domains e.g. math code.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they often fall short when tackling real-life geospatial tasks within urban environments..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap propose CityGPT systematic framework designed enhance LLMs understanding urban space improve ability solve related tasks integrating.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Firstly construct diverse instruction tuning dataset CityInstruction injecting urban knowledge LLMs effectively boosting spatial reasoning capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language models LLMs powerful generation reasoning capabilities have already achieved notable success many domains e.g. math code.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

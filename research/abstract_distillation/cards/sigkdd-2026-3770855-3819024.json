@@ -1,0 +1,100 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819024",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "LakeFM: Toward a Foundation Model for Aquatic Ecosystems Using Irregular Multivariate Multi-depth Time Series Data",
+  "doi": "10.1145/3770855.3819024",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164492960",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Understanding forecasting lake dynamics critical monitoring water quality ecosystem health across lakes reservoirs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address limitations introduce LakeFM foundation model aquatic systems pre-trained large-scale ecological datasets comprising both simulated observed lakes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Through extensive empirical evaluation show LakeFM learns meaningful representations spanning broader lake-level characteristics achieves competitive often superior forecasting.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through extensive empirical evaluation show LakeFM learns meaningful representations spanning broader lake-level characteristics achieves competitive often superior forecasting.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Understanding forecasting lake dynamics critical monitoring water quality ecosystem health across lakes reservoirs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations introduce LakeFM foundation model aquatic systems pre-trained large-scale ecological datasets comprising both simulated observed lakes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through extensive empirical evaluation show LakeFM learns meaningful representations spanning broader lake-level characteristics achieves competitive often superior forecasting.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through extensive empirical evaluation show LakeFM learns meaningful representations spanning broader lake-level characteristics achieves competitive often superior forecasting.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

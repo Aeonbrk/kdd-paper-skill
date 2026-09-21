@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737384",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FoodPuzzle: Toward Developing Large Language Models as Autonomous Flavor Scientists",
+  "doi": "10.1145/3711896.3737384",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877165",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Flavor development food industry increasingly challenged need rapid innovation precise profile creation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Flavor development food industry increasingly challenged need rapid innovation precise profile creation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper presents three contributions address challenges..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Firstly define new problem domain scientific agents flavor science conceptualized generation hypotheses profile sourcing understanding..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving leveraging capacity identify relevant evidence reason within large context spaces language model-backed agents perform labor-intensive tasks flavor sourcing.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results indicate model significantly surpasses traditional methods flavor profile prediction tasks demonstrating potential transform development practices..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Flavor development food industry increasingly challenged need rapid innovation precise profile creation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Flavor development food industry increasingly challenged need rapid innovation precise profile creation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper presents three contributions address challenges..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving leveraging capacity identify relevant evidence reason within large context spaces language model-backed agents perform labor-intensive tasks flavor sourcing.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

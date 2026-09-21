@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817585",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "CryptoAnalystBench: Failures in Multi-Tool Long-Form LLM Analysis",
+  "doi": "10.1145/3770855.3817585",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196925039",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern analyst agents must reason over complex high-token inputs dozens retrieved documents tool outputs time-sensitive data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving investigate LLM failure modes regime crypto representative high-data-density domain..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce CryptoAnalystBench analyst-aligned benchmark 198 production crypto DeFi queries spanning 11 categories agentic harness equipped relevant crypto/DeFi tools.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving human annotation develop taxonomy seven higher-order error types not reliably captured factuality checks nor LLM-based quality scoring..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving introduce CryptoAnalystBench analyst-aligned benchmark 198 production crypto DeFi queries spanning 11 categories agentic harness equipped relevant crypto/DeFi tools.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving release CryptoAnalystBench annotated queries responses evaluation pipeline judge rubrics error taxonomy..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving benchmark code publicly available. https github.com/sentient-agi/CryptoAnalystBench Finally outline possible error mitigation methods open challenges evaluating long-form multi-tool-augmented systems..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern analyst agents must reason over complex high-token inputs dozens retrieved documents tool outputs time-sensitive data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving investigate LLM failure modes regime crypto representative high-data-density domain..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce CryptoAnalystBench analyst-aligned benchmark 198 production crypto DeFi queries spanning 11 categories agentic harness equipped relevant crypto/DeFi tools.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving introduce CryptoAnalystBench analyst-aligned benchmark 198 production crypto DeFi queries spanning 11 categories agentic harness equipped relevant crypto/DeFi tools.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

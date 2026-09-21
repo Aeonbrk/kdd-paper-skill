@@ -1,0 +1,62 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818497",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "TransX: Scaling Transformer-based Recommendation via Behavioral and Serving Stream Crossings",
+  "doi": "10.1145/3770855.3818497",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172381820",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern industrial recommender systems RecSys increasingly adopt Transformer-based sequence models emerging paradigm frames recommendation next-token prediction over unified.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However collapsing heterogeneous data sources long-term user behaviors real-time serving events single monolithic token stream obscures distinct causal.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern industrial recommender systems RecSys increasingly adopt Transformer-based sequence models emerging paradigm frames recommendation next-token prediction over unified.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However collapsing heterogeneous data sources long-term user behaviors real-time serving events single monolithic token stream obscures distinct causal.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

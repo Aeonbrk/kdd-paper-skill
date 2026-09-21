@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818888",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science",
+  "doi": "10.1145/3770855.3818888",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415269714",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have shown strong scientific reasoning ability but performance materials science problems remains less studied..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large Language Models LLMs have shown strong scientific reasoning ability but performance materials science problems remains less studied..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gap introduce MatSciBench comprehensive college-level benchmark comprising 340 problems span essential subdisciplines materials science..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving evaluate leading thinking non-thinking LLMs MatSciBench further test three reasoning methods models basic chain-of-thought prompting tool augmentation self-correction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further analyze performance across difficulty levels reasoning efficiency multimodal failure patterns find current models mainly limited domain knowledge.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving MatSciBench includes detailed reference solutions 946 questions supports process-level error analysis contains 315 images evaluating multimodal reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate leading thinking non-thinking LLMs MatSciBench further test three reasoning methods models basic chain-of-thought prompting tool augmentation self-correction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show current models still face clear limits college-level materials science reasoning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have shown strong scientific reasoning ability but performance materials science problems remains less studied..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large Language Models LLMs have shown strong scientific reasoning ability but performance materials science problems remains less studied..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving fill gap introduce MatSciBench comprehensive college-level benchmark comprising 340 problems span essential subdisciplines materials science..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate leading thinking non-thinking LLMs MatSciBench further test three reasoning methods models basic chain-of-thought prompting tool augmentation self-correction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving MatSciBench includes detailed reference solutions 946 questions supports process-level error analysis contains 315 images evaluating multimodal reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

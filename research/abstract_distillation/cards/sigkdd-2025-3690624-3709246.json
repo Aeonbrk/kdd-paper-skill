@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709246",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "SCode: A Spherical Code Metric Learning Approach to Continuously Monitoring Predictive Events in Networked Data",
+  "doi": "10.1145/3690624.3709246",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158377",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Dynamic graphs common many applications conveniently model heterogeneous data integrated multiple sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Dynamic graphs common many applications conveniently model heterogeneous data integrated multiple sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study monitoring predictive events dynamic graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Treating problem continuous multi-label classification use deep metric learning manage embedding space create spherical codes each codeword vector.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Treating problem continuous multi-label classification use deep metric learning manage embedding space create spherical codes each codeword vector.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving continuously training data embeddings dynamic graph neural network DGNN model code generator together method called SCode achieves significantly.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Dynamic graphs common many applications conveniently model heterogeneous data integrated multiple sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Dynamic graphs common many applications conveniently model heterogeneous data integrated multiple sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study monitoring predictive events dynamic graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Treating problem continuous multi-label classification use deep metric learning manage embedding space create spherical codes each codeword vector.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

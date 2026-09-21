@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671939",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "An Energy-centric Framework for Category-free Out-of-distribution Node Detection in Graphs",
+  "doi": "10.1145/3637528.3671939",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863588",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks have garnered notable attention effectively processing graph-structured data..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However nodes graph might not pre-labeled specific categories rendering entropy-based OOD detectors inapplicable category-free situations..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving real-world graphs automated network construction introduce noisy nodes unknown distributions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle issue propose energy-centric density estimation framework OOD node detection referred EnergyDef..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Within framework introduce energy-based GNN compute node energies act indicators density reveal OOD uncertainty nodes..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Prevalent models prioritize improving in-distribution IND data performance frequently overlooking risks potential out-of-distribution OOD nodes during training inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Importantly EnergyDef efficiently identify OOD nodes low-resource node annotations achieved sampling hallucinated via Langevin Dynamics structure estimation along.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comprehensive experiments real-world datasets substantiate framework markedly surpasses state-of-the-art methods terms detection quality even under conditions scarce entirely.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks have garnered notable attention effectively processing graph-structured data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However nodes graph might not pre-labeled specific categories rendering entropy-based OOD detectors inapplicable category-free situations..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving real-world graphs automated network construction introduce noisy nodes unknown distributions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle issue propose energy-centric density estimation framework OOD node detection referred EnergyDef..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Prevalent models prioritize improving in-distribution IND data performance frequently overlooking risks potential out-of-distribution OOD nodes during training inference..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

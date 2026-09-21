@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818012",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "UNITE: A Unified Framework for Accurate and Efficient Origin-Destination and Route Travel Time Estimation",
+  "doi": "10.1145/3770855.3818012",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196955731",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Travel Time Estimation TTE road networks crucial modern location-based services..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose UNITE unified framework efficiently addresses both ODTTE RTTE single training process..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving first design Progress State Encoder PSE produces shared embedding capturing origin destination departure-time context sequential dependencies dynamic traffic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Next develop Segment Travel Time Estimator mSTE leverages shared state embedding builds local spatio-temporal graph capture traffic dynamics.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments large-scale real-world datasets demonstrate UNITE consistently outperforms state-of-the-art methods both accuracy efficiency..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Travel Time Estimation TTE road networks crucial modern location-based services..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose UNITE unified framework efficiently addresses both ODTTE RTTE single training process..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving first design Progress State Encoder PSE produces shared embedding capturing origin destination departure-time context sequential dependencies dynamic traffic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments large-scale real-world datasets demonstrate UNITE consistently outperforms state-of-the-art methods both accuracy efficiency..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

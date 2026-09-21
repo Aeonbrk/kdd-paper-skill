@@ -1,0 +1,82 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818430",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Hi-SAM: A Hierarchical Structure-Aware Multi-modal Framework for Large-Scale Recommendation",
+  "doi": "10.1145/3770855.3818430",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197039652",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent years multi-modal recommendation has attracted increasing attention items inherently possess rich semantic attributes text descriptions cover images..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However two critical challenges persist Suboptimal Multi-modal Tokenization existing quantization methods e.g. RQ-VAE lack explicit disentanglement between shared.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Semantic ID-based approaches have demonstrated effectiveness discretizing multi-modal information compact discrete token representations..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent years multi-modal recommendation has attracted increasing attention items inherently possess rich semantic attributes text descriptions cover images..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However two critical challenges persist Suboptimal Multi-modal Tokenization existing quantization methods e.g. RQ-VAE lack explicit disentanglement between shared.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Semantic ID-based approaches have demonstrated effectiveness discretizing multi-modal information compact discrete token representations..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

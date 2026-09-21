@@ -1,0 +1,114 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737027",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "LiPM: Foundation Model for Lithium-Ion Battery Analysis",
+  "doi": "10.1145/3711896.3737027",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825821",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Current deep learning approaches lithium-ion battery analysis often specialized limited specific types individual tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving propose LiPM pretrained foundation model unifies multi-dataset learning through physics-aware objectives irregularity-tolerant temporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving LiPM introduces three key innovations Mix-Masked Autoencoder MMAE enforcing electrochemical consistency via joint reconstruction temporally masked patches cross-channel.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Trained eight heterogeneous battery datasets without cycle-label annotations LiPM demonstrates universal applicability across partial charge-discharge segments irregular sampling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show remarkable improvements over state-of-the-art baselines critical downstream tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Current deep learning approaches lithium-ion battery analysis often specialized limited specific types individual tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose LiPM pretrained foundation model unifies multi-dataset learning through physics-aware objectives irregularity-tolerant temporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving LiPM introduces three key innovations Mix-Masked Autoencoder MMAE enforcing electrochemical consistency via joint reconstruction temporally masked patches cross-channel.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Trained eight heterogeneous battery datasets without cycle-label annotations LiPM demonstrates universal applicability across partial charge-discharge segments irregular sampling.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

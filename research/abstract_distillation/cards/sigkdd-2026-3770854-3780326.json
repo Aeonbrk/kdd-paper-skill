@@ -1,0 +1,128 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780326",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond Basic A/B Testing: Improving Statistical Efficiency for Business Growth",
+  "doi": "10.1145/3770854.3780326",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171971288",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines standard A/B testing approaches mostly based t-test large scale industry applications..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving standard approaches however suffers low statistical power business settings due nature small sample-size non-Gaussian distribution return-on-investment ROI consideration..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper show statistical efficiency estimating equation statistics address issues separately ii propose novel doubly robust generalized allows flexible.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving provide theoretical results asymptotics efficiency bounds together insights gain analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further conduct comprehensive simulation studies apply methods multiple real A/B tests LinkedIn share results learnings broadly useful..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving provide theoretical results asymptotics efficiency bounds together insights gain analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further conduct comprehensive simulation studies apply methods multiple real A/B tests LinkedIn share results learnings broadly useful..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines standard A/B testing approaches mostly based t-test large scale industry applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving standard approaches however suffers low statistical power business settings due nature small sample-size non-Gaussian distribution return-on-investment ROI consideration..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper show statistical efficiency estimating equation statistics address issues separately ii propose novel doubly robust generalized allows flexible.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving provide theoretical results asymptotics efficiency bounds together insights gain analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving provide theoretical results asymptotics efficiency bounds together insights gain analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

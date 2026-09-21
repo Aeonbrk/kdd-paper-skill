@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539314",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "MT-FlowFormer: A Semi-Supervised Flow Transformer for Encrypted Traffic Classification",
+  "doi": "10.1145/3534678.3539314",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290874972",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines increasing demand protection personal network meta-data encrypted networks have grown popularity so do challenge monitoring analyzing traffic..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However works still suffer two main intrinsic limitations feature extraction process lacks mechanism take account correlations between flows.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Currently some deep learning-based methods have been proposed leverage statistical features encrypted traffic classification barely affected encryption techniques..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel semi-supervised framework address problems..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving specific efficient classifier attention mechanism proposed extract features flow sequences low computational cost..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results two real-world traffic datasets demonstrate method outperforms state-of-the-art methods large margin..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines increasing demand protection personal network meta-data encrypted networks have grown popularity so do challenge monitoring analyzing traffic..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However works still suffer two main intrinsic limitations feature extraction process lacks mechanism take account correlations between flows.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Currently some deep learning-based methods have been proposed leverage statistical features encrypted traffic classification barely affected encryption techniques..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel semi-supervised framework address problems..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results two real-world traffic datasets demonstrate method outperforms state-of-the-art methods large margin..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

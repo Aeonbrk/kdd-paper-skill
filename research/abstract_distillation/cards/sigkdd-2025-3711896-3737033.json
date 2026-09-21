@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737033",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Loss or Gain: Hierarchical Conditional Information Bottleneck Approach for Incomplete Time Series Classification",
+  "doi": "10.1145/3711896.3737033",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876942",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Incomplete time series classification both practically valuable challenging missing values data prevalent real-world scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose Hierarchical Conditional Information Bottleneck HCIB framework achieves incomplete time series classification through end-to-end joint optimization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically data imputation level re-examine dual effects missing loss critical information versus gain interference suppression elucidating duality through.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building analysis propose task-information sufficiency criterion extend information bottleneck theory task-driven imputation framework incorporating label conditional constraint..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving First they overemphasize consistency data reconstruction during missing value imputation neglecting task-effectiveness imputed results classification..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address challenges propose Hierarchical Conditional Information Bottleneck HCIB framework achieves incomplete time series classification through end-to-end joint optimization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments multivariate univariate time series datasets across multiple domains consistently demonstrate proposed method achieves significant improvements classification.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Incomplete time series classification both practically valuable challenging missing values data prevalent real-world scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose Hierarchical Conditional Information Bottleneck HCIB framework achieves incomplete time series classification through end-to-end joint optimization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically data imputation level re-examine dual effects missing loss critical information versus gain interference suppression elucidating duality through.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving First they overemphasize consistency data reconstruction during missing value imputation neglecting task-effectiveness imputed results classification..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539121",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Graph Attention Multi-Layer Perceptron",
+  "doi": "10.1145/3534678.3539121",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W3196261868",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks GNNs have achieved great success many graph-based applications..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However enormous size high sparsity level graphs hinder applications under industrial scenarios..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Although some scalable GNNs proposed large-scale graphs they adopt fixed K-hop neighborhood each node thus facing over-smoothing issue.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle above issue propose new GNN architecture Graph Attention Multi-Layer Perceptron GAMLP capture underlying correlations between different scales.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving have deployed GAMLP Tencent Angel platform further evaluate both real-world datasets large-scale industrial datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph neural networks GNNs have achieved great success many graph-based applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving have deployed GAMLP Tencent Angel platform further evaluate both real-world datasets large-scale industrial datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments 14 graph datasets demonstrate GAMLP achieves state-of-the-art performance enjoying high scalability efficiency..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks GNNs have achieved great success many graph-based applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However enormous size high sparsity level graphs hinder applications under industrial scenarios..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although some scalable GNNs proposed large-scale graphs they adopt fixed K-hop neighborhood each node thus facing over-smoothing issue.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle above issue propose new GNN architecture Graph Attention Multi-Layer Perceptron GAMLP capture underlying correlations between different scales.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph neural networks GNNs have achieved great success many graph-based applications..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

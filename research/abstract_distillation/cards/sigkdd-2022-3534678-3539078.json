@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539078",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams",
+  "doi": "10.1145/3534678.3539078",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4291124812",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Given large semi-infinite collection co-evolving epidemiological data containing daily counts cases/deaths/recovered multiple locations how incrementally monitor current dynamical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Given large semi-infinite collection co-evolving epidemiological data containing daily counts cases/deaths/recovered multiple locations how incrementally monitor current dynamical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose new streaming algorithm EPICAST able model understand forecast dynamical patterns large co-evolving epidemiological data streams..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving proposed method designed dynamic flexible system based unified non-linear differential equation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensive experiments real datasets demonstrate EPICAST outperforms best existing state-of-the-art methods regards accuracy execution speed..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Given large semi-infinite collection co-evolving epidemiological data containing daily counts cases/deaths/recovered multiple locations how incrementally monitor current dynamical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Given large semi-infinite collection co-evolving epidemiological data containing daily counts cases/deaths/recovered multiple locations how incrementally monitor current dynamical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose new streaming algorithm EPICAST able model understand forecast dynamical patterns large co-evolving epidemiological data streams..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensive experiments real datasets demonstrate EPICAST outperforms best existing state-of-the-art methods regards accuracy execution speed..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

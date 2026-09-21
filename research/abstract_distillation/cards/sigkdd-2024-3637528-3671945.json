@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671945",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Efficient and Long-Tailed Generalization for Pre-trained Vision-Language Model",
+  "doi": "10.1145/3637528.3671945",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857107",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pre-trained vision-language models like CLIP have shown powerful zero-shot inference ability via image-text matching prove strong few-shot learners.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world scenarios adapting CLIP downstream tasks encounter following challenges data exhibit long-tailed distributions might not have abundant.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome them propose novel framework achieve efficient long-tailed generalization termed Candle..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving During training process propose compensating logit-adjusted loss encourage large margins prototypes alleviate imbalance both within base classes between.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving efficient adaptation treat CLIP model black box leverage extracted features obtain visual textual prototypes prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving overcome them propose novel framework achieve efficient long-tailed generalization termed Candle..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Candle achieves state-of-the-art performance over extensive experiments 11 diverse datasets substantially reducing training time demonstrating superiority approach..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pre-trained vision-language models like CLIP have shown powerful zero-shot inference ability via image-text matching prove strong few-shot learners.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world scenarios adapting CLIP downstream tasks encounter following challenges data exhibit long-tailed distributions might not have abundant.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome them propose novel framework achieve efficient long-tailed generalization termed Candle..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving During training process propose compensating logit-adjusted loss encourage large margins prototypes alleviate imbalance both within base classes between.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving overcome them propose novel framework achieve efficient long-tailed generalization termed Candle..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

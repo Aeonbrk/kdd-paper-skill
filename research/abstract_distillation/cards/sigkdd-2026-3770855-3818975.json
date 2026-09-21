@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818975",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Natural Language-Powered Functional Protein Sequence and Structure Co-Design with Multi-Modal Knowledge Fusion",
+  "doi": "10.1145/3770855.3818975",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197043244",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines De novo protein design pivotal revolutionizing engineering advancing life sciences..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they face two major challenges limited integration diverse biological knowledge insufficient understanding sequence-structure-function relations hindering discovery functional.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving De novo protein design pivotal revolutionizing engineering advancing life sciences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Protein co-design aims simultaneously create novel sequence structure tailored functions addressing insufficient consistency between two-stage design..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Current AI-assisted protein co-design approaches primarily rely sequence structure information..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Concretely ProtcdNl contains two core components triple-coupled collaborative encoder achieves implicit alignment via joint latent space constraints precisely.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments proposed ProtSSGT corpus demonstrate ProtcdNl effectively mines latent associations between functional semantics protein geometry achieving design.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines De novo protein design pivotal revolutionizing engineering advancing life sciences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they face two major challenges limited integration diverse biological knowledge insufficient understanding sequence-structure-function relations hindering discovery functional.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving De novo protein design pivotal revolutionizing engineering advancing life sciences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Protein co-design aims simultaneously create novel sequence structure tailored functions addressing insufficient consistency between two-stage design..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Concretely ProtcdNl contains two core components triple-coupled collaborative encoder achieves implicit alignment via joint latent space constraints precisely.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

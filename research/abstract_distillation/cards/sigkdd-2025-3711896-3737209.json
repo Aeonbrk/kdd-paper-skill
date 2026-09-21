@@ -1,0 +1,110 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737209",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "DV365: Extremely Long User History Modeling at Instagram",
+  "doi": "10.1145/3711896.3737209",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877092",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Long user history highly valuable signal recommendation systems but effectively incorporating often comes high cost terms data center.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Long user history highly valuable signal recommendation systems but effectively incorporating often comes high cost terms data center.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work chose offline embedding over end-to-end sequence length optimization methods enable extremely long user modeling cost-effective solution propose.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving History length encoded embedding up 70 000 average 40.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Produced single upstream foundational model launched 15 different models across Instagram Threads significant impact has been production battle-proven.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Long user history highly valuable signal recommendation systems but effectively incorporating often comes high cost terms data center.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Long user history highly valuable signal recommendation systems but effectively incorporating often comes high cost terms data center.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work chose offline embedding over end-to-end sequence length optimization methods enable extremely long user modeling cost-effective solution propose.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving History length encoded embedding up 70 000 average 40.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

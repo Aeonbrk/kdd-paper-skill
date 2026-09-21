@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599303",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Deep Pipeline Embeddings for AutoML",
+  "doi": "10.1145/3580305.3599303",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568014",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Automated Machine Learning AutoML promising direction democratizing AI automatically deploying systems minimal human expertise..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving remedy paper proposes novel neural architecture captures deep interaction between components Machine Learning pipeline..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose embedding pipelines latent representation through novel per-component encoder mechanism..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Furthermore meta-learn parameters pipeline embedding network existing evaluations pipelines diverse collections related datasets a.k.a. meta-datasets.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore meta-learn parameters pipeline embedding network existing evaluations pipelines diverse collections related datasets a.k.a. meta-datasets.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive experiments three large-scale meta-datasets demonstrate pipeline embeddings yield state-of-the-art results Optimization..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Automated Machine Learning AutoML promising direction democratizing AI automatically deploying systems minimal human expertise..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving remedy paper proposes novel neural architecture captures deep interaction between components Machine Learning pipeline..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose embedding pipelines latent representation through novel per-component encoder mechanism..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore meta-learn parameters pipeline embedding network existing evaluations pipelines diverse collections related datasets a.k.a. meta-datasets.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

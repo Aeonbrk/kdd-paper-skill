@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599247",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "A Sublinear Time Algorithm for Opinion Optimization in Directed Social Networks via Edge Recommendation",
+  "doi": "10.1145/3580305.3599247",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567908",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper study opinion maximization problem leader-follower DeGroot model dynamics social network modelled directed graph nodes small number competing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper study opinion maximization problem leader-follower DeGroot model dynamics social network modelled directed graph nodes small number competing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address problem maximizing overall opinion adding new edges each edge incident leader follower..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving prove objective function monotone submodular then propose deterministic greedy algorithm approximation ratio over n3 running time..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving provide extensive experiments real networks evaluate performance algorithms..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show undirected graphs fast sampling algorithm outperforms state-of-the-art method terms efficiency effectiveness..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper study opinion maximization problem leader-follower DeGroot model dynamics social network modelled directed graph nodes small number competing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper study opinion maximization problem leader-follower DeGroot model dynamics social network modelled directed graph nodes small number competing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem maximizing overall opinion adding new edges each edge incident leader follower..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving provide extensive experiments real networks evaluate performance algorithms..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

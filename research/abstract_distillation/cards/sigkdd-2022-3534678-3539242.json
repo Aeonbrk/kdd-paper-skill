@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539242",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness",
+  "doi": "10.1145/3534678.3539242",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290945688",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines adversarial attack reveals vulnerability deep models incurring test domain shift delusive relieves privacy concern about personal data injecting.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However beyond successful applications two attacks easily defended adversarial training.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving limitations attack defense argue fit data well DNNs learn spurious relations between inputs outputs consequently utilized degrade effectiveness.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper better understand improve attack defense first take bottom-up perspective describe correlations between latent factors observed data then.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based DICM propose coherent causal invariant principle guides algorithm design infer human-like relations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper better understand improve attack defense first take bottom-up perspective describe correlations between latent factors observed data then.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving call algorithm Domain-attack Invariant Causal Learning DICE experimental results two attacks one defense task verify effectiveness..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines adversarial attack reveals vulnerability deep models incurring test domain shift delusive relieves privacy concern about personal data injecting.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However beyond successful applications two attacks easily defended adversarial training.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving limitations attack defense argue fit data well DNNs learn spurious relations between inputs outputs consequently utilized degrade effectiveness.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper better understand improve attack defense first take bottom-up perspective describe correlations between latent factors observed data then.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper better understand improve attack defense first take bottom-up perspective describe correlations between latent factors observed data then.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737222",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "FoodGPT: Reinforcement Post-Training of Large Language Models in the Food Delivery Domain",
+  "doi": "10.1145/3711896.3737222",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877014",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines On-demand Food Delivery OFD platforms Ele.me Meituan have transformed daily life offering convenient ordering services..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However challenges remain understanding user intentions processing product-related text information..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper introduces FoodInstruct Chinese dataset 1.6 million examples across 12 OFD-related NLP tasks FoodGPT domain-specific large language model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose efficient reinforcement post-training framework combines Supervised Fine-Tuning SFT Direct Preference Optimization DPO Proximal Policy PPO additional rule-based.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving resulting foundation model FoodGPT enhances performance minimizing resource consumption..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving resulting foundation model FoodGPT enhances performance minimizing resource consumption..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate FoodGPT outperforms general models Qwen 2.5 Llama3.1 DeepSeek-LLM OFD tasks fewer data training iterations..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving instance achieved 0.57% increase click-through rate 0.32% user visit-to-purchase ITG online experiment..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines On-demand Food Delivery OFD platforms Ele.me Meituan have transformed daily life offering convenient ordering services..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However challenges remain understanding user intentions processing product-related text information..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces FoodInstruct Chinese dataset 1.6 million examples across 12 OFD-related NLP tasks FoodGPT domain-specific large language model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose efficient reinforcement post-training framework combines Supervised Fine-Tuning SFT Direct Preference Optimization DPO Proximal Policy PPO additional rule-based.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving resulting foundation model FoodGPT enhances performance minimizing resource consumption..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

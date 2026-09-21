@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780322",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "The Eminence in Shadow: Exploiting Feature Boundary Ambiguity for Robust Backdoor Attacks",
+  "doi": "10.1145/3770854.3780322",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417295796",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deep neural networks DNNs underpin critical applications yet remain vulnerable backdoor attacks typically reliant heuristic brute-force methods..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Deep neural networks DNNs underpin critical applications yet remain vulnerable backdoor attacks typically reliant heuristic brute-force methods..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Therefore provide theoretical analysis targeting backdoor attacks focusing how sparse decision boundaries enable disproportionate model manipulation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Based finding derive closed-form ambiguous boundary region wherein negligible relabeled samples induce substantial misclassification..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Leveraging insights propose Eminence explainable robust black-box backdoor framework provable theoretical guarantees inherent stealth properties..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Influence function analysis further quantifies significant parameter shifts caused margin samples minimal impact clean accuracy formally grounding why.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Eminence optimizes universal visually subtle trigger strategically exploits vulnerable decision boundaries effectively achieves robust misclassification exceptionally low poison.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments validate theoretical discussions demonstrate effectiveness Eminence confirming exponential relationship between margin poisoning adversarial boundary manipulation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deep neural networks DNNs underpin critical applications yet remain vulnerable backdoor attacks typically reliant heuristic brute-force methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Deep neural networks DNNs underpin critical applications yet remain vulnerable backdoor attacks typically reliant heuristic brute-force methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore provide theoretical analysis targeting backdoor attacks focusing how sparse decision boundaries enable disproportionate model manipulation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based finding derive closed-form ambiguous boundary region wherein negligible relabeled samples induce substantial misclassification..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Influence function analysis further quantifies significant parameter shifts caused margin samples minimal impact clean accuracy formally grounding why.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

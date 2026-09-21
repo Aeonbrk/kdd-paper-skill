@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819028",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "From Surface to Depth: Diagnosing Ocean Vertical Velocity with 3D Frequency Operator",
+  "doi": "10.1145/3770855.3819028",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196960514",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Ocean vertical velocity plays crucial role influencing heat exchange water mass movement biogeochemical processes between surface deep waters..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However both existing traditional dynamic methods classic machine learning algorithms struggle provide accurate estimates due inability capture multi-scale.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges combined theoretical ocean dynamics propose TriSEFormer novel approach leverages frequency-embedded attention mechanism tri-dimensional frequency perspective..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Meanwhile propose depth-encoded vertical weights selectively modulate both real imaginary parts enhancing representation compared dynamic estimation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving spectral transformation within neural dynamics cell decomposes attention-enhanced surface embedding different components improving understanding multi-scale turbulent structures..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments one ideal simulation three regional ocean datasets demonstrate TriSEFormer outperforms all baselines achieving up 9.9% improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Ocean vertical velocity plays crucial role influencing heat exchange water mass movement biogeochemical processes between surface deep waters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However both existing traditional dynamic methods classic machine learning algorithms struggle provide accurate estimates due inability capture multi-scale.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges combined theoretical ocean dynamics propose TriSEFormer novel approach leverages frequency-embedded attention mechanism tri-dimensional frequency perspective..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Meanwhile propose depth-encoded vertical weights selectively modulate both real imaginary parts enhancing representation compared dynamic estimation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving spectral transformation within neural dynamics cell decomposes attention-enhanced surface embedding different components improving understanding multi-scale turbulent structures..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

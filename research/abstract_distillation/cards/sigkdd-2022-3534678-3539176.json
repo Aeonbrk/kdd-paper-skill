@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539176",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Multi-task Hierarchical Classification for Disk Failure Prediction in Online Service Systems",
+  "doi": "10.1145/3534678.3539176",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927765",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines One most common threats online service system reliability disk failure..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving industrial practice however different product teams treat distinct types disk failures prediction tasks large-scale online service systems like.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Many disk failure prediction techniques have been developed predict failures before they actually occur allowing proactive steps taken.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose MTHC Multi-Task Hierarchical Classification enhance performance disk failure prediction each task via learning..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition MTHC introduces novel hierarchy-aware mechanism deal data imbalance problem severe issue area disk failure prediction..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experiments both industrial public datasets demonstrate disk failure prediction models enhanced MTHC performs much better those working without.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore experiments present hierarchical-aware mechanism underlying MTHC alleviate data imbalance problem thus improve practical performance various disk failure.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines One most common threats online service system reliability disk failure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving industrial practice however different product teams treat distinct types disk failures prediction tasks large-scale online service systems like.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Many disk failure prediction techniques have been developed predict failures before they actually occur allowing proactive steps taken.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose MTHC Multi-Task Hierarchical Classification enhance performance disk failure prediction each task via learning..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experiments both industrial public datasets demonstrate disk failure prediction models enhanced MTHC performs much better those working without.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818897",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Retrieval-Augmented Foundation Models for Water Level Prediction in the Everglades",
+  "doi": "10.1145/3770855.3818897",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164685652",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate water level forecasting Everglades essential flood mitigation drought management resource planning biodiversity conservation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving recent time-series foundation models have shown strong performance generic tasks represented pre-training effectiveness domain-specific applications remains insufficiently understood..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work curate domain-specific dataset water-level forecasting Everglades observe performance current state-of-the-art models remains limited..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address gap leverage retrieval-augmented mechanism retrieves analogous multivariate hydrological episodes external archive historical observations enrich input context those.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study two retrieval strategies statistical similarity-based mutual information-based analyze how incorporating retrieved historical contexts affects predictive performance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments show retrieval augmentation consistently improves long-horizon water level forecasts yields disproportionately larger gains during extreme events.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Although evaluated Everglades proposed framework general applied other hydrological systems given time series data..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate water level forecasting Everglades essential flood mitigation drought management resource planning biodiversity conservation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving recent time-series foundation models have shown strong performance generic tasks represented pre-training effectiveness domain-specific applications remains insufficiently understood..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work curate domain-specific dataset water-level forecasting Everglades observe performance current state-of-the-art models remains limited..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap leverage retrieval-augmented mechanism retrieves analogous multivariate hydrological episodes external archive historical observations enrich input context those.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments show retrieval augmentation consistently improves long-horizon water level forecasts yields disproportionately larger gains during extreme events.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

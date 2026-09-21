@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817554",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "MMID: Multi-turn Multimodal Interactive Dialogue Benchmark",
+  "doi": "10.1145/3770855.3817554",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197016422",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing dialogue-based multimodal benchmarks do not fully reflect characteristics real-world interactions they often construct single lengthy user.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address limitations propose Multi-turn Multimodal Interactive Dialogue MMID Benchmark user requirements incrementally conveyed across turns images interleaved text.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving design MMID enables comprehensive evaluation Perception Memorization Reasoning abilities MLLMs..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving design MMID enables comprehensive evaluation Perception Memorization Reasoning abilities MLLMs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore most tasks adopt multiple-choice question format each incorrect option mapped fine-grained error types enabling analysis model strengths.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing dialogue-based multimodal benchmarks do not fully reflect characteristics real-world interactions they often construct single lengthy user.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose Multi-turn Multimodal Interactive Dialogue MMID Benchmark user requirements incrementally conveyed across turns images interleaved text.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Multimodal Large Language Models MLLMs have achieved remarkable progress understanding reasoning integrating linguistic visual information benchmarks facilitate iterative.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

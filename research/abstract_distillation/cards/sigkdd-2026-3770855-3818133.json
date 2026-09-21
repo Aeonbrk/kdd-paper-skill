@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818133",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "BRP: Query-Efficient Block Revert Patch for Decision-Based Black-Box Adversarial Attack",
+  "doi": "10.1145/3770855.3818133",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196935552",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Adversarial patches pose serious threat deep neural networks small localized perturbations decisively control model predictions..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However adversarial patch attacks decision-based setting remain largely underexplored..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Adversarial patches pose serious threat deep neural networks small localized perturbations decisively control model predictions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving real-world deployments decision-based black-box setting most realistic challenging threat model attackers observe only predicted labels..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Designing adversarial patch attacks under setting substantial real-world significance rigorously testing model robustness realistic black-box conditions..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments show BRP significantly reduces patch size query cost compared state-of-the-art decision-based attacks offering strong practical approach evaluating.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Adversarial patches pose serious threat deep neural networks small localized perturbations decisively control model predictions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However adversarial patch attacks decision-based setting remain largely underexplored..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Adversarial patches pose serious threat deep neural networks small localized perturbations decisively control model predictions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving real-world deployments decision-based black-box setting most realistic challenging threat model attackers observe only predicted labels..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments show BRP significantly reduces patch size query cost compared state-of-the-art decision-based attacks offering strong practical approach evaluating.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

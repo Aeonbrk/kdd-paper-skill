@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783930",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Can-SAVE: Deploying Low-Cost and Population-Scale Cancer Screening via Survival Analysis Variables and EHR",
+  "doi": "10.1145/3770854.3783930",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4387156623",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Conventional medical cancer screening methods costly labor-intensive extremely difficult scale..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although AI improve cancer detection most systems rely complex specialized medical data making them impractical large-scale screening..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving introduce Can-SAVE lightweight AI system ranks population-wide cancer risks solely based medical history events..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving integrating survival model outputs gradient-boosting framework approach detects subtle long-term patient risk patterns often well before clinical symptoms.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Can-SAVE was rigorously evaluated real-world dataset 2.5 million adults spanning five Russian regions marking study one largest most.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although AI improve cancer detection most systems rely complex specialized medical data making them impractical large-scale screening..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Can-SAVE was rigorously evaluated real-world dataset 2.5 million adults spanning five Russian regions marking study one largest most.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving retrospective oncologist-supervised study over 1.9 patients Can-SAVE achieves 3.8 9.9 higher detection rate identical screening volumes Average Precision.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Conventional medical cancer screening methods costly labor-intensive extremely difficult scale..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although AI improve cancer detection most systems rely complex specialized medical data making them impractical large-scale screening..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Can-SAVE lightweight AI system ranks population-wide cancer risks solely based medical history events..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving integrating survival model outputs gradient-boosting framework approach detects subtle long-term patient risk patterns often well before clinical symptoms.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although AI improve cancer detection most systems rely complex specialized medical data making them impractical large-scale screening..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

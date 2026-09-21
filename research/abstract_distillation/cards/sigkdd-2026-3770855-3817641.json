@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817641",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CausalPOI: Spatio-Temporal Graph-Based Causal Modeling for Cold-Start POI Check-in Forecasting",
+  "doi": "10.1145/3770855.3817641",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163751116",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines urban environments continue evolve rapidly accurately modeling dynamic behaviour Points Interest essential supporting data-driven planning commercial decision-making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce novel research problem cold-start POI check-in forecasting aims predict future pattern newly introduced modeling temporal evolution.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose CausalPOI spatio-temporal graph-based causal representation learning framework..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving CausalPOI leverages Spatio-Temporal Functional Interaction Graph model semantic spatial relationships between POIs constructs structurally aligned treatment control graphs.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent advancements spatio-temporal graph learning have improved POI forecasting most methods rely proximity-based graphs correlation-driven modeling overlook functional.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world SafeGraph datasets demonstrate CausalPOI significantly outperforms state-of-the-art baselines across board validating effectiveness spatio-temporal forecasting semantic.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines urban environments continue evolve rapidly accurately modeling dynamic behaviour Points Interest essential supporting data-driven planning commercial decision-making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce novel research problem cold-start POI check-in forecasting aims predict future pattern newly introduced modeling temporal evolution.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose CausalPOI spatio-temporal graph-based causal representation learning framework..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent advancements spatio-temporal graph learning have improved POI forecasting most methods rely proximity-based graphs correlation-driven modeling overlook functional.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

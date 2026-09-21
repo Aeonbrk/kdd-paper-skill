@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599295",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "DCdetector: Dual Attention Contrastive Representation Learning for Time Series Anomaly Detection",
+  "doi": "10.1145/3580305.3599295",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562572",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time series anomaly detection critical wide range applications..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Reconstruction-based methods still dominate but representation learning anomalies might hurt performance large abnormal loss..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose DCdetector multi-scale dual attention contrastive representation learning model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving DCdetector utilizes novel dual attention asymmetric design create permutated environment pure contrastive loss guide learning process thus permutation.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments show DCdetector achieves state-of-the-art results multiple time series anomaly detection benchmark datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments show DCdetector achieves state-of-the-art results multiple time series anomaly detection benchmark datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time series anomaly detection critical wide range applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Reconstruction-based methods still dominate but representation learning anomalies might hurt performance large abnormal loss..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose DCdetector multi-scale dual attention contrastive representation learning model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving DCdetector utilizes novel dual attention asymmetric design create permutated environment pure contrastive loss guide learning process thus permutation.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments show DCdetector achieves state-of-the-art results multiple time series anomaly detection benchmark datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

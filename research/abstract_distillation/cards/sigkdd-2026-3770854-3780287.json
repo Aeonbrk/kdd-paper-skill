@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780287",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DisCo: Diffusion-guided Unbiased Discriminative Learning for Unsupervised Graph Domain Adaptation",
+  "doi": "10.1145/3770854.3780287",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171999830",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper investigates task unsupervised graph domain adaptation facilitates transfer knowledge labeled source graphs unlabeled target graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recent approaches usually utilize graph contrastive learning pseudo-labeling learn unlabeled target data could introduce potential biased representations supervision.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Towards end propose novel framework named Diffusion-guided Unbiased Discriminative Learning DisCo unsupervised graph domain adaptation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving particular first utilize adversarial feature disentanglement extract causal features orthogonal domain biases..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent approaches usually utilize graph contrastive learning pseudo-labeling learn unlabeled target data could introduce potential biased representations supervision.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments several real-world benchmarks demonstrate proposed DisCo consistently outperforms competing state-of-the-art baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper investigates task unsupervised graph domain adaptation facilitates transfer knowledge labeled source graphs unlabeled target graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent approaches usually utilize graph contrastive learning pseudo-labeling learn unlabeled target data could introduce potential biased representations supervision.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Towards end propose novel framework named Diffusion-guided Unbiased Discriminative Learning DisCo unsupervised graph domain adaptation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent approaches usually utilize graph contrastive learning pseudo-labeling learn unlabeled target data could introduce potential biased representations supervision.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

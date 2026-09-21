@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817712",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Realistic Counterfactual Explanations via Denial Constraints",
+  "doi": "10.1145/3770855.3817712",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196985548",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines realm Explainable AI classification results often explained via counterfactuals CFs short ideally small perturbations instance lead change label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper note pursuing aims state-of-the-art explainability solutions often do yield counterfactual explanations not correspond realistic instances..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving remedy combine ideas Explainable AI data management..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Specifically capture realism CFs via logical constraints hold respect dataset examples e.g. training set class focus denial extensively.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving realm Explainable AI classification results often explained via counterfactuals CFs short ideally small perturbations instance lead change label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across four datasets validate solutions achieve realism relatively minor compromise terms distance diversity..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines realm Explainable AI classification results often explained via counterfactuals CFs short ideally small perturbations instance lead change label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper note pursuing aims state-of-the-art explainability solutions often do yield counterfactual explanations not correspond realistic instances..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving remedy combine ideas Explainable AI data management..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving realm Explainable AI classification results often explained via counterfactuals CFs short ideally small perturbations instance lead change label..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

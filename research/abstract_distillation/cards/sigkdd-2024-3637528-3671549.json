@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671549",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Multi-task Conditional Attention Network for Conversion Prediction in Logistics Advertising",
+  "doi": "10.1145/3637528.3671549",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863136",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Logistics advertising emerging task online-to-offline systems companies expand parcel shipping services new users through advertisements shopping websites..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges design MCAC Multi-task Conditional Attention network-based logistics advertising Conversion prediction framework consists offline shipping preference extraction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving evaluate deploy MCAC one largest e-commerce platforms China logistics advertising..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Extensive offline experiments show method outperforms state-of-the-art baselines various metrics..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate deploy MCAC one largest e-commerce platforms China logistics advertising..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline experiments show method outperforms state-of-the-art baselines various metrics..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover conversion rate prediction results large-scale online A/B testing show MCAC achieves 15.22% improvement compared existing industrial practices.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Logistics advertising emerging task online-to-offline systems companies expand parcel shipping services new users through advertisements shopping websites..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges design MCAC Multi-task Conditional Attention network-based logistics advertising Conversion prediction framework consists offline shipping preference extraction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate deploy MCAC one largest e-commerce platforms China logistics advertising..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate deploy MCAC one largest e-commerce platforms China logistics advertising..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671532",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Television Discourse Decoded: Comprehensive Multimodal Analytics at Scale",
+  "doi": "10.1145/3637528.3671532",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863485",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper tackle complex task analyzing televised debates focus prime time news debate show India..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving debates central part Indian media but have been criticized compromised journalistic integrity excessive dramatization 18.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper tackle complex task analyzing televised debates focus prime time news debate show India..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address gap introduce comprehensive automated toolkit employs advanced computer vision speech-to-text techniques large-scale multimedia analysis..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Utilizing state-of-the-art computer vision algorithms speech-to-text methods transcribe diarize analyze thousands YouTube videos prime-time television debate show India..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper tackle complex task analyzing televised debates focus prime time news debate show India..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving debates central part Indian media but have been criticized compromised journalistic integrity excessive dramatization 18.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper tackle complex task analyzing televised debates focus prime time news debate show India..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap introduce comprehensive automated toolkit employs advanced computer vision speech-to-text techniques large-scale multimedia analysis..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

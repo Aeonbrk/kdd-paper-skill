@@ -1,0 +1,74 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671554",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Dólares or Dollars? Unraveling the Bilingual Prowess of Financial LLMs Between Spanish and English",
+  "doi": "10.1145/3637528.3671554",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863235",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite Spanish pivotal role global finance industry pronounced gap exists financial natural language processing NLP application studies compared.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817924",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Continual-GraphLLM: Dynamic Graph Large Language Model with Invariance Regularized Adaptive Multi-Scale Experts",
+  "doi": "10.1145/3770855.3817924",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197029050",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Dynamic text-attributed graphs DyTAGs exhibit coupled textual structural dynamics existing mainstream approaches extend conventional large language models LLMs.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However DyTAGs continuous emergence new nodes edges incoming textual content interactions drives joint evolution graph structural-textual patterns causing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving motivates largely unexplored problem continual learning DyTAGs aims adapt constantly evolving graph structural-textual patterns retaining past knowledge imposes.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose novel Continual Learning Dynamic Graph LLM framework Continual-GraphLLM continually adapt incoming patterns routing them experts.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically propose graph-text factor-based router adapt incoming structural-textual joint patterns utilizing latent factors adaptively activate suitable experts..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world DyTAGs demonstrate superiority method over competitive baselines highlighting effectiveness adapting emerging DyTAG patterns..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Dynamic text-attributed graphs DyTAGs exhibit coupled textual structural dynamics existing mainstream approaches extend conventional large language models LLMs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However DyTAGs continuous emergence new nodes edges incoming textual content interactions drives joint evolution graph structural-textual patterns causing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving motivates largely unexplored problem continual learning DyTAGs aims adapt constantly evolving graph structural-textual patterns retaining past knowledge imposes.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose novel Continual Learning Dynamic Graph LLM framework Continual-GraphLLM continually adapt incoming patterns routing them experts.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments real-world DyTAGs demonstrate superiority method over competitive baselines highlighting effectiveness adapting emerging DyTAG patterns..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

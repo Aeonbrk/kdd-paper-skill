@@ -1,0 +1,54 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671605",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "DDCDR: A Disentangle-based Distillation Framework for Cross-Domain Recommendation",
+  "doi": "10.1145/3637528.3671605",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864371",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern recommendation platforms frequently encompass multiple domains cater varied preferences users..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern recommendation platforms frequently encompass multiple domains cater varied preferences users..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

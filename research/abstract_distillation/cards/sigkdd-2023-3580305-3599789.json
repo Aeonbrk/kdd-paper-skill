@@ -1,0 +1,62 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599789",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "CBLab: Supporting the Training of Large-scale Traffic Control Policies with Scalable Traffic Simulation",
+  "doi": "10.1145/3580305.3599789",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562469",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traffic simulation provides interactive data optimization control policies..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing traffic simulators limited lack scalability shortage input data prevents them generating interactive simulation scenarios real large-scale.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traffic simulation provides interactive data optimization control policies..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing traffic simulators limited lack scalability shortage input data prevents them generating interactive simulation scenarios real large-scale.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,147 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737430",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "POVE: A Preoptimized Vault of Expressions for Symbolic Regression Research and Benchmarking",
+  "doi": "10.1145/3711896.3737430",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876952",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitation introduce POVE PreOptimized Vault Expressions comprehensive repository symbolic numerical parameters have been efficiently computed established optimization.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving serves valuable resource both developing novel SR methodologies improving existing algorithms providing reliable reference optimal expression discovery..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition optimized constants POVE stores corresponding fitness values quantifying accuracy each expression respective regression problem allowing researchers directly.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving eliminating need computationally expensive numerical optimization steps POVE enables significantly faster evaluation large-scale benchmarking extensive hyperparameter analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation introduce POVE PreOptimized Vault Expressions comprehensive repository symbolic numerical parameters have been efficiently computed established optimization.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving serves valuable resource both developing novel SR methodologies improving existing algorithms providing reliable reference optimal expression discovery..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Symbolic Regression SR algorithms powerful machine learning tools discover mathematical expressions data but evaluation often hindered computational cost.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736833",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Advancing Graph Foundation Models: A Data-Centric Perspective",
+  "doi": "10.1145/3711896.3736833",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875519",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently Graph Foundation Models GFMs have emerged significant research topic machine learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving alleviate issues present first exploration data-centric GFM aims optimize pre-training data i.e. set subgraphs establish efficient maintaining robust.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose DCGFM plug-and-play approach Data-Centric GFM incorporates idea data pruning remove redundant less informative subgraphs pre-training thereby improving.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically DCGFM consists two components model-agnostic hard pruning module filters out subgraphs lower informativity scores considering both semantics.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Compared traditional graph neural networks GFMs demonstrate impressive zero-shot generalization across different domains tasks through large-scale pre-training extensive.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving propose DCGFM plug-and-play approach Data-Centric GFM incorporates idea data pruning remove redundant less informative subgraphs pre-training thereby improving.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments representative GFM backbones demonstrate DCGFM efficiency effectiveness..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently Graph Foundation Models GFMs have emerged significant research topic machine learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving alleviate issues present first exploration data-centric GFM aims optimize pre-training data i.e. set subgraphs establish efficient maintaining robust.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose DCGFM plug-and-play approach Data-Centric GFM incorporates idea data pruning remove redundant less informative subgraphs pre-training thereby improving.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Compared traditional graph neural networks GFMs demonstrate impressive zero-shot generalization across different domains tasks through large-scale pre-training extensive.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

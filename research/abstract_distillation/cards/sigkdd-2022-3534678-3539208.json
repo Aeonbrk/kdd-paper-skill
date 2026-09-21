@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539208",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Adaptive Multi-view Rule Discovery for Weakly-Supervised Compatible Products Prediction",
+  "doi": "10.1145/3534678.3539208",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283723760",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines e-commerce platforms predicting if two products compatible each other important functionality achieve trustworthy product recommendation search experience consumers..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However accurately predicting product compatibility difficult due heterogeneous data lack manually curated training data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study problem discovering effective labeling rules enable weakly-supervised product compatibility prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving develop AMRule multi-view rule discovery framework adaptively iteratively discover novel rulers complement current weakly-supervised model improve compatibility prediction.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving AMRule adaptively discovers labeling rules large-error instances via boosting-style strategy high-quality remedy current model weak spots refine iteratively..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving e-commerce platforms predicting if two products compatible each other important functionality achieve trustworthy product recommendation search experience consumers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving develop AMRule multi-view rule discovery framework adaptively iteratively discover novel rulers complement current weakly-supervised model improve compatibility prediction.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments real-world datasets show AMRule outperforms baselines 5.98% average improves rule quality proposal efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines e-commerce platforms predicting if two products compatible each other important functionality achieve trustworthy product recommendation search experience consumers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However accurately predicting product compatibility difficult due heterogeneous data lack manually curated training data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study problem discovering effective labeling rules enable weakly-supervised product compatibility prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving develop AMRule multi-view rule discovery framework adaptively iteratively discover novel rulers complement current weakly-supervised model improve compatibility prediction.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving e-commerce platforms predicting if two products compatible each other important functionality achieve trustworthy product recommendation search experience consumers..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818413",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "FOUNDv2: Learning Unified User Quantized Tokenizers for User Representation",
+  "doi": "10.1145/3770855.3818413",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416552357",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines User representation learning serves fundamental pillar personalized services large-scale web platforms..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite importance conventional continuous embedding methods face significant challenges including lack unified paradigm multi-source data integration prohibitive storage.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitations introduce FOUNDv2 comprehensive user representation scheme centered Unified Quantized Tokenizer U2QT framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically framework first extracts compact feature representations subsequently employs multi-view RQ-VAE discretize them storage-efficient tokens shared source-specific codebooks..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving empower representations predictive intelligence further design multi-scale alignment objectives capture both fine-grained behavioral dependencies macro-temporal periodicity..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments various benchmarks demonstrate FOUNDv2 consistently outperforms task-specific baselines achieving substantial reductions storage computational costs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines User representation learning serves fundamental pillar personalized services large-scale web platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite importance conventional continuous embedding methods face significant challenges including lack unified paradigm multi-source data integration prohibitive storage.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitations introduce FOUNDv2 comprehensive user representation scheme centered Unified Quantized Tokenizer U2QT framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically framework first extracts compact feature representations subsequently employs multi-view RQ-VAE discretize them storage-efficient tokens shared source-specific codebooks..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments various benchmarks demonstrate FOUNDv2 consistently outperforms task-specific baselines achieving substantial reductions storage computational costs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

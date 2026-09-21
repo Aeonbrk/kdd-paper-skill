@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539391",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions",
+  "doi": "10.1145/3534678.3539391",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281392159",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generalization across different environments same tasks critical successful applications visual reinforcement learning RL real scenarios..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However visual distractions---which common real scenes---from high-dimensional observations hurtful learned representations RL thus degrading performance generalization..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle problem propose novel approach namely Characteristic Reward Sequence Prediction CRESP extract task-relevant information learning distributions RSDs signals.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically effectively capture task-relevant information via RSDs CRESP introduces auxiliary task---that predicting characteristic functions RSDs---to learn representations because.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate CRESP significantly improves performance generalization unseen environments outperforming several state-of-the-arts DeepMind Control tasks different visual distractions..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generalization across different environments same tasks critical successful applications visual reinforcement learning RL real scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However visual distractions---which common real scenes---from high-dimensional observations hurtful learned representations RL thus degrading performance generalization..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle problem propose novel approach namely Characteristic Reward Sequence Prediction CRESP extract task-relevant information learning distributions RSDs signals.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically effectively capture task-relevant information via RSDs CRESP introduces auxiliary task---that predicting characteristic functions RSDs---to learn representations because.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate CRESP significantly improves performance generalization unseen environments outperforming several state-of-the-arts DeepMind Control tasks different visual distractions..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

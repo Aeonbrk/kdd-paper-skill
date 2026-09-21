@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671686",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Pre-train and Refine: Towards Higher Efficiency in K-Agnostic Community Detection without Quality Degradation",
+  "doi": "10.1145/3637528.3671686",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863351",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Community detection CD classic graph inference task partitions nodes densely connected groups..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving many CD methods have been proposed either impressive quality efficiency balancing two aspects remains challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving many CD methods have been proposed either impressive quality efficiency balancing two aspects remains challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose PRoCD Pre-training Refinement Community Detection simple yet effective method reformulates K-agnostic CD binary node pair classification..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving first conduct offline pre-training PRoCD small synthetic graphs covering various topology properties..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving study explores potential deep graph learning achieve better trade-off between quality efficiency K-agnostic CD number communities unknown..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Based inductive inference across graphs then generalize pre-trained model frozen parameters large real use derived CD results initialization.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition benefiting transfer ability regarding quality online generalization refinement help achieve high inference efficiency since there no time-consuming.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Community detection CD classic graph inference task partitions nodes densely connected groups..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving many CD methods have been proposed either impressive quality efficiency balancing two aspects remains challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving many CD methods have been proposed either impressive quality efficiency balancing two aspects remains challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose PRoCD Pre-training Refinement Community Detection simple yet effective method reformulates K-agnostic CD binary node pair classification..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving study explores potential deep graph learning achieve better trade-off between quality efficiency K-agnostic CD number communities unknown..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

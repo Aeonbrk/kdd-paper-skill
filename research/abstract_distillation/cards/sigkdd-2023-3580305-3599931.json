@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599931",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences",
+  "doi": "10.1145/3580305.3599931",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568240",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present WebGLM web-enhanced question-answering system based General Language Model GLM.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving present WebGLM web-enhanced question-answering system based General Language Model GLM.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving goal augment pre-trained large language model LLM web search retrieval capabilities being efficient real-world deployments..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving achieve develop WebGLM strategies LLM-augmented retriever bootstrapped generator human preference-aware scorer..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve develop WebGLM strategies LLM-augmented retriever bootstrapped generator human preference-aware scorer..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically identify address limitations WebGPT OpenAI through WebGLM enabled accuracy efficiency cost-effectiveness advantages..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition propose systematic criteria evaluating web-enhanced QA systems..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present WebGLM web-enhanced question-answering system based General Language Model GLM.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present WebGLM web-enhanced question-answering system based General Language Model GLM.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving goal augment pre-trained large language model LLM web search retrieval capabilities being efficient real-world deployments..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve develop WebGLM strategies LLM-augmented retriever bootstrapped generator human preference-aware scorer..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

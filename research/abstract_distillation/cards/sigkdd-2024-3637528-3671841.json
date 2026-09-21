@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671841",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Dataset Regeneration for Sequential Recommendation",
+  "doi": "10.1145/3637528.3671841",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864065",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines sequential recommender SR system crucial component modern systems aims capture evolving preferences users..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However approach often overlooks potential quality issues flaws inherent data..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving methods typically follow model-centric paradigm involves developing effective models based fixed datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Driven potential data-centric AI propose novel paradigm developing ideal training dataset model-agnostic regeneration framework called DR4SR..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving framework enables regeneration dataset exceptional cross-architecture generalizability..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness data-centric paradigm integrate framework various model-centric methods observe significant performance improvements across four widely adopted datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines sequential recommender SR system crucial component modern systems aims capture evolving preferences users..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However approach often overlooks potential quality issues flaws inherent data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving methods typically follow model-centric paradigm involves developing effective models based fixed datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Driven potential data-centric AI propose novel paradigm developing ideal training dataset model-agnostic regeneration framework called DR4SR..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate effectiveness data-centric paradigm integrate framework various model-centric methods observe significant performance improvements across four widely adopted datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

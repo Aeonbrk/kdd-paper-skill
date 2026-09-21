@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599817",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Evolve Path Tracer: Early Detection of Malicious Addresses in Cryptocurrency",
+  "doi": "10.1145/3580305.3599817",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379548935",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines boom cryptocurrency concomitant financial risk concerns detecting fraudulent behaviors associated malicious addresses has been drawing significant research effort..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Most existing studies however rely full history features full-fledged address transaction networks both unavailable problem early malicious detection.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving detect fraudulent behaviors malicious addresses early stage present Evolve Path Tracer consists Encoder LSTM Graph GCN Hierarchical Survival.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically addition general address features propose Asset Transfer Paths corresponding path graphs characterize early transaction patterns..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore since transaction patterns change rapidly early stage propose Evolve Path Encoder LSTM Graph GCN encode asset transfer.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experimental results demonstrate Evolve Path Tracer outperforms state-of-the-art methods..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive scalability experiments demonstrate model adaptivity under dynamic prediction setting..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines boom cryptocurrency concomitant financial risk concerns detecting fraudulent behaviors associated malicious addresses has been drawing significant research effort..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Most existing studies however rely full history features full-fledged address transaction networks both unavailable problem early malicious detection.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving detect fraudulent behaviors malicious addresses early stage present Evolve Path Tracer consists Encoder LSTM Graph GCN Hierarchical Survival.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically addition general address features propose Asset Transfer Paths corresponding path graphs characterize early transaction patterns..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experimental results demonstrate Evolve Path Tracer outperforms state-of-the-art methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

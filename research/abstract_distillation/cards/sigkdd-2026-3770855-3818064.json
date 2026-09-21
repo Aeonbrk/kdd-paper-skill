@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818064",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "BRIDGE: Block-Wise Speculative Coordination for Cloud-Edge Retrieval-Augmented Generation",
+  "doi": "10.1145/3770855.3818064",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196981254",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-augmented generation RAG improves factuality conditioning LLMs retrieved evidence yet real-world knowledge often split across tiers cloud-based exploit.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges present BRIDGE Block-wise speculative RAG framework Inter-database Distributed GEneration..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduces block-wise transmission verification amortize communication cost improve acceptance efficiency thereby reducing rollback waste..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Across public-private RAG benchmarks model families network regimes BRIDGE significantly improves question-answer relevance personalization reducing end-to-end latency up.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Retrieval-augmented generation RAG improves factuality conditioning LLMs retrieved evidence yet real-world knowledge often split across tiers cloud-based exploit.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduces block-wise transmission verification amortize communication cost improve acceptance efficiency thereby reducing rollback waste..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across public-private RAG benchmarks model families network regimes BRIDGE significantly improves question-answer relevance personalization reducing end-to-end latency up.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-augmented generation RAG improves factuality conditioning LLMs retrieved evidence yet real-world knowledge often split across tiers cloud-based exploit.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges present BRIDGE Block-wise speculative RAG framework Inter-database Distributed GEneration..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduces block-wise transmission verification amortize communication cost improve acceptance efficiency thereby reducing rollback waste..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Retrieval-augmented generation RAG improves factuality conditioning LLMs retrieved evidence yet real-world knowledge often split across tiers cloud-based exploit.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

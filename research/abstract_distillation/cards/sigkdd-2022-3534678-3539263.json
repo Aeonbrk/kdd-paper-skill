@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539263",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "On-Device Learning for Model Personalization with Large-Scale Cloud-Coordinated Domain Adaption",
+  "doi": "10.1145/3534678.3539263",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290944174",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Cloud-based learning currently mainstream both academia industry..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However global data distribution mixture all users distributions training model deviate each user local inference making non-optimal individual.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However global data distribution mixture all users distributions training model deviate each user local inference making non-optimal individual.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving mitigate distribution discrepancy on-device training over local data model personalization potential solution but suffers serious overfitting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose new device-cloud collaborative learning framework under paradigm domain adaption called MPDA break dilemmas purely cloud-based on-device.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensively evaluate over public MovieLens 20 Amazon Electronics datasets well industrial dataset collected Mobile Taobao period 30 days..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Both offline online results demonstrate MPDA outperforms baselines cloud-based learning on-device training only over local data multiple metrics..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Cloud-based learning currently mainstream both academia industry..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However global data distribution mixture all users distributions training model deviate each user local inference making non-optimal individual.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However global data distribution mixture all users distributions training model deviate each user local inference making non-optimal individual.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate distribution discrepancy on-device training over local data model personalization potential solution but suffers serious overfitting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensively evaluate over public MovieLens 20 Amazon Electronics datasets well industrial dataset collected Mobile Taobao period 30 days..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

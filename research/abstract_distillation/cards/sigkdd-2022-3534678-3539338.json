@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539338",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs",
+  "doi": "10.1145/3534678.3539338",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875505",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Logical reasoning over Knowledge Graphs KGs first-order logic FOL queries performs query inference operators including conjunction disjunction existential.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing work imposes strong distributional assumptions e.g. Beta distribution represent entities queries presumed shape limits expressive.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose logical query reasoning framework Line Embedding FOL queries..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving relax distributional assumptions introduce logic space transformation layer generic neural function converts embeddings probabilistic distribution LinE space..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle multi-relational logical complexities formulate neural relation-specific projections individual operators truthfully ground LinE query embeddings regularities KG factoids..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments show superior reasoning sensitivity LinE three benchmarks against strong baselines particularly multi-hop relational queries negation-related queries..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Logical reasoning over Knowledge Graphs KGs first-order logic FOL queries performs query inference operators including conjunction disjunction existential.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing work imposes strong distributional assumptions e.g. Beta distribution represent entities queries presumed shape limits expressive.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose logical query reasoning framework Line Embedding FOL queries..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving relax distributional assumptions introduce logic space transformation layer generic neural function converts embeddings probabilistic distribution LinE space..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments show superior reasoning sensitivity LinE three benchmarks against strong baselines particularly multi-hop relational queries negation-related queries..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

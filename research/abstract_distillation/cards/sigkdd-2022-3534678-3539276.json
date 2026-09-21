@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539276",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Compute Like Humans: Interpretable Step-by-step Symbolic Computation with Deep Neural Network",
+  "doi": "10.1145/3534678.3539276",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927756",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural network capability symbolic computation has emerged much recent work..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However symbolic computation always treated end-to-end blackbox prediction task human-like deductive logic missing..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper argue any complex symbolic computation broken down sequence finite Fundamental Transformations FCT grounded certain mathematical expression transformations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving better mimic symbolic computations math expression transformations propose novel tree representation learning architecture GATE Graph Aggregation Transformer Encoder.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving generate large-scale math expression transformation dataset training purpose collect real-world validation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate feasibility producing step-by-step human-like symbolic deduction sequences proposed approach outperforms other neural network approaches heuristic approaches..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural network capability symbolic computation has emerged much recent work..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However symbolic computation always treated end-to-end blackbox prediction task human-like deductive logic missing..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper argue any complex symbolic computation broken down sequence finite Fundamental Transformations FCT grounded certain mathematical expression transformations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving better mimic symbolic computations math expression transformations propose novel tree representation learning architecture GATE Graph Aggregation Transformer Encoder.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate feasibility producing step-by-step human-like symbolic deduction sequences proposed approach outperforms other neural network approaches heuristic approaches..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

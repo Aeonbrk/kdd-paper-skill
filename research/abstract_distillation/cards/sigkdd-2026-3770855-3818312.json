@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818312",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "A Unified Structured Query Understanding Framework for Industrial Semantic Search",
+  "doi": "10.1145/3770855.3818312",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164188575",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Query understanding large-scale industrial search systems typically implemented cascade disparate task-specific components..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work propose deploy unified structured query understanding system consolidates heterogeneous functions single Small Language Model SLM performs schema-constrained.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address data bottlenecks inherent unified modeling introduce Query Illuminator dual-purpose framework serving teacher model high-quality auto-annotation distillation ii.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving validate approach through extensive offline online tests within LinkedIn Job Search system..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving individually optimizable fragmented architecture incurs high maintenance overhead results inconsistent behaviors particularly long-tail queries..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address data bottlenecks inherent unified modeling introduce Query Illuminator dual-purpose framework serving teacher model high-quality auto-annotation distillation ii.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore demonstrate framework horizontal extensibility through cross-domain case study People Search..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Query understanding large-scale industrial search systems typically implemented cascade disparate task-specific components..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose deploy unified structured query understanding system consolidates heterogeneous functions single Small Language Model SLM performs schema-constrained.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address data bottlenecks inherent unified modeling introduce Query Illuminator dual-purpose framework serving teacher model high-quality auto-annotation distillation ii.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving individually optimizable fragmented architecture incurs high maintenance overhead results inconsistent behaviors particularly long-tail queries..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

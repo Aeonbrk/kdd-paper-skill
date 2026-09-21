@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671691",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Meta Clustering of Neural Bandits",
+  "doi": "10.1145/3637528.3671691",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863376",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines contextual bandit has been identified powerful framework formulate recommendation process sequential decision-making each item regarded arm objective minimize.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving contextual bandit has been identified powerful framework formulate recommendation process sequential decision-making each item regarded arm objective minimize.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper study new problem Clustering Neural Bandits extending previous work arbitrary reward function strike balance between user heterogeneity.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving solve problem propose novel algorithm called M-CNB utilizes meta-learner represent rapidly adapt dynamic clusters along informative Upper Confidence.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensive experiments conducted both recommendation online classification scenarios M-CNB outperforms SOTA baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving shows effectiveness proposed approach improving online recommendation classification performance..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines contextual bandit has been identified powerful framework formulate recommendation process sequential decision-making each item regarded arm objective minimize.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving contextual bandit has been identified powerful framework formulate recommendation process sequential decision-making each item regarded arm objective minimize.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper study new problem Clustering Neural Bandits extending previous work arbitrary reward function strike balance between user heterogeneity.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensive experiments conducted both recommendation online classification scenarios M-CNB outperforms SOTA baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

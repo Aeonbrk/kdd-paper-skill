@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599856",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Learning Multi-Agent Intention-Aware Communication for Optimal Multi-Order Execution in Finance",
+  "doi": "10.1145/3580305.3599856",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4383605137",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Order execution fundamental task quantitative finance aiming finishing acquisition liquidation number trading orders specific assets..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing works always optimize execution individual order overlooking practice multiple orders specified execute simultaneously resulting suboptimality bias..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recent advance model-free reinforcement learning RL provides data-driven solution order execution problem..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper first present multi-agent RL MARL method multi-order execution considering practical constraints..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically treat every agent individual operator trade one specific order keeping communicating each other collaborating maximizing overall profits..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing works always optimize execution individual order overlooking practice multiple orders specified execute simultaneously resulting suboptimality bias..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improve collaboration then propose learnable multi-round communication protocol agents communicating intended actions each other refining accordingly..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments data two real-world markets have illustrated superior performance significantly better collaboration effectiveness achieved method..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Order execution fundamental task quantitative finance aiming finishing acquisition liquidation number trading orders specific assets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing works always optimize execution individual order overlooking practice multiple orders specified execute simultaneously resulting suboptimality bias..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent advance model-free reinforcement learning RL provides data-driven solution order execution problem..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first present multi-agent RL MARL method multi-order execution considering practical constraints..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing works always optimize execution individual order overlooking practice multiple orders specified execute simultaneously resulting suboptimality bias..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

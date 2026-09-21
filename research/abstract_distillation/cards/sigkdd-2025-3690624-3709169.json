@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709169",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Understanding the Effect of Loss Functions on the Generalization of Recommendations",
+  "doi": "10.1145/3690624.3709169",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149402",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines two-tower model has become prevalent recommender systems computational efficiency robust predictive capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving two-tower model has become prevalent recommender systems computational efficiency robust predictive capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model usually employs two independent neural networks encode user item data separately predicts similarity score inner product cosine.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address introduce consistency discussion provides non-asymptotic hypothesis-specific guarantees Top-k classification within two-tower model hypothesis space..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite both Softmax OvA losses being Bayes-consistent empirical observations reveal significant performance gap evaluation metrics suggesting limitations Bayes-consistency.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through theoretical analysis demonstrate Softmax Cosine Contrastive Loss exhibit consistency OvA does not explaining observed performance discrepancies..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines two-tower model has become prevalent recommender systems computational efficiency robust predictive capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving two-tower model has become prevalent recommender systems computational efficiency robust predictive capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model usually employs two independent neural networks encode user item data separately predicts similarity score inner product cosine.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite both Softmax OvA losses being Bayes-consistent empirical observations reveal significant performance gap evaluation metrics suggesting limitations Bayes-consistency.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

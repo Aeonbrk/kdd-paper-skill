@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539202",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "A Framework for Multi-stage Bonus Allocation in Meal Delivery Platform",
+  "doi": "10.1145/3534678.3539202",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4226084031",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online meal delivery undergoing explosive growth service becoming increasingly popular..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However reality several hundred thousand orders canceled per day Meituan meal delivery platform since they not accepted crowd.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving make better use funds work propose framework deal multi-stage bonus allocation problem meal delivery platform..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving objective framework maximize number accepted orders within limited bonus budget..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework consists semi-black-box acceptance probability model Lagrangian dual-based dynamic programming algorithm online allocation algorithm..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving semi-black-box acceptance probability model employed forecast relationship between bonus allocated order Lagrangian dual-based dynamic programming algorithm aims calculate.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving verify effectiveness efficiency framework both offline experiments real-world data set online A/B tests Meituan meal delivery platform conducted..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show proposed framework total order cancellations decreased 25% reality..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online meal delivery undergoing explosive growth service becoming increasingly popular..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However reality several hundred thousand orders canceled per day Meituan meal delivery platform since they not accepted crowd.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving make better use funds work propose framework deal multi-stage bonus allocation problem meal delivery platform..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving objective framework maximize number accepted orders within limited bonus budget..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving semi-black-box acceptance probability model employed forecast relationship between bonus allocated order Lagrangian dual-based dynamic programming algorithm aims calculate.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

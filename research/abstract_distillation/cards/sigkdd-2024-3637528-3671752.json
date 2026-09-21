@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671752",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Bi-Objective Contract Allocation for Guaranteed Delivery Advertising",
+  "doi": "10.1145/3637528.3671752",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857140",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Contemporary systems Guaranteed Delivery GD advertising work two different stages namely offline selling stage online serving stage..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Therefore address paper bi-objective contract allocation GD advertising maximizes impressions i.e. Ad resource assignments allocated new incoming orders.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Since proposed problem high dimensional heavily constrained design efficient local search focuses two objectives alternatively..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving experimental results indicate algorithm outperforms multi-objective evolutionary algorithms Gurobi former commonly applied optimization latter well-known competitive commercial tool..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experimental results indicate algorithm outperforms multi-objective evolutionary algorithms Gurobi former commonly applied optimization latter well-known competitive commercial tool..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Contemporary systems Guaranteed Delivery GD advertising work two different stages namely offline selling stage online serving stage..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore address paper bi-objective contract allocation GD advertising maximizes impressions i.e. Ad resource assignments allocated new incoming orders.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Since proposed problem high dimensional heavily constrained design efficient local search focuses two objectives alternatively..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experimental results indicate algorithm outperforms multi-objective evolutionary algorithms Gurobi former commonly applied optimization latter well-known competitive commercial tool..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,124 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736966",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "FLEXIS: FLEXible Frequent Subgraph Mining using Maximal Independent Sets",
+  "doi": "10.1145/3711896.3736966",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876977",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Frequent Subgraph Mining FSM process identifying common patterns occur over certain threshold..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges paper introduces vertex based merging method reduces redundancies effective pruning mechanisms..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Thus paper introduces Maximal Independent Set mIS metric minimizes latency obtaining accuracy close controlled pattern overlap parameter ambda.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Thus paper introduces Maximal Independent Set mIS metric minimizes latency obtaining accuracy close controlled pattern overlap parameter ambda.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Frequent Subgraph Mining FSM process identifying common patterns occur over certain threshold..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges paper introduces vertex based merging method reduces redundancies effective pruning mechanisms..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Thus paper introduces Maximal Independent Set mIS metric minimizes latency obtaining accuracy close controlled pattern overlap parameter ambda.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Thus paper introduces Maximal Independent Set mIS metric minimizes latency obtaining accuracy close controlled pattern overlap parameter ambda.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

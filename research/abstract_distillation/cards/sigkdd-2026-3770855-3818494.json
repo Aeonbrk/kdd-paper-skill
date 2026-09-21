@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818494",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "TokenMixer-Large: Scaling Up Large Ranking Models in Industrial Recommenders",
+  "doi": "10.1145/3770855.3818494",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196951176",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines scaling laws recommendation models have gained significant traction existing architectures Wukong HiFormer DHEN often struggle sub-optimal designs hardware.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving previous TokenMixer architecture introduced RankMixer paper balanced effectiveness efficiency replacing self-attention lightweight token mixing operator however encountered critical.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving scaling laws recommendation models have gained significant traction existing architectures Wukong HiFormer DHEN often struggle sub-optimal designs hardware.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving previous TokenMixer architecture introduced RankMixer paper balanced effectiveness efficiency replacing self-attention lightweight token mixing operator however encountered critical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper propose TokenMixer-Large systematically evolved architecture designed extreme-scale recommendation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving TokenMixer-Large successfully scales billion parameters online traffic 15 offline experiments..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Currently deployed multiple scenarios ByteDance TokenMixer-Large has achieved substantial performance gains delivering 1.66% increase orders 2.98% boost per-capita.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines scaling laws recommendation models have gained significant traction existing architectures Wukong HiFormer DHEN often struggle sub-optimal designs hardware.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving previous TokenMixer architecture introduced RankMixer paper balanced effectiveness efficiency replacing self-attention lightweight token mixing operator however encountered critical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving scaling laws recommendation models have gained significant traction existing architectures Wukong HiFormer DHEN often struggle sub-optimal designs hardware.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving previous TokenMixer architecture introduced RankMixer paper balanced effectiveness efficiency replacing self-attention lightweight token mixing operator however encountered critical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving TokenMixer-Large successfully scales billion parameters online traffic 15 offline experiments..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

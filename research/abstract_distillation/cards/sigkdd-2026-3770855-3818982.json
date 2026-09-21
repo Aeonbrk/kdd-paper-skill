@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818982",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Deformation Localization Theory Guided Transfer Learning for Mining-induced Seismicity Risk Zone Prediction",
+  "doi": "10.1145/3770855.3818982",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197036160",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Mining-induced seismicity MIS poses critical challenge deep mining safety..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing deep learning methods do not perform well due intrinsic sparsity MIS events pronounced scale discrepancies between.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end deformation localization theory-guided transfer learning DLT-TL method proposed MIS risk zone prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First physically consistent alignment between source target domains developed remedy cross-scale gap..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving network integrates Squeeze-and-Excitation Residual enhancing feature extraction Dual Attention emphasizing critical deformation seismic patterns Bidirectional LSTM capturing evolutionary.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally two case studies demonstrate DLT-TL outperforms state-of-the-art baselines achieving F1-score gains 6.53% 2.28% source laboratory target field.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Mining-induced seismicity MIS poses critical challenge deep mining safety..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing deep learning methods do not perform well due intrinsic sparsity MIS events pronounced scale discrepancies between.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end deformation localization theory-guided transfer learning DLT-TL method proposed MIS risk zone prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First physically consistent alignment between source target domains developed remedy cross-scale gap..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving network integrates Squeeze-and-Excitation Residual enhancing feature extraction Dual Attention emphasizing critical deformation seismic patterns Bidirectional LSTM capturing evolutionary.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

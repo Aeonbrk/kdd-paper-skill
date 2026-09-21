@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817863",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "StaR: Stateful Dynamic-Graph Root Cause Analysis through Memory-Enhanced Causality Discovery",
+  "doi": "10.1145/3770855.3817863",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196988854",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Identifying root causes anomalies complex multivariate time series systems e.g. microservices critical maintaining service reliability..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although causal discovery-based approaches have gained traction existing methods suffer largely two fundamental limitations they assume static relationships.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose StaR stateful RCA framework reformulates Granger causal discovery process embedding Temporal Graph Networks underlying predictive.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introducing persistent memory states dynamic message passing causal inference process StaR effectively models evolving graph structures captures long-term.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments nine datasets show StaR consistently outperforms baselines improving AC 0.028 0.920 dynamic stateful strong gains real-world.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Identifying root causes anomalies complex multivariate time series systems e.g. microservices critical maintaining service reliability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although causal discovery-based approaches have gained traction existing methods suffer largely two fundamental limitations they assume static relationships.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose StaR stateful RCA framework reformulates Granger causal discovery process embedding Temporal Graph Networks underlying predictive.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introducing persistent memory states dynamic message passing causal inference process StaR effectively models evolving graph structures captures long-term.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments nine datasets show StaR consistently outperforms baselines improving AC 0.028 0.920 dynamic stateful strong gains real-world.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

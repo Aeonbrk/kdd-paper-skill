@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818041",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Influence-Aware Dynamic Graph Learning for Popularity Prediction",
+  "doi": "10.1145/3770855.3818041",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196976724",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid spread information popularity prediction has become critical problem decision-making trend analysis recommendation..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods typically rely neighborhood aggregation biases learning toward topological locality miss long-range dependencies when distant entities exhibit.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation propose cross-topology influence-aware dynamic graph learning framework explicitly models latent influence factors global perspective..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Finally aggregate influence patterns along node trajectories across multiple time steps enabling effective efficient modeling long-range dependencies..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments four real-world datasets diverse popularity distributions demonstrate effectiveness model clear advantages over locality-aware neighborhood aggregation..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments four real-world datasets diverse popularity distributions demonstrate effectiveness model clear advantages over locality-aware neighborhood aggregation..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Beyond improved prediction accuracy approach provides interpretable insights underlying factors governing popularity dynamics offering new perspective high-order representation.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid spread information popularity prediction has become critical problem decision-making trend analysis recommendation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods typically rely neighborhood aggregation biases learning toward topological locality miss long-range dependencies when distant entities exhibit.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation propose cross-topology influence-aware dynamic graph learning framework explicitly models latent influence factors global perspective..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Finally aggregate influence patterns along node trajectories across multiple time steps enabling effective efficient modeling long-range dependencies..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments four real-world datasets diverse popularity distributions demonstrate effectiveness model clear advantages over locality-aware neighborhood aggregation..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

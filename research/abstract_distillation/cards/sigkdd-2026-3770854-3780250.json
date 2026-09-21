@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780250",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Hyper-Relational Knowledge Graph Representation Learning Based on Multi-Granularity Semantic Aware Message Passing",
+  "doi": "10.1145/3770854.3780250",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171975476",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-world networks containing hyper-relational facts represented Knowledge Graphs HKGs contain rich semantics compared hypergraphs..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However multi-grained semantics often inadequately learned conventional message passing only operates along one granularity i.e hyperedges..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propagate information between entities hyperedges aggregate entity-level roles hyperedge level message passing..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose HKG representation learning method based Multi-granularity Semantic aware Message Passing HyperSMP preserving both structural information..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically design fine-grained aggregation layer HyperSMP aggregate different roles entities hyperedge embeddings entity-level attention mechanism..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result multi-grained semantics learned through unification hyperedge level adapt message passing mechanism high-order structure captured entity information exchange.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results public datasets show HyperSMP outperforms state-of-the-art methods least 9.66% F1 score..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-world networks containing hyper-relational facts represented Knowledge Graphs HKGs contain rich semantics compared hypergraphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However multi-grained semantics often inadequately learned conventional message passing only operates along one granularity i.e hyperedges..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propagate information between entities hyperedges aggregate entity-level roles hyperedge level message passing..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose HKG representation learning method based Multi-granularity Semantic aware Message Passing HyperSMP preserving both structural information..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result multi-grained semantics learned through unification hyperedge level adapt message passing mechanism high-order structure captured entity information exchange.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

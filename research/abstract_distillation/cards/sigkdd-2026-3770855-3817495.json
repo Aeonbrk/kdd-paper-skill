@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817495",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "In a Streaming World, Should You Stand Still? A Comprehensive Benchmark of Anomaly Detection in Streams",
+  "doi": "10.1145/3770855.3817495",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164849902",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time series anomaly detection TSAD increasingly deployed streaming settings data arrive sequentially exhibit non-stationarity..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most approaches originate streaming outlier detection literature largely ignore core characteristics time series anomalies..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving result several works recent literature propose streaming anomaly detection methods rely incremental updates adapt over time..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work carry out first large-scale experimental study comparing streaming static TSAD methods under unified evaluation benchmark..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving consider realistic setting initial batch data available model training followed online evaluation both detection accuracy computational efficiency..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result several works recent literature propose streaming anomaly detection methods rely incremental updates adapt over time..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover empirical evaluation typically conducted synthetic small-scale benchmarks limited diversity making unclear whether streaming methods truly advantageous realistic.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work carry out first large-scale experimental study comparing streaming static TSAD methods under unified evaluation benchmark..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time series anomaly detection TSAD increasingly deployed streaming settings data arrive sequentially exhibit non-stationarity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most approaches originate streaming outlier detection literature largely ignore core characteristics time series anomalies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving result several works recent literature propose streaming anomaly detection methods rely incremental updates adapt over time..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work carry out first large-scale experimental study comparing streaming static TSAD methods under unified evaluation benchmark..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result several works recent literature propose streaming anomaly detection methods rely incremental updates adapt over time..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

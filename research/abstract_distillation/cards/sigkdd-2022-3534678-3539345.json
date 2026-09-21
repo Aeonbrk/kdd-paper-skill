@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539345",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Dense Feature Tracking of Atmospheric Winds with Deep Optical Flow",
+  "doi": "10.1145/3534678.3539345",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290876003",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Atmospheric winds key physical phenomenon impacting natural hazards energy transport ocean currents large-scale circulation ecosystem fluxes..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Due lack large-scale satellite-based observations leverage high-resolution numerical simulations NASA GEOS-5 Nature Run perform supervised learning transfer satellite.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Observing winds complex process presents large gap NASA Earth Observation System..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work presents WindFlow first machine learning based system feature tracking atmospheric motion optical flow..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Due lack large-scale satellite-based observations leverage high-resolution numerical simulations NASA GEOS-5 Nature Run perform supervised learning transfer satellite.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent imaging hardware software advancements have enabled use numerical optical flow techniques produce accurate dense vector fields outperforming.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate approach deep learning based optical flow scales ultra-high-resolution images size 2881 x5760 less m/s bias 2.5 average.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results held out numerical outputs show RAFT good performance each spatial temporal physical dimensions..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Atmospheric winds key physical phenomenon impacting natural hazards energy transport ocean currents large-scale circulation ecosystem fluxes..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Due lack large-scale satellite-based observations leverage high-resolution numerical simulations NASA GEOS-5 Nature Run perform supervised learning transfer satellite.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Observing winds complex process presents large gap NASA Earth Observation System..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work presents WindFlow first machine learning based system feature tracking atmospheric motion optical flow..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent imaging hardware software advancements have enabled use numerical optical flow techniques produce accurate dense vector fields outperforming.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

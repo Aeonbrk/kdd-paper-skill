@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817595",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FinBench: A Benchmarking Framework for Stock Market Prediction and Portfolio Allocation",
+  "doi": "10.1145/3770855.3817595",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7208794150",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Research stock market prediction relies public datasets develop compare learning-based models..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing datasets often limited price-based information cover restricted set assets time periods provide only subset heterogeneous signals.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Research stock market prediction relies public datasets develop compare learning-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address challenges present FinBench benchmarking framework designed support reproducible evaluation stock market prediction models heterogeneous financial data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Model outputs evaluated both task prediction level through portfolio-based strategies under consistent experimental settings..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Moreover differences data preprocessing task formulation evaluation protocols make experimental results difficult reproduce hard compare across studies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address challenges present FinBench benchmarking framework designed support reproducible evaluation stock market prediction models heterogeneous financial data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving FinBench integrates historical prices inter-company relations macroeconomic indicators financial news within unified data construction pipeline standardizes feature extraction.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Research stock market prediction relies public datasets develop compare learning-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing datasets often limited price-based information cover restricted set assets time periods provide only subset heterogeneous signals.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Research stock market prediction relies public datasets develop compare learning-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges present FinBench benchmarking framework designed support reproducible evaluation stock market prediction models heterogeneous financial data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Moreover differences data preprocessing task formulation evaluation protocols make experimental results difficult reproduce hard compare across studies..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

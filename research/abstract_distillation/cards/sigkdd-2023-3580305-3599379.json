@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599379",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "HiMacMic: Hierarchical Multi-Agent Deep Reinforcement Learning with Dynamic Asynchronous Macro Strategy",
+  "doi": "10.1145/3580305.3599379",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568329",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multi-agent deep reinforcement learning MADRL has been widely used many scenarios robotics game AI..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods mainly focus optimization agents micro policies without considering macro strategy..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose hierarchical MADRL framework called HiMacMic dynamic asynchronous macro strategy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving validate HiMacMic four widely used benchmarks namely Overcooked GRF SMAC SMAC-v2 nine chosen scenarios..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result they cannot perform well complex sparse reward scenarios like StarCraft Multi-Agent Challenge SMAC Google Research Football GRF.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results show HiMacMic not only converges faster achieves higher ten existing approaches but shows adaptability different environment settings..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multi-agent deep reinforcement learning MADRL has been widely used many scenarios robotics game AI..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods mainly focus optimization agents micro policies without considering macro strategy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose hierarchical MADRL framework called HiMacMic dynamic asynchronous macro strategy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving validate HiMacMic four widely used benchmarks namely Overcooked GRF SMAC SMAC-v2 nine chosen scenarios..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result they cannot perform well complex sparse reward scenarios like StarCraft Multi-Agent Challenge SMAC Google Research Football GRF.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

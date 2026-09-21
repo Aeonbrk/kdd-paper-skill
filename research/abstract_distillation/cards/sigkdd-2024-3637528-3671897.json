@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671897",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model",
+  "doi": "10.1145/3637528.3671897",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863519",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs show amazing performance many domain-specific tasks after fine-tuning some appropriate data..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many domain-specific data privately distributed across multiple owners..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving end introduce FedBiOT resource-efficient LLM fine-tuning approach FL..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically method involves server generating compressed LLM aligning performance full model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Subsequently clients fine-tune lightweight yet important part compressed model referred adapter..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments LLaMA-2 empirically showing adapter has exceptional performance when reintegrated global LLM..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results indicate proposed FedBiOT significantly reduces resource consumption compared existing benchmarks all achieving comparable performance levels..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs show amazing performance many domain-specific tasks after fine-tuning some appropriate data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many domain-specific data privately distributed across multiple owners..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end introduce FedBiOT resource-efficient LLM fine-tuning approach FL..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically method involves server generating compressed LLM aligning performance full model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct extensive experiments LLaMA-2 empirically showing adapter has exceptional performance when reintegrated global LLM..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

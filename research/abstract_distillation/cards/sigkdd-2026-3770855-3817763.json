@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817763",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SAKE: Self-aware Knowledge Exploitation-Exploration for Grounded Multimodal Named Entity Recognition",
+  "doi": "10.1145/3770855.3817763",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196940993",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Grounded Multimodal Named Entity Recognition GMNER aims extract entities localize visual regions within image-text pairs serving pivotal capability.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving open-world social media platforms GMNER remains challenging due prevalence long-tailed rapidly evolving unseen entities..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving However heuristic retrieval often introduces noisy conflicting evidence degrades precision known entities solely internal exploitation constrained knowledge boundaries.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose SAKE end-to-end agentic framework harmonizes internal knowledge exploitation external exploration via self-aware reasoning adaptive search tool.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving implement via two-stage training paradigm..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However heuristic retrieval often introduces noisy conflicting evidence degrades precision known entities solely internal exploitation constrained knowledge boundaries.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments two widely used social media benchmarks demonstrate SAKE effectiveness..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Grounded Multimodal Named Entity Recognition GMNER aims extract entities localize visual regions within image-text pairs serving pivotal capability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving open-world social media platforms GMNER remains challenging due prevalence long-tailed rapidly evolving unseen entities..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However heuristic retrieval often introduces noisy conflicting evidence degrades precision known entities solely internal exploitation constrained knowledge boundaries.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose SAKE end-to-end agentic framework harmonizes internal knowledge exploitation external exploration via self-aware reasoning adaptive search tool.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However heuristic retrieval often introduces noisy conflicting evidence degrades precision known entities solely internal exploitation constrained knowledge boundaries.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

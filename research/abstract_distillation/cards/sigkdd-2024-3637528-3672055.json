@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672055",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "GinAR: An End-To-End Multivariate Time Series Forecasting Model Suitable for Variable Missing",
+  "doi": "10.1145/3637528.3672055",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857089",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multivariate time series forecasting MTSF crucial decision-making precisely forecast future values/trends based complex relationships identified historical observations multiple.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recently Spatial-Temporal Graph Neural Networks STGNNs have gradually become theme MTSF model powerful capability mining dependencies but almost.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently Spatial-Temporal Graph Neural Networks STGNNs have gradually become theme MTSF model powerful capability mining dependencies but almost.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address problem paper propose novel Graph Interpolation Attention Recursive Network named GinAR precisely model spatial-temporal dependencies over limited.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving case STGNNs only utilize subset normal variables easily suffer incorrect spatial-temporal dependency modeling issue resulting degradation forecasting performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted five real-world datasets demonstrate GinAR outperforms 11 SOTA baselines even when 90% variables missing still.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multivariate time series forecasting MTSF crucial decision-making precisely forecast future values/trends based complex relationships identified historical observations multiple.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recently Spatial-Temporal Graph Neural Networks STGNNs have gradually become theme MTSF model powerful capability mining dependencies but almost.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently Spatial-Temporal Graph Neural Networks STGNNs have gradually become theme MTSF model powerful capability mining dependencies but almost.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem paper propose novel Graph Interpolation Attention Recursive Network named GinAR precisely model spatial-temporal dependencies over limited.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving case STGNNs only utilize subset normal variables easily suffer incorrect spatial-temporal dependency modeling issue resulting degradation forecasting performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

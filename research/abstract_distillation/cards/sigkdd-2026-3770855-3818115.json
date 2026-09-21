@@ -1,0 +1,166 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818115",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "ZeroRel: Relational Reasoning via Graph-guided Large Language Models",
+  "doi": "10.1145/3770855.3818115",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196965405",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Relational databases RDBs play essential role real-world scenarios e-commerce social media industry..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving one thing natural language describe RDBs not only causes excessive context length but leads loss critical structural information..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently rapid development Large Language Models LLMs exploit RDBs has become significant trend..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Plenty works have been proposed use natural language describe RDBs graph neural networks GNNs embed relations before applying.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Therefore one important question remains unsolved How leverage capability LLMs realize robust relational reasoning RDBs response propose novel.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite achieved progress existing works still suffer inevitable weaknesses..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving GrPA uses heterogeneous GNN encode multi-table relational structures projects resulting structural embeddings semantic space LLMs..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally extensive experiments over datasets 12 downstream tasks demonstrate superiority ZeroRel..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Relational databases RDBs play essential role real-world scenarios e-commerce social media industry..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving one thing natural language describe RDBs not only causes excessive context length but leads loss critical structural information..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently rapid development Large Language Models LLMs exploit RDBs has become significant trend..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Plenty works have been proposed use natural language describe RDBs graph neural networks GNNs embed relations before applying.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite achieved progress existing works still suffer inevitable weaknesses..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

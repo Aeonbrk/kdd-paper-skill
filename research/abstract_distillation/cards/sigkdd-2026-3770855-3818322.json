@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818322",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Bending the Scaling Law Curve in Large-Scale Recommendation Systems",
+  "doi": "10.1145/3770855.3818322",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196925610",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning user interaction history through sequential models has become cornerstone large-scale recommender systems..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many recent approaches rely heavily cross-attention mechanisms address quadratic computational bottleneck sequential modeling limit representational power gained.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving present ULTRA-HSTU novel sequential recommendation model developed through end-to-end system co-design..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving innovating design input sequences sparse attention mechanisms model topology ULTRA-HSTU achieves substantial improvements both quality efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving innovating design input sequences sparse attention mechanisms model topology ULTRA-HSTU achieves substantial improvements both quality efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive benchmarking demonstrates ULTRA-HSTU achieves remarkable scaling efficiency gains over faster training 21 inference compared conventional models delivering.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving solution fully deployed scale serving billions users daily driving significant 4% 8% consumption engagement improvements real-world production environments..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning user interaction history through sequential models has become cornerstone large-scale recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many recent approaches rely heavily cross-attention mechanisms address quadratic computational bottleneck sequential modeling limit representational power gained.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present ULTRA-HSTU novel sequential recommendation model developed through end-to-end system co-design..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving innovating design input sequences sparse attention mechanisms model topology ULTRA-HSTU achieves substantial improvements both quality efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving innovating design input sequences sparse attention mechanisms model topology ULTRA-HSTU achieves substantial improvements both quality efficiency..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

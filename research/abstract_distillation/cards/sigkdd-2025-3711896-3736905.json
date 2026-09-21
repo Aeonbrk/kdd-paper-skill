@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736905",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Depth-Adaptive Graph Neural Networks via Learnable Bakry-Émery Curvature",
+  "doi": "10.1145/3711896.3736905",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825735",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Neural Networks GNNs have demonstrated strong representation learning capabilities graph-based tasks..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing approaches primarily focus discrete graph topology overlooking diffusion dynamics task-specific dependencies essential effective learning..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address propose learnable integration Bakry- mery curvature captures both structural diffusion aspects information propagation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving develop efficient learnable approximation strategy making curvature computation scalable large graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore introduce adaptive depth mechanism dynamically adjusts message-passing layers per vertex based curvature ensuring efficient propagation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph Neural Networks GNNs have demonstrated strong representation learning capabilities graph-based tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments diverse downstream tasks validate effectiveness approach showing proposed depth-adaptive mechanism consistently uplifts performance wide range GNN.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Neural Networks GNNs have demonstrated strong representation learning capabilities graph-based tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing approaches primarily focus discrete graph topology overlooking diffusion dynamics task-specific dependencies essential effective learning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose learnable integration Bakry- mery curvature captures both structural diffusion aspects information propagation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving develop efficient learnable approximation strategy making curvature computation scalable large graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph Neural Networks GNNs have demonstrated strong representation learning capabilities graph-based tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

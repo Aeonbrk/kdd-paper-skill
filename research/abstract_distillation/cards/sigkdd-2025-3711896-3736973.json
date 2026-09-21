@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736973",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "FusionSAM: Visual Multi-Modal Learning with Segment Anything Model",
+  "doi": "10.1145/3711896.3736973",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825756",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal image fusion semantic segmentation critical autonomous driving..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite advancements current models often struggle segmenting densely packed elements due lack comprehensive fusion features guidance during training..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Segment Anything Model SAM allows precise control during fine-tuning through flexible prompting encoder potential remains largely unexplored context.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce SAM multimodal image segmentation first time proposing novel framework combines Latent Space Token Generation LSTG Fusion.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically obtain latent space features both modalities through vector quantization embed them cross-attention-based inter-domain fusion module establish long-range.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple public datasets demonstrate method significantly outperforms SAM SAM2 multimodal autonomous driving scenarios achieving average improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal image fusion semantic segmentation critical autonomous driving..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite advancements current models often struggle segmenting densely packed elements due lack comprehensive fusion features guidance during training..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Segment Anything Model SAM allows precise control during fine-tuning through flexible prompting encoder potential remains largely unexplored context.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce SAM multimodal image segmentation first time proposing novel framework combines Latent Space Token Generation LSTG Fusion.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments multiple public datasets demonstrate method significantly outperforms SAM SAM2 multimodal autonomous driving scenarios achieving average improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

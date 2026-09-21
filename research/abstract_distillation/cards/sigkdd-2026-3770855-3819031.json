@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819031",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Language-Enhanced Representation Learning for Single-Cell Transcriptomics",
+  "doi": "10.1145/3770855.3819031",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196966009",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Single-cell RNA sequencing scRNA-seq offers detailed insights cellular heterogeneity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitation propose scMMGPT novel multimodal framework designed language-enhanced representation learning single-cell transcriptomics..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unlike existing methods scMMGPT employs robust cell representation extraction preserving quantitative gene expression data introduces innovative two-stage pre-training.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Notably scMMGPT achieves relative improvements 8.13% clustering COVID-19 dataset 13.58% annotation Mutiple Sclerosis 2.93% perturbation prediction Adamson dataset..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Unlike existing methods scMMGPT employs robust cell representation extraction preserving quantitative gene expression data introduces innovative two-stage pre-training.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across nine datasets five tasks show scMMGPT significantly outperforms unimodal multimodal baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably scMMGPT achieves relative improvements 8.13% clustering COVID-19 dataset 13.58% annotation Mutiple Sclerosis 2.93% perturbation prediction Adamson dataset..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Single-cell RNA sequencing scRNA-seq offers detailed insights cellular heterogeneity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitation propose scMMGPT novel multimodal framework designed language-enhanced representation learning single-cell transcriptomics..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Unlike existing methods scMMGPT employs robust cell representation extraction preserving quantitative gene expression data introduces innovative two-stage pre-training.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Unlike existing methods scMMGPT employs robust cell representation extraction preserving quantitative gene expression data introduces innovative two-stage pre-training.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

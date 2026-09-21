@@ -1,0 +1,128 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599893",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Real Time Index and Search Across Large Quantities of GNN Experts for Low Latency Online Learning",
+  "doi": "10.1145/3580305.3599893",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562553",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online learning powerful technique allows models adjust concept drift dynamically changing graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Conventional spatio-temporal incremental MoE frameworks struggle poor inference accuracy linear time complexity when scaling experts latter leading prohibitively.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue introduce Indexed Router novel method categorizes experts structured hierarchy called tree..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work focuses scaling graph neural network mixture expert MoE models real-time traffic speed prediction road networks meeting high.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Conventional spatio-temporal incremental MoE frameworks struggle poor inference accuracy linear time complexity when scaling experts latter leading prohibitively.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments show time savings do not compromise inference accuracy Indexed Router outperforms state-of-the-art spatio-temporal incremental MoE models terms.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online learning powerful technique allows models adjust concept drift dynamically changing graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Conventional spatio-temporal incremental MoE frameworks struggle poor inference accuracy linear time complexity when scaling experts latter leading prohibitively.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue introduce Indexed Router novel method categorizes experts structured hierarchy called tree..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work focuses scaling graph neural network mixture expert MoE models real-time traffic speed prediction road networks meeting high.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

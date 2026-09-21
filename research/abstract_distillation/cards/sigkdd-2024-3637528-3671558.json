@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671558",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "TrajRecovery: An Efficient Vehicle Trajectory Recovery Framework based on Urban-Scale Traffic Camera Records",
+  "doi": "10.1145/3637528.3671558",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863355",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate vehicle trajectory recovery enables providing indispensable data foundations intelligent urban transportation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods face two challenges inability process city-wide vehicle trajectories ii dependence substantial amount accurate GPS model.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing methods face two challenges inability process city-wide vehicle trajectories ii dependence substantial amount accurate GPS model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address issues propose novel trajectory recovery system based vehicle snapshots captured traffic cameras named TrajRecovery..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving TrajRecovery consists three main components Preprocessor processes traffic cameras vehicle snapshots provide necessary data trajectory recovery ii Spatial.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate TrajRecovery two real datasets city China demonstrating substantial performance gains compared state-of-the-art methods..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore system deployed practical applications Huawei Company achieving extraordinary profits business scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate vehicle trajectory recovery enables providing indispensable data foundations intelligent urban transportation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods face two challenges inability process city-wide vehicle trajectories ii dependence substantial amount accurate GPS model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing methods face two challenges inability process city-wide vehicle trajectories ii dependence substantial amount accurate GPS model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose novel trajectory recovery system based vehicle snapshots captured traffic cameras named TrajRecovery..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate TrajRecovery two real datasets city China demonstrating substantial performance gains compared state-of-the-art methods..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

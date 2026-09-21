@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817674",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Accelerating Graph-Based RAG Retrieval via Locality-Aware Device-Cloud Collaboration",
+  "doi": "10.1145/3770855.3817674",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197012290",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-Augmented Generation RAG grounds large language models external knowledge has become key technique knowledge-intensive tasks..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving knowledge bases continue scale however retrieval stage increasingly dominates end-to-end latency limiting responsiveness RAG systems..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper identify empirically validate previously underexplored property RAG workloads strong per-user query locality individual users queries concentrate small.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated observation propose Lever locality-aware collaborative retrieval framework exploits query locality accelerate graph-based RAG retrieval..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple RAG benchmarks demonstrate Lever significantly reduces retrieval latency improves throughput preserving quality highlighting query locality.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-Augmented Generation RAG grounds large language models external knowledge has become key technique knowledge-intensive tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving knowledge bases continue scale however retrieval stage increasingly dominates end-to-end latency limiting responsiveness RAG systems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper identify empirically validate previously underexplored property RAG workloads strong per-user query locality individual users queries concentrate small.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated observation propose Lever locality-aware collaborative retrieval framework exploits query locality accelerate graph-based RAG retrieval..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments multiple RAG benchmarks demonstrate Lever significantly reduces retrieval latency improves throughput preserving quality highlighting query locality.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

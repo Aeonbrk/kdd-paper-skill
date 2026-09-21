@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819034",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Multi-Modal Hierarchical Retrieval-Augmented Generation for Document Question Answering",
+  "doi": "10.1145/3770855.3819034",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196994968",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Document Question Answering DocQA task necessitates synergistic interpretation visual textual information embedded within documents..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although Retrieval-Augmented Generation RAG has enhanced capabilities Large Vision-Language Models LVLMs existing approaches still encounter significant bottlenecks when.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges introduce MMHRAG novel Multi-Modal Hierarchical Retrieval-Augmented Generation framework achieves cross-modal interaction DocQA first time..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First construct cross-modal hierarchical retrieval tree via bottom-up recursive clustering summarization mechanism..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore design Summarizing Agent resolve logical conflicts information redundancy granularity discrepancies among retrieved cross-modal evidence..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address challenges introduce MMHRAG novel Multi-Modal Hierarchical Retrieval-Augmented Generation framework achieves cross-modal interaction DocQA first time..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across multiple multi-modal long-document benchmarks demonstrate MMHRAG significantly outperforms state-of-the-art baselines achieving superior accuracy consistency complex.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Document Question Answering DocQA task necessitates synergistic interpretation visual textual information embedded within documents..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although Retrieval-Augmented Generation RAG has enhanced capabilities Large Vision-Language Models LVLMs existing approaches still encounter significant bottlenecks when.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce MMHRAG novel Multi-Modal Hierarchical Retrieval-Augmented Generation framework achieves cross-modal interaction DocQA first time..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First construct cross-modal hierarchical retrieval tree via bottom-up recursive clustering summarization mechanism..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address challenges introduce MMHRAG novel Multi-Modal Hierarchical Retrieval-Augmented Generation framework achieves cross-modal interaction DocQA first time..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671941",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Embedding Two-View Knowledge Graphs with Class Inheritance and Structural Similarity",
+  "doi": "10.1145/3637528.3671941",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857094",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Numerous large-scale knowledge graphs KGs fundamentally represent two-view ontology-view KG abstract classes ontology instance-view specific collections entities instantiated.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing two-view KG embedding models neglect those hierarchies provides necessity reflect class inheritance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose novel two-view KG embedding model CISS considering Class Inheritance Structural Similarity between KGs..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving deal class inheritance utilize sets each composed sibling classes learn fine-grained representations..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition configure virtual instance-view KG clustered instances compare subgraph representations two-view KGs enhance structural similarity between them..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results show superior performance compared existing models..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Numerous large-scale knowledge graphs KGs fundamentally represent two-view ontology-view KG abstract classes ontology instance-view specific collections entities instantiated.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing two-view KG embedding models neglect those hierarchies provides necessity reflect class inheritance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose novel two-view KG embedding model CISS considering Class Inheritance Structural Similarity between KGs..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving deal class inheritance utilize sets each composed sibling classes learn fine-grained representations..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results show superior performance compared existing models..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

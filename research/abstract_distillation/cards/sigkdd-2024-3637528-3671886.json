@@ -1,0 +1,160 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671886",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Advancing Molecule Invariant Representation via Privileged Substructure Identification",
+  "doi": "10.1145/3637528.3671886",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863323",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks GNNs have revolutionized molecule representation learning modeling molecules graphs atoms represented nodes chemical bonds edges..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving But realm molecules core functional groups forming privileged substructures dominate molecular properties remain invariant across distribution shifts..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose novel framework named MILI..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically first formalize molecule invariant learning based privileged substructure identification introduce invariance constraint..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building foundation theoretically establish two criteria environment splits conducive molecule invariant learning..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving unified MILI guarantees molecule invariant learning environment split achieve mutual enhancement theoretical analysis network design..",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across eight benchmarks validate effectiveness MILI compared state-of-the-art baselines..",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks GNNs have revolutionized molecule representation learning modeling molecules graphs atoms represented nodes chemical bonds edges..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving But realm molecules core functional groups forming privileged substructures dominate molecular properties remain invariant across distribution shifts..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose novel framework named MILI..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically first formalize molecule invariant learning based privileged substructure identification introduce invariance constraint..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving unified MILI guarantees molecule invariant learning environment split achieve mutual enhancement theoretical analysis network design..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

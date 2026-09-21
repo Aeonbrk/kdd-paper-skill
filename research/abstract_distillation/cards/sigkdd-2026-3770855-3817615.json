@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817615",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond Item Selection: Rethinking Ability Evolution in Computerized Adaptive Testing",
+  "doi": "10.1145/3770855.3817615",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197000794",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Computerized Adaptive Testing CAT core assessment technique intelligent education aims enhance efficiency precision learner evaluation adaptively selecting questions.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However evolutionary dynamics examinee abilities underlying updating mechanisms throughout adaptive testing process have received limited attention..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Indeed recent years have witnessed substantial progress design refinement fundamental cognitive diagnosis models question selection strategies leading promising.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Specifically begin conducting approximation analysis compare changes ability estimates induced two strategies followed theoretical update trajectories through lens.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving trade-off adaptability stability during assessment process propose SUAT Smooth-step Updating strategy effective Adaptive Testing..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Computerized Adaptive Testing CAT core assessment technique intelligent education aims enhance efficiency precision learner evaluation adaptively selecting questions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Indeed recent years have witnessed substantial progress design refinement fundamental cognitive diagnosis models question selection strategies leading promising.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving end paper investigates impact update mechanisms varying granularities accuracy ability estimation particular focus step-based batch-based strategies context assessment.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Computerized Adaptive Testing CAT core assessment technique intelligent education aims enhance efficiency precision learner evaluation adaptively selecting questions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However evolutionary dynamics examinee abilities underlying updating mechanisms throughout adaptive testing process have received limited attention..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Indeed recent years have witnessed substantial progress design refinement fundamental cognitive diagnosis models question selection strategies leading promising.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically begin conducting approximation analysis compare changes ability estimates induced two strategies followed theoretical update trajectories through lens.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Computerized Adaptive Testing CAT core assessment technique intelligent education aims enhance efficiency precision learner evaluation adaptively selecting questions.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

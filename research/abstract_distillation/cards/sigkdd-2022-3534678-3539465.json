@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539465",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "A Generalized Backward Compatibility Metric",
+  "doi": "10.1145/3534678.3539465",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875291",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retraining classifier new data inseparable ML/AI applications but most existing ML methods do not take account backward compatibility.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Retraining classifier new data inseparable ML/AI applications but most existing ML methods do not take account backward compatibility.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper first analyze existing backward compatibility metrics reveal essentially assess same quantity between old new models..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition obtain unified view backward compatibility metrics propose generalized GBC metric represent existing metrics..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving formulate learning objective based GBC metric derive estimation error bound result applied one existing methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving although overall performance new classifier improved users will confused wrong predictions especially when old correct same samples..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving formulate learning objective based GBC metric derive estimation error bound result applied one existing methods..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving then design backward compatibility metric imbalanced classification basis GBC empirically demonstrate practicality proposed metric..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retraining classifier new data inseparable ML/AI applications but most existing ML methods do not take account backward compatibility.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Retraining classifier new data inseparable ML/AI applications but most existing ML methods do not take account backward compatibility.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first analyze existing backward compatibility metrics reveal essentially assess same quantity between old new models..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving addition obtain unified view backward compatibility metrics propose generalized GBC metric represent existing metrics..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving although overall performance new classifier improved users will confused wrong predictions especially when old correct same samples..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

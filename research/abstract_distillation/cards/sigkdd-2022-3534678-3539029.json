@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539029",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "DuARE: Automatic Road Extraction with Aerial Images and Trajectory Data at Baidu Maps",
+  "doi": "10.1145/3534678.3539029",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290945270",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines task road extraction has aroused remarkable attention due critical role facilitating urban development up-to-date map maintenance widespread applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving task road extraction has aroused remarkable attention due critical role facilitating urban development up-to-date map maintenance widespread applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper present automatic road extraction solution named DuARE designed exploit multimodal knowledge underlying fully manner..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Specifically collect large-scale real-world dataset paired aerial image trajectory data covering over 33 000 km2 80 cities..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally cross-check-based fusion approach keeps optimal state each modality revisiting original trajectory map guidance aerial predictions further improve.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted large-scale real-world datasets demonstrate superiority effectiveness DuARE..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines task road extraction has aroused remarkable attention due critical role facilitating urban development up-to-date map maintenance widespread applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving task road extraction has aroused remarkable attention due critical role facilitating urban development up-to-date map maintenance widespread applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present automatic road extraction solution named DuARE designed exploit multimodal knowledge underlying fully manner..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally cross-check-based fusion approach keeps optimal state each modality revisiting original trajectory map guidance aerial predictions further improve.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,116 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737395",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "ZooplanktonBench: A Geo-Aware Zooplankton Recognition and Classification Dataset from Marine Observations",
+  "doi": "10.1145/3711896.3737395",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877055",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Plankton small drifting organisms found throughout world oceans indicators ocean health..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work present ZooplanktonBench benchmark dataset containing images videos zooplankton associated rich geospatial metadata e.g. geographic coordinates depth etc..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset presents unique challenges opportunities state-of-the-art computer vision systems evolve improve visual understanding dynamic environments characterized significant variation.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving dataset presents unique challenges opportunities state-of-the-art computer vision systems evolve improve visual understanding dynamic environments characterized significant variation.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Plankton small drifting organisms found throughout world oceans indicators ocean health..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work present ZooplanktonBench benchmark dataset containing images videos zooplankton associated rich geospatial metadata e.g. geographic coordinates depth etc..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving dataset presents unique challenges opportunities state-of-the-art computer vision systems evolve improve visual understanding dynamic environments characterized significant variation.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving dataset presents unique challenges opportunities state-of-the-art computer vision systems evolve improve visual understanding dynamic environments characterized significant variation.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

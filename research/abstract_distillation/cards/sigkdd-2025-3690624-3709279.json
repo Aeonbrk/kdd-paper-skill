@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709279",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Achieving Nearly-Optimal Regret and Sample Complexity in Dueling Bandits with Applications in Online Recommendations",
+  "doi": "10.1145/3690624.3709279",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409157911",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel framework demonstrates near-consistency RM BAI dueling bandits reducing sequential noisy identification problem..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based formulation propose black-box reduction technique transforms any RM algorithm BAI prove optimal achieves sample complexity nearly-optimal cumulative.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Two primary objectives typically considered dueling bandits Regret Minimization RM aims improve overall quality selected arms over time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving instance RM exemplified objective consistently providing high-quality items BAI reduces required human feedback minimizing number necessary comparisons..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel framework demonstrates near-consistency RM BAI dueling bandits reducing sequential noisy identification problem..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving focus dueling bandits problem has recently drawn significant attention due wide-ranging applications online recommendation systems alignment large language.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

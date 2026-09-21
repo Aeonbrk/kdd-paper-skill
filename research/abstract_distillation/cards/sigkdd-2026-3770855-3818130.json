@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818130",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Permissive-Washing in the Open AI Supply Chain: A Large-Scale Audit of License Integrity",
+  "doi": "10.1145/3770855.3818130",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196937752",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Permissive licenses like MIT Apache-2.0 BSD-3-Clause dominate open-source AI signaling artifacts models datasets code freely used modified redistributed..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However licenses carry mandatory requirements include full license text provide copyright notice preserve upstream attribution remain unverified scale..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving call phenomenon permissive washing labeling AI artifacts free use omitting legal documentation required make label actionable..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving assess how widespread permissive washing AI supply chain empirically audit 294 012 dataset model application chains spanning 198.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving find astonishing 96.9% datasets 96.4% models lack required license text only 2.1% 2.6% satisfy both copyright requirements even.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Permissive licenses like MIT Apache-2.0 BSD-3-Clause dominate open-source AI signaling artifacts models datasets code freely used modified redistributed..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However licenses carry mandatory requirements include full license text provide copyright notice preserve upstream attribution remain unverified scale..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving call phenomenon permissive washing labeling AI artifacts free use omitting legal documentation required make label actionable..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving assess how widespread permissive washing AI supply chain empirically audit 294 012 dataset model application chains spanning 198.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

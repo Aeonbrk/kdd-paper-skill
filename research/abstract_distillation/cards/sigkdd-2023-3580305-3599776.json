@@ -1,0 +1,70 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599776",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Auto-Validate by-History: Auto-Program Data Quality Constraints to Validate Recurring Data Pipelines",
+  "doi": "10.1145/3580305.3599776",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568252",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data pipelines widely employed modern enterprises power variety Machine-Learning ML Business-Intelligence BI applications..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However data quality DQ issues often creep recurring pipelines because upstream schema drift over time..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data pipelines widely employed modern enterprises power variety Machine-Learning ML Business-Intelligence BI applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However data quality DQ issues often creep recurring pipelines because upstream schema drift over time..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736959",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "FEZE: Alignment-Flexible Zero-Shot Vertical Federated Learning",
+  "doi": "10.1145/3711896.3736959",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825893",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Different existing vertical federated learning VFL zero-shot ZVFL under-explored scenario test classes absent partial parties training sets..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However both limited aligned samples different seen classes pose several unique challenges ZVFL..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving primary challenge lies seen-to-unseen transfer insufficiency scarcity aligned samples diverse seen-class distributions across parties severely limits model capability.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose FEZE alignment-flexible zero-shot vertical federated learning framework..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically introduce relation learning network capture class-feature relationships between class labels feature representations across heterogeneous spaces enabling unseen.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Moreover multi-party bias inconsistency arises different parties tend biased towards own seen classes during prediction leading skewed classification.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally propose alignment-flexible adaptive aggregation strategy achieves adaptively based inconsistent prediction spaces arbitrary number aligned samples..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Theoretical analysis proves FEZE achieve convergence rate.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Different existing vertical federated learning VFL zero-shot ZVFL under-explored scenario test classes absent partial parties training sets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However both limited aligned samples different seen classes pose several unique challenges ZVFL..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving primary challenge lies seen-to-unseen transfer insufficiency scarcity aligned samples diverse seen-class distributions across parties severely limits model capability.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose FEZE alignment-flexible zero-shot vertical federated learning framework..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Moreover multi-party bias inconsistency arises different parties tend biased towards own seen classes during prediction leading skewed classification.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

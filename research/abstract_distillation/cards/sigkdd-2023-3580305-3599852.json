@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599852",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Knowledge Based Prohibited Item Detection on Heterogeneous Risk Graphs",
+  "doi": "10.1145/3580305.3599852",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567649",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines popularity online shopping recent years various prohibited items continuously attacking e-commerce portals..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance models highly limited since domain knowledge indispensable identifying prohibited items but ignored methods..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate negative impact limited supervision adversarial behaviors malicious sellers current state-of-the-art work mainly introduces heterogeneous graph neural network.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper propose novel Knowledge Based Prohibited item Detection system named KBPD break through limitation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving make full use rich risk knowledge proposed method introduces Risk-Domain Graph named RDKG encoded path-based neural network method..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving mitigate negative impact limited supervision adversarial behaviors malicious sellers current state-of-the-art work mainly introduces heterogeneous graph neural network.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore utilize information both RDKG Heterogeneous Risk Graph named HRG interactive fusion framework proposed further improves detection performance..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Both offline online experimental results consistently demonstrate KBPD outperforms state-of-the-art baselines..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines popularity online shopping recent years various prohibited items continuously attacking e-commerce portals..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance models highly limited since domain knowledge indispensable identifying prohibited items but ignored methods..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate negative impact limited supervision adversarial behaviors malicious sellers current state-of-the-art work mainly introduces heterogeneous graph neural network.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel Knowledge Based Prohibited item Detection system named KBPD break through limitation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving mitigate negative impact limited supervision adversarial behaviors malicious sellers current state-of-the-art work mainly introduces heterogeneous graph neural network.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

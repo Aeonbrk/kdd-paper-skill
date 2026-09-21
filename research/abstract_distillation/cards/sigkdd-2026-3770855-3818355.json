@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818355",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Deep-learning Causal Retrieval Optimization for Efficient e-commerce Distribution in Pinterest",
+  "doi": "10.1145/3770855.3818355",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7169671941",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pinterest people turn inspiration action users browse ideas then take steps toward realization often discovering shoppable content..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving support journey must distribute commerce content when helps not distracts..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving frame causal decision triggering shopping candidate generators early retrieval deploy production system Pinterest learns personalized contextualized policies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving deep multi-task model jointly predicts outcomes uplift multiple events trained doubly-robust pseudo-outcome alongside calibrated outcome losses stable single-robust.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving randomized data logging supplies counterfactual coverage model evaluated both regular reverse metrics full assessment..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving linear-time offline replay designed select thresholds forecast policy impact extremely high consistency online results..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving web scale cut shopping triggers up 85% holding key sessions neutral improving important total 0.26% Pin saves 1.10%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pinterest people turn inspiration action users browse ideas then take steps toward realization often discovering shoppable content..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving support journey must distribute commerce content when helps not distracts..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving frame causal decision triggering shopping candidate generators early retrieval deploy production system Pinterest learns personalized contextualized policies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving randomized data logging supplies counterfactual coverage model evaluated both regular reverse metrics full assessment..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

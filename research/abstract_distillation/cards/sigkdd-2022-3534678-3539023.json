@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539023",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "ChemicalX: A Deep Learning Library for Drug Pair Scoring",
+  "doi": "10.1145/3534678.3539023",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943352",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper introduce ChemicalX PyTorch-based deep learning library designed providing range state art models solve drug pair scoring task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce ChemicalX PyTorch-based deep learning library designed providing range state art models solve drug pair scoring task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving primary objective library make deep drug pair scoring models accessible machine learning researchers practitioners streamlined framework..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving design ChemicalX reuses existing high level model training utilities geometric deep learning chemistry layers PyTorch ecosystem..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving range experiments real world drug-drug interaction polypharmacy side effect combination synergy prediction tasks demonstrate models available ChemicalX effective.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper introduce ChemicalX PyTorch-based deep learning library designed providing range state art models solve drug pair scoring task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce ChemicalX PyTorch-based deep learning library designed providing range state art models solve drug pair scoring task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving primary objective library make deep drug pair scoring models accessible machine learning researchers practitioners streamlined framework..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving range experiments real world drug-drug interaction polypharmacy side effect combination synergy prediction tasks demonstrate models available ChemicalX effective.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

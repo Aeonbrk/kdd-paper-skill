@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780226",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Wukong Framework for Not Safe For Work Detection in Text-to-Image Systems",
+  "doi": "10.1145/3770854.3780226",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416551648",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Text-to-Image T2I generation popular AI-generated content AIGC technology enabling diverse creative image synthesis..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However some outputs contain Not Safe Work NSFW content e.g. violence violating community guidelines..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing external safeguards fall two types text filters analyze user prompts but overlook T2I model-specific variations prone adversarial.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving observe early denoising steps define semantic layout image cross-attention layers U-Net crucial aligning text regions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based insights propose Wukong transformer-based NSFW detection framework leverages intermediate outputs early denoising steps reuses U-Net pre-trained cross-attention.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving introduce new dataset containing prompts seeds image-specific NSFW labels evaluate Wukong two public benchmarks..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results show Wukong significantly outperforms text-based safeguards achieves comparable accuracy image filters offering much greater efficiency..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Text-to-Image T2I generation popular AI-generated content AIGC technology enabling diverse creative image synthesis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However some outputs contain Not Safe Work NSFW content e.g. violence violating community guidelines..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing external safeguards fall two types text filters analyze user prompts but overlook T2I model-specific variations prone adversarial.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving observe early denoising steps define semantic layout image cross-attention layers U-Net crucial aligning text regions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving introduce new dataset containing prompts seeds image-specific NSFW labels evaluate Wukong two public benchmarks..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

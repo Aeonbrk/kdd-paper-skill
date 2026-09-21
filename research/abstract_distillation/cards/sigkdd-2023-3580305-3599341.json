@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599341",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Fairness-Aware Continuous Predictions of Multiple Analytics Targets in Dynamic Networks",
+  "doi": "10.1145/3580305.3599341",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568431",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study novel problem continuously predicting number user-subscribed continuous analytics targets CATs dynamic networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study novel problem continuously predicting number user-subscribed continuous analytics targets CATs dynamic networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving architecture includes any dynamic graph neural network model back end applied over data per CAT front models return.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving devise data filtering algorithm feeds provably optimal subset embedding space back end model front models..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving architecture includes any dynamic graph neural network model back end applied over data per CAT front models return.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Secondly ensure fairness terms query result accuracy different CATs users propose metric fairness-aware training scheduling algorithm along guarantees.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments over five real-world datasets show proposed solution effective efficient fair extensible adaptive..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study novel problem continuously predicting number user-subscribed continuous analytics targets CATs dynamic networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study novel problem continuously predicting number user-subscribed continuous analytics targets CATs dynamic networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving architecture includes any dynamic graph neural network model back end applied over data per CAT front models return.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving architecture includes any dynamic graph neural network model back end applied over data per CAT front models return.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

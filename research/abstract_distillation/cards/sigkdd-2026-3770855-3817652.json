@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817652",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SketchBuilder: Learning-Augmented Proactive Sketch Construction for Heavy Hitter Detection in Data Streams",
+  "doi": "10.1145/3770855.3817652",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196932937",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Heavy hitter detection fundamental problem data stream processing broad applications..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they largely overlook global sketch-level collisions persistently map multiple heavy hitters same memory regions..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present SketchBuilder learning-augmented framework introduces new paradigm shifting reactive adaptation proactive sketch construction..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving collisions not only degrade estimation accuracy but induce frequent structural readjustments incurring substantial overhead undermining overall efficiency..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments real-world traces demonstrate SketchBuilder achieves score 0.99 top-k detection 99.70% precision threshold-t only 100 KB memory..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Compared SOTA work reduces average absolute error up 99.81% improving both accuracy efficiency..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Heavy hitter detection fundamental problem data stream processing broad applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they largely overlook global sketch-level collisions persistently map multiple heavy hitters same memory regions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present SketchBuilder learning-augmented framework introduces new paradigm shifting reactive adaptation proactive sketch construction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving collisions not only degrade estimation accuracy but induce frequent structural readjustments incurring substantial overhead undermining overall efficiency..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

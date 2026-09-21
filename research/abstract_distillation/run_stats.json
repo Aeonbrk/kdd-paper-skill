@@ -1,0 +1,27 @@
+{
+  "completed": 3249,
+  "missing_source": 447,
+  "failed_validation": 0,
+  "by_year": {
+    "2026": {
+      "completed": 1109,
+      "missing_source": 299
+    },
+    "2025": {
+      "completed": 694,
+      "missing_source": 77
+    },
+    "2024": {
+      "completed": 561,
+      "missing_source": 1
+    },
+    "2023": {
+      "completed": 490,
+      "missing_source": 6
+    },
+    "2022": {
+      "completed": 395,
+      "missing_source": 64
+    }
+  }
+}

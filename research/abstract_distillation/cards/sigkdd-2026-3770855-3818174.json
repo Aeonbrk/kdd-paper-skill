@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818174",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models",
+  "doi": "10.1145/3770855.3818174",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197043044",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph-based tasks zero-shot setting remain significant challenge due data scarcity inability traditional Graph Neural Networks GNNs generalize unseen.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Graph-based tasks zero-shot setting remain significant challenge due data scarcity inability traditional Graph Neural Networks GNNs generalize unseen.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However employs task-agnostic one-size-fits-all subgraph extraction strategy inevitably introduces significant structural noise irrelevant neighbors edges distorts LLMs receptive.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation introduce GraphSSR novel framework designed adaptive subgraph extraction denoising zero-shot LLM-based graph reasoning..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically propose SSR pipeline dynamically tailors subgraph extraction specific contexts through Sample-Select-Reason process enabling model autonomously filter out.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent paradigm i.e. Graph-R1 overcomes aforementioned architectural dependencies adopting purely text-based format utilizing LLM-based graph reasoning showing improved.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving incorporating Authenticity-Reinforced Denoising-Reinforced RL guide model achieve accurate predictions parsimonious denoised subgraphs reasoning..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across multiple benchmarks demonstrate GraphSSR significantly outperforms state-of-the-art methods highlighting necessity adaptive subgraph denoising zero-shot graph.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph-based tasks zero-shot setting remain significant challenge due data scarcity inability traditional Graph Neural Networks GNNs generalize unseen.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Graph-based tasks zero-shot setting remain significant challenge due data scarcity inability traditional Graph Neural Networks GNNs generalize unseen.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However employs task-agnostic one-size-fits-all subgraph extraction strategy inevitably introduces significant structural noise irrelevant neighbors edges distorts LLMs receptive.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation introduce GraphSSR novel framework designed adaptive subgraph extraction denoising zero-shot LLM-based graph reasoning..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent paradigm i.e. Graph-R1 overcomes aforementioned architectural dependencies adopting purely text-based format utilizing LLM-based graph reasoning showing improved.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

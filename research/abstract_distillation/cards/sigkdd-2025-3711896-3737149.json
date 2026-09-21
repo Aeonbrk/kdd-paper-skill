@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737149",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "TempASD: Temporal Anomalous Subgraph Discovery in Large-Scale Dynamic Financial Networks",
+  "doi": "10.1145/3711896.3737149",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825783",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper investigate discovery temporal anomalous subgraphs large-scale financial networks aiming identify abnormal transaction behaviors among users over time..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However poses significant challenges due diverse distribution transactions dynamic nature temporal networks absence theoretical foundation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper investigate discovery temporal anomalous subgraphs large-scale financial networks aiming identify abnormal transaction behaviors among users over time..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges introduce novel Temporal Anomalous Subgraph Discovery TempASD algorithm theoretical analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First propose temporal candidate detection module quickly pinpoints abnormal candidates detecting anomalies both structure transaction distribution..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conducted extensive evaluations against thirteen advanced competitors..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving TempASD achieves average improvement abnormal degree compared state-of-the-art efficient large-scale dynamic financial networks..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper investigate discovery temporal anomalous subgraphs large-scale financial networks aiming identify abnormal transaction behaviors among users over time..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However poses significant challenges due diverse distribution transactions dynamic nature temporal networks absence theoretical foundation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper investigate discovery temporal anomalous subgraphs large-scale financial networks aiming identify abnormal transaction behaviors among users over time..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges introduce novel Temporal Anomalous Subgraph Discovery TempASD algorithm theoretical analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conducted extensive evaluations against thirteen advanced competitors..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

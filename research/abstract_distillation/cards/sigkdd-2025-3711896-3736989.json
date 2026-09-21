@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736989",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Graph Evidential Learning for Anomaly Detection",
+  "doi": "10.1145/3711896.3736989",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877135",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph anomaly detection faces significant challenges due scarcity reliable anomaly-labeled datasets driving development unsupervised methods..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However relying solely reconstruction error anomaly detection has limitations increases sensitivity noise overfitting..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Graph anomaly detection faces significant challenges due scarcity reliable anomaly-labeled datasets driving development unsupervised methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose Graph Evidential Learning GEL probabilistic framework redefines reconstruction process through learning..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate GEL achieves state-of-the-art performance maintaining high robustness against noise structural perturbations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph anomaly detection faces significant challenges due scarcity reliable anomaly-labeled datasets driving development unsupervised methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However relying solely reconstruction error anomaly detection has limitations increases sensitivity noise overfitting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Graph anomaly detection faces significant challenges due scarcity reliable anomaly-labeled datasets driving development unsupervised methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose Graph Evidential Learning GEL probabilistic framework redefines reconstruction process through learning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate GEL achieves state-of-the-art performance maintaining high robustness against noise structural perturbations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

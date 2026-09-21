@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671593",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Achieving a Better Tradeoff in Multi-stage Recommender Systems through Personalization",
+  "doi": "10.1145/3637528.3671593",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857354",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recommender systems social media websites provide value communities recommending engaging content meaningful connections..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving common technique funnels items through progressively complex models multi-stage each ranking fewer but higher computational cost greater accuracy..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving architecture introduces trade-off between cost ranking items providing users best recommendations..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving key observation make paper all else equal ranking items indeed improves overall objective but has diminishing returns..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Following observation provide rigorous formulation through framework DR-submodularity argue certain class objectives reward functions possible improve trade-off between.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving common technique funnels items through progressively complex models multi-stage each ranking fewer but higher computational cost greater accuracy..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving key observation make paper all else equal ranking items indeed improves overall objective but has diminishing returns..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Following observation provide rigorous formulation through framework DR-submodularity argue certain class objectives reward functions possible improve trade-off between.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recommender systems social media websites provide value communities recommending engaging content meaningful connections..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving common technique funnels items through progressively complex models multi-stage each ranking fewer but higher computational cost greater accuracy..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving architecture introduces trade-off between cost ranking items providing users best recommendations..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving key observation make paper all else equal ranking items indeed improves overall objective but has diminishing returns..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving common technique funnels items through progressively complex models multi-stage each ranking fewer but higher computational cost greater accuracy..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

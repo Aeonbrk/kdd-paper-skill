@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818653",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "Learning to Forget: Emotional Salience as a Compression Mechanism for Long-Term AI Memory",
+  "doi": "10.1145/3770855.3818653",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196944912",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advancements Large Language Model LLM agents have largely focused extending context windows implementing massive Retrieval-Augmented Generation RAG.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However store-everything approach causes high computational costs digital hoarding paradoxically leading amnesia key emotional contexts buried under trivial.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Recent advancements Large Language Model LLM agents have largely focused extending context windows implementing massive Retrieval-Augmented Generation RAG.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving challenge paradigm introduce Affective Memory Architecture drawing amygdala role modulation equip AI agents essential capacity actively forget..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unlike static summarization framework structures multimodal inputs Affective Scene Graph ASG dynamically adjusts memory resolution based emotional salience..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through quantitative proof-of-concept modeling demonstrate systematically managing trivial not only resolves digital hoarding problem but actively reduces proactive.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Ultimately work offers scalable privacy-friendly blueprint resource-efficient AI capable evolving users over time fundamentally shifting goal memory total.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advancements Large Language Model LLM agents have largely focused extending context windows implementing massive Retrieval-Augmented Generation RAG.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However store-everything approach causes high computational costs digital hoarding paradoxically leading amnesia key emotional contexts buried under trivial.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent advancements Large Language Model LLM agents have largely focused extending context windows implementing massive Retrieval-Augmented Generation RAG.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving challenge paradigm introduce Affective Memory Architecture drawing amygdala role modulation equip AI agents essential capacity actively forget..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through quantitative proof-of-concept modeling demonstrate systematically managing trivial not only resolves digital hoarding problem but actively reduces proactive.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

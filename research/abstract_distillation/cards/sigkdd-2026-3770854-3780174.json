@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780174",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Revisiting Redundancy in Diffusion Transformers: A Temporal-Spatial Joint Caching Strategy for Efficient Sampling",
+  "doi": "10.1145/3770854.3780174",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172004023",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving crucially identify previously underexplored form efficiency namely spatial redundancy characterized high similarity between adjacent transformer blocks within same.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Motivated dual-dimensional redundancy propose Temporal-Spatial Joint Cache training-free inference acceleration strategy dynamically determines optimal reuse operations across temporal.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore use interpolation-based feature prediction capture local evolution accurate reuse..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Feature caching based acceleration methods reduce total computation reusing results earlier timesteps but they largely ignore temporal redundancy.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving crucially identify previously underexplored form efficiency namely spatial redundancy characterized high similarity between adjacent transformer blocks within same.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated dual-dimensional redundancy propose Temporal-Spatial Joint Cache training-free inference acceleration strategy dynamically determines optimal reuse operations across temporal.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Diffusion Transformers DiTs achieve impressive generative performance but suffer significant inference latency..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

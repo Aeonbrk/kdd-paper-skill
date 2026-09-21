@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709389",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Cross-Species Insights: Transforming Drug Efficacy from Rats to Humans Using Tissue-Specific Generative Models",
+  "doi": "10.1145/3690624.3709389",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149303",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving initial outcomes appear promising animal studies ensuring similar effectiveness humans especially across specific target tissues presents significant obstacle..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address pressing concern introduce novel generative model tailored optimize molecules have demonstrated efficacy rats enhanced performance specific human.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address pressing concern introduce novel generative model tailored optimize molecules have demonstrated efficacy rats enhanced performance specific human.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through rigorous empirical evaluation across various tissues model consistently exhibits remarkable efficacy compared existing methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Within realm drug development transition successful animal trials human clinical efficacy remains daunting challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving initial outcomes appear promising animal studies ensuring similar effectiveness humans especially across specific target tissues presents significant obstacle..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address pressing concern introduce novel generative model tailored optimize molecules have demonstrated efficacy rats enhanced performance specific human.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

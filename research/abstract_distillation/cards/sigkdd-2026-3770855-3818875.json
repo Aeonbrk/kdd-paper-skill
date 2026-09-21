@@ -1,0 +1,124 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818875",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "BulkShield: A Proactive Framework for Detecting Bulk Refund Booking in Ticketing Systems",
+  "doi": "10.1145/3770855.3818875",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196990958",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Bulk Refund Booking BRB system-level demand distortion phenomenon railway ticketing systems repeated strategic booking--refund behaviors create artificial seat.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address challenges conduct first systematic empirical study BRB large-scale real-world railway ticketing logs show risk emerges cumulative sequential.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose BulkShield end-to-end proactive framework combines unsupervised risk pseudo-labeling booking-time sequence modeling LLM-assisted explanations grounded model-identified behavioral evidence..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Expert-in-the-loop evaluation shows strong alignment between learned risk boundaries practitioner judgment 0.8862 validating data-driven BRB structure..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving BulkShield achieves Macro F1 score 0.8909 outperforming strong sequential baselines practitioner feedback supports usefulness natural-language explanations operational intervention..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results highlight how behavior-aware interpretable AI uncover emerging demand distortion mechanisms support proactive evidence-based management public transportation systems..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Bulk Refund Booking BRB system-level demand distortion phenomenon railway ticketing systems repeated strategic booking--refund behaviors create artificial seat.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges conduct first systematic empirical study BRB large-scale real-world railway ticketing logs show risk emerges cumulative sequential.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose BulkShield end-to-end proactive framework combines unsupervised risk pseudo-labeling booking-time sequence modeling LLM-assisted explanations grounded model-identified behavioral evidence..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Expert-in-the-loop evaluation shows strong alignment between learned risk boundaries practitioner judgment 0.8862 validating data-driven BRB structure..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

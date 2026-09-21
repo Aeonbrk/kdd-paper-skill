@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599327",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Efficient Distributed Approximate k-Nearest Neighbor Graph Construction by Multiway Random Division Forest",
+  "doi": "10.1145/3580305.3599327",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567668",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines k-nearest neighbor graphs shortly k-NN widely used many data mining applications like recommendation information retrieval similarity search..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However notice distributed algorithms don perform well enough due problems graph fragmentation massive data exchange..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Approximate k-NN graph construction has been getting lot attention most researches focus developing algorithms operate efficiently quickly single.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving few pioneering studies propose distributed algorithms increase size data processed billions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However notice distributed algorithms don perform well enough due problems graph fragmentation massive data exchange..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results real-world datasets show MRDF outperforms state-of-the-art distributed algorithms up 7.6 times faster speed 56% better accuracy.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines k-nearest neighbor graphs shortly k-NN widely used many data mining applications like recommendation information retrieval similarity search..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However notice distributed algorithms don perform well enough due problems graph fragmentation massive data exchange..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Approximate k-NN graph construction has been getting lot attention most researches focus developing algorithms operate efficiently quickly single.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving few pioneering studies propose distributed algorithms increase size data processed billions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results real-world datasets show MRDF outperforms state-of-the-art distributed algorithms up 7.6 times faster speed 56% better accuracy.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

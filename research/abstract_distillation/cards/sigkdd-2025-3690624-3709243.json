@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709243",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Runtime-Aware Pipeline for Vertical Federated Learning with Bounded Model Staleness",
+  "doi": "10.1145/3690624.3709243",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158113",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Vertical federated learning VFL enables privacy-preserving collaboration among various parties train global model melding geo-distributed data features..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Vertical federated learning VFL enables privacy-preserving collaboration among various parties train global model melding geo-distributed data features..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing synchronous VFL works often suffer excessive communication overhead asynchronous schemes introduce significant model staleness potentially eroding learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving paper propose BS-VFL asynchronous VFL bounded staleness pipeline local computation statistics transmission substantially reducing communication overhead ensuring favorable.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing synchronous VFL works often suffer excessive communication overhead asynchronous schemes introduce significant model staleness potentially eroding learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving analyzing convergence error show BS-VFL achieve comparable result synchronous VFL..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world datasets validate superiority BS-VFL over leading-edge methods evidencing reduction training duration 48% 90% preserving model.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Vertical federated learning VFL enables privacy-preserving collaboration among various parties train global model melding geo-distributed data features..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Vertical federated learning VFL enables privacy-preserving collaboration among various parties train global model melding geo-distributed data features..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing synchronous VFL works often suffer excessive communication overhead asynchronous schemes introduce significant model staleness potentially eroding learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing synchronous VFL works often suffer excessive communication overhead asynchronous schemes introduce significant model staleness potentially eroding learning.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

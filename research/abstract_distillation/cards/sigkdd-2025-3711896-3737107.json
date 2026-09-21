@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737107",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Revisiting Graph Adversarial Attack: A Perspective of Budget Optimization",
+  "doi": "10.1145/3711896.3737107",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877033",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph adversarial attacks refer class attack methods targeting graph-structured data social networks knowledge graphs molecular structures..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However due incompleteness attack strategies graph adversarial attacks often exhibit redundancy meaning some perturbations ineffective..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving objective attacks introduce subtle yet carefully designed perturbations graph data e.g. nodes edges features cause graph-based machine learning.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving core idea behind graph adversarial attacks exploit vulnerabilities model maximizing degradation performance minimal perturbations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue paper proposes Budget-Reduced Attack Filtering BRAF short frameworks capable eliminating ineffective perturbations produced existing graph adversarial.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving objective attacks introduce subtle yet carefully designed perturbations graph data e.g. nodes edges features cause graph-based machine learning.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments validate effectiveness scalability proposed filtering frameworks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph adversarial attacks refer class attack methods targeting graph-structured data social networks knowledge graphs molecular structures..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However due incompleteness attack strategies graph adversarial attacks often exhibit redundancy meaning some perturbations ineffective..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving objective attacks introduce subtle yet carefully designed perturbations graph data e.g. nodes edges features cause graph-based machine learning.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving core idea behind graph adversarial attacks exploit vulnerabilities model maximizing degradation performance minimal perturbations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving objective attacks introduce subtle yet carefully designed perturbations graph data e.g. nodes edges features cause graph-based machine learning.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

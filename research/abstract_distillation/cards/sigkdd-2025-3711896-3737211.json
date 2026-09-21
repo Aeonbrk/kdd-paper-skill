@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737211",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "EMD-Period: Detecting Multi-periodicity in Industrial Cloud Clusters via Time-Frequency Decomposition",
+  "doi": "10.1145/3711896.3737211",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876822",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate periodicity detection performance metrics cloud platform essential enhancing monitoring accuracy ensure service quality computing..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world industrial settings large-scale cloud computing platform MaxCompute Alibaba performance metrics often exhibit complex multi-periodicity temporal nonstationarity..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address challenges paper proposes robust general period detection method low deployment cost high usability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method employs Empirical Mode Decomposition EMD decompose complex time series Intrinsic Functions IMFs isolating noise periodic trend components..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments synthetic real-world datasets demonstrate proposed method outperforms state-of-the-art periodicity detection techniques achieving over 10% 17% performance.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Accurate periodicity detection performance metrics cloud platform essential enhancing monitoring accuracy ensure service quality computing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments synthetic real-world datasets demonstrate proposed method outperforms state-of-the-art periodicity detection techniques achieving over 10% 17% performance.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Deployed Alibaba Cloud MaxCompute platform monitors millions tasks resulting 7.8% increase fault detection coverage enabling faults detected 13.15%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate periodicity detection performance metrics cloud platform essential enhancing monitoring accuracy ensure service quality computing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world industrial settings large-scale cloud computing platform MaxCompute Alibaba performance metrics often exhibit complex multi-periodicity temporal nonstationarity..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges paper proposes robust general period detection method low deployment cost high usability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving method employs Empirical Mode Decomposition EMD decompose complex time series Intrinsic Functions IMFs isolating noise periodic trend components..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Accurate periodicity detection performance metrics cloud platform essential enhancing monitoring accuracy ensure service quality computing..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

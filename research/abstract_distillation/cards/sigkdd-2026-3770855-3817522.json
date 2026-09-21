@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817522",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Benchmarking Counterfactual Prediction in Epidemic Time Series with Time-Varying Interventions",
+  "doi": "10.1145/3770855.3817522",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164686175",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deep learning has enabled significant advances time-series causal inference yet progress remains constrained lack realistic benchmarks observable counterfactual.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Deep learning has enabled significant advances time-series causal inference yet progress remains constrained lack realistic benchmarks observable counterfactual.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap develop large-scale benchmark counterfactual prediction epidemic time series under dynamic interventions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Leveraging calibrated agent-based model grounded real-world demographic mobility epidemiological policy data generate realistic counterfactual trajectories across 150 U.S..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark evaluate widely used state-of-the-art causal inference methods revealing substantial performance differences highlighting challenges realistic time-series reasoning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Unlike existing benchmarks supports static time-varying treatments well both single-policy multi-policy intervention settings enabling evaluation causal inference methods.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving benchmark evaluate widely used state-of-the-art causal inference methods revealing substantial performance differences highlighting challenges realistic time-series reasoning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deep learning has enabled significant advances time-series causal inference yet progress remains constrained lack realistic benchmarks observable counterfactual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Deep learning has enabled significant advances time-series causal inference yet progress remains constrained lack realistic benchmarks observable counterfactual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap develop large-scale benchmark counterfactual prediction epidemic time series under dynamic interventions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Leveraging calibrated agent-based model grounded real-world demographic mobility epidemiological policy data generate realistic counterfactual trajectories across 150 U.S..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Unlike existing benchmarks supports static time-varying treatments well both single-policy multi-policy intervention settings enabling evaluation causal inference methods.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

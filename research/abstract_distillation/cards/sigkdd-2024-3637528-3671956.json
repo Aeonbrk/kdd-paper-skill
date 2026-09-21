@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671956",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Cross-Context Backdoor Attacks against Graph Prompt Learning",
+  "doi": "10.1145/3637528.3671956",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864009",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Prompt Learning GPL bridges significant disparities between pretraining downstream applications alleviate knowledge transfer bottleneck real-world learning..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving GPL offers superior effectiveness graph knowledge transfer computational efficiency security risks posed backdoor poisoning effects embedded pretrained models.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce CrossBA first cross-context backdoor attack against GPL manipulates only pretraining phase without requiring knowledge downstream applications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving investigation reveals both theoretically empirically tuning trigger graphs combined prompt transformations seamlessly transfer backdoor threat pretrained encoders downstream.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving explore potential countermeasures against CrossBA conclude current defenses insufficient mitigate CrossBA..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving investigation reveals both theoretically empirically tuning trigger graphs combined prompt transformations seamlessly transfer backdoor threat pretrained encoders downstream.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Prompt Learning GPL bridges significant disparities between pretraining downstream applications alleviate knowledge transfer bottleneck real-world learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving GPL offers superior effectiveness graph knowledge transfer computational efficiency security risks posed backdoor poisoning effects embedded pretrained models.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce CrossBA first cross-context backdoor attack against GPL manipulates only pretraining phase without requiring knowledge downstream applications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving investigation reveals both theoretically empirically tuning trigger graphs combined prompt transformations seamlessly transfer backdoor threat pretrained encoders downstream.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving investigation reveals both theoretically empirically tuning trigger graphs combined prompt transformations seamlessly transfer backdoor threat pretrained encoders downstream.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737404",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "When Graph Meets Multimodal: Benchmarking and Meditating on Multimodal Attributed Graph Learning",
+  "doi": "10.1145/3711896.3737404",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875503",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal Attributed Graphs MAGs ubiquitous real-world applications encompassing extensive knowledge through attributes attached nodes e.g. texts images topological.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper first propose MAGB comprehensive MAG benchmark dataset featuring curated graphs various domains both textual visual attributes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Based MAGB dataset further systematically evaluate two mainstream MAGRL paradigms GNN-as-Predictor integrates multimodal attributes via Graph Neural Networks.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Based MAGB dataset further systematically evaluate two mainstream MAGRL paradigms GNN-as-Predictor integrates multimodal attributes via Graph Neural Networks.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments MAGB reveal following critical insights Modality significances fluctuate drastically specific domain characteristics. ii Multimodal embeddings elevate.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal Attributed Graphs MAGs ubiquitous real-world applications encompassing extensive knowledge through attributes attached nodes e.g. texts images topological.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first propose MAGB comprehensive MAG benchmark dataset featuring curated graphs various domains both textual visual attributes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite potential advance diverse research fields like social networks e-commerce MAG representation learning MAGRL remains underexplored due lack.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

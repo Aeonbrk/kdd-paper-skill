@@ -1,0 +1,167 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539187",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Counseling Summarization Using Mental Health Knowledge Guided Utterance Filtering",
+  "doi": "10.1145/3534678.3539187",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290948184",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    },
+    {
+      "id": "S15",
+      "kind": "sentence"
+    },
+    {
+      "id": "S16",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines psychotherapy intervention technique multifaceted conversation between therapist patient..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving refer elements structured psychotherapy counseling components..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving create new dataset after annotating 12.9 utterances counseling components reference summaries each dialogue..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Further propose ConSum novel counseling-component guided summarization model..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving last propose problem-specific Mental Health Information Capture MHIC evaluation metric counseling summaries..",
+      "source_ids": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comparative study shows improve performance generate cohesive semantic coherent summaries..",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Human clinical evaluations summary show ConSum generates quality summary..",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines psychotherapy intervention technique multifaceted conversation between therapist patient..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving refer elements structured psychotherapy counseling components..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving create new dataset after annotating 12.9 utterances counseling components reference summaries each dialogue..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving last propose problem-specific Mental Health Information Capture MHIC evaluation metric counseling summaries..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

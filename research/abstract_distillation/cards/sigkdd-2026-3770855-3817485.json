@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817485",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "TemporalBench: A Benchmark for Evaluating LLM-Based Agents on Contextual and Event-Informed Time Series Tasks",
+  "doi": "10.1145/3770855.3817485",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196952754",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Extensive baseline experiments show strong numerical forecasting accuracy does not reliably translate robust contextual event-aware temporal reasoning instead.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce TemporalBench multi-domain benchmark designed evaluate temporal reasoning behavior under progressively richer informational settings..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving controlling access future targets contextual information benchmark enables diagnostic analysis whether models correctly interpret temporal patterns align them.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce TemporalBench multi-domain benchmark designed evaluate temporal reasoning behavior under progressively richer informational settings..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive baseline experiments show strong numerical forecasting accuracy does not reliably translate robust contextual event-aware temporal reasoning instead.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Extensive baseline experiments show strong numerical forecasting accuracy does not reliably translate robust contextual event-aware temporal reasoning instead.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce TemporalBench multi-domain benchmark designed evaluate temporal reasoning behavior under progressively richer informational settings..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language model LLM based agents increasingly applied time-series forecasting tasks yet existing evaluations primarily emphasize numerical accuracy.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

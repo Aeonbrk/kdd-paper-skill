@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671787",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Improving the Consistency in Cross-Lingual Cross-Modal Retrieval with 1-to-K Contrastive Learning",
+  "doi": "10.1145/3637528.3671787",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4400104719",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods directly follow existing pre-training cross-lingual cross-modal domain leading two problems inconsistency CCR style suffer intra-modal error.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However methods directly follow existing pre-training cross-lingual cross-modal domain leading two problems inconsistency CCR style suffer intra-modal error.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve problems propose simple but effective to-K contrastive learning method treats each language equally eliminates error propagation optimization.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving recent years excellent progress has been made based cross-lingual cross-modal pre-training particularly methods contrastive learning large-scale data have.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However methods directly follow existing pre-training cross-lingual cross-modal domain leading two problems inconsistency CCR style suffer intra-modal error.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods directly follow existing pre-training cross-lingual cross-modal domain leading two problems inconsistency CCR style suffer intra-modal error.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However methods directly follow existing pre-training cross-lingual cross-modal domain leading two problems inconsistency CCR style suffer intra-modal error.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Cross-lingual Cross-modal Retrieval CCR essential task web search aims break barriers between modality language simultaneously achieves image-text multi-lingual.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

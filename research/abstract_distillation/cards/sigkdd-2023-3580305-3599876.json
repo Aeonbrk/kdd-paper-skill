@@ -1,0 +1,151 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599876",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "NFT-Based Data Marketplace with Digital Watermarking",
+  "doi": "10.1145/3580305.3599876",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562457",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines today digital world enterprises individuals generating massive data potentially useful many consumers driven applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome problems general-purpose market propose marketplace based watermarking Non-Fungible Token NFT technologies..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving proposed NFT-based marketplace owner data stored NFT underlying content holds watermarked data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Proof-Of-Concept POC implementation proposed marketplace will integrated within AI-Gallery Data service Huawei Cloud presented trading image data..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore transactions corresponding NFT provide verifiable ownership proof traceable history..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Proof-Of-Concept POC implementation proposed marketplace will integrated within AI-Gallery Data service Huawei Cloud presented trading image data..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive set experiments measure gas consumption blockchain evaluate robustness watermarked assets against 51 attacks performed..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines today digital world enterprises individuals generating massive data potentially useful many consumers driven applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome problems general-purpose market propose marketplace based watermarking Non-Fungible Token NFT technologies..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed NFT-based marketplace owner data stored NFT underlying content holds watermarked data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore transactions corresponding NFT provide verifiable ownership proof traceable history..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

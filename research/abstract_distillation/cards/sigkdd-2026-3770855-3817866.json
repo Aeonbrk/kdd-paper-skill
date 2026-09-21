@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817866",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "REFINE: Trajectory Representation Learning via Closed-Loop Transcription",
+  "doi": "10.1145/3770855.3817866",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196953742",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Trajectory representation learning underpins wide range analytics tasks however most existing self-supervised approaches whether discriminative generative adopt open-loop.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Trajectory representation learning underpins wide range analytics tasks however most existing self-supervised approaches whether discriminative generative adopt open-loop.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose REFINE simple yet effective Representation lEarning Framework vIa closed-loop traNscription rEfinement trajectory data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Drawing upon feedback control theory REFINE tightly couples road-network-aware generative reconstruction feedback-driven contrastive learning enabling model capture fine-grained.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further provide control-theoretic analysis establishes convergence guarantees proposed closed-loop optimization..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments four real-world datasets offer evidence REFINE able consistently outperform state-of-the-art methods across multiple downstream tasks being.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Trajectory representation learning underpins wide range analytics tasks however most existing self-supervised approaches whether discriminative generative adopt open-loop.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Trajectory representation learning underpins wide range analytics tasks however most existing self-supervised approaches whether discriminative generative adopt open-loop.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose REFINE simple yet effective Representation lEarning Framework vIa closed-loop traNscription rEfinement trajectory data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Drawing upon feedback control theory REFINE tightly couples road-network-aware generative reconstruction feedback-driven contrastive learning enabling model capture fine-grained.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments four real-world datasets offer evidence REFINE able consistently outperform state-of-the-art methods across multiple downstream tasks being.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

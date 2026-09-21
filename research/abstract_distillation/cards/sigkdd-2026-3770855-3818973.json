@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818973",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Towards Universal Spatial Transcriptomics Super-Resolution: A Generalist Physically Consistent Flow Matching Framework",
+  "doi": "10.1145/3770855.3818973",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196948242",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Spatial transcriptomics provides unprecedented perspective deciphering tissue heterogeneity..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However high-resolution spatial transcriptomic technology remains constrained limited gene coverage technical complexity high cost..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose SRast novel physically constrained generalist framework robust spatial transcriptomics super-resolution..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Regarding physical priors SRast reformulates task ratio prediction simplex performing flow matching model learn optimal transport-based geometric transformations.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments across diverse species tissues platforms demonstrate SRast achieves state-of-the-art performance exhibiting superior zero-shot generalization capabilities ensuring.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Spatial transcriptomics provides unprecedented perspective deciphering tissue heterogeneity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However high-resolution spatial transcriptomic technology remains constrained limited gene coverage technical complexity high cost..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose SRast novel physically constrained generalist framework robust spatial transcriptomics super-resolution..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Regarding physical priors SRast reformulates task ratio prediction simplex performing flow matching model learn optimal transport-based geometric transformations.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments across diverse species tissues platforms demonstrate SRast achieves state-of-the-art performance exhibiting superior zero-shot generalization capabilities ensuring.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

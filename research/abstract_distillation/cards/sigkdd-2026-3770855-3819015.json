@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819015",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Beyond Time Series: Spatial Reasoning for Epidemic Forecasting via Multimodal Learning",
+  "doi": "10.1145/3770855.3819015",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7165782533",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Epidemic forecasting models typically rely surveillance data reported over administrative regions treating them atomic units thereby obscuring sub-regional.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce spatially structured multimodal epidemic forecasting setting integrates region-level temporal surveillance data localized auxiliary signals misaligned resolution structure.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building formulation propose M-SPICE Multimodal SPatIal Context Epidemic Forecasting structure-aware spatiotemporal framework performs joint reasoning over temporal disease.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving evaluate approach real-world COVID-19 influenza influenza-like illness ILI forecasting tasks under realistic real-time evaluation protocols..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate approach real-world COVID-19 influenza influenza-like illness ILI forecasting tasks under realistic real-time evaluation protocols..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across all forecasting settings method consistently outperforms state-of-the-art multivariate time-series multimodal epidemiological baselines maintaining strong probabilistic performance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Epidemic forecasting models typically rely surveillance data reported over administrative regions treating them atomic units thereby obscuring sub-regional.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce spatially structured multimodal epidemic forecasting setting integrates region-level temporal surveillance data localized auxiliary signals misaligned resolution structure.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building formulation propose M-SPICE Multimodal SPatIal Context Epidemic Forecasting structure-aware spatiotemporal framework performs joint reasoning over temporal disease.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate approach real-world COVID-19 influenza influenza-like illness ILI forecasting tasks under realistic real-time evaluation protocols..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599394",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Interpretable Sparsification of Brain Graphs: Better Practices and Effective Designs for Graph Neural Networks",
+  "doi": "10.1145/3580305.3599394",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4382322776",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Brain graphs model structural functional relationships between regions crucial neuroscientific clinical applications formulated graph classification tasks..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However dense brain graphs pose computational challenges large time memory consumption poor model interpretability..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Brain graphs model structural functional relationships between regions crucial neuroscientific clinical applications formulated graph classification tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However dense brain graphs pose computational challenges large time memory consumption poor model interpretability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper investigate effective designs Graph Neural Networks GNNs sparsify brain graphs eliminating noisy edges..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Many prior works select noisy edges based explainability task-irrelevant properties but does not guarantee performance improvement when sparsified.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Brain graphs model structural functional relationships between regions crucial neuroscientific clinical applications formulated graph classification tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However dense brain graphs pose computational challenges large time memory consumption poor model interpretability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Brain graphs model structural functional relationships between regions crucial neuroscientific clinical applications formulated graph classification tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However dense brain graphs pose computational challenges large time memory consumption poor model interpretability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Many prior works select noisy edges based explainability task-irrelevant properties but does not guarantee performance improvement when sparsified.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

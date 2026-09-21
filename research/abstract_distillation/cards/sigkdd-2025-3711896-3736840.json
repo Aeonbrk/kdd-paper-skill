@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736840",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "ALSA: Context-Sensitive Prompt Privacy Preservation in Large Language Models",
+  "doi": "10.1145/3711896.3736840",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877008",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines remarkable prompting capability large language models LLMs offers substantial convenience users across diverse backgrounds..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing works overemphasize privacy overlooks preserving contextual integrity degrading semantic consistency..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address concerns paper introduces context-sensitive prompt privacy-preserving framework namely Adaptive Linguistic Sanitization Anonymization ALSA.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments five benchmark datasets validate superiority ALSA over state-of-the-art baselines terms accuracy privacy preservation semantic integrity..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments five benchmark datasets validate superiority ALSA over state-of-the-art baselines terms accuracy privacy preservation semantic integrity..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines remarkable prompting capability large language models LLMs offers substantial convenience users across diverse backgrounds..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing works overemphasize privacy overlooks preserving contextual integrity degrading semantic consistency..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address concerns paper introduces context-sensitive prompt privacy-preserving framework namely Adaptive Linguistic Sanitization Anonymization ALSA.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Extensive experiments five benchmark datasets validate superiority ALSA over state-of-the-art baselines terms accuracy privacy preservation semantic integrity..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments five benchmark datasets validate superiority ALSA over state-of-the-art baselines terms accuracy privacy preservation semantic integrity..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

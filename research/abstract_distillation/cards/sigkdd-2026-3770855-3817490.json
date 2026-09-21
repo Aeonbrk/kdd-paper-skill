@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817490",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "CausalFlip: A Benchmark for LLM Causal Judgment Beyond Semantic Matching",
+  "doi": "10.1145/3770855.3817490",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196950603",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines large language models LLMs witness increasing deployment complex high-stakes decision-making scenarios becomes imperative ground reasoning causality rather spurious.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However strong performance traditional reasoning benchmarks does not guarantee true causal ability LLMs high accuracy still arise memorizing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge critical gap propose new causal reasoning benchmark CausalFlip designed encourage development LLM paradigms training algorithms ground causality.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Based each event triple construct pairs semantically similar questions reuse same events but yield opposite causal answers models.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further probe models reliance semantic patterns introduce noisy-prefix evaluation prepends causally irrelevant text before intermediate causal reasoning steps.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However strong performance traditional reasoning benchmarks does not guarantee true causal ability LLMs high accuracy still arise memorizing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further probe models reliance semantic patterns introduce noisy-prefix evaluation prepends causally irrelevant text before intermediate causal reasoning steps.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate LLMs under multiple training paradigms including answer-only explicit Chain-of-Thought CoT supervision proposed internalized causal reasoning approach aims.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines large language models LLMs witness increasing deployment complex high-stakes decision-making scenarios becomes imperative ground reasoning causality rather spurious.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However strong performance traditional reasoning benchmarks does not guarantee true causal ability LLMs high accuracy still arise memorizing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge critical gap propose new causal reasoning benchmark CausalFlip designed encourage development LLM paradigms training algorithms ground causality.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based each event triple construct pairs semantically similar questions reuse same events but yield opposite causal answers models.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However strong performance traditional reasoning benchmarks does not guarantee true causal ability LLMs high accuracy still arise memorizing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

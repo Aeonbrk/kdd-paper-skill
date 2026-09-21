@@ -1,0 +1,124 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539073",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Surrogate for Long-Term User Experience in Recommender Systems",
+  "doi": "10.1145/3534678.3539073",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927958",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving long term outcomes however much harder optimize due sparsity observing events low signal-to-noise ratio weak connection between long-term.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving defining good long-term user experience still active research area focus one specific aspect improved here revisiting platform..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges propose establish association between long-term outcomes set immediate term user behavior signals serve surrogates optimization..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving defining good long-term user experience still active research area focus one specific aspect improved here revisiting platform..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving long term outcomes however much harder optimize due sparsity observing events low signal-to-noise ratio weak connection between long-term.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving defining good long-term user experience still active research area focus one specific aspect improved here revisiting platform..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Over years have seen recommender systems shifting focus optimizing short-term engagement toward improving long-term user experience platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

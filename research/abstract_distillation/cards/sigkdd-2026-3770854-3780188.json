@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780188",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PBSketch: Finding Periodic Burst Items in Data Streams",
+  "doi": "10.1145/3770854.3780188",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172029287",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Detecting periodic burst PB items data streams crucial applications like rate limiting but remains unexplored. combining existing sketch.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Detecting periodic burst PB items data streams crucial applications like rate limiting but remains unexplored. combining existing sketch.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose PBSketch first dedicated sketch algorithm designed detecting PB items real time..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving key techniques mainly include two-stage hierarchical structure efficiently maintains potential burst items discards those without fine-grained PB selection.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensive experiments show PBSketch outperforms baseline solution accuracy speed..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving deploying FPGA platform throughput further significantly improved..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover effectively optimizes practical application rate limiting clearly improving performance almost negligible overhead..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Detecting periodic burst PB items data streams crucial applications like rate limiting but remains unexplored. combining existing sketch.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Detecting periodic burst PB items data streams crucial applications like rate limiting but remains unexplored. combining existing sketch.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose PBSketch first dedicated sketch algorithm designed detecting PB items real time..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving key techniques mainly include two-stage hierarchical structure efficiently maintains potential burst items discards those without fine-grained PB selection.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensive experiments show PBSketch outperforms baseline solution accuracy speed..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

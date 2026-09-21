@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671673",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Self-Supervised Learning of Time Series Representation via Diffusion Process and Imputation-Interpolation-Forecasting Mask",
+  "doi": "10.1145/3637528.3671673",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4396822597",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time Series Representation Learning TSRL focuses generating informative representations various TS modeling tasks..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they primarily target specific application scenarios like imputation forecasting leaving gap leveraging diffusion models generic TSRL..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving train reverse diffusion process conditioned embeddings designed predict noise added masked part..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving conduct ablation study present embedding visualizations compare inference speed further substantiating TSDE efficiency validity learning representations TS data..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate TSDE superiority imputation interpolation forecasting anomaly detection classification clustering..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time Series Representation Learning TSRL focuses generating informative representations various TS modeling tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they primarily target specific application scenarios like imputation forecasting leaving gap leveraging diffusion models generic TSRL..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving train reverse diffusion process conditioned embeddings designed predict noise added masked part..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving conduct ablation study present embedding visualizations compare inference speed further substantiating TSDE efficiency validity learning representations TS data..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate TSDE superiority imputation interpolation forecasting anomaly detection classification clustering..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

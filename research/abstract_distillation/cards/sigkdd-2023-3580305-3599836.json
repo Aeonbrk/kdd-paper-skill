@@ -1,0 +1,104 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599836",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Group-based Fraud Detection Network on e-Commerce Platforms",
+  "doi": "10.1145/3580305.3599836",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568054",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Along rapid technological commercial innovation e-commerce platforms there increasing number frauds bring great harm platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work analyze summarize characteristics group-based frauds based propose novel end-to-end semi-supervised Fraud Detection Network GFDN support real-world applications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental results large-scale e-commerce datasets Taobao Bitcoin trading show superior effectiveness efficiency proposed model group-based fraud detection bipartite.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results large-scale e-commerce datasets Taobao Bitcoin trading show superior effectiveness efficiency proposed model group-based fraud detection bipartite.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Along rapid technological commercial innovation e-commerce platforms there increasing number frauds bring great harm platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work analyze summarize characteristics group-based frauds based propose novel end-to-end semi-supervised Fraud Detection Network GFDN support real-world applications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Experimental results large-scale e-commerce datasets Taobao Bitcoin trading show superior effectiveness efficiency proposed model group-based fraud detection bipartite.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results large-scale e-commerce datasets Taobao Bitcoin trading show superior effectiveness efficiency proposed model group-based fraud detection bipartite.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

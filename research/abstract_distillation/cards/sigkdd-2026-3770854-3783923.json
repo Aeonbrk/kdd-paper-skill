@@ -1,0 +1,168 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783923",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Chat2Trade: Automating Financial RFQ Parsing with Fine-Tuned LLMs",
+  "doi": "10.1145/3770854.3783923",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172023707",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    },
+    {
+      "id": "S15",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines trading volume China secondary bond market reached CNY 735.44 trillion 2024.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However RFQs unstructured text messages manual matching time-consuming..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Therefore built system accelerate process..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose RFQ parsing method based fine-tuned large language models LLMs.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Building methodology developed Chat2Trade trading assistance system parses RFQs supports rapid filtering querying..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving consists three sequential components Message Chunking decomposes RFQ shorter items Few-shot Retrieval retrieves similar historical RFQs Record Extraction.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improves brokers average trading volume 3.67 times compared traditional manual methods..",
+      "source_ids": [
+        "S15"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines trading volume China secondary bond market reached CNY 735.44 trillion 2024.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However RFQs unstructured text messages manual matching time-consuming..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore built system accelerate process..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose RFQ parsing method based fine-tuned large language models LLMs.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving consists three sequential components Message Chunking decomposes RFQ shorter items Few-shot Retrieval retrieves similar historical RFQs Record Extraction.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

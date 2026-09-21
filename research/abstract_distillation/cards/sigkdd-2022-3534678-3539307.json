@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539307",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "End-to-End Semi-Supervised Ordinal Regression AUC Maximization with Convolutional Kernel Networks",
+  "doi": "10.1145/3534678.3539307",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875750",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Convolutional kernel networks CKN have been proposed solve image classification tasks shown competitive performance over classical neural being.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving real-world ordinal regression problems usually have plenty unlabeled data but limited number labeled ordered data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Convolutional kernel networks CKN have been proposed solve image classification tasks shown competitive performance over classical neural being.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving real-world ordinal regression problems usually have plenty unlabeled data but limited number labeled ordered data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although recent research works have shown directly optimizing AUC impose better ranking data traditional error rate still open.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although recent research works have shown directly optimizing AUC impose better ranking data traditional error rate still open.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address question paper propose new semi-supervised ordinal regression CKN algorithm CKNOR end-to-end AUC maximization..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically decompose ordinal regression series binary classification subproblems propose unbiased non-convex objective function optimize AUC both labeled unlabeled.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Convolutional kernel networks CKN have been proposed solve image classification tasks shown competitive performance over classical neural being.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving real-world ordinal regression problems usually have plenty unlabeled data but limited number labeled ordered data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Convolutional kernel networks CKN have been proposed solve image classification tasks shown competitive performance over classical neural being.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving real-world ordinal regression problems usually have plenty unlabeled data but limited number labeled ordered data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although recent research works have shown directly optimizing AUC impose better ranking data traditional error rate still open.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

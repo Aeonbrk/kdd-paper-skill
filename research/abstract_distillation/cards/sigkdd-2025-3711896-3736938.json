@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736938",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Enhancing Microservices Anomaly Detection via Multimodal Data Fusion in the Wavelet Domain and Spatiotemporal Graph-based Diffusion Probabilistic Model",
+  "doi": "10.1145/3711896.3736938",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412826019",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Microservices architecture has become increasingly popular modern software systems yet complexity poses challenges failure diagnosis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues paper proposes new method anomaly detection microservices..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving transform three types modal data wavelet domain achieve fusion among modalities based attention mechanism fully utilizing inherent characteristics.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving fusion process extract new information does not exist original modalities thereby enhancing model ability detect anomalies..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving transform three types modal data wavelet domain achieve fusion among modalities based attention mechanism fully utilizing inherent characteristics.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition propose new diffusion probabilistic model DDPM based spatiotemporal graphs combines learning capabilities uncertainty measurement generate future samples.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results show method significantly improves anomaly detection performance three public datasets real-world production system demonstrating effectiveness microservices.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Microservices architecture has become increasingly popular modern software systems yet complexity poses challenges failure diagnosis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues paper proposes new method anomaly detection microservices..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving transform three types modal data wavelet domain achieve fusion among modalities based attention mechanism fully utilizing inherent characteristics.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving transform three types modal data wavelet domain achieve fusion among modalities based attention mechanism fully utilizing inherent characteristics.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

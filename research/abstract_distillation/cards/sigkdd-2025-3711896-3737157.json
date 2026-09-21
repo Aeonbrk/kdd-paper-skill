@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737157",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "TimeCapsule: Solving the Jigsaw Puzzle of Long-Term Time Series Forecasting with Compressed Predictive Representations",
+  "doi": "10.1145/3711896.3737157",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876872",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper revisit organize core ideas behind several key techniques redundancy reduction multi-scale modeling frequently employed advanced LTSF models..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end introduce TimeCapsule model built around principle high-dimensional information compression unifies techniques generalized yet simplified framework..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically model time series tensor incorporating temporal variate level dimensions leverage mode production capture multi-mode dependencies achieving dimensionality.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments challenging benchmarks demonstrate versatility method showing TimeCapsule achieve state-of-the-art performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper revisit organize core ideas behind several key techniques redundancy reduction multi-scale modeling frequently employed advanced LTSF models..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent deep learning models Long-term Time Series Forecasting LTSF often emphasize complex handcrafted designs simpler architectures like linear.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

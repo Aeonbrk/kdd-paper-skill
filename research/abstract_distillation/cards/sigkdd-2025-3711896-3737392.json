@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737392",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Fairness-Aware Graph Learning: A Benchmark",
+  "doi": "10.1145/3711896.3737392",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876935",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Fairness-aware graph learning has gained increasing attention recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Nevertheless there lacks comprehensive benchmark evaluate compare different fairness-aware graph learning methods blocks practitioners choosing appropriate ones broader.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper present extensive benchmark ten representative fairness-aware graph learning methods..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Specifically design systematic evaluation protocol conduct experiments seven real-world datasets evaluate methods multiple perspectives including group fairness individual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Nevertheless there lacks comprehensive benchmark evaluate compare different fairness-aware graph learning methods blocks practitioners choosing appropriate ones broader.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically design systematic evaluation protocol conduct experiments seven real-world datasets evaluate methods multiple perspectives including group fairness individual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Fairness-aware graph learning has gained increasing attention recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless there lacks comprehensive benchmark evaluate compare different fairness-aware graph learning methods blocks practitioners choosing appropriate ones broader.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present extensive benchmark ten representative fairness-aware graph learning methods..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Nevertheless there lacks comprehensive benchmark evaluate compare different fairness-aware graph learning methods blocks practitioners choosing appropriate ones broader.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

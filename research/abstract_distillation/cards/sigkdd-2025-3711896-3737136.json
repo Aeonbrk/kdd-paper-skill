@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737136",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "STARLINE: Contrastive Learning with Modality-Aware Graph Refinement for Effective Multimedia Recommendation",
+  "doi": "10.1145/3711896.3737136",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825825",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Beyond multimodal features items addition user-item interactions researchers have additionally utilized Contrastive Learning CL recent multimedia recommender systems.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitations propose novel multimedia recommendation framework named STARLINE utilizing contraSTive leARning modaLIty-aware graph refiNEment..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments five real-world datasets validate effectiveness validity STARLINE especially showing consistently higher accuracy up 13.24% compared best.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Beyond multimodal features items addition user-item interactions researchers have additionally utilized Contrastive Learning CL recent multimedia recommender systems.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitations propose novel multimedia recommendation framework named STARLINE utilizing contraSTive leARning modaLIty-aware graph refiNEment..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However point out following two limitations they have overlooked generating views either not attempted identify influence each modality.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539443",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Few-Shot Fine-Grained Entity Typing with Automatic Label Interpretation and Instance Generation",
+  "doi": "10.1145/3534678.3539443",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283721470",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study problem few-shot Fine-grained Entity Typing FET only few annotated mentions contexts given each type..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite success current prompt-based tuning approaches two major challenges remain verbalizer prompts either manually designed constructed external knowledge.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study problem few-shot Fine-grained Entity Typing FET only few annotated mentions contexts given each type..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Despite success current prompt-based tuning approaches two major challenges remain verbalizer prompts either manually designed constructed external knowledge.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel framework few-shot FET consisting two modules entity type label interpretation module automatically learns relate labels.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently prompt-based tuning has demonstrated superior performance standard fine-tuning few-shot scenarios formulating entity type classification task fill-in-the-blank problem..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving three benchmark datasets model outperforms existing methods significant margins..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study problem few-shot Fine-grained Entity Typing FET only few annotated mentions contexts given each type..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite success current prompt-based tuning approaches two major challenges remain verbalizer prompts either manually designed constructed external knowledge.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study problem few-shot Fine-grained Entity Typing FET only few annotated mentions contexts given each type..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite success current prompt-based tuning approaches two major challenges remain verbalizer prompts either manually designed constructed external knowledge.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently prompt-based tuning has demonstrated superior performance standard fine-tuning few-shot scenarios formulating entity type classification task fill-in-the-blank problem..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

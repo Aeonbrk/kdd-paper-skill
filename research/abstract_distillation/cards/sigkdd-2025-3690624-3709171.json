@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709171",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions",
+  "doi": "10.1145/3690624.3709171",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158260",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Mobile phone agents assist people automating daily tasks phones have emerged pivotal research spotlight..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing procedure-oriented agents struggle cross-app instructions due following challenges complex task relationships diverse app environment error propagation.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Drawing inspiration object-oriented programming principles recognize solutions suitable cross-app instruction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose self-evolving multi-agent framework named MobileSteward integrates multiple app-oriented StaffAgents coordinated centralized StewardAgent..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving design three specialized modules MobileSteward Dynamic Recruitment generates scheduling graph guided information flow explicitly associate tasks among apps..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving design three specialized modules MobileSteward Dynamic Recruitment generates scheduling graph guided information flow explicitly associate tasks among apps..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving continuously improve performance MobileSteward develop Memory-based Self-evolution mechanism summarizes experience successful execution MobileSteward..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving establish first English Cross-APP Benchmark CAPBench real-world environment evaluate agents capabilities solving complex instructions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Mobile phone agents assist people automating daily tasks phones have emerged pivotal research spotlight..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing procedure-oriented agents struggle cross-app instructions due following challenges complex task relationships diverse app environment error propagation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Drawing inspiration object-oriented programming principles recognize solutions suitable cross-app instruction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose self-evolving multi-agent framework named MobileSteward integrates multiple app-oriented StaffAgents coordinated centralized StewardAgent..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving design three specialized modules MobileSteward Dynamic Recruitment generates scheduling graph guided information flow explicitly associate tasks among apps..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

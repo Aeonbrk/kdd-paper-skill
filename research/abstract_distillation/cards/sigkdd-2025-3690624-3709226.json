@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709226",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention",
+  "doi": "10.1145/3690624.3709226",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149495",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Estimating brain effective connectivity EC functional magnetic resonance imaging fMRI data aid comprehending neural mechanisms underlying human behavior.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current spatiotemporal attention modules handle temporal spatial separately extracting features either sequentially parallel..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving approach overlooks inherent spatiotemporal correlations present real world fMRI data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel brain effective connectivity estimation method based Fourier spatiotemporal attention FSTA-EC combines simultaneously capture inter-series spatial.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically Fourier attention designed convert high-noise fMRI data frequency domain map denoised back physical spatiotemporal crafted simultaneously learn.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore through series proofs demonstrate incorporating learnable filters fast Fourier transform inverse processes mathematically equivalent performing cyclic convolution..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results simulated real-resting-state fMRI datasets demonstrate proposed method exhibits superior performance when compared state-of-the-art methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Estimating brain effective connectivity EC functional magnetic resonance imaging fMRI data aid comprehending neural mechanisms underlying human behavior.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current spatiotemporal attention modules handle temporal spatial separately extracting features either sequentially parallel..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving approach overlooks inherent spatiotemporal correlations present real world fMRI data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel brain effective connectivity estimation method based Fourier spatiotemporal attention FSTA-EC combines simultaneously capture inter-series spatial.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore through series proofs demonstrate incorporating learnable filters fast Fourier transform inverse processes mathematically equivalent performing cyclic convolution..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

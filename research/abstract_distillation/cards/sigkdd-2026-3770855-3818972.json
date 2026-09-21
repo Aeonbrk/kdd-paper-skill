@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818972",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Beyond Reaction Data: Learning Chemical Knowledge from Large-Scale Molecules for Retrosynthesis",
+  "doi": "10.1145/3770855.3818972",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196991734",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrosynthesis process predicting reactants products remains critical challenge computational chemistry drug discovery..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Retrosynthesis process predicting reactants products remains critical challenge computational chemistry drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose KnowRetro Knowledge-Guided Retrosynthesis Prediction chemically-aware framework learns chemical knowledge large-scale unlabeled molecules enhance accuracy diversity prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then employs chemically guided pre-training based substructure decomposition encourage model capture fundamental reaction patterns followed fine-tuning adapter designed.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work propose KnowRetro Knowledge-Guided Retrosynthesis Prediction chemically-aware framework learns chemical knowledge large-scale unlabeled molecules enhance accuracy diversity prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate KnowRetro achieves high accuracy improved robustness diversity reactant generation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrosynthesis process predicting reactants products remains critical challenge computational chemistry drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Retrosynthesis process predicting reactants products remains critical challenge computational chemistry drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose KnowRetro Knowledge-Guided Retrosynthesis Prediction chemically-aware framework learns chemical knowledge large-scale unlabeled molecules enhance accuracy diversity prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving then employs chemically guided pre-training based substructure decomposition encourage model capture fundamental reaction patterns followed fine-tuning adapter designed.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work propose KnowRetro Knowledge-Guided Retrosynthesis Prediction chemically-aware framework learns chemical knowledge large-scale unlabeled molecules enhance accuracy diversity prediction..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

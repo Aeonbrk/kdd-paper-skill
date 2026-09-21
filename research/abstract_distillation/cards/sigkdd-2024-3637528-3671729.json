@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671729",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Robust Auto-Bidding Strategies for Online Advertising",
+  "doi": "10.1145/3637528.3671729",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863606",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines online advertising existing auto-bidding strategies bid shading mainly adopt approach first predicting winning price distribution then calculating optimal.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However winning price information available Demand Side Platforms DSPs extremely limited associated uncertainties make challenging accurately estimate distribution..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenge conducted comprehensive analysis process DSPs obtain winning price information abstracted two types uncertainties known uncertainty unknown.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based uncertainties proposed two levels robust bidding strategies Censorship RBC Distribution Shift RBDS offer guarantees surplus worst-case scenarios.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results public datasets demonstrate robust bidding strategies consistently enable DSPs achieve superior surpluses both test sets under.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines online advertising existing auto-bidding strategies bid shading mainly adopt approach first predicting winning price distribution then calculating optimal.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However winning price information available Demand Side Platforms DSPs extremely limited associated uncertainties make challenging accurately estimate distribution..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge conducted comprehensive analysis process DSPs obtain winning price information abstracted two types uncertainties known uncertainty unknown.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based uncertainties proposed two levels robust bidding strategies Censorship RBC Distribution Shift RBDS offer guarantees surplus worst-case scenarios.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results public datasets demonstrate robust bidding strategies consistently enable DSPs achieve superior surpluses both test sets under.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

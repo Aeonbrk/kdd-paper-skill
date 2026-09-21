@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817664",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CoFEH: LLM-driven Feature Engineering Empowered by Collaborative Bayesian Hyperparameter Optimization",
+  "doi": "10.1145/3770855.3817664",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162196353",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Feature Engineering FE pivotal automated machine learning AutoML but remains bottleneck traditional methods operate within rigid search spaces.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Feature Engineering FE pivotal automated machine learning AutoML but remains bottleneck traditional methods operate within rigid search spaces.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover they rarely coupled hyperparameter optimization HPO downstream ML model leading greedy FE-then-HPO workflows cannot capture strong FE-HPO.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper present CoFEH collaborative framework interleaves LLM-based FE Bayesian HPO robust end-to-end AutoML..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Crucially introduce mutual conditioning mechanism shares context between LLM BO enabling mutually informed decisions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments show CoFEH outperforms both traditional LLM-based baselines standalone FE joint FE+HPO settings..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Feature Engineering FE pivotal automated machine learning AutoML but remains bottleneck traditional methods operate within rigid search spaces.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Feature Engineering FE pivotal automated machine learning AutoML but remains bottleneck traditional methods operate within rigid search spaces.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover they rarely coupled hyperparameter optimization HPO downstream ML model leading greedy FE-then-HPO workflows cannot capture strong FE-HPO.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present CoFEH collaborative framework interleaves LLM-based FE Bayesian HPO robust end-to-end AutoML..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments show CoFEH outperforms both traditional LLM-based baselines standalone FE joint FE+HPO settings..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

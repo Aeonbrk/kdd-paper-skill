@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737246",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Maturity Framework for Enhancing Machine Learning Quality",
+  "doi": "10.1145/3711896.3737246",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877078",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid integration Machine Learning ML business applications processes crucial ensure quality reliability reproducibility systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving suggest methodical approach towards ML system quality assessment introduce structured Maturity framework governance ML..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving emphasize importance quality ML need rigorous assessment driven issues governance gaps existing frameworks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving primary contribution comprehensive open-sourced quality assessment method validated empirical evidence accompanied systematic maturity framework tailored ML systems..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving study presents empirical findings highlighting quality improvement trends showcasing business outcomes..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving maturity framework ML systems aims become valuable resource reshape industry standards enable structural approach improve any organization..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid integration Machine Learning ML business applications processes crucial ensure quality reliability reproducibility systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving suggest methodical approach towards ML system quality assessment introduce structured Maturity framework governance ML..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving emphasize importance quality ML need rigorous assessment driven issues governance gaps existing frameworks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving study presents empirical findings highlighting quality improvement trends showcasing business outcomes..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

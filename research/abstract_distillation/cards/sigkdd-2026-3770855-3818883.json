@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818883",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MedTVL: Harnessing Vision and Language for Medical Time Series Classification",
+  "doi": "10.1145/3770855.3818883",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196952122",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advancements multimodal learning medical time series MedTS classification highlight benefits integrating complementary modalities clinical decision..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods typically focus bi-modal interactions e.g. time series text leaving tri-modal synergy between vision language largely.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Inspired diagnostic practice synergizing numerical assessment visual inspection clinical context introduce MedTVL text-guided dual-pathway architecture tailored MedTS classification..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments across multiple medical datasets tasks spanning supervised few-shot contrastive learning settings demonstrate superiority transferability MedTVL highlighting.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advancements multimodal learning medical time series MedTS classification highlight benefits integrating complementary modalities clinical decision..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods typically focus bi-modal interactions e.g. time series text leaving tri-modal synergy between vision language largely.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired diagnostic practice synergizing numerical assessment visual inspection clinical context introduce MedTVL text-guided dual-pathway architecture tailored MedTS classification..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments across multiple medical datasets tasks spanning supervised few-shot contrastive learning settings demonstrate superiority transferability MedTVL highlighting.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

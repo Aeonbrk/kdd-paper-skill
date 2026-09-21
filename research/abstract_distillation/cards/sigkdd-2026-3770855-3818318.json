@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818318",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Aligning Large Language Models with Searcher Preferences",
+  "doi": "10.1145/3770855.3818318",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196955476",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paradigm shift item-centric ranking answer-centric synthesis redefining role search engines..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving recent industrial progress has applied generative techniques closed-set item ranking e-commerce research deployment open-ended search large content platforms.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving setting introduces challenges including robustness noisy retrieval non-negotiable safety guarantees alignment diverse user needs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce SearchLLM first large language model LLM open-ended generative search..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving design hierarchical multi-dimensional reward system separates bottom-line constraints including factual grounding basic answer quality format compliance behavior optimization.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Concretely reward model evaluates responses conditioned user query session history retrieved evidence set combining rule-based checks human-calibrated LLM.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Offline evaluations online A/B tests show improved generation quality user engagement increasing Valid Consumption Rate 1.03% reducing Re-search.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paradigm shift item-centric ranking answer-centric synthesis redefining role search engines..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving recent industrial progress has applied generative techniques closed-set item ranking e-commerce research deployment open-ended search large content platforms.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving setting introduces challenges including robustness noisy retrieval non-negotiable safety guarantees alignment diverse user needs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce SearchLLM first large language model LLM open-ended generative search..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Concretely reward model evaluates responses conditioned user query session history retrieved evidence set combining rule-based checks human-calibrated LLM.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671544",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Diffusion Model-based Mobile Traffic Generation with Open Data for Network Planning and Optimization",
+  "doi": "10.1145/3637528.3671544",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857602",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid development Fifth Generation Mobile Communication Technology networks network planning optimization have become increasingly crucial..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However data required existing generation methods predominantly inaccessible public resulting lack reproducibility models high deployment costs practice..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving rapid development Fifth Generation Mobile Communication Technology networks network planning optimization have become increasingly crucial..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving article propose Open data-based Diffusion model mobile traffic generation OpenDiff multi-positive contrastive learning algorithm designed construct conditional information.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further design attention-based fusion mechanism capture implicit correlations between network traffic human activity features enhancing model controllable generation.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Generating high-fidelity network traffic data preemptively estimate demands mobile users holds potential operators improve performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However data required existing generation methods predominantly inaccessible public resulting lack reproducibility models high deployment costs practice..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct evaluations three different cities varying scales experimental results verify proposed model outperforms existing methods 14.36% 13.05% terms.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid development Fifth Generation Mobile Communication Technology networks network planning optimization have become increasingly crucial..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However data required existing generation methods predominantly inaccessible public resulting lack reproducibility models high deployment costs practice..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rapid development Fifth Generation Mobile Communication Technology networks network planning optimization have become increasingly crucial..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving article propose Open data-based Diffusion model mobile traffic generation OpenDiff multi-positive contrastive learning algorithm designed construct conditional information.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Generating high-fidelity network traffic data preemptively estimate demands mobile users holds potential operators improve performance..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736892",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Contrastive Graph Condensation: Advancing Data Versatility through Self-Supervised Learning",
+  "doi": "10.1145/3711896.3736892",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825841",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines increasing computation training graph neural networks GNNs large-scale graphs condensation GC has emerged promising solution synthesize compact substitute.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However condensed graphs specifically designed node classification task significantly limiting versatility synthesized data across various downstream tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However condensed graphs specifically designed node classification task significantly limiting versatility synthesized data across various downstream tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges introduce Contrastive Graph Condensation CTGC adopts self-supervised surrogate task extract critical causal information original enhance cross-task.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically CTGC employs dual-branch framework disentangle generation node attributes graph structures dedicated structural branch designed explicitly encode geometric.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate CTGC excels handling various downstream tasks limited number labels consistently outperforming state-of-the-art GC methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines increasing computation training graph neural networks GNNs large-scale graphs condensation GC has emerged promising solution synthesize compact substitute.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However condensed graphs specifically designed node classification task significantly limiting versatility synthesized data across various downstream tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However condensed graphs specifically designed node classification task significantly limiting versatility synthesized data across various downstream tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce Contrastive Graph Condensation CTGC adopts self-supervised surrogate task extract critical causal information original enhance cross-task.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate CTGC excels handling various downstream tasks limited number labels consistently outperforming state-of-the-art GC methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

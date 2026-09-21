@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818981",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Text-guided Molecule Generation with Conditional Discrete Graph Diffusion Model",
+  "doi": "10.1145/3770855.3818981",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196961148",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Text-guided molecule generation enables controlled molecular design natural language descriptions has broad applications areas drug discovery..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However accomplishing goal involves several key challenges how align graph diffusion models natural language instructions order generate molecular.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Text-guided molecule generation enables controlled molecular design natural language descriptions has broad applications areas drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose text-guided molecular graph generation framework leverages structural modeling power diffusion models achieve both strong alignment textual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges introduce Text-guided Conditional Discrete Graph Diffusion TDGD diffusion-based framework generating molecular graphs natural language descriptions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent methods have demonstrated promising capability generating molecules align well textual descriptions they often overlook structural properties generated.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving result approaches struggle simultaneously ensure consistency input text high structural quality generated molecules..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper propose text-guided molecular graph generation framework leverages structural modeling power diffusion models achieve both strong alignment textual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Text-guided molecule generation enables controlled molecular design natural language descriptions has broad applications areas drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However accomplishing goal involves several key challenges how align graph diffusion models natural language instructions order generate molecular.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Text-guided molecule generation enables controlled molecular design natural language descriptions has broad applications areas drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose text-guided molecular graph generation framework leverages structural modeling power diffusion models achieve both strong alignment textual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent methods have demonstrated promising capability generating molecules align well textual descriptions they often overlook structural properties generated.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

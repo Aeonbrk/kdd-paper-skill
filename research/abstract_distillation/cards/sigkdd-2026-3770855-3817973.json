@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817973",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AFLiP: An Access-Recomputation Decoupling Framework for Efficient and Structure-Preserving GNN-based Link Prediction",
+  "doi": "10.1145/3770855.3817973",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197050042",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Many GNN-based link prediction models use shared message-passing encoder amortize node encoding across edges..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However practice neighborhood expansion makes edge-level mini-batches approach near full-graph computation weakening benefit..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose Access-Decoupled Recomputation ADR treats explicit optimization decision preserving original graph structure without neighborhood sampling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving realize ADR AFLiP efficient structure-preserving framework GNN-based link prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Across diverse models datasets AFLiP matches exceeds full-recomputation accuracy sampling static reuse exhibit dataset-dependent degradation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Across diverse models datasets AFLiP matches exceeds full-recomputation accuracy sampling static reuse exhibit dataset-dependent degradation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Compared full recomputation AFLiP reaches best checkpoint up 3.1 faster scales web-scale graphs infeasible achieves 16 higher throughput.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Many GNN-based link prediction models use shared message-passing encoder amortize node encoding across edges..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However practice neighborhood expansion makes edge-level mini-batches approach near full-graph computation weakening benefit..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Access-Decoupled Recomputation ADR treats explicit optimization decision preserving original graph structure without neighborhood sampling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving realize ADR AFLiP efficient structure-preserving framework GNN-based link prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Across diverse models datasets AFLiP matches exceeds full-recomputation accuracy sampling static reuse exhibit dataset-dependent degradation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

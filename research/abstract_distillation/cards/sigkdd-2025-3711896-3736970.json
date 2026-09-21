@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736970",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "From Expansion to Retraction: Long-tailed Machine Unlearning via Boundary Manipulation",
+  "doi": "10.1145/3711896.3736970",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825796",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving paper propose first Long-Tailed Machine Unlearning LTMU framework unified decision-boundary perspective..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving framework begins directional boundary repair scheme designed enrich distorted decision tail class then develop novel retraction approach tailored.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments across multiple datasets neural network architectures demonstrate effectiveness framework achieving complete unlearning tail classes long-tailed distributions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Machine unlearning aims remove information specific data trained learning model retaining utility remaining so meet requirements privacy regulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose first Long-Tailed Machine Unlearning LTMU framework unified decision-boundary perspective..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments across multiple datasets neural network architectures demonstrate effectiveness framework achieving complete unlearning tail classes long-tailed distributions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,74 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737398",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Flexible Generation of Preference Data for Recommendation Analysis",
+  "doi": "10.1145/3711896.3737398",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876871",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Simulating recommendation system controlled environment identify specific behaviors user preferences requires highly flexible synthetic data generation models capable.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

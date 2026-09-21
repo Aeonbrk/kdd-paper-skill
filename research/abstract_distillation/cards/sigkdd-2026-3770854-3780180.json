@@ -1,0 +1,81 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780180",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SGA: Self-boosting Attributed Graph Alignment via Neighborhood Consistency-based Edge Enhancement",
+  "doi": "10.1145/3770854.3780180",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171994310",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph alignment task identifying corresponding nodes across different graphs crucial applications ranging social network analysis bioinformatics..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although most existing methods leverage graph neural networks GNNs learn node embeddings attributed graphs match them based similarity.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although most existing methods leverage graph neural networks GNNs learn node embeddings attributed graphs match them based similarity.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph alignment task identifying corresponding nodes across different graphs crucial applications ranging social network analysis bioinformatics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although most existing methods leverage graph neural networks GNNs learn node embeddings attributed graphs match them based similarity.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although most existing methods leverage graph neural networks GNNs learn node embeddings attributed graphs match them based similarity.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

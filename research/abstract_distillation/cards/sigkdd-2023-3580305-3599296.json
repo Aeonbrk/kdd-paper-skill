@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599296",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Debiasing Recommendation by Learning Identifiable Latent Confounders",
+  "doi": "10.1145/3580305.3599296",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568052",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recommendation systems aim predict users feedback items not exposed them yet..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they cannot guarantee identification counterfactual feedback lead biased predictions..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel method i.e. identifiable deconfounder iDCF leverages set proxy variables e.g. observed user features resolve aforementioned.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed iDCF general deconfounded recommendation framework applies proximal causal inference infer unmeasured confounders identify counterfactual feedback theoretical guarantees..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments various real-world synthetic datasets verify proposed method effectiveness robustness..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments various real-world synthetic datasets verify proposed method effectiveness robustness..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recommendation systems aim predict users feedback items not exposed them yet..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they cannot guarantee identification counterfactual feedback lead biased predictions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel method i.e. identifiable deconfounder iDCF leverages set proxy variables e.g. observed user features resolve aforementioned.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed iDCF general deconfounded recommendation framework applies proximal causal inference infer unmeasured confounders identify counterfactual feedback theoretical guarantees..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments various real-world synthetic datasets verify proposed method effectiveness robustness..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

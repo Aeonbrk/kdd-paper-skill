@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737053",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "MoDiff – Graph Generation with Motif-aware Diffusion Model",
+  "doi": "10.1145/3711896.3737053",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876818",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Temporal graphs widely used social network modeling valuable research but pose challenges due data accessibility privacy concerns..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Temporal graphs widely used social network modeling valuable research but pose challenges due data accessibility privacy concerns..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome limitation leverage motifs small subgraphs serve building blocks complex networks encode local information..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based spectral analysis motifs propose MoDiff novel motif-aware diffusion model temporal graph generation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving MoDiff integrates motifs diffusion framework employing motif-enhanced Hermitian matrices capture local structures edge orientations spectral model efficiently generates.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate MoDiff outperforms existing approaches reducing degree discrepancies 10 50% clustering 50 90% better preserving higher-order.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Temporal graphs widely used social network modeling valuable research but pose challenges due data accessibility privacy concerns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Temporal graphs widely used social network modeling valuable research but pose challenges due data accessibility privacy concerns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitation leverage motifs small subgraphs serve building blocks complex networks encode local information..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based spectral analysis motifs propose MoDiff novel motif-aware diffusion model temporal graph generation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results demonstrate MoDiff outperforms existing approaches reducing degree discrepancies 10 50% clustering 50 90% better preserving higher-order.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

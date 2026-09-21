@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817484",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Step-TP: A Grounded, Step-Level Dataset with Chain-of-Thought Reasoning for LLM-Guided Tensor Program Optimization",
+  "doi": "10.1145/3770855.3817484",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196971258",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite strong reasoning capabilities large language models LLMs optimizing execution efficiency tensor programs remains challenging due need precise.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite strong reasoning capabilities large language models LLMs optimizing execution efficiency tensor programs remains challenging due need precise.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce Step-TP post-training dataset tensor program optimization provides grounded atomic step-level supervision structured chain-of-thought CoT reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving design guided four principles token-efficient verifiable intermediate representation IR deterministically lowers TVM TIR ii atomic composable optimization strategies.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset implementation available GitHub link https github.com/LIUMENGFAN-gif/StepTP..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result LLMs struggle make reliable single-step decisions large combinatorial optimization spaces..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite strong reasoning capabilities large language models LLMs optimizing execution efficiency tensor programs remains challenging due need precise.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite strong reasoning capabilities large language models LLMs optimizing execution efficiency tensor programs remains challenging due need precise.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Step-TP post-training dataset tensor program optimization provides grounded atomic step-level supervision structured chain-of-thought CoT reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving design guided four principles token-efficient verifiable intermediate representation IR deterministically lowers TVM TIR ii atomic composable optimization strategies.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result LLMs struggle make reliable single-step decisions large combinatorial optimization spaces..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

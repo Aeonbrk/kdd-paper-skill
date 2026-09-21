@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539161",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Proactively Reducing the Hate Intensity of Online Posts via Hate Speech Normalization",
+  "doi": "10.1145/3534678.3539161",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290928008",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Curbing online hate speech has become need hour however blanket ban activities infeasible several geopolitical cultural reasons..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Curbing online hate speech has become need hour however blanket ban activities infeasible several geopolitical cultural reasons..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving reduce severity problem paper introduce novel task hate speech normalization aims weaken intensity hatred exhibited online post..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end manually curated parallel corpus hate texts normalized counterparts text less hateful benign.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce NACL simple yet efficient hate speech normalization model operates three stages first measures intensity original sample second.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving intention hate speech normalization not support but instead provide users stepping stone towards non-hate giving online platforms time.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving perform extensive experiments measure efficacy NACL via three-way evaluation intrinsic extrinsic human-study.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving observe NACL outperforms six baselines yields score 0.1365 RMSE intensity prediction 0.622 F1-score span identification 82.27 BLEU 80.05.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Curbing online hate speech has become need hour however blanket ban activities infeasible several geopolitical cultural reasons..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Curbing online hate speech has become need hour however blanket ban activities infeasible several geopolitical cultural reasons..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving reduce severity problem paper introduce novel task hate speech normalization aims weaken intensity hatred exhibited online post..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end manually curated parallel corpus hate texts normalized counterparts text less hateful benign.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving intention hate speech normalization not support but instead provide users stepping stone towards non-hate giving online platforms time.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

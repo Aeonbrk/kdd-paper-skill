@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780155",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Spatiotemporal Graph Learning with Direct Volumetric Information Passing and Feature Enhancement",
+  "doi": "10.1145/3770854.3780155",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163521784",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data-driven learning physical systems has attracted significant attention many neural models have been developed..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing node-edge message-passing aggregation mechanism GNNs limits representation learning capability..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Data-driven learning physical systems has attracted significant attention many neural models have been developed..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose dual-module framework Cell-embedded Feature-enhanced Graph Neural Network CeFeGNN learning spatiotemporal dynamics..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically embed learnable cell attributions common node-edge message passing process thereby better capturing spatial dependency regional features..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving particular mesh-based graph neural networks GNNs have demonstrated considerable potential modeling spatiotemporal dynamics across arbitrary geometric domains..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Meanwhile novel feature-enhanced block designed further improve model performance alleviate over-smoothing problem..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments various PDE systems real-world dataset demonstrate CeFeGNN achieves superior performance compared other baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data-driven learning physical systems has attracted significant attention many neural models have been developed..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing node-edge message-passing aggregation mechanism GNNs limits representation learning capability..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Data-driven learning physical systems has attracted significant attention many neural models have been developed..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose dual-module framework Cell-embedded Feature-enhanced Graph Neural Network CeFeGNN learning spatiotemporal dynamics..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving particular mesh-based graph neural networks GNNs have demonstrated considerable potential modeling spatiotemporal dynamics across arbitrary geometric domains..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

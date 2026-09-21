@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818927",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Knowledge-Guided Learning for Global Carbon Flux Prediction: Integrating High-Level Remote Sensing with Bottom-Up Physical Modeling",
+  "doi": "10.1145/3770855.3818927",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196970800",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Forest ecosystems play critical role global carbon cycle Earth system providing essential ecosystem services including sequestration biodiversity support.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they often based predefined rules under simplifying assumptions have limited flexibility incorporate increasingly available observations remote sensing.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Process-based physical models have been developed decades widely used predict carbon dynamics forest ecosystems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose knowledge-guided learning framework bridges representation gap decomposition-resembling design incorporate high-level aggregated remote sensing parameters bottom-up individualized sub-processes..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore address challenge sparse in-situ carbon flux labels i.e. final targets framework includes uncertainty-aware refinements probabilistic label expansion..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results global-scale benchmark datasets show knowledge-guided framework significantly improves prediction performance enabling effective use high-level information..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Forest ecosystems play critical role global carbon cycle Earth system providing essential ecosystem services including sequestration biodiversity support.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they often based predefined rules under simplifying assumptions have limited flexibility incorporate increasingly available observations remote sensing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Process-based physical models have been developed decades widely used predict carbon dynamics forest ecosystems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose knowledge-guided learning framework bridges representation gap decomposition-resembling design incorporate high-level aggregated remote sensing parameters bottom-up individualized sub-processes..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results global-scale benchmark datasets show knowledge-guided framework significantly improves prediction performance enabling effective use high-level information..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

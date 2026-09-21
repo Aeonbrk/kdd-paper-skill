@@ -1,0 +1,149 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599262",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "B2-Sampling: Fusing Balanced and Biased Sampling for Graph Contrastive Learning",
+  "doi": "10.1145/3580305.3599262",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568127",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph contrastive learning GCL aiming embedding space semantically similar nodes closer has been widely applied graph-structured data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Researchers have proposed many approaches define positive negative pairs i.e. semantically similar dissimilar graph serving labels learn embedding.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Thus non-trivial select representative ones train model effective way..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work propose novel sampling approach B2-Sampling address above challenges unified way..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensive experiments node classification clustering graph tasks show B2-Sampling significantly improves performance GCL models acceptable runtime overhead..",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving website 11 https sites.google.com/view/b2-sampling/home provides access codes additional experiment results..",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph contrastive learning GCL aiming embedding space semantically similar nodes closer has been widely applied graph-structured data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Researchers have proposed many approaches define positive negative pairs i.e. semantically similar dissimilar graph serving labels learn embedding.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Thus non-trivial select representative ones train model effective way..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensive experiments node classification clustering graph tasks show B2-Sampling significantly improves performance GCL models acceptable runtime overhead..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,128 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818050",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Causal-DFM: Diffusion-Based Causal-Invariant Dynamic Factor Model for Stock Return Prediction",
+  "doi": "10.1145/3770855.3818050",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196961339",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Stock return prediction highly sensitive market regime shifts bull-bear transitions financial crises monetary policy cycles statistical relationships between.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose Causal-Invariant Dynamic Factor Model Causal-DFM causality-inspired factor-based framework encourages compact stable return-relevant representations suppressing environment-dependent.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further present information-theoretic analysis motivates objective clarifies conditions under learned representation align stable return mechanisms across environments..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent deep learning-based factor models achieve strong performance relatively stable periods they often rely correlations specific historical market.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address challenge propose Causal-Invariant Dynamic Factor Model Causal-DFM causality-inspired factor-based framework encourages compact stable return-relevant representations suppressing environment-dependent.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical results real-world stock datasets demonstrate Causal-DFM consistently outperforms strong baselines particularly pronounced gains during regime transitions crisis.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Stock return prediction highly sensitive market regime shifts bull-bear transitions financial crises monetary policy cycles statistical relationships between.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge propose Causal-Invariant Dynamic Factor Model Causal-DFM causality-inspired factor-based framework encourages compact stable return-relevant representations suppressing environment-dependent.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further present information-theoretic analysis motivates objective clarifies conditions under learned representation align stable return mechanisms across environments..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent deep learning-based factor models achieve strong performance relatively stable periods they often rely correlations specific historical market.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819002",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "LaCONIC: A Label-Aware and Graph-Guided Multi-Omics Collaborative Learning Model for Cancer Survival Prediction",
+  "doi": "10.1145/3770855.3819002",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197006006",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate cancer survival prediction important risk stratification personalized treatment..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However patient prognosis shaped complex molecular regulation cross-omics dependencies subtype-dependent tumor heterogeneity making accurate interpretable prediction challenging..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose LaCONIC label-aware graph-guided multi-omics collaborative learning framework bridges fine-grained molecular regulation coarse-grained patient prognosis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then performs adaptive cross-omics representation learning intra-omics expression-graph fusion inter-omics alignment followed ceRNA-guided attention model miRNA-mRNA-lncRNA interactions under.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving During training LaCONIC requires subtype annotations leverages them through classification multi-level contrastive constraints preserve subtype-dependent survival heterogeneity improve.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments across multiple TCGA cancer datasets demonstrate LaCONIC consistently outperforms 14 representative survival baselines SHAP-based analyses identify prognosis-associated.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate cancer survival prediction important risk stratification personalized treatment..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However patient prognosis shaped complex molecular regulation cross-omics dependencies subtype-dependent tumor heterogeneity making accurate interpretable prediction challenging..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose LaCONIC label-aware graph-guided multi-omics collaborative learning framework bridges fine-grained molecular regulation coarse-grained patient prognosis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving then performs adaptive cross-omics representation learning intra-omics expression-graph fusion inter-omics alignment followed ceRNA-guided attention model miRNA-mRNA-lncRNA interactions under.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving During training LaCONIC requires subtype annotations leverages them through classification multi-level contrastive constraints preserve subtype-dependent survival heterogeneity improve.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

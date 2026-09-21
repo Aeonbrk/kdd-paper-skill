@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818940",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Large Language Model (LLM) as an Excellent Reinforcement Learning Researcher in both Single-Agent and Multi-Agent Scenarios",
+  "doi": "10.1145/3770855.3818940",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196937659",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines quantitative finance area particularly order execution reinforcement learning RL has shown great promise due ability interact market environments.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However traditional RL methods suffer slow research speed rely static market assumptions do not consider impact agent execution.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose Self-Evolutional single-agent/multi-agent Reinforcement Learning SE-RL framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework utilizes Large Language Model LLM design various RL algorithm modules agent reward function profiling communication state imagination.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Additionally use multi-agent system simulate dynamic financial markets accounting impact order executions market dynamics..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving SE-RL could continuously improve accuracy LLM-generated RL algorithms through dual-enhancement kit both high-level prompt refinement low-level parameter fine-tuning.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments 200 realistic stock datasets demonstrate proposed framework outperforms current state-of-the-art baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines quantitative finance area particularly order execution reinforcement learning RL has shown great promise due ability interact market environments.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However traditional RL methods suffer slow research speed rely static market assumptions do not consider impact agent execution.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose Self-Evolutional single-agent/multi-agent Reinforcement Learning SE-RL framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework utilizes Large Language Model LLM design various RL algorithm modules agent reward function profiling communication state imagination.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving SE-RL could continuously improve accuracy LLM-generated RL algorithms through dual-enhancement kit both high-level prompt refinement low-level parameter fine-tuning.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

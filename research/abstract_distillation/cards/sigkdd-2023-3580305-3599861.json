@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599861",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "LibAUC: A Deep Learning Library for X-Risk Optimization",
+  "doi": "10.1145/3580305.3599861",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379548450",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper introduces award-winning deep learning DL library called LibAUC implementing state-of-the-art algorithms towards optimizing family risk functions named.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving They have broad applications AI solving classical emerging problems including but not limited classification imbalanced data CID learning.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduces award-winning deep learning DL library called LibAUC implementing state-of-the-art algorithms towards optimizing family risk functions named.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving motivation developing LibAUC address convergence issues existing libraries solving problems..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving particular existing libraries not converge require very large mini-batch sizes order attain good performance problems due usage standard.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving library deep X-risk optimization DXO has achieved great success solving variety tasks CID LTR CLR..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving contributions paper include introduces new mini-batch based pipeline implementing DXO algorithms differs existing DL design controlled data samplers.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper introduces award-winning deep learning DL library called LibAUC implementing state-of-the-art algorithms towards optimizing family risk functions named.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving They have broad applications AI solving classical emerging problems including but not limited classification imbalanced data CID learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces award-winning deep learning DL library called LibAUC implementing state-of-the-art algorithms towards optimizing family risk functions named.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving motivation developing LibAUC address convergence issues existing libraries solving problems..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving library deep X-risk optimization DXO has achieved great success solving variety tasks CID LTR CLR..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

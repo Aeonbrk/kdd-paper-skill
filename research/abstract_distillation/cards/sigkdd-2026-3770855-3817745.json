@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817745",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "When Logic Meets Perception: Operator-Agnostic Differentiable Reasoning for Reliable Neural Prediction",
+  "doi": "10.1145/3770855.3817745",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196947370",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural models high-stakes domains lack access ontological domain constraints practitioners take granted retrofitting knowledge hard expressive logical formalisms.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present differentiable reasoning framework resolves tension..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework operator-agnostic decouples logical structure choice underlying continuous semantics revealing through first controlled comparison kind alone swing performance.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving finding motivates two adaptive mechanisms semantic gate focuses gradient signal model most flagrant logical violations structure-aware loss automatically.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving framework operator-agnostic decouples logical structure choice underlying continuous semantics revealing through first controlled comparison kind alone swing performance.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving eight benchmark ontologies framework achieves statistically significant improvements over nine baselines spanning neuro-symbolic geometric probabilistic paradigms..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving semantic image interpretation refines frozen object detector domain rules alone without need extra labels lifting macro-averaged F1 up.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural models high-stakes domains lack access ontological domain constraints practitioners take granted retrofitting knowledge hard expressive logical formalisms.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present differentiable reasoning framework resolves tension..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework operator-agnostic decouples logical structure choice underlying continuous semantics revealing through first controlled comparison kind alone swing performance.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving framework operator-agnostic decouples logical structure choice underlying continuous semantics revealing through first controlled comparison kind alone swing performance.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

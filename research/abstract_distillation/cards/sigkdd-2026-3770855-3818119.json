@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818119",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation",
+  "doi": "10.1145/3770855.3818119",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417301603",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Motivated real cases introduce setting competing attacks multiple attackers simultaneously attempt steer same closely related query toward different.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving formalize threat model propose competitive effectiveness metric quantifies attacker advantage under competition..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Furthermore present PoisonArena standardized framework benchmark evaluating poisoning attacks defenses under realistic multi-adversary conditions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Prior work largely evaluates threat under simplified single-attacker assumption..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show many strategies succeed single-attacker regime degrade markedly under competition revealing performance inversions highlighting limits conventional.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated real cases introduce setting competing attacks multiple attackers simultaneously attempt steer same closely related query toward different.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formalize threat model propose competitive effectiveness metric quantifies attacker advantage under competition..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Retrieval-Augmented Generation RAG systems improve factual grounding large language models LLMs but remain vulnerable retrieval poisoning adversaries seed.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

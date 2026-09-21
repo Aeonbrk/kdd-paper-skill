@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817893",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond Static Priors: Dynamic Neural Guidance for Large-Scale Ant Colony Optimization",
+  "doi": "10.1145/3770855.3817893",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163717581",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural-guided Ant Colony Optimization ACO suffers fundamental training-inference misalignment policies typically trained generate static priors e.g. heatmaps yet.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper present DyNACO novel framework achieves dynamic neural guidance periodically observing pheromone distribution incumbent solution..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving make DyNACO tractable scale pair policy perturbation-based ACO backend scope-restricted refinement mechanism jointly ensure efficacy stable credit assignment..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving extend DyNACO CVRP via capacity-aware backend consistently improving unguided baseline less 1% neural overhead..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper present DyNACO novel framework achieves dynamic neural guidance periodically observing pheromone distribution incumbent solution..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving TSP DyNACO scales 100 000 node instances outperforms neural baselines often reducing total runtime compared unguided solver..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extend DyNACO CVRP via capacity-aware backend consistently improving unguided baseline less 1% neural overhead..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural-guided Ant Colony Optimization ACO suffers fundamental training-inference misalignment policies typically trained generate static priors e.g. heatmaps yet.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present DyNACO novel framework achieves dynamic neural guidance periodically observing pheromone distribution incumbent solution..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving make DyNACO tractable scale pair policy perturbation-based ACO backend scope-restricted refinement mechanism jointly ensure efficacy stable credit assignment..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper present DyNACO novel framework achieves dynamic neural guidance periodically observing pheromone distribution incumbent solution..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

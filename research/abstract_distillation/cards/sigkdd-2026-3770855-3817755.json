@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817755",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Neural Scalable Symbolic Search Framework for Complex Logical Queries with Multiple Free Variables",
+  "doi": "10.1145/3770855.3817755",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197031408",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Complex Query Answering CQA fundamental knowledge representation reasoning task over incomplete graphs KGs.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Consequently existing benchmarks methods rely marginal rankings over individual variables however poor proxy true joint ranking tuples..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building neural symbolic search EFO1 queries propose Scalable NS3 budgeted framework approximates joint ranking without enumerating Ek..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving further release joint-ranking benchmark extends existing EFO1 datasets enabling systematic evaluation multi-variable queries..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Across three standard KG datasets NS3 substantially improves joint ranking performance retaining strong marginal accuracy..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further release joint-ranking benchmark extends existing EFO1 datasets enabling systematic evaluation multi-variable queries..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Complex Query Answering CQA fundamental knowledge representation reasoning task over incomplete graphs KGs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Consequently existing benchmarks methods rely marginal rankings over individual variables however poor proxy true joint ranking tuples..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building neural symbolic search EFO1 queries propose Scalable NS3 budgeted framework approximates joint ranking without enumerating Ek..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further release joint-ranking benchmark extends existing EFO1 datasets enabling systematic evaluation multi-variable queries..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Across three standard KG datasets NS3 substantially improves joint ranking performance retaining strong marginal accuracy..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

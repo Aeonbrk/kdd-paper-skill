@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539049",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Connecting the Hosts: Street-Level IP Geolocation with Graph Neural Networks",
+  "doi": "10.1145/3534678.3539049",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943610",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pinpointing geographic location IP address important range location-aware applications spanning targeted advertising fraud prevention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated limitations existing works propose novel framework named GraphGeo provides complete processing methodology street-level IP geolocation application graph.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving explicitly consider alleviate negative impact uncertainty caused network jitter congestion pervasive complicated environments..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Moreover proposed framework has been deployed web platform online service months..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluations across three large-scale real-world datasets demonstrate GraphGeo significantly reduces geolocation errors compared state-of-the-art methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pinpointing geographic location IP address important range location-aware applications spanning targeted advertising fraud prevention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated limitations existing works propose novel framework named GraphGeo provides complete processing methodology street-level IP geolocation application graph.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving explicitly consider alleviate negative impact uncertainty caused network jitter congestion pervasive complicated environments..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluations across three large-scale real-world datasets demonstrate GraphGeo significantly reduces geolocation errors compared state-of-the-art methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

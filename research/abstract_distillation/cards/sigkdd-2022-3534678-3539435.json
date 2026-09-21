@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539435",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Graph Structural Attack by Perturbing Spectral Distance",
+  "doi": "10.1145/3534678.3539435",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875619",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Convolutional Networks GCNs have fueled surge research interest due encouraging performance learning tasks but they shown vulnerability.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Graph Convolutional Networks GCNs have fueled surge research interest due encouraging performance learning tasks but they shown vulnerability.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving define notion spectral distance based eigenvalues graph Laplacian measure disruption filters..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving realize attack maximizing spectral distance propose efficient approximation reduce time complexity brought eigen-decomposition..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving experiments demonstrate remarkable effectiveness proposed attack both black-box white-box settings test-time evasion attacks training-time poisoning attacks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experiments demonstrate remarkable effectiveness proposed attack both black-box white-box settings test-time evasion attacks training-time poisoning attacks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Convolutional Networks GCNs have fueled surge research interest due encouraging performance learning tasks but they shown vulnerability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Graph Convolutional Networks GCNs have fueled surge research interest due encouraging performance learning tasks but they shown vulnerability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving define notion spectral distance based eigenvalues graph Laplacian measure disruption filters..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving realize attack maximizing spectral distance propose efficient approximation reduce time complexity brought eigen-decomposition..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experiments demonstrate remarkable effectiveness proposed attack both black-box white-box settings test-time evasion attacks training-time poisoning attacks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671697",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Dense Subgraph Discovery Meets Strong Triadic Closure",
+  "doi": "10.1145/3637528.3671697",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863405",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Finding dense subgraphs core problem numerous graph mining applications community detection social networks anomaly detection..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many real-world networks connections not equal..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper apply STC dense subgraph discovery..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving show problem equivalent finding densest subgraph largest clique making NP-hard..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose exact algorithm based integer linear programming four practical polynomial-time heuristics..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving present extensive experimental study shows algorithms find ground truth synthetic datasets run efficiently real-world datasets..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Finding dense subgraphs core problem numerous graph mining applications community detection social networks anomaly detection..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many real-world networks connections not equal..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper apply STC dense subgraph discovery..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show problem equivalent finding densest subgraph largest clique making NP-hard..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving present extensive experimental study shows algorithms find ground truth synthetic datasets run efficiently real-world datasets..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

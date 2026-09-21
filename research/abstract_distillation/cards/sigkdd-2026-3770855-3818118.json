@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818118",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "When Hard Negatives Hurt: Bridging the Generative Discriminative Gap in Hard Negative Synthesis for Retrieval",
+  "doi": "10.1145/3770855.3818118",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163578869",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hard negative mining has become dominant strategy training retrievers yet faces intrinsic limitations negatives bounded corpus availability selected.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving But show naively incorporating generated negatives contrastive learning often degrades retrieval performance..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving But show naively incorporating generated negatives contrastive learning often degrades retrieval performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving identify formalize root cause generative-discriminative gap LLM generation optimizes fluent plausible text contrastive learning demands strategic violations relevance.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving analysis reveals two compounding failure modes discriminative-agnostic generation LLM lacks explicit model query information needs defaults generic topic-drifted.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Hard negative mining has become dominant strategy training retrievers yet faces intrinsic limitations negatives bounded corpus availability selected.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hard negative mining has become dominant strategy training retrievers yet faces intrinsic limitations negatives bounded corpus availability selected.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving But show naively incorporating generated negatives contrastive learning often degrades retrieval performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving But show naively incorporating generated negatives contrastive learning often degrades retrieval performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify formalize root cause generative-discriminative gap LLM generation optimizes fluent plausible text contrastive learning demands strategic violations relevance.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Hard negative mining has become dominant strategy training retrievers yet faces intrinsic limitations negatives bounded corpus availability selected.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

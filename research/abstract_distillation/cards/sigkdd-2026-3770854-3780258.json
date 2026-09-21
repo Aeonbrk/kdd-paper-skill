@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780258",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Align-for-Fusion: Harmonizing Triple Preferences via Dual-oriented Diffusion for Cross-domain Sequential Recommendation",
+  "doi": "10.1145/3770854.3780258",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171927820",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Personalized sequential recommendation aims predict appropriate items users behavioral sequences..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing cross-domain sequential recommendation CDSR algorithms follow align-then-fusion paradigm conducts representation-level alignment across multiple domains mechanically combine.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired advancements diffusion models DMs distribution matching propose align-for-fusion framework CDSR Harmonize triple preferences utilizing Dual-oriented HorizonRec.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically first investigate uncertainty injection DMs attribute fundamental factor instability existing recommenders stochastic noise propose Mixed-conditioned Distribution Retrieval.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving suppress potential noise emphasize target-relevant interests during multi-domain user representation fusion further propose Dual-oriented Preference Diffusion method guide.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments analyses four CDSR datasets two distinct platforms verify effectiveness robustness HorizonRec effective mechanism fine-grained fusion.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Personalized sequential recommendation aims predict appropriate items users behavioral sequences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing cross-domain sequential recommendation CDSR algorithms follow align-then-fusion paradigm conducts representation-level alignment across multiple domains mechanically combine.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired advancements diffusion models DMs distribution matching propose align-for-fusion framework CDSR Harmonize triple preferences utilizing Dual-oriented HorizonRec.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically first investigate uncertainty injection DMs attribute fundamental factor instability existing recommenders stochastic noise propose Mixed-conditioned Distribution Retrieval.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct extensive experiments analyses four CDSR datasets two distinct platforms verify effectiveness robustness HorizonRec effective mechanism fine-grained fusion.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599764",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "A Multi-stage Framework for Online Bonus Allocation Based on Constrained User Intent Detection",
+  "doi": "10.1145/3580305.3599764",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562507",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines explosive development e-commerce service tens millions orders generated every day Meituan platform..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However solution usually faces following challenges user intent detection stage due sparsity interaction noise traditional multi-treatment effect estimation.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving explosive development e-commerce service tens millions orders generated every day Meituan platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving formulated multi-choice knapsack problem MCKP mainstream solution usually two-stage method..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve above challenges propose framework consists three modules i.e. User Intent Detection Module Online Allocation Feedback Control Module..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving User Intent Detection Module implicitly model treatment increment based deep representation learning constrain non-negative achieve monotonicity constraints..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally conduct extensive offline online experiments demonstrating superiority proposed framework reduced customer acquisition costs 5.07% still running online..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines explosive development e-commerce service tens millions orders generated every day Meituan platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However solution usually faces following challenges user intent detection stage due sparsity interaction noise traditional multi-treatment effect estimation.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving explosive development e-commerce service tens millions orders generated every day Meituan platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formulated multi-choice knapsack problem MCKP mainstream solution usually two-stage method..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving User Intent Detection Module implicitly model treatment increment based deep representation learning constrain non-negative achieve monotonicity constraints..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

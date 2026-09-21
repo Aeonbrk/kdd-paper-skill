@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736945",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "EVINET: Towards Open-World Graph Learning via Evidential Reasoning Network",
+  "doi": "10.1145/3711896.3736945",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825872",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph learning has been crucial many real-world tasks but they often studied closed-world assumption all possible labels data.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Graph learning has been crucial many real-world tasks but they often studied closed-world assumption all possible labels data.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving enable effective graph learning open noisy environment critical inform model users when makes wrong prediction in-distribution data known.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduces Evidential Reasoning Network EVINET framework addresses two challenges integrating Beta embedding within subjective logic framework..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate EVINET outperforms state-of-the-art methods across multiple metrics tasks in-distribution classification misclassification detection out-of-distribution detection..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving EVINET demonstrates necessity uncertainty estimation logical reasoning misclassification detection out-of-distribution paves way open-world graph learning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph learning has been crucial many real-world tasks but they often studied closed-world assumption all possible labels data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Graph learning has been crucial many real-world tasks but they often studied closed-world assumption all possible labels data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving enable effective graph learning open noisy environment critical inform model users when makes wrong prediction in-distribution data known.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces Evidential Reasoning Network EVINET framework addresses two challenges integrating Beta embedding within subjective logic framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate EVINET outperforms state-of-the-art methods across multiple metrics tasks in-distribution classification misclassification detection out-of-distribution detection..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

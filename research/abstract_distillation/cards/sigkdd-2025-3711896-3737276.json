@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737276",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Leveraging Label Distributions as Anchors to Enhance Video Recommendation",
+  "doi": "10.1145/3711896.3737276",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876972",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines video recommendation systems accurately predicting watch time crucial enhancing user engagement retention..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Traditional methods typically apply label transformations mitigate duration bias improve performance but overlook erroneous instance representations primary cause.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose LDA novel prediction paradigm optimizes instance representations explicitly leveraging label distributions anchors within model enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based finding employ Vector Quantized Variational Auto-encoder VQ-VAE convert continuous watch ratio distribution representative anchors capture multi-peak characteristics.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Subsequently project both instance representations anchors common space utilize Optimal Transport OT generate pseudo-labels aligned anchor distribution allowing.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Traditional methods typically apply label transformations mitigate duration bias improve performance but overlook erroneous instance representations primary cause.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline experiments two datasets large-scale online A/B testing short-video platform over 300 million DAUs demonstrate consistent superiority.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines video recommendation systems accurately predicting watch time crucial enhancing user engagement retention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Traditional methods typically apply label transformations mitigate duration bias improve performance but overlook erroneous instance representations primary cause.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose LDA novel prediction paradigm optimizes instance representations explicitly leveraging label distributions anchors within model enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based finding employ Vector Quantized Variational Auto-encoder VQ-VAE convert continuous watch ratio distribution representative anchors capture multi-peak characteristics.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Traditional methods typically apply label transformations mitigate duration bias improve performance but overlook erroneous instance representations primary cause.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

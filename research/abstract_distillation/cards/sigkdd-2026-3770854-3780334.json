@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780334",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Think2Go: Generative Next POI Recommendation with LLM Reasoning",
+  "doi": "10.1145/3770854.3780334",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171990330",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Next Point-of-Interest POI recommendation task focuses mining user behavioral preference patterns historical check-ins provide personalized suggestions destination..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However inherent sparsity complexity user mobility patterns limit computational capacity non-reasoning models capture deep intent large language LLMs.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose Think2Go novel generative next POI recommendation framework enhances model comprehension SID representations explores diverse spatial-temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving unify supervised fine-tuning SFT reinforcement learning RL based reasoning within single architecture enabling joint optimization memorization adaptive better.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further calibrate policy optimization adaptive reasoning propose two advantage weighting mechanisms integrate prompt epistemic uncertainty estimated via kernel.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving further calibrate policy optimization adaptive reasoning propose two advantage weighting mechanisms integrate prompt epistemic uncertainty estimated via kernel.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted three real-world datasets demonstrate Think2Go exhibits strong generalization capabilities enhances LLM understanding SIDs..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Next Point-of-Interest POI recommendation task focuses mining user behavioral preference patterns historical check-ins provide personalized suggestions destination..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However inherent sparsity complexity user mobility patterns limit computational capacity non-reasoning models capture deep intent large language LLMs.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose Think2Go novel generative next POI recommendation framework enhances model comprehension SID representations explores diverse spatial-temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving unify supervised fine-tuning SFT reinforcement learning RL based reasoning within single architecture enabling joint optimization memorization adaptive better.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving further calibrate policy optimization adaptive reasoning propose two advantage weighting mechanisms integrate prompt epistemic uncertainty estimated via kernel.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

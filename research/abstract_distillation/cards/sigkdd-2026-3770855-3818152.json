@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818152",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PathCRF: Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories",
+  "doi": "10.1145/3770855.3818152",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196961716",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite recent advances AI event data collection soccer still relies heavily labor-intensive manual annotation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although prior work has explored automatic event detection player ball trajectories tracking remains difficult scale due high infrastructural.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge paper proposes PathCRF framework detecting on-ball soccer events only player tracking data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model player trajectories fully connected dynamic graph formulate event detection problem selecting exactly one edge corresponding current possession.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving ensure logical consistency resulting edge sequence employ Conditional Random Field CRF forbids impossible transitions between consecutive edges emission.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result comprehensive data collection soccer largely confined top-tier competitions limiting broader adoption data-driven analysis domain..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving ensure logical consistency resulting edge sequence employ Conditional Random Field CRF forbids impossible transitions between consecutive edges emission.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show PathCRF produces accurate logically consistent possession paths enabling reliable downstream analyses substantially reducing need manual event.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite recent advances AI event data collection soccer still relies heavily labor-intensive manual annotation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although prior work has explored automatic event detection player ball trajectories tracking remains difficult scale due high infrastructural.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge paper proposes PathCRF framework detecting on-ball soccer events only player tracking data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model player trajectories fully connected dynamic graph formulate event detection problem selecting exactly one edge corresponding current possession.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result comprehensive data collection soccer largely confined top-tier competitions limiting broader adoption data-driven analysis domain..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709240",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Tackling the Length Barrier: Dynamic Context Browsing for Knowledge-Intensive Task",
+  "doi": "10.1145/3690624.3709240",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158071",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Knowledge-intensive tasks often require complex reasoning contextual understanding over long contexts..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However learning deployment long-LLMs remains challenging problem despite recent progresses..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work propose short LLMs have great potentiality solving knowledge-intensive tasks long context i.e. they solved purely working oracle.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving top argument propose framework called DCISO DynamiC knowledge-Intensive task Olver enables short-LLM address tasks long context via browsing..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework short-LLM prompts itself reason two critical decisions how access appropriate part context within input make effective use.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving comprehensively evaluate different types tasks popular long-context benchmarks DCISO able achieve substantially improved performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Knowledge-intensive tasks often require complex reasoning contextual understanding over long contexts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However learning deployment long-LLMs remains challenging problem despite recent progresses..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose short LLMs have great potentiality solving knowledge-intensive tasks long context i.e. they solved purely working oracle.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving top argument propose framework called DCISO DynamiC knowledge-Intensive task Olver enables short-LLM address tasks long context via browsing..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving comprehensively evaluate different types tasks popular long-context benchmarks DCISO able achieve substantially improved performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

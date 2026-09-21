@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672024",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection",
+  "doi": "10.1145/3637528.3672024",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863559",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rise social media has intensified fake news risks prompting growing focus leveraging graph learning methods neural networks GNNs.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods often produce less robust interpretable results they assume all information within propagation graph relevant news.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper address issues proposing Propagation Structure-aware Graph Transformer PSGT.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically filter out noise users within propagation graphs PSGT first designs noise-reduction self-attention mechanism based information bottleneck principle.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover capture multi-scale propagation structures considering long-sequence features present novel relational graph position encoding Transformer enabling model both.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing methods often produce less robust interpretable results they assume all information within propagation graph relevant news.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore they inadequately capture intricate patterns inherent long-sequence dependencies news propagation due use shallow GNNs aimed avoiding over-smoothing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate effectiveness interpretability robustness PSGT..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rise social media has intensified fake news risks prompting growing focus leveraging graph learning methods neural networks GNNs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods often produce less robust interpretable results they assume all information within propagation graph relevant news.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper address issues proposing Propagation Structure-aware Graph Transformer PSGT.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically filter out noise users within propagation graphs PSGT first designs noise-reduction self-attention mechanism based information bottleneck principle.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing methods often produce less robust interpretable results they assume all information within propagation graph relevant news.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

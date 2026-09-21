@@ -1,0 +1,66 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818149",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DiffoR: A Unified Continuous Generative Framework for Universal Ordinal Regression",
+  "doi": "10.1145/3770855.3818149",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164127316",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Ordinal Regression aims predict target values inherent order underpinning critical applications across diverse domains recommender systems computer vision..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Though having evolved naive regression discretization-based classification generation existing paradigms remain fundamentally constrained quantization artifacts lack global ordinal.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Ordinal Regression aims predict target values inherent order underpinning critical applications across diverse domains recommender systems computer vision..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Though having evolved naive regression discretization-based classification generation existing paradigms remain fundamentally constrained quantization artifacts lack global ordinal.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

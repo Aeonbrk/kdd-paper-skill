@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671805",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Effective Edge-wise Representation Learning in Edge-Attributed Bipartite Graphs",
+  "doi": "10.1145/3637528.3671805",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864132",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph representation learning GRL encode elements informative vector representations used downstream tasks analyzing graph-structured data has seen extensive.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However majority extant studies GRL geared towards generating node representations cannot readily employed perform edge-based analytics tasks edge-attributed.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving knowledge despite importance limited research has been devoted frontier existing workarounds all suffer sub-par results.Motivated paper designs EAGLE.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building in-depth rigorous theoretical analysis propose factorized feature propagation FFP scheme edge representations adequate incorporation long-range dependencies edges/features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further ameliorate FFP dual-view taking account influences nodes severally ERL..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving knowledge despite importance limited research has been devoted frontier existing workarounds all suffer sub-par results.Motivated paper designs EAGLE.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real datasets showcase effectiveness proposed EAGLE models semi-supervised edge classification tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving particular EAGLE attain considerable gain most 38.11% AP 1.86% AUC when compared best baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph representation learning GRL encode elements informative vector representations used downstream tasks analyzing graph-structured data has seen extensive.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However majority extant studies GRL geared towards generating node representations cannot readily employed perform edge-based analytics tasks edge-attributed.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving knowledge despite importance limited research has been devoted frontier existing workarounds all suffer sub-par results.Motivated paper designs EAGLE.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building in-depth rigorous theoretical analysis propose factorized feature propagation FFP scheme edge representations adequate incorporation long-range dependencies edges/features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving knowledge despite importance limited research has been devoted frontier existing workarounds all suffer sub-par results.Motivated paper designs EAGLE.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

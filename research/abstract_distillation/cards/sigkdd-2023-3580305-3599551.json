@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599551",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window",
+  "doi": "10.1145/3580305.3599551",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567578",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modeling dynamics graph neural networks GNNs contributes understanding evolution dynamic graphs helps optimize temporal-spatial representations real-world network problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Empirically dynamic GNN embedding requires additional temporal encoders inevitably introduces learning parameters make GNNs oversized inefficient..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose WinGNN framework model dynamic graphs realized simple GNN meta-learning strategy novel mechanism random gradient aggregation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving WinGNN calculates frame-wise loss current snapshot passes gradient next model graph dynamics without temporal encoders..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Then introduces randomized sliding-window acquire window-aware gradienton consecutive snapshots calculated two types gradient aggregated update GNN thereby reducing.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments six public datasets show advantage WinGNN compared existing baselines has reached optimum twenty-two out twenty-four performance metrics..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modeling dynamics graph neural networks GNNs contributes understanding evolution dynamic graphs helps optimize temporal-spatial representations real-world network problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Empirically dynamic GNN embedding requires additional temporal encoders inevitably introduces learning parameters make GNNs oversized inefficient..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose WinGNN framework model dynamic graphs realized simple GNN meta-learning strategy novel mechanism random gradient aggregation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Then introduces randomized sliding-window acquire window-aware gradienton consecutive snapshots calculated two types gradient aggregated update GNN thereby reducing.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

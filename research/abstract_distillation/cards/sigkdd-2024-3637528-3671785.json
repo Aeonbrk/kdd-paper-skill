@@ -1,0 +1,160 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671785",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Optimizing OOD Detection in Molecular Graphs: A Novel Approach with Diffusion Models",
+  "doi": "10.1145/3637528.3671785",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864022",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite recent progress molecular representation learning effectiveness assumed close-world assumptions training testing graphs identical distribution..",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although conceptually simple extending vanilla framework practical detection applications still limited two significant challenges..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving open-world test dataset often mixed out-of-distribution OOD samples deployed models will struggle make accurate predictions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving misleading estimations molecules properties drug screening design result tremendous waste wet-lab resources delay discovery novel therapies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Traditional detection methods need trade off OOD in-distribution ID classification performance since they share same representation learning model..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving misleading estimations molecules properties drug screening design result tremendous waste wet-lab resources delay discovery novel therapies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments ten benchmark datasets six baselines conducted demonstrate superiority PGR-MOOD achieves 8% average improvement terms detection AUC.",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite recent progress molecular representation learning effectiveness assumed close-world assumptions training testing graphs identical distribution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although conceptually simple extending vanilla framework practical detection applications still limited two significant challenges..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving open-world test dataset often mixed out-of-distribution OOD samples deployed models will struggle make accurate predictions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving misleading estimations molecules properties drug screening design result tremendous waste wet-lab resources delay discovery novel therapies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving misleading estimations molecules properties drug screening design result tremendous waste wet-lab resources delay discovery novel therapies..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

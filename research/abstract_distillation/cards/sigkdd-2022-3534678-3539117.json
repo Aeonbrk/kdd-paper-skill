@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539117",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Learning Sparse Latent Graph Representations for Anomaly Detection in Multivariate Time Series",
+  "doi": "10.1145/3534678.3539117",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943650",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Anomaly detection high-dimensional time series typically tackled either reconstruction- forecasting-based algorithms due abilities learn compressed data representations model.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing methods disregard relationships between features information would extremely useful when incorporated model..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Anomaly detection high-dimensional time series typically tackled either reconstruction- forecasting-based algorithms due abilities learn compressed data representations model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However most existing methods disregard relationships between features information would extremely useful when incorporated model..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce Fused Sparse Autoencoder Graph Net FuSAGNet jointly optimizes reconstruction forecasting explicitly modeling relationships within multivariate time.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimenting three real-world cyber-physical system datasets empirically demonstrate proposed method enhances overall anomaly detection performance outperforming baseline approaches..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover show mining sparse latent patterns high-dimensional time series improves robustness graph-based forecasting model..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Anomaly detection high-dimensional time series typically tackled either reconstruction- forecasting-based algorithms due abilities learn compressed data representations model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing methods disregard relationships between features information would extremely useful when incorporated model..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Anomaly detection high-dimensional time series typically tackled either reconstruction- forecasting-based algorithms due abilities learn compressed data representations model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However most existing methods disregard relationships between features information would extremely useful when incorporated model..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimenting three real-world cyber-physical system datasets empirically demonstrate proposed method enhances overall anomaly detection performance outperforming baseline approaches..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

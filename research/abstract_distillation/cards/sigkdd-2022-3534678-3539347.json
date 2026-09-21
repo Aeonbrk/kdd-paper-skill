@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539347",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Graph Rationalization with Environment-based Augmentations",
+  "doi": "10.1145/3534678.3539347",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4282004119",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Rationale defined subset input features best explains supports prediction machine learning models..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing graph pooling and/or distribution intervention methods suffer lack examples learn identify optimal rationales..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work introduce new augmentation operation called environment replacement automatically creates virtual data examples improve rationale identification..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose efficient framework performs rationale-environment separation representation learning real augmented examples latent spaces avoid high complexity explicit graph.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Comparing against recent techniques experiments seven molecular four polymer datasets demonstrate effectiveness efficiency proposed augmentation-based graph rationalization framework..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Rationale identification has improved generalizability interpretability neural networks vision language data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work introduce new augmentation operation called environment replacement automatically creates virtual data examples improve rationale identification..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comparing against recent techniques experiments seven molecular four polymer datasets demonstrate effectiveness efficiency proposed augmentation-based graph rationalization framework..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Rationale defined subset input features best explains supports prediction machine learning models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing graph pooling and/or distribution intervention methods suffer lack examples learn identify optimal rationales..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce new augmentation operation called environment replacement automatically creates virtual data examples improve rationale identification..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose efficient framework performs rationale-environment separation representation learning real augmented examples latent spaces avoid high complexity explicit graph.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Rationale identification has improved generalizability interpretability neural networks vision language data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

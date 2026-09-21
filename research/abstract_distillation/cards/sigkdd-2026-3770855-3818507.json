@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818507",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting",
+  "doi": "10.1145/3770855.3818507",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196971458",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Wake vortices strong coherent air turbulences created aircraft they pose major safety capacity challenge traffic management..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present X-VORTEX spatio-temporal contrastive learning framework grounded Augmentation Overlap Theory learns physics-aware representations unlabeled LiDAR point cloud sequences..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving constructs paired inputs same underlying flight event combining weakly perturbed sequence strongly augmented counterpart produced via temporal subsampling.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluate real-world dataset over one million LiDAR scans..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate real-world dataset over one million LiDAR scans..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving X-VORTEX achieves superior vortex center localization only 1% labeled data required supervised baselines learned representations support accurate trajectory.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Wake vortices strong coherent air turbulences created aircraft they pose major safety capacity challenge traffic management..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present X-VORTEX spatio-temporal contrastive learning framework grounded Augmentation Overlap Theory learns physics-aware representations unlabeled LiDAR point cloud sequences..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving constructs paired inputs same underlying flight event combining weakly perturbed sequence strongly augmented counterpart produced via temporal subsampling.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate real-world dataset over one million LiDAR scans..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

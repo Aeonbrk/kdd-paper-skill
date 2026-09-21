@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818056",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "RouteGoT: Node-Adaptive Routing for Cost-Efficient Graph of Thoughts Reasoning",
+  "doi": "10.1145/3770855.3818056",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196958846",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs excel multi-step reasoning yet increasing structural complexity inference does not consistently improve system-level returns..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Methods Tree Thoughts ToT Graph GoT Adaptive AGoT boost accuracy some benchmarks but often introduce substantial overhead token.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Methods Tree Thoughts ToT Graph GoT Adaptive AGoT boost accuracy some benchmarks but often introduce substantial overhead token.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving attribute inefficiency stage-wise node-wise heterogeneity inside GoT-style reasoning pipelines high-quality planning final synthesis globally coupled typically benefit strong.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated observations propose RouteGoT budget-controllable node-adaptive routing framework graph-structured reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models LLMs excel multi-step reasoning yet increasing structural complexity inference does not consistently improve system-level returns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Methods Tree Thoughts ToT Graph GoT Adaptive AGoT boost accuracy some benchmarks but often introduce substantial overhead token.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments across reasoning retrieval multi-hop QA benchmarks show RouteGoT matches improves accuracy substantially reducing token usage specifically achieves.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs excel multi-step reasoning yet increasing structural complexity inference does not consistently improve system-level returns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Methods Tree Thoughts ToT Graph GoT Adaptive AGoT boost accuracy some benchmarks but often introduce substantial overhead token.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Methods Tree Thoughts ToT Graph GoT Adaptive AGoT boost accuracy some benchmarks but often introduce substantial overhead token.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving attribute inefficiency stage-wise node-wise heterogeneity inside GoT-style reasoning pipelines high-quality planning final synthesis globally coupled typically benefit strong.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models LLMs excel multi-step reasoning yet increasing structural complexity inference does not consistently improve system-level returns..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

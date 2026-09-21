@@ -1,0 +1,15 @@
+{
+  "sample_size": 36,
+  "selection": "stratified by year and track, then deterministic fill",
+  "outcomes": {
+    "pass": 36,
+    "minor_correction": 0,
+    "material_correction": 0
+  },
+  "schema_corrections": [
+    "stated_novelty remains null unless an author-stated distinction is explicit",
+    "candidate_lessons may be empty when an abstract does not support a transferable observation",
+    "claims use compact paraphrases and retain source unit IDs instead of copying abstract text"
+  ],
+  "population_accuracy_claim": null
+}

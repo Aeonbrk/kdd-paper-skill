@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539350",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Dual-Geometric Space Embedding Model for Two-View Knowledge Graphs",
+  "doi": "10.1145/3534678.3539350",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290945646",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Two-view knowledge graphs KGs jointly represent two components ontology view abstract commonsense concepts instance specific entities instantiated ontological.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite various structures KGs recent works embedding assume entire KG belongs only one two views but not both.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue define construct dual-geometric space embedding model DGS models two-view KGs complex non-Euclidean geometric different portions KG.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving DGS utilizes spherical space hyperbolic intersecting unified framework learning embeddings..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore spherical space propose novel closed operators directly decompose properties without need mapping approximate tangent space..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments public datasets show DGS significantly outperforms previous state-of-the-art baseline models KG completion tasks demonstrating ability better model.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Two-view knowledge graphs KGs jointly represent two components ontology view abstract commonsense concepts instance specific entities instantiated ontological.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite various structures KGs recent works embedding assume entire KG belongs only one two views but not both.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue define construct dual-geometric space embedding model DGS models two-view KGs complex non-Euclidean geometric different portions KG.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving DGS utilizes spherical space hyperbolic intersecting unified framework learning embeddings..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments public datasets show DGS significantly outperforms previous state-of-the-art baseline models KG completion tasks demonstrating ability better model.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

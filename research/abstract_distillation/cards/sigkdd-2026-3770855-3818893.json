@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818893",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Ocean-E2E: Hybrid Physics-Based and Data-Driven Global Forecasting of Marine Heatwaves with End-to-End Neural Assimilation",
+  "doi": "10.1145/3770855.3818893",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196944937",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines work focuses end-to-end forecast global extreme marine heatwaves MHWs unusually warm sea surface temperature events profound impacts ecosystems..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods still have certain limitations forecasting general patterns extreme events..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving study address issues based physical nature MHWs created novel hybrid data-driven numerical forecast framework Ocean-E2E capable 40 day.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework significantly improves forecast ability MHWs explicitly modeling effect oceanic mesoscale advection air-sea interaction based dynamic kernel..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore Ocean-E2E capable end-to-end MHWs forecast regional high-resolution prediction allowing framework operate completely independently numerical models outperforming current.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving framework significantly improves forecast ability MHWs explicitly modeling effect oceanic mesoscale advection air-sea interaction based dynamic kernel..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore Ocean-E2E capable end-to-end MHWs forecast regional high-resolution prediction allowing framework operate completely independently numerical models outperforming current.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results show proposed framework performs excellently global-to-regional scales short-to-long-term forecasts especially those most extreme MHWs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines work focuses end-to-end forecast global extreme marine heatwaves MHWs unusually warm sea surface temperature events profound impacts ecosystems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods still have certain limitations forecasting general patterns extreme events..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study address issues based physical nature MHWs created novel hybrid data-driven numerical forecast framework Ocean-E2E capable 40 day.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework significantly improves forecast ability MHWs explicitly modeling effect oceanic mesoscale advection air-sea interaction based dynamic kernel..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving framework significantly improves forecast ability MHWs explicitly modeling effect oceanic mesoscale advection air-sea interaction based dynamic kernel..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

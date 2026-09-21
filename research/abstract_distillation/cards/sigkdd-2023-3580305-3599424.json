@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599424",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Mastering Stock Markets with Efficient Mixture of Diversified Trading Experts",
+  "doi": "10.1145/3580305.3599424",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562522",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Quantitative stock investment fundamental financial task highly relies accurate prediction market status profitable decision making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle limitation propose AlphaMix novel three-stage mixture-of-experts MoE framework quantitative investment mimic efficient bottom-up hierarchical trading strategy design.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Stage one introduce efficient ensemble learning method whose computational memory costs significantly lower comparing traditional methods train multiple.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Stage two collect diversified investment suggestions through building pool trading experts utilizing hyperparameter level initialization diversity neural networks.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through extensive experiments US Chinese stock markets demonstrate AlphaMix significantly outperforms many state-of-the-art baselines terms popular financial criteria..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Quantitative stock investment fundamental financial task highly relies accurate prediction market status profitable decision making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle limitation propose AlphaMix novel three-stage mixture-of-experts MoE framework quantitative investment mimic efficient bottom-up hierarchical trading strategy design.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Stage one introduce efficient ensemble learning method whose computational memory costs significantly lower comparing traditional methods train multiple.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through extensive experiments US Chinese stock markets demonstrate AlphaMix significantly outperforms many state-of-the-art baselines terms popular financial criteria..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

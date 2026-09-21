@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817649",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "TEUM: Team Effect-aware Uplift Modeling for Online Games",
+  "doi": "10.1145/3770855.3817649",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197040140",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Uplift modeling essential technique providing accurate unbiased estimates treatment causal effect individuals Individual ITE.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing uplift modeling methods have largely overlooked team effects arising teammates treatment propensity i.e. likelihood receiving influence.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle issue propose Team Effect-aware Uplift Modeling framework TEUM incorporates awareness causal effects ITE process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving TEUM consists three key components team effect awareness module integrates features estimated treatment propensity teammates individual player embedding.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conduct extensive offline experiments two real-world online multiplayer gaming datasets demonstrating superior performance TEUM compared state-of-the-art methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving gaming industry techniques frequently used evaluate effectiveness various engagement incentives equipment resources daily rewards aimed enhancing player retention..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive offline experiments two real-world online multiplayer gaming datasets demonstrating superior performance TEUM compared state-of-the-art methods..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition TEUM has been deployed automatic incentive distribution system large online FPS game resulting notable improvement..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Uplift modeling essential technique providing accurate unbiased estimates treatment causal effect individuals Individual ITE.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing uplift modeling methods have largely overlooked team effects arising teammates treatment propensity i.e. likelihood receiving influence.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle issue propose Team Effect-aware Uplift Modeling framework TEUM incorporates awareness causal effects ITE process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving TEUM consists three key components team effect awareness module integrates features estimated treatment propensity teammates individual player embedding.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving gaming industry techniques frequently used evaluate effectiveness various engagement incentives equipment resources daily rewards aimed enhancing player retention..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

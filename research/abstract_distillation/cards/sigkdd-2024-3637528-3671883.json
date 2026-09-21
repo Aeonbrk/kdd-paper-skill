@@ -1,0 +1,94 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671883",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Reliable Confidence Intervals for Information Retrieval Evaluation using Generative A.I.",
+  "doi": "10.1145/3637528.3671883",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4400374549",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines traditional evaluation information retrieval IR systems generally very costly requires manual relevance annotation human experts..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However generated relevance annotations not immune systematic errors result directly them evaluation produces unreliable results..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving traditional evaluation information retrieval IR systems generally very costly requires manual relevance annotation human experts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Potentially could alleviate costs traditionally associated IR evaluation make applicable numerous low-resource applications..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However generated relevance annotations not immune systematic errors result directly them evaluation produces unreliable results..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines traditional evaluation information retrieval IR systems generally very costly requires manual relevance annotation human experts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However generated relevance annotations not immune systematic errors result directly them evaluation produces unreliable results..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving traditional evaluation information retrieval IR systems generally very costly requires manual relevance annotation human experts..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

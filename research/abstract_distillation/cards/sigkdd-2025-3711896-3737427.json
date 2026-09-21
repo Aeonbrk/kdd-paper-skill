@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737427",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation",
+  "doi": "10.1145/3711896.3737427",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877147",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Natural Language SQL i.e. NL2SQL translation crucial democratizing database access but even state-of-the-art models frequently generate semantically incorrect.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Natural Language SQL i.e. NL2SQL translation crucial democratizing database access but even state-of-the-art models frequently generate semantically incorrect.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving existing NL2SQL benchmarks primarily focus correct query translation argue benchmark dedicated identifying common errors translations equally important accurately.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap propose NL2SQL-BUGs first benchmark dedicated detecting categorizing semantic errors NL2SQL translation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark consists 018 expert-annotated instances each containing natural language query database schema SQL detailed error annotations semantically incorrect.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through comprehensive experiments demonstrate current large language models exhibit significant limitations semantic error detection achieving average accuracy 75.16%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Natural Language SQL i.e. NL2SQL translation crucial democratizing database access but even state-of-the-art models frequently generate semantically incorrect.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Natural Language SQL i.e. NL2SQL translation crucial democratizing database access but even state-of-the-art models frequently generate semantically incorrect.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving existing NL2SQL benchmarks primarily focus correct query translation argue benchmark dedicated identifying common errors translations equally important accurately.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap propose NL2SQL-BUGs first benchmark dedicated detecting categorizing semantic errors NL2SQL translation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through comprehensive experiments demonstrate current large language models exhibit significant limitations semantic error detection achieving average accuracy 75.16%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

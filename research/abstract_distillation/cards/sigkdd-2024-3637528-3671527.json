@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671527",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "VecAug: Unveiling Camouflaged Frauds with Cohort Augmentation for Enhanced Detection",
+  "doi": "10.1145/3637528.3671527",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857640",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Fraud detection presents challenging task characterized ever-evolving patterns scarce labeled data..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving graph-based approaches connect users through shared entities capture structural information they remain vulnerable fraudsters who disrupt manipulate connections..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Fraud detection presents challenging task characterized ever-evolving patterns scarce labeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired cohort analysis retention healthcare paper introduces VecAug novel cohort-augmented learning framework addresses challenges enhancing representation target users.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end first propose vector burn-in technique automatic cohort identification retrieves task-specific each target user..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving improve robustness cohort augmentation propose novel label-aware neighbor separation mechanism distance negative neighbors calibrate aggregated information..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving deploy framework e-commerce platforms evaluate three fraud detection datasets results show VecAug improves performance base models up 2.48%.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Fraud detection presents challenging task characterized ever-evolving patterns scarce labeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving graph-based approaches connect users through shared entities capture structural information they remain vulnerable fraudsters who disrupt manipulate connections..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Fraud detection presents challenging task characterized ever-evolving patterns scarce labeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired cohort analysis retention healthcare paper introduces VecAug novel cohort-augmented learning framework addresses challenges enhancing representation target users.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving improve robustness cohort augmentation propose novel label-aware neighbor separation mechanism distance negative neighbors calibrate aggregated information..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

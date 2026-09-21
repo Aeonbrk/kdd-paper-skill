@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737165",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Track and Tweak: Monitoring and Improving Group Fairness for Temporal Graph Neural Networks in Real Time",
+  "doi": "10.1145/3711896.3737165",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876864",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines prevalence temporal networks real-world applications like financial transaction loan approval prediction poses significant challenges ensuring fairness across different.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving dynamic systems increasingly rely Temporal Graph Neural Networks TGNNs model evolving interactions between users over time but inadvertently.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving dynamic systems increasingly rely Temporal Graph Neural Networks TGNNs model evolving interactions between users over time but inadvertently.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work first investigate group fairness temporal graphs propose novel real-time framework monitoring improving TGNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving begin incorporating fixed fairness regularization term TGNN framework named FTGNN-R operates real-time but exhibits several critical limitations..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work first investigate group fairness temporal graphs propose novel real-time framework monitoring improving TGNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments five temporal transaction network datasets demonstrate effectiveness proposed FTGNN-M model terms both utility fairness metrics..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines prevalence temporal networks real-world applications like financial transaction loan approval prediction poses significant challenges ensuring fairness across different.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving dynamic systems increasingly rely Temporal Graph Neural Networks TGNNs model evolving interactions between users over time but inadvertently.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving dynamic systems increasingly rely Temporal Graph Neural Networks TGNNs model evolving interactions between users over time but inadvertently.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work first investigate group fairness temporal graphs propose novel real-time framework monitoring improving TGNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work first investigate group fairness temporal graphs propose novel real-time framework monitoring improving TGNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

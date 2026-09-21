@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671758",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Where Have You Been? A Study of Privacy Risk for Point-of-Interest Recommendation",
+  "doi": "10.1145/3637528.3671758",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863521",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines location-based services LBS have grown popularity human mobility data has been collected..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However convenience comes risk privacy leakage since type data might contain sensitive information related user identities home/work locations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving better understand quantify privacy leakage mobility data-based ML models design attack suite containing data extraction membership inference attacks.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving present unique findings understand what types mobility data susceptible privacy attacks..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Finally evaluate defenses against attacks highlight future directions challenges..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving collected data used build machine learning ML models LBS enhance performance improve overall experience users..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Prior work focuses protecting mobility data privacy during transmission release lacking risk evaluation data-based ML models..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental evaluation two real-world mobility datasets demonstrates current POI recommendation models vulnerable attacks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines location-based services LBS have grown popularity human mobility data has been collected..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However convenience comes risk privacy leakage since type data might contain sensitive information related user identities home/work locations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving better understand quantify privacy leakage mobility data-based ML models design attack suite containing data extraction membership inference attacks.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present unique findings understand what types mobility data susceptible privacy attacks..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving collected data used build machine learning ML models LBS enhance performance improve overall experience users..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

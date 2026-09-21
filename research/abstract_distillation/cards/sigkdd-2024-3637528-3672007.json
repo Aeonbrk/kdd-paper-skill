@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672007",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "ReCDA: Concept Drift Adaptation with Representation Enhancement for Network Intrusion Detection",
+  "doi": "10.1145/3637528.3672007",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401862932",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines deployment learning-based models detect malicious activities network traffic flows significantly challenged concept drift..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing approaches depend significant amount labeled drifting samples facilitate deep model handle concept drift faces labor-intensive manual labeling.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose ReCDA Concept Drift Adaptation method Representation enhancement consists self-supervised stage weakly-supervised classifier tuning stage..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically initial stage ReCDA introduces drift-aware perturbation representation alignment facilitate model acquiring robust representations drift-invariant perspectives..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct comprehensive evaluations several benchmark datasets under varying degrees concept drift..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiment results demonstrate superior adaptability robustness proposed method..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines deployment learning-based models detect malicious activities network traffic flows significantly challenged concept drift..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing approaches depend significant amount labeled drifting samples facilitate deep model handle concept drift faces labor-intensive manual labeling.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose ReCDA Concept Drift Adaptation method Representation enhancement consists self-supervised stage weakly-supervised classifier tuning stage..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct comprehensive evaluations several benchmark datasets under varying degrees concept drift..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

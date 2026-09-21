@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709244",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Conservation-informed Graph Learning for Spatiotemporal Dynamics Prediction",
+  "doi": "10.1145/3690624.3709244",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158109",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data-centric methods have shown great potential understanding predicting spatiotemporal dynamics enabling better design control object system..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However deep learning models often lack interpretability fail obey intrinsic physics struggle cope various domains..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Data-centric methods have shown great potential understanding predicting spatiotemporal dynamics enabling better design control object system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving geometry-based methods e.g. graph neural networks GNNs have been proposed further tackle challenges they still need find implicit.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper herein introduce conservation-informed GNN CiGNN end-to-end explainable learning framework learn spatiotemporal dynamics based limited training data..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Results demonstrate CiGNN exhibits remarkable accuracy generalizability readily applicable learning prediction various spatiotemporal dynamics spatial domain complex geometry..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data-centric methods have shown great potential understanding predicting spatiotemporal dynamics enabling better design control object system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However deep learning models often lack interpretability fail obey intrinsic physics struggle cope various domains..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Data-centric methods have shown great potential understanding predicting spatiotemporal dynamics enabling better design control object system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving geometry-based methods e.g. graph neural networks GNNs have been proposed further tackle challenges they still need find implicit.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Results demonstrate CiGNN exhibits remarkable accuracy generalizability readily applicable learning prediction various spatiotemporal dynamics spatial domain complex geometry..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

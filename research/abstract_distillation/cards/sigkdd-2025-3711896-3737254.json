@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737254",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Optimizing Case-Based Reasoning System for Functional Test Script Generation with Large Language Models",
+  "doi": "10.1145/3711896.3737254",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876862",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines work explore potential large language models LLMs generating functional test scripts necessitates understanding dynamically evolving code structure target.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work explore potential large language models LLMs generating functional test scripts necessitates understanding dynamically evolving code structure target.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving achieve propose case-based reasoning CBR system utilizing cycle i.e. retrieve reuse revise retain maintains leverages case bank test.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving improve user experience further introduce Re4 optimization method CBR system comprising reranking-based retrieval finetuning reinforced reuse finetuning..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve propose case-based reasoning CBR system utilizing cycle i.e. retrieve reuse revise retain maintains leverages case bank test.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improve user experience further introduce Re4 optimization method CBR system comprising reranking-based retrieval finetuning reinforced reuse finetuning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experimental results two product development units Huawei Datacom demonstrate superiority proposed CBR+Re4..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines work explore potential large language models LLMs generating functional test scripts necessitates understanding dynamically evolving code structure target.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work explore potential large language models LLMs generating functional test scripts necessitates understanding dynamically evolving code structure target.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving achieve propose case-based reasoning CBR system utilizing cycle i.e. retrieve reuse revise retain maintains leverages case bank test.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve propose case-based reasoning CBR system utilizing cycle i.e. retrieve reuse revise retain maintains leverages case bank test.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

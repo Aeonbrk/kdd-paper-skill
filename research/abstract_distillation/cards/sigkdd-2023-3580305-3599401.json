@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599401",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "LATTE: A Framework for Learning Item-Features to Make a Domain-Expert for Effective Conversational Recommendation",
+  "doi": "10.1145/3580305.3599401",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562562",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines high-quality conversational recommender systems CRS important recommend suitable items capturing features mentioned dialog explain appropriate ones among various.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving argue CRS model should domain-expert who knowledgeable about relationships between items various features able explain recommended item relevant.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose novel framework named LATTE pre-train each core module CRS i.e. recommendation conversation through abundant external data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving recommendation module pre-train comprehensively understand relationships between items various features leveraging both multi-reviews knowledge graph..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through extensive experiments two public CRS datasets demonstrate LATTE exhibits effectiveness each module superiority over state-of-the art methods.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines high-quality conversational recommender systems CRS important recommend suitable items capturing features mentioned dialog explain appropriate ones among various.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving argue CRS model should domain-expert who knowledgeable about relationships between items various features able explain recommended item relevant.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose novel framework named LATTE pre-train each core module CRS i.e. recommendation conversation through abundant external data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through extensive experiments two public CRS datasets demonstrate LATTE exhibits effectiveness each module superiority over state-of-the art methods.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,156 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599340",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Fair Allocation Over Time, with Applications to Content Moderation",
+  "doi": "10.1145/3580305.3599340",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567648",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines today digital world interaction online platforms ubiquitous thus content moderation important protecting users do not comply pre-established community.",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving show how formulation inspired celebrated Eisenberg-Gale program allows us find allocation not only satisfies forecasted workload but fairly.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study short-term planning problem allocating human content reviewers different harmful categories..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving use tools fair division study application competitive equilibrium leximin allocation rules addressing problem..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving top traditional Fisher market setup additionally incorporate novel aspects practical importance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving second practical consideration time dependent allocation motivated fact partners need scheduling guidance reviewers across days achieve efficiency..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate performance proposed approaches through real-world data obtained Meta..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines today digital world interaction online platforms ubiquitous thus content moderation important protecting users do not comply pre-established community.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving show how formulation inspired celebrated Eisenberg-Gale program allows us find allocation not only satisfies forecasted workload but fairly.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study short-term planning problem allocating human content reviewers different harmful categories..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving use tools fair division study application competitive equilibrium leximin allocation rules addressing problem..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving second practical consideration time dependent allocation motivated fact partners need scheduling guidance reviewers across days achieve efficiency..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

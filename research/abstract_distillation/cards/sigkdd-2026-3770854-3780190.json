@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780190",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DiKGRec: Generative Recommender Model with Diffusion and Knowledge Graph--Based Reasoning",
+  "doi": "10.1145/3770854.3780190",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172021297",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative AI has shown remarkable advancements across various tasks including recommender systems recent research leverages approaches provide personalised.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However inherent sparsity interaction data poses significant challenge advancement generative recommender models..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel dual-architecture generative model intuitively integrates diffusion KG-based reasoning reflects propagation user preference KG towards items..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving approach not only improves recommendation accuracy significantly but introduces explainability leveraging structured insights KGs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore KG-based reasoning enables model effectively address cold-start scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving approach not only improves recommendation accuracy significantly but introduces explainability leveraging structured insights KGs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate model three benchmark datasets demonstrating superior performance beat SOTA over 10% recall 20 average.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative AI has shown remarkable advancements across various tasks including recommender systems recent research leverages approaches provide personalised.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However inherent sparsity interaction data poses significant challenge advancement generative recommender models..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel dual-architecture generative model intuitively integrates diffusion KG-based reasoning reflects propagation user preference KG towards items..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving approach not only improves recommendation accuracy significantly but introduces explainability leveraging structured insights KGs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving approach not only improves recommendation accuracy significantly but introduces explainability leveraging structured insights KGs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,149 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818096",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Graph Diffusion History Reconstruction via Feasibility-Aware Markov Chain Monte Carlo Estimation",
+  "doi": "10.1145/3770855.3818096",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196992148",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Diffusion dynamics graphs arise across many fields including information spreading rumor cascades online platforms propagation cascading outages power.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose new method called HERMES..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving bypass intractable maximum likelihood estimation diffusion parameters instead propose tractable mean-field approximation estimate parameters..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Second based estimated diffusion parameters theoretically reduce history reconstruction expected hitting time estimation through bias--variance decomposition estimate times.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate HERMES consistently outperforms existing methods 12 synthetic real-world datasets..",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Due page limit please find theoretical proofs https q-rz.github.io/static/kdd26/kdd26-hermes-extended.pdf..",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Diffusion dynamics graphs arise across many fields including information spreading rumor cascades online platforms propagation cascading outages power.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose new method called HERMES..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bypass intractable maximum likelihood estimation diffusion parameters instead propose tractable mean-field approximation estimate parameters..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate HERMES consistently outperforms existing methods 12 synthetic real-world datasets..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

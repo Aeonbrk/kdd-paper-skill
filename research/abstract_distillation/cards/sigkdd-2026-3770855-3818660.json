@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818660",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "The Sim-to-Real Gap of Foundation Model Agents: A Unified MDP Perspective",
+  "doi": "10.1145/3770855.3818660",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164034830",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving robotics classical control have mature frameworks address gap foundation model community treating agent robustness entirely novel phenomenon..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper proposes formalizing foundation model agent evaluation training gap classical sim-to-real problem structured entirely around four elements Markov.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper proposes formalizing foundation model agent evaluation training gap classical sim-to-real problem structured entirely around four elements Markov.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving provide concrete examples multilingual tool calling demonstrate how severe observation space gaps lead operationally invalid actions despite correct.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Foundation model agents increasingly deployed real-world decision-making but suffer sim-to-real gap..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving robotics classical control have mature frameworks address gap foundation model community treating agent robustness entirely novel phenomenon..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper proposes formalizing foundation model agent evaluation training gap classical sim-to-real problem structured entirely around four elements Markov.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

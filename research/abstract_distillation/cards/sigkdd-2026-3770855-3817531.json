@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817531",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "UniHam: A Large-Scale SOC-Complete Dataset and Benchmark for Hamiltonian Learning in Materials",
+  "doi": "10.1145/3770855.3817531",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196935929",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate prediction electronic Hamiltonians would enable broad property inference avoiding high computational cost Density Functional Theory DFT.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However progress toward general-purpose materials foundation models limited data bottleneck existing Hamiltonian datasets typically small lack structural diversity.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving therefore construct UniHam large-scale Hamiltonian dataset benchmark suite comprising 100 000 DFT-computed complex-valued Hermitian Hamiltonians full SOC covering.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Building UniHam benchmark two representative state-of-the-art models under standardized protocol introduce complementary evaluation metrics jointly assess three dimensions.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments UniHam demonstrate proposed benchmark metrics effectively differentiate model capabilities revealing intrinsic SOC- element-dependent failure modes large variations.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Building UniHam benchmark two representative state-of-the-art models under standardized protocol introduce complementary evaluation metrics jointly assess three dimensions.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments UniHam demonstrate proposed benchmark metrics effectively differentiate model capabilities revealing intrinsic SOC- element-dependent failure modes large variations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Overall UniHam provides reproducible SOC-complete benchmark sharpen model comparisons accelerate development next-generation foundation models quantum materials..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate prediction electronic Hamiltonians would enable broad property inference avoiding high computational cost Density Functional Theory DFT.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However progress toward general-purpose materials foundation models limited data bottleneck existing Hamiltonian datasets typically small lack structural diversity.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving therefore construct UniHam large-scale Hamiltonian dataset benchmark suite comprising 100 000 DFT-computed complex-valued Hermitian Hamiltonians full SOC covering.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building UniHam benchmark two representative state-of-the-art models under standardized protocol introduce complementary evaluation metrics jointly assess three dimensions.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Building UniHam benchmark two representative state-of-the-art models under standardized protocol introduce complementary evaluation metrics jointly assess three dimensions.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

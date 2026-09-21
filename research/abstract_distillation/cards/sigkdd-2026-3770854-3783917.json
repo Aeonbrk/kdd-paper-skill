@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783917",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Optimizing Generative Ranking Relevance via Reinforcement Learning in Xiaohongshu Search",
+  "doi": "10.1145/3770854.3783917",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416956371",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Ranking relevance fundamental task search engines aiming identify items most relevant given user query..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing reasoning-based Generative Relevance Models GRMs primarily rely supervised fine-tuning large amounts human-annotated synthetic CoT data often.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired recent advances Chain-of-Thought CoT reasoning complex tasks investigate whether explicit enhance both interpretability performance relevance modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work formulate relevance modeling Xiaohongshu search reasoning task introduce Reinforcement Learning RL based training framework enhance grounded capabilities.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically incorporate practical business-specific relevance criteria multi-step reasoning prompt design propose Stepwise Advantage Masking SAM lightweight process-supervision strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Specifically incorporate practical business-specific relevance criteria multi-step reasoning prompt design propose Stepwise Advantage Masking SAM lightweight process-supervision strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline evaluations online A/B tests demonstrate approach consistently delivers significant improvements across key relevance business metrics validating.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Ranking relevance fundamental task search engines aiming identify items most relevant given user query..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing reasoning-based Generative Relevance Models GRMs primarily rely supervised fine-tuning large amounts human-annotated synthetic CoT data often.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired recent advances Chain-of-Thought CoT reasoning complex tasks investigate whether explicit enhance both interpretability performance relevance modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work formulate relevance modeling Xiaohongshu search reasoning task introduce Reinforcement Learning RL based training framework enhance grounded capabilities.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Specifically incorporate practical business-specific relevance criteria multi-step reasoning prompt design propose Stepwise Advantage Masking SAM lightweight process-supervision strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

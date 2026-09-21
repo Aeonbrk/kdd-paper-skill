@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818485",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
+  "doi": "10.1145/3770855.3818485",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196922828",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Creating code specifications crucial measure improve trustworthiness many industrial systems implemented Rust high security requirements..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods typically focus partial specification generation generating proofs after contract known extracting dependencies between code modules predefined.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose multi-agent collaborative framework StarVerus automate verification industrial Rust code..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Furthermore StarVerus introduces planner-repairer-actor-rewriter multi-agent paradigm further enhance proof repair capabilities..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Finally effectiveness StarVerus validated through experiments benchmark datasets deployment real operating system..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Creating code specifications crucial measure improve trustworthiness many industrial systems implemented Rust high security requirements..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Because writing specifications requires highly specialized professionals time-consuming automatic generation enabled large language models LLMs has received increasing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However methods typically focus partial specification generation generating proofs after contract known extracting dependencies between code modules predefined.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Creating code specifications crucial measure improve trustworthiness many industrial systems implemented Rust high security requirements..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods typically focus partial specification generation generating proofs after contract known extracting dependencies between code modules predefined.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose multi-agent collaborative framework StarVerus automate verification industrial Rust code..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore StarVerus introduces planner-repairer-actor-rewriter multi-agent paradigm further enhance proof repair capabilities..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Creating code specifications crucial measure improve trustworthiness many industrial systems implemented Rust high security requirements..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

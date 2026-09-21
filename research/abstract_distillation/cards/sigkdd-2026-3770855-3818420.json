@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818420",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "From Scaling to Structured Expressivity: Rethinking Transformers for CTR Prediction",
+  "doi": "10.1145/3770855.3818420",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416454731",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite massive investments scale deep models click-through rate CTR prediction often exhibit rapidly diminishing returns stark contrast predictable.",
+      "source_ids": [
+        "S1",
+        "S8"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving work establishes scalable recommendation arises not size alone but structured expressivity architectural coherence data semantics..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving identify root cause fundamental structural misalignment standard Transformers assume sequential compositionality whereas CTR data demand combinatorial reasoning over.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving restore alignment introduce Field-Aware Transformer FAT.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving reconstructing standard Transformer block field-centric parameters FAT achieves structured expressivity fundamentally shifting model complexity dependence total vocabulary size.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving reconstructing standard Transformer block field-centric parameters FAT achieves structured expressivity fundamentally shifting model complexity dependence total vocabulary size.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically FAT outperforms exisiting state-of-the-art methods up 4.38% AUC improvement delivers 2.33% CTR 0.66% RPM live production..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite massive investments scale deep models click-through rate CTR prediction often exhibit rapidly diminishing returns stark contrast predictable.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving work establishes scalable recommendation arises not size alone but structured expressivity architectural coherence data semantics..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify root cause fundamental structural misalignment standard Transformers assume sequential compositionality whereas CTR data demand combinatorial reasoning over.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving restore alignment introduce Field-Aware Transformer FAT.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving reconstructing standard Transformer block field-centric parameters FAT achieves structured expressivity fundamentally shifting model complexity dependence total vocabulary size.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

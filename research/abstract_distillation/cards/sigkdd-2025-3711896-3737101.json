@@ -1,0 +1,113 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737101",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "REDEEMing Modality Information Loss: Retrieval-Guided Conditional Generation for Severely Modality Missing Learning",
+  "doi": "10.1145/3711896.3737101",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825984",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional multimodal learning approaches often assume all modalities available during both training inference phases..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However assumption often impractical real-world scenarios due challenges sensor failures data corruption privacy concerns..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose REDEEM novel REtrieval-guiDEd conditional gEnerative fraMework largely alleviates modality missing problems pre-trained MTs..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments three diverse multimodal classification benchmarks demonstrate REDEEM significantly outperforms competitive baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional multimodal learning approaches often assume all modalities available during both training inference phases..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However assumption often impractical real-world scenarios due challenges sensor failures data corruption privacy concerns..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose REDEEM novel REtrieval-guiDEd conditional gEnerative fraMework largely alleviates modality missing problems pre-trained MTs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comprehensive experiments three diverse multimodal classification benchmarks demonstrate REDEEM significantly outperforms competitive baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

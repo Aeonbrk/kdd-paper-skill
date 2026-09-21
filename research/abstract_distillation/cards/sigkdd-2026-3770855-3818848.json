@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818848",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MemNovo: Look Back at the Spectrum for Balanced De Novo Peptide Sequencing from Mass Spectrometry",
+  "doi": "10.1145/3770855.3818848",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164585193",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines De novo peptide sequencing tandem mass spectrometry pivotal proteomics enabling identification novel peptides without reference databases..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving recent Transformer-based encoder-decoder models have achieved remarkable performance uncover critical pathology inference dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Through comprehensive feature scaling experiments demonstrate existing auto-regressive peptide decoders tend over-rely generated-sequence priors progressively under-utilizing fine-grained physical.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving rectify propose MemNovo training-free plug-and-play mechanism re-balances peptide spectral contributions inference time..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent Transformer-based encoder-decoder models have achieved remarkable performance uncover critical pathology inference dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through comprehensive feature scaling experiments demonstrate existing auto-regressive peptide decoders tend over-rely generated-sequence priors progressively under-utilizing fine-grained physical.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving phenomenon leads suboptimal results generated peptide sequences biologically plausible yet not faithful input spectrum..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines De novo peptide sequencing tandem mass spectrometry pivotal proteomics enabling identification novel peptides without reference databases..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving recent Transformer-based encoder-decoder models have achieved remarkable performance uncover critical pathology inference dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through comprehensive feature scaling experiments demonstrate existing auto-regressive peptide decoders tend over-rely generated-sequence priors progressively under-utilizing fine-grained physical.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent Transformer-based encoder-decoder models have achieved remarkable performance uncover critical pathology inference dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

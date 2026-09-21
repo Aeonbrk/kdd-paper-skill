@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737213",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Enhanced Insurance Claim Prediction via Decoupled Graph Neural Networks with Pseudo Labeling",
+  "doi": "10.1145/3711896.3737213",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877061",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines demand insurance continues skyrocket daily lives accurately predicting claim amount has become critical companies..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recently graph neural networks GNNs have achieved remarkable performance classification recommendation insurance but not been extended regression task..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges propose Decoupled Graph Neural Networks Enhanced Pseudo Labels Claim Prediction GClaim empower existing GNNs amount prediction..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further introduces trustworthy pseudo labels unlabeled uncertain nodes through standard deviation-induced filtering strategy..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments three industrial datasets five newly developed proxy public varying evaluation protocols demonstrate effectiveness GClaim well each.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently graph neural networks GNNs have achieved remarkable performance classification recommendation insurance but not been extended regression task..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments three industrial datasets five newly developed proxy public varying evaluation protocols demonstrate effectiveness GClaim well each.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines demand insurance continues skyrocket daily lives accurately predicting claim amount has become critical companies..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recently graph neural networks GNNs have achieved remarkable performance classification recommendation insurance but not been extended regression task..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose Decoupled Graph Neural Networks Enhanced Pseudo Labels Claim Prediction GClaim empower existing GNNs amount prediction..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further introduces trustworthy pseudo labels unlabeled uncertain nodes through standard deviation-induced filtering strategy..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently graph neural networks GNNs have achieved remarkable performance classification recommendation insurance but not been extended regression task..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

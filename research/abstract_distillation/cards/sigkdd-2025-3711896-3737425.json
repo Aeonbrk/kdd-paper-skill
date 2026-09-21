@@ -1,0 +1,155 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737425",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Capillary Dataset: A Dataset of Nail-fold Capillaries Captured by Microscopy for Diabetes Detection",
+  "doi": "10.1145/3711896.3737425",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877179",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    },
+    {
+      "id": "S15",
+      "kind": "sentence"
+    },
+    {
+      "id": "S16",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Diabetes mellitus chronic condition marked insufficient insulin utilization production causing metabolic dysregulation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving present study introduced robust comprehensive dataset derived nail-fold capillaroscopy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset includes imaging some video data 126 individuals diagnosed type diabetes mellitus T2DM alongside 76 healthy controls consisted.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving All images were acquired 390 high magnification resolution 640 480 pixels including corresponding video data ensuring thorough detailed.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Additionally evaluated several benchmark deep-learning models Vision Transformers ViT Convolutional Neural Networks CNNs morphological classification diabetes detection tasks..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Diabetes mellitus chronic condition marked insufficient insulin utilization production causing metabolic dysregulation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present study introduced robust comprehensive dataset derived nail-fold capillaroscopy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving dataset includes imaging some video data 126 individuals diagnosed type diabetes mellitus T2DM alongside 76 healthy controls consisted.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Additionally evaluated several benchmark deep-learning models Vision Transformers ViT Convolutional Neural Networks CNNs morphological classification diabetes detection tasks..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

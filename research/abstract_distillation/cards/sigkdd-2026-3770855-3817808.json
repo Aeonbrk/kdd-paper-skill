@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817808",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Native Hierarchical and Compositional Representations with Subspace Embeddings",
+  "doi": "10.1145/3770855.3817808",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196963942",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional embeddings represent datapoints vectors makes similarity easy compute but limits how well they capture hierarchies compositionality..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Traditional embeddings represent datapoints vectors makes similarity easy compute but limits how well they capture hierarchies compositionality..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose fundamentally different approach representing concepts linear subspaces..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving spanning multiple dimensions subspaces model broader concepts higher-dimensional regions nest specific within them..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving make paradigm trainable introduce differentiable subspace parameterization via soft projection matrices allowing effective dimension each learned..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving method not only achieves state-of-the-art performance hierarchical natural language inference benchmarks but provides geometrically-grounded model entailment..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Further demonstrate standard vector embeddings degrade near-random performance negated queries subspace natively capture logical composition without explicit supervision.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional embeddings represent datapoints vectors makes similarity easy compute but limits how well they capture hierarchies compositionality..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Traditional embeddings represent datapoints vectors makes similarity easy compute but limits how well they capture hierarchies compositionality..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose fundamentally different approach representing concepts linear subspaces..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving spanning multiple dimensions subspaces model broader concepts higher-dimensional regions nest specific within them..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving method not only achieves state-of-the-art performance hierarchical natural language inference benchmarks but provides geometrically-grounded model entailment..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

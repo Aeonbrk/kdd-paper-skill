@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599821",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Exploiting Intent Evolution in E-commercial Query Recommendation",
+  "doi": "10.1145/3580305.3599821",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567794",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Aiming better understanding search goals user sessions recent query recommender systems explicitly model reformulations queries hopes estimate intents.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world e-commercial search scenarios user intents much complicated evolve dynamically..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Aiming better understanding search goals user sessions recent query recommender systems explicitly model reformulations queries hopes estimate intents.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing methods merely consider trivial reformulation intents semantic aspects fail model dynamic intent flows search sessions leading sub-optimal.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving deal limitations first explicitly define six types query reformulation intents according desired products two consecutive queries..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct comprehensive experiments two real-world e-commercial datasets Amazon one public dataset BestBuy..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically IVAE improves Recall 15 25.44% 60.47% two Amazon datasets 13.91% BestBuy respectively..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Aiming better understanding search goals user sessions recent query recommender systems explicitly model reformulations queries hopes estimate intents.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world e-commercial search scenarios user intents much complicated evolve dynamically..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Aiming better understanding search goals user sessions recent query recommender systems explicitly model reformulations queries hopes estimate intents.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing methods merely consider trivial reformulation intents semantic aspects fail model dynamic intent flows search sessions leading sub-optimal.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct comprehensive experiments two real-world e-commercial datasets Amazon one public dataset BestBuy..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

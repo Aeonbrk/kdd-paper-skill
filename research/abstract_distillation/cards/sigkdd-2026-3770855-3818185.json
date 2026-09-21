@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818185",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "The Pitfall of Scaling Up: Uncovering and Mitigating Popularity Bias Amplification in Scaling Transformer-based Recommenders",
+  "doi": "10.1145/3770855.3818185",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7165791716",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving bias drives systems over-recommend popular items expense niche ones not only undermines fairness but degrades broader ecosystem reinforcing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Consequently bias amplification emerges fundamental obstacle sustainable model scaling..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving bias drives systems over-recommend popular items expense niche ones not only undermines fairness but degrades broader ecosystem reinforcing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Consequently bias amplification emerges fundamental obstacle sustainable model scaling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving identify critical pitfall scaling transformer-based sequential recommenders increasing model size improves recommendation accuracy simultaneously amplifies popularity bias..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

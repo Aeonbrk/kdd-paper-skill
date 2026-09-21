@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671808",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Understanding Inter-Session Intentions via Complex Logical Reasoning",
+  "doi": "10.1145/3637528.3671808",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863752",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Understanding user intentions essential improving product recommendations navigation suggestions query reformulations..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However user intentions intricate involving multiple sessions attribute requirements connected logical operators Not..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper present task logical session complex query answering LS-CQA sessions treated hyperedges items frame problem intention understanding aggregated.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce new model Logical Session Graph Transformer LSGT captures interactions among items across different sessions connections structure..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving analyze expressiveness LSGT prove permutation invariance inputs logical operators..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Understanding user intentions essential improving product recommendations navigation suggestions query reformulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluating LSGT three datasets demonstrate achieves state-of-the-art results..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Understanding user intentions essential improving product recommendations navigation suggestions query reformulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However user intentions intricate involving multiple sessions attribute requirements connected logical operators Not..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present task logical session complex query answering LS-CQA sessions treated hyperedges items frame problem intention understanding aggregated.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce new model Logical Session Graph Transformer LSGT captures interactions among items across different sessions connections structure..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Understanding user intentions essential improving product recommendations navigation suggestions query reformulations..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

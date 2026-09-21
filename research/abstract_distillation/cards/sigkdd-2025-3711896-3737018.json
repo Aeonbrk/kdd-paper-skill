@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737018",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Learnable-Differentiable Finite Volume Solver for Accelerated Simulation of Flows",
+  "doi": "10.1145/3711896.3737018",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877047",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Simulation fluid flows crucial modeling physical phenomena like meteorology aerodynamics biomedicine..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although machine learning has demonstrated better efficiency they typically suffer issues interpretability generalizability data dependency..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Hence propose learnable differentiable finite volume solver called LDSolver designed efficient accurate simulation fluid flows spatiotemporal coarse grids..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Even limited training data e.g. only few trajectories model could accelerate simulation maintaining high accuracy superior generalizability..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although machine learning has demonstrated better efficiency they typically suffer issues interpretability generalizability data dependency..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Even limited training data e.g. only few trajectories model could accelerate simulation maintaining high accuracy superior generalizability..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments different flow systems e.g. Burgers decaying forced shear flows show LDSolver achieves state-of-the-art performance surpassing baseline models.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Simulation fluid flows crucial modeling physical phenomena like meteorology aerodynamics biomedicine..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although machine learning has demonstrated better efficiency they typically suffer issues interpretability generalizability data dependency..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Hence propose learnable differentiable finite volume solver called LDSolver designed efficient accurate simulation fluid flows spatiotemporal coarse grids..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Even limited training data e.g. only few trajectories model could accelerate simulation maintaining high accuracy superior generalizability..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although machine learning has demonstrated better efficiency they typically suffer issues interpretability generalizability data dependency..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737016",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "LaTCoder: Converting Webpage Design to Code with Layout-as-Thought",
+  "doi": "10.1145/3711896.3737016",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825894",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Converting webpage designs code design-to-code plays vital role User Interface UI development front-end developers bridging gap between visual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Converting webpage designs code design-to-code plays vital role User Interface UI development front-end developers bridging gap between visual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving recent Multimodal Large Language Models MLLMs have shown significant potential design-to-code tasks they often fail accurately preserve layout.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end draw inspiration Chain-of-Thought CoT reasoning human cognition propose LaTCoder novel approach enhances layout preservation webpage design during.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate effectiveness LaTCoder multiple backbone MLLMs i.e. DeepSeek-VL2 Gemini GPT-4o both public benchmark newly introduced challenging CC-HARD features.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results automatic metrics demonstrate significant improvements..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover human preference evaluation results indicate annotators favor webpages generated LaTCoder over 60% cases providing strong evidence effectiveness.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Converting webpage designs code design-to-code plays vital role User Interface UI development front-end developers bridging gap between visual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Converting webpage designs code design-to-code plays vital role User Interface UI development front-end developers bridging gap between visual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving recent Multimodal Large Language Models MLLMs have shown significant potential design-to-code tasks they often fail accurately preserve layout.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate effectiveness LaTCoder multiple backbone MLLMs i.e. DeepSeek-VL2 Gemini GPT-4o both public benchmark newly introduced challenging CC-HARD features.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

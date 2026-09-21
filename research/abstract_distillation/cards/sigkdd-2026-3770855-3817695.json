@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817695",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "LTSV: Layered Type-Constrained Shapley Value for Heterogeneous Graph Data Valuation",
+  "doi": "10.1145/3770855.3817695",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196955919",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data valuation essential quantifying worth machine learning especially multi-party collaborations incentives rely fair contribution attribution..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although Shapley-value-based methods effective I.I.D. data extending them heterogeneous graphs remains challenging due type-dependent node roles cross-type dependencies.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose LTSV Layered Type-Constrained Shapley Value framework decomposes each node three components intra-type feature contribution cross-type semantic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further introduces meta-path-based value propagation make implicit contribution unlabeled bridge nodes explicit quantifiable..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving scale valuation develop type-constrained Monte Carlo sampling importance weighting..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments DBLP ACM IMDb show LTSV accurately identifies high-value nodes state-of-the-art baselines under standard deletion/addition evaluations achieving favorable.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data valuation essential quantifying worth machine learning especially multi-party collaborations incentives rely fair contribution attribution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although Shapley-value-based methods effective I.I.D. data extending them heterogeneous graphs remains challenging due type-dependent node roles cross-type dependencies.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose LTSV Layered Type-Constrained Shapley Value framework decomposes each node three components intra-type feature contribution cross-type semantic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further introduces meta-path-based value propagation make implicit contribution unlabeled bridge nodes explicit quantifiable..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments DBLP ACM IMDb show LTSV accurately identifies high-value nodes state-of-the-art baselines under standard deletion/addition evaluations achieving favorable.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671599",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "LiMAML: Personalization of Deep Recommender Models via Meta Learning",
+  "doi": "10.1145/3637528.3671599",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857352",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines realm recommender systems ubiquitous adoption deep neural networks has emerged dominant paradigm modeling diverse business objectives..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving user bases continue expand necessity personalization frequent model updates have assumed paramount significance ensure delivery relevant refreshed experiences.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce innovative meta-learning solution tailored personalization models individual members other entities coupled frequent updates based latest user.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically leverage Model-Agnostic Meta Learning MAML algorithm adapt per-task sub-networks recent user interaction data..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through extensive experimentation production data drawn various applications LinkedIn demonstrate proposed solution consistently outperforms best performing baseline models.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving approach has enabled deployment range highly personalized AI models across diverse LinkedIn applications leading substantial improvements business metrics.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines realm recommender systems ubiquitous adoption deep neural networks has emerged dominant paradigm modeling diverse business objectives..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving user bases continue expand necessity personalization frequent model updates have assumed paramount significance ensure delivery relevant refreshed experiences.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce innovative meta-learning solution tailored personalization models individual members other entities coupled frequent updates based latest user.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through extensive experimentation production data drawn various applications LinkedIn demonstrate proposed solution consistently outperforms best performing baseline models.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,116 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818120",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AlphaMaster: Dual-Chain Feedback for Scalable and Diverse Alpha Factor Discovery",
+  "doi": "10.1145/3770855.3818120",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196958915",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Alpha factor mining aims discover predictive interpretable signals cross-sectional returns yet automated pipelines based genetic programming reinforcement learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose AlphaMaster artificial intelligence driven scientific discovery framework formulates alpha mining closed loop hypothesis generation experimental evaluation feedback-guided.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving AlphaMaster integrates reinforcement learning Generative Flow Network sampling large language model based symbolic synthesis genetic programming dual-chain design.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving propose AlphaMaster artificial intelligence driven scientific discovery framework formulates alpha mining closed loop hypothesis generation experimental evaluation feedback-guided.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Crucially enforces correlation-aware diversity suppress redundancy improving predictive strength stability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving CSI 500 1000 2010 2025 under realistic trading constraints AlphaMaster achieves best overall performance ranking first five six.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Alpha factor mining aims discover predictive interpretable signals cross-sectional returns yet automated pipelines based genetic programming reinforcement learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose AlphaMaster artificial intelligence driven scientific discovery framework formulates alpha mining closed loop hypothesis generation experimental evaluation feedback-guided.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving AlphaMaster integrates reinforcement learning Generative Flow Network sampling large language model based symbolic synthesis genetic programming dual-chain design.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving propose AlphaMaster artificial intelligence driven scientific discovery framework formulates alpha mining closed loop hypothesis generation experimental evaluation feedback-guided.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

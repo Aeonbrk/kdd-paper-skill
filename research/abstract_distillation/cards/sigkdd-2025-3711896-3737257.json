@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737257",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Put Teacher in Student’s Shoes: Cross-Distillation for Ultra-compact Model Compression Framework",
+  "doi": "10.1145/3711896.3737257",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876963",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines era mobile computing deploying efficient Natural Language Processing NLP models resource-restricted edge settings presents significant challenges particularly environments.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving era mobile computing deploying efficient Natural Language Processing NLP models resource-restricted edge settings presents significant challenges particularly environments.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end introduce Edge ultra-lIte BERT framework EI-BERT novel cross-distillation method..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically cross-distillation method uniquely positions teacher model understand student perspective ensuring efficient knowledge transfer through parameter integration mutual.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through extensive experiments achieve remarkably compact BERT-based model only 1.91 MB smallest date Natural Language Understanding NLU tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving ultra-compact model has been successfully deployed across multiple scenarios within Alipay ecosystem demonstrating significant improvements real-world applications..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines era mobile computing deploying efficient Natural Language Processing NLP models resource-restricted edge settings presents significant challenges particularly environments.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving era mobile computing deploying efficient Natural Language Processing NLP models resource-restricted edge settings presents significant challenges particularly environments.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end introduce Edge ultra-lIte BERT framework EI-BERT novel cross-distillation method..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through extensive experiments achieve remarkably compact BERT-based model only 1.91 MB smallest date Natural Language Understanding NLU tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

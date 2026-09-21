@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817883",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SAFT: Safety-Preserving Adaptation via Fine-Tuning Transfer for Large Language Models",
+  "doi": "10.1145/3770855.3817883",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196947266",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Adapting instruction-tuned large language models LLMs downstream domains increasingly common yet fine-tuning imperfect data erode safety alignment learned.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing safety-preserving fine-tuning methods typically optimize aligned instruction model directly destabilize refusal behaviors impose alignment tax limits task.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose SAFT Safety-preserving Adaptation via Fine-tuning Transfer framework decouples task learning alignment preservation safety-guided update paired pretrained base.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Across mathematical reasoning code generation medical question answering two open-source model families Llama3.1-8B-Instruct Gemma3-4B-IT SAFT improves downstream utility.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Across mathematical reasoning code generation medical question answering two open-source model families Llama3.1-8B-Instruct Gemma3-4B-IT SAFT improves downstream utility.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Adapting instruction-tuned large language models LLMs downstream domains increasingly common yet fine-tuning imperfect data erode safety alignment learned.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing safety-preserving fine-tuning methods typically optimize aligned instruction model directly destabilize refusal behaviors impose alignment tax limits task.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose SAFT Safety-preserving Adaptation via Fine-tuning Transfer framework decouples task learning alignment preservation safety-guided update paired pretrained base.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Across mathematical reasoning code generation medical question answering two open-source model families Llama3.1-8B-Instruct Gemma3-4B-IT SAFT improves downstream utility.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

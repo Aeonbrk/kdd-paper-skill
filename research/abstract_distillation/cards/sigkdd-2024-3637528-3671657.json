@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671657",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Explainable and Interpretable Forecasts on Non-Smooth Multivariate Time Series for Responsible Gameplay",
+  "doi": "10.1145/3637528.3671657",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857667",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multi-variate Time Series MTS forecasting has made large strides very negligible errors through recent advancements neural networks e.g..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However critical situations like predicting gaming overindulgence affects one mental well-being accurate forecast without contributing evidence explanation irrelevant..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce novel deep Actionable Forecasting Network AFN addresses inter-dependent challenges associated three exclusive objectives accuracy smooth comprehensible trajectory.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving AFN establishes new benchmark via achieving 25% improvement MSE forecasts player data comparison SOM-VAE based SOTA networks ii.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contributing state art research interpretability primarily focuses temporally-smooth single-process driven time series data online multi-player gameplay demonstrates intractable.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce novel deep Actionable Forecasting Network AFN addresses inter-dependent challenges associated three exclusive objectives accuracy smooth comprehensible trajectory.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving AFN establishes new benchmark via achieving 25% improvement MSE forecasts player data comparison SOM-VAE based SOTA networks ii.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multi-variate Time Series MTS forecasting has made large strides very negligible errors through recent advancements neural networks e.g..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However critical situations like predicting gaming overindulgence affects one mental well-being accurate forecast without contributing evidence explanation irrelevant..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce novel deep Actionable Forecasting Network AFN addresses inter-dependent challenges associated three exclusive objectives accuracy smooth comprehensible trajectory.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving AFN establishes new benchmark via achieving 25% improvement MSE forecasts player data comparison SOM-VAE based SOTA networks ii.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contributing state art research interpretability primarily focuses temporally-smooth single-process driven time series data online multi-player gameplay demonstrates intractable.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

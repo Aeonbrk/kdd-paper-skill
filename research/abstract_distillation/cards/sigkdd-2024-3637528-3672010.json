@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672010",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "GraphWiz: An Instruction-Following Language Model for Graph Problems",
+  "doi": "10.1145/3637528.3672010",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401862897",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap introduce GraphInstruct novel instruction-tuning dataset aimed enabling language models tackle broad spectrum graph problems through explicit.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Utilizing GraphInstruct build GraphWiz open-source language model capable solving various graph computational problems generating clear reasoning processes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further enhance model performance reliability integrate Direct Preference Optimization DPO framework within graph problem-solving context..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improved model GraphWiz-DPO achieves average accuracy 65% across nine tasks different complexity levels surpassing GPT-4 has 43.8%.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally explore transferability proposed model across different tasks datasets demonstrating robust zero-shot generalization capability..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap introduce GraphInstruct novel instruction-tuning dataset aimed enabling language models tackle broad spectrum graph problems through explicit.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Utilizing GraphInstruct build GraphWiz open-source language model capable solving various graph computational problems generating clear reasoning processes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language models LLMs have achieved impressive success across various domains but capability understanding resolving complex graph problems.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

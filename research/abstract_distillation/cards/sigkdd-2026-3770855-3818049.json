@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818049",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Expand More, Shrink Less: Shaping Effective-Rank Dynamics for Dense Scaling in Recommendation",
+  "doi": "10.1145/3770855.3818049",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162426197",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Scaling recommendation models central challenge recommender systems..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However RankMixer suffers textit embedding collapse learned representations have low effective rank limiting expressivity underutilizing expanded representation space..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Through empirical analysis theoretical insights identify rigid token mixing P-FFN modules primary causes phenomenon jointly inducing textbf damped.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address propose RankElastor novel architecture produces spectrum-robust representations provable collapse mitigation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving RankElastor introduces two components textbf parameterized full mixing enables expressive token improved spectral robustness ii GLU-improved P-FFNs stabilize.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently RankMixer has emerged effective solution operating unified token representation alternating between mixing per-token feedforward networks P-FFNs achieve.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving RankElastor introduces two components textbf parameterized full mixing enables expressive token improved spectral robustness ii GLU-improved P-FFNs stabilize.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments large-scale industrial datasets demonstrate RankElastor consistently improves recommendation performance mitigates embedding collapse exhibits robust scaling behavior..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Scaling recommendation models central challenge recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However RankMixer suffers textit embedding collapse learned representations have low effective rank limiting expressivity underutilizing expanded representation space..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through empirical analysis theoretical insights identify rigid token mixing P-FFN modules primary causes phenomenon jointly inducing textbf damped.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose RankElastor novel architecture produces spectrum-robust representations provable collapse mitigation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently RankMixer has emerged effective solution operating unified token representation alternating between mixing per-token feedforward networks P-FFNs achieve.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

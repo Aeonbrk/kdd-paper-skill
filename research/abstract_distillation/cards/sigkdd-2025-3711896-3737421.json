@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737421",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark",
+  "doi": "10.1145/3711896.3737421",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4400720152",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph mining has become crucial fields social science finance cybersecurity..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing benchmarks primarily focus either heterophilic homogeneous graphs homophilic heterogeneous leaving significant gap understanding how models perform.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap introduce H2GB large-scale node-classification graph benchmark brings together complexities both heterophily heterogeneity properties real-world graphs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving H2GB encompasses real-world datasets spanning diverse domains 28 baseline models unified benchmarking library standardized data loader evaluator modeling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving establish standardized workflow supporting both model selection development enabling researchers easily benchmark graph learning methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving H2GB encompasses real-world datasets spanning diverse domains 28 baseline models unified benchmarking library standardized data loader evaluator modeling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across 28 baselines reveal current methods struggle heterophilic heterogeneous graphs underscoring need improved approaches..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph mining has become crucial fields social science finance cybersecurity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing benchmarks primarily focus either heterophilic homogeneous graphs homophilic heterogeneous leaving significant gap understanding how models perform.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap introduce H2GB large-scale node-classification graph benchmark brings together complexities both heterophily heterogeneity properties real-world graphs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving H2GB encompasses real-world datasets spanning diverse domains 28 baseline models unified benchmarking library standardized data loader evaluator modeling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving H2GB encompasses real-world datasets spanning diverse domains 28 baseline models unified benchmarking library standardized data loader evaluator modeling.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

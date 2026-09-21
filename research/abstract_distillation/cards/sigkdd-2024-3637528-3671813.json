@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671813",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Truthful Bandit Mechanisms for Repeated Two-stage Ad Auctions",
+  "doi": "10.1145/3637528.3671813",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863577",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online advertising platforms leverage two-stage auction architecture deliver personalized ads users low latency..",
+      "source_ids": [
+        "S1",
+        "S9"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving first mechanism explore-then-commit regret T2/3 second achieves improved log distribution-dependent gap but requires additional assumptions oracles information about.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving second stage auction conducted within subset determine winning ad display click-through-rate predictions second-stage machine learning model..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work investigate online learning process first-stage subset selection policy ensuring game-theoretic properties repeated two-stage ad auctions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically model problem designing combinatorial bandit mechanism general reward function well additional requirements truthfulness individual rationality IR.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving establish regret lower bound truthful bandit mechanisms demonstrates challenge simultaneously achieving allocation efficiency truthfulness..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving circumvent impossibility result introduce truthful approximation oracles evaluate bandit mechanism through regret..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving first mechanism explore-then-commit regret T2/3 second achieves improved log distribution-dependent gap but requires additional assumptions oracles information about.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online advertising platforms leverage two-stage auction architecture deliver personalized ads users low latency..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving first mechanism explore-then-commit regret T2/3 second achieves improved log distribution-dependent gap but requires additional assumptions oracles information about.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving second stage auction conducted within subset determine winning ad display click-through-rate predictions second-stage machine learning model..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work investigate online learning process first-stage subset selection policy ensuring game-theoretic properties repeated two-stage ad auctions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving establish regret lower bound truthful bandit mechanisms demonstrates challenge simultaneously achieving allocation efficiency truthfulness..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,141 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672045",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Global Human-guided Counterfactual Explanations for Molecular Properties via Reinforcement Learning",
+  "doi": "10.1145/3637528.3672045",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863424",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Counterfactual explanations Graph Neural Networks GNNs offer powerful way understand data naturally represented structure..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However evaluating global counterfactual explanations hard real-world datasets due lack human-annotated ground truth limits use areas like molecular.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper develop novel global explanation model RLHEX molecular property prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving RLHEX provides flexible framework incorporate different human-designed principles counterfactual explanation generation process aligning explanations domain expertise..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However evaluating global counterfactual explanations hard real-world datasets due lack human-annotated ground truth limits use areas like molecular.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving aligns counterfactual explanations human-defined principles making interpretable easy experts evaluate..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Counterfactual explanations Graph Neural Networks GNNs offer powerful way understand data naturally represented structure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However evaluating global counterfactual explanations hard real-world datasets due lack human-annotated ground truth limits use areas like molecular.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper develop novel global explanation model RLHEX molecular property prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving RLHEX provides flexible framework incorporate different human-designed principles counterfactual explanation generation process aligning explanations domain expertise..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However evaluating global counterfactual explanations hard real-world datasets due lack human-annotated ground truth limits use areas like molecular.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

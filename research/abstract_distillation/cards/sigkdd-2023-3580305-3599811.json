@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599811",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "DRL4Route: A Deep Reinforcement Learning Framework for Pick-up and Delivery Route Prediction",
+  "doi": "10.1145/3580305.3599811",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567562",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pick-up Delivery Route Prediction PDRP aims estimate future service worker given his current task pool has received rising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Deep neural networks based supervised learning have emerged dominant model task because powerful ability capture workers behavior patterns.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Though promising they fail introduce non-differentiable test criteria training process leading mismatch criteria..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle above issue present first attempt generalize Reinforcement Learning RL route prediction task leading novel RL-based framework called.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving follows actor-critic architecture equipped Generalized Advantage Estimator balance bias variance policy gradient estimates thus achieving optimal policy..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline experiments online deployment show DRL4Route-GAE improves Location Square Deviation LSD 0.9% 2.7% Accuracy ACC 2.4% 3.2%.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pick-up Delivery Route Prediction PDRP aims estimate future service worker given his current task pool has received rising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Deep neural networks based supervised learning have emerged dominant model task because powerful ability capture workers behavior patterns.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Though promising they fail introduce non-differentiable test criteria training process leading mismatch criteria..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving follows actor-critic architecture equipped Generalized Advantage Estimator balance bias variance policy gradient estimates thus achieving optimal policy..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

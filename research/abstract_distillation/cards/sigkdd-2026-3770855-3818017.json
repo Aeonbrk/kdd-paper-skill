@@ -1,0 +1,97 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818017",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Efficient Approximation Algorithms for Adaptive Minimum Cost Seed Selection via mRR-set Updates",
+  "doi": "10.1145/3770855.3818017",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196932780",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines social network user costs adaptive minimum cost seed selection AMCS problem aims influence least users total selected iteratively.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However maintain estimation accuracy all mRR-sets must regenerated each round exclude influenced users limits scalability..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Prior work shows truncating user influence necessary performance guarantees proposes multi-root reverse reachable sets mRR-sets estimate truncated influence..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However maintain estimation accuracy all mRR-sets must regenerated each round exclude influenced users limits scalability..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines social network user costs adaptive minimum cost seed selection AMCS problem aims influence least users total selected iteratively.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However maintain estimation accuracy all mRR-sets must regenerated each round exclude influenced users limits scalability..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Prior work shows truncating user influence necessary performance guarantees proposes multi-root reverse reachable sets mRR-sets estimate truncated influence..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However maintain estimation accuracy all mRR-sets must regenerated each round exclude influenced users limits scalability..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

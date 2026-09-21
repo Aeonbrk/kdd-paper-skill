@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818186",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning",
+  "doi": "10.1145/3770855.3818186",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162790142",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving present SilentRetrieval two-stage data poisoning attack hijacks RAG systems through adversarially crafted yet fluent documents..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Stage uses Coordinated Beam Search multi-token joint optimization method fluency-similarity objective keep poisoned host document retrievable constraining perplexity..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Under one-poisoned-document-per-query evaluation synthetic target answers SilentRetrieval achieves 84.6% 81.3% HR 10 57.5% 54.8% ASR-LLM Natural Questions MS.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Cross-model evaluation across four target LLMs shows nontrivial effectiveness under fixed trigger generator transfer tests against unseen retrievers.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving sampled Wikipedia-scale evaluation SilentRetrieval retains 74.2% HR 10 0.016% poisoning ratio..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Retrieval-Augmented Generation RAG mitigates LLM hallucinations but introduces critical vulnerability corpus integrity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present SilentRetrieval two-stage data poisoning attack hijacks RAG systems through adversarially crafted yet fluent documents..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Under one-poisoned-document-per-query evaluation synthetic target answers SilentRetrieval achieves 84.6% 81.3% HR 10 57.5% 54.8% ASR-LLM Natural Questions MS.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

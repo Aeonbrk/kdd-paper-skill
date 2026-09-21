@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818898",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "GraphCliff: Short-Long Range Gating for Modeling Critical Activity Changes Caused by Subtle Molecular Differences",
+  "doi": "10.1145/3770855.3818898",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416018609",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines quantitative structure activity relationship assumes smooth mapping between molecular biological activity..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However activity cliffs defined pairs structurally similar compounds large potency differences break continuity..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving recover sensitivity local changes preserving global molecular context propose GraphCliff integrates short- long-range information node level through locally.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent activity cliff benchmarks show machine learning models extended connectivity fingerprints outperform graph neural networks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate GraphCliff consistently improves performance both non-cliff cliff compounds layer-wise embedding analyses attributing gains sharper discrimination.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines quantitative structure activity relationship assumes smooth mapping between molecular biological activity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However activity cliffs defined pairs structurally similar compounds large potency differences break continuity..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving recover sensitivity local changes preserving global molecular context propose GraphCliff integrates short- long-range information node level through locally.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent activity cliff benchmarks show machine learning models extended connectivity fingerprints outperform graph neural networks..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

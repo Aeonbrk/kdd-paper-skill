@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599393",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Internal Logical Induction for Pixel-Symbolic Reinforcement Learning",
+  "doi": "10.1145/3580305.3599393",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568182",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Reinforcement Learning RL has experienced rapid advancements recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving tackle above issue propose Internal Logical Induction ILI framework integrates deep RL rule learning one system..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving ILI utilizes deep RL algorithm process pixel input rule learning induce propositional logic knowledge symbolic input..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving efficiently combine two mechanisms further adopt reward shaping technique treating valuable knowledge intrinsic rewards RL procedure..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate ILI framework outperforms baseline approaches RL problems pixel-symbolic input inductive knowledge exhibits transferability advantages when.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Reinforcement Learning RL has experienced rapid advancements recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle above issue propose Internal Logical Induction ILI framework integrates deep RL rule learning one system..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving ILI utilizes deep RL algorithm process pixel input rule learning induce propositional logic knowledge symbolic input..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results demonstrate ILI framework outperforms baseline approaches RL problems pixel-symbolic input inductive knowledge exhibits transferability advantages when.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

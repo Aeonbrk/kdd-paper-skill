@@ -1,0 +1,63 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817892",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CoPersona: Collaborative Persona Graphs for Robust LLM Personalization",
+  "doi": "10.1145/3770855.3817892",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196947859",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-world LLM personalization often constrained sparse skewed user histories most users provide only handful interactions even frequent logs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result weakly observed user attributes difficult infer leading brittle personalization when test-time requests shift toward under-supported facets..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-world LLM personalization often constrained sparse skewed user histories most users provide only handful interactions even frequent logs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result weakly observed user attributes difficult infer leading brittle personalization when test-time requests shift toward under-supported facets..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

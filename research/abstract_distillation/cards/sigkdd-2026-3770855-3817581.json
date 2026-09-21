@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817581",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "SafeBuild-Bench: A Temporal-Robust Construction Safety Benchmark with Graph-Enhanced Data Mining",
+  "doi": "10.1145/3770855.3817581",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172511490",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Construction-safety models must handle concrete deployment risks worker standing near scaffold edge without guardrails rather only recognize common.",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving SafeBuild-Bench current MLLMs remain far reliable construction-safety understanding best overall score near 60.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce SafeBuild-Bench metadata-driven benchmark evaluating multimodal large language models construction safety under realistic temporal site variation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving make expert verification scalable develop GEMS graph-enhanced multimodal selection pipeline combines proxy-model confusion signal graph-based diversity identify informative.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving release benchmark evaluation scripts GEMS codebase https github.com/safebuild/gems..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving introduce SafeBuild-Bench metadata-driven benchmark evaluating multimodal large language models construction safety under realistic temporal site variation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving release benchmark evaluation scripts GEMS codebase https github.com/safebuild/gems..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Construction-safety models must handle concrete deployment risks worker standing near scaffold edge without guardrails rather only recognize common.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving SafeBuild-Bench current MLLMs remain far reliable construction-safety understanding best overall score near 60.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce SafeBuild-Bench metadata-driven benchmark evaluating multimodal large language models construction safety under realistic temporal site variation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving make expert verification scalable develop GEMS graph-enhanced multimodal selection pipeline combines proxy-model confusion signal graph-based diversity identify informative.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving introduce SafeBuild-Bench metadata-driven benchmark evaluating multimodal large language models construction safety under realistic temporal site variation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

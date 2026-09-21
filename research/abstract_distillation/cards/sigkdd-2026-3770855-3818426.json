@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818426",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "GraTAG: Production AI Search via Graph-Based Query Decomposition and Triplet Aligned Generation with Rich Multimodal Representations",
+  "doi": "10.1145/3770855.3818426",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196993054",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional search engines struggle synthesize fragmented information complex queries generative AI face challenges relevance comprehensiveness presentation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Traditional search engines struggle synthesize fragmented information complex queries generative AI face challenges relevance comprehensiveness presentation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address limitations introduce Xinyu AI Search novel system incorporates query-decomposition graph dynamically break down complex queries sub-queries enabling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Additionally Xinyu AI Search introduces novel approach fine-grained precise built-in citation innovates result presentation integrating timeline visualization textual-visual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Additionally Xinyu AI Search introduces novel approach fine-grained precise built-in citation innovates result presentation integrating timeline visualization textual-visual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluated recent real-world queries Xinyu AI Search outperforms eight existing technologies human assessments excelling relevance comprehensiveness insightfulness..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional search engines struggle synthesize fragmented information complex queries generative AI face challenges relevance comprehensiveness presentation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Traditional search engines struggle synthesize fragmented information complex queries generative AI face challenges relevance comprehensiveness presentation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations introduce Xinyu AI Search novel system incorporates query-decomposition graph dynamically break down complex queries sub-queries enabling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Additionally Xinyu AI Search introduces novel approach fine-grained precise built-in citation innovates result presentation integrating timeline visualization textual-visual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

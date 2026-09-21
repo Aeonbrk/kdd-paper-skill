@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736935",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Enhancing Generalization in Large-Scale HCVRP: A Rank-Augmented Neural Solver",
+  "doi": "10.1145/3711896.3736935",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875483",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Heterogeneous Capacitated Vehicle Routing Problem HCVRP NP-hard combinatorial optimization problem..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Additionally models utilize self-attention vehicle information interaction but overly incorporate features others suppresses individual leads deviation optimal route..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving address challenges propose Rank-Augmented Neural Solver RANS introduces two key innovations simple yet effective mechanism increase approximate upper.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experiments reveal performance degradation primarily due low-rank nature attention matrix large-scale instances..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results insufficient distinction among node features impacting accuracy Markov Decision Processes..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results show RANS performs favorably against baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Heterogeneous Capacitated Vehicle Routing Problem HCVRP NP-hard combinatorial optimization problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Additionally models utilize self-attention vehicle information interaction but overly incorporate features others suppresses individual leads deviation optimal route..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose Rank-Augmented Neural Solver RANS introduces two key innovations simple yet effective mechanism increase approximate upper.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experiments reveal performance degradation primarily due low-rank nature attention matrix large-scale instances..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

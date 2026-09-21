@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817758",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Conditional PED-ANOVA: Hyperparameter Importance in Hierarchical & Dynamic Search Spaces",
+  "doi": "10.1145/3770855.3817758",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163718133",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propose conditional PED-ANOVA condPED-ANOVA principled framework estimating hyperparameter importance HPI search spaces presence domain depend other hyperparameters..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although original PED-ANOVA provides fast efficient way estimate HPI within top-performing regions search space assumes fixed unconditional therefore.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose conditional PED-ANOVA condPED-ANOVA principled framework estimating hyperparameter importance HPI search spaces presence domain depend other hyperparameters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address introduce conditional HPI top-performing regions derive closed-form estimator accurately reflects activation domain changes..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments show naive adaptations existing HPI estimators yield misleading uninterpretable importances conditional settings whereas condPED-ANOVA consistently provides meaningful.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propose conditional PED-ANOVA condPED-ANOVA principled framework estimating hyperparameter importance HPI search spaces presence domain depend other hyperparameters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although original PED-ANOVA provides fast efficient way estimate HPI within top-performing regions search space assumes fixed unconditional therefore.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose conditional PED-ANOVA condPED-ANOVA principled framework estimating hyperparameter importance HPI search spaces presence domain depend other hyperparameters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address introduce conditional HPI top-performing regions derive closed-form estimator accurately reflects activation domain changes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments show naive adaptations existing HPI estimators yield misleading uninterpretable importances conditional settings whereas condPED-ANOVA consistently provides meaningful.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

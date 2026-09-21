@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818943",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "PaperRepro: Automated Computational Reproducibility Assessment for Social Science Papers",
+  "doi": "10.1145/3770855.3818943",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197040248",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Computational reproducibility essential credibility scientific findings particularly social sciences often inform real-world decisions..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches often struggle due limited context capacity inadequate task-specific tooling insufficient result capture..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address propose PaperRepro novel two-stage multi-agent approach separates execution evaluation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving REPRO-Bench social science reproducibility assessment benchmark PaperRepro achieves best overall performance 21.9% relative improvement score-agreement accuracy over strongest.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving further refine benchmark introduce REPRO-Bench-S stratified execution difficulty diagnostic evaluation automated reproducibility assessment systems..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing approaches often struggle due limited context capacity inadequate task-specific tooling insufficient result capture..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address propose PaperRepro novel two-stage multi-agent approach separates execution evaluation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving execution stage agents execute reproduction package edit code capture reproduced results explicit artifacts..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Computational reproducibility essential credibility scientific findings particularly social sciences often inform real-world decisions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches often struggle due limited context capacity inadequate task-specific tooling insufficient result capture..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose PaperRepro novel two-stage multi-agent approach separates execution evaluation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving REPRO-Bench social science reproducibility assessment benchmark PaperRepro achieves best overall performance 21.9% relative improvement score-agreement accuracy over strongest.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing approaches often struggle due limited context capacity inadequate task-specific tooling insufficient result capture..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819025",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "TIDAL: A Temporal Causal Diffusion Framework for Visualizing Knee Osteoarthritis Treatment Outcomes",
+  "doi": "10.1145/3770855.3819025",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196940334",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generating medically-relevant patient-specific counterfactual images longitudinal medical data requires addressing confounding bias static causal methods cannot handle..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce TIDAL Temporal IPW Diffusion Adversarial Learning causal framework three core algorithmic contributions propensity architecture processes variable-length patient.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving provide theoretical justification via risk decomposition theorem showing mechanisms address complementary error sources IPW bounds weighting imperfect propensity.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Evaluated knee osteoarthritis X-rays Initiative only public dataset longitudinal imaging treatments clinical covariates TIDAL achieves 5.24% improvement SSIM.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving provide theoretical justification via risk decomposition theorem showing mechanisms address complementary error sources IPW bounds weighting imperfect propensity.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluated knee osteoarthritis X-rays Initiative only public dataset longitudinal imaging treatments clinical covariates TIDAL achieves 5.24% improvement SSIM.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generating medically-relevant patient-specific counterfactual images longitudinal medical data requires addressing confounding bias static causal methods cannot handle..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce TIDAL Temporal IPW Diffusion Adversarial Learning causal framework three core algorithmic contributions propensity architecture processes variable-length patient.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving provide theoretical justification via risk decomposition theorem showing mechanisms address complementary error sources IPW bounds weighting imperfect propensity.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving provide theoretical justification via risk decomposition theorem showing mechanisms address complementary error sources IPW bounds weighting imperfect propensity.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

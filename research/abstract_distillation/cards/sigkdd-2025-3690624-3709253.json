@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709253",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "FABind+: Enhancing Molecular Docking through Improved Pocket Prediction and Pose Generation",
+  "doi": "10.1145/3690624.3709253",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158327",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Molecular docking pivotal process drug discovery..",
+      "source_ids": [
+        "S1",
+        "S11"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Experimental results analysis demonstrate FABind+ both regression sampling versions not only significantly outperforms original FABind but achieves competitive.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon foundational work FABind model focused speed accuracy introduce FABind+ enhanced iteration significantly elevates performance predecessor..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving identify pocket prediction critical bottleneck molecular docking introduce enhanced approach..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving addition pocket prediction module docking has been upgraded permutation loss refined model design..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving traditional techniques rely extensive sampling simulation governed physical principles deep learning has emerged promising alternative offering improvements both.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building upon foundational work FABind model focused speed accuracy introduce FABind+ enhanced iteration significantly elevates performance predecessor..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results analysis demonstrate FABind+ both regression sampling versions not only significantly outperforms original FABind but achieves competitive.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Molecular docking pivotal process drug discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Experimental results analysis demonstrate FABind+ both regression sampling versions not only significantly outperforms original FABind but achieves competitive.",
+      "source_ids": [
+        "S11"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building upon foundational work FABind model focused speed accuracy introduce FABind+ enhanced iteration significantly elevates performance predecessor..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify pocket prediction critical bottleneck molecular docking introduce enhanced approach..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving traditional techniques rely extensive sampling simulation governed physical principles deep learning has emerged promising alternative offering improvements both.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819020",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Towards Systematic Generalization for Power Grid Optimization Problems",
+  "doi": "10.1145/3770855.3819020",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197008372",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines AC Optimal Power Flow ACOPF Security-Constrained Unit Commitment SCUC fundamental optimization problems system operations..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although problems share same underlying transmission network physical laws they differ decision variables temporal coupling prior learning-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose learning framework jointly models ACOPF SCUC through shared graph-based backbone captures grid topology physical interactions coupled task-specific.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving evaluate generalization assess cross-case transfer unseen grid topologies ACOPF SCUC without retraining systematic UC-ACOPF problem unsupervised physics-based objectives.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Experiments across multiple grid scales demonstrate improved performance transferability relative existing learning-based baselines indicating model support learning heterogeneous.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although problems share same underlying transmission network physical laws they differ decision variables temporal coupling prior learning-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate generalization assess cross-case transfer unseen grid topologies ACOPF SCUC without retraining systematic UC-ACOPF problem unsupervised physics-based objectives.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments across multiple grid scales demonstrate improved performance transferability relative existing learning-based baselines indicating model support learning heterogeneous.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines AC Optimal Power Flow ACOPF Security-Constrained Unit Commitment SCUC fundamental optimization problems system operations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although problems share same underlying transmission network physical laws they differ decision variables temporal coupling prior learning-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose learning framework jointly models ACOPF SCUC through shared graph-based backbone captures grid topology physical interactions coupled task-specific.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate generalization assess cross-case transfer unseen grid topologies ACOPF SCUC without retraining systematic UC-ACOPF problem unsupervised physics-based objectives.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although problems share same underlying transmission network physical laws they differ decision variables temporal coupling prior learning-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539191",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "A Graph Learning Based Framework for Billion-Scale Offline User Identification",
+  "doi": "10.1145/3534678.3539191",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4291125090",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Offline user identification scenario users use bio-information like faces venues has been applied many scenarios verification banks check-in.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However due large variations pose illumination occlusions offline scenarios remains challenging problem existing computer-vision algorithms get satisfying accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving scenario designing identification approach do extremely accurate offline user critical..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However due large variations pose illumination occlusions offline scenarios remains challenging problem existing computer-vision algorithms get satisfying accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore billion-scale candidate users require high efficiency accuracy approach..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Offline user identification scenario users use bio-information like faces venues has been applied many scenarios verification banks check-in.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However due large variations pose illumination occlusions offline scenarios remains challenging problem existing computer-vision algorithms get satisfying accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving scenario designing identification approach do extremely accurate offline user critical..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However due large variations pose illumination occlusions offline scenarios remains challenging problem existing computer-vision algorithms get satisfying accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

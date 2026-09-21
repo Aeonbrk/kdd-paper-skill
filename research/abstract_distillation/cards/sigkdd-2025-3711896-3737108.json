@@ -1,0 +1,166 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737108",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Revisiting Self-Attention for Cross-Domain Sequential Recommendation",
+  "doi": "10.1145/3711896.3737108",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412826001",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Sequential recommendation popular paradigm modern recommender systems..",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving approach automates knowledge transfer CDSR dubbed AutoCDSR not only mitigates negative but encourages complementary exchange among auxiliary domains..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing CDSR frameworks mostly built self-attention transformer seek improve explicitly injecting additional domain-specific components e.g. domain-aware module blocks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving additional components help argue they overlook core self-attention module already present transformer naturally powerful tool learn correlations among.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work aim improve CDSR performance simple models novel perspective enhancing self-attention..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing CDSR frameworks mostly built self-attention transformer seek improve explicitly injecting additional domain-specific components e.g. domain-aware module blocks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work aim improve CDSR performance simple models novel perspective enhancing self-attention..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct experiments over both large-scale production recommender data well academic benchmarks AutoCDSR consistently enhances performance base transformers enabling.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Sequential recommendation popular paradigm modern recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving approach automates knowledge transfer CDSR dubbed AutoCDSR not only mitigates negative but encourages complementary exchange among auxiliary domains..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing CDSR frameworks mostly built self-attention transformer seek improve explicitly injecting additional domain-specific components e.g. domain-aware module blocks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving additional components help argue they overlook core self-attention module already present transformer naturally powerful tool learn correlations among.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing CDSR frameworks mostly built self-attention transformer seek improve explicitly injecting additional domain-specific components e.g. domain-aware module blocks.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

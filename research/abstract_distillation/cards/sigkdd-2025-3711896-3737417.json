@@ -1,0 +1,109 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737417",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "VideoConviction: A Multimodal Benchmark for Human Conviction and Stock Market Recommendations",
+  "doi": "10.1145/3711896.3737417",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875456",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving 0.65 benchmark enables diverse evaluation multimodal tasks comparing model performance both full video segmented inputs.This deeper advancements financial.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving 0.65 benchmark enables diverse evaluation multimodal tasks comparing model performance both full video segmented inputs.This deeper advancements financial.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving 0.65 benchmark enables diverse evaluation multimodal tasks comparing model performance both full video segmented inputs.This deeper advancements financial.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Social media has amplified reach financial influencers known finfluencers who share stock recommendations platforms like YouTube.Understanding influence requires.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

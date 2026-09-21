@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671875",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis",
+  "doi": "10.1145/3637528.3671875",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863650",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hyperbolic neural networks HNNs emerging promising tool representing data embedded non-Euclidean geometries yet adoption has been hindered challenges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work conduct rigorous Lipschitz analysis HNNs propose regularization novel strategy enhance robustness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving comprehensive investigation spans both Poincar ball model hyperboloid establishing Lipschitz bounds HNN layers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Further study regularization derived Lipschitz bounds..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving empirical validations demonstrate consistent improvements HNN robustness against noisy perturbations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hyperbolic neural networks HNNs emerging promising tool representing data embedded non-Euclidean geometries yet adoption has been hindered challenges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work conduct rigorous Lipschitz analysis HNNs propose regularization novel strategy enhance robustness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving comprehensive investigation spans both Poincar ball model hyperboloid establishing Lipschitz bounds HNN layers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving empirical validations demonstrate consistent improvements HNN robustness against noisy perturbations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

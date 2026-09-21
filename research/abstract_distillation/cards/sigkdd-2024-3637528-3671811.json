@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671811",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "An Efficient Local Search Algorithm for Large GD Advertising Inventory Allocation with Multilinear Constraints",
+  "doi": "10.1145/3637528.3671811",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863954",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Guaranteed Delivery GD advertising crucial component online industry allocation inventory important procedure influences directly ability publisher fulfill requirements.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However taking requirements account brings hardness GD advertising inventory allocation focus ratio involve non-convex multilinear constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Nowadays requirements advertisers become diverse fine-grained focus ratio requirement states portion allocated impressions designated contract media among all.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Therefore propose local search framework address challenge..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving incorporates four new operators designed handling multilinear constraints two-mode algorithmic architecture..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate algorithm able compute high-quality allocations better business metrics compared state-of-the-art mathematical programming constraint based heuristic.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Guaranteed Delivery GD advertising crucial component online industry allocation inventory important procedure influences directly ability publisher fulfill requirements.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However taking requirements account brings hardness GD advertising inventory allocation focus ratio involve non-convex multilinear constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nowadays requirements advertisers become diverse fine-grained focus ratio requirement states portion allocated impressions designated contract media among all.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore propose local search framework address challenge..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results demonstrate algorithm able compute high-quality allocations better business metrics compared state-of-the-art mathematical programming constraint based heuristic.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,147 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817556",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Benchmarking LLM Agents on Real-World Biological Database Curation for Data-Driven Scientific Discovery",
+  "doi": "10.1145/3770855.3817556",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196979176",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines High-quality biological databases bedrock data-driven scientific discovery..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However construction resources remains labor-intensive bottleneck particularly emerging research frontiers structured data non-existent..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap introduce BioDataLab rigorous benchmark comprising 100 tasks meticulously derived 57 high-impact database publications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark 11 state-of-the-art LLMs including Gemini-3.0 GPT-5.2 Claude-4.5 under different agent frameworks revealing substantial capability gap top-performing model.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving BioDataLab evaluates capability autonomous agents transform raw heterogeneous biological resources structured analysis-ready databases..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Unlike static evaluations BioDataLab provides fully interactive environment encompassing data retrieval extraction annotation integration featuring process-oriented curation targets.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving benchmark 11 state-of-the-art LLMs including Gemini-3.0 GPT-5.2 Claude-4.5 under different agent frameworks revealing substantial capability gap top-performing model.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines High-quality biological databases bedrock data-driven scientific discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However construction resources remains labor-intensive bottleneck particularly emerging research frontiers structured data non-existent..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap introduce BioDataLab rigorous benchmark comprising 100 tasks meticulously derived 57 high-impact database publications..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving benchmark 11 state-of-the-art LLMs including Gemini-3.0 GPT-5.2 Claude-4.5 under different agent frameworks revealing substantial capability gap top-performing model.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving BioDataLab evaluates capability autonomous agents transform raw heterogeneous biological resources structured analysis-ready databases..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539420",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Adaptive Fairness-Aware Online Meta-Learning for Changing Environments",
+  "doi": "10.1145/3534678.3539420",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281492493",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines fairness-aware online learning framework has arisen powerful tool continual lifelong setting..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However low static regret cannot imply good performance changing environments tasks sampled heterogeneous distributions..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving fairness-aware online learning framework has arisen powerful tool continual lifelong setting..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving major drawback existing methods they make heavy use i.i.d assumption data hence provide static regret analysis framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address fairness-aware online learning problem changing environments paper first construct novel regret metric FairSAR adding long-term fairness constraints.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore determine good model parameter each round propose novel adaptive fairness-aware online meta-learning algorithm namely FairSAOML able adapt.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving problem formulated form bi-level convex-concave optimization respect model primal dual parameters associated accuracy fairness respectively..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental evaluation different real-world datasets settings changing environments suggests proposed FairSAOML significantly outperforms alternatives based best prior online.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines fairness-aware online learning framework has arisen powerful tool continual lifelong setting..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However low static regret cannot imply good performance changing environments tasks sampled heterogeneous distributions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving fairness-aware online learning framework has arisen powerful tool continual lifelong setting..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving major drawback existing methods they make heavy use i.i.d assumption data hence provide static regret analysis framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore determine good model parameter each round propose novel adaptive fairness-aware online meta-learning algorithm namely FairSAOML able adapt.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

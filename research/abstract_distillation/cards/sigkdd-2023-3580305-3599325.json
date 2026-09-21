@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599325",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Efficient Centrality Maximization with Rademacher Averages",
+  "doi": "10.1145/3580305.3599325",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379924867",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines identification set most central nodes graph centrality maximization key task network analysis various applications ranging finding communities social.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving exact computation centrality measures does not scale modern-sized networks most practical solution resort rigorous but efficiently computable randomized.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work present CentRA first algorithm based progressive sampling compute high-quality approximations set most central nodes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Then study sample complexity centrality maximization VC-dimension key concept statistical learning theory..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving show number random samples required compute high-quality approximations scales finer characteristics graph vertex diameter centrality interest significantly improving.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving show number random samples required compute high-quality approximations scales finer characteristics graph vertex diameter centrality interest significantly improving.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving apply CentRA analyze large real-world networks showing significantly outperforms state-of-the-art approximation algorithm terms number samples running times accuracy..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines identification set most central nodes graph centrality maximization key task network analysis various applications ranging finding communities social.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving exact computation centrality measures does not scale modern-sized networks most practical solution resort rigorous but efficiently computable randomized.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work present CentRA first algorithm based progressive sampling compute high-quality approximations set most central nodes..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Then study sample complexity centrality maximization VC-dimension key concept statistical learning theory..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving show number random samples required compute high-quality approximations scales finer characteristics graph vertex diameter centrality interest significantly improving.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

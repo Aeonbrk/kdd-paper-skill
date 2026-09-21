@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671746",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Joint Auction in the Online Advertising Market",
+  "doi": "10.1145/3637528.3671746",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857153",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online advertising primary source income e-commerce platforms..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However currently used advertising mode cannot satisfy demand both stores brand suppliers simultaneously..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address innovatively propose joint advertising model termed Auction allowing brand suppliers stores collaboratively bid slots catering both needs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose JRegNet neural network architecture optimal joint auction design generate mechanisms achieve revenue guarantee near- dominant strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Finally multiple experiments conducted synthetic real data demonstrate proposed joint auction significantly improves platform revenue compared known baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper propose JRegNet neural network architecture optimal joint auction design generate mechanisms achieve revenue guarantee near- dominant strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally multiple experiments conducted synthetic real data demonstrate proposed joint auction significantly improves platform revenue compared known baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online advertising primary source income e-commerce platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However currently used advertising mode cannot satisfy demand both stores brand suppliers simultaneously..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address innovatively propose joint advertising model termed Auction allowing brand suppliers stores collaboratively bid slots catering both needs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose JRegNet neural network architecture optimal joint auction design generate mechanisms achieve revenue guarantee near- dominant strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper propose JRegNet neural network architecture optimal joint auction design generate mechanisms achieve revenue guarantee near- dominant strategy.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

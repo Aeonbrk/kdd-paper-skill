@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737243",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "M^2-MFP: A Multi-Scale and Multi-Level Memory Failure Prediction Framework for Reliable Cloud Infrastructure",
+  "doi": "10.1145/3711896.3737243",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876836",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines cloud services become increasingly integral modern infrastructure ensuring hardware reliability essential sustain high-quality service..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose M2-MFP Multi-scale Multi-Level Memory Failure Prediction framework designed enhance reliability availability cloud infrastructure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving M2-MFP converts correctable errors CEs multi-level binary matrix representations introduces Spatial Feature Extractor BSFE automatically extract high-order features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon BSFE outputs develop dual-path temporal modeling architecture time-patch module aggregates multi-level features within observation windows time-point.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing memory failure prediction approaches have notable limitations rule-based expert models suffer limited generalizability low recall rates automated.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments both benchmark datasets real-world deployment show superiority M2-MFP outperforms existing state-of-the-art methods significant margins..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines cloud services become increasingly integral modern infrastructure ensuring hardware reliability essential sustain high-quality service..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose M2-MFP Multi-scale Multi-Level Memory Failure Prediction framework designed enhance reliability availability cloud infrastructure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving M2-MFP converts correctable errors CEs multi-level binary matrix representations introduces Spatial Feature Extractor BSFE automatically extract high-order features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing memory failure prediction approaches have notable limitations rule-based expert models suffer limited generalizability low recall rates automated.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

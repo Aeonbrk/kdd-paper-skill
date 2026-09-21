@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539290",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "An Embedded Feature Selection Framework for Control",
+  "doi": "10.1145/3534678.3539290",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283393004",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Reducing sensor requirements keeping optimal control performance crucial many industrial applications achieve robust low-cost computation-efficient controllers..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing feature selection solutions typical machine learning domain hardly applied control changing dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper novel framework namely Dual-world embedded Attentive Feature Selection D-AFS efficiently select most relevant sensors system under dynamic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving apply solution four OpenAI classical control cases..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Results highlight argued new way achieve efficient optimal sensor designs experimental industrial systems..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Reducing sensor requirements keeping optimal control performance crucial many industrial applications achieve robust low-cost computation-efficient controllers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving well-known active flow control problem cylinder drag reduction used evaluation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results show D-AFS successfully finds optimized five-probes layout 18.7% drag reduction state-of-the-art solution 151 probes 49.2% human experts..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Reducing sensor requirements keeping optimal control performance crucial many industrial applications achieve robust low-cost computation-efficient controllers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing feature selection solutions typical machine learning domain hardly applied control changing dynamics..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper novel framework namely Dual-world embedded Attentive Feature Selection D-AFS efficiently select most relevant sensors system under dynamic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving apply solution four OpenAI classical control cases..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Reducing sensor requirements keeping optimal control performance crucial many industrial applications achieve robust low-cost computation-efficient controllers..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

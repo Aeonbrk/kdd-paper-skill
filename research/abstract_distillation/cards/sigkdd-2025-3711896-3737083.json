@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737083",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "PMKLC: Parallel Multi-Knowledge Learning-based Lossless Compression for Large-Scale Genomics Database",
+  "doi": "10.1145/3711896.3737083",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877129",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning-based lossless compressors play crucial role large-scale genomic database backup storage transmission management..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However inadequate compression ratio low decompression throughput poor robustness limit widespread adoption application both industry academia..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving solve those challenges propose novel Parallel Multi-Knowledge Learning-based Compressor PMKLC four crucial designs automated compression framework compressors backbone.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark PMKLC-S/M 14 baselines traditional leaning-based 15 real-world datasets different species data sizes..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Compared baselines testing datasets PMKLC-S/M achieve average compression ratio improvement up 73.609% 73.480% throughput 3.036 10.710 respectively..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Besides PMKLC-S/M achieve best robustness competitive memory cost indicating greater stability against datasets different probability distribution perturbations strong.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning-based lossless compressors play crucial role large-scale genomic database backup storage transmission management..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However inadequate compression ratio low decompression throughput poor robustness limit widespread adoption application both industry academia..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve those challenges propose novel Parallel Multi-Knowledge Learning-based Compressor PMKLC four crucial designs automated compression framework compressors backbone.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving benchmark PMKLC-S/M 14 baselines traditional leaning-based 15 real-world datasets different species data sizes..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Compared baselines testing datasets PMKLC-S/M achieve average compression ratio improvement up 73.609% 73.480% throughput 3.036 10.710 respectively..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

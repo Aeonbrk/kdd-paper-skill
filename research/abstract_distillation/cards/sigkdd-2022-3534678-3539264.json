@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539264",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Balancing Bias and Variance for Active Weakly Supervised Learning",
+  "doi": "10.1145/3534678.3539264",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4282914877",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines widely used weakly supervised learning scheme modern multiple instance MIL models achieve competitive performance bag level..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However instance-level prediction essential many important applications remains largely unsatisfactory..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose conduct novel active deep multiple instance learning samples small subset informative instances annotation aiming significantly boost instance-level.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving variance regularized loss function designed properly balance bias instance-level predictions aiming effectively accommodate highly imbalanced instance distribution MIL.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Instead directly minimizing variance regularized loss non-convex optimize distributionally robust bag level likelihood convex surrogate..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving widely used weakly supervised learning scheme modern multiple instance MIL models achieve competitive performance bag level..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving leveraging key MIL assumption sampling function explore most challenging bags effectively detect positive instances annotation significantly improves instance-level.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments conducted over multiple real-world datasets clearly demonstrate state-of-the-art instance-level prediction achieved proposed model..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines widely used weakly supervised learning scheme modern multiple instance MIL models achieve competitive performance bag level..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However instance-level prediction essential many important applications remains largely unsatisfactory..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose conduct novel active deep multiple instance learning samples small subset informative instances annotation aiming significantly boost instance-level.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving variance regularized loss function designed properly balance bias instance-level predictions aiming effectively accommodate highly imbalanced instance distribution MIL.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving widely used weakly supervised learning scheme modern multiple instance MIL models achieve competitive performance bag level..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

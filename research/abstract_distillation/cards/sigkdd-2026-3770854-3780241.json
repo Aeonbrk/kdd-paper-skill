@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780241",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Improving Heterogeneous Graph Contrastive Learning Robustness via Hierarchical Vulnerability Protection",
+  "doi": "10.1145/3770854.3780241",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171988660",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently Heterogeneous Graph Contrastive Learning HGCL has received significant attention due impressive capability represent graphs without detailed annotations..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However inherent fragility heterogeneous graph structures makes HGCL vulnerable perturbation attacks..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper argue some nodes susceptible attacks influence perturbation attack will accumulate across layers during representation aggregation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle problems propose novel Heterogeneous Graph Contrastive Learning Hierarchical Vulnerability Protection HVP-HGCL identifies most vulnerable nodes perturbation attack.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically first design Vulnerability Detection VD based HGCL framework determine nodes sensitive attack self-supervised scenarios..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving defensive mechanism result insufficient structure information HGCL thus degrading performance self-supervised scenarios without labels..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving tackle problems propose novel Heterogeneous Graph Contrastive Learning Hierarchical Vulnerability Protection HVP-HGCL identifies most vulnerable nodes perturbation attack.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Combining above two modules HVP-HGCL not only improve robustness HGCL but ensure sufficient structural information effective contrastive learning..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently Heterogeneous Graph Contrastive Learning HGCL has received significant attention due impressive capability represent graphs without detailed annotations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However inherent fragility heterogeneous graph structures makes HGCL vulnerable perturbation attacks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper argue some nodes susceptible attacks influence perturbation attack will accumulate across layers during representation aggregation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle problems propose novel Heterogeneous Graph Contrastive Learning Hierarchical Vulnerability Protection HVP-HGCL identifies most vulnerable nodes perturbation attack.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving defensive mechanism result insufficient structure information HGCL thus degrading performance self-supervised scenarios without labels..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

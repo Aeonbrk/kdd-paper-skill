@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539341",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "MDP2 Forest: A Constrained Continuous Multi-dimensional Policy Optimization Approach for Short-video Recommendation",
+  "doi": "10.1145/3534678.3539341",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875274",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines ecology short video platforms optimal exposure proportion each category crucial guide recommendation systems content production macroscopic way..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper formalize exposure proportion strategy policy-making problem multi-dimensional continuous treatment under certain constraints causal inference point view..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose novel ensemble policy learning method based causal trees called Maximum Difference Preference Point Forest MDP2 overcomes shortcomings.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental results both simulated synthetic datasets show superiority algorithm compared other policy learning causal inference methods terms treatment.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Though extensive studies recommendation systems devoted providing most well-matched videos each view request fitting data without considering inherent.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results both simulated synthetic datasets show superiority algorithm compared other policy learning causal inference methods terms treatment.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines ecology short video platforms optimal exposure proportion each category crucial guide recommendation systems content production macroscopic way..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper formalize exposure proportion strategy policy-making problem multi-dimensional continuous treatment under certain constraints causal inference point view..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose novel ensemble policy learning method based causal trees called Maximum Difference Preference Point Forest MDP2 overcomes shortcomings.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Though extensive studies recommendation systems devoted providing most well-matched videos each view request fitting data without considering inherent.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

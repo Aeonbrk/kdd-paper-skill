@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671871",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "SEBot: Structural Entropy Guided Multi-View Contrastive learning for Social Bot Detection",
+  "doi": "10.1145/3637528.3671871",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863527",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advancements social bot detection have been driven adoption Graph Neural Networks..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However previous graph-based detection methods follow transductive message-passing paradigm not fully utilize hidden graph information vulnerable adversarial bot.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose SEBot novel multi-view graph-based contrastive learning-enabled social bot detector..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving particular use structural entropy uncertainty metric optimize entire graph structure subgraph-level granularity revealing implicitly existing hierarchical community structure..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving design encoder enable message passing beyond homophily assumption enhancing robustness adversarial behaviors social bots..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving indiscriminate message passing between nodes different categories communities results excessively homogeneous node representations ultimately reducing effectiveness social bot.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate approach significantly improves performance social bot detection compared SOTA methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advancements social bot detection have been driven adoption Graph Neural Networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However previous graph-based detection methods follow transductive message-passing paradigm not fully utilize hidden graph information vulnerable adversarial bot.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose SEBot novel multi-view graph-based contrastive learning-enabled social bot detector..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving particular use structural entropy uncertainty metric optimize entire graph structure subgraph-level granularity revealing implicitly existing hierarchical community structure..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving indiscriminate message passing between nodes different categories communities results excessively homogeneous node representations ultimately reducing effectiveness social bot.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

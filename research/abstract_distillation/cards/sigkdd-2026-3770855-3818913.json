@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818913",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Machine Learning for Depression Screening and Intervention: an Original Circadian Rhythm Score-based Methodology",
+  "doi": "10.1145/3770855.3818913",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196966563",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Depression screening large-scale behavioral data challenged fragmented circadian indicators limited interpretability lack intervention-oriented analysis..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Depression screening large-scale behavioral data challenged fragmented circadian indicators limited interpretability lack intervention-oriented analysis..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitation first propose Circadian Rhythm Score CRS composite index compresses multi-domain daily behaviors unified representation rhythm..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon CRS develop interpretable depression screening framework based gradient-boosted trees SHAP analysis revealing nonlinear saturation-like associations between.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Beyond risk prediction further integrate interaction modeling counterfactual regression estimate heterogeneous dose-dependent behavioral effects enabling intervention-oriented reasoning under.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirical results demonstrate near-lossless compression single CRS retains almost full predictive capability compared multiple raw behavioral indicators..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments China Health Retirement Longitudinal Study CHARLS 15 233 demonstrate robust screening performance ROC-AUC 0.825 identify actionable behavioral.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Depression screening large-scale behavioral data challenged fragmented circadian indicators limited interpretability lack intervention-oriented analysis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Depression screening large-scale behavioral data challenged fragmented circadian indicators limited interpretability lack intervention-oriented analysis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation first propose Circadian Rhythm Score CRS composite index compresses multi-domain daily behaviors unified representation rhythm..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building upon CRS develop interpretable depression screening framework based gradient-boosted trees SHAP analysis revealing nonlinear saturation-like associations between.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirical results demonstrate near-lossless compression single CRS retains almost full predictive capability compared multiple raw behavioral indicators..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

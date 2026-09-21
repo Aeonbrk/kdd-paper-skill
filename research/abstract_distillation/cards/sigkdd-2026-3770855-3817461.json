@@ -1,0 +1,153 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817461",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Enhancing Biomedical AI Foundations: Genomic Literature Knowledge Base Boosts LLMs' Mastery of Biomedical Literature",
+  "doi": "10.1145/3770855.3817461",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197041040",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    },
+    {
+      "id": "S15",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Peered-reviewed literature provides reliable biomedical knowledge essential large language models LLMs solving complex problems..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However how literature retrieved presented LLMs significantly influence performance domain-specific tasks.We present Genomic Knowledge Base GLKB Agent address.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However how literature retrieved presented LLMs significantly influence performance domain-specific tasks.We present Genomic Knowledge Base GLKB Agent address.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluations demonstrate GLKB Agent dramatically improves LLM performance..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Eight state-of-the-art LLMs achieve average accuracy gains 27.5% PubMedQA-HC 24.8% PubMedQA-Artificial 6.0% BioASQ..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving During datasource ablation tests GLKB outperforms alternative data sources including PubMed Wikipedia arXiv..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Peered-reviewed literature provides reliable biomedical knowledge essential large language models LLMs solving complex problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However how literature retrieved presented LLMs significantly influence performance domain-specific tasks.We present Genomic Knowledge Base GLKB Agent address.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However how literature retrieved presented LLMs significantly influence performance domain-specific tasks.We present Genomic Knowledge Base GLKB Agent address.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluations demonstrate GLKB Agent dramatically improves LLM performance..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

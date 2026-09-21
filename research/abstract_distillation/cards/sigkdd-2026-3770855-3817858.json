@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817858",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SelPE: Progressive Selection for Private Structured Text Synthesis",
+  "doi": "10.1145/3770855.3817858",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196994250",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Many data-driven applications rely structured textual records clinical triage notes financial transaction logs downstream learning decision-making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving privacy-sensitive domains access records strictly regulated often resulting only small number available private examples model development analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Yet existing differential privacy data synthesis methods fall short tabular techniques cannot faithfully model free-form text text-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose SelPE selection-guided progressive evolution framework small-sample private structured text synthesis..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving privacy-sensitive domains access records strictly regulated often resulting only small number available private examples model development analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving support faithful valid synthesis SelPE decouples semantic abstraction schema realization via two-stage generation pipeline evaluates candidates multi-channel distance.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive Experiments demonstrate SelPE consistently improves structural validity fidelity downstream utility under strict differential privacy budgets particularly low-data.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Many data-driven applications rely structured textual records clinical triage notes financial transaction logs downstream learning decision-making..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving privacy-sensitive domains access records strictly regulated often resulting only small number available private examples model development analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Yet existing differential privacy data synthesis methods fall short tabular techniques cannot faithfully model free-form text text-based approaches.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving privacy-sensitive domains access records strictly regulated often resulting only small number available private examples model development analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,94 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672352",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "STATE: A Robust ATE Estimator of Heavy-Tailed Metrics for Variance Reduction in Online Controlled Experiments",
+  "doi": "10.1145/3637528.3672352",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857370",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online controlled experiments play crucial role enabling data-driven decisions across wide range companies..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However typical variance reduction methods e.g. regression-adjusted estimators built upon intuitional assumption Gaussian distributions cannot properly characterize real.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Online controlled experiments play crucial role enabling data-driven decisions across wide range companies..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Variance reduction effective technique improve sensitivity experiments achieving higher statistical power fewer samples shorter experimental periods..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore outliers diminish correlation between pre-experiment covariates outcome metrics greatly limiting effectiveness variance reduction..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online controlled experiments play crucial role enabling data-driven decisions across wide range companies..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However typical variance reduction methods e.g. regression-adjusted estimators built upon intuitional assumption Gaussian distributions cannot properly characterize real.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Online controlled experiments play crucial role enabling data-driven decisions across wide range companies..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

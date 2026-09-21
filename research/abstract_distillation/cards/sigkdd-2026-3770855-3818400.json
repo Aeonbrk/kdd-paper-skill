@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818400",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "EST: Towards Efficient Scaling Laws in Click-Through Rate Prediction via Unified Modeling",
+  "doi": "10.1145/3770855.3818400",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196964079",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Efficiently scaling industrial Click-Through Rate CTR prediction has recently attracted significant research attention..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However non-unified partially unified modeling creates information bottleneck discarding fine-grained token-level signals essential unlocking scaling gains..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work revisit fundamental distinctions between CTR prediction Large Language Models LLMs identifying two critical properties asymmetry information density.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Accordingly propose Efficiently Scalable Transformer EST achieves fully unified modeling processing all raw inputs single sequence without lossy.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Extensive experiments show EST exhibits stable efficient power-law scaling relationship enabling predictable performance gains model scale..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Accordingly propose Efficiently Scalable Transformer EST achieves fully unified modeling processing all raw inputs single sequence without lossy.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show EST exhibits stable efficient power-law scaling relationship enabling predictable performance gains model scale..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Deployed Taobao display advertising platform EST significantly outperforms production baselines delivering 3.27% RPM Revenue Per Mile increase 1.22%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Efficiently scaling industrial Click-Through Rate CTR prediction has recently attracted significant research attention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However non-unified partially unified modeling creates information bottleneck discarding fine-grained token-level signals essential unlocking scaling gains..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work revisit fundamental distinctions between CTR prediction Large Language Models LLMs identifying two critical properties asymmetry information density.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Accordingly propose Efficiently Scalable Transformer EST achieves fully unified modeling processing all raw inputs single sequence without lossy.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Accordingly propose Efficiently Scalable Transformer EST achieves fully unified modeling processing all raw inputs single sequence without lossy.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

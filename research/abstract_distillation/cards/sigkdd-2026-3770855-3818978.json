@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818978",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
+  "doi": "10.1145/3770855.3818978",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196926871",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Formulaic alpha factor mining critical yet challenging task quantitative investment characterized vast search space need domain-informed interpretable signals..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However finding novel signals becomes increasingly difficult library grows due high redundancy..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose FactorMiner lightweight flexible self-evolving agent framework designed navigate complex landscape through continuous knowledge accumulation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving FactorMiner combines Modular Skill Architecture encapsulates systematic financial evaluation executable tools structured Experience Memory distills historical mining trials.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving instantiating Ralph Loop paradigm---retrieve generate evaluate distill---FactorMiner iteratively uses memory priors guide exploration reducing redundant search focusing promising.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments multiple datasets across different assets markets show FactorMiner constructs diverse library high-quality factors competitive performance maintaining low.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Formulaic alpha factor mining critical yet challenging task quantitative investment characterized vast search space need domain-informed interpretable signals..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However finding novel signals becomes increasingly difficult library grows due high redundancy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose FactorMiner lightweight flexible self-evolving agent framework designed navigate complex landscape through continuous knowledge accumulation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving FactorMiner combines Modular Skill Architecture encapsulates systematic financial evaluation executable tools structured Experience Memory distills historical mining trials.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

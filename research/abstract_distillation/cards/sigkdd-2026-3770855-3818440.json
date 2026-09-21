@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818440",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Learn to Coordinate City-Scale Virtual Power Plants: A Reasoning-Guided Evolutionary Framework for Hierarchical Heterogeneous Device Scheduling",
+  "doi": "10.1145/3770855.3818440",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196960993",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines intermittent renewables increasingly penetrate power systems virtual plants VPPs have emerged critical component aggregating geographically distributed devices respond.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building paradigm propose VPPEvolve reasoning-guided evolutionary framework hierarchical VPP scheduling..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving VPPEvolve tackles three key challenges through complementary designs evolvable chained program representation formalizes hierarchical VPP dynamics executable structures.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving VPPEvolve tackles three key challenges through complementary designs evolvable chained program representation formalizes hierarchical VPP dynamics executable structures.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments two city-scale datasets confirm consistent gains economic profit bid-tracking stability post-hoc analyses deployment confirming white-box paradigm.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines intermittent renewables increasingly penetrate power systems virtual plants VPPs have emerged critical component aggregating geographically distributed devices respond.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building paradigm propose VPPEvolve reasoning-guided evolutionary framework hierarchical VPP scheduling..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving VPPEvolve tackles three key challenges through complementary designs evolvable chained program representation formalizes hierarchical VPP dynamics executable structures.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving VPPEvolve tackles three key challenges through complementary designs evolvable chained program representation formalizes hierarchical VPP dynamics executable structures.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

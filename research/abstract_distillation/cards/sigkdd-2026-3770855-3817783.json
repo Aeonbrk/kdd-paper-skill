@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817783",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SensCluster: Sensitivity-Guided Client Clustering for Feature-Skewed Federated Learning",
+  "doi": "10.1145/3770855.3817783",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196934299",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper reveal key observation under feature distribution skew different network layers exhibit highly unequal sensitivity early encoding strongly.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated propose SensCluster novel sensitivity-aware CFL framework constructs compact client representations selecting parameters most responsive local feature distributions..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments both image FEMNIST CIFAR10-c CINIC10-c EuroSAT time-series HAR benchmarks demonstrate SensCluster consistently outperforms state-of-the-art CFL methods.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Federated Learning FL enables collaborative model training across distributed clients without sharing raw data but performance degrades significantly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper reveal key observation under feature distribution skew different network layers exhibit highly unequal sensitivity early encoding strongly.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments both image FEMNIST CIFAR10-c CINIC10-c EuroSAT time-series HAR benchmarks demonstrate SensCluster consistently outperforms state-of-the-art CFL methods.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

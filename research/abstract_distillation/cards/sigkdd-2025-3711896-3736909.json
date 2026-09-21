@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736909",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Diffusion-Guided Diversity for Single Domain Generalization in Time Series Classification",
+  "doi": "10.1145/3711896.3736909",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876863",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Single-domain generalization SDG time series classification TSC poses significant challenges current time-series domain methods due extremely limited data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving study propose Segment-dErived Expansion Domains SEED diffusion-based method effectively expands domain diversity SDG..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving reveal individual instances exhibit intrinsic temporal shifts over time provides principled foundation creating multiple pseudo domains segmenting each.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving SEED formulates representations pseudo-domain prompts guide diffusion model generating diverse yet semantically consistent time-series data..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving provide both theoretical analysis extensive empirical evaluations four widely used TSC benchmarks validate ability reducing generalization error improving.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments SEED significantly improves classification accuracy 7.68% average compared strong baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Single-domain generalization SDG time series classification TSC poses significant challenges current time-series domain methods due extremely limited data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study propose Segment-dErived Expansion Domains SEED diffusion-based method effectively expands domain diversity SDG..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving reveal individual instances exhibit intrinsic temporal shifts over time provides principled foundation creating multiple pseudo domains segmenting each.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving provide both theoretical analysis extensive empirical evaluations four widely used TSC benchmarks validate ability reducing generalization error improving.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

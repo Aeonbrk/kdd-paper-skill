@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780290",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Deep Hierarchical Knowledge Loss for Fault Intensity Diagnosis",
+  "doi": "10.1145/3770854.3780290",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7155171880",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Fault intensity diagnosis FID plays pivotal role intelligent manufacturing neglecting dependencies among target classes hinders practical deployment..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduces novel general framework deep hierarchical knowledge loss DHK achieve consistent representation prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving develop novel hierarchical tree loss enable holistic mapping same-attribute classes leveraging tree-based positive negative knowledge constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further design focal hierarchical tree loss enhance extensibility devise two adaptive weighting schemes based height..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper introduces novel general framework deep hierarchical knowledge loss DHK achieve consistent representation prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving joint two losses significantly improve recognition subtle faults..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments performed four real-world datasets various industrial domains three cavitation SAMSON AG one publicly available dataset FID.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Fault intensity diagnosis FID plays pivotal role intelligent manufacturing neglecting dependencies among target classes hinders practical deployment..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces novel general framework deep hierarchical knowledge loss DHK achieve consistent representation prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving develop novel hierarchical tree loss enable holistic mapping same-attribute classes leveraging tree-based positive negative knowledge constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper introduces novel general framework deep hierarchical knowledge loss DHK achieve consistent representation prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

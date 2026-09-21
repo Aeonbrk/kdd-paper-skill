@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817500",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+  "doi": "10.1145/3770855.3817500",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197005660",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid advancement Large Language Models LLMs has catalyzed proliferation diverse financial benchmarks progressively evolving static knowledge evaluation increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Nevertheless existing frameworks assess real-time trading performance largely overlook fundamental failure mode severe behavioral instability exhibited LLMs sequential.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Through extensive empirical investigation demonstrate when deployed direct trading agents LLMs manifest extreme run-to-run variance produce inconsistent action.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving systematically attribute pathological behaviors models fundamentally stateless autoregressive architectures lack persistent memory prior actions pronounced sensitivity continuous-to-discrete action.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving rapid advancement Large Language Models LLMs has catalyzed proliferation diverse financial benchmarks progressively evolving static knowledge evaluation increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive empirical investigation demonstrate when deployed direct trading agents LLMs manifest extreme run-to-run variance produce inconsistent action.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving deficiencies collectively undermine validity trustworthiness numerous existing online offline financial trading benchmarks rendering evaluations unreliable non-reproducible uninformative meaningful.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid advancement Large Language Models LLMs has catalyzed proliferation diverse financial benchmarks progressively evolving static knowledge evaluation increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless existing frameworks assess real-time trading performance largely overlook fundamental failure mode severe behavioral instability exhibited LLMs sequential.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through extensive empirical investigation demonstrate when deployed direct trading agents LLMs manifest extreme run-to-run variance produce inconsistent action.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving rapid advancement Large Language Models LLMs has catalyzed proliferation diverse financial benchmarks progressively evolving static knowledge evaluation increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

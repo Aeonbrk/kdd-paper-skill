@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671655",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "From Variability to Stability: Advancing RecSys Benchmarking Practices",
+  "doi": "10.1145/3637528.3671655",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4391900848",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapidly evolving domain Recommender Systems RecSys new algorithms frequently claim state-of-the-art performance based evaluations over limited set arbitrarily.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However approach fail holistically reflect effectiveness due significant impact dataset characteristics algorithm performance..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However approach fail holistically reflect effectiveness due significant impact dataset characteristics algorithm performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Addressing deficiency paper introduces novel benchmarking methodology facilitate fair robust comparison RecSys algorithms thereby advancing evaluation practices..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving utilizing diverse set 30 open datasets including two introduced work evaluating 11 collaborative filtering algorithms across metrics critically.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving rapidly evolving domain Recommender Systems RecSys new algorithms frequently claim state-of-the-art performance based evaluations over limited set arbitrarily.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Addressing deficiency paper introduces novel benchmarking methodology facilitate fair robust comparison RecSys algorithms thereby advancing evaluation practices..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving utilizing diverse set 30 open datasets including two introduced work evaluating 11 collaborative filtering algorithms across metrics critically.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapidly evolving domain Recommender Systems RecSys new algorithms frequently claim state-of-the-art performance based evaluations over limited set arbitrarily.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However approach fail holistically reflect effectiveness due significant impact dataset characteristics algorithm performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However approach fail holistically reflect effectiveness due significant impact dataset characteristics algorithm performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Addressing deficiency paper introduces novel benchmarking methodology facilitate fair robust comparison RecSys algorithms thereby advancing evaluation practices..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving rapidly evolving domain Recommender Systems RecSys new algorithms frequently claim state-of-the-art performance based evaluations over limited set arbitrarily.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

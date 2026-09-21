@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818925",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Deep Doubly Debiased Longitudinal Effect Estimation with ICE G-Computation",
+  "doi": "10.1145/3770855.3818925",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196942846",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Estimating longitudinal treatment effects essential sequential decision-making but challenging due confounder feedback..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Estimating longitudinal treatment effects essential sequential decision-making but challenging due confounder feedback..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose D3-Net framework mitigates error propagation ICE training then applies robust final correction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First interrupt error propagation during learning train ICE sequence Sequential Doubly Robust SDR pseudo-outcomes provide bias-corrected targets each.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Second employ multi-task transformer covariate simulator head auxiliary supervision regularizing representation learning target network stabilize training dynamics..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments demonstrate model D3-Net robustly reduces bias variance across different horizons counterfactuals time-varying confoundings compared existing state-of-the-art.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Estimating longitudinal treatment effects essential sequential decision-making but challenging due confounder feedback..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Estimating longitudinal treatment effects essential sequential decision-making but challenging due confounder feedback..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose D3-Net framework mitigates error propagation ICE training then applies robust final correction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First interrupt error propagation during learning train ICE sequence Sequential Doubly Robust SDR pseudo-outcomes provide bias-corrected targets each.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comprehensive experiments demonstrate model D3-Net robustly reduces bias variance across different horizons counterfactuals time-varying confoundings compared existing state-of-the-art.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

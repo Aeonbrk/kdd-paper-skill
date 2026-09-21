@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817995",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Causal Abstraction Learning for Multi-Modal Grounded Planning",
+  "doi": "10.1145/3770855.3817995",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197033028",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances multimodal embodied agents have enabled long-horizon planning visually rich environments via natural language..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Yet generalization remains brittle when task instructions deviate familiar examples exposing reliance surface imitation rather structural understanding..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose Causal Abstraction Learning Multi-Modal Grounded Planning CALM framework enhances agents ability discover exploit regularities across tasks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving CALM incrementally develops causal library abstracting precondition effect structure successful executions yielding compact representations emphasize stable dependencies beyond.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving resulting structure serves transferable prior planning novel settings integrating perceptual cues mechanism-informed knowledge..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments ALFRED VirtualHome demonstrate consistent gains highlighting causal abstraction scalable inductive bias grounded planning..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances multimodal embodied agents have enabled long-horizon planning visually rich environments via natural language..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Yet generalization remains brittle when task instructions deviate familiar examples exposing reliance surface imitation rather structural understanding..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Causal Abstraction Learning Multi-Modal Grounded Planning CALM framework enhances agents ability discover exploit regularities across tasks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving CALM incrementally develops causal library abstracting precondition effect structure successful executions yielding compact representations emphasize stable dependencies beyond.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving resulting structure serves transferable prior planning novel settings integrating perceptual cues mechanism-informed knowledge..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

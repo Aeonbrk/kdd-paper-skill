@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671873",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Efficient Mixture of Experts based on Large Language Models for Low-Resource Data Preprocessing",
+  "doi": "10.1145/3637528.3671873",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864268",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data preprocessing DP transforms erroneous raw clean version cornerstone mining pipeline..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper present MELD Mixture Experts Large Language Models Data Preprocessing universal solver low-resource DP..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving fine-tune MELD develop suite expert-tuning MoE-tuning techniques including retrieval augmented generation RAG system meta-path search data augmentation expert.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further verify effectiveness MELD theoretically prove MoE superior single expert router network able dispatch data right experts..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally conducted extensive experiments 19 datasets over 10 DP tasks show MELD outperforms state-of-the-art methods both effectiveness efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data preprocessing DP transforms erroneous raw clean version cornerstone mining pipeline..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present MELD Mixture Experts Large Language Models Data Preprocessing universal solver low-resource DP..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving fine-tune MELD develop suite expert-tuning MoE-tuning techniques including retrieval augmented generation RAG system meta-path search data augmentation expert.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally conducted extensive experiments 19 datasets over 10 DP tasks show MELD outperforms state-of-the-art methods both effectiveness efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

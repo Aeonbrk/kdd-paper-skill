@@ -1,0 +1,105 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817643",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory",
+  "doi": "10.1145/3770855.3817643",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196940422",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances large language models have driven emergence intelligent agents operating open-world multimodal environments..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing multimodal agent memories rely primarily neural representations vector-based retrieval well-suited inductive intuitive reasoning but fundamentally.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation propose NS-Mem long-term neuro-symbolic memory framework designed advance multimodal agent reasoning integrating neural explicit symbolic structures.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments real-world multimodal reasoning benchmarks demonstrate Neuro-Symbolic Memory achieves average 4.35 percentage points improvement overall accuracy over pure.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances large language models have driven emergence intelligent agents operating open-world multimodal environments..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing multimodal agent memories rely primarily neural representations vector-based retrieval well-suited inductive intuitive reasoning but fundamentally.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation propose NS-Mem long-term neuro-symbolic memory framework designed advance multimodal agent reasoning integrating neural explicit symbolic structures.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments real-world multimodal reasoning benchmarks demonstrate Neuro-Symbolic Memory achieves average 4.35 percentage points improvement overall accuracy over pure.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

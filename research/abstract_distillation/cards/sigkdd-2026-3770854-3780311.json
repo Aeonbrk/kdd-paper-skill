@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780311",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SaVe-TAG: LLM-based Interpolation for Long-Tailed Text-Attributed Graphs",
+  "doi": "10.1145/3770854.3780311",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4404261350",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-world graph data often follows long-tailed distributions making difficult Neural Networks GNNs generalize well across both head tail.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recent advances Vicinal Risk Minimization VRM have shown promise mitigating class imbalance numeric interpolation however existing approaches largely.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving work propose method SaVe-TAG Semantic-aware Vicinal Risk Minimization Long-Tailed Text-Attributed Graphs novel VRM framework leverages Large Language Models.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate risk noisy generation introduce confidence-based edge assignment mechanism uses graph topology natural filter ensure structural consistency..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving provide theoretical justification method conduct extensive experiments benchmark datasets showing approach consistently outperforms both numeric interpolation prior long-tailed.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving provide theoretical justification method conduct extensive experiments benchmark datasets showing approach consistently outperforms both numeric interpolation prior long-tailed.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results highlight importance integrating semantic structural signals balanced effective learning text-attributed graphs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-world graph data often follows long-tailed distributions making difficult Neural Networks GNNs generalize well across both head tail.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recent advances Vicinal Risk Minimization VRM have shown promise mitigating class imbalance numeric interpolation however existing approaches largely.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose method SaVe-TAG Semantic-aware Vicinal Risk Minimization Long-Tailed Text-Attributed Graphs novel VRM framework leverages Large Language Models.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate risk noisy generation introduce confidence-based edge assignment mechanism uses graph topology natural filter ensure structural consistency..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving provide theoretical justification method conduct extensive experiments benchmark datasets showing approach consistently outperforms both numeric interpolation prior long-tailed.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

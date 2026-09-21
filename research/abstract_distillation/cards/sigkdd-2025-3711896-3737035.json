@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737035",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Lost in Sequence: Do Large Language Models Understand Sequential Recommendation?",
+  "doi": "10.1145/3711896.3737035",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825699",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have recently emerged promising tools recommendation thanks advanced textual understanding ability context-awareness..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite current practice training evaluating LLM-based recommendation LLM4Rec models under sequential scenario found whether understand information inherent users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper first demonstrate through series experiments existing LLM4Rec models do not fully capture sequential information both during training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then propose simple yet effective LLM-based sequential recommender called LLM-SRec method enhances integration information LLMs distilling user representations.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite current practice training evaluating LLM-based recommendation LLM4Rec models under sequential scenario found whether understand information inherent users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper first demonstrate through series experiments existing LLM4Rec models do not fully capture sequential information both during training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive experiments show LLM-SRec enhances LLMs ability understand users item interaction sequences ultimately leading improved recommendation performance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have recently emerged promising tools recommendation thanks advanced textual understanding ability context-awareness..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite current practice training evaluating LLM-based recommendation LLM4Rec models under sequential scenario found whether understand information inherent users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first demonstrate through series experiments existing LLM4Rec models do not fully capture sequential information both during training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite current practice training evaluating LLM-based recommendation LLM4Rec models under sequential scenario found whether understand information inherent users.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

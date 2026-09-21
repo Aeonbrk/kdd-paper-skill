@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709420",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Prices Do Matter: Modeling Price Competitiveness for Online Hotel Industry",
+  "doi": "10.1145/3690624.3709420",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149276",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Broad adoption Online Travel Platforms OTPs has led increasing interest accurately predicting users hotel purchase behavior price being.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving examining hotel purchasing process identify pervasive trend users make extensive price comparisons before making decisions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose concept Marketplace-oriented Hotel Price Competitiveness MHPC model pricing within marketplace..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore novel Hotel Price Competitiveness-aware Purchase Prediction Model HP3M constructed incorporating MHPC demand dynamics multi-task learning framework featuring.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving examining hotel purchasing process identify pervasive trend users make extensive price comparisons before making decisions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Being independent specific user preferences MHPC applied improve various downstream operations online hotel industry ranking pricing ultimately benefiting.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline online experiments demonstrate HP3M effectiveness predicting hotel purchase probability enhancing performance ranking pricing compared state-of-the-art methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Broad adoption Online Travel Platforms OTPs has led increasing interest accurately predicting users hotel purchase behavior price being.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving examining hotel purchasing process identify pervasive trend users make extensive price comparisons before making decisions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose concept Marketplace-oriented Hotel Price Competitiveness MHPC model pricing within marketplace..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving examining hotel purchasing process identify pervasive trend users make extensive price comparisons before making decisions..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

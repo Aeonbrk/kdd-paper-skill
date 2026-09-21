@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818887",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "PRIME: A Pretrained Representation-Induced Model for 3D Molecules in De Novo Binder Design",
+  "doi": "10.1145/3770855.3818887",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197048832",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Biomolecular binder design peptides antibodies requires generating diverse candidates satisfy stringent three-dimensional geometric constraints enabling affinity-oriented exploration under.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However defining feasible space alone insufficient effective exploration..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Biomolecular binder design peptides antibodies requires generating diverse candidates satisfy stringent three-dimensional geometric constraints enabling affinity-oriented exploration under.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose Pretrained Representation Induced Molecular gEneration PRIME unified generative framework three-dimensional binder design across peptides antibodies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving enable controlled exploration within feasible space introduce Semantics-Preserving Exploratory Sampling SPES integrates Graph Laplacian Spectral Noise respect chain.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving aligning stochastic exploration structural semantics PRIME enables diversity-enhanced generation without sacrificing geometric validity under reported metrics improving empirical.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving PRIME achieves state-of-the-art performance unified peptide antibody benchmarks effectively reconciling geometric validity functional optimization under computational proxy metrics..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Biomolecular binder design peptides antibodies requires generating diverse candidates satisfy stringent three-dimensional geometric constraints enabling affinity-oriented exploration under.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However defining feasible space alone insufficient effective exploration..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Biomolecular binder design peptides antibodies requires generating diverse candidates satisfy stringent three-dimensional geometric constraints enabling affinity-oriented exploration under.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge propose Pretrained Representation Induced Molecular gEneration PRIME unified generative framework three-dimensional binder design across peptides antibodies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving aligning stochastic exploration structural semantics PRIME enables diversity-enhanced generation without sacrificing geometric validity under reported metrics improving empirical.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

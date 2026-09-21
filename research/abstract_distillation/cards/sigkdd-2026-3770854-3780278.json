@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780278",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "KFTD: Koopman-Fourier Time-Differentiable Network for Continuous Ocean Spatiotemporal Forecasting",
+  "doi": "10.1145/3770854.3780278",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171982636",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate oceanic forecasting critical climate monitoring disaster early-warning..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However ocean spatiotemporal forecasting encounters double challenges modeling complex dynamical systems ensuring computational efficiency..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present Koopman Fourier Time-Differentiable KFTD Network time-continuous two-stage paradigm decouples interpolation prediction achieve efficient scalable spatiotemporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving map complex nonlinear dynamics Koopman linear space exploit Fourier analysis enable continuous-time interpolation arbitrary sub-steps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further introduce D-PP Loss supports arbitrary PDE constraints end-to-end manner breaking physical-consistency bottleneck pure data-driven approaches..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving present Koopman Fourier Time-Differentiable KFTD Network time-continuous two-stage paradigm decouples interpolation prediction achieve efficient scalable spatiotemporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical results four ocean datasets confirm continuous-time framework reduces MSE average 5.6% up 12.7% SST improves efficiency over.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate oceanic forecasting critical climate monitoring disaster early-warning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However ocean spatiotemporal forecasting encounters double challenges modeling complex dynamical systems ensuring computational efficiency..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present Koopman Fourier Time-Differentiable KFTD Network time-continuous two-stage paradigm decouples interpolation prediction achieve efficient scalable spatiotemporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving map complex nonlinear dynamics Koopman linear space exploit Fourier analysis enable continuous-time interpolation arbitrary sub-steps..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving present Koopman Fourier Time-Differentiable KFTD Network time-continuous two-stage paradigm decouples interpolation prediction achieve efficient scalable spatiotemporal modeling..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671568",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "MISP: A Multimodal-based Intelligent Server Failure Prediction Model for Cloud Computing Systems",
+  "doi": "10.1145/3637528.3671568",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857309",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional server failure prediction methods predominantly rely single-modality data system logs status curves..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving potential multimodal data provide comprehensive insights widely acknowledged yet lack holistic dataset challenges inherent integrating features both structured.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving potential multimodal data provide comprehensive insights widely acknowledged yet lack holistic dataset challenges inherent integrating features both structured.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Addressing challenges paper presents industrial-scale comprehensive dataset server failure prediction comprising nearly 80 types structured unstructured data sourced.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Building resource introduce MISP model leverages multimodal fusion techniques server failure prediction..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate MISP significantly outperforms existing methods enhancing prediction accuracy approximately 25% over previous state-of-the-art approaches..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional server failure prediction methods predominantly rely single-modality data system logs status curves..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving potential multimodal data provide comprehensive insights widely acknowledged yet lack holistic dataset challenges inherent integrating features both structured.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving potential multimodal data provide comprehensive insights widely acknowledged yet lack holistic dataset challenges inherent integrating features both structured.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Addressing challenges paper presents industrial-scale comprehensive dataset server failure prediction comprising nearly 80 types structured unstructured data sourced.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate MISP significantly outperforms existing methods enhancing prediction accuracy approximately 25% over previous state-of-the-art approaches..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709298",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Mixing Time Matters: Accelerating Effective Resistance Estimation via Bidirectional Method",
+  "doi": "10.1145/3690624.3709298",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150499",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study problem efficiently approximating effective resistance ER undirected graphs widely used node proximity measure applications graph spectral sparsification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study problem efficiently approximating effective resistance ER undirected graphs widely used node proximity measure applications graph spectral sparsification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically given any nodes undirected graph aim efficiently estimate ER value between ensuring small absolute error.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving previous best algorithm problem has worst-case computational complexity Lmax3/ d2 value Lmax depends mixing time random walks mind.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving improve complexity min Lmax7/3/ Lmax3/ d2 mLmax achieving theoretical improvement maxLmax2/3/ Lmax2/ d2m2 over previous results..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Given Lmax often very large real-world networks e.g. 104 improvement significant especially networks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments real-world synthetic graph datasets empirically demonstrate superiority method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study problem efficiently approximating effective resistance ER undirected graphs widely used node proximity measure applications graph spectral sparsification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study problem efficiently approximating effective resistance ER undirected graphs widely used node proximity measure applications graph spectral sparsification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically given any nodes undirected graph aim efficiently estimate ER value between ensuring small absolute error.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving improve complexity min Lmax7/3/ Lmax3/ d2 mLmax achieving theoretical improvement maxLmax2/3/ Lmax2/ d2m2 over previous results..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

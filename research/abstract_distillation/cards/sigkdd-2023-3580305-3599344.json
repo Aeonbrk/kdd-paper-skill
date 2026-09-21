@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599344",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "FedAPEN: Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity",
+  "doi": "10.1145/3580305.3599344",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568371",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines cross-silo federated learning FL data among clients usually statistically heterogeneous aka not independent identically distributed non-IID due diversified.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although many personalized FL PFL approaches have been proposed address issue they only suitable data specific degrees statistical.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Although many personalized FL PFL approaches have been proposed address issue they only suitable data specific degrees statistical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel FL framework FedAPEN combines mutual learning ensemble take advantages private shared global models allowing heterogeneous.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Within FedAPEN propose two mechanisms coordinate promote model ensemble achieves excellent accuracy various data distributions without prior knowledge.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving cross-silo federated learning FL data among clients usually statistically heterogeneous aka not independent identically distributed non-IID due diversified.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Within FedAPEN propose two mechanisms coordinate promote model ensemble achieves excellent accuracy various data distributions without prior knowledge.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments four real-world datasets including Fashion MNIST CIFAR-10 CIFAR-100 each ten different types degrees label distribution.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines cross-silo federated learning FL data among clients usually statistically heterogeneous aka not independent identically distributed non-IID due diversified.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although many personalized FL PFL approaches have been proposed address issue they only suitable data specific degrees statistical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although many personalized FL PFL approaches have been proposed address issue they only suitable data specific degrees statistical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel FL framework FedAPEN combines mutual learning ensemble take advantages private shared global models allowing heterogeneous.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving cross-silo federated learning FL data among clients usually statistically heterogeneous aka not independent identically distributed non-IID due diversified.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

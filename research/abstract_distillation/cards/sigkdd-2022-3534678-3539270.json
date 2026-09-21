@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539270",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "A Generalized Doubly Robust Learning Framework for Debiasing Post-Click Conversion Rate Prediction",
+  "doi": "10.1145/3534678.3539270",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927708",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Post-click conversion rate CVR prediction essential task discovering user interests increasing platform revenues range industrial applications..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However paper theoretically analyzing bias variance generalization bounds DR methods find existing approaches have poor caused inaccurate estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving However paper theoretically analyzing bias variance generalization bounds DR methods find existing approaches have poor caused inaccurate estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated analysis propose generalized learning framework not only unifies existing DR methods but provides valuable opportunity develop series.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based framework propose two new DR methods namely DR-BIAS DR-MSE..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Currently doubly robust DR learning approaches achieve state-of-the-art performance debiasing CVR prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving DR-BIAS directly controls bias DR loss DR-MSE balances variance flexibly achieves better generalization performance..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments both real-world semi-synthetic datasets validate effectiveness proposed methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Post-click conversion rate CVR prediction essential task discovering user interests increasing platform revenues range industrial applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However paper theoretically analyzing bias variance generalization bounds DR methods find existing approaches have poor caused inaccurate estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However paper theoretically analyzing bias variance generalization bounds DR methods find existing approaches have poor caused inaccurate estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated analysis propose generalized learning framework not only unifies existing DR methods but provides valuable opportunity develop series.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Currently doubly robust DR learning approaches achieve state-of-the-art performance debiasing CVR prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

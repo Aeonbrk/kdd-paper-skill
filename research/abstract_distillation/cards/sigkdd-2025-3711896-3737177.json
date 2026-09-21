@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737177",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "UrbanMind: Urban Dynamics Prediction with Multifaceted Spatial-Temporal Large Language Models",
+  "doi": "10.1145/3711896.3737177",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876827",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Understanding predicting urban dynamics crucial managing transportation systems optimizing planning enhancing public services..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Meanwhile Large Language Models LLMs offer strong reasoning generalization capabilities yet application spatial-temporal urban dynamics remains underexplored..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose UrbanMind novel spatial-temporal LLM framework multifaceted urban dynamics prediction ensures both accurate forecasting robust generalization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving core UrbanMind introduces Muffin-MAE multifaceted fusion masked autoencoder specialized masking strategies capture intricate spatial-temporal dependencies intercorrelations among urban.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Additionally design semantic-aware prompting fine-tuning strategy encodes spatial-temporal contextual details prompts enhancing LLMs ability reason over patterns..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving neural network-based approaches have achieved success they often rely task-specific architectures large volumes data limiting ability generalize across.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further improve generalization introduce test time adaptation mechanism data reconstructor enabling UrbanMind dynamically adjust unseen reconstructing LLM-generated embeddings..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world urban dynamics datasets multiple cities demonstrate effectiveness UrbanMind..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Understanding predicting urban dynamics crucial managing transportation systems optimizing planning enhancing public services..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Meanwhile Large Language Models LLMs offer strong reasoning generalization capabilities yet application spatial-temporal urban dynamics remains underexplored..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose UrbanMind novel spatial-temporal LLM framework multifaceted urban dynamics prediction ensures both accurate forecasting robust generalization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving core UrbanMind introduces Muffin-MAE multifaceted fusion masked autoencoder specialized masking strategies capture intricate spatial-temporal dependencies intercorrelations among urban.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving neural network-based approaches have achieved success they often rely task-specific architectures large volumes data limiting ability generalize across.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

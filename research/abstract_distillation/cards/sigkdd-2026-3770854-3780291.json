@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780291",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Learning and Editing Universal Graph Prompt Tuning via Reinforcement Learning",
+  "doi": "10.1145/3770854.3780291",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171943705",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines pre-training prompt-tuning has emerged pivotal paradigm advancing performance graph representation learning models across wide range downstream tasks..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However argue selective node-based graph prompt tuning inevitably compromises theoretical foundation universal tuning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Early graph prompt tuning approaches relied task-specific designs Neural Networks GNNs limiting adaptability across diverse pre-training strategies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recent works propose selective node-based graph prompt tuning pursue ideal prompts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However argue selective node-based graph prompt tuning inevitably compromises theoretical foundation universal tuning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contrast another promising line research has investigated universal graph prompt tuning operates directly input feature space builds theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper strengthen theoretical foundation universal graph prompt tuning introducing stricter constraints demonstrating adding prompts all nodes necessary condition.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments graph- node-level tasks across various pre-training strategies both full-shot few-shot scenarios show LEAP consistently outperforms fine-tuning.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines pre-training prompt-tuning has emerged pivotal paradigm advancing performance graph representation learning models across wide range downstream tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However argue selective node-based graph prompt tuning inevitably compromises theoretical foundation universal tuning..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Early graph prompt tuning approaches relied task-specific designs Neural Networks GNNs limiting adaptability across diverse pre-training strategies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent works propose selective node-based graph prompt tuning pursue ideal prompts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contrast another promising line research has investigated universal graph prompt tuning operates directly input feature space builds theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709395",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "RankElectra: Semi-supervised Pre-training of Learning-to-Rank Electra for Web-scale Search",
+  "doi": "10.1145/3690624.3709395",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149623",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines representation learning has been used boost performance Learning-to-Rank LTR models through distilling key features webpage ranking weak supervision.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However LTR afterall regression task might reasonable find alternate route pre-trains models discriminative losses..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Following success Electra representation learning natural language processing NLP work proposes RankElectra pre-trains LTR model discriminator module inside.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Later work proposes novel Electra module pre-trains LTR model discriminator node reconstruction tasks features selected edges would randomly.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving carried out extensive offline online evaluations real-world web traffic Baidu search engine..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent studies generative LTR pre-training demonstrate feasibility incorporating reconstruction loss enhanced ranking score prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving carried out extensive offline online evaluations real-world web traffic Baidu search engine..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show RankElectra could significantly boost ranking performance Baidu Search compared numbers competitor systems..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines representation learning has been used boost performance Learning-to-Rank LTR models through distilling key features webpage ranking weak supervision.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However LTR afterall regression task might reasonable find alternate route pre-trains models discriminative losses..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Following success Electra representation learning natural language processing NLP work proposes RankElectra pre-trains LTR model discriminator module inside.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Later work proposes novel Electra module pre-trains LTR model discriminator node reconstruction tasks features selected edges would randomly.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent studies generative LTR pre-training demonstrate feasibility incorporating reconstruction loss enhanced ranking score prediction..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

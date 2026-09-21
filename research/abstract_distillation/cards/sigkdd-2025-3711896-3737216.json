@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737216",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Enhancing Text-Based Hierarchical Multilabel Classification for Mobile Applications via Contrastive Learning",
+  "doi": "10.1145/3711896.3737216",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877007",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines hierarchical labeling system mobile applications apps benefits wide range downstream businesses integrate proprietary user data improve modeling..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper address problem hierarchical multilabel classification apps textual information names descriptions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving present HMCN Hierarchical Multilabel Classification Network handling two perspectives first focuses without constraints second predicts labels sequentially each.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Empirical results Tencent App Store dataset two public datasets demonstrate approach performs well compared state-of-the-art methods..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving hierarchical labeling system mobile applications apps benefits wide range downstream businesses integrate proprietary user data improve modeling..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical results Tencent App Store dataset two public datasets demonstrate approach performs well compared state-of-the-art methods..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving approach has been deployed Tencent multilabel classification outputs apps have helped downstream task--credit risk management users--improve performance 10.70%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines hierarchical labeling system mobile applications apps benefits wide range downstream businesses integrate proprietary user data improve modeling..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper address problem hierarchical multilabel classification apps textual information names descriptions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present HMCN Hierarchical Multilabel Classification Network handling two perspectives first focuses without constraints second predicts labels sequentially each.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving hierarchical labeling system mobile applications apps benefits wide range downstream businesses integrate proprietary user data improve modeling..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

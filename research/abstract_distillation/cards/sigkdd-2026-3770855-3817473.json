@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817473",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation",
+  "doi": "10.1145/3770855.3817473",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4405627779",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently Large Language Models LLMs have demonstrated great potential natural language-driven molecule discovery..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing datasets benchmarks molecule-text alignment predominantly built one-to-one mappings measuring LLMs ability retrieve single pre-defined answer rather.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address critical gap propose Speak-to-Structure Bench first benchmark evaluate LLMs open-domain natural language-driven molecule generation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Bench specifically designed one-to-many relationships challenging LLMs exhibit genuine molecular understanding open-ended generation capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark includes three key tasks molecule editing MolEdit optimization MolOpt customized generation MolCustom each probing different aspect discovery..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently Large Language Models LLMs have demonstrated great potential natural language-driven molecule discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address critical gap propose Speak-to-Structure Bench first benchmark evaluate LLMs open-domain natural language-driven molecule generation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comprehensive evaluation 31 LLMs shifts focus simple pattern recall realistic molecular design paving way capable natural language-driven molecule.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently Large Language Models LLMs have demonstrated great potential natural language-driven molecule discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing datasets benchmarks molecule-text alignment predominantly built one-to-one mappings measuring LLMs ability retrieve single pre-defined answer rather.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address critical gap propose Speak-to-Structure Bench first benchmark evaluate LLMs open-domain natural language-driven molecule generation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Bench specifically designed one-to-many relationships challenging LLMs exhibit genuine molecular understanding open-ended generation capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently Large Language Models LLMs have demonstrated great potential natural language-driven molecule discovery..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

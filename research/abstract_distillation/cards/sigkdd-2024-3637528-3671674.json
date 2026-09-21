@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671674",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Scalable Algorithm for Finding Balanced Subgraphs with Tolerance in Signed Networks",
+  "doi": "10.1145/3637528.3671674",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857434",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Signed networks characterized edges labeled either positive negative offer nuanced insights interaction dynamics beyond capabilities unsigned graphs..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Traditional models however limited assumption perfect partitioning fails mirror complexities real-world data..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Addressing gap introduce innovative generalized balanced subgraph model incorporates tolerance imbalance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed region-based heuristic algorithm tailored NP hard problem strikes balance between low time complexity high-quality outcomes..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comparative experiments validate superior performance against leading solutions delivering enhanced effectiveness notably larger subgraph sizes efficiency achieving up.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Signed networks characterized edges labeled either positive negative offer nuanced insights interaction dynamics beyond capabilities unsigned graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Traditional models however limited assumption perfect partitioning fails mirror complexities real-world data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Addressing gap introduce innovative generalized balanced subgraph model incorporates tolerance imbalance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed region-based heuristic algorithm tailored NP hard problem strikes balance between low time complexity high-quality outcomes..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comparative experiments validate superior performance against leading solutions delivering enhanced effectiveness notably larger subgraph sizes efficiency achieving up.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

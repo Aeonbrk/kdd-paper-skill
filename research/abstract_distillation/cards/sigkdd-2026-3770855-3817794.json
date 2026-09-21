@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817794",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "HeteroFL-LoRA: Federated LoRA Fine-Tuning Across Heterogeneous LFMs via Singular Value Collaboration",
+  "doi": "10.1145/3770855.3817794",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196960061",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent studies have integrated Low-Rank Adaptation LoRA federated learning enable parameter-efficient fine-tuning Large Foundation Models LFMs across data.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However studies assume all clients share same LFM so each client fine-tunes LoRA private data identical pre-trained weights.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Because LoRA updates anchored model-specific pre-trained weights direct aggregation not only invalid but often counterproductive leading sharply degraded.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose HeteroFL-LoRA federated framework enables LoRA fine-tuning across heterogeneous LFMs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving express LoRA updates through singular value adjustments activating task-specific knowledge parameter-efficient manner decoupling them model-specific pre-trained weights..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However studies assume all clients share same LFM so each client fine-tunes LoRA private data identical pre-trained weights.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then introduce Singular Matrix Guided Subspace Projection employs matrices achieve cross-subspace mapping enabling heterogeneous clients aggregate LoRA updates.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate HeteroFL-LoRA achieves effective robust collaboration across heterogeneous LFMs maintaining advantages both training communication efficiency..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent studies have integrated Low-Rank Adaptation LoRA federated learning enable parameter-efficient fine-tuning Large Foundation Models LFMs across data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However studies assume all clients share same LFM so each client fine-tunes LoRA private data identical pre-trained weights.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Because LoRA updates anchored model-specific pre-trained weights direct aggregation not only invalid but often counterproductive leading sharply degraded.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose HeteroFL-LoRA federated framework enables LoRA fine-tuning across heterogeneous LFMs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However studies assume all clients share same LFM so each client fine-tunes LoRA private data identical pre-trained weights.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

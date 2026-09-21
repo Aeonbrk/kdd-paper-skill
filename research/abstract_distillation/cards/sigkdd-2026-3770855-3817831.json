@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817831",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Spectral-Inspired Neural Operator Learning with Limited Data and Unknown Physics",
+  "doi": "10.1145/3770855.3817831",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162405532",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning PDE dynamics limited data unknown physics challenging..",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Particularly only training trajectories SINO outperforms data-driven methods trained 200 remains predictive challenging out-of-distribution cases other fail..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address challenges propose Spectral-Inspired Neural Operator SINO model complex systems just trajectories without requiring explicit PDE terms..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model nonlinear effects employs i-block performs multiplicative interactions derivative features followed spectral low-pass filter de-aliasing..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments both PDE benchmarks demonstrate SINO achieves state-of-the-art performance improvements orders magnitude accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Particularly only training trajectories SINO outperforms data-driven methods trained 200 remains predictive challenging out-of-distribution cases other fail..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning PDE dynamics limited data unknown physics challenging..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Particularly only training trajectories SINO outperforms data-driven methods trained 200 remains predictive challenging out-of-distribution cases other fail..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose Spectral-Inspired Neural Operator SINO model complex systems just trajectories without requiring explicit PDE terms..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model nonlinear effects employs i-block performs multiplicative interactions derivative features followed spectral low-pass filter de-aliasing..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments both PDE benchmarks demonstrate SINO achieves state-of-the-art performance improvements orders magnitude accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

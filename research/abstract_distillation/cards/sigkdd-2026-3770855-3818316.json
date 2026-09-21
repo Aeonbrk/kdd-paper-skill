@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818316",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "AIGP: An LLM-Based Framework for Long-Term Value Alignment in E-Commerce Pricing",
+  "doi": "10.1145/3770855.3818316",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197031676",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional dynamic pricing models large-scale e-commerce suffer limited interpretability poor utilization unstructured information misalignment long-term business objectives cumulative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose AIGP novel framework leverages Large Language Model LLM prompted domain knowledge structured data textual context make interpretable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving efficient deployment maintaining high-quality outputs employ supervised fine-tuning knowledge distillation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Central AIGP Long-Term Value Estimator LTVE trained via offline reinforcement learning historical data serves reward model score candidate.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Traditional dynamic pricing models large-scale e-commerce suffer limited interpretability poor utilization unstructured information misalignment long-term business objectives cumulative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline evaluations large-scale online A/B tests Tao Factory demonstrate AIGP achieves significant improvements 13.21% GMV 7.59% ROI.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional dynamic pricing models large-scale e-commerce suffer limited interpretability poor utilization unstructured information misalignment long-term business objectives cumulative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose AIGP novel framework leverages Large Language Model LLM prompted domain knowledge structured data textual context make interpretable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving efficient deployment maintaining high-quality outputs employ supervised fine-tuning knowledge distillation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Traditional dynamic pricing models large-scale e-commerce suffer limited interpretability poor utilization unstructured information misalignment long-term business objectives cumulative.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

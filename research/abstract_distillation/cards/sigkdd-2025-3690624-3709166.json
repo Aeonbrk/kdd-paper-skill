@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709166",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Learnable Prompt as Pseudo-Imputation: Rethinking the Necessity of Traditional EHR Data Imputation in Downstream Clinical Prediction",
+  "doi": "10.1145/3690624.3709166",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150103",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Analyzing health status patients based Electronic Records EHR fundamental research problem medical informatics..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving presence extensive missing values EHR makes challenging deep neural networks DNNs directly model patient health status..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired recent advanced literature learnable prompt fields NLP CV work rethought necessity imputation model downstream clinical tasks proposed.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving PAI no longer introduces any imputed data but constructs learnable prompt model implicit preferences downstream missing values resulting.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Further experimental analysis indicates PAI exhibits higher robustness situations data insufficiency high missing rates..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Analyzing health status patients based Electronic Records EHR fundamental research problem medical informatics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving presence extensive missing values EHR makes challenging deep neural networks DNNs directly model patient health status..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However Impute-then-Regress Procedure introduces risk injecting imputed non-real data downstream clinical prediction tasks resulting power loss biased estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818661",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "Silent Failures in Federated Personalization of Foundation Models",
+  "doi": "10.1145/3770855.3818661",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197049506",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Foundation models increasingly personalized decentralized private data through federated learning now deployed scale under growing regulatory requirements post-market.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving argue convergence creates distinct under-recognized class trustworthiness failures term Silent Failures. include amplified bias fairness collapse alignment erosion.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving argue convergence creates distinct under-recognized class trustworthiness failures term Silent Failures. include amplified bias fairness collapse alignment erosion.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Federated benchmarks evaluate system performance but provide limited insight model behavior whereas centralized trustworthiness assess require access incompatible.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce taxonomy six silent failure modes arising interaction foundation model personalization dataset shift core federated constraints..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Federated benchmarks evaluate system performance but provide limited insight model behavior whereas centralized trustworthiness assess require access incompatible.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conclude research agenda privacy-preserving behavioral evaluation propose silent failures become standard diagnostic category trustworthy federated artificial intelligence..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Foundation models increasingly personalized decentralized private data through federated learning now deployed scale under growing regulatory requirements post-market.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving argue convergence creates distinct under-recognized class trustworthiness failures term Silent Failures. include amplified bias fairness collapse alignment erosion.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving argue convergence creates distinct under-recognized class trustworthiness failures term Silent Failures. include amplified bias fairness collapse alignment erosion.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Federated benchmarks evaluate system performance but provide limited insight model behavior whereas centralized trustworthiness assess require access incompatible.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Federated benchmarks evaluate system performance but provide limited insight model behavior whereas centralized trustworthiness assess require access incompatible.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817963",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SemStruct: Contextualizing Semantic Embeddings with Structural Information for Schema Matching",
+  "doi": "10.1145/3770855.3817963",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163137062",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Schema matching fundamental step integrating heterogeneous data sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose SemStruct framework joins semantic power frozen PLMs structural inductive bias Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model table heterogeneous graph columns values nodes connected rows allowing GNN propagate disambiguating context across structure..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unlike other state-of-the-art methods require proprietary LLM access fine-tuning language models SemStruct keeps model frozen trains only lightweight.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments Valentine SOTAB-SM benchmarks demonstrate SemStruct achieves state-of-the-art performance outperforming fully fine-tuned baselines complex semantically joinable datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Schema matching fundamental step integrating heterogeneous data sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose SemStruct framework joins semantic power frozen PLMs structural inductive bias Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model table heterogeneous graph columns values nodes connected rows allowing GNN propagate disambiguating context across structure..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments Valentine SOTAB-SM benchmarks demonstrate SemStruct achieves state-of-the-art performance outperforming fully fine-tuned baselines complex semantically joinable datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

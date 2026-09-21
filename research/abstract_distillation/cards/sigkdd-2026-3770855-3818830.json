@@ -1,0 +1,118 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818830",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Data-driven Plasma Equilibrium Forecasting in Magnetic Fusion Tokamak",
+  "doi": "10.1145/3770855.3818830",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196959066",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines most promising approach achieving nuclear fusion through tokamaks confine plasma magnetic fields..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed methodology incorporating physics-inspired learning technique physically reliable predictions achieved plausible results forecasting future plasma equilibrium up 200.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving approach holds promise operational monitoring early warning plasma instabilities marking significant step towards developing stable fusion reactors..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving most promising approach achieving nuclear fusion through tokamaks confine plasma magnetic fields..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed methodology incorporating physics-inspired learning technique physically reliable predictions achieved plausible results forecasting future plasma equilibrium up 200.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines most promising approach achieving nuclear fusion through tokamaks confine plasma magnetic fields..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed methodology incorporating physics-inspired learning technique physically reliable predictions achieved plausible results forecasting future plasma equilibrium up 200.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving approach holds promise operational monitoring early warning plasma instabilities marking significant step towards developing stable fusion reactors..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving most promising approach achieving nuclear fusion through tokamaks confine plasma magnetic fields..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

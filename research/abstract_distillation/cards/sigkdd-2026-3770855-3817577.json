@@ -1,0 +1,166 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817577",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Who's Adam? Benchmarking Hallucinations in Scientific Dialogue",
+  "doi": "10.1145/3770855.3817577",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196962249",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs multimodal LMMs increasingly applied scientific dialogue but remains unclear whether they reliably ground specific.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models LLMs multimodal LMMs increasingly applied scientific dialogue but remains unclear whether they reliably ground specific.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving hallucinations caused both human misinterpretations model-generated assertions ultimately undermining efficiency fairness credibility scientific dialogue..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce ADAM-Bench Auditing Dialogue Assertions Multimodal Evidence benchmark paper-grounded hallucinations scientific dialogue..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Starting around 27 000 papers ADAM-Bench multi-layer benchmark three tiers Scale Core Gold..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving build through four-stage pipeline claim atomization candidate evidence recall model-assisted pre-alignment human verification..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally avoid brittleness introduced single-rationale supervision formalize minimal evidence set equivalent sets evaluate localization best-matching against multiple gold.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results markedly low 25.2% 51.1% indicating grounding conversational hallucinations real multimodal papers remains far solved..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs multimodal LMMs increasingly applied scientific dialogue but remains unclear whether they reliably ground specific.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models LLMs multimodal LMMs increasingly applied scientific dialogue but remains unclear whether they reliably ground specific.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving hallucinations caused both human misinterpretations model-generated assertions ultimately undermining efficiency fairness credibility scientific dialogue..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce ADAM-Bench Auditing Dialogue Assertions Multimodal Evidence benchmark paper-grounded hallucinations scientific dialogue..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving build through four-stage pipeline claim atomization candidate evidence recall model-assisted pre-alignment human verification..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

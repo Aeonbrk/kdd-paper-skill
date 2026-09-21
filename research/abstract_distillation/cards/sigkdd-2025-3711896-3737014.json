@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737014",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Knowledge-to-Jailbreak: Investigating Knowledge-driven Jailbreaking Attacks for Large Language Models",
+  "doi": "10.1145/3711896.3737014",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876840",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs have been increasingly applied various domains triggers increasing concerns about safety specialized e.g. medicine..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite prior explorations general jailbreaking attacks there two challenges applying existing testing domain-specific safety LLMs Lack professional knowledge-driven.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving bridge gap propose new task knowledge-to-jailbreak aims generate jailbreaking attacks domain knowledge requiring both attack effectiveness relevance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving collect large-scale dataset 12 974 knowledge-jailbreak pairs fine-tune large language model jailbreak-generator produce domain knowledge-specific jailbreaks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving apply method out-of-domain knowledge base showing jailbreak-generator generate jailbreaks comparable harmfulness those crafted human experts..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments 13 domains target LLMs demonstrate effectiveness jailbreak-generator generating jailbreaks both threatening relevant given knowledge..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs have been increasingly applied various domains triggers increasing concerns about safety specialized e.g. medicine..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite prior explorations general jailbreaking attacks there two challenges applying existing testing domain-specific safety LLMs Lack professional knowledge-driven.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose new task knowledge-to-jailbreak aims generate jailbreaking attacks domain knowledge requiring both attack effectiveness relevance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving collect large-scale dataset 12 974 knowledge-jailbreak pairs fine-tune large language model jailbreak-generator produce domain knowledge-specific jailbreaks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments 13 domains target LLMs demonstrate effectiveness jailbreak-generator generating jailbreaks both threatening relevant given knowledge..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

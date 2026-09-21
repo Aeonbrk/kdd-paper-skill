@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539449",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Multi-View Clustering for Open Knowledge Base Canonicalization",
+  "doi": "10.1145/3534678.3539449",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283367106",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Open information extraction OIE methods extract plenty triples unstructured text compose large knowledge bases OKBs.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However two views knowledge have so far been leveraged isolation existing works..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose CMVC novel unsupervised framework leverages two views knowledge jointly canonicalizing OKBs without need manually annotated labels..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving achieve goal pro- pose multi-view CH K-Means clustering algorithm mutually reinforce view-specific embeddings learned each view considering different.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving order further enhance canonicalization performance propose training data optimization strategy terms quantity quality respectively each particular view refine.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve goal pro- pose multi-view CH K-Means clustering algorithm mutually reinforce view-specific embeddings learned each view considering different.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate superiority framework through extensive experiments multiple real-world OKB data sets against state-of-the-art methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Open information extraction OIE methods extract plenty triples unstructured text compose large knowledge bases OKBs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However two views knowledge have so far been leveraged isolation existing works..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose CMVC novel unsupervised framework leverages two views knowledge jointly canonicalizing OKBs without need manually annotated labels..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving achieve goal pro- pose multi-view CH K-Means clustering algorithm mutually reinforce view-specific embeddings learned each view considering different.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve goal pro- pose multi-view CH K-Means clustering algorithm mutually reinforce view-specific embeddings learned each view considering different.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

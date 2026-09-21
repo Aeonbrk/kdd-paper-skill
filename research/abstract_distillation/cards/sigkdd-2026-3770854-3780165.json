@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780165",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "doi": "10.1145/3770854.3780165",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7119737985",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Spatial-Temporal Graph STG forecasting large-scale networks has garnered significant attention..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing models predominantly focus short-horizon predictions suffer notorious computational costs memory consumption when scaling long-horizon large graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Targeting above challenges present FaST effective efficient framework based heterogeneity-aware Mixture-of-Experts MoEs long-horizon large-scale STG forecasting unlocks one-week-ahead.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First adaptive graph agent attention mechanism proposed alleviate computational burden inherent conventional convolution self-attention modules when applied large-scale.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Second propose new parallel MoE module replaces traditional feed-forward networks Gated Linear Units GLUs enabling efficient scalable structure..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world datasets demonstrate FaST not only delivers superior long-horizon predictive accuracy but achieves remarkable computational efficiency.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Spatial-Temporal Graph STG forecasting large-scale networks has garnered significant attention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing models predominantly focus short-horizon predictions suffer notorious computational costs memory consumption when scaling long-horizon large graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Targeting above challenges present FaST effective efficient framework based heterogeneity-aware Mixture-of-Experts MoEs long-horizon large-scale STG forecasting unlocks one-week-ahead.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First adaptive graph agent attention mechanism proposed alleviate computational burden inherent conventional convolution self-attention modules when applied large-scale.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments real-world datasets demonstrate FaST not only delivers superior long-horizon predictive accuracy but achieves remarkable computational efficiency.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

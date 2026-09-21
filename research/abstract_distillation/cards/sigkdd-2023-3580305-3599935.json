@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599935",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "S2phere: Semi-Supervised Pre-training for Web Search over Heterogeneous Learning to Rank Data",
+  "doi": "10.1145/3580305.3599935",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567992",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving meanwhile industry research communities have released number open-source LTR datasets well annotations but incorporating different designs features/labels i.e..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving meanwhile industry research communities have released number open-source LTR datasets well annotations but incorporating different designs features/labels i.e..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work inspired recent progress pre-training transformers performance advantages study problem LTR models both labeled unlabeled samples especially focus.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically given LTR model composed backbone feature extractor neck module reason orders head predictor ranking scores S2phere uses.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments have been done both offline online A/B Test top Baidu search engine..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving meanwhile industry research communities have released number open-source LTR datasets well annotations but incorporating different designs features/labels i.e..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving meanwhile industry research communities have released number open-source LTR datasets well annotations but incorporating different designs features/labels i.e..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Learning Rank LTR models top transformers have been widely adopted achieve decent performance still challenging train model sufficient.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

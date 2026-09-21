@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818187",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Discovering and Alleviating Data Leakage in Staytime Prediction for Live Streaming Recommendation",
+  "doi": "10.1145/3770855.3818187",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196955694",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Staytime prediction plays central role live-streaming recommendation..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving better analyze problem construct first benchmark data leakage detection live-streaming recommendation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving reveal issue mainly stems shared bottom embeddings rather task-specific heads identify cutoff time beyond timeliness gains outweighed leakage-induced.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate consistent improvements staytime prediction method seamlessly integrated existing frameworks making general model-agnostic solution leakage-aware live-streaming recommendation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Staytime prediction plays central role live-streaming recommendation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving better analyze problem construct first benchmark data leakage detection live-streaming recommendation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However empirical results reveal multi-window streaming inherently introduces data leakage issue i.e. short-window training updates embeddings long-window serving-time.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

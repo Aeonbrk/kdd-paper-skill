@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817675",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "H4G: Unlocking Faithful Inference for Zero-Shot Graph Learning in Hyperbolic Space",
+  "doi": "10.1145/3770855.3817675",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415266303",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Text-attributed graphs widely used across domains offering rich opportunities zero-shot learning via graph-text alignment..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods struggle tasks requiring fine-grained pattern recognition particularly heterophilic graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Through empirical theoretical analysis identify textbf over-abstraction problem current approaches operate excessively large hyperbolic radii compressing multi-scale structural.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving analyzing embeddings hyperbolic space demonstrate optimal graph learning requires textbf faithful preservation fine-grained structural details better retained representations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address propose textbf H4G framework systematically reduces embedding radii learnable block-diagonal scaling matrices bius matrix multiplication..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving analyzing embeddings hyperbolic space demonstrate optimal graph learning requires textbf faithful preservation fine-grained structural details better retained representations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show H4G achieves state-of-the-art zero-shot performance textbf 12.8 improvement heterophilic graphs 8.4 homophilic confirming radius reduction enables.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Text-attributed graphs widely used across domains offering rich opportunities zero-shot learning via graph-text alignment..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods struggle tasks requiring fine-grained pattern recognition particularly heterophilic graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through empirical theoretical analysis identify textbf over-abstraction problem current approaches operate excessively large hyperbolic radii compressing multi-scale structural.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving analyzing embeddings hyperbolic space demonstrate optimal graph learning requires textbf faithful preservation fine-grained structural details better retained representations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving analyzing embeddings hyperbolic space demonstrate optimal graph learning requires textbf faithful preservation fine-grained structural details better retained representations.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

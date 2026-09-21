@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817668",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Decoupling and Damping: Structurally-Regularized Gradient Matching for Multimodal Graph Condensation",
+  "doi": "10.1145/3770855.3817668",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416771191",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines multimodal graph learning structures integrate information multiple sources vision text comprehensively model complex entity relationships..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However continuous growth data scale poses significant computational bottleneck training..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving multimodal graph learning structures integrate information multiple sources vision text comprehensively model complex entity relationships..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based propose Structural Regularized Gradient Matching SR-GM condensation framework multimodal graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method alleviates gradient conflicts between modalities through decoupling mechanism introduces structural damping regularizer suppress propagation noise topology thereby.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments four multimodal graph datasets demonstrate effectiveness SR-GM highlighting state-of-the-art performance cross-architecture generalization capabilities dataset condensation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines multimodal graph learning structures integrate information multiple sources vision text comprehensively model complex entity relationships..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However continuous growth data scale poses significant computational bottleneck training..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving multimodal graph learning structures integrate information multiple sources vision text comprehensively model complex entity relationships..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based propose Structural Regularized Gradient Matching SR-GM condensation framework multimodal graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments four multimodal graph datasets demonstrate effectiveness SR-GM highlighting state-of-the-art performance cross-architecture generalization capabilities dataset condensation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

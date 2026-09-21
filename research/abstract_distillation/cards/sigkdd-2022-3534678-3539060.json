@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539060",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Optimizing Long-Term Efficiency and Fairness in Ride-Hailing via Joint Order Dispatching and Driver Repositioning",
+  "doi": "10.1145/3534678.3539060",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290949322",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines ride-hailing service offered mobility-on-demand platforms Uber Didi Chuxing has greatly facilitated people traveling commuting become increasingly popular recent.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However only focusing efficiency inevitably ignores fairness driver incomes could impair sustainability overall ride-hailing system long run..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Thus paper aim exploit joint order dispatching driver repositioning optimize both long-term efficiency fairness ride-hailing platforms..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address problem propose novel multi-agent reinforcement learning framework referred JDRL help drivers make distributed order selection repositioning decisions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving terms fairness criterion JDRL adopts max-min augments vanilla policy gradient iterative training algorithm alternates between minimization step improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving terms fairness criterion JDRL adopts max-min augments vanilla policy gradient iterative training algorithm alternates between minimization step improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted three public real-world ride-hailing order datasets including over million orders Haikou China Chengdu New York.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results show JDRL demonstrates consistent advantage compared state-of-the-art baselines terms both efficiency fairness..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines ride-hailing service offered mobility-on-demand platforms Uber Didi Chuxing has greatly facilitated people traveling commuting become increasingly popular recent.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However only focusing efficiency inevitably ignores fairness driver incomes could impair sustainability overall ride-hailing system long run..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Thus paper aim exploit joint order dispatching driver repositioning optimize both long-term efficiency fairness ride-hailing platforms..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem propose novel multi-agent reinforcement learning framework referred JDRL help drivers make distributed order selection repositioning decisions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving terms fairness criterion JDRL adopts max-min augments vanilla policy gradient iterative training algorithm alternates between minimization step improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

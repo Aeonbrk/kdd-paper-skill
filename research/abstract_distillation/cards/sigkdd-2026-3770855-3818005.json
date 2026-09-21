@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818005",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "FAiT: Frequency-Aware Inverted Transformer for Multivariate Time Series Forecasting",
+  "doi": "10.1145/3770855.3818005",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196960694",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Transformer-based architectures have established themselves dominant paradigm Multivariate Time Series Forecasting MTSF core self-attention mechanism inherently functions low-pass.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recent advancements have increasingly incorporated frequency-domain operations address bias however most existing designs rely fixed spectral bases apply.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recent advancements have increasingly incorporated frequency-domain operations address bias however most existing designs rely fixed spectral bases apply.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle limitations propose FAiT Frequency-Aware inverted Transformer..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore FAiT introduces Dynamic Temporal-Frequency Modulation DTFM synthesizes instance-conditioned weights adaptively re-calibrate energy spectral sub-bands enabling fine-grained control.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments widely used benchmarks demonstrate FAiT consistently outperforms state-of-the-art Transformer-based frequency-enhanced baselines maintaining computational efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Transformer-based architectures have established themselves dominant paradigm Multivariate Time Series Forecasting MTSF core self-attention mechanism inherently functions low-pass.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recent advancements have increasingly incorporated frequency-domain operations address bias however most existing designs rely fixed spectral bases apply.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent advancements have increasingly incorporated frequency-domain operations address bias however most existing designs rely fixed spectral bases apply.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle limitations propose FAiT Frequency-Aware inverted Transformer..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments widely used benchmarks demonstrate FAiT consistently outperforms state-of-the-art Transformer-based frequency-enhanced baselines maintaining computational efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

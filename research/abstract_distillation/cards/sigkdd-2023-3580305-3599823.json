@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599823",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Fair Multilingual Vandalism Detection System for Wikipedia",
+  "doi": "10.1145/3580305.3599823",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567962",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper presents novel design system aimed supporting Wikipedia community addressing vandalism platform..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Furthermore model outperforms ORES ensuring results provided not only accurate but less biased against certain groups contributors..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper presents novel design system aimed supporting Wikipedia community addressing vandalism platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving achieve collected massive dataset 47 languages applied advanced filtering feature engineering techniques including multilingual masked language modeling build.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore model outperforms ORES ensuring results provided not only accurate but less biased against certain groups contributors..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve collected massive dataset 47 languages applied advanced filtering feature engineering techniques including multilingual masked language modeling build.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving performance system was evaluated through comparison one used production Wikipedia known ORES..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving research results significant increase number languages covered making Wikipedia patrolling efficient wider range communities..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper presents novel design system aimed supporting Wikipedia community addressing vandalism platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Furthermore model outperforms ORES ensuring results provided not only accurate but less biased against certain groups contributors..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper presents novel design system aimed supporting Wikipedia community addressing vandalism platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving achieve collected massive dataset 47 languages applied advanced filtering feature engineering techniques including multilingual masked language modeling build.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve collected massive dataset 47 languages applied advanced filtering feature engineering techniques including multilingual masked language modeling build.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

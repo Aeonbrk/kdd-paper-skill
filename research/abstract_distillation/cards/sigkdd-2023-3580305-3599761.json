@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599761",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "A Feature-Based Coalition Game Framework with Privileged Knowledge Transfer for User-tag Profile Modeling",
+  "doi": "10.1145/3580305.3599761",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562660",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines User-tag profiling effective way mining user attributes modern recommender systems..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However prior researches fail extract users precise preferences tags items due incomplete feature-input patterns..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving convert user-item interactions user-tag preferences propose novel feature-based framework named Coalition Tag Multi-View Mapping CTMVM identifies investigates two.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving coalition feature adopt Shapley Value based Empowerment SVE model tags items game-theoretic paradigm charge network straight master user.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving privileged feature present Knowledge Mapping PKM explicitly distill each tag one single embedding assists model predicting user-tag preferences.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Excellent offline experiment results two public one private datasets show out-standing performance CTMVM..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving After deployment Alibaba large-scale recommendation systems CTMVM achieved improvement 10.81% 6.74% terms Theme-CTR Item-CTR respectively validates effectiveness taking.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines User-tag profiling effective way mining user attributes modern recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However prior researches fail extract users precise preferences tags items due incomplete feature-input patterns..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving convert user-item interactions user-tag preferences propose novel feature-based framework named Coalition Tag Multi-View Mapping CTMVM identifies investigates two.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving coalition feature adopt Shapley Value based Empowerment SVE model tags items game-theoretic paradigm charge network straight master user.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Excellent offline experiment results two public one private datasets show out-standing performance CTMVM..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817989",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "GODM: Graph Orthogonal Diffusion Models for Spatio-Temporal Forecasting",
+  "doi": "10.1145/3770855.3817989",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927191",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Probabilistic spatio-temporal forecasting pivotal challenge data mining community..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However complex spatio-temporal data high-dimensional coupling between spatial temporal domains makes design models exceptionally difficult..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Beyond standard diffusion models significant research trend involves tailoring model incorporate domain-specific inductive biases..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However complex spatio-temporal data high-dimensional coupling between spatial temporal domains makes design models exceptionally difficult..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present work propose novel framework GODM adopts orthogonalization decouple intricate temporal dynamics employing spatial convolutions simulate information flow.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple benchmark datasets demonstrate GODM framework consistently outperforms state-of-the-art spatio-temporal diffusion models..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Probabilistic spatio-temporal forecasting pivotal challenge data mining community..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However complex spatio-temporal data high-dimensional coupling between spatial temporal domains makes design models exceptionally difficult..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Beyond standard diffusion models significant research trend involves tailoring model incorporate domain-specific inductive biases..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However complex spatio-temporal data high-dimensional coupling between spatial temporal domains makes design models exceptionally difficult..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments multiple benchmark datasets demonstrate GODM framework consistently outperforms state-of-the-art spatio-temporal diffusion models..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

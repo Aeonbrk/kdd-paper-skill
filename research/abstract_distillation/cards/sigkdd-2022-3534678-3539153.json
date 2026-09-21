@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539153",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "A Fully Differentiable Set Autoencoder",
+  "doi": "10.1145/3534678.3539153",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290928007",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural networks leverage self-supervision learn integrated representations across multiple data modalities..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However since model inputs outputs permutation invariant develop end-to-end architecture approximates solution linear sum assignment problem i.e. minimum-cost.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Leveraging deep representation learning propose generic robust systematic model able combine multiple data modalities permutation modes-number-invariant fashion both.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end treat each multi-modal data sample set utilise autoencoders learn fixed size permutation invariant representation used any decision.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving build upon previous work demonstrates feasibility presenting set input autoencoders through content-based attention mechanisms..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving build upon previous work demonstrates feasibility presenting set input autoencoders through content-based attention mechanisms..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate model capability learn combined representation preserving individual mode characteristics focusing task reconstructing multi-omic cancer data..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural networks leverage self-supervision learn integrated representations across multiple data modalities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However since model inputs outputs permutation invariant develop end-to-end architecture approximates solution linear sum assignment problem i.e. minimum-cost.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Leveraging deep representation learning propose generic robust systematic model able combine multiple data modalities permutation modes-number-invariant fashion both.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end treat each multi-modal data sample set utilise autoencoders learn fixed size permutation invariant representation used any decision.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving build upon previous work demonstrates feasibility presenting set input autoencoders through content-based attention mechanisms..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

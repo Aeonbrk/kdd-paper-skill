@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599428",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Meta Graph Learning for Long-tail Recommendation",
+  "doi": "10.1145/3580305.3599428",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562640",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Highly skewed long-tail item distribution commonly hurts model performance tail items recommendation systems especially graph-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Highly skewed long-tail item distribution commonly hurts model performance tail items recommendation systems especially graph-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose novel idea learn relations among items auxiliary graph enhance graph-based representation learning make recommendations collectively coupled framework..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving innovatively propose novel Meta Graph Learning framework long-tail recommendation MGL solving both challenges..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving meta-learning strategy introduced learning edge generator first tuned reconstruct debiased item co-occurrence matrix then virtually evaluated generating relations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments public datasets demonstrate proposed model significantly outperforms strong baselines tail items without compromising overall performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Highly skewed long-tail item distribution commonly hurts model performance tail items recommendation systems especially graph-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Highly skewed long-tail item distribution commonly hurts model performance tail items recommendation systems especially graph-based models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose novel idea learn relations among items auxiliary graph enhance graph-based representation learning make recommendations collectively coupled framework..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving meta-learning strategy introduced learning edge generator first tuned reconstruct debiased item co-occurrence matrix then virtually evaluated generating relations.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

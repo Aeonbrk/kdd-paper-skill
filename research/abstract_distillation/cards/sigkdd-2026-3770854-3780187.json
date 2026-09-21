@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780187",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "FineFT: Efficient and Risk-Aware Ensemble Reinforcement Learning for Futures Trading",
+  "doi": "10.1145/3770854.3780187",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7161767797",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Futures contracts obligating exchange asset predetermined date price notable high leverage e.g. fold liquidity trillions dollars therefore thrive.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most methods focus spot e.g. stock could not directly applied futures market high leverage because key challenges..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges propose eFficient rIsk-aware eNsemble rEinforcement learning Futures Trading FineFT novel three-stage RL framework stable training proper.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving stage II filter Q-learners based profitabilities under different market dynamics train variational autoencoders VAEs representations each dynamic identify.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving stage III dynamically choose filtered ensemble conservative policy guided trained VAEs maintain profitability mitigate risk new market states..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving stage ensemble learners selectively updated temporal difference TD errors i.e. across different improve convergence performance..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive experiments crypto futures high-frequency trading environment high fidelity leverage demonstrate FineFT significantly outperforms 12 state-of-the-art baselines.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Visualization selective update mechanism shows different agents specialize distinct market dynamics ablation studies certify routing VAEs reduces maximum.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Futures contracts obligating exchange asset predetermined date price notable high leverage e.g. fold liquidity trillions dollars therefore thrive.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most methods focus spot e.g. stock could not directly applied futures market high leverage because key challenges..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges propose eFficient rIsk-aware eNsemble rEinforcement learning Futures Trading FineFT novel three-stage RL framework stable training proper.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving stage II filter Q-learners based profitabilities under different market dynamics train variational autoencoders VAEs representations each dynamic identify.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving stage ensemble learners selectively updated temporal difference TD errors i.e. across different improve convergence performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

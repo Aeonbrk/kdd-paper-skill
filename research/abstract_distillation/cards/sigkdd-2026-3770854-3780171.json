@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780171",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Mixture-of-RAG: Integrating Text and Tables with Large Language Models",
+  "doi": "10.1145/3770854.3780171",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416852254",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs achieve optimal utility when responses grounded external knowledge sources..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world documents annual reports scientific papers clinical guidelines frequently combine extensive narrative content complex hierarchically structured tables..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitation formalize task Heterogeneous Document RAG requires joint retrieval reasoning across textual hierarchical tabular data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose MixRAG novel three-stage framework hierarchy row-and-column-level H-RCL representation preserves hierarchical structure heterogeneous relationship ii ensemble retriever LLM-based.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap available data domain release dataset DocRAGLib k-document corpus paired automatically aligned text-table summaries gold document annotations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language models LLMs achieve optimal utility when responses grounded external knowledge sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comprehensive experiment results demonstrate MixRAG boosts top-1 retrieval 46% over strong text-only table-only naive-mixture baselines establishing new state-of-the-art.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs achieve optimal utility when responses grounded external knowledge sources..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world documents annual reports scientific papers clinical guidelines frequently combine extensive narrative content complex hierarchically structured tables..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation formalize task Heterogeneous Document RAG requires joint retrieval reasoning across textual hierarchical tabular data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose MixRAG novel three-stage framework hierarchy row-and-column-level H-RCL representation preserves hierarchical structure heterogeneous relationship ii ensemble retriever LLM-based.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language models LLMs achieve optimal utility when responses grounded external knowledge sources..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

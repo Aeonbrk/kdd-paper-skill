@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818904",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "TIDE: Static-Context Guided Prompt Retrieval for Flood Inundation Forecasting under Missing Data",
+  "doi": "10.1145/3770855.3818904",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196984304",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Operational flood inundation forecasting requires fusion lag-prone hydrometeorological forcings high-resolution Sentinel-1 SAR evidence..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However practice frequent data gaps arise sensor outages sparse observation networks uneven infrastructure especially resource-constrained regions posing major.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose TIDE static-context guided prompt retrieval framework leverages always-available hydro-environmental attributes geomorphology invariant anchors recover missing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving TIDE retrieves variable-specific prompts complete missing reanalysis tokens when SAR unavailable synthesizes surrogate embedding conditioned recovered hydrometeorological context.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving contrastive prompt-alignment objective ties retrieved prompts representations they replace enabling single trained model generalize arbitrary non-stationary missingness without.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments 298 flood events across six continents spanning inland coastal regimes show TIDE consistently outperforms strong baselines diverse.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Operational flood inundation forecasting requires fusion lag-prone hydrometeorological forcings high-resolution Sentinel-1 SAR evidence..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However practice frequent data gaps arise sensor outages sparse observation networks uneven infrastructure especially resource-constrained regions posing major.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose TIDE static-context guided prompt retrieval framework leverages always-available hydro-environmental attributes geomorphology invariant anchors recover missing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving TIDE retrieves variable-specific prompts complete missing reanalysis tokens when SAR unavailable synthesizes surrogate embedding conditioned recovered hydrometeorological context.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments 298 flood events across six continents spanning inland coastal regimes show TIDE consistently outperforms strong baselines diverse.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

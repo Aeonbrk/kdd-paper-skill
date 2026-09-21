@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539260",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Learned Token Pruning for Transformers",
+  "doi": "10.1145/3534678.3539260",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W3180037928",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Efficient deployment transformer models practice challenging due inference cost including memory footprint latency power consumption scales quadratically input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address present novel token reduction method dubbed Learned Pruning LTP adaptively removes unimportant tokens input sequence passes through.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving threshold-based method allows length pruned sequence vary adaptively based input avoids algorithmically expensive operations top-k token selection..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving extensively test performance LTP GLUE SQuAD tasks show method outperforms prior state-of-the-art token pruning methods up 2.5% higher.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving extensively test performance LTP GLUE SQuAD tasks show method outperforms prior state-of-the-art token pruning methods up 2.5% higher.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving particular LTP achieves up 2.1 FLOPs reduction less 1% accuracy drop results 1.9 2.0 throughput improvement Intel Haswell.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore demonstrate LTP robust prior methods variations input sequence lengths..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Efficient deployment transformer models practice challenging due inference cost including memory footprint latency power consumption scales quadratically input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address present novel token reduction method dubbed Learned Pruning LTP adaptively removes unimportant tokens input sequence passes through.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving threshold-based method allows length pruned sequence vary adaptively based input avoids algorithmically expensive operations top-k token selection..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving extensively test performance LTP GLUE SQuAD tasks show method outperforms prior state-of-the-art token pruning methods up 2.5% higher.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

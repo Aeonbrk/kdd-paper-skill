@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817492",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs",
+  "doi": "10.1145/3770855.3817492",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171078369",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs augmented tools emerging autonomous agents capable Web engine APIs code solve complex long-horizon tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce AISE-Bench real-world full-cycle annotated benchmark information seeking academic knowledge graphs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving support high-quality annotation design customized agent workflow enable annotators plan execute revise complex API workflows efficiently..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving develop comprehensive evaluation protocol measuring answer quality reference grounding API-planning correctness execution success..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Current tool-using benchmarks information seeking academic graphs rely synthetic templates simplified solution spaces narrow tasks paper-centric leaving key.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving develop comprehensive evaluation protocol measuring answer quality reference grounding API-planning correctness execution success..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Among 14 evaluated methods even strongest model PLAY2PROMPT Gemini-3-Pro achieves only moderate performance often struggles API planning execution..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs augmented tools emerging autonomous agents capable Web engine APIs code solve complex long-horizon tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce AISE-Bench real-world full-cycle annotated benchmark information seeking academic knowledge graphs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving support high-quality annotation design customized agent workflow enable annotators plan execute revise complex API workflows efficiently..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Current tool-using benchmarks information seeking academic graphs rely synthetic templates simplified solution spaces narrow tasks paper-centric leaving key.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

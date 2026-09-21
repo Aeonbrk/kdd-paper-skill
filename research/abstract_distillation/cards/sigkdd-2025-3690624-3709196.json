@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709196",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "ResMoE: Space-efficient Compression of Mixture of Experts LLMs via Residual Restoration",
+  "doi": "10.1145/3690624.3709196",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158695",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Mixture-of-Experts MoE Transformer backbone architecture multiple phenomenal language models leverages sparsity activating only fraction model parameters each input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Mixture-of-Experts MoE Transformer backbone architecture multiple phenomenal language models leverages sparsity activating only fraction model parameters each input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving sparse structure allowing constant time costs results space inefficiency still need load all model parameters during inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce ResMoE innovative MoE approximation framework utilizes Wasserstein barycenter extract common expert approximate residuals between original ones..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving sparse structure allowing constant time costs results space inefficiency still need load all model parameters during inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving ResMoE enhances space efficiency inference large-scale MoE Transformers one-shot data-agnostic manner without retraining maintaining minimal accuracy loss thereby.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness ResMoE through extensive experiments Switch Transformer Mixtral DeepSeekMoE models..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Mixture-of-Experts MoE Transformer backbone architecture multiple phenomenal language models leverages sparsity activating only fraction model parameters each input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Mixture-of-Experts MoE Transformer backbone architecture multiple phenomenal language models leverages sparsity activating only fraction model parameters each input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving sparse structure allowing constant time costs results space inefficiency still need load all model parameters during inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving sparse structure allowing constant time costs results space inefficiency still need load all model parameters during inference..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

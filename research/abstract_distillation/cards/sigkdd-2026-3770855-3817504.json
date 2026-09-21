@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817504",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "CA-DEL: An Open Multi-Target, Multi-Modal Benchmark for Learning from DNA-Encoded Library Screens",
+  "doi": "10.1145/3770855.3817504",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197022978",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines success machine learning drug discovery hinges relationship between chemical structure biological activity..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving DNA-Encoded Library DEL technology generate large-scale screening data but primary signal high-throughput sequencing read counts indirect noisy proxy.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving support rigorous model development under noisy supervision setting introduce CA-DEL open multi-target multi-modal benchmark focused homologous subtype selectivity.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Unlike benchmarks primarily emphasize large-scale binary hit classification CA-DEL designed test whether models transfer noisy DEL enrichment signals.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving therefore construct Sim-to-Real evaluation setting pairing DEL-derived training data ChEMBL-derived binding affinities validation testing..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving therefore construct Sim-to-Real evaluation setting pairing DEL-derived training data ChEMBL-derived binding affinities validation testing..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive baselines pose-quality analyses leakage controls zero-shot transfer experiments CA-DEL provides controlled benchmark studying D-aware learning denoising.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines success machine learning drug discovery hinges relationship between chemical structure biological activity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving DNA-Encoded Library DEL technology generate large-scale screening data but primary signal high-throughput sequencing read counts indirect noisy proxy.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving support rigorous model development under noisy supervision setting introduce CA-DEL open multi-target multi-modal benchmark focused homologous subtype selectivity.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Unlike benchmarks primarily emphasize large-scale binary hit classification CA-DEL designed test whether models transfer noisy DEL enrichment signals.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving therefore construct Sim-to-Real evaluation setting pairing DEL-derived training data ChEMBL-derived binding affinities validation testing..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

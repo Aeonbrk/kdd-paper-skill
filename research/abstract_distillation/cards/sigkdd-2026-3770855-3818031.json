@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818031",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Take a Further Step Beyond Data Augmentation: Augmented Knowledge Purification for Federated Recommendation",
+  "doi": "10.1145/3770855.3818031",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196951796",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines providing recommendation services preserving user data privacy federated sequential FSR achieves great attention recently..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However FSR suffers severe challenge data sparsity item interaction sequences each user typically short..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving generally adopted identify operators will bring additional noise leading unstable performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end paper proposes FR-AKP performs augmented knowledge purification basis data augmentation both intra-client inter-client levels..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental results four real-world datasets demonstrate proposed method significantly outperforms state-of-the-art methods up 34.62% Recall 29.92% NDCG..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving providing recommendation services preserving user data privacy federated sequential FSR achieves great attention recently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results four real-world datasets demonstrate proposed method significantly outperforms state-of-the-art methods up 34.62% Recall 29.92% NDCG..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines providing recommendation services preserving user data privacy federated sequential FSR achieves great attention recently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However FSR suffers severe challenge data sparsity item interaction sequences each user typically short..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving generally adopted identify operators will bring additional noise leading unstable performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper proposes FR-AKP performs augmented knowledge purification basis data augmentation both intra-client inter-client levels..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving providing recommendation services preserving user data privacy federated sequential FSR achieves great attention recently..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

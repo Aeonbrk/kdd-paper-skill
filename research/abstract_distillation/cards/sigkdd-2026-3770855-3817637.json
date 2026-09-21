@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817637",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "GraphSkill: Documentation-Guided Agentic Hierarchical Retrieval-Augmented Coding for Complex Graph Reasoning",
+  "doi": "10.1145/3770855.3817637",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197013516",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines growing demand automated graph algorithm reasoning has attracted increasing attention large language model LLM community..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However identify two key limitations existing approaches they treat technical documentation flat text collections ignore hierarchical structure leading.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving growing demand automated graph algorithm reasoning has attracted increasing attention large language model LLM community..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However identify two key limitations existing approaches they treat technical documentation flat text collections ignore hierarchical structure leading.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address them propose GraphSkill agentic hierarchical retrieval-augmented coding framework exploits document hierarchy through top-down traversal early pruning together.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving enable comprehensive evaluation complex graph reasoning introduce new dataset ComplexGraph covering small-scale large-scale composite tasks..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show method achieves higher task accuracy lower inference cost compared baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines growing demand automated graph algorithm reasoning has attracted increasing attention large language model LLM community..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However identify two key limitations existing approaches they treat technical documentation flat text collections ignore hierarchical structure leading.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving growing demand automated graph algorithm reasoning has attracted increasing attention large language model LLM community..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However identify two key limitations existing approaches they treat technical documentation flat text collections ignore hierarchical structure leading.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving enable comprehensive evaluation complex graph reasoning introduce new dataset ComplexGraph covering small-scale large-scale composite tasks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

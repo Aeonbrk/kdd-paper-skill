@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599800",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Deep Offline Reinforcement Learning for Real-world Treatment Optimization Applications",
+  "doi": "10.1145/3580305.3599800",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568106",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines There increasing interest data-driven approaches recommending optimal treatment strategies many chronic disease management critical care applications..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Reinforcement learning methods well-suited sequential decision-making problem but must trained evaluated exclusively retrospective medical record datasets direct online.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving But there remain challenges adapting approaches real-world applications suboptimal examples dominate retrospective dataset strict safety constraints need satisfied..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work introduce practical theoretically grounded transition sampling approach address action imbalance during offline RL training..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving perform extensive experiments two real-world tasks diabetes sepsis treatment optimization compare performance proposed approach against prominent off-policy offline.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Reinforcement learning methods well-suited sequential decision-making problem but must trained evaluated exclusively retrospective medical record datasets direct online.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving perform extensive experiments two real-world tasks diabetes sepsis treatment optimization compare performance proposed approach against prominent off-policy offline.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across range principled clinically relevant metrics show proposed approach enables substantial improvements expected health outcomes consistency practice safety.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines There increasing interest data-driven approaches recommending optimal treatment strategies many chronic disease management critical care applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Reinforcement learning methods well-suited sequential decision-making problem but must trained evaluated exclusively retrospective medical record datasets direct online.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving But there remain challenges adapting approaches real-world applications suboptimal examples dominate retrospective dataset strict safety constraints need satisfied..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce practical theoretically grounded transition sampling approach address action imbalance during offline RL training..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Reinforcement learning methods well-suited sequential decision-making problem but must trained evaluated exclusively retrospective medical record datasets direct online.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817480",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "TeleCom-Bench: How Far Are Large Language Models from Industrial Telecommunication Applications?",
+  "doi": "10.1145/3770855.3817480",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197010476",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap present TeleCom-Bench comprehensive benchmark comprising 12 evaluation sets 22 678 curated samples evaluates LLMs across synergistic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset evaluation code will released https github.com/ZTE-AICloud/TeleCom-Bench..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving bridge gap present TeleCom-Bench comprehensive benchmark comprising 12 evaluation sets 22 678 curated samples evaluates LLMs across synergistic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluations eight state-of-the-art LLMs reveal universal Execution Wall models achieve 90% accuracy linguistic interface tasks intent recognition entity.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap present TeleCom-Bench comprehensive benchmark comprising 12 evaluation sets 22 678 curated samples evaluates LLMs across synergistic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models have achieved remarkable integration various vertical scenarios deployment telecommunications domain remains exploratory due lack standardized.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

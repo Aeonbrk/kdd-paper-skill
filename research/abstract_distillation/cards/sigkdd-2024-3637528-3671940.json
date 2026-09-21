@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671940",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "AGS-GNN: Attribute-guided Sampling for Graph Neural Network",
+  "doi": "10.1145/3637528.3671940",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863785",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propose AGS-GNN novel attribute-guided sampling algorithm Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving homophilic graphs vertices same class likely adjacent but different classes tend heterophilic graphs..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose AGS-GNN novel attribute-guided sampling algorithm Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving develop dual-channel sampling techniques based feature-similarity feature-diversity select subsets neighbors node capture adaptive information homophilic heterophilic neighborhoods..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Currently AGS-GNN only algorithm explicitly controls homophily sampled subgraph through similar diverse neighborhood samples..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving pre-compute sampling distribution parallel achieving desired scalability..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive dataset consisting 35 small 100 nodes large homophilic heterophilic graphs demonstrate superiority AGS-GNN compared state-of-the-art approaches..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving AGS-GNN achieves test accuracy comparable best-performing heterophilic GNNs even outperforming methods use entire graph node classification..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propose AGS-GNN novel attribute-guided sampling algorithm Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving homophilic graphs vertices same class likely adjacent but different classes tend heterophilic graphs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose AGS-GNN novel attribute-guided sampling algorithm Graph Neural Networks GNNs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving develop dual-channel sampling techniques based feature-similarity feature-diversity select subsets neighbors node capture adaptive information homophilic heterophilic neighborhoods..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving pre-compute sampling distribution parallel achieving desired scalability..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

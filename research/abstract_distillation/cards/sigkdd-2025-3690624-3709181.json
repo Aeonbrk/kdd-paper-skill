@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709181",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Diversity Optimization for Travelling Salesman Problem via Deep Reinforcement Learning",
+  "doi": "10.1145/3690624.3709181",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150577",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Existing neural methods Travelling Salesman Problem TSP mostly aim finding single optimal solution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving discover diverse yet high-quality solutions Multi-Solution TSP MSTSP propose novel deep reinforcement learning based neural solver primarily featured.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Concretely one hand Relativization Filter RF designed enhance robustness encoder affine transformations instances so potentially improve quality found.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental evaluations benchmark instances demonstrate superiority method over recent neural baselines across different metrics competitive performance against state-of-the-art.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Concretely one hand Relativization Filter RF designed enhance robustness encoder affine transformations instances so potentially improve quality found.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental evaluations benchmark instances demonstrate superiority method over recent neural baselines across different metrics competitive performance against state-of-the-art.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore demonstrate method applied Capacitated Vehicle Routing Problem CVRP.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Existing neural methods Travelling Salesman Problem TSP mostly aim finding single optimal solution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving discover diverse yet high-quality solutions Multi-Solution TSP MSTSP propose novel deep reinforcement learning based neural solver primarily featured.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Concretely one hand Relativization Filter RF designed enhance robustness encoder affine transformations instances so potentially improve quality found.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Concretely one hand Relativization Filter RF designed enhance robustness encoder affine transformations instances so potentially improve quality found.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

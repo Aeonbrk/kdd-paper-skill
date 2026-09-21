@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817459",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "SAASBench: A synthetic antibody–antigen specificity benchmark",
+  "doi": "10.1145/3770855.3817459",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196969930",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate computational prediction antibody-antigen binding affinity specificity critical accelerating design next-generation therapeutics..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving computational antibody design central challenge not merely predicting binding but determining whether preferentially binds intended antigen over realistic.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Accurate computational prediction antibody-antigen binding affinity specificity critical accelerating design next-generation therapeutics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving computational antibody design central challenge not merely predicting binding but determining whether preferentially binds intended antigen over realistic.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing antibody-antigen benchmarks largely focus affinity prediction docking accuracy known binders therefore do not directly evaluate antibody specificity..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate computational prediction antibody-antigen binding affinity specificity critical accelerating design next-generation therapeutics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving computational antibody design central challenge not merely predicting binding but determining whether preferentially binds intended antigen over realistic.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Accurate computational prediction antibody-antigen binding affinity specificity critical accelerating design next-generation therapeutics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving computational antibody design central challenge not merely predicting binding but determining whether preferentially binds intended antigen over realistic.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing antibody-antigen benchmarks largely focus affinity prediction docking accuracy known binders therefore do not directly evaluate antibody specificity..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

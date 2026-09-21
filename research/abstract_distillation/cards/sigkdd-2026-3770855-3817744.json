@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817744",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "LOGIC: Learning Optimal Goals with an Integrated Critic for Generative Auto-Bidding",
+  "doi": "10.1145/3770855.3817744",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196966519",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving prior studies have attempted address issues separately solutions introduce new problems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce LOGIC Learning Optimal Goals Integrated Critic holistic framework resolves dual challenges unified manner..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments diverse auto-bidding scenes demonstrate LOGIC significantly outperforms state-of-the-art baselines achieving superior cumulative returns model robustness thereby.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Decision Transformers DTs have emerged powerful paradigm sequential decision-making offline learning yet they face two intrinsic deficiencies challenge.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving prior studies have attempted address issues separately solutions introduce new problems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments diverse auto-bidding scenes demonstrate LOGIC significantly outperforms state-of-the-art baselines achieving superior cumulative returns model robustness thereby.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

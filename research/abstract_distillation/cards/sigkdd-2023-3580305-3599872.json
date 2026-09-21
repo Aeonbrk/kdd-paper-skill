@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599872",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Multimodal Indoor Localisation in Parkinson's Disease for Detecting Medication Use: Observational Pilot Study in a Free-Living Setting",
+  "doi": "10.1145/3580305.3599872",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567473",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Parkinson disease PD slowly progressive debilitating neurodegenerative causes motor symptoms including gait dysfunction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving improve effectiveness current indoor localisation methods transformer-based approach utilising dual modalities provide complementary views movement Received Signal Strength.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving properly evaluate proposed method use free-living dataset movements mobility greatly varied unstructured expected real-world conditions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluation resulting dataset demonstrates proposed network outperforms other methods indoor localisation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving improve effectiveness current indoor localisation methods transformer-based approach utilising dual modalities provide complementary views movement Received Signal Strength.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving sub-objective aims evaluate whether indoor localisation including in-home gait speed features i.e. time taken walk between rooms could.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving properly evaluate proposed method use free-living dataset movements mobility greatly varied unstructured expected real-world conditions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Parkinson disease PD slowly progressive debilitating neurodegenerative causes motor symptoms including gait dysfunction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving improve effectiveness current indoor localisation methods transformer-based approach utilising dual modalities provide complementary views movement Received Signal Strength.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving properly evaluate proposed method use free-living dataset movements mobility greatly varied unstructured expected real-world conditions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving improve effectiveness current indoor localisation methods transformer-based approach utilising dual modalities provide complementary views movement Received Signal Strength.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

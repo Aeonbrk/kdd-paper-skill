@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737017",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Learn to Refine: Synergistic Multi-Agent Path Optimization for Lifelong Conflict-Free Navigation of Autonomous Vehicles",
+  "doi": "10.1145/3711896.3737017",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825818",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Lifelong Multi-Agent Path Finding LMAPF focuses planning conflict-free paths agents like autonomous vehicles continuously assigned new tasks..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving synergy search-based learning-based methods holds promise striking balance in-between effectiveness efficiency but still faces several challenges inferior initial.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address issues paper proposes new synergized LMAPF approach named Synergistic Multi-Agent Path Optimization SMAPO consists two tightly-coupled phases.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Primordial Planning phase introduce novel load-balanced algorithm integrates planned perceived congestion costs enhances initial solution quality evenly distributing.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Decision Refinement phase propose novel Encoder-Decoder based neural network learn collaborative optimization policy through multi-agent reinforcement learning..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments reveal SMAPO superior state-of-the-art baselines effectiveness efficiency generalization capability..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Lifelong Multi-Agent Path Finding LMAPF focuses planning conflict-free paths agents like autonomous vehicles continuously assigned new tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving synergy search-based learning-based methods holds promise striking balance in-between effectiveness efficiency but still faces several challenges inferior initial.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues paper proposes new synergized LMAPF approach named Synergistic Multi-Agent Path Optimization SMAPO consists two tightly-coupled phases.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Primordial Planning phase introduce novel load-balanced algorithm integrates planned perceived congestion costs enhances initial solution quality evenly distributing.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments reveal SMAPO superior state-of-the-art baselines effectiveness efficiency generalization capability..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

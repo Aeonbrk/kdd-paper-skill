@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709319",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Revisiting Cognition in Neural Cognitive Diagnosis",
+  "doi": "10.1145/3690624.3709319",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409157785",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Cognitive diagnosis fundamental task intelligent education aiming measure students proficiency knowledge concepts based practice data..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods simplify narrowly-defined latent trait focuses only knowledge treats cognitive factors implicit features inferred data..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving They fail explicitly model cognitive factors resulting limited performance interpretability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end revisit essence cognition Educational Psychology Theory propose novel Cognition-aware Cognitive Diagnosis CCD model first introduce factor bridge.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving first part explicitly model cognitive process CP dimensions Bloom Taxonomy Educational Objectives leading two innovative concepts proposed student.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving They fail explicitly model cognitive factors resulting limited performance interpretability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving second part employ basic interaction function slip guess influence inputting new continuous Q-matrix generated siamese PLMs other features.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world datasets demonstrates superior effectiveness good interpretability..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Cognitive diagnosis fundamental task intelligent education aiming measure students proficiency knowledge concepts based practice data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods simplify narrowly-defined latent trait focuses only knowledge treats cognitive factors implicit features inferred data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving They fail explicitly model cognitive factors resulting limited performance interpretability..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end revisit essence cognition Educational Psychology Theory propose novel Cognition-aware Cognitive Diagnosis CCD model first introduce factor bridge.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving They fail explicitly model cognitive factors resulting limited performance interpretability..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

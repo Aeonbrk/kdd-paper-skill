@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818053",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Training Dense Retrievers with Multiple Positive Passages",
+  "doi": "10.1145/3770855.3818053",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197023896",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern knowledge-intensive systems retrieval-augmented generation RAG rely effective retrievers establish performance ceiling downstream modules..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However retriever training has been bottlenecked sparse single-positive annotations lead false-negative noise suboptimal supervision..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper present systematic study multi-positive optimization objectives retriever training..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving unify representative objectives including Joint Likelihood JointLH Summed Marginal SumMargLH Log-Sum-Exp Pairwise LSEPair loss under shared contrastive learning.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Empirically conduct extensive evaluations Natural Questions MS MARCO BEIR benchmark across two realistic regimes homogeneous LLM-annotated data heterogeneous.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirically conduct extensive evaluations Natural Questions MS MARCO BEIR benchmark across two realistic regimes homogeneous LLM-annotated data heterogeneous.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show LSEPair consistently achieves superior robustness performance across settings JointLH SumMargLH exhibit high sensitivity quality positives..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern knowledge-intensive systems retrieval-augmented generation RAG rely effective retrievers establish performance ceiling downstream modules..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However retriever training has been bottlenecked sparse single-positive annotations lead false-negative noise suboptimal supervision..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present systematic study multi-positive optimization objectives retriever training..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving unify representative objectives including Joint Likelihood JointLH Summed Marginal SumMargLH Log-Sum-Exp Pairwise LSEPair loss under shared contrastive learning.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirically conduct extensive evaluations Natural Questions MS MARCO BEIR benchmark across two realistic regimes homogeneous LLM-annotated data heterogeneous.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

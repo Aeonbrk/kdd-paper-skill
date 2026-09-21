@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817738",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Modality-Agnostic Zeroth-Order LoRA Fine-Tuning for Black-Box Prompt Optimization",
+  "doi": "10.1145/3770855.3817738",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197011546",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent progress large-scale models generative task capabilities allows users produce high-quality content directly text prompts..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing state-of-the-art prompt optimization methods white-box setting typically optimize soft-embedding prompts but require access gradients thus cannot applied.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving contents further improved through prompt optimization usually treated black-box problem since gradients inaccessible Model-as-a-Service setting..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation propose novel modality-agnostic black-box prompt enhancement framework optimizes additional parameters within low-rank adaptation LoRA effectively collaborate.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically Zeroth-Order LoRA Optimization ZOLO method was proposed fine-tune open-source LLM establishing convergence rate theoretical guarantees achieve automatic.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contents further improved through prompt optimization usually treated black-box problem since gradients inaccessible Model-as-a-Service setting..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address limitation propose novel modality-agnostic black-box prompt enhancement framework optimizes additional parameters within low-rank adaptation LoRA effectively collaborate.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically Zeroth-Order LoRA Optimization ZOLO method was proposed fine-tune open-source LLM establishing convergence rate theoretical guarantees achieve automatic.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent progress large-scale models generative task capabilities allows users produce high-quality content directly text prompts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing state-of-the-art prompt optimization methods white-box setting typically optimize soft-embedding prompts but require access gradients thus cannot applied.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving contents further improved through prompt optimization usually treated black-box problem since gradients inaccessible Model-as-a-Service setting..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation propose novel modality-agnostic black-box prompt enhancement framework optimizes additional parameters within low-rank adaptation LoRA effectively collaborate.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contents further improved through prompt optimization usually treated black-box problem since gradients inaccessible Model-as-a-Service setting..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

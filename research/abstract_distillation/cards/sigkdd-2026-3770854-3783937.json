@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783937",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "HiParse: A Hierarchical Framework for Optimizing Web Content Extraction to Enhance LLM Pre-training Data",
+  "doi": "10.1145/3770854.3783937",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172001709",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines industrial pre-training large language models LLMs large-scale web content extraction faces critical trade-off rule-based methods sacrifice quality efficiency.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Comprehensive experiments show HiParse not only achieves superior parsing quality 9.03 10 score but direct output corpus 30.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving industrial pre-training large language models LLMs large-scale web content extraction faces critical trade-off rule-based methods sacrifice quality efficiency.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge faced directly Ant Group paper introduces HiParse hierarchical adaptive web parsing framework deployed production..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving core HiParse abstract multi-dimensional challenge PESO Precision Efficiency Scope Overhead evaluation model quantifying parser capabilities parsing requirements supply-demand.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result existing solutions deployed scale often lead significant data quality degradation corpus loss..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving core HiParse abstract multi-dimensional challenge PESO Precision Efficiency Scope Overhead evaluation model quantifying parser capabilities parsing requirements supply-demand.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments show HiParse not only achieves superior parsing quality 9.03 10 score but direct output corpus 30.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines industrial pre-training large language models LLMs large-scale web content extraction faces critical trade-off rule-based methods sacrifice quality efficiency.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Comprehensive experiments show HiParse not only achieves superior parsing quality 9.03 10 score but direct output corpus 30.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving industrial pre-training large language models LLMs large-scale web content extraction faces critical trade-off rule-based methods sacrifice quality efficiency.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge faced directly Ant Group paper introduces HiParse hierarchical adaptive web parsing framework deployed production..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result existing solutions deployed scale often lead significant data quality degradation corpus loss..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817842",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "USBD: Universal Structural Basis Distillation for Source-Free Graph Domain Adaptation",
+  "doi": "10.1145/3770855.3817842",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196953508",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Source-Free Graph Domain Adaptation SF-GDA enables privacypreserving knowledge transfer across datasets..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although recent works incorporate structural information they implicitly condition adaptation smoothness priors source-trained GNNs limiting generalization structurally distinct.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving dependency critical under significant topological shifts source model misinterprets distinct patterns unseen domain noise rendering pseudo-label-based adaptation unreliable..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitation propose Universal Structural Basis Distillation USBD framework shifts paradigm adapting biased model learning SF-GDA..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Instead adapting biased source model specific target construct structure-agnostic basis proactively covers full spectrum potential topological patterns..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments benchmarks demonstrate USBD significantly outperforms state-of-the-art methods particularly scenarios severe structural shifts achieving superior computational efficiency.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Source-Free Graph Domain Adaptation SF-GDA enables privacypreserving knowledge transfer across datasets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although recent works incorporate structural information they implicitly condition adaptation smoothness priors source-trained GNNs limiting generalization structurally distinct.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving dependency critical under significant topological shifts source model misinterprets distinct patterns unseen domain noise rendering pseudo-label-based adaptation unreliable..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitation propose Universal Structural Basis Distillation USBD framework shifts paradigm adapting biased model learning SF-GDA..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments benchmarks demonstrate USBD significantly outperforms state-of-the-art methods particularly scenarios severe structural shifts achieving superior computational efficiency.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

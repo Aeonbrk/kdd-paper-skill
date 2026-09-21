@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818079",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SL-BiLEM: Structured Learnable Behavior-in-the-Loop Epidemic Modeling for Forecasting and Policy Evaluation",
+  "doi": "10.1145/3770855.3818079",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197017150",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Epidemic forecasting faces fundamental challenge human behavior dynamically responds disease spread creating feedback loops induce distribution shifts policy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose SL-BiLEM Structured Learnable Behavior-in-the-Loop Epidemic Model leveraging physical constraints regularization robust extrapolation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving framework decomposes effective transmission eff mpolicy mmedia mcomp monotonicity smoothness bounded-jump constraints learned compliance function maintain predictive validity.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving validate forecasting three real-world datasets cruise ship school influenza school-district COVID-19 surveillance evaluate counterfactual recovery synthetic benchmarks known.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving validate forecasting three real-world datasets cruise ship school influenza school-district COVID-19 surveillance evaluate counterfactual recovery synthetic benchmarks known.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving SL-BiLEM demonstrates 76% improvement over neural-mechanistic baselines only 53% OOD degradation versus 1142% neural under policy-induced shift 100%.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results establish SL-BiLEM interpretable tool public health decision-makers seeking accurate prediction principled intervention planning..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Epidemic forecasting faces fundamental challenge human behavior dynamically responds disease spread creating feedback loops induce distribution shifts policy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose SL-BiLEM Structured Learnable Behavior-in-the-Loop Epidemic Model leveraging physical constraints regularization robust extrapolation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework decomposes effective transmission eff mpolicy mmedia mcomp monotonicity smoothness bounded-jump constraints learned compliance function maintain predictive validity.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving validate forecasting three real-world datasets cruise ship school influenza school-district COVID-19 surveillance evaluate counterfactual recovery synthetic benchmarks known.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

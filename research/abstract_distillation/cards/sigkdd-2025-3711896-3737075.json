@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737075",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Partition-wise Graph Filtering: A Unified Perspective Through the Lens of Graph Coarsening",
+  "doi": "10.1145/3711896.3737075",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825864",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Filtering-based graph neural networks GNNs constitute distinct class employ filters handle graph-structured data achieving notable success various graph-related.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However fundamental gap remains comprehensive framework unifying two strategies still absent limiting theoretical insights filtering paradigms..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome recent works have introduced node-wise filtering assigns distinct filters individual nodes offering enhanced adaptability..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However fundamental gap remains comprehensive framework unifying two strategies still absent limiting theoretical insights filtering paradigms..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover through lens Contextual Stochastic Block Model reveal synthesis graph-wise node-wise filtering provides sufficient solution classification graphs exhibiting.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Filtering-based graph neural networks GNNs constitute distinct class employ filters handle graph-structured data achieving notable success various graph-related.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally benchmark node classification experiments along real-world graph anomaly detection application validate CPF efficacy practical utility..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Filtering-based graph neural networks GNNs constitute distinct class employ filters handle graph-structured data achieving notable success various graph-related.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However fundamental gap remains comprehensive framework unifying two strategies still absent limiting theoretical insights filtering paradigms..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome recent works have introduced node-wise filtering assigns distinct filters individual nodes offering enhanced adaptability..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However fundamental gap remains comprehensive framework unifying two strategies still absent limiting theoretical insights filtering paradigms..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Filtering-based graph neural networks GNNs constitute distinct class employ filters handle graph-structured data achieving notable success various graph-related.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

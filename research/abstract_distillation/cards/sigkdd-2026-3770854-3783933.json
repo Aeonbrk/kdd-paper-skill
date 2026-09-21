@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783933",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation",
+  "doi": "10.1145/3770854.3783933",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171964938",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid proliferation short videos social media platforms presents unique challenges opportunities recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving rapid proliferation short videos social media platforms presents unique challenges opportunities recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose novel Heterogeneous Multi-treatment Uplift Modeling HMUM framework trade-off optimization short-video recommendations..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Evaluated two public datasets industrial dataset online A/B experiments Kuaishou platform model demonstrated superior offline performance significant improvements.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Users exhibit diverse preferences responses resulting different strategies often conflict one another potentially exhibiting inverse correlations between metrics.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore traditional fixed-weight approaches balancing responses lack personalization result biased decision-making..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluated two public datasets industrial dataset online A/B experiments Kuaishou platform model demonstrated superior offline performance significant improvements.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid proliferation short videos social media platforms presents unique challenges opportunities recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rapid proliferation short videos social media platforms presents unique challenges opportunities recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose novel Heterogeneous Multi-treatment Uplift Modeling HMUM framework trade-off optimization short-video recommendations..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Users exhibit diverse preferences responses resulting different strategies often conflict one another potentially exhibiting inverse correlations between metrics.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817462",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Benchmarking Table Extraction from Heterogeneous Scientific PDF Documents",
+  "doi": "10.1145/3770855.3817462",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416550898",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Table Extraction TE consists extracting tables PDF documents structured format enabling automatic processing..",
+      "source_ids": [
+        "S1",
+        "S7"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving results demonstrate TE remains challenging current methods suffer lack generalizability when facing heterogeneous data limitations robustness interpretability..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving propose novel benchmark assessing end-to-end TE methods PDF final table over 86 pages..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving contribute analysis TE evaluation metrics novel rigorous process allows scoring each sub-task well end-to-end captures model uncertainty..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Along prior datasets benchmark comprises two new heterogeneous 39 samples..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contribute analysis TE evaluation metrics novel rigorous process allows scoring each sub-task well end-to-end captures model uncertainty..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results demonstrate TE remains challenging current methods suffer lack generalizability when facing heterogeneous data limitations robustness interpretability..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Table Extraction TE consists extracting tables PDF documents structured format enabling automatic processing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving results demonstrate TE remains challenging current methods suffer lack generalizability when facing heterogeneous data limitations robustness interpretability..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose novel benchmark assessing end-to-end TE methods PDF final table over 86 pages..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving contribute analysis TE evaluation metrics novel rigorous process allows scoring each sub-task well end-to-end captures model uncertainty..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contribute analysis TE evaluation metrics novel rigorous process allows scoring each sub-task well end-to-end captures model uncertainty..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

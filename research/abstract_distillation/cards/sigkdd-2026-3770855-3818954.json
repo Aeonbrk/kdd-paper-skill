@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818954",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "ARIA: A Causal-Aware Framework for Rescuing LLM Reasoning in Trustworthy Materials Discovery",
+  "doi": "10.1145/3770855.3818954",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7165740203",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative models have revolutionized process materials discovery yet they often fail satisfy underlying physical causality..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Through analysis Large Language Models LLMs augmented knowledge graphs derived current literature uncover phenomenon termed contextual tunneling over-anchor.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address problem introduce ARIA causal-aware framework conditions knowledge use mechanistic completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving proof concept construct Knowledge Graph KG containing 839 extracted PSP relations peer-reviewed articles materials literature evaluate ARIA forward.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving proof concept construct Knowledge Graph KG containing 839 extracted PSP relations peer-reviewed articles materials literature evaluate ARIA forward.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving ARIA mitigates contextual tunneling improves over unaugmented naive KG-augmented baselines provides further gains when online literature search used.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative models have revolutionized process materials discovery yet they often fail satisfy underlying physical causality..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Through analysis Large Language Models LLMs augmented knowledge graphs derived current literature uncover phenomenon termed contextual tunneling over-anchor.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem introduce ARIA causal-aware framework conditions knowledge use mechanistic completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving proof concept construct Knowledge Graph KG containing 839 extracted PSP relations peer-reviewed articles materials literature evaluate ARIA forward.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

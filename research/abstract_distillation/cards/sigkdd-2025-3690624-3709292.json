@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709292",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Lorentzian Residual Neural Networks",
+  "doi": "10.1145/3690624.3709292",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150166",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hyperbolic neural networks have emerged powerful tool modeling hierarchical data structures prevalent real-world datasets..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current methods constructing hyperbolic residual networks suffer limitations increased model complexity numerical instability errors due multiple mappings.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However current methods constructing hyperbolic residual networks suffer limitations increased model complexity numerical instability errors due multiple mappings.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations introduce LResNet novel Lorentzian residual neural network based weighted centroid Lorentz model hyperbolic geometry..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method enables efficient integration residual connections Lorentz hyperbolic neural networks preserving hierarchical representation capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate method theoretically derive previous methods offering improved stability efficiency effectiveness..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments both graph vision tasks showcase superior performance robustness method compared state-of-the-art Euclidean hyperbolic alternatives..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hyperbolic neural networks have emerged powerful tool modeling hierarchical data structures prevalent real-world datasets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current methods constructing hyperbolic residual networks suffer limitations increased model complexity numerical instability errors due multiple mappings.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However current methods constructing hyperbolic residual networks suffer limitations increased model complexity numerical instability errors due multiple mappings.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations introduce LResNet novel Lorentzian residual neural network based weighted centroid Lorentz model hyperbolic geometry..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate method theoretically derive previous methods offering improved stability efficiency effectiveness..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

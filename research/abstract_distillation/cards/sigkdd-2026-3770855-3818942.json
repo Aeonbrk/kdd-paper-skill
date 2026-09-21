@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818942",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MACReD: A Multi-Agent Collaborative Reasoning Framework for Reaction Diagram Parsing",
+  "doi": "10.1145/3770855.3818942",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197042492",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Parsing chemical reaction diagrams scientific literature challenging due heterogeneous layouts intertwined visual elements difficulty integrating recognition chemically consistent.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing Vision Language Models advance multimodal understanding but remain unreliable complex reaction diagrams spatial coherence condition attribution reaction-level.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose MACReD hierarchical multi-agent framework coordinates specialized agents molecular perception arrow understanding text extraction reaction reconstruction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments RxnScribe benchmark show MACReD achieves state-of-the-art F1 performance under both Hard Soft Match criteria reaching 75.2% 84.6%.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments RxnScribe benchmark show MACReD achieves state-of-the-art F1 performance under both Hard Soft Match criteria reaching 75.2% 84.6%.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically MACReD improves previous best Hard Match F1 achieved RxnIM 2.8 points Soft RxnScribe 4.6 points..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additional evaluation manually annotated subset 100 reaction diagrams shows consistent gains across diverse layouts..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Parsing chemical reaction diagrams scientific literature challenging due heterogeneous layouts intertwined visual elements difficulty integrating recognition chemically consistent.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing Vision Language Models advance multimodal understanding but remain unreliable complex reaction diagrams spatial coherence condition attribution reaction-level.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose MACReD hierarchical multi-agent framework coordinates specialized agents molecular perception arrow understanding text extraction reaction reconstruction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Experiments RxnScribe benchmark show MACReD achieves state-of-the-art F1 performance under both Hard Soft Match criteria reaching 75.2% 84.6%.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments RxnScribe benchmark show MACReD achieves state-of-the-art F1 performance under both Hard Soft Match criteria reaching 75.2% 84.6%.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

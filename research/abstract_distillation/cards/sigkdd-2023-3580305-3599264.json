@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599264",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Below the Surface: Summarizing Event Sequences with Generalized Sequential Patterns",
+  "doi": "10.1145/3580305.3599264",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568288",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study problem succinctly summarizing database event sequences terms generalized sequential patterns..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving interested patterns not exclusively defined over observed surface-level events usual but rather additionally include generalized match set events..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study problem succinctly summarizing database event sequences terms generalized sequential patterns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving interested patterns not exclusively defined over observed surface-level events usual but rather additionally include generalized match set events..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving avoid spurious redundant results define problem terms Minimum Description Length principle after set patterns generalizations together best compress.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving avoid spurious redundant results define problem terms Minimum Description Length principle after set patterns generalizations together best compress.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving resulting optimization problem does not lend itself exact search why propose heuristic Flock algorithm efficiently find high-quality models.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments synthetic real-world data show Flock results compact easily interpretable models accurately recover ground truth including rare.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study problem succinctly summarizing database event sequences terms generalized sequential patterns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving interested patterns not exclusively defined over observed surface-level events usual but rather additionally include generalized match set events..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study problem succinctly summarizing database event sequences terms generalized sequential patterns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving interested patterns not exclusively defined over observed surface-level events usual but rather additionally include generalized match set events..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving avoid spurious redundant results define problem terms Minimum Description Length principle after set patterns generalizations together best compress.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

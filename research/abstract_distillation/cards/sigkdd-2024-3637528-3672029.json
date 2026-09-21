@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672029",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "One Fits All: Learning Fair Graph Neural Networks for Various Sensitive Attributes",
+  "doi": "10.1145/3637528.3672029",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857063",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent studies have highlighted fairness issues Graph Neural Networks GNNs they produce discriminatory predictions against specific protected groups.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Consequently they necessitate retraining model scratch accommodate changes sensitive attribute requirement resulting high computational costs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving gain deeper insights issue approach graph fairness problem causal modeling perspective identify confounding effect induced sensitive attribute underlying.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Motivated observation formulate fairness problem graphs invariant learning perspective aims learn representations across environments..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Consequently they necessitate retraining model scratch accommodate changes sensitive attribute requirement resulting high computational costs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results several real-world datasets demonstrate FairINV significantly outperforms state-of-the-art fairness approaches underscoring effectiveness..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent studies have highlighted fairness issues Graph Neural Networks GNNs they produce discriminatory predictions against specific protected groups.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Consequently they necessitate retraining model scratch accommodate changes sensitive attribute requirement resulting high computational costs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving gain deeper insights issue approach graph fairness problem causal modeling perspective identify confounding effect induced sensitive attribute underlying.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Consequently they necessitate retraining model scratch accommodate changes sensitive attribute requirement resulting high computational costs..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

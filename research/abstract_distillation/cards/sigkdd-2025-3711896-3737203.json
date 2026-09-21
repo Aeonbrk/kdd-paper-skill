@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737203",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "$COEF-VQ:$ Cost-Efficient Video Quality Understanding through a Cascaded Multimodal LLM Framework",
+  "doi": "10.1145/3711896.3737203",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877108",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently emergence recent Multimodal Large Language Model MLLM technology has become possible exploit video understanding capability different classification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently emergence recent Multimodal Large Language Model MLLM technology has become possible exploit video understanding capability different classification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving practice face difficulty huge requirements GPU resource if need deploy MLLMs online..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper propose COEF-VQ novel cascaded MLLM framework designed enhance video quality understanding short-video platform optimizing computational efficiency..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving approach integrates entropy-based pre-filtering stage lightweight model assesses uncertainty selectively filters cases before passing them computationally intensive MLLM.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness COEF-VQ deploy new framework onto video management platform VMP short-video perform series detailed experiments two in-house.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving show COEF-VQ leads substantial performance gains offline evaluation two tasks effectively enhances platform safety limit resource consumption significantly.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently emergence recent Multimodal Large Language Model MLLM technology has become possible exploit video understanding capability different classification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently emergence recent Multimodal Large Language Model MLLM technology has become possible exploit video understanding capability different classification.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving practice face difficulty huge requirements GPU resource if need deploy MLLMs online..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving approach integrates entropy-based pre-filtering stage lightweight model assesses uncertainty selectively filters cases before passing them computationally intensive MLLM.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

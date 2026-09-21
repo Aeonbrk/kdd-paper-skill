@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599238",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "3D-IDS: Doubly Disentangled Dynamic Intrusion Detection",
+  "doi": "10.1145/3580305.3599238",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385009227",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Network-based intrusion detection system NIDS monitors network traffic malicious activities forming frontline defense against increasing attacks over information.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving motivates us propose D-IDS novel method aims tackle above issues through two-step feature disentanglements dynamic graph diffusion scheme..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically first disentangle traffic features non-parameterized optimization based mutual information automatically differentiating tens hundreds complex various attacks..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show superiority D-IDS..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate two-step feature disentanglements benefit explainability NIDS..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Network-based intrusion detection system NIDS monitors network traffic malicious activities forming frontline defense against increasing attacks over information.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving motivates us propose D-IDS novel method aims tackle above issues through two-step feature disentanglements dynamic graph diffusion scheme..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although promising quantitative analysis shows existing methods perform inconsistently declaring various unknown attacks e.g. 9% 35% F1 respectively.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599260",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Augmenting Recurrent Graph Neural Networks with a Cache",
+  "doi": "10.1145/3580305.3599260",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568154",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines graph neural networks GNNs provide powerful way learn structured representations remains challenging long-range dependencies graphs..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving graph neural networks GNNs provide powerful way learn structured representations remains challenging long-range dependencies graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose general approach augmenting recurrent GNNs cache memory improve expressivity especially modeling long-range dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically first introduce method augmenting recurrent GNNs cache previous hidden states..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then further propose general Cache-GNN framework adding additional modules including attention mechanism positional/structural encoders improve expressivity..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper propose general approach augmenting recurrent GNNs cache memory improve expressivity especially modeling long-range dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then further propose general Cache-GNN framework adding additional modules including attention mechanism positional/structural encoders improve expressivity..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving show Cache-GNNs outperforms other models synthetic datasets well tasks real-world require long-range information..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines graph neural networks GNNs provide powerful way learn structured representations remains challenging long-range dependencies graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving graph neural networks GNNs provide powerful way learn structured representations remains challenging long-range dependencies graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose general approach augmenting recurrent GNNs cache memory improve expressivity especially modeling long-range dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically first introduce method augmenting recurrent GNNs cache previous hidden states..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper propose general approach augmenting recurrent GNNs cache memory improve expressivity especially modeling long-range dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

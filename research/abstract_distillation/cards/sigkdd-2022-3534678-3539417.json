@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539417",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "A Model-Agnostic Approach to Differentially Private Topic Mining",
+  "doi": "10.1145/3534678.3539417",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290874936",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Topic mining extracts patterns insights text data e.g. documents emails product reviews used various applications intent detection..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However topic mining result severe privacy threats users who have contributed text corpus since they re-identified data certain.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving best knowledge propose first differentially private topic mining technique namely TopicDP injects well-calibrated Gaussian noise matrix output any.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically smoothen sensitivity Gaussian mechanism via sampling addresses major challenges resulted high topic mining differential privacy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Furthermore theoretically prove differential privacy guarantee under nyi mechanism utility error bounds TopicDP..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However topic mining result severe privacy threats users who have contributed text corpus since they re-identified data certain.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically smoothen sensitivity Gaussian mechanism via sampling addresses major challenges resulted high topic mining differential privacy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally conduct extensive experiments two real-word text datasets Enron email Amazon Reviews experimental results demonstrate TopicDP model-agnostic framework.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Topic mining extracts patterns insights text data e.g. documents emails product reviews used various applications intent detection..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However topic mining result severe privacy threats users who have contributed text corpus since they re-identified data certain.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving best knowledge propose first differentially private topic mining technique namely TopicDP injects well-calibrated Gaussian noise matrix output any.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically smoothen sensitivity Gaussian mechanism via sampling addresses major challenges resulted high topic mining differential privacy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However topic mining result severe privacy threats users who have contributed text corpus since they re-identified data certain.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

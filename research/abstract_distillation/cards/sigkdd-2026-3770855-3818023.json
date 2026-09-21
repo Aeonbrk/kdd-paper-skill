@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818023",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PatchCLE: Breaking the Linear Representation Bottleneck in Time Series Forecasting via Soft Contrastive Learning",
+  "doi": "10.1145/3770855.3818023",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196936266",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue novel representation-enhanced forecasting model termed PatchCLE Patch Contrastive Learning Encoder proposed innovatively integrates soft multivariate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore three-level contrastive learning module named PCL Patch proposed featuring newly designed channel level alongside temporal instance thereby.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition new soft weight assignment strategy namely Decomp introduced effectively resolves computational complexity challenges associated instance-level assignment..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address issue novel representation-enhanced forecasting model termed PatchCLE Patch Contrastive Learning Encoder proposed innovatively integrates soft multivariate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments forecasting tasks across diverse domains demonstrate state-of-the-art performance average improvement 4.5% validating representation capabilities PCL module.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue novel representation-enhanced forecasting model termed PatchCLE Patch Contrastive Learning Encoder proposed innovatively integrates soft multivariate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore three-level contrastive learning module named PCL Patch proposed featuring newly designed channel level alongside temporal instance thereby.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although Patch-based Transformers have achieved remarkable success time series forecasting conventional linear embedding layer remains critical bottleneck fails.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

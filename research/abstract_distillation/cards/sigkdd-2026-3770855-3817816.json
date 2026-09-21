@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817816",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Approximate Graph Propagation Revisited: Dynamic Parameterized Queries, Tighter Bounds and Dynamic Updates",
+  "doi": "10.1145/3770855.3817816",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4414594274",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines revisit Approximate Graph Propagation AGP unified framework captures various tasks PageRank Personalized feature Neural Networks graph-based Retrieval-Augmented Generation..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving first contribution interesting observation SOTA solution AGP-Static adapted support dynamic parameterized queries however several challenges remain unresolved..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving revisit Approximate Graph Propagation AGP unified framework captures various tasks PageRank Personalized feature Neural Networks graph-based Retrieval-Augmented Generation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Firstly query time complexity AGP-Static based assumption optimal algorithm subset sampling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unfortunately back time algorithm did not exist without optimal extra log2 factor required query complexity number vertices graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving better support dynamic graphs further propose AGP-Dynamic achieves amortized time per update significantly improving aforementioned per-update bound still.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Last comprehensive experiments validate theoretical improvements compared baselines algorithm achieves speedups up 177 update 10 query efficiency..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines revisit Approximate Graph Propagation AGP unified framework captures various tasks PageRank Personalized feature Neural Networks graph-based Retrieval-Augmented Generation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving first contribution interesting observation SOTA solution AGP-Static adapted support dynamic parameterized queries however several challenges remain unresolved..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving revisit Approximate Graph Propagation AGP unified framework captures various tasks PageRank Personalized feature Neural Networks graph-based Retrieval-Augmented Generation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Firstly query time complexity AGP-Static based assumption optimal algorithm subset sampling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving better support dynamic graphs further propose AGP-Dynamic achieves amortized time per update significantly improving aforementioned per-update bound still.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818884",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Hierarchical Causal Model for Multimodal Single-cell Data Integration and Prediction",
+  "doi": "10.1145/3770855.3818884",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197042356",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Single-cell multi-omics profiling captures complementary aspects cellular states across multiple molecular layers yet effective analysis remains challenging due.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Single-cell multi-omics profiling captures complementary aspects cellular states across multiple molecular layers yet effective analysis remains challenging due.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present scMultiCRL hierarchically structured representation learning framework causally motivated inductive biases multimodal single-cell analysis. organizes latent variables pathway-.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving incorporating biological priors structural constraints framework encouraged learn pathway-level representations reflect shared programs accounting modality-specific variation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments seven datasets show scMultiCRL achieves strong performance several tasks supporting interpretable analysis through learned structures pathway-level steering.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Single-cell multi-omics profiling captures complementary aspects cellular states across multiple molecular layers yet effective analysis remains challenging due.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Single-cell multi-omics profiling captures complementary aspects cellular states across multiple molecular layers yet effective analysis remains challenging due.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present scMultiCRL hierarchically structured representation learning framework causally motivated inductive biases multimodal single-cell analysis. organizes latent variables pathway-.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving incorporating biological priors structural constraints framework encouraged learn pathway-level representations reflect shared programs accounting modality-specific variation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments seven datasets show scMultiCRL achieves strong performance several tasks supporting interpretable analysis through learned structures pathway-level steering.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

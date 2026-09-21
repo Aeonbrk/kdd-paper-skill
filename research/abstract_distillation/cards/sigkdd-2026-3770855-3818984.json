@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818984",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Redefining Maritime Anomaly Detection via Equation-Grounded Synthetic Anomalies",
+  "doi": "10.1145/3770855.3818984",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7166831850",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Maritime anomaly detection essential ensuring safety security efficient traffic management sea Automatic Identification System AIS data serving primary.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving approaches however face fundamental limitations statistical rarity often fails reflect practically critical events expert-based labeling costly subjective difficult.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address challenges propose equation-grounded anomaly taxonomy implementable under limited AIS observation schema extensible other datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building taxonomy introduce unified score-synthesize-label pipeline produces LLM-guided plausibility scores uses them synthesize anomalies assigns timestamp-level labels..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving rigorously assess detection performance further design benchmark evaluation settings account variations temporal-window length anomaly-type composition evaluate broad range.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving rigorously assess detection performance further design benchmark evaluation settings account variations temporal-window length anomaly-type composition evaluate broad range.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Together contributions provide systematic basis evaluating maritime anomaly detection methods across different types..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Maritime anomaly detection essential ensuring safety security efficient traffic management sea Automatic Identification System AIS data serving primary.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving approaches however face fundamental limitations statistical rarity often fails reflect practically critical events expert-based labeling costly subjective difficult.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose equation-grounded anomaly taxonomy implementable under limited AIS observation schema extensible other datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building taxonomy introduce unified score-synthesize-label pipeline produces LLM-guided plausibility scores uses them synthesize anomalies assigns timestamp-level labels..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving rigorously assess detection performance further design benchmark evaluation settings account variations temporal-window length anomaly-type composition evaluate broad range.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818438",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Kunlun: Establishing Scaling Laws for Massive-Scale Recommendation Systems through Unified Architecture Design",
+  "doi": "10.1145/3770855.3818438",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196938787",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deriving predictable scaling laws govern relationship between model performance computational investment crucial designing allocating resources massive-scale recommendation systems..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving laws established large language models they remain challenging recommendation systems especially those processing both user history context features..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Deriving predictable scaling laws govern relationship between model performance computational investment crucial designing allocating resources massive-scale recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving identify poor scaling efficiency main barrier predictable power-law stemming inefficient modules low Model FLOPs Utilization MFU suboptimal resource.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce Kunlun scalable architecture systematically improves model efficiency resource allocation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving introduce Kunlun scalable architecture systematically improves model efficiency resource allocation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deriving predictable scaling laws govern relationship between model performance computational investment crucial designing allocating resources massive-scale recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving laws established large language models they remain challenging recommendation systems especially those processing both user history context features..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Deriving predictable scaling laws govern relationship between model performance computational investment crucial designing allocating resources massive-scale recommendation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify poor scaling efficiency main barrier predictable power-law stemming inefficient modules low Model FLOPs Utilization MFU suboptimal resource.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving introduce Kunlun scalable architecture systematically improves model efficiency resource allocation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

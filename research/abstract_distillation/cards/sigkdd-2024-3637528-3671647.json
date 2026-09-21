@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671647",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "TnT-LLM: Text Mining at Scale with Large Language Models",
+  "doi": "10.1145/3637528.3671647",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863388",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Transforming unstructured text structured meaningful forms organized useful category labels fundamental step mining downstream analysis application..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing methods producing label taxonomies building text-based classifiers still rely heavily domain expertise manual curation making.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper address challenges Large Language Models LLMs whose prompt-based interface facilitates induction use large-scale pseudo labels..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose TnT-LLM two-phase framework employs LLMs automate process end-to-end label generation assignment minimal human effort any given use-case..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving first phase introduce zero-shot multi-stage reasoning approach enables LLMs produce refine label taxonomy iteratively..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments both human automatic evaluation metrics demonstrate TnT-LLM generates accurate relevant label taxonomies when compared against state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Transforming unstructured text structured meaningful forms organized useful category labels fundamental step mining downstream analysis application..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing methods producing label taxonomies building text-based classifiers still rely heavily domain expertise manual curation making.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper address challenges Large Language Models LLMs whose prompt-based interface facilitates induction use large-scale pseudo labels..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose TnT-LLM two-phase framework employs LLMs automate process end-to-end label generation assignment minimal human effort any given use-case..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments both human automatic evaluation metrics demonstrate TnT-LLM generates accurate relevant label taxonomies when compared against state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

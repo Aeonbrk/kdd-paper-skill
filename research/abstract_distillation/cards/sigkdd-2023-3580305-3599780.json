@@ -1,0 +1,58 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599780",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction",
+  "doi": "10.1145/3580305.3599780",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562515",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although deep pre-trained language models have shown promising benefit large set industrial scenarios including Click-Through-Rate CTR prediction how.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although deep pre-trained language models have shown promising benefit large set industrial scenarios including Click-Through-Rate CTR prediction how.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although deep pre-trained language models have shown promising benefit large set industrial scenarios including Click-Through-Rate CTR prediction how.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although deep pre-trained language models have shown promising benefit large set industrial scenarios including Click-Through-Rate CTR prediction how.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

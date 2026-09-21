@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817782",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Retrieval-Augmented Generation Agents Development",
+  "doi": "10.1145/3770855.3817782",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415332043",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose EviPath evidence-anchored reasoning path synthesis paradigm RAG agent development..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments widely used question-answering benchmarks show model trained synthetic corpus significantly consistently outperforms state-of-the-art baselines achieving 14.7% absolute.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments widely used question-answering benchmarks show model trained synthetic corpus significantly consistently outperforms state-of-the-art baselines achieving 14.7% absolute.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Retrieval-augmented generation RAG agent development hindered lack executable ground-truth agent-environment interaction trajectories..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose EviPath evidence-anchored reasoning path synthesis paradigm RAG agent development..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments widely used question-answering benchmarks show model trained synthetic corpus significantly consistently outperforms state-of-the-art baselines achieving 14.7% absolute.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

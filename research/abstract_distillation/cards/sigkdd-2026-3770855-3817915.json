@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817915",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM",
+  "doi": "10.1145/3770855.3817915",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416951121",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines High-quality main content extraction web pages critical prerequisite constructing large-scale training corpora..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Conversely well-pretrained generative Large Language Models LLMs offer superior document comprehension but remain impractical web scale due excessive.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present Dripper lightweight framework resolves bottlenecks through four contributions reformulate extraction constrained sequence labeling task SLMs Small Language.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paradigm eliminates generative hallucinations achieves exceptional efficiency reaching throughput 3.08 pages per second single A100 GPU. construct WebMainBench.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Evaluations show Dripper-0.6B model outperforms heuristics like Trafilatura rivals massive models DeepSeek-V3.2 685 GPT-5 Gemini-2.5-Pro offering optimal efficiency-accuracy.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paradigm eliminates generative hallucinations achieves exceptional efficiency reaching throughput 3.08 pages per second single A100 GPU. construct WebMainBench.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluations show Dripper-0.6B model outperforms heuristics like Trafilatura rivals massive models DeepSeek-V3.2 685 GPT-5 Gemini-2.5-Pro offering optimal efficiency-accuracy.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving model significantly outperforms baselines downstream tasks providing evidence critical role extraction quality effectiveness framework. open-source Dripper-0.6B weights codebase.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines High-quality main content extraction web pages critical prerequisite constructing large-scale training corpora..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Conversely well-pretrained generative Large Language Models LLMs offer superior document comprehension but remain impractical web scale due excessive.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present Dripper lightweight framework resolves bottlenecks through four contributions reformulate extraction constrained sequence labeling task SLMs Small Language.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paradigm eliminates generative hallucinations achieves exceptional efficiency reaching throughput 3.08 pages per second single A100 GPU. construct WebMainBench.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paradigm eliminates generative hallucinations achieves exceptional efficiency reaching throughput 3.08 pages per second single A100 GPU. construct WebMainBench.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599284",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Constraint-aware and Ranking-distilled Token Pruning for Efficient Transformer Inference",
+  "doi": "10.1145/3580305.3599284",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4382322807",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deploying pre-trained transformer models like BERT downstream tasks resource-constrained scenarios challenging due high inference cost grows rapidly input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose constraint-aware ranking-distilled token pruning method ToP selectively removes unnecessary tokens input sequence passes through layers allowing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Then ToP introduces coarse-to-fine pruning approach automatically selects optimal subset transformer layers optimizes token decisions within through improved.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments GLUE benchmark SQuAD tasks demonstrate ToP outperforms state-of-the-art token pruning model compression methods improved accuracy speedups..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work propose constraint-aware ranking-distilled token pruning method ToP selectively removes unnecessary tokens input sequence passes through layers allowing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then ToP introduces coarse-to-fine pruning approach automatically selects optimal subset transformer layers optimizes token decisions within through improved.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments GLUE benchmark SQuAD tasks demonstrate ToP outperforms state-of-the-art token pruning model compression methods improved accuracy speedups..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deploying pre-trained transformer models like BERT downstream tasks resource-constrained scenarios challenging due high inference cost grows rapidly input.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose constraint-aware ranking-distilled token pruning method ToP selectively removes unnecessary tokens input sequence passes through layers allowing.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Then ToP introduces coarse-to-fine pruning approach automatically selects optimal subset transformer layers optimizes token decisions within through improved.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work propose constraint-aware ranking-distilled token pruning method ToP selectively removes unnecessary tokens input sequence passes through layers allowing.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

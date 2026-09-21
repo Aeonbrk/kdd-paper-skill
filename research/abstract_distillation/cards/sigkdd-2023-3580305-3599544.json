@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599544",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Weakly Supervised Multi-Label Classification of Full-Text Scientific Papers",
+  "doi": "10.1145/3580305.3599544",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568269",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Instead relying human-annotated training samples build classifier weakly supervised scientific paper classification aims classify papers only category descriptions.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing studies weakly supervised paper classification less concerned two challenges Papers should classified not only coarse-grained research topics.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges study propose FUTEX framework uses cross-paper network structure in-paper hierarchy classify full-text scientific papers under weak.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving network-aware contrastive fine-tuning module hierarchy-aware aggregation designed leverage two types structural signals respectively..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments two benchmark datasets demonstrate FUTEX significantly outperforms competitive baselines par fully supervised classifiers use 000 60 ground-truth.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments two benchmark datasets demonstrate FUTEX significantly outperforms competitive baselines par fully supervised classifiers use 000 60 ground-truth.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Instead relying human-annotated training samples build classifier weakly supervised scientific paper classification aims classify papers only category descriptions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing studies weakly supervised paper classification less concerned two challenges Papers should classified not only coarse-grained research topics.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges study propose FUTEX framework uses cross-paper network structure in-paper hierarchy classify full-text scientific papers under weak.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving network-aware contrastive fine-tuning module hierarchy-aware aggregation designed leverage two types structural signals respectively..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments two benchmark datasets demonstrate FUTEX significantly outperforms competitive baselines par fully supervised classifiers use 000 60 ground-truth.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

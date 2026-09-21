@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817836",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Is the Last Check-In All You Need? Next POI Recommendation: Recall and Rerank",
+  "doi": "10.1145/3770855.3817836",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196961127",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Next Point-of-Interest POI recommendation aims predict user will visit based historical check-ins but widely used datasets suffer severe.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Next Point-of-Interest POI recommendation aims predict user will visit based historical check-ins but widely used datasets suffer severe.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work revisit next-POI prediction minimalist perspective point out extreme short-horizon dominance datasets most predictive signal often collapses last.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based propose K1-POI concise recall-and-rerank framework formulates sparse next-POI prediction candidate generation calibration..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving recall stage design window-input self-attention backbone uses only most recent check-in retrieve high-quality top-K candidate set further introduce.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Based propose K1-POI concise recall-and-rerank framework formulates sparse next-POI prediction candidate generation calibration..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving recall stage design window-input self-attention backbone uses only most recent check-in retrieve high-quality top-K candidate set further introduce.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments three public datasets show K1-POI achieves strong performance across all datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Next Point-of-Interest POI recommendation aims predict user will visit based historical check-ins but widely used datasets suffer severe.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Next Point-of-Interest POI recommendation aims predict user will visit based historical check-ins but widely used datasets suffer severe.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work revisit next-POI prediction minimalist perspective point out extreme short-horizon dominance datasets most predictive signal often collapses last.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based propose K1-POI concise recall-and-rerank framework formulates sparse next-POI prediction candidate generation calibration..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Based propose K1-POI concise recall-and-rerank framework formulates sparse next-POI prediction candidate generation calibration..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

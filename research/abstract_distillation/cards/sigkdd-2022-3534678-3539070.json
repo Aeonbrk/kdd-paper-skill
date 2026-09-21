@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539070",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Persia: An Open, Hybrid System Scaling Deep Learning-based Recommenders up to 100 Trillion Parameters",
+  "doi": "10.1145/3534678.3539070",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4226012237",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent years have witnessed exponential growth model scale deep learning-based recommender systems---from Google 2016 billion parameters latest Facebook.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However training models challenging even within industrial scale data centers..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Recent years have witnessed exponential growth model scale deep learning-based recommender systems---from Google 2016 billion parameters latest Facebook.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Significant quality boost has come each jump model capacity makes us believe era 100 trillion parameters around corner..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving resolve challenge careful co-design both optimization algorithm distributed system architecture..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Specifically ensure both training efficiency accuracy design novel hybrid algorithm embedding layer dense neural network handled different synchronization.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Both theoretical demonstrations empirical studies up 100 trillion parameters have been conducted justify system design implementation Persia..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent years have witnessed exponential growth model scale deep learning-based recommender systems---from Google 2016 billion parameters latest Facebook.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However training models challenging even within industrial scale data centers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent years have witnessed exponential growth model scale deep learning-based recommender systems---from Google 2016 billion parameters latest Facebook.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Significant quality boost has come each jump model capacity makes us believe era 100 trillion parameters around corner..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Specifically ensure both training efficiency accuracy design novel hybrid algorithm embedding layer dense neural network handled different synchronization.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

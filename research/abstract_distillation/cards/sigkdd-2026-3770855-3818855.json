@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818855",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Skillful Kilometer-Scale Regional Weather Forecasting via Global and Regional Coupling",
+  "doi": "10.1145/3770855.3818855",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197036652",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Data-driven weather models have advanced global medium-range forecasting yet high-resolution regional prediction remains challenging due unresolved multiscale interactions.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Data-driven weather models have advanced global medium-range forecasting yet high-resolution regional prediction remains challenging due unresolved multiscale interactions.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper presents global-region al coupling framework kilometer-scale regional weather forecasting synergistically couples pretrained Transformer-based global model high-resolution network.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework produces forecasts 0.05 km hour resolution over China significantly outperforming operational NWP AI baselines both gridded reanalysis.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving framework produces forecasts 0.05 km hour resolution over China significantly outperforming operational NWP AI baselines both gridded reanalysis.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving exhibits exceptional skill capturing fine-grained phenomena orographic wind patterns Foehn warming demonstrating effective global-scale coherence high-resolution fidelity..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Data-driven weather models have advanced global medium-range forecasting yet high-resolution regional prediction remains challenging due unresolved multiscale interactions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Data-driven weather models have advanced global medium-range forecasting yet high-resolution regional prediction remains challenging due unresolved multiscale interactions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper presents global-region al coupling framework kilometer-scale regional weather forecasting synergistically couples pretrained Transformer-based global model high-resolution network.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework produces forecasts 0.05 km hour resolution over China significantly outperforming operational NWP AI baselines both gridded reanalysis.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving framework produces forecasts 0.05 km hour resolution over China significantly outperforming operational NWP AI baselines both gridded reanalysis.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

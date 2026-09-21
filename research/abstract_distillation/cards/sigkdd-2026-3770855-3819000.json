@@ -1,0 +1,62 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819000",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Bridging ECG and PPG: Latent-Space Prediction for Robust Physiological Analysis",
+  "doi": "10.1145/3770855.3819000",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196958679",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Foundation models physiological signals have shown promise health monitoring recent work exploring multi-modal approaches leverage complementary information across.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods typically rely contrastive objectives reconstruction losses operate input space making them susceptible sensor noise inherent.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Foundation models physiological signals have shown promise health monitoring recent work exploring multi-modal approaches leverage complementary information across.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods typically rely contrastive objectives reconstruction losses operate input space making them susceptible sensor noise inherent.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

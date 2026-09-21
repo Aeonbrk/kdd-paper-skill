@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672027",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Physics-informed Neural ODE for Post-disaster Mobility Recovery",
+  "doi": "10.1145/3637528.3672027",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863516",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Urban mobility undergoes profound decline aftermath disaster subsequently exhibiting complex recovery trajectory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving response gap introduce Coupled Dynamic Graph ODE Network CDGON model intricate dynamics post-disaster mobility recovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model seamlessly integrates existing physical knowledge pertaining post-disaster mobility recovery incorporates nuanced interactions between intra-regional inter-regional population flows..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Extensive experimental results demonstrate efficiency model capturing dynamic recovery patterns urban population mobility post-disaster scenarios surpassing capabilities current.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experimental results demonstrate efficiency model capturing dynamic recovery patterns urban population mobility post-disaster scenarios surpassing capabilities current.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Urban mobility undergoes profound decline aftermath disaster subsequently exhibiting complex recovery trajectory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving response gap introduce Coupled Dynamic Graph ODE Network CDGON model intricate dynamics post-disaster mobility recovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model seamlessly integrates existing physical knowledge pertaining post-disaster mobility recovery incorporates nuanced interactions between intra-regional inter-regional population flows..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experimental results demonstrate efficiency model capturing dynamic recovery patterns urban population mobility post-disaster scenarios surpassing capabilities current.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

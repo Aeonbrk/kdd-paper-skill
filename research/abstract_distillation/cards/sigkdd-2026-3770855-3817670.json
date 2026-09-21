@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817670",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond Independent Manipulation: Individual Fairness-aware Strategic Classification with Peer Imitation",
+  "doi": "10.1145/3770855.3817670",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163541524",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Strategic classification SC investigates scenarios agents manipulate features obtain favorable decisions predictive models..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However when individual fairness required ensuring similar individuals receive outcomes agents manipulation becomes interdependent agent preferred depends neighborhoods.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue introduce individual fairness-aware strategic classification IFSC framework models peer-driven manipulation arising fairness agents imitate nearby positively.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving account uncertainty peer observability IFSC employs robust learning process introduces stochastic perturbations during manipulation simulation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving IFSC characterizes strategic manipulation similarity-based imitation toward visible accepted peers learns classifiers under resulting post-manipulation distributions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments synthetic real-world datasets demonstrate IFSC improves individual-fairness consistency mitigates imitation-induced distortions..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Strategic classification SC investigates scenarios agents manipulate features obtain favorable decisions predictive models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However when individual fairness required ensuring similar individuals receive outcomes agents manipulation becomes interdependent agent preferred depends neighborhoods.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue introduce individual fairness-aware strategic classification IFSC framework models peer-driven manipulation arising fairness agents imitate nearby positively.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving account uncertainty peer observability IFSC employs robust learning process introduces stochastic perturbations during manipulation simulation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving IFSC characterizes strategic manipulation similarity-based imitation toward visible accepted peers learns classifiers under resulting post-manipulation distributions..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

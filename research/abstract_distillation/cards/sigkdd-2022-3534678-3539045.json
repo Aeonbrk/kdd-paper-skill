@@ -1,0 +1,106 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539045",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Learning Large-scale Subsurface Simulations with a Hybrid Graph Network Simulator",
+  "doi": "10.1145/3534678.3539045",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283010154",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Subsurface simulations use computational models predict flow fluids e.g. oil water gas through porous media..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Alternatively streamline simulators data-driven surrogate models computationally efficient relying approximate physics however they insufficient model complex reservoir dynamics.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving simulations pivotal industrial applications petroleum production fast accurate models needed high-stake decision making example well placement optimization field.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Classical finite difference numerical simulators require massive computational resources model large-scale real-world reservoirs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Alternatively streamline simulators data-driven surrogate models computationally efficient relying approximate physics however they insufficient model complex reservoir dynamics.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Subsurface simulations use computational models predict flow fluids e.g. oil water gas through porous media..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Alternatively streamline simulators data-driven surrogate models computationally efficient relying approximate physics however they insufficient model complex reservoir dynamics.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving simulations pivotal industrial applications petroleum production fast accurate models needed high-stake decision making example well placement optimization field.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Classical finite difference numerical simulators require massive computational resources model large-scale real-world reservoirs..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818475",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "SaFRO: Satisfaction-Aware Fusion via Dual-Relative Policy Optimization for Short-Video Search",
+  "doi": "10.1145/3770855.3818475",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196933192",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multi-Task Fusion plays pivotal role industrial short-video search systems aggregating heterogeneous prediction signals unified ranking score..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches predominantly optimize immediate engagement metrics often fail align long-term user satisfaction..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose SaFRO novel framework designed optimize user satisfaction short-video search..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving first construct satisfaction-aware reward model utilizes query-level behavioral proxies capture holistic user satisfaction beyond item-level interactions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then introduce Dual-Relative Policy Optimization DRPO efficient learning method updates fusion through relative preference comparisons within groups across.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Then introduce Dual-Relative Policy Optimization DRPO efficient learning method updates fusion through relative preference comparisons within groups across.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline evaluations large-scale online A/B tests Kuaishou short-video search platform demonstrate SaFRO significantly outperforms state-of-the-art baselines delivering.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multi-Task Fusion plays pivotal role industrial short-video search systems aggregating heterogeneous prediction signals unified ranking score..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches predominantly optimize immediate engagement metrics often fail align long-term user satisfaction..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose SaFRO novel framework designed optimize user satisfaction short-video search..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving first construct satisfaction-aware reward model utilizes query-level behavioral proxies capture holistic user satisfaction beyond item-level interactions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Then introduce Dual-Relative Policy Optimization DRPO efficient learning method updates fusion through relative preference comparisons within groups across.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,103 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737071",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Optimising Budget Management via Primal-Dual Approximation with Constrained Polynomial Weights Update",
+  "doi": "10.1145/3711896.3737071",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877098",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Budget management essential capability many online applications including running advertising campaigns sponsored search allocating promotional content recommender systems.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However worst-case approaches often underperform practice extreme scenarios uncommon online learning methods lack robustness highly non-stationary environments..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work bridge two approaches developing online budget pacing algorithm preserves worst-case guarantees improving average allocative efficiency management systems..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Most existing approaches optimising budget spendings rely improving worst-case approximation guarantees respective online knapsack packing problem leveraging learning.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work bridge two approaches developing online budget pacing algorithm preserves worst-case guarantees improving average allocative efficiency management systems..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Budget management essential capability many online applications including running advertising campaigns sponsored search allocating promotional content recommender systems.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However worst-case approaches often underperform practice extreme scenarios uncommon online learning methods lack robustness highly non-stationary environments..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work bridge two approaches developing online budget pacing algorithm preserves worst-case guarantees improving average allocative efficiency management systems..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Most existing approaches optimising budget spendings rely improving worst-case approximation guarantees respective online knapsack packing problem leveraging learning.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

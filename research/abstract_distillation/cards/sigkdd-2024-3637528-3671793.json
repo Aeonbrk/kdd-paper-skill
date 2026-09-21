@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671793",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Binder: Hierarchical Concept Representation through Order Embedding of Binary Vectors",
+  "doi": "10.1145/3637528.3671793",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863228",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines natural language understanding generation embedding concepts order-based representation essential task..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Box embedding creates region-based rich representation concepts but along process sacrifices simplicity requiring custom-made optimization scheme learning representation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving existing literature several approaches order-based embedding have been proposed mostly focusing capturing hierarchical relationships examples include vectors Euclidean.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work propose Binder novel approach order-based representation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving particular Binder achieves whopping 70% higher F1-score second best method 98.6% vs 29% largest dataset WordNet Nouns 743.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Hyperbolic embedding improves quality exploiting ever-expanding property space but suffers same fate box gradient descent like optimization not.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comprehensive experimental results show Binder very accurate yielding competitive representation task..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving particular Binder achieves whopping 70% higher F1-score second best method 98.6% vs 29% largest dataset WordNet Nouns 743.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines natural language understanding generation embedding concepts order-based representation essential task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Box embedding creates region-based rich representation concepts but along process sacrifices simplicity requiring custom-made optimization scheme learning representation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving existing literature several approaches order-based embedding have been proposed mostly focusing capturing hierarchical relationships examples include vectors Euclidean.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose Binder novel approach order-based representation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Hyperbolic embedding improves quality exploiting ever-expanding property space but suffers same fate box gradient descent like optimization not.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

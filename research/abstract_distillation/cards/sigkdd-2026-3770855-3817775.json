@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817775",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Cognitive Distillation for Information Forensics: Towards Improved Hateful Meme Detection",
+  "doi": "10.1145/3770855.3817775",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197036452",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Internet meme mainstream multimodal content form often conveys users viewpoints metaphorically carry implicit hateful information making detection extremely.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing methods rely solely image-text semantic similarity information forensics ignoring key characteristic meme meanings shaped collective.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose Cognition-driven Information Forensics CIF framework hateful meme detection integrates collective cognition diverse users entire process.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving framework consists three core modules Diverse User Comments Acquisition adopts multi-agent comment simulation system generate capturing characteristics collective.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental results demonstrate CIF framework significantly improves detection performance mainstream datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent evidence-enhanced methods achieve remarkable research progress retrieving meme-related evidence samples analogical reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate CIF framework significantly improves detection performance mainstream datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Internet meme mainstream multimodal content form often conveys users viewpoints metaphorically carry implicit hateful information making detection extremely.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing methods rely solely image-text semantic similarity information forensics ignoring key characteristic meme meanings shaped collective.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose Cognition-driven Information Forensics CIF framework hateful meme detection integrates collective cognition diverse users entire process.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework consists three core modules Diverse User Comments Acquisition adopts multi-agent comment simulation system generate capturing characteristics collective.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent evidence-enhanced methods achieve remarkable research progress retrieving meme-related evidence samples analogical reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

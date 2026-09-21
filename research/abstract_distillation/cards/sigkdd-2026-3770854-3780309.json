@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780309",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Accelerating Storage-based Training for Graph Neural Networks",
+  "doi": "10.1145/3770854.3780309",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7118482108",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks GNNs have achieved breakthroughs various real-world downstream tasks due powerful expressiveness..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although storage-based GNN training methods have shown promising potential large-scale observed they suffer severe bottleneck data preparation since.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although storage-based GNN training methods have shown promising potential large-scale observed they suffer severe bottleneck data preparation since.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge paper propose novel storage-based GNN training framework named AGNES employs method block-wise storage I/O processing fully.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph neural networks GNNs have achieved breakthroughs various real-world downstream tasks due powerful expressiveness..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments five real-world graphs reveal AGNES consistently outperforms four state-of-the-art methods up 4.1 faster best competitor..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks GNNs have achieved breakthroughs various real-world downstream tasks due powerful expressiveness..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although storage-based GNN training methods have shown promising potential large-scale observed they suffer severe bottleneck data preparation since.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although storage-based GNN training methods have shown promising potential large-scale observed they suffer severe bottleneck data preparation since.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge paper propose novel storage-based GNN training framework named AGNES employs method block-wise storage I/O processing fully.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph neural networks GNNs have achieved breakthroughs various real-world downstream tasks due powerful expressiveness..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

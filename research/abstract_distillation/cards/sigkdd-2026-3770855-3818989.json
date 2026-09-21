@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818989",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling",
+  "doi": "10.1145/3770855.3818989",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196942820",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs increasingly used agent-based virtual cell modeling yet existing frameworks rely unstructured retrieval static prompt.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Large Language Models LLMs increasingly used agent-based virtual cell modeling yet existing frameworks rely unstructured retrieval static prompt.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose VCAgent self-evolving framework optimizes how biological knowledge external APIs structured integrated LLM reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving VCAgent introduces schema-based slot filling mechanism transforms raw API responses compact typed representations replacing unstructured text concatenation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving efficiently search high-dimensional instruction space develop Mutation-Guided Monte Carlo Tree MG-MCTS combines relevance-based priors derived inter-API semantic similarity.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments single-cell perturbation prediction across five cell lines show VCAgent improves both reasoning accuracy search efficiency multiple backbone.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs increasingly used agent-based virtual cell modeling yet existing frameworks rely unstructured retrieval static prompt.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large Language Models LLMs increasingly used agent-based virtual cell modeling yet existing frameworks rely unstructured retrieval static prompt.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose VCAgent self-evolving framework optimizes how biological knowledge external APIs structured integrated LLM reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving efficiently search high-dimensional instruction space develop Mutation-Guided Monte Carlo Tree MG-MCTS combines relevance-based priors derived inter-API semantic similarity.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

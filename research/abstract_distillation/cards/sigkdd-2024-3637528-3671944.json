@@ -1,0 +1,141 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671944",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "A Hierarchical and Disentangling Interest Learning Framework for Unbiased and True News Recommendation",
+  "doi": "10.1145/3637528.3671944",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863616",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines era information explosion news recommender systems crucial users effectively efficiently discover interested news..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing news recommender systems face two major issues hampering recommendation quality..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end paper addresses gaps introducing novel framework Hierarchical Disentangling Interest learning HDInt.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving latter effectively separates polarity veracity information news contents model them specifcally promoting fairness- truth-aware reading interest learning unbiased.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving former captures users high- low-level interests enhancing next-news recommendation accuracy..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments two real-world datasets demonstrate HDInt superiority over state-of-the-art news recommender systems delivering accurate unbiased true recommendations..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines era information explosion news recommender systems crucial users effectively efficiently discover interested news..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing news recommender systems face two major issues hampering recommendation quality..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper addresses gaps introducing novel framework Hierarchical Disentangling Interest learning HDInt.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving latter effectively separates polarity veracity information news contents model them specifcally promoting fairness- truth-aware reading interest learning unbiased.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving former captures users high- low-level interests enhancing next-news recommendation accuracy..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

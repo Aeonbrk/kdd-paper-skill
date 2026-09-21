@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599915",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Towards Equitable Assignment: Data-Driven Delivery Zone Partition at Last-mile Logistics",
+  "doi": "10.1145/3580305.3599915",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568343",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines popularity online e-commerce has promoted rapid development last-mile logistics recent years..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing delivery zone partition practices last-mile logistics consist manual experience-based static optimization-based methods perform order amount balancing among.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving popularity online e-commerce has promoted rapid development last-mile logistics recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving last-mile services ensure delivery efficiency enhance user experience zone proposed perform task assignment fundamental part delivery..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving generate delivery zone partition equitable workload assignment paper propose E-partition data-driven framework achieve last-mile logistics..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving generate delivery zone partition equitable workload assignment paper propose E-partition data-driven framework achieve last-mile logistics..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline experimental results show model outperforms baselines working time prediction workload balancing performances..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Real-world deployment results JD Logistics verify effectiveness equitable-assignment aware delivery zone partition 2.2% increase service on-time rate compared.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines popularity online e-commerce has promoted rapid development last-mile logistics recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing delivery zone partition practices last-mile logistics consist manual experience-based static optimization-based methods perform order amount balancing among.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving popularity online e-commerce has promoted rapid development last-mile logistics recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving last-mile services ensure delivery efficiency enhance user experience zone proposed perform task assignment fundamental part delivery..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving generate delivery zone partition equitable workload assignment paper propose E-partition data-driven framework achieve last-mile logistics..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

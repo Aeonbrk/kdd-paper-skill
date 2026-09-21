@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817640",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PHASE: Physiology-Aware Hyperspectral Reconstruction via Object-to-Human Domain Adaptation",
+  "doi": "10.1145/3770855.3817640",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417202931",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although hyperspectral imaging offers unparalleled non-invasive physiological insight bulky hardware slow acquisition regulatory burden severely limit clinical availability..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although hyperspectral imaging offers unparalleled non-invasive physiological insight bulky hardware slow acquisition regulatory burden severely limit clinical availability..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However existing paradigms developed object-centric scenes rely reflectance-based feature alignment assuming spectral similarity preserves semantic meaning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mismatch motivates shift reflectance alignment physiology-aware representation learning grounded shared light matter interaction principles introduces fundamental challenges cross-channel.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving therefore design PHASE physiology-aware hyperspectral reconstruction paradigm fundamentally redefines object-to-human transfer disentangling cross-channel physiological semantics via Channel Reinterpretation.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Under two source-to-target transfer protocols PHASE consistently outperforms state-of-the-art methods up 2.20 SSIM 3.06 SAM merely 1.5% labeled.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although hyperspectral imaging offers unparalleled non-invasive physiological insight bulky hardware slow acquisition regulatory burden severely limit clinical availability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although hyperspectral imaging offers unparalleled non-invasive physiological insight bulky hardware slow acquisition regulatory burden severely limit clinical availability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing paradigms developed object-centric scenes rely reflectance-based feature alignment assuming spectral similarity preserves semantic meaning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mismatch motivates shift reflectance alignment physiology-aware representation learning grounded shared light matter interaction principles introduces fundamental challenges cross-channel.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Under two source-to-target transfer protocols PHASE consistently outperforms state-of-the-art methods up 2.20 SSIM 3.06 SAM merely 1.5% labeled.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

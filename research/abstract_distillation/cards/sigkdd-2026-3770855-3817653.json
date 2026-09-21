@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817653",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction",
+  "doi": "10.1145/3770855.3817653",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4414460818",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently spatio-temporal time-series prediction has developed rapidly yet existing deep learning methods struggle complex long-term dependencies efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently spatio-temporal time-series prediction has developed rapidly yet existing deep learning methods struggle complex long-term dependencies efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving long-term spatio-temporal dependency learning brings two new challenges temporal sequence naturally includes multiscale information hard extract efficiently different.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges propose Spatio-Temporal Mixture Multiscale Mamba STM3.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving theoretically prove STM3 achieves superior routing smoothness guarantees pattern disentanglement each expert..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments 10 real-world benchmarks across domains demonstrate STM3 superior performance achieving state-of-the-art results long-term spatio-temporal time-series prediction..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably PEMSD8 dataset achieves significant improvements surpassing second-best model 7.1% MAE 8.5% RMSE 15.9% MAPE..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently spatio-temporal time-series prediction has developed rapidly yet existing deep learning methods struggle complex long-term dependencies efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently spatio-temporal time-series prediction has developed rapidly yet existing deep learning methods struggle complex long-term dependencies efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving long-term spatio-temporal dependency learning brings two new challenges temporal sequence naturally includes multiscale information hard extract efficiently different.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving theoretically prove STM3 achieves superior routing smoothness guarantees pattern disentanglement each expert..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

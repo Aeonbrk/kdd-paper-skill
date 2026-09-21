@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671543",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Choosing a Proxy Metric from Past Experiments",
+  "doi": "10.1145/3637528.3671543",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864323",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines many randomized experiments treatment effect long-term metric i.e. primary outcome interest often difficult infeasible measure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce new statistical framework both define construct optimal proxy metric use homogeneous population randomized experiments..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving then denoise observed treatment effects long-term metric set proxies historical corpus randomized experiments extract estimates latent use optimization.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving instantiate evaluate framework employ methodology large corpus randomized experiments industrial recommendation system construct proxy metrics perform favorably relative.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving many randomized experiments treatment effect long-term metric i.e. primary outcome interest often difficult infeasible measure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving long-term metrics often slow react changes sufficiently noisy they challenging faithfully estimate short-horizon experiments..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce new statistical framework both define construct optimal proxy metric use homogeneous population randomized experiments..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines many randomized experiments treatment effect long-term metric i.e. primary outcome interest often difficult infeasible measure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce new statistical framework both define construct optimal proxy metric use homogeneous population randomized experiments..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving then denoise observed treatment effects long-term metric set proxies historical corpus randomized experiments extract estimates latent use optimization.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving many randomized experiments treatment effect long-term metric i.e. primary outcome interest often difficult infeasible measure..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

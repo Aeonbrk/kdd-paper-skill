@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3542680",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Health Day Papers",
+  "title": "Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning",
+  "doi": "10.1145/3534678.3542680",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281699852",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Brain networks characterize complex connectivities among regions graph structures provide powerful means study connectomes..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most brain network datasets limited sample sizes due relatively high cost data collection hinders deep learning models.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Inspired meta-learning learns new concepts fast limited training examples paper studies data-efficient strategies analyzing brain connectomes cross-dataset setting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Specifically propose meta-train model datasets large sample sizes transfer knowledge small datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition explore brain-network-oriented designs including atlas transformation adaptive task reweighing..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Compared other pre-training strategies meta-learning-based approach achieves higher stabler performance demonstrates effectiveness proposed solutions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Brain networks characterize complex connectivities among regions graph structures provide powerful means study connectomes..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most brain network datasets limited sample sizes due relatively high cost data collection hinders deep learning models.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired meta-learning learns new concepts fast limited training examples paper studies data-efficient strategies analyzing brain connectomes cross-dataset setting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically propose meta-train model datasets large sample sizes transfer knowledge small datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Compared other pre-training strategies meta-learning-based approach achieves higher stabler performance demonstrates effectiveness proposed solutions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

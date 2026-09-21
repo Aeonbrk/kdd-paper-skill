@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817833",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PLACE: Prompt Learning for Attributed Community Search in Large Graphs",
+  "doi": "10.1145/3770855.3817833",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415971905",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Attributed Community Search ACS aims identify communities graph structural cohesiveness attribute homogeneity given queries..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However refinements either detached end-to-end optimization backbone model impose additional burdens training resources limiting adaptability practical usage diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving algorithmic approaches often suffer structural inflexibility attribute irrelevance recent years have witnessed boom learning-based employ Graph Neural Networks.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However refinements either detached end-to-end optimization backbone model impose additional burdens training resources limiting adaptability practical usage diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving improve GNN efficacy efficiency approaches adopt various techniques refine input graph queries including query-dependent node pruning feature enhancement..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Attributed Community Search ACS aims identify communities graph structural cohesiveness attribute homogeneity given queries..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However refinements either detached end-to-end optimization backbone model impose additional burdens training resources limiting adaptability practical usage diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving algorithmic approaches often suffer structural inflexibility attribute irrelevance recent years have witnessed boom learning-based employ Graph Neural Networks.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However refinements either detached end-to-end optimization backbone model impose additional burdens training resources limiting adaptability practical usage diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving improve GNN efficacy efficiency approaches adopt various techniques refine input graph queries including query-dependent node pruning feature enhancement..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

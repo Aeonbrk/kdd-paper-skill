@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671619",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "PEMBOT: Pareto-Ensembled Multi-task Boosted Trees",
+  "doi": "10.1145/3637528.3671619",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401856676",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multi-task problems frequently arise machine learning when there multiple target variables share common synergy being sufficiently different optimizing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work develop PEMBOT novel Pareto-based multi-task classification framework gradient boosted tree architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed methodology involves generating multiple instances Pareto optimal trees diverse subset selection determinantal point process DPP model ensembling.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tested framework problem e-commerce domain wherein task predict order placement time different adverse scenarios shipment journey package getting.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving model enables us take preemptive measures prevent scenarios happening resulting significant operational cost savings..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Further show generality approach demonstrate performance algorithm publicly available wine quality prediction dataset compare against state-of-the-art baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multi-task problems frequently arise machine learning when there multiple target variables share common synergy being sufficiently different optimizing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work develop PEMBOT novel Pareto-based multi-task classification framework gradient boosted tree architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed methodology involves generating multiple instances Pareto optimal trees diverse subset selection determinantal point process DPP model ensembling.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving model enables us take preemptive measures prevent scenarios happening resulting significant operational cost savings..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

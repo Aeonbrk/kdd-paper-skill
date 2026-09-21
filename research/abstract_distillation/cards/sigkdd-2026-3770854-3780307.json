@@ -1,0 +1,104 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780307",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Rethinking Message Passing Neural Networks with Diffusion Distance-guided Stress Majorization",
+  "doi": "10.1145/3770854.3780307",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416767038",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Message passing neural networks MPNNs have emerged go-to models learning graph-structured data past decade..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose DDSM new MPNN model built optimization framework includes stress majorization orthogonal regularization overcoming above issues..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Further introduce diffusion distances nodes framework guide new message passing operations develop efficient algorithms distance approximations both backed.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving comprehensive experiments showcase DDSM consistently considerably outperforms 15 strong baselines both homophilic heterophilic graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Message passing neural networks MPNNs have emerged go-to models learning graph-structured data past decade..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose DDSM new MPNN model built optimization framework includes stress majorization orthogonal regularization overcoming above issues..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Further introduce diffusion distances nodes framework guide new message passing operations develop efficient algorithms distance approximations both backed.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving comprehensive experiments showcase DDSM consistently considerably outperforms 15 strong baselines both homophilic heterophilic graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817807",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SafeCRS: Personalized Safety Alignment for LLM-Based Conversational Recommender Systems",
+  "doi": "10.1145/3770855.3817807",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196958792",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Current LLM-based conversational recommender systems CRS primarily optimize recommendation accuracy user satisfaction..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving identify underexplored vulnerability recommendation outputs negatively impact users violating personalized safety constraints when individualized sensitivities trauma triggers self-harm.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving identify underexplored vulnerability recommendation outputs negatively impact users violating personalized safety constraints when individualized sensitivities trauma triggers self-harm.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving formalize challenge personalized CRS safety introduce SafeRec new benchmark dataset designed systematically evaluate risks LLM-based under user-specific constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further address problem propose SafeCRS safety-aware training framework integrates Safe Supervised Fine-Tuning Safe-SFT Group reward Decoupled Normalization Policy.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Current LLM-based conversational recommender systems CRS primarily optimize recommendation accuracy user satisfaction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving formalize challenge personalized CRS safety introduce SafeRec new benchmark dataset designed systematically evaluate risks LLM-based under user-specific constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments SafeCRS demonstrate reduces safety violation rates up 96.5% relative strongest recommendation-quality baseline maintaining competitive recommendation quality..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Current LLM-based conversational recommender systems CRS primarily optimize recommendation accuracy user satisfaction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving identify underexplored vulnerability recommendation outputs negatively impact users violating personalized safety constraints when individualized sensitivities trauma triggers self-harm.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify underexplored vulnerability recommendation outputs negatively impact users violating personalized safety constraints when individualized sensitivities trauma triggers self-harm.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formalize challenge personalized CRS safety introduce SafeRec new benchmark dataset designed systematically evaluate risks LLM-based under user-specific constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Current LLM-based conversational recommender systems CRS primarily optimize recommendation accuracy user satisfaction..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

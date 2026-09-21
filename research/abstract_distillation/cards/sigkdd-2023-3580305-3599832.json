@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599832",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation",
+  "doi": "10.1145/3580305.3599832",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568396",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present GLM-Dialog large-scale language model LLM 10 parameters capable knowledge-grounded conversation Chinese search engine access Internet knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present GLM-Dialog large-scale language model LLM 10 parameters capable knowledge-grounded conversation Chinese search engine access Internet knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving evaluate GLM-Dialog fairly propose novel evaluation method allow humans converse multiple deployed bots simultaneously compare performance implicitly instead.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving release both model checkpoint source code deploy WeChat application interact users..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate GLM-Dialog fairly propose novel evaluation method allow humans converse multiple deployed bots simultaneously compare performance implicitly instead.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive evaluations automatic human perspective demonstrate advantages GLM-Dialog comparing existing open source Chinese dialogue models..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving offer evaluation platform online effort prompt development open source models reliable dialogue systems..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present GLM-Dialog large-scale language model LLM 10 parameters capable knowledge-grounded conversation Chinese search engine access Internet knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present GLM-Dialog large-scale language model LLM 10 parameters capable knowledge-grounded conversation Chinese search engine access Internet knowledge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate GLM-Dialog fairly propose novel evaluation method allow humans converse multiple deployed bots simultaneously compare performance implicitly instead.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate GLM-Dialog fairly propose novel evaluation method allow humans converse multiple deployed bots simultaneously compare performance implicitly instead.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

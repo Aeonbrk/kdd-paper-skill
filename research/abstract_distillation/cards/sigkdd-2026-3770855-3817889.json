@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817889",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Geometry-Guided Representations for Coherent Lane and Traffic Topology Reasoning in Driving Scenes",
+  "doi": "10.1145/3770855.3817889",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415109089",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Road topology reasoning fundamental autonomous driving requiring both accurate perception elements understanding complex connectivity including lane Lane-to-Lane L2L.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods typically treat perception topology reasoning fragmented tasks ignoring potential mutual enhancement..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose CoPo Coherent Perception toPology unified framework integrates geometry-guided relational modeling across three levels Perception-level introduce.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving coherent multi-level design enables end-to-end joint optimization perception reasoning..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments OpenLane-V2 demonstrate CoPo significantly outperforms existing methods achieving gains textbf 3.1 DET 5.3 TOP ll 4.9.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Road topology reasoning fundamental autonomous driving requiring both accurate perception elements understanding complex connectivity including lane Lane-to-Lane L2L.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods typically treat perception topology reasoning fragmented tasks ignoring potential mutual enhancement..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose CoPo Coherent Perception toPology unified framework integrates geometry-guided relational modeling across three levels Perception-level introduce.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving coherent multi-level design enables end-to-end joint optimization perception reasoning..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments OpenLane-V2 demonstrate CoPo significantly outperforms existing methods achieving gains textbf 3.1 DET 5.3 TOP ll 4.9.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

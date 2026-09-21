@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599246",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "A Study of Situational Reasoning for Traffic Understanding",
+  "doi": "10.1145/3580305.3599246",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379539637",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Intelligent Traffic Monitoring ITMo technologies hold potential improving road safety/security enabling smart city infrastructure..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Whereas prior work has provided benchmarks methods traffic monitoring remains unclear whether models effectively align information sources reason.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address assessment gap devise three novel text-based tasks situational reasoning traffic domain BDD-QA evaluates ability Language Models LMs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving adopt four knowledge-enhanced methods have shown generalization capability across language reasoning tasks prior work based natural inference commonsense.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving associate each method relevant knowledge source including graphs benchmarks driving manuals..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Intelligent Traffic Monitoring ITMo technologies hold potential improving road safety/security enabling smart city infrastructure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address assessment gap devise three novel text-based tasks situational reasoning traffic domain BDD-QA evaluates ability Language Models LMs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive experiments benchmark various knowledge-aware methods against three datasets under zero-shot evaluation provide in-depth analyses model performance data.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Intelligent Traffic Monitoring ITMo technologies hold potential improving road safety/security enabling smart city infrastructure..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Whereas prior work has provided benchmarks methods traffic monitoring remains unclear whether models effectively align information sources reason.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address assessment gap devise three novel text-based tasks situational reasoning traffic domain BDD-QA evaluates ability Language Models LMs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving adopt four knowledge-enhanced methods have shown generalization capability across language reasoning tasks prior work based natural inference commonsense.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Intelligent Traffic Monitoring ITMo technologies hold potential improving road safety/security enabling smart city infrastructure..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737147",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "TarDiff: Target-Oriented Diffusion Guidance for Synthetic Electronic Health Record Time Series Generation",
+  "doi": "10.1145/3711896.3737147",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825785",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Synthetic Electronic Health Record EHR time-series generation crucial advancing clinical machine learning models helps address data scarcity providing.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing approaches focus primarily replicating statistical distributions temporal dependencies real-world data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving argue fidelity observed data alone does not guarantee better model performance common patterns dominate limiting representation rare but.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose TarDiff novel target-oriented diffusion framework integrates task-specific influence guidance synthetic data generation process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Unlike conventional approaches mimic training data distributions TarDiff optimizes synthetic samples quantifying expected contribution improving downstream model performance.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving highlights need generate synthetic samples improve performance specific clinical models fulfill target outcomes..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Unlike conventional approaches mimic training data distributions TarDiff optimizes synthetic samples quantifying expected contribution improving downstream model performance.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluated six publicly available EHR datasets TarDiff achieves state-of-the-art performance outperforming existing methods up 20.4% AUPRC 18.4% AUROC..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Synthetic Electronic Health Record EHR time-series generation crucial advancing clinical machine learning models helps address data scarcity providing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing approaches focus primarily replicating statistical distributions temporal dependencies real-world data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving argue fidelity observed data alone does not guarantee better model performance common patterns dominate limiting representation rare but.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose TarDiff novel target-oriented diffusion framework integrates task-specific influence guidance synthetic data generation process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving highlights need generate synthetic samples improve performance specific clinical models fulfill target outcomes..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

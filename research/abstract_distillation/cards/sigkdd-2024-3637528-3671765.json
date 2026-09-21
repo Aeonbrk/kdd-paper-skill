@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671765",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Efficient Topology-aware Data Augmentation for High-Degree Graph Neural Networks",
+  "doi": "10.1145/3637528.3671765",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863358",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent years graph neural networks GNNs have emerged potent tool learning graph-structured data won fruitful successes varied fields..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However mechanism brings severe over-smoothing efficiency issues over high-degree graphs HDGs wherein most nodes have dozens even hundreds.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Additionally graphs usually encompass rich complex structure semantics hard capture merely feature aggregations GNNs.Motivated above limitations propose TADA.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving former obtains augmented node features enhanced model capacity encoding graph structure high-quality embeddings highly-efficient sketching method..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirically algo considerably improves predictive performance mainstream GNN models real homophilic/heterophilic HDGs terms node classification achieving efficient training.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent years graph neural networks GNNs have emerged potent tool learning graph-structured data won fruitful successes varied fields..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However mechanism brings severe over-smoothing efficiency issues over high-degree graphs HDGs wherein most nodes have dozens even hundreds.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Additionally graphs usually encompass rich complex structure semantics hard capture merely feature aggregations GNNs.Motivated above limitations propose TADA.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving former obtains augmented node features enhanced model capacity encoding graph structure high-quality embeddings highly-efficient sketching method..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirically algo considerably improves predictive performance mainstream GNN models real homophilic/heterophilic HDGs terms node classification achieving efficient training.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

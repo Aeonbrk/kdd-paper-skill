@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599371",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Graph Neural Bandits",
+  "doi": "10.1145/3580305.3599371",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385565718",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Contextual bandits algorithms aim choose optimal arm highest reward out set candidates based information..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated online recommendation scenarios paper propose framework named Graph Neural Bandits GNB leverage collaborative nature among users empowered.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Instead estimating rigid user clusters existing works model fine-grained collaborative effects through estimated graphs terms exploitation exploration respectively..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then refine recommendation strategy utilize separate GNN-based models estimated user graphs exploitation adaptive exploration..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Theoretical analysis experimental results multiple real data sets comparison state-of-the-art baselines provided demonstrate effectiveness proposed framework..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Contextual bandits algorithms aim choose optimal arm highest reward out set candidates based information..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated online recommendation scenarios paper propose framework named Graph Neural Bandits GNB leverage collaborative nature among users empowered.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Instead estimating rigid user clusters existing works model fine-grained collaborative effects through estimated graphs terms exploitation exploration respectively..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Theoretical analysis experimental results multiple real data sets comparison state-of-the-art baselines provided demonstrate effectiveness proposed framework..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

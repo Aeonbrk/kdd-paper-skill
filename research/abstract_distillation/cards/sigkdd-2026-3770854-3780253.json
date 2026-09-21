@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780253",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Efficiently Learning Branching Networks for Multitask Algorithmic Reasoning",
+  "doi": "10.1145/3770854.3780253",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416958698",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However challenging when execution steps algorithms differ one another causing negative interference they trained together..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Ideally one would like design single model capable performing well multiple algorithmic reasoning tasks simultaneously..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However challenging when execution steps algorithms differ one another causing negative interference they trained together..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Ideally one would like design single model capable performing well multiple algorithmic reasoning tasks simultaneously..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Algorithmic reasoning---the ability perform step-by-step logical inference---has become core benchmark evaluating reasoning graph neural networks GNNs large language.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

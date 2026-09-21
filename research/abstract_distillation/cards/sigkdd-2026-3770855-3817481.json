@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817481",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "How Much Reasoning Do Retrieval-Augmented Models Add beyond LLMs? A Benchmarking Framework for Multi-Hop Inference over Hybrid Knowledge",
+  "doi": "10.1145/3770855.3817481",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197042264",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs continue struggle knowledge-intensive questions require up-to-date information multi-hop reasoning..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many existing benchmarks increasingly overlap LLM pretraining data means answers supporting knowledge already encoded model parameters making.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However many existing benchmarks increasingly overlap LLM pretraining data means answers supporting knowledge already encoded model parameters making.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce HybridRAG-Bench contamination-aware benchmark construction framework evaluate retrieval-intensive multi-hop reasoning over hybrid knowledge..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework supports flexible domain time-range selection enabling contamination-aware customizable evaluation models knowledge evolve..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving reliable evaluation retrieval reasoning capabilities becomes critical..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However many existing benchmarks increasingly overlap LLM pretraining data means answers supporting knowledge already encoded model parameters making.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce HybridRAG-Bench contamination-aware benchmark construction framework evaluate retrieval-intensive multi-hop reasoning over hybrid knowledge..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs continue struggle knowledge-intensive questions require up-to-date information multi-hop reasoning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many existing benchmarks increasingly overlap LLM pretraining data means answers supporting knowledge already encoded model parameters making.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However many existing benchmarks increasingly overlap LLM pretraining data means answers supporting knowledge already encoded model parameters making.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce HybridRAG-Bench contamination-aware benchmark construction framework evaluate retrieval-intensive multi-hop reasoning over hybrid knowledge..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving reliable evaluation retrieval reasoning capabilities becomes critical..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

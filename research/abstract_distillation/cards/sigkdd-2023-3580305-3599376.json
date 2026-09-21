@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599376",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Heterformer: Transformer-based Deep Node Representation Learning on Heterogeneous Text-Rich Networks",
+  "doi": "10.1145/3580305.3599376",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562555",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Representation learning networks aims derive meaningful vector each node thereby facilitating downstream tasks link prediction classification clustering..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However few them jointly consider heterogeneous structure network information well rich textual semantic each node effectively..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose Heterformer Heterogeneous Network-Empowered Transformer performs contextualized text encoding structure unified model..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically inject heterogeneous structure information each Transformer layer when encoding node texts..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conduct comprehensive experiments three tasks i.e. link prediction node classification clustering large-scale datasets different domains Heterformer outperforms competitive.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving pretrained language models PLMs have demonstrated effectiveness obtaining widely generalizable text representations substantial amount effort has been made.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct comprehensive experiments three tasks i.e. link prediction node classification clustering large-scale datasets different domains Heterformer outperforms competitive.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Representation learning networks aims derive meaningful vector each node thereby facilitating downstream tasks link prediction classification clustering..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However few them jointly consider heterogeneous structure network information well rich textual semantic each node effectively..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose Heterformer Heterogeneous Network-Empowered Transformer performs contextualized text encoding structure unified model..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically inject heterogeneous structure information each Transformer layer when encoding node texts..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving pretrained language models PLMs have demonstrated effectiveness obtaining widely generalizable text representations substantial amount effort has been made.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

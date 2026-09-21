@@ -1,0 +1,166 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709178",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation",
+  "doi": "10.1145/3690624.3709178",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150405",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines cloud-centric recommender system regular data exchanges between user devices cloud could potentially elevate bandwidth demands privacy risks..",
+      "source_ids": [
+        "S1",
+        "S8"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However during training structure controller assembled heterogeneous structures jointly optimized co-adaption among blocks might encounter gradient conflicts..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing methods primarily focus developing local adaptive parameters potentially neglecting critical role tailor-made model architecture..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving addition imposing uniform model structure across heterogeneous devices result risking inefficacy less capable sub-optimal performance those sufficient capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving response gaps paper introduces Forward-OFA novel approach dynamic construction device-specific networks both structure parameters.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving addition imposing uniform model structure across heterogeneous devices result risking inefficacy less capable sub-optimal performance those sufficient capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Besides direct mapping enables Forward-OFA achieve adaptation through only one forward pass allowing swift changing interests eliminating requirement.",
+      "source_ids": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments real-world datasets demonstrate effectiveness efficiency Forward-OFA..",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines cloud-centric recommender system regular data exchanges between user devices cloud could potentially elevate bandwidth demands privacy risks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However during training structure controller assembled heterogeneous structures jointly optimized co-adaption among blocks might encounter gradient conflicts..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing methods primarily focus developing local adaptive parameters potentially neglecting critical role tailor-made model architecture..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving addition imposing uniform model structure across heterogeneous devices result risking inefficacy less capable sub-optimal performance those sufficient capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving addition imposing uniform model structure across heterogeneous devices result risking inefficacy less capable sub-optimal performance those sufficient capabilities..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

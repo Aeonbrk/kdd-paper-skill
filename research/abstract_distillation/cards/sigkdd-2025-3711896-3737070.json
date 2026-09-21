@@ -1,0 +1,85 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737070",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "One-shot Multi-view Visual Conversational Recommendation",
+  "doi": "10.1145/3711896.3737070",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825873",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propose One-Shot Multi-view Visual Conversational Recommendation OSMVR novel framework tackle key challenges personalized systems minimal user input..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving OSMVR addresses three critical issues Cold Start problem lack transparent justifications difficulty accurately estimating nuanced user preferences..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving propose One-Shot Multi-view Visual Conversational Recommendation OSMVR novel framework tackle key challenges personalized systems minimal user input..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propose One-Shot Multi-view Visual Conversational Recommendation OSMVR novel framework tackle key challenges personalized systems minimal user input..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving OSMVR addresses three critical issues Cold Start problem lack transparent justifications difficulty accurately estimating nuanced user preferences..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose One-Shot Multi-view Visual Conversational Recommendation OSMVR novel framework tackle key challenges personalized systems minimal user input..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817707",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SetLLM: Set Large Language Model for Cold-Start Item Recommendation",
+  "doi": "10.1145/3770855.3817707",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927541",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Cold-start item recommendation remains longstanding challenge cold items usually lack sufficient interactions train behavioral embeddings..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Cold-start item recommendation remains longstanding challenge cold items usually lack sufficient interactions train behavioral embeddings..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently large language model LLM based item cold-start models have tried address issue generating synthetic user-item interactions train.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose novel SetLLM paradigm directly generates potential interaction subset rather inferring interactions individually user candidate set..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Moreover propose Direct Cold-start Preference Optimization DCPO module evaluate refine quality generated interaction sets further enhancing performance SetLLM..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However PairLLM suffers linearly increasing computational complexity user candidate set grows resulting substantial overhead limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover propose Direct Cold-start Preference Optimization DCPO module evaluate refine quality generated interaction sets further enhancing performance SetLLM..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments two real-world datasets demonstrate SetLLM achieves state-of-the-art performance item cold-start recommendation improving computational efficiency over 30 times.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Cold-start item recommendation remains longstanding challenge cold items usually lack sufficient interactions train behavioral embeddings..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Cold-start item recommendation remains longstanding challenge cold items usually lack sufficient interactions train behavioral embeddings..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently large language model LLM based item cold-start models have tried address issue generating synthetic user-item interactions train.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel SetLLM paradigm directly generates potential interaction subset rather inferring interactions individually user candidate set..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However PairLLM suffers linearly increasing computational complexity user candidate set grows resulting substantial overhead limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

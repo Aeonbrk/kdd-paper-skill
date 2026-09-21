@@ -1,0 +1,164 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780333",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Interest Entropy: Rethinking Contrastive Learning for Sequential Recommendation with Interest Uncertainty",
+  "doi": "10.1145/3770854.3780333",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171927976",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Sequential Recommendation predicts next item based users past behaviors but sparse interaction data makes user preferences hard learn..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Sequential Recommendation predicts next item based users past behaviors but sparse interaction data makes user preferences hard learn..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving augments data form positive pairs maximizing similarity allowing model learn generalizable user interests..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper first study impact augmentation sequence semantic through Interest Entropy measures diversity density distribution..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore spectral analysis show positive alignment cause low-entropy sequences overlook niche interests high-entropy amplify interest-irrelevant signals term semantic.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving approach avoid harmful semantic discrepancy positive pairs reduce effect bias leading improved performance..",
+      "source_ids": [
+        "S13"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover interest entropy guide contrastive learning further improve existing CL-based SR methods..",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Sequential Recommendation predicts next item based users past behaviors but sparse interaction data makes user preferences hard learn..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Sequential Recommendation predicts next item based users past behaviors but sparse interaction data makes user preferences hard learn..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving augments data form positive pairs maximizing similarity allowing model learn generalizable user interests..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first study impact augmentation sequence semantic through Interest Entropy measures diversity density distribution..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving approach avoid harmful semantic discrepancy positive pairs reduce effect bias leading improved performance..",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

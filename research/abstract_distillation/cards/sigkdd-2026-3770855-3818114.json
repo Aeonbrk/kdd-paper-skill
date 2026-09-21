@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818114",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Divide and Conquer: Region Self-Paced Physics-Informed Neural Networks",
+  "doi": "10.1145/3770855.3818114",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196942847",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently Physics-Informed Neural Networks PINNs have shown strong potential scientific computing engineering simulation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although existing PINN methods have achieved promising progress they still suffer Unbalanced Prediction Problem UPP challenging regions learned.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving alleviate issue adaptive sampling cognitive learning strategies have been introduced emphasize hard samples dynamically evaluating sample difficulty..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address both UPP DCP propose Region Self-Paced Physics-Informed Neural Networks RSPINNs divide-and-conquer framework time-dependent PDEs..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Finally bimodal self-paced scheduler converts ranked difficulty index smooth sample weights guiding model progressively shift attention easy hard.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although existing PINN methods have achieved promising progress they still suffer Unbalanced Prediction Problem UPP challenging regions learned.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving alleviate issue adaptive sampling cognitive learning strategies have been introduced emphasize hard samples dynamically evaluating sample difficulty..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However coupling between sample selection difficulty evaluation make many samples receive nearly indistinguishable scores leading Cohesion Problem DCP.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently Physics-Informed Neural Networks PINNs have shown strong potential scientific computing engineering simulation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although existing PINN methods have achieved promising progress they still suffer Unbalanced Prediction Problem UPP challenging regions learned.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving alleviate issue adaptive sampling cognitive learning strategies have been introduced emphasize hard samples dynamically evaluating sample difficulty..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address both UPP DCP propose Region Self-Paced Physics-Informed Neural Networks RSPINNs divide-and-conquer framework time-dependent PDEs..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although existing PINN methods have achieved promising progress they still suffer Unbalanced Prediction Problem UPP challenging regions learned.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

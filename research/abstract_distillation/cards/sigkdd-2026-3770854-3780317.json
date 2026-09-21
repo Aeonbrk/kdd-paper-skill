@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780317",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CoPHo: Classifier-guided Conditional Topology Generation with Persistent Homology",
+  "doi": "10.1145/3770854.3780317",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7117240894",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines structure topology underpins much research performance robustness yet available data typically scarce necessitating generation synthetic graphs desired properties.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Prior diffusion-based approaches either embed conditions diffusion model requiring retraining each attribute hindering real-time applicability use classifier-based guidance.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper show discrete perspective gradients pre-trained graph level classifier incorporated reverse diffusion posterior steer generation toward specified structural.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based insight propose Classifier-guided Conditional Topology Generation Persistent Homology CoPHo builds filtration over intermediate graphs interprets features guidance.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments four generic/network datasets demonstrate CoPHo outperforms existing methods matching target metrics further validate transferability QM9 molecular dataset..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines structure topology underpins much research performance robustness yet available data typically scarce necessitating generation synthetic graphs desired properties.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Prior diffusion-based approaches either embed conditions diffusion model requiring retraining each attribute hindering real-time applicability use classifier-based guidance.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper show discrete perspective gradients pre-trained graph level classifier incorporated reverse diffusion posterior steer generation toward specified structural.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments four generic/network datasets demonstrate CoPHo outperforms existing methods matching target metrics further validate transferability QM9 molecular dataset..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

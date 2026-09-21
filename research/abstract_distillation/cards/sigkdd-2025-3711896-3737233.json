@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737233",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Hierarchical Lexical Graph for Enhanced Multi-Hop Retrieval",
+  "doi": "10.1145/3711896.3737233",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876920",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-Augmented Generation RAG grounds large language models external evidence yet still falters when answers must pieced together across.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving close gap Hierarchical Lexical Graph HLG three-tier index traces every atomic proposition source ii clusters propositions latent topics.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving top HLG build two complementary plug-and-play retrievers StatementGraphRAG performs fine-grained entity-aware beam search over propositions high-precision factoid questions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address introduce synthetic dataset generation pipeline curates realistic multi-document question-answer pairs enabling robust evaluation multi-hop retrieval systems..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving top HLG build two complementary plug-and-play retrievers StatementGraphRAG performs fine-grained entity-aware beam search over propositions high-precision factoid questions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally existing benchmarks lack complexity required rigorously evaluate multi-hop summarization systems often focusing single-document queries limited datasets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address introduce synthetic dataset generation pipeline curates realistic multi-document question-answer pairs enabling robust evaluation multi-hop retrieval systems..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-Augmented Generation RAG grounds large language models external evidence yet still falters when answers must pieced together across.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving close gap Hierarchical Lexical Graph HLG three-tier index traces every atomic proposition source ii clusters propositions latent topics.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving top HLG build two complementary plug-and-play retrievers StatementGraphRAG performs fine-grained entity-aware beam search over propositions high-precision factoid questions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving top HLG build two complementary plug-and-play retrievers StatementGraphRAG performs fine-grained entity-aware beam search over propositions high-precision factoid questions.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

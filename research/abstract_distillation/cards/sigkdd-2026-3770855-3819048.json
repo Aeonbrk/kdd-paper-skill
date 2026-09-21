@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819048",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "CASH3D: Color-aware 3D Multimodal Hypergraph Learning for Revealing Biologically Meaningful Tissue Organization",
+  "doi": "10.1145/3770855.3819048",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197038334",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Three-dimensional multimodal biological data pivotal understanding spatial tissue function disease progression..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most computational methods still struggle recover biologically meaningful patterns spatial transcriptomics ST data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose CASH3D biologically driven multimodal hypergraph model integrating ST histological data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving CASH3D introduces color-aware spatial adjacency construction links spatially non-adjacent yet functionally similar regions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Built hypergraphs constructed foundation model embeddings CASH3D captures higher-order interactions among spatial regions integrating gene expression morphological cues.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments multiple datasets including complex tumor immune microenvironments demonstrate CASH3D recovers spatial structures better align tissue architecture remain.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Three-dimensional multimodal biological data pivotal understanding spatial tissue function disease progression..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most computational methods still struggle recover biologically meaningful patterns spatial transcriptomics ST data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose CASH3D biologically driven multimodal hypergraph model integrating ST histological data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving CASH3D introduces color-aware spatial adjacency construction links spatially non-adjacent yet functionally similar regions..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments multiple datasets including complex tumor immune microenvironments demonstrate CASH3D recovers spatial structures better align tissue architecture remain.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

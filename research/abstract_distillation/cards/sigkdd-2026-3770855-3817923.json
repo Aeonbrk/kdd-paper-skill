@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817923",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CoFE: Collaborative Feature Engineering via Semantically-Guided Exploration and Diagnostic-Driven Refinement",
+  "doi": "10.1145/3770855.3817923",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196933902",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines domains finance healthcare industry feature engineering remains key bottleneck limiting performance machine learning models tabular data..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving domains finance healthcare industry feature engineering remains key bottleneck limiting performance machine learning models tabular data..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose CoFE Collaborative Feature Engineering two-phase framework tightly couples search-based exploration LLM-driven reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving refinement phase CoFE introduces feature health reports diagnostic artifact supplies LLM actionable sample-level structural feedback targeted corrections..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments 16 public tabular benchmarks show CoFE consistently outperforms state-of-the-art data-driven LLM-based AutoFE methods majority datasets offering favorable.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines domains finance healthcare industry feature engineering remains key bottleneck limiting performance machine learning models tabular data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving domains finance healthcare industry feature engineering remains key bottleneck limiting performance machine learning models tabular data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose CoFE Collaborative Feature Engineering two-phase framework tightly couples search-based exploration LLM-driven reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving refinement phase CoFE introduces feature health reports diagnostic artifact supplies LLM actionable sample-level structural feedback targeted corrections..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments 16 public tabular benchmarks show CoFE consistently outperforms state-of-the-art data-driven LLM-based AutoFE methods majority datasets offering favorable.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

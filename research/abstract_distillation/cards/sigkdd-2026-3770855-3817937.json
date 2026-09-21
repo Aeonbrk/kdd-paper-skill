@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817937",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "GraphScout: Empowering Large Language Models with Intrinsic Exploration Ability for Agentic Graph Reasoning",
+  "doi": "10.1145/3770855.3817937",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196943713",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Knowledge graphs provide structured reliable information many real-world applications motivating increasing interest combining large language models LLMs graph-based.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches typically depend manually designed guidance interact knowledge graphs through limited set predefined tools substantially constrains.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recent Graph-based Retrieval-Augmented Generation GraphRAG methods therefore introduce iterative interaction between LLMs knowledge graphs enhance reasoning capability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However existing approaches typically depend manually designed guidance interact knowledge graphs through limited set predefined tools substantially constrains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose GraphScout training-centric agentic graph reasoning framework equipped flexible exploration tools..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Knowledge graphs provide structured reliable information many real-world applications motivating increasing interest combining large language models LLMs graph-based.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across five knowledge-graph domains show small model e.g. Qwen3-4B augmented GraphScout outperforms baseline methods built leading.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Knowledge graphs provide structured reliable information many real-world applications motivating increasing interest combining large language models LLMs graph-based.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches typically depend manually designed guidance interact knowledge graphs through limited set predefined tools substantially constrains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent Graph-based Retrieval-Augmented Generation GraphRAG methods therefore introduce iterative interaction between LLMs knowledge graphs enhance reasoning capability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing approaches typically depend manually designed guidance interact knowledge graphs through limited set predefined tools substantially constrains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Knowledge graphs provide structured reliable information many real-world applications motivating increasing interest combining large language models LLMs graph-based.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

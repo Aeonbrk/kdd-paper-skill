@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817633",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Road-Constrained Vehicle Trajectory Recovery from Traffic Video Using Spatio-Temporal Voxel Representation",
+  "doi": "10.1145/3770855.3817633",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196974208",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Road-constrained trajectory recovery traffic surveillance videos has become critical component applications ranging intelligent transportation urban planning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address problems propose novel trajectory recovery framework based spatio-temporal voxel representation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework leverages voxel representation enable direct road-constrained trajectory recovery camera observations eliminating need explicit heuristic camera-road matching..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building upon voxel formulation further present shape-aware evaluation scheme assesses trajectories within spatio-temporal grid capturing edge structural information.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Moreover prior methods often represent trajectories sequences tuples e.g. node edge timestamps limits effective spatio-temporal mining leading suboptimal.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building upon voxel formulation further present shape-aware evaluation scheme assesses trajectories within spatio-temporal grid capturing edge structural information.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally extensive experiments across multiple datasets demonstrate method achieves state-of-the-art trajectory recovery accuracy average F1-score improvement 14.7%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Road-constrained trajectory recovery traffic surveillance videos has become critical component applications ranging intelligent transportation urban planning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problems propose novel trajectory recovery framework based spatio-temporal voxel representation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework leverages voxel representation enable direct road-constrained trajectory recovery camera observations eliminating need explicit heuristic camera-road matching..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Moreover prior methods often represent trajectories sequences tuples e.g. node edge timestamps limits effective spatio-temporal mining leading suboptimal.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

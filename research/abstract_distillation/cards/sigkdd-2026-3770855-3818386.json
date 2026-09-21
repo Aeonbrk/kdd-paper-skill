@@ -1,0 +1,147 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818386",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "DynaTree: Dynamic Agentic Retrieval Tree for Time-Sensitive News Retrieval",
+  "doi": "10.1145/3770855.3818386",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196922845",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose DynaTree Dynamic Agentic Retrieval Tree two-stage framework RAG used offline semantic exploration online performed without inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments multi-day Syft news benchmark multiple BEIR datasets show DynaTree achieves state-of-the-art recall NDCG consistently outperforming standard RAG.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving second stage DynaTree operates purely structure-aware retrieval system performing lightweight daily subtree selection over time-localized evaluation proxy large.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments multi-day Syft news benchmark multiple BEIR datasets show DynaTree achieves state-of-the-art recall NDCG consistently outperforming standard RAG.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose DynaTree Dynamic Agentic Retrieval Tree two-stage framework RAG used offline semantic exploration online performed without inference..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Experiments multi-day Syft news benchmark multiple BEIR datasets show DynaTree achieves state-of-the-art recall NDCG consistently outperforming standard RAG.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Agentic Retrieval-Augmented Generation RAG improves retrieval integrating planning tool use iterative reasoning but most existing methods tightly couple.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

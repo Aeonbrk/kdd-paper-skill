@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818502",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Unifying Ranking and Generation in Query Auto-Completion via Retrieval-Augmented Generation and Multi-Objective Alignment",
+  "doi": "10.1145/3770855.3818502",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163515830",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Query Auto-Completion QAC suggests completions users type helping them articulate intent reach results efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present unified framework reformulates QAC end-to-end list generation through Retrieval-Augmented RAG multi-objective Direct Preference Optimization DPO.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving approach combines three key innovations reformulating QAC end-to-end list generation multi-objective optimization defining deploying suite rule-based model-based LLM-as-judge.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work represents paradigm shift end-to-end generation powered large language models RAG multi-objective alignment establishing production-validated framework benefit broader.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Query Auto-Completion QAC suggests completions users type helping them articulate intent reach results efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluation large-scale commercial search platform demonstrates substantial improvements offline metrics show gains across all dimensions human yields 0.40.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Query Auto-Completion QAC suggests completions users type helping them articulate intent reach results efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present unified framework reformulates QAC end-to-end list generation through Retrieval-Augmented RAG multi-objective Direct Preference Optimization DPO.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving approach combines three key innovations reformulating QAC end-to-end list generation multi-objective optimization defining deploying suite rule-based model-based LLM-as-judge.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Query Auto-Completion QAC suggests completions users type helping them articulate intent reach results efficiently..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

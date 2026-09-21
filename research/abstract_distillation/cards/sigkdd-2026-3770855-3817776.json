@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817776",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "OneDB: A Distributed Multi-Metric Data Similarity Search System",
+  "doi": "10.1145/3770855.3817776",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415346150",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid accumulation multi-modal data e.g. text images geo-locations presents significant opportunities mining applications healthcare e-commerce..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However effectively retrieving data remains challenging due difficulty capturing diverse dynamic user retrieval intents..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving rapid accumulation multi-modal data e.g. text images geo-locations presents significant opportunities mining applications healthcare e-commerce..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address present OneDB distributed framework multi-metric similarity search integrates data management learning-based techniques..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Unlike traditional systems OneDB features three key algorithmic innovations adaptive metric weight learning model based lightweight contrastive infers.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world datasets demonstrate OneDB captures user intent effectively achieving 12.63% 30.75% higher accuracy 2.5 5.75 faster.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid accumulation multi-modal data e.g. text images geo-locations presents significant opportunities mining applications healthcare e-commerce..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However effectively retrieving data remains challenging due difficulty capturing diverse dynamic user retrieval intents..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rapid accumulation multi-modal data e.g. text images geo-locations presents significant opportunities mining applications healthcare e-commerce..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address present OneDB distributed framework multi-metric similarity search integrates data management learning-based techniques..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments real-world datasets demonstrate OneDB captures user intent effectively achieving 12.63% 30.75% higher accuracy 2.5 5.75 faster.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

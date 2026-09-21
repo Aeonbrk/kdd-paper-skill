@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818327",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Breaking the Listwise-Shuffle Dilemma: A Streaming-Compatible Listwise Framework for Industrial CTR Prediction",
+  "doi": "10.1145/3770855.3818327",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196928049",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Click-through rate CTR estimation central ranking short-video search..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose Decoupled Listwise Learning DLL streaming-compatible paradigm reconstructs session-level supervision without session batching..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving DLL combines training score target item serving-time contextual predictions logged deployed model enabling listwise optimization under fully shuffled.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Since reconstructed listwise signals make optimization context-dependent sensitive short-term non-stationarity further introduce Margin-Regularized Self-Correction MRSC replaces zero-tolerance consistency.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments large-scale commercial streaming CTR environment show 0.95 pp GAUC offline 2.71% 4.55% effective play-through rate EPR online..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Click-through rate CTR estimation central ranking short-video search..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Decoupled Listwise Learning DLL streaming-compatible paradigm reconstructs session-level supervision without session batching..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving DLL combines training score target item serving-time contextual predictions logged deployed model enabling listwise optimization under fully shuffled.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments large-scale commercial streaming CTR environment show 0.95 pp GAUC offline 2.71% 4.55% effective play-through rate EPR online..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

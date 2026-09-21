@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818010",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "G2PRO: Gradient-guided Graph Prompt Optimization for LLM-based POI Recommendation",
+  "doi": "10.1145/3770855.3818010",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196946484",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have shown strong potential sequential reasoning creating new opportunities next Point-of-Interest POI recommendation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However applying LLMs POI prediction remains challenging due modality gap between textual semantics continuous spatio-temporal signals..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing rule-based prompting methods often introduce redundant context when bridging gap..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose G2PRO collaborative framework combines structural perception Graph Neural Networks GNNs reasoning capability LLMs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically construct User-Behavior Spatio-Temporal Knowledge Graph UST-KG capture POI relations transition dynamics train lightweight GNN-based Prompt Selector GPS.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments four real-world datasets show G2PRO consistently outperforms state-of-the-art traditional LLM-based baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Ablation breakdown studies further validate effectiveness each component demonstrate benefits structure-aware attribution-guided prompting LLM-based POI recommendation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have shown strong potential sequential reasoning creating new opportunities next Point-of-Interest POI recommendation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However applying LLMs POI prediction remains challenging due modality gap between textual semantics continuous spatio-temporal signals..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing rule-based prompting methods often introduce redundant context when bridging gap..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose G2PRO collaborative framework combines structural perception Graph Neural Networks GNNs reasoning capability LLMs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments four real-world datasets show G2PRO consistently outperforms state-of-the-art traditional LLM-based baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

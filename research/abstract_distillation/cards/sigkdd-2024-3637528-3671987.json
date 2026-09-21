@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671987",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "HiGPT: Heterogeneous Graph Language Model",
+  "doi": "10.1145/3637528.3671987",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857173",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Heterogeneous graph learning aims capture complex relationships diverse relational semantics among entities obtain meaningful representations nodes edges..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing frameworks heterogeneous graph learning have limitations generalizing across diverse datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However existing frameworks heterogeneous graph learning have limitations generalizing across diverse datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Most frameworks follow pre-train fine-tune paradigm same dataset restricts capacity adapt new unseen data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving raises question generalize heterogeneous graph models well-adapted diverse downstream learning tasks distribution shifts both node token sets relation.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent advancements heterogeneous graph neural networks HGNNs have achieved state-of-the-art performance considering relation heterogeneity specialized message functions aggregation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through comprehensive evaluations conducted various settings proposed framework demonstrates exceptional performance terms generalization surpassing current leading benchmarks..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Heterogeneous graph learning aims capture complex relationships diverse relational semantics among entities obtain meaningful representations nodes edges..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing frameworks heterogeneous graph learning have limitations generalizing across diverse datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing frameworks heterogeneous graph learning have limitations generalizing across diverse datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Most frameworks follow pre-train fine-tune paradigm same dataset restricts capacity adapt new unseen data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent advancements heterogeneous graph neural networks HGNNs have achieved state-of-the-art performance considering relation heterogeneity specialized message functions aggregation.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671718",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Provable Adaptivity of Adam under Non-uniform Smoothness",
+  "doi": "10.1145/3637528.3671718",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863528",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Adam widely adopted practical applications due fast convergence..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However theoretical analysis still far satisfactory..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover believe assumption obscures true benefit Adam algorithm adapt update magnitude according local smoothness..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving present first convergence analysis RR Adam without bounded smoothness assumption..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving demonstrate RR Adam maintain convergence properties when smoothness linearly bounded gradient norm referred L0 L1 smooth condition..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate RR Adam maintain convergence properties when smoothness linearly bounded gradient norm referred L0 L1 smooth condition..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Adam widely adopted practical applications due fast convergence..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However theoretical analysis still far satisfactory..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover believe assumption obscures true benefit Adam algorithm adapt update magnitude according local smoothness..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present first convergence analysis RR Adam without bounded smoothness assumption..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate RR Adam maintain convergence properties when smoothness linearly bounded gradient norm referred L0 L1 smooth condition..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

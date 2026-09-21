@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539047",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Fed-LTD: Towards Cross-Platform Ride Hailing via Federated Learning to Dispatch",
+  "doi": "10.1145/3534678.3539047",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927763",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning based order dispatching has witnessed tremendous success ride hailing..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However success halts within individual ride hailing platforms because sharing raw order dispatching data across leak user privacy.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper advocate federated order dispatching cross-platform ride hailing multiple platforms collaboratively make decisions without sharing local data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving response devise Federated Learning-to-Dispatch Fed-LTD framework allows effective order dispatching sharing both models decisions providing privacy protection raw.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving validate Fed-LTD via large-scale trace-driven experiments Didi GAIA dataset..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving validate Fed-LTD via large-scale trace-driven experiments Didi GAIA dataset..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive evaluations show Fed-LTD outperforms single-platform order dispatching 10.24% 54.07% terms total revenue..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning based order dispatching has witnessed tremendous success ride hailing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However success halts within individual ride hailing platforms because sharing raw order dispatching data across leak user privacy.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper advocate federated order dispatching cross-platform ride hailing multiple platforms collaboratively make decisions without sharing local data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving response devise Federated Learning-to-Dispatch Fed-LTD framework allows effective order dispatching sharing both models decisions providing privacy protection raw.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving validate Fed-LTD via large-scale trace-driven experiments Didi GAIA dataset..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737086",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Practical contextual bandits for large-scale structured discrete constrained optimization problems",
+  "doi": "10.1145/3711896.3737086",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825917",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines address contextual bandit problem high-dimensional combinatorial action spaces involving class structured discrete constrained optimization problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address contextual bandit problem high-dimensional combinatorial action spaces involving class structured discrete constrained optimization problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose novel practical transparent approach based general-purpose regression oracles leveraging Inverse Gap Weighting IGW seamless integration within optimization.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving IGW sampling efficiently managed column generation reformulation underlying Mixed Integer Programming MIP model allows flexible lower-level predictors causal.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving validate approach real-world auto-scaling problem automation achieving significant reduction cumulative regret through skillful exploration additional gains risk-averse methods.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines address contextual bandit problem high-dimensional combinatorial action spaces involving class structured discrete constrained optimization problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address contextual bandit problem high-dimensional combinatorial action spaces involving class structured discrete constrained optimization problems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose novel practical transparent approach based general-purpose regression oracles leveraging Inverse Gap Weighting IGW seamless integration within optimization.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving validate approach real-world auto-scaling problem automation achieving significant reduction cumulative regret through skillful exploration additional gains risk-averse methods.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

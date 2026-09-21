@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539083",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "AutoFAS: Automatic Feature and Architecture Selection for Pre-Ranking System",
+  "doi": "10.1145/3534678.3539083",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281256372",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Industrial search recommendation systems mostly follow classic multi-stage information retrieval paradigm matching pre-ranking ranking re-ranking stages..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However two major challenges pre-ranking system still exist without explicitly modeling performance gain versus computation cost predefined latency.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving However two major challenges pre-ranking system still exist without explicitly modeling performance gain versus computation cost predefined latency.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work novel framework AutoFAS proposed jointly optimizes efficiency effectiveness pre-ranking model first time simultaneously selects most valuable features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Notably model has been adopted pre-ranking module search system Meituan bringing significant improvements..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results real world search system show AutoFAS consistently outperforms previous state-of-the-art SOTA approaches lower computing cost..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably model has been adopted pre-ranking module search system Meituan bringing significant improvements..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Industrial search recommendation systems mostly follow classic multi-stage information retrieval paradigm matching pre-ranking ranking re-ranking stages..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However two major challenges pre-ranking system still exist without explicitly modeling performance gain versus computation cost predefined latency.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However two major challenges pre-ranking system still exist without explicitly modeling performance gain versus computation cost predefined latency.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work novel framework AutoFAS proposed jointly optimizes efficiency effectiveness pre-ranking model first time simultaneously selects most valuable features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results real world search system show AutoFAS consistently outperforms previous state-of-the-art SOTA approaches lower computing cost..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

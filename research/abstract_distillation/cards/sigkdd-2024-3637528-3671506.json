@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671506",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Future Impact Decomposition in Request-level Recommendations",
+  "doi": "10.1145/3637528.3671506",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4391376794",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recommender systems reinforcement learning solutions have shown promising results optimizing interaction sequence between users system over long-term performance..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However request-level formulation essentially inconsistent user item-level behavior..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving practical reasons policy actions typically designed recommending list items handle users frequent continuous browsing requests efficiently..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study demonstrate item-level optimization approach better utilize item characteristics optimize policy performance even under request-level MDP..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving support claim comparing performance standard request-level methods proposed item-level actor-critic framework both simulation online experiments..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recommender systems reinforcement learning solutions have shown promising results optimizing interaction sequence between users system over long-term performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving study demonstrate item-level optimization approach better utilize item characteristics optimize policy performance even under request-level MDP..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving support claim comparing performance standard request-level methods proposed item-level actor-critic framework both simulation online experiments..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recommender systems reinforcement learning solutions have shown promising results optimizing interaction sequence between users system over long-term performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However request-level formulation essentially inconsistent user item-level behavior..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving practical reasons policy actions typically designed recommending list items handle users frequent continuous browsing requests efficiently..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study demonstrate item-level optimization approach better utilize item characteristics optimize policy performance even under request-level MDP..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recommender systems reinforcement learning solutions have shown promising results optimizing interaction sequence between users system over long-term performance..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539409",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Scalable Differentially Private Clustering via Hierarchically Separated Trees",
+  "doi": "10.1145/3534678.3539409",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943939",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study private k-median k-means clustering problem dimensional Euclidean space..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving prove method computes solution cost most d3/2 log OPT kd2 log2 n/ privacy guarantee. dimension term replaced standard.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study private k-median k-means clustering problem dimensional Euclidean space..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving leveraging tree embeddings give efficient easy implement algorithm empirically competitive state art non private methods..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving prove method computes solution cost most d3/2 log OPT kd2 log2 n/ privacy guarantee. dimension term replaced standard.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally complement theoretical analysis empirical evaluation demonstrating algorithm efficiency accuracy comparison other privacy clustering baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study private k-median k-means clustering problem dimensional Euclidean space..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving prove method computes solution cost most d3/2 log OPT kd2 log2 n/ privacy guarantee. dimension term replaced standard.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study private k-median k-means clustering problem dimensional Euclidean space..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving leveraging tree embeddings give efficient easy implement algorithm empirically competitive state art non private methods..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally complement theoretical analysis empirical evaluation demonstrating algorithm efficiency accuracy comparison other privacy clustering baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

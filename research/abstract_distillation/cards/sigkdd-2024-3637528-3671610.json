@@ -1,0 +1,61 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671610",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems",
+  "doi": "10.1145/3637528.3671610",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863566",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Fault intensity diagnosis FID plays pivotal role monitoring maintaining mechanical devices within complex industrial systems.As current methods based.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Fault intensity diagnosis FID plays pivotal role monitoring maintaining mechanical devices within complex industrial systems.As current methods based.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Fault intensity diagnosis FID plays pivotal role monitoring maintaining mechanical devices within complex industrial systems.As current methods based.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Fault intensity diagnosis FID plays pivotal role monitoring maintaining mechanical devices within complex industrial systems.As current methods based.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

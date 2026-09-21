@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599370",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Graph Contrastive Learning with Generative Adversarial Network",
+  "doi": "10.1145/3580305.3599370",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568076",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Neural Networks GNNs have demonstrated promising results exploiting node representations many downstream tasks through supervised end-to-end training..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However distribution graphs remains unconsidered view generation resulting ignorance unseen edges most existing literature empirically shown able improve.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose incorporate graph generative adversarial networks GANs learn distribution views GCL order automatically capture characteristic graphs augmentations.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically present GACN novel Generative Adversarial Contrastive learning Network graph representation learning..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving GACN develops view generator discriminator generate augmented views automatically adversarial style..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph Neural Networks GNNs have demonstrated promising results exploiting node representations many downstream tasks through supervised end-to-end training..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However distribution graphs remains unconsidered view generation resulting ignorance unseen edges most existing literature empirically shown able improve.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments seven real-world datasets show GACN able generate high-quality augmented views GCL superior twelve state-of-the-art baseline methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Neural Networks GNNs have demonstrated promising results exploiting node representations many downstream tasks through supervised end-to-end training..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However distribution graphs remains unconsidered view generation resulting ignorance unseen edges most existing literature empirically shown able improve.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose incorporate graph generative adversarial networks GANs learn distribution views GCL order automatically capture characteristic graphs augmentations.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically present GACN novel Generative Adversarial Contrastive learning Network graph representation learning..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph Neural Networks GNNs have demonstrated promising results exploiting node representations many downstream tasks through supervised end-to-end training..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

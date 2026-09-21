@@ -1,0 +1,98 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817899",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "RARE: Retrieval-Augmented Reasoning Modeling",
+  "doi": "10.1145/3770855.3817899",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417298996",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Domain-specific intelligence demands specialized knowledge sophisticated reasoning problem-solving posing significant challenges large language models LLMs struggle hallucination inadequate.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving efficient discovery modeling reasoning patterns propose Retrieval-Augmented RARE novel paradigm extract model data represented salient learnable tokens..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate lightweight RARE-trained models e.g. Llama-3.1-8B Qwen3-8B could achieve state-of-the-art performance even rivaling retrieval-augmented Gemini-3-Pro-Preview GPT-5.1.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Domain-specific intelligence demands specialized knowledge sophisticated reasoning problem-solving posing significant challenges large language models LLMs struggle hallucination inadequate.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving efficient discovery modeling reasoning patterns propose Retrieval-Augmented RARE novel paradigm extract model data represented salient learnable tokens..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate lightweight RARE-trained models e.g. Llama-3.1-8B Qwen3-8B could achieve state-of-the-art performance even rivaling retrieval-augmented Gemini-3-Pro-Preview GPT-5.1.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599521",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Theoretical Convergence Guaranteed Resource-Adaptive Federated Learning with Mixed Heterogeneity",
+  "doi": "10.1145/3580305.3599521",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567528",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper propose adaptive learning paradigm resource-constrained cross-device federated heterogeneous local submodels varying resources jointly trained produce global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper propose adaptive learning paradigm resource-constrained cross-device federated heterogeneous local submodels varying resources jointly trained produce global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Along line first design general resource-adaptive federated learning algorithm namely RA-Fed rigorously prove convergence asymptotically optimal rate TQ.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore address both submodels heterogeneity data challenges under non-uniform training come up new server aggregation mechanism RAM-Fed same.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally conduct extensive experiments two types tasks three widely used datasets under different experimental settings..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Compared state-of-the-arts methods improve accuracy up 10% average..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Particularly when submodels jointly train 50% parameters RAM-Fed achieves comparable accuracy FedAvg trained full model..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper propose adaptive learning paradigm resource-constrained cross-device federated heterogeneous local submodels varying resources jointly trained produce global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose adaptive learning paradigm resource-constrained cross-device federated heterogeneous local submodels varying resources jointly trained produce global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Along line first design general resource-adaptive federated learning algorithm namely RA-Fed rigorously prove convergence asymptotically optimal rate TQ.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally conduct extensive experiments two types tasks three widely used datasets under different experimental settings..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

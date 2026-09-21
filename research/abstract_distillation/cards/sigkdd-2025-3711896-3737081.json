@@ -1,0 +1,85 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737081",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Physics-Guided Learning of Meteorological Dynamics for Weather Downscaling and Forecasting",
+  "doi": "10.1145/3711896.3737081",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877169",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Weather forecasting essential but remains computationally intensive physically incomplete traditional numerical prediction NWP methods.Deep learning DL models offer.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

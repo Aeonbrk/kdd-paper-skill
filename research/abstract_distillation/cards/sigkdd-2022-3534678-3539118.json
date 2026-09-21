@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539118",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Design Domain Specific Neural Network via Symbolic Testing",
+  "doi": "10.1145/3534678.3539118",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943858",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deep sequence networks multi-head self-attention provide promising way extract effective representations raw data end-to-end fashion have shown great.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However domains financial risk management anti-fraud expert-derived features heavily relied deep sequence models struggle dominate game.In paper introduce.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However domains financial risk management anti-fraud expert-derived features heavily relied deep sequence models struggle dominate game.In paper introduce.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome deficiency propose novel architecture named SHORING contains two components event network andsequence network..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conduct comprehensive experiments ablation studies synthetic datasets mimic sequence data commonly seen anti-fraud domain three real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct comprehensive experiments ablation studies synthetic datasets mimic sequence data commonly seen anti-fraud domain three real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show SHORING learns commonly used symbolic features well experimentally outperforms state-of-the-art methods significant margin over real-world online.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving symbolic testing framework SHORING have been applied anti-fraud model development Alipay improved performance models real-time fraud-detection..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deep sequence networks multi-head self-attention provide promising way extract effective representations raw data end-to-end fashion have shown great.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However domains financial risk management anti-fraud expert-derived features heavily relied deep sequence models struggle dominate game.In paper introduce.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However domains financial risk management anti-fraud expert-derived features heavily relied deep sequence models struggle dominate game.In paper introduce.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome deficiency propose novel architecture named SHORING contains two components event network andsequence network..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct comprehensive experiments ablation studies synthetic datasets mimic sequence data commonly seen anti-fraud domain three real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

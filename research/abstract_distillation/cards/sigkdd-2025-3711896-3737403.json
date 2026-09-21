@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737403",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "SciHorizon: Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models",
+  "doi": "10.1145/3711896.3737403",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875452",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent years rapid advancement Artificial Intelligence AI technologies particularly Large Language Models LLMs has revolutionized paradigm scientific discovery.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However there still lack effective framework overall assessment AI4Science particularly holistic perspective data quality model capability..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However there still lack effective framework overall assessment AI4Science particularly holistic perspective data quality model capability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Therefore study propose SciHorizon comprehensive assessment framework designed benchmark readiness AI4Science both scientific data LLM perspectives..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving First introduce generalizable framework assessing AI-ready scientific data encompassing four key dimensions-Quality FAIRness Explainability Compliance-which subdivided 15 sub-dimensions..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving developed benchmark datasets have conducted comprehensive evaluation over 50 representative open-source closed-source LLMs..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving All results publicly available accessed online www.scihorizon.cn/en..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent years rapid advancement Artificial Intelligence AI technologies particularly Large Language Models LLMs has revolutionized paradigm scientific discovery.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However there still lack effective framework overall assessment AI4Science particularly holistic perspective data quality model capability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However there still lack effective framework overall assessment AI4Science particularly holistic perspective data quality model capability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore study propose SciHorizon comprehensive assessment framework designed benchmark readiness AI4Science both scientific data LLM perspectives..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving developed benchmark datasets have conducted comprehensive evaluation over 50 representative open-source closed-source LLMs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

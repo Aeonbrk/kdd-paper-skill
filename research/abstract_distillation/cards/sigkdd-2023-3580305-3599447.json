@@ -1,0 +1,151 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599447",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Off-Policy Evaluation of Ranking Policies under Diverse User Behavior",
+  "doi": "10.1145/3580305.3599447",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4382490899",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Ranking interfaces everywhere online platforms..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However becomes extremely inaccurate ranking setup due high variance under large action spaces..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving show resulting estimator call Adaptive IPS AIPS unbiased under any complex user behavior..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further develop procedure identify appropriate user behavior model minimize mean squared error MSE AIPS data-driven fashion..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving There thus ever growing interest Off-Policy Evaluation OPE aiming towards accurate performance ranking policies logged data..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving deal problem previous studies assume either independent cascade user behavior resulting some ranking versions IPS..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving show resulting estimator call Adaptive IPS AIPS unbiased under any complex user behavior..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Ranking interfaces everywhere online platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However becomes extremely inaccurate ranking setup due high variance under large action spaces..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show resulting estimator call Adaptive IPS AIPS unbiased under any complex user behavior..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further develop procedure identify appropriate user behavior model minimize mean squared error MSE AIPS data-driven fashion..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving There thus ever growing interest Off-Policy Evaluation OPE aiming towards accurate performance ranking policies logged data..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

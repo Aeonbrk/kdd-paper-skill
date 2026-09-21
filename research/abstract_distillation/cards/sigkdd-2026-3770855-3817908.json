@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817908",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SamGoG: A Sampling-Based Graph-of-Graphs Framework for Imbalanced Graph Classification",
+  "doi": "10.1145/3770855.3817908",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416834207",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Neural Networks GNNs have shown remarkable success classification tasks capturing both structural feature-based representations..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world graphs often exhibit two critical forms imbalance class graph size imbalance..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving imbalances bias learning process degrade model performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose SamGoG sampling-based Graph-of-Graphs GoG learning framework effectively mitigates both class graph size imbalance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving sampling mechanism incorporates learnable pairwise similarity adaptive GoG node degree enhance edge homophily thus improving downstream model quality..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving sampling mechanism incorporates learnable pairwise similarity adaptive GoG node degree enhance edge homophily thus improving downstream model quality..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments benchmark datasets demonstrate SamGoG achieves state-of-the-art performance up 15.66% accuracy improvement 6.7 training acceleration..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Neural Networks GNNs have shown remarkable success classification tasks capturing both structural feature-based representations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world graphs often exhibit two critical forms imbalance class graph size imbalance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving imbalances bias learning process degrade model performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose SamGoG sampling-based Graph-of-Graphs GoG learning framework effectively mitigates both class graph size imbalance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving sampling mechanism incorporates learnable pairwise similarity adaptive GoG node degree enhance edge homophily thus improving downstream model quality..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

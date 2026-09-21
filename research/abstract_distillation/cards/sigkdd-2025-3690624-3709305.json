@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709305",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Progressive Generalization Risk Reduction for Data-Efficient Causal Effect Estimation",
+  "doi": "10.1145/3690624.3709305",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158336",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Causal effect estimation CEE provides crucial tool predicting unobserved counterfactual outcome entity..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Nevertheless those high-stake domains gathering decently sized fully labelled observational dataset remains challenging due hurdles associated costs ethics.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Nevertheless those high-stake domains gathering decently sized fully labelled observational dataset remains challenging due hurdles associated costs ethics.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Consequently if training dataset small scale low generalization risks hardly achieved any CEE algorithms..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Consequently if training dataset small scale low generalization risks hardly achieved any CEE algorithms..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Causal effect estimation CEE provides crucial tool predicting unobserved counterfactual outcome entity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Nevertheless those high-stake domains gathering decently sized fully labelled observational dataset remains challenging due hurdles associated costs ethics.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless those high-stake domains gathering decently sized fully labelled observational dataset remains challenging due hurdles associated costs ethics.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Consequently if training dataset small scale low generalization risks hardly achieved any CEE algorithms..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Consequently if training dataset small scale low generalization risks hardly achieved any CEE algorithms..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

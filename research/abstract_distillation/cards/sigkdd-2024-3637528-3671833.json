@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671833",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Budgeted Multi-Armed Bandits with Asymmetric Confidence Intervals",
+  "doi": "10.1145/3637528.3671833",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857210",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines study stochastic Budgeted Multi-Armed Bandit MAB problem player chooses arms unknown expected rewards costs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving study stochastic Budgeted Multi-Armed Bandit MAB problem player chooses arms unknown expected rewards costs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Current approaches problem have several issues illustrate..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving overcome them propose new upper confidence bound UCB sampling policy mega-UCB uses asymmetric intervals..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving show approach has sublinear instance-dependent regret general logarithmic parameter outperforms existing policies consistently synthetic real settings..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines study stochastic Budgeted Multi-Armed Bandit MAB problem player chooses arms unknown expected rewards costs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study stochastic Budgeted Multi-Armed Bandit MAB problem player chooses arms unknown expected rewards costs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Current approaches problem have several issues illustrate..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving show approach has sublinear instance-dependent regret general logarithmic parameter outperforms existing policies consistently synthetic real settings..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783918",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Sell It Before You Make It: Revolutionizing E-Commerce with Personalized AI-Generated Items",
+  "doi": "10.1145/3770854.3783918",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416099334",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper introduces novel system deployed Alibaba uses AI-generated items AIGI address challenges personalized text-to-image generation e-commerce product design..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving AIGI enables innovative business mode called sell before you make merchants design fashion items generate photorealistic images digital.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Both offline online experiments demonstrate effectiveness proposed algorithm..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving AI-generated items achieve over 13% relative improvements both click-through rate conversion well 7.9% decrease return compared human-designed counterparts.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving E-commerce has revolutionized retail yet traditional workflows remain inefficient significant resource costs tied product design inventory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces novel system deployed Alibaba uses AI-generated items AIGI address challenges personalized text-to-image generation e-commerce product design..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Both offline online experiments demonstrate effectiveness proposed algorithm..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

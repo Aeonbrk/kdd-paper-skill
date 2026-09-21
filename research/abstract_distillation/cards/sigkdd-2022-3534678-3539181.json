@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539181",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Device-cloud Collaborative Recommendation via Meta Controller",
+  "doi": "10.1145/3534678.3539181",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4284974283",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines On-device machine learning enables lightweight deployment recommendation models local clients reduces burden cloud-based recommenders simultaneously incorporates real-time user.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However design inflexible when user interests dramatically change on-device model stuck limited item cache cloud-based recommendation based large.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Nevertheless cloud-based recommendation industry still very important considering powerful model capacity efficient candidate generation billion-scale item pool..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However design inflexible when user interests dramatically change on-device model stuck limited item cache cloud-based recommendation based large.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving overcome issue propose meta controller dynamically manage collaboration between on-device recommender cloud-based introduce novel efficient sample construction causal.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving basis counterfactual samples extended training extensive experiments industrial recommendation scenarios show promise meta controller device-cloud collaboration..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines On-device machine learning enables lightweight deployment recommendation models local clients reduces burden cloud-based recommenders simultaneously incorporates real-time user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However design inflexible when user interests dramatically change on-device model stuck limited item cache cloud-based recommendation based large.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless cloud-based recommendation industry still very important considering powerful model capacity efficient candidate generation billion-scale item pool..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However design inflexible when user interests dramatically change on-device model stuck limited item cache cloud-based recommendation based large.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving basis counterfactual samples extended training extensive experiments industrial recommendation scenarios show promise meta controller device-cloud collaboration..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

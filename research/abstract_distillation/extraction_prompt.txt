@@ -1,0 +1,16 @@
+Extract one compact evidence card from one supplied SIGKDD paper identity and
+its numbered abstract units. Return only JSON matching the card schema.
+
+Use only the supplied source units. Do not browse, import memory about the
+paper, infer unseen experiments, or treat award status as evidence. Preserve
+conditions and numbers. Every substantive field needs the smallest supporting
+source ID. Unknown is valid; null and [] are valid.
+
+The card is abstract-only evidence. Contributions may be method, theory,
+empirical finding, system, resource, application, position, or another accurate
+type. Stated novelty is null unless the authors explicitly distinguish a new
+contribution. Author-reported evidence is not independent verification.
+
+Candidate lessons must separate source_observation, interpretation, application,
+and exception. Omit generic advice. Do not claim acceptance causes, venue laws,
+proof correctness, reproducibility, or full-text findings.

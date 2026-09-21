@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736848",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "ATOM: A Framework of Detecting Query-Based Model Extraction Attacks for Graph Neural Networks",
+  "doi": "10.1145/3711896.3736848",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825743",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose ATOM novel real-time MEA detection framework tailored GNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore provide theoretical analysis characterize query behaviors optimize detection strategies..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving ATOM integrates sequential modeling reinforcement learning dynamically detect evolving attack patterns leveraging k-core embedding capture structural properties enhancing.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple real-world datasets demonstrate ATOM outperforms existing approaches detection performance maintaining stable across different time steps.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Graph Neural Networks GNNs have gained traction Graph-based Machine Learning Service GMLaaS platforms yet they remain vulnerable model.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose ATOM novel real-time MEA detection framework tailored GNNs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving ATOM integrates sequential modeling reinforcement learning dynamically detect evolving attack patterns leveraging k-core embedding capture structural properties enhancing.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

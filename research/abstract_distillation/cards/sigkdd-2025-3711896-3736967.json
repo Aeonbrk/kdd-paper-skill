@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736967",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Flow Matching for Collaborative Filtering",
+  "doi": "10.1145/3711896.3736967",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877002",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative models have shown great promise collaborative filtering capturing underlying distribution user interests preferences..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches struggle inaccurate posterior approximations misalignment discrete nature recommendation data limiting expressiveness real-world performance..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address limitations propose FlowCF novel flow-based recommendation system leveraging flow matching collaborative filtering..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tailor flow matching unique challenges recommendation through two key innovations behavior-guided prior aligns user behavior patterns handle sparse.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate FlowCF achieves state-of-the-art recommendation accuracy across various datasets fastest inference speed making compelling approach real-world.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative models have shown great promise collaborative filtering capturing underlying distribution user interests preferences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches struggle inaccurate posterior approximations misalignment discrete nature recommendation data limiting expressiveness real-world performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose FlowCF novel flow-based recommendation system leveraging flow matching collaborative filtering..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tailor flow matching unique challenges recommendation through two key innovations behavior-guided prior aligns user behavior patterns handle sparse.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate FlowCF achieves state-of-the-art recommendation accuracy across various datasets fastest inference speed making compelling approach real-world.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

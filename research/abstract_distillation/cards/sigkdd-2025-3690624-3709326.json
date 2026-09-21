@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709326",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "LH-Mix: Local Hierarchy Correlation Guided Mixup over Hierarchical Prompt Tuning",
+  "doi": "10.1145/3690624.3709326",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158535",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hierarchical text classification HTC aims assign one labels hierarchy each text..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches often model local hierarchy sequence focusing explicit parent-child relationships ignoring implicit correlations among sibling/peer relationships..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing approaches often model local hierarchy sequence focusing explicit parent-child relationships ignoring implicit correlations among sibling/peer relationships..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper first integrate local hierarchies manual depth-level prompt capture parent-child relationships..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving then apply Mixup hierarchical prompt tuning scheme improve latent correlation within sibling/peer relationships..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving then apply Mixup hierarchical prompt tuning scheme improve latent correlation within sibling/peer relationships..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Local Hierarchy Mixup LH-Mix model demonstrates remarkable performance across three widely-used datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hierarchical text classification HTC aims assign one labels hierarchy each text..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches often model local hierarchy sequence focusing explicit parent-child relationships ignoring implicit correlations among sibling/peer relationships..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing approaches often model local hierarchy sequence focusing explicit parent-child relationships ignoring implicit correlations among sibling/peer relationships..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first integrate local hierarchies manual depth-level prompt capture parent-child relationships..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving then apply Mixup hierarchical prompt tuning scheme improve latent correlation within sibling/peer relationships..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

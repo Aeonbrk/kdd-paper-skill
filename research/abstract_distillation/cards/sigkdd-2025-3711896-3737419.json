@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737419",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "IdeaBench: Benchmarking Large Language Models for Research Idea Generation",
+  "doi": "10.1145/3711896.3737419",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875478",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have revolutionized interactions between human artificial intelligence AI systems demonstrating state-of-the-art performance across various.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However absence comprehensive systematic evaluation framework LLM-driven research idea generation hinders rigorous understanding strengths limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving However absence comprehensive systematic evaluation framework LLM-driven research idea generation hinders rigorous understanding strengths limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap propose IdeaBench benchmark system provides structured dataset evaluation framework standardizing assessment research idea generation LLMs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset comprises titles abstracts 374 influential papers across eight research domains along 29 408 referenced works creating context-rich.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models LLMs have revolutionized interactions between human artificial intelligence AI systems demonstrating state-of-the-art performance across various.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However absence comprehensive systematic evaluation framework LLM-driven research idea generation hinders rigorous understanding strengths limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address gap propose IdeaBench benchmark system provides structured dataset evaluation framework standardizing assessment research idea generation LLMs..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have revolutionized interactions between human artificial intelligence AI systems demonstrating state-of-the-art performance across various.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However absence comprehensive systematic evaluation framework LLM-driven research idea generation hinders rigorous understanding strengths limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However absence comprehensive systematic evaluation framework LLM-driven research idea generation hinders rigorous understanding strengths limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap propose IdeaBench benchmark system provides structured dataset evaluation framework standardizing assessment research idea generation LLMs..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models LLMs have revolutionized interactions between human artificial intelligence AI systems demonstrating state-of-the-art performance across various.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

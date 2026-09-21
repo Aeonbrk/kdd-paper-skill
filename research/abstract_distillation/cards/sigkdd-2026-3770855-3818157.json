@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818157",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "BITIRP - Efficient Time Intervals-Related Pattern Mining",
+  "doi": "10.1145/3770855.3818157",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196923264",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Frequent Time Intervals Related Pattern TIRP mining symbolic time-interval series has attracted increasing research interest recent decades leading.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches typically index first sized TIRPs rely exhaustive candidate generation extend them incorporating redundancy inefficiency mining.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce BITIRP novel efficient algorithm complete frequent TIRP mining..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving BITIRP incrementally grows patterns sized TIRPs newly introduced concepts TIRP prefix suffix..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments twelve benchmark datasets show BITIRP achieves substantial runtime improvements maintaining comparable memory consumption relative state-of-the-art TIRP.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving each iteration suffixes current frequent TIRPs matched corresponding indexed prefixes resulting Join operation creates new fully data-driven manner..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments twelve benchmark datasets show BITIRP achieves substantial runtime improvements maintaining comparable memory consumption relative state-of-the-art TIRP.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Frequent Time Intervals Related Pattern TIRP mining symbolic time-interval series has attracted increasing research interest recent decades leading.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches typically index first sized TIRPs rely exhaustive candidate generation extend them incorporating redundancy inefficiency mining.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce BITIRP novel efficient algorithm complete frequent TIRP mining..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving BITIRP incrementally grows patterns sized TIRPs newly introduced concepts TIRP prefix suffix..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving each iteration suffixes current frequent TIRPs matched corresponding indexed prefixes resulting Join operation creates new fully data-driven manner..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

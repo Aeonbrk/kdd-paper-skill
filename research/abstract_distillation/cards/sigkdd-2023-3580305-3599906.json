@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599906",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "ShuttleSet: A Human-Annotated Stroke-Level Singles Dataset for Badminton Tactical Analysis",
+  "doi": "10.1145/3580305.3599906",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562787",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent progress sports analytics deep learning approaches have demonstrated effectiveness mining insights players tactics improving performance quality fan.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Consequently development artificial intelligence approaches significantly hindered when existing models applied challenging structured turn-based sequences..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper present ShuttleSet largest publicly-available badminton singles dataset annotated stroke-level records..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving experiments provide multiple benchmarks i.e. stroke influence forecasting movement baselines illustrate practicability ShuttleSet turn-based analytics expected stimulate both.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving recent progress sports analytics deep learning approaches have demonstrated effectiveness mining insights players tactics improving performance quality fan.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments provide multiple benchmarks i.e. stroke influence forecasting movement baselines illustrate practicability ShuttleSet turn-based analytics expected stimulate both.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent progress sports analytics deep learning approaches have demonstrated effectiveness mining insights players tactics improving performance quality fan.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Consequently development artificial intelligence approaches significantly hindered when existing models applied challenging structured turn-based sequences..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present ShuttleSet largest publicly-available badminton singles dataset annotated stroke-level records..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving recent progress sports analytics deep learning approaches have demonstrated effectiveness mining insights players tactics improving performance quality fan.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

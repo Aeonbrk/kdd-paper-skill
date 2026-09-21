@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671905",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "MAML-en-LLM: Model Agnostic Meta-Training of LLMs for Improved In-Context Learning",
+  "doi": "10.1145/3637528.3671905",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863877",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Adapting large language models LLMs unseen tasks incontext training samples without fine-tuning remains important research problem..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Adapting large language models LLMs unseen tasks incontext training samples without fine-tuning remains important research problem..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving learn robust LLM adapts well unseen tasks multiple meta-training approaches have been proposed MetaICL MetaICT involve pre-trained LLMs.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose MAML-en-LLM novel method meta-training LLMs learn truly generalizable parameters not only performs well disjointed tasks but.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving see average increase 2% unseen domains performance massive 4% improvement adaptation performance..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving meta-training approaches essentially perform in-context multi-task fine-tuning evaluate disjointed test set tasks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Even though they achieve impressive performance goal never compute truly general set parameters..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving see average increase 2% unseen domains performance massive 4% improvement adaptation performance..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Adapting large language models LLMs unseen tasks incontext training samples without fine-tuning remains important research problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Adapting large language models LLMs unseen tasks incontext training samples without fine-tuning remains important research problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving learn robust LLM adapts well unseen tasks multiple meta-training approaches have been proposed MetaICL MetaICT involve pre-trained LLMs.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose MAML-en-LLM novel method meta-training LLMs learn truly generalizable parameters not only performs well disjointed tasks but.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving meta-training approaches essentially perform in-context multi-task fine-tuning evaluate disjointed test set tasks..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

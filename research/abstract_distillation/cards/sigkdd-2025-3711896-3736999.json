@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736999",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Hyperparametric Influence Minimization: Feature-Driven Intervention Beyond Blocking",
+  "doi": "10.1145/3711896.3736999",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877242",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper investigate diffusion containment problem through novel hyperparametric influence minimization model..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving analyze challenges intrinsic properties hyperparametric influence minimization derive upper-bound spread quantifies total uncertainty nodes remaining inactive during diffusion.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper investigate diffusion containment problem through novel hyperparametric influence minimization model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model integrates hyperparametric diffusion framework classical influence minimization paradigm enabling practical flexible fine-grained control over dynamics via feature.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving analyze challenges intrinsic properties hyperparametric influence minimization derive upper-bound spread quantifies total uncertainty nodes remaining inactive during diffusion.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Based further design greedy-based algorithms solve problem outperform state-of-the-art methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper investigate diffusion containment problem through novel hyperparametric influence minimization model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving analyze challenges intrinsic properties hyperparametric influence minimization derive upper-bound spread quantifies total uncertainty nodes remaining inactive during diffusion.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper investigate diffusion containment problem through novel hyperparametric influence minimization model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model integrates hyperparametric diffusion framework classical influence minimization paradigm enabling practical flexible fine-grained control over dynamics via feature.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Based further design greedy-based algorithms solve problem outperform state-of-the-art methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

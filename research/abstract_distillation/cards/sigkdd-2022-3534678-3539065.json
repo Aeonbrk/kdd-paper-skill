@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539065",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Rax: Composable Learning-to-Rank Using JAX",
+  "doi": "10.1145/3534678.3539065",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4291127115",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Rax library composable Learning-to-Rank LTR written entirely JAX..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving empirically demonstrate effectiveness Rax benchmarking neural models implemented Flax trained two popular LTR benchmarks WEB30K Istella..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore show integrating ranking losses T5 large language model improve overall performance MS MARCO passage task..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving sharing Rax library open source community part larger JAX ecosystem https github.com/google/rax..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving empirically demonstrate effectiveness Rax benchmarking neural models implemented Flax trained two popular LTR benchmarks WEB30K Istella..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore show integrating ranking losses T5 large language model improve overall performance MS MARCO passage task..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Rax library composable Learning-to-Rank LTR written entirely JAX..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving empirically demonstrate effectiveness Rax benchmarking neural models implemented Flax trained two popular LTR benchmarks WEB30K Istella..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore show integrating ranking losses T5 large language model improve overall performance MS MARCO passage task..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving empirically demonstrate effectiveness Rax benchmarking neural models implemented Flax trained two popular LTR benchmarks WEB30K Istella..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

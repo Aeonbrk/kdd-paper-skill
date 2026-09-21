@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671546",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Decomposed Attention Segment Recurrent Neural Network for Orbit Prediction",
+  "doi": "10.1145/3637528.3671546",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863178",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines focus space exploration shifts national agencies private companies interest industry has been steadily increasing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose Decomposed Attention Segment Recurrent Neural Network DASR model adding two key components Multi-Head Tensor Train Decomposition.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving DASR model applies Multi-Head Attention before segmenting input data GRU layers..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluation use three real-world satellite datasets Korea Aerospace Research Institute KARI currently operating KOMPSAT-3 KOMPSAT-3A KOMPSAT-5 satellites..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluation use three real-world satellite datasets Korea Aerospace Research Institute KARI currently operating KOMPSAT-3 KOMPSAT-3A KOMPSAT-5 satellites..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed model demonstrates superior performance compared other SOTA baseline models..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate approach has 94.13% higher predictive performance second-best model KOMPSAT-3 dataset 89.79% KOMPSAT-3A 76.71% KOMPSAT-5 dataset..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines focus space exploration shifts national agencies private companies interest industry has been steadily increasing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose Decomposed Attention Segment Recurrent Neural Network DASR model adding two key components Multi-Head Tensor Train Decomposition.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving DASR model applies Multi-Head Attention before segmenting input data GRU layers..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluation use three real-world satellite datasets Korea Aerospace Research Institute KARI currently operating KOMPSAT-3 KOMPSAT-3A KOMPSAT-5 satellites..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737431",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "EMBER2024 — A Benchmark Dataset for Holistic Evaluation of Malware Classifiers",
+  "doi": "10.1145/3711896.3737431",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876938",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines lack accessible data has historically restricted malware analysis research practitioners have relied heavily datasets provided industry sources advance..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving lack accessible data has historically restricted malware analysis research practitioners have relied heavily datasets provided industry sources advance..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving present EMBER2024 new dataset enables holistic evaluation malware classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Created collaboration authors EMBER2017 EMBER2018 EMBER2024 dataset includes hashes metadata feature vectors labels 3.2 million files six file.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving dataset supports training evaluation machine learning models seven malware classification tasks including detection family behavior identification..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving present EMBER2024 new dataset enables holistic evaluation malware classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving dataset supports training evaluation machine learning models seven malware classification tasks including detection family behavior identification..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines lack accessible data has historically restricted malware analysis research practitioners have relied heavily datasets provided industry sources advance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving lack accessible data has historically restricted malware analysis research practitioners have relied heavily datasets provided industry sources advance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present EMBER2024 new dataset enables holistic evaluation malware classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Created collaboration authors EMBER2017 EMBER2018 EMBER2024 dataset includes hashes metadata feature vectors labels 3.2 million files six file.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving present EMBER2024 new dataset enables holistic evaluation malware classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

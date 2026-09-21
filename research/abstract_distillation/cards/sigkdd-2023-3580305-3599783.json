@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599783",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "BOSS: A Bilateral Occupational-Suitability-Aware Recommender System for Online Recruitment",
+  "doi": "10.1145/3580305.3599783",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568060",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid development online recruitment platforms variety emerging recommendation services have been witnessed benefiting both job seekers recruiters..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving many researchers have studied problem reciprocal recommendation two- sided markets e.g. marriage market real estate there still lack.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving rapid development online recruitment platforms variety emerging recommendation services have been witnessed benefiting both job seekers recruiters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving end paper propose Bilateral Occupational-Suitability-aware recommender System BOSS online recruitment consideration reciprocal sequential properties realistic scenarios simultaneously..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving specific BOSS first propose multi-group-based mixture-of-experts MoE module independently learn preference representations job seekers recruiters..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result reciprocal recommendations efficiently implemented leveraging product different action probabilities job seekers recruiters..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally have conducted extensive experiments real-world large-scale datasets well online environment..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Both online A/B test offline experimental results clearly validate recommender system BOSS outperform other state-of-the-art baselines significant margin..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid development online recruitment platforms variety emerging recommendation services have been witnessed benefiting both job seekers recruiters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving many researchers have studied problem reciprocal recommendation two- sided markets e.g. marriage market real estate there still lack.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rapid development online recruitment platforms variety emerging recommendation services have been witnessed benefiting both job seekers recruiters..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper propose Bilateral Occupational-Suitability-aware recommender System BOSS online recruitment consideration reciprocal sequential properties realistic scenarios simultaneously..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result reciprocal recommendations efficiently implemented leveraging product different action probabilities job seekers recruiters..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

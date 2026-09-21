@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817570",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "MKG-RAG-Bench: Benchmarking Retrieval in Multimodal Knowledge Graph–Augmented Generation",
+  "doi": "10.1145/3770855.3817570",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196981678",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-augmented generation RAG over knowledge graphs has emerged promising approach grounding large language models yet existing benchmarks largely.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Through extensive experiments across representative retriever families modality settings show effective multimodal retrieval remains challenging yet crucial end-to-end.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving practice retrieval critical bottleneck multimodal knowledge heterogeneous difficult align across modalities often poorly served retrievers designed unstructured corpora..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap introduce MKG-RAG-Bench cross-domain benchmark explicitly designed evaluate retrieval MKG-RAG..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark built LLM-based curation pipeline filters low-utility knowledge generates structurally grounded queries exact supervision systematically covers diverse modality.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address gap introduce MKG-RAG-Bench cross-domain benchmark explicitly designed evaluate retrieval MKG-RAG..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving MKG-RAG-Bench constructed two multimodal knowledge graphs spanning general medical domains includes carefully aligned question-answering datasets support controlled evaluation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive experiments across representative retriever families modality settings show effective multimodal retrieval remains challenging yet crucial end-to-end.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-augmented generation RAG over knowledge graphs has emerged promising approach grounding large language models yet existing benchmarks largely.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Through extensive experiments across representative retriever families modality settings show effective multimodal retrieval remains challenging yet crucial end-to-end.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving practice retrieval critical bottleneck multimodal knowledge heterogeneous difficult align across modalities often poorly served retrievers designed unstructured corpora..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap introduce MKG-RAG-Bench cross-domain benchmark explicitly designed evaluate retrieval MKG-RAG..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address gap introduce MKG-RAG-Bench cross-domain benchmark explicitly designed evaluate retrieval MKG-RAG..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

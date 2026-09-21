@@ -1,0 +1,141 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599330",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Empower Post-hoc Graph Explanations with Information Bottleneck: A Pre-training and Fine-tuning Perspective",
+  "doi": "10.1145/3580305.3599330",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567641",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Researchers recently investigated explain Graph Neural Networks GNNs access task-specific GNN hinder wide applications practice..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Additionally task-specific methods only consider target models output label space coarse-grained insufficient reflect model internal logic..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitations consider two-stage explanation strategy i.e. explainers first pretrained task-agnostic fashion representation space then further fine-tuned task-specific.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore achieve trade-off between fidelity intelligibility explanations propose explanation framework based Information Bottleneck principle named Explainable Graph EGIB.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore achieve trade-off between fidelity intelligibility explanations propose explanation framework based Information Bottleneck principle named Explainable Graph EGIB.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experimental results demonstrate effectiveness proposed explanation method..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Researchers recently investigated explain Graph Neural Networks GNNs access task-specific GNN hinder wide applications practice..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Additionally task-specific methods only consider target models output label space coarse-grained insufficient reflect model internal logic..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations consider two-stage explanation strategy i.e. explainers first pretrained task-agnostic fashion representation space then further fine-tuned task-specific.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore achieve trade-off between fidelity intelligibility explanations propose explanation framework based Information Bottleneck principle named Explainable Graph EGIB.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

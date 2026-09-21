@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818952",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "TCG-LLM: Physics-aware Fine-tuning with Quality-based Reward Shaping for Tropical Cyclogenesis Detection and Localization",
+  "doi": "10.1145/3770855.3818952",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196964731",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Tropical cyclones TCs destructive weather systems accurate detection localization cyclogenesis TCG critical mitigating impacts..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Vision Language Models VLMs utilize multimodal inputs excellent reasoning beyond simple perception ability multi-factor causal problems but they.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose Tropical CycloGenesis Large Language Model TCG-LLM multimodal basin-scale TCG detection localization..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving design physics-aware fine-tuning strategy encoders based convolutional neural networks extract TC-specific physically meaningful features injected VLMs guide model.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving improve generalization beyond training patterns further incorporate Group Relative Policy Optimization GRPO quality-based reward shaping online-learned quality function.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving improve generalization beyond training patterns further incorporate Group Relative Policy Optimization GRPO quality-based reward shaping online-learned quality function.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving construct Tropical Cyclogenesis Detection Location Dataset TCDLD evaluation..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show TCG-LLM reduces TC detection mean absolute error localization distance 30% 15% respectively compared state-of-the-art baselines..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Tropical cyclones TCs destructive weather systems accurate detection localization cyclogenesis TCG critical mitigating impacts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Vision Language Models VLMs utilize multimodal inputs excellent reasoning beyond simple perception ability multi-factor causal problems but they.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose Tropical CycloGenesis Large Language Model TCG-LLM multimodal basin-scale TCG detection localization..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving design physics-aware fine-tuning strategy encoders based convolutional neural networks extract TC-specific physically meaningful features injected VLMs guide model.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving improve generalization beyond training patterns further incorporate Group Relative Policy Optimization GRPO quality-based reward shaping online-learned quality function.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

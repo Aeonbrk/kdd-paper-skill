@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818856",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Battery-Sim-Agent: Leveraging LLM-Agent for Inverse Battery Parameter Estimation",
+  "doi": "10.1145/3770855.3818856",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197040396",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Parameterizing high-fidelity digital twins batteries critical yet challenging inverse problem hinders pace battery innovation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce new paradigm reframes inverse problem reasoning task present Battery-Sim-Agent first framework deploy Large Language Model LLM.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving agent mimics human scientist workflow interprets rich multi-modal feedback simulator forms physically-grounded hypotheses explain discrepancies proposes structured parameter.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving systematically constructed benchmark suite spanning diverse battery chemistries operating conditions difficulty levels agent significantly outperforms strong BBO baselines.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving systematically constructed benchmark suite spanning diverse battery chemistries operating conditions difficulty levels agent significantly outperforms strong BBO baselines.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further demonstrate framework capability complex long-horizon degradation fitting tasks validate practical applicability real-world battery datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results highlight promise LLM-agents reasoning-based optimizers scientific discovery battery parameter estimation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Parameterizing high-fidelity digital twins batteries critical yet challenging inverse problem hinders pace battery innovation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce new paradigm reframes inverse problem reasoning task present Battery-Sim-Agent first framework deploy Large Language Model LLM.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving agent mimics human scientist workflow interprets rich multi-modal feedback simulator forms physically-grounded hypotheses explain discrepancies proposes structured parameter.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving systematically constructed benchmark suite spanning diverse battery chemistries operating conditions difficulty levels agent significantly outperforms strong BBO baselines.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

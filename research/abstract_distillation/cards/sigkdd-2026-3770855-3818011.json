@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818011",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "HiTF: A Hippocampal-Thalamic Function-Inspired Framework for Robust Multimodal Sentiment Analysis with Incomplete Data",
+  "doi": "10.1145/3770855.3818011",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196950451",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal sentiment analysis incomplete data faces significant challenges particularly form random frame-level missingness fragmented emotional cues heterogeneous quality.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired brain functions propose Hippocampal-Thalamic Function-Inspired Framework HiTF.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework integrates two complementary streams..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Notably even under extreme 90% missing condition MOSI framework achieves substantial improvements F1 score over strong baselines validating.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Concurrently thalamic-inspired inter-modal regulation stream evaluates reliability each modality adaptively integrate high-quality cross-modal information suppressing redundant interference..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments MOSI MOSEI SIMS demonstrate HiTF achieves superior performance 1.5% 2.5% average accuracy improvements over state-of-the-art methods.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably even under extreme 90% missing condition MOSI framework achieves substantial improvements F1 score over strong baselines validating.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal sentiment analysis incomplete data faces significant challenges particularly form random frame-level missingness fragmented emotional cues heterogeneous quality.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired brain functions propose Hippocampal-Thalamic Function-Inspired Framework HiTF.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework integrates two complementary streams..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Concurrently thalamic-inspired inter-modal regulation stream evaluates reliability each modality adaptively integrate high-quality cross-modal information suppressing redundant interference..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

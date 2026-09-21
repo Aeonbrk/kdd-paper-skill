@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599528",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Mitigating Action Hysteresis in Traffic Signal Control with Traffic Predictive Reinforcement Learning",
+  "doi": "10.1145/3580305.3599528",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567584",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traffic signal control plays pivotal role management urban flow..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However major challenge implementing methods ensuring signal lights do not change abruptly lead traffic accidents..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving rapid advancement reinforcement learning development signal control methods has seen significant boost..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate risk time-delay introduced implementation control actions but usually has negative impact overall efficacy policy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge paper presents novel Traffic Signal Control Framework PRLight leverages On-policy Model OTCM Online Prediction OTPM achieve.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address challenge paper presents novel Traffic Signal Control Framework PRLight leverages On-policy Model OTCM Online Prediction OTPM achieve.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed framework was evaluated both simulated real-world road networks compared various state-of-the-art methods demonstrating effectiveness preventing traffic congestion.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traffic signal control plays pivotal role management urban flow..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However major challenge implementing methods ensuring signal lights do not change abruptly lead traffic accidents..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rapid advancement reinforcement learning development signal control methods has seen significant boost..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate risk time-delay introduced implementation control actions but usually has negative impact overall efficacy policy..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address challenge paper presents novel Traffic Signal Control Framework PRLight leverages On-policy Model OTCM Online Prediction OTPM achieve.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

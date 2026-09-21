@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818988",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "BrainNetGFM: A Graph-Based Foundation Model for Brain Network Construction Integrating Individualized Geometry and Joint Self-Supervised Learning",
+  "doi": "10.1145/3770855.3818988",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196934616",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines emergence foundation models has revolutionized neuroimaging analysis offering universal representations decoding complex brain functions..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing fMRI-based foundation models predominantly rely standard group-level atlases neglecting inter-subject heterogeneity..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gaps present BrainNetGFM novel graph-based foundation model brain network construction integrates individualized geometry joint self-supervised learning pre-trained.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving First introduce individualized brain atlas construction method utilizing region growing functional priors ensure precise alignment subject-specific topology..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Second propose joint self-supervised learning SSL framework synergizes generative contrastive paradigms..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments downstream tasks including diagnosis brain disorders age cognition prediction demonstrate BrainNetGFM outperforms state-of-the-art methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines emergence foundation models has revolutionized neuroimaging analysis offering universal representations decoding complex brain functions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing fMRI-based foundation models predominantly rely standard group-level atlases neglecting inter-subject heterogeneity..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gaps present BrainNetGFM novel graph-based foundation model brain network construction integrates individualized geometry joint self-supervised learning pre-trained.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First introduce individualized brain atlas construction method utilizing region growing functional priors ensure precise alignment subject-specific topology..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments downstream tasks including diagnosis brain disorders age cognition prediction demonstrate BrainNetGFM outperforms state-of-the-art methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

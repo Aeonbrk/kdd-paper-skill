@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599432",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "MicroscopeSketch: Accurate Sliding Estimation Using Adaptive Zooming",
+  "doi": "10.1145/3580305.3599432",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562642",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines High-accuracy real-time data stream estimations critical various applications sliding-window-based techniques have attracted wide attention..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing solutions struggle achieve high accuracy generality low memory usage simultaneously..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitations present MicroscopeSketch high-accuracy sketch framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving applying MicroscopeSketch three specific tasks---frequency estimation top-k frequent items discovery heavy changes identification-we demonstrate substantial improvements over existing.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving High-accuracy real-time data stream estimations critical various applications sliding-window-based techniques have attracted wide attention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However existing solutions struggle achieve high accuracy generality low memory usage simultaneously..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving overcome limitations present MicroscopeSketch high-accuracy sketch framework..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines High-accuracy real-time data stream estimations critical various applications sliding-window-based techniques have attracted wide attention..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing solutions struggle achieve high accuracy generality low memory usage simultaneously..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitations present MicroscopeSketch high-accuracy sketch framework..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving applying MicroscopeSketch three specific tasks---frequency estimation top-k frequent items discovery heavy changes identification-we demonstrate substantial improvements over existing.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving High-accuracy real-time data stream estimations critical various applications sliding-window-based techniques have attracted wide attention..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539048",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Arbitrary Distribution Modeling with Censorship in Real-Time Bidding Advertising",
+  "doi": "10.1145/3534678.3539048",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W3211118950",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines purpose Inventory Pricing bid right prices online ad opportunities crucial Demand-Side Platform DSP win advertising auctions Real-Time Bidding.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most previous works made strong assumptions distribution form winning price reduced accuracy weakened ability make generalizations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper devise novel loss function Neighborhood Likelihood NLL collaborating proposed framework Arbitrary Distribution Modeling ADM predict winning price.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conducted experiments two real-world experimental datasets one large-scale non-simulated production dataset system..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Experiments showed ADM outperformed baselines both algorithm business metrics..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However most previous works made strong assumptions distribution form winning price reduced accuracy weakened ability make generalizations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conducted experiments two real-world experimental datasets one large-scale non-simulated production dataset system..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments showed ADM outperformed baselines both algorithm business metrics..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines purpose Inventory Pricing bid right prices online ad opportunities crucial Demand-Side Platform DSP win advertising auctions Real-Time Bidding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most previous works made strong assumptions distribution form winning price reduced accuracy weakened ability make generalizations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper devise novel loss function Neighborhood Likelihood NLL collaborating proposed framework Arbitrary Distribution Modeling ADM predict winning price.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving conducted experiments two real-world experimental datasets one large-scale non-simulated production dataset system..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However most previous works made strong assumptions distribution form winning price reduced accuracy weakened ability make generalizations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

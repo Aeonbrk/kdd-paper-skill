@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818871",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+  "doi": "10.1145/3770855.3818871",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196955811",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Drug synergy prediction DSP aims identify efficacious combinations under various cellular contexts different targets..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However continual emergence novel compounds results variations molecular scaffolds sizes causing drug synergy data exhibit out-of-distribution O.O.D. shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve problem study out-of-distribution generalized drug synergy prediction through graph large language model first time..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose OOD-GraphLLM novel graphLLM framework able accurately predict drug synergy under O.O.D. settings via jointly optimizing.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Concretely first propose target-adaptive disentangled molecular graph encoding model distinguish target-relevant target-irrelevant representations both seen unseen drugs then.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However continual emergence novel compounds results variations molecular scaffolds sizes causing drug synergy data exhibit out-of-distribution O.O.D. shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments under several O.O.D. settings demonstrate proposed model consistently outperforms state-of-the-art approaches various DSP tasks..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Drug synergy prediction DSP aims identify efficacious combinations under various cellular contexts different targets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However continual emergence novel compounds results variations molecular scaffolds sizes causing drug synergy data exhibit out-of-distribution O.O.D. shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve problem study out-of-distribution generalized drug synergy prediction through graph large language model first time..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose OOD-GraphLLM novel graphLLM framework able accurately predict drug synergy under O.O.D. settings via jointly optimizing.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However continual emergence novel compounds results variations molecular scaffolds sizes causing drug synergy data exhibit out-of-distribution O.O.D. shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

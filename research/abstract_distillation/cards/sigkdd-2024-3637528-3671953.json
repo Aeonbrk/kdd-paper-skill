@@ -1,0 +1,85 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671953",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Brant-X: A Unified Physiological Signal Alignment Framework",
+  "doi": "10.1145/3637528.3671953",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863532",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Physiological signals serve indispensable clues understanding various states human bodies.Most existing works have focused single type range application.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,118 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817728",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "FedTail-DT: A Dual-Teacher Framework for Long-Tailed Heterogeneous FL with CLIP Prototypes and Adaptive Aggregation",
+  "doi": "10.1145/3770855.3817728",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196926953",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Federated learning enables decentralized model training preserving data privacy showing significant potential sensitive fields healthcare finance..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world client data often exhibits both heterogeneity long-tailed label distributions leading class bias knowledge gaps limit global.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Federated learning enables decentralized model training preserving data privacy showing significant potential sensitive fields healthcare finance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However real-world client data often exhibits both heterogeneity long-tailed label distributions leading class bias knowledge gaps limit global.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper proposes FedTail-DT novel approach long-tailed heterogeneous federated learning featuring three key innovations dual-teacher single-student architecture integrates pre-trained.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments federated benchmark datasets various imbalances example under extreme imbalance factor 0.01 show FedTail-DT outperforms existing SOTA methods.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Federated learning enables decentralized model training preserving data privacy showing significant potential sensitive fields healthcare finance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world client data often exhibits both heterogeneity long-tailed label distributions leading class bias knowledge gaps limit global.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Federated learning enables decentralized model training preserving data privacy showing significant potential sensitive fields healthcare finance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However real-world client data often exhibits both heterogeneity long-tailed label distributions leading class bias knowledge gaps limit global.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments federated benchmark datasets various imbalances example under extreme imbalance factor 0.01 show FedTail-DT outperforms existing SOTA methods.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

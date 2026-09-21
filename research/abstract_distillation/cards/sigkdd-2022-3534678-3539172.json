@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539172",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Multiwave COVID-19 Prediction from Social Awareness Using Web Search and Mobility Data",
+  "doi": "10.1145/3534678.3539172",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4286896244",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recurring outbreaks COVID-19 have posed enduring effects global society calls predictor pandemic waves various data early availability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Therefore predict multiwave pandemic propose Social Awareness-Based Graph Neural Network SAB-GNN considers decay symptom-related web search frequency capture.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model combines GNN LSTM complex relationships among urban districts inter-district mobility patterns web search history future COVID-19 infections..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving train model predict future pandemic outbreaks Tokyo area mobility web search data April 2020 2021 across four waves.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Results demonstrate model outperforms state-of-the-art baselines ST-GNN MPNN GraphLSTM..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recurring outbreaks COVID-19 have posed enduring effects global society calls predictor pandemic waves various data early availability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore predict multiwave pandemic propose Social Awareness-Based Graph Neural Network SAB-GNN considers decay symptom-related web search frequency capture.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model combines GNN LSTM complex relationships among urban districts inter-district mobility patterns web search history future COVID-19 infections..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Results demonstrate model outperforms state-of-the-art baselines ST-GNN MPNN GraphLSTM..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

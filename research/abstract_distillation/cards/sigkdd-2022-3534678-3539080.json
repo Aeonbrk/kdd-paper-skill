@@ -1,0 +1,100 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539080",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "TwHIN: Embedding the Twitter Heterogeneous Information Network for Personalized Recommendation",
+  "doi": "10.1145/3534678.3539080",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927951",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Social networks Twitter form heterogeneous information network HIN nodes represent domain entities e.g. user content advertiser etc. edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work investigate knowledge-graph embeddings entities Twitter HIN TwHIN show pretrained representations yield significant offline online improvement diverse range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving discuss design choices practical challenges deploying industry-scale HIN embeddings including compressing them reduce end-to-end model latency handling parameter.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work investigate knowledge-graph embeddings entities Twitter HIN TwHIN show pretrained representations yield significant offline online improvement diverse range.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Social networks Twitter form heterogeneous information network HIN nodes represent domain entities e.g. user content advertiser etc. edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work investigate knowledge-graph embeddings entities Twitter HIN TwHIN show pretrained representations yield significant offline online improvement diverse range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving discuss design choices practical challenges deploying industry-scale HIN embeddings including compressing them reduce end-to-end model latency handling parameter.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work investigate knowledge-graph embeddings entities Twitter HIN TwHIN show pretrained representations yield significant offline online improvement diverse range.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

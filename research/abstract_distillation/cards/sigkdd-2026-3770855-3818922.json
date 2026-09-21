@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818922",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Learning Probabilistic Compositional Representation of Crystalline Materials",
+  "doi": "10.1145/3770855.3818922",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196949258",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Machine learning ML has seen promising developments materials science yet efficacy largely depends detailed crystal structural data often.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However accurately representing materials solely compositional descriptors presents challenges due polymorphism single composition correspond various structural arrangements creating.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Machine learning ML has seen promising developments materials science yet efficacy largely depends detailed crystal structural data often.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However accurately representing materials solely compositional descriptors presents challenges due polymorphism single composition correspond various structural arrangements creating.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end introduce PCRL novel approach employs probabilistic modeling composition capture diverse polymorphs available structural information..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluations sixteen datasets demonstrate effectiveness PCRL learning compositional representation analysis model uncertainty highlights potential applicability material discovery..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Machine learning ML has seen promising developments materials science yet efficacy largely depends detailed crystal structural data often.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However accurately representing materials solely compositional descriptors presents challenges due polymorphism single composition correspond various structural arrangements creating.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Machine learning ML has seen promising developments materials science yet efficacy largely depends detailed crystal structural data often.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However accurately representing materials solely compositional descriptors presents challenges due polymorphism single composition correspond various structural arrangements creating.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluations sixteen datasets demonstrate effectiveness PCRL learning compositional representation analysis model uncertainty highlights potential applicability material discovery..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

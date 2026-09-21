@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818091",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Neuron-Anchored Rule Extraction for Large Language Models via Contrastive Hierarchical Ablation",
+  "doi": "10.1145/3770855.3818091",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7164121666",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines central goal explainable AI express large language model LLM decision logic symbolically ground internal mechanisms..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing rule-extraction methods usually learn ungrounded symbolic surrogates mechanistic interpretability links behavior neurons but often requires hand-crafted hypotheses.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving central goal explainable AI express large language model LLM decision logic symbolically ground internal mechanisms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce MechaRule pipeline grounds rule extraction LLM circuits localizing sparse agonist activations whose ablation disrupts rule-related behavior..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines central goal explainable AI express large language model LLM decision logic symbolically ground internal mechanisms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing rule-extraction methods usually learn ungrounded symbolic surrogates mechanistic interpretability links behavior neurons but often requires hand-crafted hypotheses.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving central goal explainable AI express large language model LLM decision logic symbolically ground internal mechanisms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce MechaRule pipeline grounds rule extraction LLM circuits localizing sparse agonist activations whose ablation disrupts rule-related behavior..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

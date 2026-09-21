@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817764",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Uncertainty-Calibrated Diffusion for Reliable 3D Molecular Graph Generation",
+  "doi": "10.1145/3770855.3817764",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196997306",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Bayesian inference provides principled framework modeling epistemic uncertainty neural networks treating predictions distributions rather deterministic values..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Bayesian inference provides principled framework modeling epistemic uncertainty neural networks treating predictions distributions rather deterministic values..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work provide theoretical empirical analysis how epistemic uncertainty propagates through diffusion inference degrades sampling quality..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building investigation propose UCD Uncertainty-Calibrated Diffusion simple yet effective method calibrates reverse process account epistemic uncertainty..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving effect particularly detrimental high-precision molecular generation even small deviations violate chemical validity..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments standard molecular benchmarks demonstrate UCD consistently improves sampling quality across diverse baseline methods establishing new state-of-the-art.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Bayesian inference provides principled framework modeling epistemic uncertainty neural networks treating predictions distributions rather deterministic values..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Bayesian inference provides principled framework modeling epistemic uncertainty neural networks treating predictions distributions rather deterministic values..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work provide theoretical empirical analysis how epistemic uncertainty propagates through diffusion inference degrades sampling quality..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving effect particularly detrimental high-precision molecular generation even small deviations violate chemical validity..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

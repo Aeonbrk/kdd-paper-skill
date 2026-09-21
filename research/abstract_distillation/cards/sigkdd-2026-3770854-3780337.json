@@ -1,0 +1,113 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780337",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation",
+  "doi": "10.1145/3770854.3780337",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171926535",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines User-item interaction histories pivotal sequential recommendation systems but often include noise unintended clicks actions fail reflect genuine user.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving User-item interaction histories pivotal sequential recommendation systems but often include noise unintended clicks actions fail reflect genuine user.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose Learned Item Shortcuts Sequential Recommendation LISRec novel framework explicitly captures stable preferences extracting personalized semantic historical.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results Yelp Amazon Product datasets illustrate LISRec achieves 13% improvement over baseline recommendation models showing effectiveness capturing.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines User-item interaction histories pivotal sequential recommendation systems but often include noise unintended clicks actions fail reflect genuine user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving User-item interaction histories pivotal sequential recommendation systems but often include noise unintended clicks actions fail reflect genuine user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose Learned Item Shortcuts Sequential Recommendation LISRec novel framework explicitly captures stable preferences extracting personalized semantic historical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results Yelp Amazon Product datasets illustrate LISRec achieves 13% improvement over baseline recommendation models showing effectiveness capturing.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

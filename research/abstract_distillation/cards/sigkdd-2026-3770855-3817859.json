@@ -1,0 +1,118 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817859",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "CALM-TS: Risk-Controlled LLM Labeling for Time-Series via Calibrated Selective Gating",
+  "doi": "10.1145/3770855.3817859",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197033880",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Labeling time-series events anomalies system failures expensive subjective distribution drift makes label definitions evolve over time..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models generate weak labels natural-language rationales but error rates unbounded failure modes opaque..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving present CALM-TS risk-controlled weak-supervision pipeline bounds labeling error rate maximizing coverage..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving CALM-TS introduces behavioral probing over prompt surface form sampling temperature temporal context window elicit disagreement signals lightweight calibrator.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving CALM-TS attains 77 81% cost reduction MIMIC-III Yahoo S5 empirical risk 0.05 all 10 dataset-seed pairs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Labeling time-series events anomalies system failures expensive subjective distribution drift makes label definitions evolve over time..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models generate weak labels natural-language rationales but error rates unbounded failure modes opaque..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present CALM-TS risk-controlled weak-supervision pipeline bounds labeling error rate maximizing coverage..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving CALM-TS introduces behavioral probing over prompt surface form sampling temperature temporal context window elicit disagreement signals lightweight calibrator.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736930",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Empowering Graph-based Approximate Nearest Neighbor Search with Adaptive Awareness Capabilities",
+  "doi": "10.1145/3711896.3736930",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875487",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Approximate Nearest Neighbor Search ANNS high-dimensional spaces finds extensive applications databases information retrieval recommender systems etc..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end paper proposes GATE high-tier proximity Graph Adaptive Topology Query Awareness lightweight module atop graph-based indexes accelerate ANNS..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then resorting contrastive learning-based two-tower model GATE encodes both structural semantics underlying query-relevant features latent representations hub nodes.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving navigation graph index further constructed minimize model inference overhead..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate GATE achieves 1.2 2.0 speed-up query performance compared state-of-the-art graph-based indexes..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Approximate Nearest Neighbor Search ANNS high-dimensional spaces finds extensive applications databases information retrieval recommender systems etc..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper proposes GATE high-tier proximity Graph Adaptive Topology Query Awareness lightweight module atop graph-based indexes accelerate ANNS..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Then resorting contrastive learning-based two-tower model GATE encodes both structural semantics underlying query-relevant features latent representations hub nodes.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate GATE achieves 1.2 2.0 speed-up query performance compared state-of-the-art graph-based indexes..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

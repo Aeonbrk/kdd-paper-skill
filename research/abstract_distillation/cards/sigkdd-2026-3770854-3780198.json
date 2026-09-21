@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780198",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Physics-Informed Teleconnection-Aware Transformer for Global Subseasonal-to-Seasonal Forecasting",
+  "doi": "10.1145/3770854.3780198",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417307858",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Subseasonal-to-seasonal S2S forecasting predicts climate conditions several weeks months advance represents critical frontier agricultural planning energy management disaster.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However remains one most challenging problems atmospheric science due chaotic dynamics systems complex interactions across multiple scales..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Current approaches often fail explicitly model underlying physical processes teleconnections crucial S2S timescales..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce TelePiT novel deep learning architecture enhances global S2S forecasting through integrated multi-scale physics teleconnection awareness..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate TelePiT significantly outperforms state-of-the-art data-driven baselines operational numerical weather prediction systems across all forecast horizons.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Subseasonal-to-seasonal S2S forecasting predicts climate conditions several weeks months advance represents critical frontier agricultural planning energy management disaster.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However remains one most challenging problems atmospheric science due chaotic dynamics systems complex interactions across multiple scales..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Current approaches often fail explicitly model underlying physical processes teleconnections crucial S2S timescales..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce TelePiT novel deep learning architecture enhances global S2S forecasting through integrated multi-scale physics teleconnection awareness..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate TelePiT significantly outperforms state-of-the-art data-driven baselines operational numerical weather prediction systems across all forecast horizons.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

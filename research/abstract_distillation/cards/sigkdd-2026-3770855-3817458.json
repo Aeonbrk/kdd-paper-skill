@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817458",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "UrbanGraphEmbeddings: Learning and Evaluating Spatially Grounded Multimodal Embeddings for Urban Environments",
+  "doi": "10.1145/3770855.3817458",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196968498",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning transferable multimodal embeddings urban environments challenging because understanding inherently spatial yet existing datasets benchmarks lack explicit alignment.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce dataset spatially grounded anchors street-view images structured spatial graphs provides graph-aligned supervision via reasoning paths context captions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building UGData propose UGE two-stage training strategy progressively stably aligns images text spatial structures combining instruction-guided contrastive learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Lastly introduce UGBench comprehensive benchmark evaluate how spatially grounded embeddings support diverse urban understanding tasks including geolocation ranking.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Lastly introduce UGBench comprehensive benchmark evaluate how spatially grounded embeddings support diverse urban understanding tasks including geolocation ranking.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning transferable multimodal embeddings urban environments challenging because understanding inherently spatial yet existing datasets benchmarks lack explicit alignment.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce dataset spatially grounded anchors street-view images structured spatial graphs provides graph-aligned supervision via reasoning paths context captions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building UGData propose UGE two-stage training strategy progressively stably aligns images text spatial structures combining instruction-guided contrastive learning.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Lastly introduce UGBench comprehensive benchmark evaluate how spatially grounded embeddings support diverse urban understanding tasks including geolocation ranking.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

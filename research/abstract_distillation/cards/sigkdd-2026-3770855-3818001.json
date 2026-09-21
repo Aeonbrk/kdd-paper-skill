@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818001",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Kairos: Time-Sensitive Scheduling for Ad-Oriented ML Workloads with Heterogeneous Time-Utility Functions",
+  "doi": "10.1145/3770855.3818001",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196983534",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Digital advertising relies heavily machine learning models accurate recommendations yet training tasks exhibit unique time-sensitive characteristics often overlooked.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing schedulers lack precise functions value decay primarily optimize system-level metrics throughput fairness thereby failing preserve time-dependent.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap paper identifies three distinct types ad recommendation tasks i.e. SLO softSLO each characteristic value decay patterns.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Then propose Kairos utility-theoretic scheduling algorithm jointly reasons about elastic parallelism heterogeneous deadlines time-decaying utilities maximize total system.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate Kairos achieves up 47% improvement overall utility preservation compared state-of-the-art schedulers..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Digital advertising relies heavily machine learning models accurate recommendations yet training tasks exhibit unique time-sensitive characteristics often overlooked.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing schedulers lack precise functions value decay primarily optimize system-level metrics throughput fairness thereby failing preserve time-dependent.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap paper identifies three distinct types ad recommendation tasks i.e. SLO softSLO each characteristic value decay patterns.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Then propose Kairos utility-theoretic scheduling algorithm jointly reasons about elastic parallelism heterogeneous deadlines time-decaying utilities maximize total system.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate Kairos achieves up 47% improvement overall utility preservation compared state-of-the-art schedulers..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

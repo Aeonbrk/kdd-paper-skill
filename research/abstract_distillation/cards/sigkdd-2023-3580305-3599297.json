@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599297",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Deception by Omission: Using Adversarial Missingness to Poison Causal Structure Learning",
+  "doi": "10.1145/3580305.3599297",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568142",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However when data audited correctness e.g. cryptographically signed source adversarial mechanism invalidated..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduces novel attack methodology wherein adversary deceptively omits portion true training data bias learned causal structures desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Under model theoretically sound attack mechanisms derived case arbitrary SCMs sample-efficient learning-based heuristic given..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Prior work has demonstrated adversarial perturbations completely observed training data used force learning inaccurate causal structural models SCMs.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental validation approaches real synthetic data sets demonstrates effectiveness adversarial missingness attacks deceiving popular causal structure learning algorithms..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However when data audited correctness e.g. cryptographically signed source adversarial mechanism invalidated..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduces novel attack methodology wherein adversary deceptively omits portion true training data bias learned causal structures desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Causality-informed machine learning has been proposed avenue achieving many goals modern ensuring generalization under domain shifts attaining fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

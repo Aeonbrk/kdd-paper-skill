@@ -1,0 +1,120 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780192",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PilotANN: Memory-Bounded GPU Acceleration for Vector Search",
+  "doi": "10.1145/3770854.3780192",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415062175",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Approximate Nearest Neighbor Search ANNS has become fundamental modern deep learning applications having gained particular prominence through integration.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving solution propose PilotANN hybrid CPU-GPU system graph-based ANNS utilizes both CPU abundant RAM GPU parallel processing capabilities..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore introduce fast entry selection improve search starting points maximizing GPU utilization..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving key innovation lies decomposing top-k search process three complementary stages increasing precision decreasing computational cost GPU-accelerated subgraph traversal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore introduce fast entry selection improve search starting points maximizing GPU utilization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate PilotANN achieves 3.9 5.4 speedup throughput 100 million scale datasets able handle up 12 larger.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Approximate Nearest Neighbor Search ANNS has become fundamental modern deep learning applications having gained particular prominence through integration.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solution propose PilotANN hybrid CPU-GPU system graph-based ANNS utilizes both CPU abundant RAM GPU parallel processing capabilities..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore introduce fast entry selection improve search starting points maximizing GPU utilization..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving key innovation lies decomposing top-k search process three complementary stages increasing precision decreasing computational cost GPU-accelerated subgraph traversal.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

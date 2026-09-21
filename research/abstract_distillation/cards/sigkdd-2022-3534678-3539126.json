@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539126",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "User Behavior Pre-training for Online Fraud Detection",
+  "doi": "10.1145/3534678.3539126",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290874890",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines outbreak COVID-19 burgeons newborn services online platforms simultaneously buoys multifarious fraud activities..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However ever accumulated user behavioral data online platforms might helpful improving performance fraud detection newborn services..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end paper propose pre-train user behavior sequences consist orderly arranged actions large-scale unlabeled data sources online fraud detection..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving anatomizing characteristic online fraud activities devise model named UB-PTM learns knowledge three agent tasks different granularities i.e. action.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Extensive experiments three downstream transaction user-level online fraud detection tasks demonstrate UB-PTM able outperform state-of-the-art designing specific tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However ever accumulated user behavioral data online platforms might helpful improving performance fraud detection newborn services..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Recent studies illustrate accurate extraction user intentions formed consecutive actions behavioral sequences propel improvements performance online fraud detection..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments three downstream transaction user-level online fraud detection tasks demonstrate UB-PTM able outperform state-of-the-art designing specific tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines outbreak COVID-19 burgeons newborn services online platforms simultaneously buoys multifarious fraud activities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However ever accumulated user behavioral data online platforms might helpful improving performance fraud detection newborn services..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper propose pre-train user behavior sequences consist orderly arranged actions large-scale unlabeled data sources online fraud detection..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving anatomizing characteristic online fraud activities devise model named UB-PTM learns knowledge three agent tasks different granularities i.e. action.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However ever accumulated user behavioral data online platforms might helpful improving performance fraud detection newborn services..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

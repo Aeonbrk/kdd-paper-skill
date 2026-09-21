@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818070",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "GLaVis: Generative Latent Visual Queries for Multimodal Conversational Recommender Systems with MLLMs",
+  "doi": "10.1145/3770855.3818070",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197050560",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal Conversational Recommender Systems MCRSs hold promise capturing ineffable user preferences diverse modalities multi-turn interactions..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing paradigms based Multimodal Large Language Models MLLMs fundamentally constrained They either restricted external retrievers suffer severe.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving transcend limitations propose GLaVis Generative Latent Visual Queries end-to-end retrieval framework enables MLLM directly produce continuous embeddings multimodal.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving bridge semantic gap between MLLM representations visual space item integrate lightweight query projector backbone..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore unify recommendation i.e. visual retrieval natural language response generation within single framework devise multi-stage training strategy..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments two public datasets MMD FashionRec demonstrate GLaVis significantly outperforms state-of-the-art baselines both visual recommendation accuracy response.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal Conversational Recommender Systems MCRSs hold promise capturing ineffable user preferences diverse modalities multi-turn interactions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing paradigms based Multimodal Large Language Models MLLMs fundamentally constrained They either restricted external retrievers suffer severe.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving transcend limitations propose GLaVis Generative Latent Visual Queries end-to-end retrieval framework enables MLLM directly produce continuous embeddings multimodal.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge semantic gap between MLLM representations visual space item integrate lightweight query projector backbone..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments two public datasets MMD FashionRec demonstrate GLaVis significantly outperforms state-of-the-art baselines both visual recommendation accuracy response.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

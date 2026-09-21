@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671561",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "LiRank: Industrial Large Scale Ranking Models at LinkedIn",
+  "doi": "10.1145/3637528.3671561",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863333",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present LiRank large-scale ranking framework LinkedIn brings production state-of-the-art modeling architectures optimization methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present LiRank large-scale ranking framework LinkedIn brings production state-of-the-art modeling architectures optimization methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving unveil several modeling improvements including Residual DCN adds attention connections famous DCNv2 architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving share insights combining tuning SOTA architectures create unified model including Dense Gating Transformers Residual DCN..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving unveil several modeling improvements including Residual DCN adds attention connections famous DCNv2 architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present LiRank large-scale ranking framework LinkedIn brings production state-of-the-art modeling architectures optimization methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present LiRank large-scale ranking framework LinkedIn brings production state-of-the-art modeling architectures optimization methods..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving unveil several modeling improvements including Residual DCN adds attention connections famous DCNv2 architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving unveil several modeling improvements including Residual DCN adds attention connections famous DCNv2 architecture..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

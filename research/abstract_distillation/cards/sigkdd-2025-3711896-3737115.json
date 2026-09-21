@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737115",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "SAGE: Scale-Aware Gradual Evolution for Continual Knowledge Graph Embedding",
+  "doi": "10.1145/3711896.3737115",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877072",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Traditional knowledge graph KG embedding methods aim represent entities relations low-dimensional space primarily focusing static graphs..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world KGs dynamically evolving constant addition entities relations facts..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address dynamic nature KGs several continual knowledge graph embedding CKGE methods have been developed efficiently update KG embeddings.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose SAGE scale-aware gradual evolution framework CKGE..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving conduct extensive experiments seven benchmarks results show SAGE consistently outperforms existing baselines notable improvement 1.38% MRR 1.25% 1.6%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving KGs grow different rates scales real-world scenarios existing CKGE methods often fail consider varying updates lack systematic evaluation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments seven benchmarks results show SAGE consistently outperforms existing baselines notable improvement 1.38% MRR 1.25% 1.6%.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore experiments comparing fixed dimensions methods show SAGE achieves optimal performance every snapshot demonstrating importance adaptive embedding CKGE..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Traditional knowledge graph KG embedding methods aim represent entities relations low-dimensional space primarily focusing static graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world KGs dynamically evolving constant addition entities relations facts..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address dynamic nature KGs several continual knowledge graph embedding CKGE methods have been developed efficiently update KG embeddings.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose SAGE scale-aware gradual evolution framework CKGE..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving KGs grow different rates scales real-world scenarios existing CKGE methods often fail consider varying updates lack systematic evaluation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818165",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "An Exterior-Embedding Neural Operator Framework for Preserving Conservation Laws",
+  "doi": "10.1145/3770855.3818165",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416550702",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neural operators have demonstrated considerable effectiveness accelerating solution time-dependent partial differential equations PDEs directly learning governing physical laws.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However PDEs governed conservation laws e.g. mass energy matter existing neural operators fail satisfy properties leads degraded model.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However PDEs governed conservation laws e.g. mass energy matter existing neural operators fail satisfy properties leads degraded model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Moreover observe distinct PDE problems generally require different optimal neural network architectures..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose Exterior-Embedded Conservation Framework ECF universal conserving integrated various data-driven neural operators enforce laws strictly predictions..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Neural operators have demonstrated considerable effectiveness accelerating solution time-dependent partial differential equations PDEs directly learning governing physical laws.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving validate performance method conduct experiments multiple conservation-law-constrained PDE scenarios including adiabatic systems shallow water equations Allen-Cahn problem..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving baselines demonstrate method effectively improves model accuracy strictly enforcing conservation laws predictions..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neural operators have demonstrated considerable effectiveness accelerating solution time-dependent partial differential equations PDEs directly learning governing physical laws.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However PDEs governed conservation laws e.g. mass energy matter existing neural operators fail satisfy properties leads degraded model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However PDEs governed conservation laws e.g. mass energy matter existing neural operators fail satisfy properties leads degraded model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover observe distinct PDE problems generally require different optimal neural network architectures..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Neural operators have demonstrated considerable effectiveness accelerating solution time-dependent partial differential equations PDEs directly learning governing physical laws.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

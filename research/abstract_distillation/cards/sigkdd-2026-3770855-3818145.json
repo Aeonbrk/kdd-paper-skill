@@ -1,0 +1,99 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818145",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Explaining Rankings with Hidden Group Bonuses",
+  "doi": "10.1145/3770855.3818145",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196973700",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Determining linear utility function correlates observed candidate rankings foundational problem applications domains admissions hiring recommendation systems e.g. Storandt.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world scenarios often involve sensitive attributes hidden partially observed yet influence outcomes through additive bonuses designed promote.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However real-world scenarios often involve sensitive attributes hidden partially observed yet influence outcomes through additive bonuses designed promote.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Motivated practical concerns study variant ranking explanation problem sensitive features unobserved but influence candidate rankings through group-specific linear.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Determining linear utility function correlates observed candidate rankings foundational problem applications domains admissions hiring recommendation systems e.g. Storandt.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world scenarios often involve sensitive attributes hidden partially observed yet influence outcomes through additive bonuses designed promote.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However real-world scenarios often involve sensitive attributes hidden partially observed yet influence outcomes through additive bonuses designed promote.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated practical concerns study variant ranking explanation problem sensitive features unobserved but influence candidate rankings through group-specific linear.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818139",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation",
+  "doi": "10.1145/3770855.3818139",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196988476",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern recommendation systems primarily rely attention mechanisms quadratic complexity limits ability handle long user sequences slows down inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving linear attention promising alternative existing research faces three critical challenges temporal signals often overlooked integrated via naive coupling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose FuXi-Linear linear-complexity model designed efficient long-sequence recommendation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving approach introduces two key components Temporal Retention Channel independently computes periodic attention weights data preventing crosstalk between semantic.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Moreover demonstrate FuXi-Linear exhibits scaling properties thousand-length scale characteristic largely unexplored prior linear recommendation studies..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments sequences several thousand tokens demonstrate FuXi-Linear outperforms state-of-the-art models recommendation quality achieving up 10 speedup prefill.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern recommendation systems primarily rely attention mechanisms quadratic complexity limits ability handle long user sequences slows down inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving linear attention promising alternative existing research faces three critical challenges temporal signals often overlooked integrated via naive coupling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose FuXi-Linear linear-complexity model designed efficient long-sequence recommendation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Moreover demonstrate FuXi-Linear exhibits scaling properties thousand-length scale characteristic largely unexplored prior linear recommendation studies..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599792",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Conditional Neural ODE Processes for Individual Disease Progression Forecasting: A Case Study on COVID-19",
+  "doi": "10.1145/3580305.3599792",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568401",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time series forecasting one fundamental machine learning areas has attracted tremendous attentions over recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving One emerging sub-field time series forecasting individual disease progression e.g. predicting individuals development over few days deteriorating trends.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle challenges propose novel Conditional Neural Ordinary Differential Equations Processes CNDPs validate COVID-19 disease progression forecasting task audio.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving proposed label-enhancing mechanism i.e. including initial health status input customised individual-level loss CNDPs further boost performance reaching UAR.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving CNDPs allow irregularly-sampled time series modelling enable accurate forecasting sparse past observations achieve individual-level progression forecasting..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving CNDPs show strong performance Unweighted Average Recall UAR 78.1% outperforming variety commonly used Recurrent Neural Networks based models..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time series forecasting one fundamental machine learning areas has attracted tremendous attentions over recent years..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving One emerging sub-field time series forecasting individual disease progression e.g. predicting individuals development over few days deteriorating trends.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges propose novel Conditional Neural Ordinary Differential Equations Processes CNDPs validate COVID-19 disease progression forecasting task audio.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving CNDPs allow irregularly-sampled time series modelling enable accurate forecasting sparse past observations achieve individual-level progression forecasting..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

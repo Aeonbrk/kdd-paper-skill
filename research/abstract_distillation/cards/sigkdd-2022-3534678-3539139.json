@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539139",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Talent Demand-Supply Joint Prediction with Dynamic Heterogeneous Graph Enhanced Meta-Learning",
+  "doi": "10.1145/3534678.3539139",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943423",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Talent demand supply forecasting aims model variation labor market crucial companies recruitment strategy adjustment job seekers proactive career.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches either focus talent demand supply forecasting but overlook interconnection between demand-supply sequences among different companies.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Talent demand supply forecasting aims model variation labor market crucial companies recruitment strategy adjustment job seekers proactive career.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end paper propose Dynamic Heterogeneous Graph Enhanced Meta-learning DH-GEM framework fine-grained talent demand-supply joint prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically first propose Demand-Supply Joint Encoder-Decoder DSJED Dynamic Company-Position Heterogeneous Graph Convolutional Network DyCP-HGCN respectively capture intrinsic correlation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments have been conducted three real-world datasets demonstrate effectiveness approach compared five baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Talent demand supply forecasting aims model variation labor market crucial companies recruitment strategy adjustment job seekers proactive career.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches either focus talent demand supply forecasting but overlook interconnection between demand-supply sequences among different companies.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Talent demand supply forecasting aims model variation labor market crucial companies recruitment strategy adjustment job seekers proactive career.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper propose Dynamic Heterogeneous Graph Enhanced Meta-learning DH-GEM framework fine-grained talent demand-supply joint prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments have been conducted three real-world datasets demonstrate effectiveness approach compared five baselines..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

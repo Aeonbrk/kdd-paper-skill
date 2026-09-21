@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539091",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Self-Supervised Augmentation and Generation for Multi-lingual Text Advertisements at Bing",
+  "doi": "10.1145/3534678.3539091",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290944250",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multi-lingual text advertisement generation critical task international companies Microsoft..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Due lack training data scaling out text advertisements generation low-resource languages grand challenge real industry setting..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Although some methods transfer knowledge rich-resource languages low-resource through pre-trained multi-lingual language model they fail balancing transferability source.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose unified Self-Supervised Augmentation Generation SAG architecture handle multi-lingual text advertisements task real production scenario..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving alleviate problem data scarcity employ multiple augmentation strategies synthesize training target languages..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving new state-of-the-art results well-known benchmark verify effectiveness generalizability proposed framework deployment Microsoft Bing demonstrates superior performance method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multi-lingual text advertisement generation critical task international companies Microsoft..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Due lack training data scaling out text advertisements generation low-resource languages grand challenge real industry setting..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although some methods transfer knowledge rich-resource languages low-resource through pre-trained multi-lingual language model they fail balancing transferability source.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose unified Self-Supervised Augmentation Generation SAG architecture handle multi-lingual text advertisements task real production scenario..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving new state-of-the-art results well-known benchmark verify effectiveness generalizability proposed framework deployment Microsoft Bing demonstrates superior performance method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817562",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "AssetOpsBench: A Real-World Evaluation Benchmark for AI-Driven Task Automation in Industrial Asset Management",
+  "doi": "10.1145/3770855.3817562",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197041286",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines AI Industrial Asset Lifecycle Management aims automate complex operational workflows condition monitoring maintenance scheduling minimize system downtime..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving traditional AI/ML approaches solve narrow tasks isolation Large Language Model LLM agents offer next-generation opportunity end-to-end automation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce AssetOpsBench unified framework orchestrating evaluating domain-specific agents Industry 4.0.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving AssetOpsBench provides multimodal ecosystem comprising catalog four domain-specific agents curated dataset 140 human-authored natural-language queries grounded real industrial.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper introduce AssetOpsBench unified framework orchestrating evaluating domain-specific agents Industry 4.0.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce automated evaluation framework uses three key metrics analyze architectural trade-offs between Agent-As-Tool Plan-Execute paradigms along systematic procedure.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving practical relevance AssetOpsBench demonstrated broad community adoption 350 users over 500 agents submitted public benchmarking platform supporting reproducible.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines AI Industrial Asset Lifecycle Management aims automate complex operational workflows condition monitoring maintenance scheduling minimize system downtime..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving traditional AI/ML approaches solve narrow tasks isolation Large Language Model LLM agents offer next-generation opportunity end-to-end automation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce AssetOpsBench unified framework orchestrating evaluating domain-specific agents Industry 4.0.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper introduce AssetOpsBench unified framework orchestrating evaluating domain-specific agents Industry 4.0.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

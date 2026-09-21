@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709402",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "SepsisCalc: Integrating Clinical Calculators into Early Sepsis Prediction via Dynamic Temporal Graph Construction",
+  "doi": "10.1145/3690624.3709402",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158184",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines six-organ dysfunction assessment SOFA Figure play vital role sepsis identification within clinicians workflow providing evidence-based risk assessments essential.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However artificial intelligence AI sepsis prediction models typically generate single risk score without incorporating clinical calculators assessing organ.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose mimic clinicians workflow novel framework SepsisCalc integrate clinical calculators predictive model yielding clinically transparent precise.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate issue representing EHRs temporal graphs integrating learning module dynamically add accurately estimated calculator graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experimental results real-world datasets show proposed model outperforms state-of-the-art methods sepsis prediction tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results real-world datasets show proposed model outperforms state-of-the-art methods sepsis prediction tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines six-organ dysfunction assessment SOFA Figure play vital role sepsis identification within clinicians workflow providing evidence-based risk assessments essential.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However artificial intelligence AI sepsis prediction models typically generate single risk score without incorporating clinical calculators assessing organ.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose mimic clinicians workflow novel framework SepsisCalc integrate clinical calculators predictive model yielding clinically transparent precise.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate issue representing EHRs temporal graphs integrating learning module dynamically add accurately estimated calculator graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results real-world datasets show proposed model outperforms state-of-the-art methods sepsis prediction tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

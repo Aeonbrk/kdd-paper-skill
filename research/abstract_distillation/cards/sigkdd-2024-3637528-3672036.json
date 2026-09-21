@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672036",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "DipDNN: Preserving Inverse Consistency and Approximation Efficiency for Invertible Learning",
+  "doi": "10.1145/3637528.3672036",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857066",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Consistent bi-directional inferences key many machine learning applications..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Since standard deep neural networks DNNs not inherently invertible offer consistency some past methods reconstruct DNN architecture analytically.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based observation propose decomposed-invertible-pathway DNNs DipDNN.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving result strictly guarantee consistency global inverse modeling without harming DNN capability universal approximation..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving numerical stability generalizability keys controlling critical infrastructures integrate contractive property parallel structure inductive biases leading stable performance..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving result strictly guarantee consistency global inverse modeling without harming DNN capability universal approximation..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Numerical results show DipDNN performs significantly better past methods thanks enforcement inverse consistency stability physical regularization..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Consistent bi-directional inferences key many machine learning applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Since standard deep neural networks DNNs not inherently invertible offer consistency some past methods reconstruct DNN architecture analytically.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based observation propose decomposed-invertible-pathway DNNs DipDNN.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving result strictly guarantee consistency global inverse modeling without harming DNN capability universal approximation..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving result strictly guarantee consistency global inverse modeling without harming DNN capability universal approximation..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

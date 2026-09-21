@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671879",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "BadSampler: Harnessing the Power of Catastrophic Forgetting to Poison Byzantine-robust Federated Learning",
+  "doi": "10.1145/3637528.3671879",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4399836929",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Federated Learning FL susceptible poisoning attacks wherein compromised clients manipulate global model modifying local datasets sending manipulated updates..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However exploration poisoning attacks scenarios behaviors absent remains largely unexplored Byzantine-robust FL..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Federated Learning FL susceptible poisoning attacks wherein compromised clients manipulate global model modifying local datasets sending manipulated updates..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper addresses challenging problem poisoning Byzantine-robust FL introducing catastrophic forgetting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving fill gap first formally define generalization error establish connection catastrophic forgetting paving way development clean-label data poisoning attack.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Additionally formal error upper bound time complexity analysis demonstrate design preserve attack utility high efficiency..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive evaluations two real-world datasets illustrate effectiveness performance proposed attacks..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Federated Learning FL susceptible poisoning attacks wherein compromised clients manipulate global model modifying local datasets sending manipulated updates..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However exploration poisoning attacks scenarios behaviors absent remains largely unexplored Byzantine-robust FL..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Federated Learning FL susceptible poisoning attacks wherein compromised clients manipulate global model modifying local datasets sending manipulated updates..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper addresses challenging problem poisoning Byzantine-robust FL introducing catastrophic forgetting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Additionally formal error upper bound time complexity analysis demonstrate design preserve attack utility high efficiency..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

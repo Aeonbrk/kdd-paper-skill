@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817477",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets",
+  "doi": "10.1145/3770855.3817477",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197029034",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Semantic identifiers SIDs have gained increasing attention generative retrieval GR recommendation due meaningful discriminability..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current studies field primarily offer limited investigation construction strategies better SIDs SID assessment typically relies costly GR.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address challenges propose FORGE comprehensive benchmark FOrming semantic identifieRs Generative rEtrieval..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving avoid expensive SID assessment requires full GR training propose two novel evaluation metrics highly correlated recommendation performance enabling.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Furthermore facilitate community release AL-GR industrial dataset used experiments comprising 14 billion interactions 250 million items corresponding multimodal.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Specifically FORGE provides taxonomy SID construction process several perspectives validates impact downstream GR through offline experiments across diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably empirical findings have led 0.35% increase transaction count via online A/B experiments Guess You Like section Taobao..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving corresponding SID construction strategies have since been deployed full scale Taobao demonstrating practical effectiveness..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Semantic identifiers SIDs have gained increasing attention generative retrieval GR recommendation due meaningful discriminability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current studies field primarily offer limited investigation construction strategies better SIDs SID assessment typically relies costly GR.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose FORGE comprehensive benchmark FOrming semantic identifieRs Generative rEtrieval..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving avoid expensive SID assessment requires full GR training propose two novel evaluation metrics highly correlated recommendation performance enabling.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Specifically FORGE provides taxonomy SID construction process several perspectives validates impact downstream GR through offline experiments across diverse.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,112 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817716",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "VIVID: Backbone Training-Free Text-to-Image Video Editing via Variational Latent Anchors",
+  "doi": "10.1145/3770855.3817716",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197028318",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Backbone training-free video editing built pre-trained text-to-image T2I diffusion models enables lightweight prompt-driven edits without additional finetuning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose VIVID Variational Inference Video editing Image Diffusion uncertainty-aware latent anchoring module dynamically selects informative frames compresses.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving VIVID learns stable assignments via variational objective contrastive alignment prior regularization producing anchors preserve spatial details enforcing temporal.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments standard benchmarks in-the-wild videos demonstrate VIVID achieves state-of-the-art inversion fidelity editing quality temporal consistency reducing memory.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Backbone training-free video editing built pre-trained text-to-image T2I diffusion models enables lightweight prompt-driven edits without additional finetuning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose VIVID Variational Inference Video editing Image Diffusion uncertainty-aware latent anchoring module dynamically selects informative frames compresses.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving VIVID learns stable assignments via variational objective contrastive alignment prior regularization producing anchors preserve spatial details enforcing temporal.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments standard benchmarks in-the-wild videos demonstrate VIVID achieves state-of-the-art inversion fidelity editing quality temporal consistency reducing memory.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

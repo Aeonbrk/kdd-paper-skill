@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539030",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "DuIVA: An Intelligent Voice Assistant for Hands-free and Eyes-free Voice Interaction with the Baidu Maps App",
+  "doi": "10.1145/3534678.3539030",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927772",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Mobile map apps Baidu Maps app have become ubiquitous essential tool users find optimal routes get turn-by-turn navigation.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However interacting apps driving through visual-manual interaction modality inevitably causes driver distraction due highly conspicuous nature time-sharing multi-tasking.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper present efforts findings year longitudinal study designing implementing DuIVA intelligent voice assistant IVA embedded Baidu Maps app.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically DuIVA designed enable users control functionalities Baidu Maps e.g. navigation location search through voice interaction rather visual-manual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving DuIVA has already been deployed production Baidu Maps since November 2017 facilitates better interaction modality app improves accessibility.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving December 31 2021 over 530 million users have used DuIVA demonstrates industrial-grade production-proven solution in-app intelligent voice assistants..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Mobile map apps Baidu Maps app have become ubiquitous essential tool users find optimal routes get turn-by-turn navigation.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However interacting apps driving through visual-manual interaction modality inevitably causes driver distraction due highly conspicuous nature time-sharing multi-tasking.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present efforts findings year longitudinal study designing implementing DuIVA intelligent voice assistant IVA embedded Baidu Maps app.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically DuIVA designed enable users control functionalities Baidu Maps e.g. navigation location search through voice interaction rather visual-manual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving DuIVA has already been deployed production Baidu Maps since November 2017 facilitates better interaction modality app improves accessibility.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

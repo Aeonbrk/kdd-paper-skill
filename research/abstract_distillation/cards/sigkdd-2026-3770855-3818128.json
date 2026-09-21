@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818128",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Efficient Piecewise-Linear Embeddings for Deep Tabular Regression by Guided Breakpoint Allocation",
+  "doi": "10.1145/3770855.3818128",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196968014",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Tabular prediction central scientific industrial decision-making many high-impact use cases regression tasks predict continuous targets..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance often highly sensitive parameter choices choice frequencies Fourier features placement breakpoints piecewise-linear embeddings..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end numerous numerical embeddings have been proposed..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work demonstrate underexplored potential piecewise-linear embeddings showing finding better breakpoints alone yield substantial gains..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce GBDT-Guided Piecewise-Linear GGPL embeddings leverage GBDTs provide strong data-driven prior breakpoint placement..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work demonstrate underexplored potential piecewise-linear embeddings showing finding better breakpoints alone yield substantial gains..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across 28 regression datasets integrating GGPL diverse state-of-the-art deep tabular models yields consistent significant improvements..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore controlled MLP experiments uses only 0.4 many breakpoints average prior piecewise-linear embeddings achieving higher accuracy..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Tabular prediction central scientific industrial decision-making many high-impact use cases regression tasks predict continuous targets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance often highly sensitive parameter choices choice frequencies Fourier features placement breakpoints piecewise-linear embeddings..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end numerous numerical embeddings have been proposed..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work demonstrate underexplored potential piecewise-linear embeddings showing finding better breakpoints alone yield substantial gains..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work demonstrate underexplored potential piecewise-linear embeddings showing finding better breakpoints alone yield substantial gains..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

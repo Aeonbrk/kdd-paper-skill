@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817888",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "A Black Box Optimization-based Bidding Strategy for Data Consumers in Auction-based Federated Learning",
+  "doi": "10.1145/3770855.3817888",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196984824",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Auction-based Federated Learning AFL has emerged robust paradigm incentivizing Data Owners DOs contribute private resources global model..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However determining optimal bidding strategies Data Consumers DCs remains fundamental challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Auction-based Federated Learning AFL has emerged robust paradigm incentivizing Data Owners DOs contribute private resources global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper depart stepwise MDP paradigm reformulate AFL bidding Black-Box Optimization BBO problem..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving treating entire recruitment-to-training pipeline single function evaluation bypass need intractable reward decomposition..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving treating entire recruitment-to-training pipeline single function evaluation bypass need intractable reward decomposition..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Theoretical analysis demonstrates BBO-AFL asymptotically recovers standard convergence rate zeroth-order methods strictly maintaining financial safety throughout optimization trajectory..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments benchmark datasets demonstrate BBO-AFL significantly outperforms state-of-the-art RL baselines..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Auction-based Federated Learning AFL has emerged robust paradigm incentivizing Data Owners DOs contribute private resources global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However determining optimal bidding strategies Data Consumers DCs remains fundamental challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Auction-based Federated Learning AFL has emerged robust paradigm incentivizing Data Owners DOs contribute private resources global model..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper depart stepwise MDP paradigm reformulate AFL bidding Black-Box Optimization BBO problem..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving treating entire recruitment-to-training pipeline single function evaluation bypass need intractable reward decomposition..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

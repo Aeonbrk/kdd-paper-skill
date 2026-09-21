@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709340",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Future Matters for Present: Towards Effective Physical Simulation over Meshes",
+  "doi": "10.1145/3690624.3709340",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149662",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper investigates problem learning mesh-based physical simulations crucial task applications fluid mechanics aerodynamics..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods cannot achieve satisfactory performance long-term predictions due failure capturing dependency potential error accumulations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving tackle introduce new future-to-present learning perspective further develop simple yet effective approach named Foresight Interpolation FAIR long-term mesh-based.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving main idea FAIR first learn graph ODE model coarse long-term predictions then refine short-term via interpolation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically FAIR employs continuous graph ODE model incorporates past states evolution interacting node representations capable learning coarse long-term.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However methods cannot achieve satisfactory performance long-term predictions due failure capturing dependency potential error accumulations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through pyramid-like alternative propagation between foresight step refinement proposed framework FAIR generate accurate long-term trajectories achieving significant error.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper investigates problem learning mesh-based physical simulations crucial task applications fluid mechanics aerodynamics..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods cannot achieve satisfactory performance long-term predictions due failure capturing dependency potential error accumulations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle introduce new future-to-present learning perspective further develop simple yet effective approach named Foresight Interpolation FAIR long-term mesh-based.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving main idea FAIR first learn graph ODE model coarse long-term predictions then refine short-term via interpolation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However methods cannot achieve satisfactory performance long-term predictions due failure capturing dependency potential error accumulations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

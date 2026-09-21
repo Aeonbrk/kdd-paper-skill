@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736975",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "GDendrite: On Heterophilous Graph Contexts Mining with Versatile Neural Dendrites Framework",
+  "doi": "10.1145/3711896.3736975",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877232",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines significant challenge Graph Neural Networks GNNs lies accurately performing node classification tasks heterophilous graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving demonstrate how biophysical properties dendrites enable GNNs adaptively modulate Dirichlet energy graph representations based specific context providing theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce GDendrite framework dynamically adjusts GNN output response various contexts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving empirical studies conducted across 13 homophilous heterophilous benchmark datasets show framework significantly enhances performance traditional GNNs settings outperforms.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate how biophysical properties dendrites enable GNNs adaptively modulate Dirichlet energy graph representations based specific context providing theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving empirical studies conducted across 13 homophilous heterophilous benchmark datasets show framework significantly enhances performance traditional GNNs settings outperforms.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines significant challenge Graph Neural Networks GNNs lies accurately performing node classification tasks heterophilous graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving demonstrate how biophysical properties dendrites enable GNNs adaptively modulate Dirichlet energy graph representations based specific context providing theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce GDendrite framework dynamically adjusts GNN output response various contexts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate how biophysical properties dendrites enable GNNs adaptively modulate Dirichlet energy graph representations based specific context providing theoretical.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,99 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817578",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FinStressTS: A Parametric Synthetic Benchmark for Time-Series Forecasting in Finance",
+  "doi": "10.1145/3770855.3817578",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163558927",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Financial forecasting notoriously difficult due low signal-to-noise ratios latent factors discontinuous jumps..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving critical limitation real-world benchmarks inability attribute failure researchers see model underperforms but cannot isolate why generative mechanisms unobservable.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving critical limitation real-world benchmarks inability attribute failure researchers see model underperforms but cannot isolate why generative mechanisms unobservable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce FinStressTS mechanism-aware synthetic benchmark designed bridge gap providing controlled environments link model behavior directly specific structural causes..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Financial forecasting notoriously difficult due low signal-to-noise ratios latent factors discontinuous jumps..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving critical limitation real-world benchmarks inability attribute failure researchers see model underperforms but cannot isolate why generative mechanisms unobservable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving critical limitation real-world benchmarks inability attribute failure researchers see model underperforms but cannot isolate why generative mechanisms unobservable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce FinStressTS mechanism-aware synthetic benchmark designed bridge gap providing controlled environments link model behavior directly specific structural causes..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

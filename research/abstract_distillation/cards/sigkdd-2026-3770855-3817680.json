@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817680",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DocRetriever: A Plug-and-Play Framework for Multimodal Document Retrieval with Comprehensive Benchmark",
+  "doi": "10.1145/3770855.3817680",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162879359",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multimodal documents contain diverse elements tables figures layouts complicate retrieval tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose DocRetriever plug-and-play framework..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce generalizable reranker leverages reasoning-augmented demonstrations optimized sampling improve accuracy few-shot settings..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Finally construct new benchmark MultiDocR enable rigorous evaluation..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving current approaches typically combine dense visual embedding models supervised rerankers achieve high-precision retrieval they face inherent limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore existing benchmarks often lack diverse assessment dimensions comprehensive relevance annotations limiting reliable evaluation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving introduce generalizable reranker leverages reasoning-augmented demonstrations optimized sampling improve accuracy few-shot settings..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multimodal documents contain diverse elements tables figures layouts complicate retrieval tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose DocRetriever plug-and-play framework..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce generalizable reranker leverages reasoning-augmented demonstrations optimized sampling improve accuracy few-shot settings..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving current approaches typically combine dense visual embedding models supervised rerankers achieve high-precision retrieval they face inherent limitations..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

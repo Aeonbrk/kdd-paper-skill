@@ -1,0 +1,110 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783927",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "ALF: Advertiser Large Foundation Model for Multi-Modal Advertiser Understanding",
+  "doi": "10.1145/3770854.3783927",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416888414",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present ALF Advertiser Large Foundation model multi-modal transformer architecture understanding behavior intent across text image video structured data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present ALF Advertiser Large Foundation model multi-modal transformer architecture understanding behavior intent across text image video structured data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model achieves state-of-the-art performance critical tasks including fraud detection policy violation identification advertiser similarity matching..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving model achieves state-of-the-art performance critical tasks including fraud detection policy violation identification advertiser similarity matching..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving production deployment ALF demonstrates significant real-world impact delivering simultaneous gains both precision recall instance boosting over 40 percentage.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present ALF Advertiser Large Foundation model multi-modal transformer architecture understanding behavior intent across text image video structured data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present ALF Advertiser Large Foundation model multi-modal transformer architecture understanding behavior intent across text image video structured data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model achieves state-of-the-art performance critical tasks including fraud detection policy violation identification advertiser similarity matching..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving model achieves state-of-the-art performance critical tasks including fraud detection policy violation identification advertiser similarity matching..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

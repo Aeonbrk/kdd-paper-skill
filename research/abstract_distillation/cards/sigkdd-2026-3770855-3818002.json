@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818002",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+  "doi": "10.1145/3770855.3818002",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163544664",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent progress Large Language Model LLM agents has enabled promising advances automated data science..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches remain fundamentally limited static action sets lack principled long-horizon context management hindering ability accumulate reusable.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recent progress Large Language Model LLM agents has enabled promising advances automated data science..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges introduce EvoDS self-evolving autonomous data science agent learns expand skills adaptively managing long-term context through agentic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically EvoDS introduces two key strategies Autonomous Skill Acquisition ASA mechanism enables agents synthesize validate reuse executable skills.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving strategies orchestrated within two-stage multi-agent training scheme enabling EvoDS autonomously improve over time..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically EvoDS outperforms state-of-the-art open-source data science agents average 28.9% across four diverse benchmarks eliminating out-of-token failures..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent progress Large Language Model LLM agents has enabled promising advances automated data science..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches remain fundamentally limited static action sets lack principled long-horizon context management hindering ability accumulate reusable.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent progress Large Language Model LLM agents has enabled promising advances automated data science..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce EvoDS self-evolving autonomous data science agent learns expand skills adaptively managing long-term context through agentic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving strategies orchestrated within two-stage multi-agent training scheme enabling EvoDS autonomously improve over time..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

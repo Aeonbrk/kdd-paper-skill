@@ -1,0 +1,104 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818057",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "PROBE: Dense Process Rewards with Observation Evidence for Tool-Augmented Visual Reasoning",
+  "doi": "10.1145/3770855.3818057",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196923807",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Tool-augmented reasoning offers promising paradigm improving multimodal large language models MLLMs offloading perception external tools..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present PROBE rubric-centric framework single set atomic visual rubrics drives rubric-guided cold-start trajectory selection rubric-conditioned per-step tool reward.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving rubric backbone PROBE-GRPO further introduces Tool Evidence Chain Reward graph-based tool-output utilisation Observation Faithfulness entailment-based content fidelity Adaptive.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Tool-augmented reasoning offers promising paradigm improving multimodal large language models MLLMs offloading perception external tools..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Tool-augmented reasoning offers promising paradigm improving multimodal large language models MLLMs offloading perception external tools..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present PROBE rubric-centric framework single set atomic visual rubrics drives rubric-guided cold-start trajectory selection rubric-conditioned per-step tool reward.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving rubric backbone PROBE-GRPO further introduces Tool Evidence Chain Reward graph-based tool-output utilisation Observation Faithfulness entailment-based content fidelity Adaptive.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Tool-augmented reasoning offers promising paradigm improving multimodal large language models MLLMs offloading perception external tools..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

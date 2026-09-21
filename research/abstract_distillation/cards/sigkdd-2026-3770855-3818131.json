@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818131",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "NumCache: KV Cache Compression and Retrieval for Financial Document QA",
+  "doi": "10.1145/3770855.3818131",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196942663",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs increasingly deployed financial applications particularly interpreting U.S..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However financial QA over filings challenging they extremely long numerically dense often require cross-document reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address gap propose NumCache compresses SEC filings KV caches initialized numerically dense regions trained directly financial QAs..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving top caches then train contrastive retriever aligns questions cache representations thus improving retrieval performance..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluate NumCache Fin-RATE benchmark comprises SEC-filing QA tasks covering single-filing reasoning cross-firm comparison longitudinal trend analysis..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Long-document Retrieval-Augmented Generation RAG improves evidence coverage through coarse-to-fine retrieval yet semantic retrievers collapse fine-grained magnitudes units returning.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving top caches then train contrastive retriever aligns questions cache representations thus improving retrieval performance..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate NumCache Fin-RATE benchmark comprises SEC-filing QA tasks covering single-filing reasoning cross-firm comparison longitudinal trend analysis..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs increasingly deployed financial applications particularly interpreting U.S..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However financial QA over filings challenging they extremely long numerically dense often require cross-document reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap propose NumCache compresses SEC filings KV caches initialized numerically dense regions trained directly financial QAs..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving top caches then train contrastive retriever aligns questions cache representations thus improving retrieval performance..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Long-document Retrieval-Augmented Generation RAG improves evidence coverage through coarse-to-fine retrieval yet semantic retrievers collapse fine-grained magnitudes units returning.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

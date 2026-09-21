@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817979",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Reinforced Structural Reasoning for Receptive Field Optimization in GNN toward Interpretable Graph Clustering",
+  "doi": "10.1145/3770855.3817979",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197023638",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph clustering aims group nodes meaningful clusters crucial task understanding behavior complex networks underlying structural organization..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However despite promise existing GNN-based approaches often lack structural reasoning mechanisms adaptively infer optimize each node receptive field.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel reinforced structural reasoning framework termed RGIGC interpretable graph clustering..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Leveraging expressive power deep learning graph neural networks GNNs have emerged popular tools performing clustering high accuracy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However despite promise existing GNN-based approaches often lack structural reasoning mechanisms adaptively infer optimize each node receptive field.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving agents guided reward criteria strategically shape clustering process achieve desired outcomes..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph clustering aims group nodes meaningful clusters crucial task understanding behavior complex networks underlying structural organization..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However despite promise existing GNN-based approaches often lack structural reasoning mechanisms adaptively infer optimize each node receptive field.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel reinforced structural reasoning framework termed RGIGC interpretable graph clustering..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Leveraging expressive power deep learning graph neural networks GNNs have emerged popular tools performing clustering high accuracy..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

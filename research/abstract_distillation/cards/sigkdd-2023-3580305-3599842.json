@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599842",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "iETA: A Robust and Scalable Incremental Learning Framework for Time-of-Arrival Estimation",
+  "doi": "10.1145/3580305.3599842",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568336",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time-of-arrival estimation Estimated Time Arrival ETA has become indispensable building block modern intelligent transportation systems..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving incremental travel time predictor not only reduces overall learning overhead but improves model robustness toward urban traffic distribution.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end paper propose robust scalable incremental ETA learning framework iETA continuously exploit spatio-temporal traffic patterns massive floating-car data.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically first build incremental travel time predictor incrementally updated based newly generated traffic data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving incremental travel time predictor not only reduces overall learning overhead but improves model robustness toward urban traffic distribution.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving end paper propose robust scalable incremental ETA learning framework iETA continuously exploit spatio-temporal traffic patterns massive floating-car data.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving incremental travel time predictor not only reduces overall learning overhead but improves model robustness toward urban traffic distribution.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover reduce interference induced low-quality traffic data propose adversarial training module improve learning robustness proactively mitigating resisting noise.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time-of-arrival estimation Estimated Time Arrival ETA has become indispensable building block modern intelligent transportation systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving incremental travel time predictor not only reduces overall learning overhead but improves model robustness toward urban traffic distribution.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end paper propose robust scalable incremental ETA learning framework iETA continuously exploit spatio-temporal traffic patterns massive floating-car data.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically first build incremental travel time predictor incrementally updated based newly generated traffic data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving end paper propose robust scalable incremental ETA learning framework iETA continuously exploit spatio-temporal traffic patterns massive floating-car data.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

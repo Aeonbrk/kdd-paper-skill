@@ -1,0 +1,151 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817465",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Evaluating Uplift Modeling under Structural Biases: Insights into Metric Stability and Model Robustness",
+  "doi": "10.1145/3770855.3817465",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196968778",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines personalized marketing uplift models estimate incremental effect intervention modeling how customer behavior would change under alternative treatments counterfactual.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world marketing data often exhibit various biases selection bias spillover effects measurement error unobserved confounding..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap design systematic benchmarking framework..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving investigations reveal uplift targeting prediction manifest distinct objectives proficiency one does not ensure efficacy other ii many models.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving biases adversely affect both accuracy uplift estimation validity evaluation metrics..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Despite importance bias-aware assessment there remains lack systematic studies evaluating how different models metrics perform under biased conditions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving limitation renders direct validation evaluation metrics infeasible prevents precise quantification biases..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines personalized marketing uplift models estimate incremental effect intervention modeling how customer behavior would change under alternative treatments counterfactual.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world marketing data often exhibit various biases selection bias spillover effects measurement error unobserved confounding..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap design systematic benchmarking framework..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving investigations reveal uplift targeting prediction manifest distinct objectives proficiency one does not ensure efficacy other ii many models.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving biases adversely affect both accuracy uplift estimation validity evaluation metrics..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

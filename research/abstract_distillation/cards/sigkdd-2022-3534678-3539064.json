@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539064",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Learning Supplementary NLP Features for CTR Prediction in Sponsored Search",
+  "doi": "10.1145/3534678.3539064",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290944299",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines sponsored search engines pre-trained language models have shown promising performance improvements Click-Through-Rate CTR prediction..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However show work calibrating separately language model based peak single AUC does not always yield NLP features give.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Thereafter output fine-tuned models i.e. final score intermediate embedding generated language model used new Natural Processing NLP feature.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However show work calibrating separately language model based peak single AUC does not always yield NLP features give.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving sponsored search engines pre-trained language models have shown promising performance improvements Click-Through-Rate CTR prediction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving widely used approach utilizing pre-trained language models CTR prediction consists fine-tuning click labels early stopping peak value obtained.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However show work calibrating separately language model based peak single AUC does not always yield NLP features give.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines sponsored search engines pre-trained language models have shown promising performance improvements Click-Through-Rate CTR prediction..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However show work calibrating separately language model based peak single AUC does not always yield NLP features give.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Thereafter output fine-tuned models i.e. final score intermediate embedding generated language model used new Natural Processing NLP feature.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However show work calibrating separately language model based peak single AUC does not always yield NLP features give.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving sponsored search engines pre-trained language models have shown promising performance improvements Click-Through-Rate CTR prediction..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

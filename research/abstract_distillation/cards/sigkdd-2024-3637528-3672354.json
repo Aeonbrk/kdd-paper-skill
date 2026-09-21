@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672354",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "OAG-Bench: A Human-Curated Benchmark for Academic Graph Mining",
+  "doi": "10.1145/3637528.3672354",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4392223764",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid proliferation scientific literature versatile academic knowledge services increasingly rely comprehensive graph mining..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper present OAG-Bench comprehensive multi-aspect fine-grained human-curated benchmark based Open Academic Graph OAG.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose new data annotation strategies certain tasks offer suite pre-processing codes algorithm implementations standardized evaluation protocols facilitate academic.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce Open Academic Graph Challenge OAG-Challenge encourage community input sharing..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving OAG-Bench covers 10 tasks 20 datasets 70 baselines 120 experimental results date..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving propose new data annotation strategies certain tasks offer suite pre-processing codes algorithm implementations standardized evaluation protocols facilitate academic.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments reveal even advanced algorithms like large language models LLMs encounter difficulties addressing key challenges certain tasks.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid proliferation scientific literature versatile academic knowledge services increasingly rely comprehensive graph mining..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present OAG-Bench comprehensive multi-aspect fine-grained human-curated benchmark based Open Academic Graph OAG.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose new data annotation strategies certain tasks offer suite pre-processing codes algorithm implementations standardized evaluation protocols facilitate academic.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving OAG-Bench covers 10 tasks 20 datasets 70 baselines 120 experimental results date..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

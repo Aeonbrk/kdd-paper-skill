@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817573",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective",
+  "doi": "10.1145/3770855.3817573",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197027818",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-time bidding central computational advertising comprising three elements Supply Side Platform SSP selling ad impressions Demand DSP advertisers.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current big ad platforms social media e-commerce companies now integrate SSP DSP Exchange functions internally..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Given lack platform-centric evaluation frameworks pressing need advance auto-bidding research propose PlatformBid first comprehensive benchmark designed unified ad.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving accurately reflect real-world auto-bidding scenarios define three representative settings homogeneous competition identical algorithms across advertisers heterogeneous diverse algorithmic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving systematically evaluate broad spectrum existing auto-bidding methods across settings encompassing classical control RL-based recent generative methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Given lack platform-centric evaluation frameworks pressing need advance auto-bidding research propose PlatformBid first comprehensive benchmark designed unified ad.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving systematically evaluate broad spectrum existing auto-bidding methods across settings encompassing classical control RL-based recent generative methods..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate effectiveness proposed BidFlow new settings..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-time bidding central computational advertising comprising three elements Supply Side Platform SSP selling ad impressions Demand DSP advertisers.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current big ad platforms social media e-commerce companies now integrate SSP DSP Exchange functions internally..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Given lack platform-centric evaluation frameworks pressing need advance auto-bidding research propose PlatformBid first comprehensive benchmark designed unified ad.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving accurately reflect real-world auto-bidding scenarios define three representative settings homogeneous competition identical algorithms across advertisers heterogeneous diverse algorithmic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Given lack platform-centric evaluation frameworks pressing need advance auto-bidding research propose PlatformBid first comprehensive benchmark designed unified ad.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

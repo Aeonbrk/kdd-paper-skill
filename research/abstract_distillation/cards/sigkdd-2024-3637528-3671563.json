@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671563",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Paths2Pair: Meta-path Based Link Prediction in Billion-Scale Commercial Heterogeneous Graphs",
+  "doi": "10.1145/3637528.3671563",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863389",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Link prediction determining if relation exists between two entities essential task analysis heterogeneous graphs diverse relations..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However almost impractical check every entity pair when trying find most hidden relations billion-scale heterogeneous graph due billion.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce Paths2Pair novel framework address limitations link prediction billion-scale commercial heterogeneous graphs. First selects subset reliable entity.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving first evaluate Paths2Pair based large-scale dataset results show outperforms state-of-the-art baselines significantly..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving then deploy Paths2Pair JD Logistics one largest companies world business expansion..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving first evaluate Paths2Pair based large-scale dataset results show outperforms state-of-the-art baselines significantly..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving uncovered relations Paths2Pair have helped JD Logistics identify 108 709 contacts attract new company customers resulting 84% increase.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Link prediction determining if relation exists between two entities essential task analysis heterogeneous graphs diverse relations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However almost impractical check every entity pair when trying find most hidden relations billion-scale heterogeneous graph due billion.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce Paths2Pair novel framework address limitations link prediction billion-scale commercial heterogeneous graphs. First selects subset reliable entity.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving first evaluate Paths2Pair based large-scale dataset results show outperforms state-of-the-art baselines significantly..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving first evaluate Paths2Pair based large-scale dataset results show outperforms state-of-the-art baselines significantly..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

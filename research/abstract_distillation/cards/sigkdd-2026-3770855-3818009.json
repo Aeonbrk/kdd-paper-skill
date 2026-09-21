@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818009",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Towards Stable, Globally Expressive Graph Representations with Laplacian Eigenvectors",
+  "doi": "10.1145/3770855.3818009",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4403580373",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines popular way improve expressive power graph neural networks GNNs use Laplacian eigenvectors additional node features since they serve.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel method exploiting Laplacian eigenvectors generate stable globally expressive graph representations..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving main difference previous works method utilizes learnable invariant representations each Laplacian eigenspace dimension built upon powerful orthogonal group.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments various graph learning benchmarks witness competitive performance method especially great potential learn global properties graphs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving popular way improve expressive power graph neural networks GNNs use Laplacian eigenvectors additional node features since they serve.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments various graph learning benchmarks witness competitive performance method especially great potential learn global properties graphs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines popular way improve expressive power graph neural networks GNNs use Laplacian eigenvectors additional node features since they serve.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel method exploiting Laplacian eigenvectors generate stable globally expressive graph representations..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving main difference previous works method utilizes learnable invariant representations each Laplacian eigenspace dimension built upon powerful orthogonal group.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving popular way improve expressive power graph neural networks GNNs use Laplacian eigenvectors additional node features since they serve.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818103",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "RIDGECUT: Learning Graph Partitioning with Rings and Wedges",
+  "doi": "10.1145/3770855.3818103",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415194390",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Reinforcement learning RL has shown promise combinatorial optimization problems graphs heuristics generalize across instances..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However effectively incorporating domain knowledge RL frameworks graph partitioning remains challenging existing approaches typically rely unconstrained node-level actions.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However effectively incorporating domain knowledge RL frameworks graph partitioning remains challenging existing approaches typically rely unconstrained node-level actions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose RidgeCut RL framework constrains action space enforce structure-aware partitioning Normalized Cut problem..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving transportation networks motivating example introduce novel concept leverages domain knowledge about urban road topology---where natural partitions often take.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving resulting partitions RidgeCut not only aligned expected spatial layouts but achieve lower normalized cuts compared existing methods..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results synthetic real-world traffic graphs demonstrate RidgeCut consistently outperforms existing methods exhibiting strong inductive generalization across graph.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Reinforcement learning RL has shown promise combinatorial optimization problems graphs heuristics generalize across instances..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However effectively incorporating domain knowledge RL frameworks graph partitioning remains challenging existing approaches typically rely unconstrained node-level actions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However effectively incorporating domain knowledge RL frameworks graph partitioning remains challenging existing approaches typically rely unconstrained node-level actions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose RidgeCut RL framework constrains action space enforce structure-aware partitioning Normalized Cut problem..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving resulting partitions RidgeCut not only aligned expected spatial layouts but achieve lower normalized cuts compared existing methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

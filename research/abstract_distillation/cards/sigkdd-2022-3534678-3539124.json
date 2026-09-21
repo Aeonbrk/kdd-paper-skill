@@ -1,0 +1,151 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539124",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Medical Symptom Detection in Intelligent Pre-Consultation Using Bi-directional Hard-Negative Noise Contrastive Estimation",
+  "doi": "10.1145/3534678.3539124",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290948349",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Leveraging artificial intelligence AI techniques medical applications helping world deal shortage healthcare workers improve efficiency productivity delivery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work formulate symptom detection retrieval problem propose bi-directional hard-negative enforced noise contrastive estimation method Bi-hardNCE tackle problem..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Bi-hardNCE has both forward contrastive estimation backward forces model distinguish true symptom negative symptoms meanwhile query queries..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed model outperforms commonly used retrieval models large margin..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Leveraging artificial intelligence AI techniques medical applications helping world deal shortage healthcare workers improve efficiency productivity delivery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving include informative negatives Bi-hardNCE adopts hard-negative mining strategy false-negative eliminating achieved significant improvement performance..",
+      "source_ids": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed model outperforms commonly used retrieval models large margin..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Leveraging artificial intelligence AI techniques medical applications helping world deal shortage healthcare workers improve efficiency productivity delivery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work formulate symptom detection retrieval problem propose bi-directional hard-negative enforced noise contrastive estimation method Bi-hardNCE tackle problem..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Bi-hardNCE has both forward contrastive estimation backward forces model distinguish true symptom negative symptoms meanwhile query queries..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Leveraging artificial intelligence AI techniques medical applications helping world deal shortage healthcare workers improve efficiency productivity delivery..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817678",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Treatment Effect Estimation with Differentiated Networked Effect on Graph Data",
+  "doi": "10.1145/3770855.3817678",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197041792",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Estimating individual treatment effect ITE observational graph data crucial decision-making fields commerce medicine..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However critical issue often overlooked differentiated networked effect DNE caused local networks consisting neighbors varying importance scales..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing methods attempt model interference accurate ITE estimation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Capturing DNE vital otherwise will end up imprecise ITE estimation due erroneous characterization interference result misguided decisions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose novel interference modeling mechanism incorporates two partial attention mechanisms message amplifier..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Capturing DNE vital otherwise will end up imprecise ITE estimation due erroneous characterization interference result misguided decisions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving partial attention mechanisms automatically estimate importance different neighbors contributing interference message amplifier adjusts results modeling mechanism based scale.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments three real-world graphs demonstrate methods outperform existing approaches ITE estimation graph data corroborates importance explicitly capturing DNE..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Estimating individual treatment effect ITE observational graph data crucial decision-making fields commerce medicine..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However critical issue often overlooked differentiated networked effect DNE caused local networks consisting neighbors varying importance scales..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing methods attempt model interference accurate ITE estimation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Capturing DNE vital otherwise will end up imprecise ITE estimation due erroneous characterization interference result misguided decisions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Capturing DNE vital otherwise will end up imprecise ITE estimation due erroneous characterization interference result misguided decisions..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

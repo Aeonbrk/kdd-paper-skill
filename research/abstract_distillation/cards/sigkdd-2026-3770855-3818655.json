@@ -1,0 +1,106 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818655",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On",
+  "doi": "10.1145/3770855.3818655",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196980222",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rapid advancement Large Language Models has given rise autonomous LLM-based agents capable complex reasoning execution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving agents transition isolated operation collaborative ecosystems witness emergence Agent-to-Agent A2A network paradigm heterogeneous autonomously coordinate solve multi-step tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving networks offer better task performance compared simply one agent complete entire they introduce systemic vulnerabilities adversarial composition semantic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper argue trustworthiness A2A networks cannot fully guaranteed via retrofitting existing protocols largely designed individual agents..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rapid advancement Large Language Models has given rise autonomous LLM-based agents capable complex reasoning execution..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving agents transition isolated operation collaborative ecosystems witness emergence Agent-to-Agent A2A network paradigm heterogeneous autonomously coordinate solve multi-step tasks..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving networks offer better task performance compared simply one agent complete entire they introduce systemic vulnerabilities adversarial composition semantic.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

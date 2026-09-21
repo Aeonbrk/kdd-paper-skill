@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709333",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "How Well Calibrated are Extreme Multi-label Classifiers? An Empirical Analysis",
+  "doi": "10.1145/3690624.3709333",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149246",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Extreme multilabel classification XMLC problems occur settings related product recommendation large-scale document tagging ad prediction characterized label space.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many practical applications important have good estimate actual probability label being relevant e.g. decide whether pay fee.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Therefore paper aims establish current status quo calibration XMLC providing systematic evaluation comprising nine models four different model.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving naive application Expected Calibration Error ECE leads meaningless results long-tailed XMC datasets instead introduce notion e.g. focusses top-k.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving find different models exhibit widely varying reliability plots show post-training calibration via computationally efficient isotonic regression method enhances.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving There two implicit tasks classifier performs Evaluating each potential label expected worth then selecting best candidates..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving latter task only relative order scores matters what captured standard evaluation procedure XMLC literature..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Therefore paper aims establish current status quo calibration XMLC providing systematic evaluation comprising nine models four different model.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Extreme multilabel classification XMLC problems occur settings related product recommendation large-scale document tagging ad prediction characterized label space.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many practical applications important have good estimate actual probability label being relevant e.g. decide whether pay fee.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore paper aims establish current status quo calibration XMLC providing systematic evaluation comprising nine models four different model.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving naive application Expected Calibration Error ECE leads meaningless results long-tailed XMC datasets instead introduce notion e.g. focusses top-k.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving There two implicit tasks classifier performs Evaluating each potential label expected worth then selecting best candidates..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

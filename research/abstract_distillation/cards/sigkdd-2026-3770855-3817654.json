@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817654",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "SUDER: Self-Improving Unified Large Multimodal Models for Understanding and Generation with Dual Self-rewards",
+  "doi": "10.1145/3770855.3817654",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4414756882",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Building upon large language models LLMs recent multimodal LMMs unify cross-model understanding generation single framework..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However LMMs still struggle achieve accurate vision-language alignment prone generating text responses contradicting visual input failing follow text-to-image.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon large language models LLMs recent multimodal LMMs unify cross-model understanding generation single framework..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work based observation understanding generation naturally inverse dual tasks propose textbf SUDER elf-improving nified LMMs ual lf- ewards.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically sample multiple outputs given input one task domain then reverse input-output pairs compute dual likelihood within model.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However LMMs still struggle achieve accurate vision-language alignment prone generating text responses contradicting visual input failing follow text-to-image.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work based observation understanding generation naturally inverse dual tasks propose textbf SUDER elf-improving nified LMMs ual lf- ewards.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experimental results visual understanding generation benchmarks demonstrate method effectively enhance performance model without any external supervision especially.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Building upon large language models LLMs recent multimodal LMMs unify cross-model understanding generation single framework..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However LMMs still struggle achieve accurate vision-language alignment prone generating text responses contradicting visual input failing follow text-to-image.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building upon large language models LLMs recent multimodal LMMs unify cross-model understanding generation single framework..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work based observation understanding generation naturally inverse dual tasks propose textbf SUDER elf-improving nified LMMs ual lf- ewards.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However LMMs still struggle achieve accurate vision-language alignment prone generating text responses contradicting visual input failing follow text-to-image.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

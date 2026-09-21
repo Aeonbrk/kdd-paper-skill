@@ -1,0 +1,107 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539032",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "DNA-Stabilized Silver Nanocluster Design via Regularized Variational Autoencoders",
+  "doi": "10.1145/3534678.3539032",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927753",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines DNA-stabilized silver nanoclusters AgN-DNAs class nanomaterials comprised 10 30 atoms held together short synthetic DNA template strands..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current understanding AgN-DNA genome still limited..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Only minority DNA sequences produce highly fluorescent AgN-DNAs bulky strands complex DNA-silver interactions make challenging use first principles.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Thus major challenge researchers studying nanomaterials develop methods employ observational data about studied AgN-DNAs design new nanoclusters targeted.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines DNA-stabilized silver nanoclusters AgN-DNAs class nanomaterials comprised 10 30 atoms held together short synthetic DNA template strands..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current understanding AgN-DNA genome still limited..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Only minority DNA sequences produce highly fluorescent AgN-DNAs bulky strands complex DNA-silver interactions make challenging use first principles.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Thus major challenge researchers studying nanomaterials develop methods employ observational data about studied AgN-DNAs design new nanoclusters targeted.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

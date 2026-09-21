@@ -1,0 +1,124 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819030",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Curiosity-Driven Questioning for Engine-Agnostic LLM Research Ideation",
+  "doi": "10.1145/3770855.3819030",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197024558",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Scientific ideation driven curiosity researchers ask questions expose knowledge gaps reveal competing hypotheses clarify missing evidence relevant decision.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose Curiosity-Driven Questioning CDQ training-free engine-agnostic method constructs compact set questions topic corpus under black-box LLM access..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving code dataset available https github.com/Sikun-Skyler-Guo/CDQ.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Yet most LLM-based ideation systems optimize idea text leaving curiosity under-modeled resulting brittle engine-specific gains..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show prepending CDQ questions improves downstream ideation across single-pass retrieval-augmented generation self-reflection engines multiple base models under.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Ablations human study further support complementarity indices reliability evaluation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Scientific ideation driven curiosity researchers ask questions expose knowledge gaps reveal competing hypotheses clarify missing evidence relevant decision.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose Curiosity-Driven Questioning CDQ training-free engine-agnostic method constructs compact set questions topic corpus under black-box LLM access..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving code dataset available https github.com/Sikun-Skyler-Guo/CDQ.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Yet most LLM-based ideation systems optimize idea text leaving curiosity under-modeled resulting brittle engine-specific gains..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

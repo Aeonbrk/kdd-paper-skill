@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671541",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Tackling Concept Shift in Text Classification using Entailment-style Modeling",
+  "doi": "10.1145/3637528.3671541",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863399",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pre-trained language models PLMs have seen tremendous success text classification TC problems context Natural Processing NLP.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving many real-world text classification tasks class definitions being learned do not remain constant but rather change time known.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work propose reformulation converting vanilla classification entailment-style problem requires significantly less data re-train text classifier adapt new concepts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving demonstrate effectiveness proposed method both real world synthetic datasets achieving absolute F1 gains upto 6% 30% respectively few-shot.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness proposed method both real world synthetic datasets achieving absolute F1 gains upto 6% 30% respectively few-shot.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pre-trained language models PLMs have seen tremendous success text classification TC problems context Natural Processing NLP.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving many real-world text classification tasks class definitions being learned do not remain constant but rather change time known.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose reformulation converting vanilla classification entailment-style problem requires significantly less data re-train text classifier adapt new concepts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving demonstrate effectiveness proposed method both real world synthetic datasets achieving absolute F1 gains upto 6% 30% respectively few-shot.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate effectiveness proposed method both real world synthetic datasets achieving absolute F1 gains upto 6% 30% respectively few-shot.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818882",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Knowledge Graph-Enhanced Long-CoT for Complex Biomolecular Reasoning",
+  "doi": "10.1145/3770855.3818882",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197013410",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Biomolecular scientific questions often require multi-step mechanistic reasoning over structured knowledge protein interactions pathways disease associations..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving large language models LLMs generate chain-of-thought CoT rationales biomolecular frequently unreliable due biologically implausible steps long-horizon inconsistencies naive.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose Bio-KCoT knowledge-augmented long-CoT framework emphasizes principled use structured knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving curated chains serve high-quality target trajectories during Supervised Fine-Tuning SFT enabling model learn structured mechanistic decomposition..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Subsequently further enforce logical rigor apply Group Relative Policy Optimization GRPO KG-aligned process reward..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving rigorously evaluate capabilities construct BioMolKGQA benchmark curated multi-hop evidence paths spanning diverse biomolecular QA pairs reasoning depths..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments dataset confirm Bio-KCoT delivers substantial performance gains enabling parameter-constrained models rival reasoning fidelity significantly larger baselines..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results validate KG-guided reasoning serves critical mechanism compensate parameter disparity particularly tasks requiring deep traversal biological mechanisms..",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Biomolecular scientific questions often require multi-step mechanistic reasoning over structured knowledge protein interactions pathways disease associations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving large language models LLMs generate chain-of-thought CoT rationales biomolecular frequently unreliable due biologically implausible steps long-horizon inconsistencies naive.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Bio-KCoT knowledge-augmented long-CoT framework emphasizes principled use structured knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving curated chains serve high-quality target trajectories during Supervised Fine-Tuning SFT enabling model learn structured mechanistic decomposition..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving rigorously evaluate capabilities construct BioMolKGQA benchmark curated multi-hop evidence paths spanning diverse biomolecular QA pairs reasoning depths..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

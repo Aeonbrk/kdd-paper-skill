@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709312",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "LLM-Eraser: Optimizing Large Language Model Unlearning through Selective Pruning",
+  "doi": "10.1145/3690624.3709312",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409157766",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines focus unlearning unwanted knowledge autoregressive large language models LLMs through pruning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving focus unlearning unwanted knowledge autoregressive large language models LLMs through pruning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Previous approaches use gradient ascent GA over undesired knowledge inversely optimize LLMs compromises model performance desired knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitation introduce novel two-stage approach named LLM-Eraser selectively identifying editing parameters specifically associated undesirable knowledge..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experiments conducted across five task datasets demonstrate LLM-Eraser effectively unlearns undesirable knowledge-evidenced model near-random performance multiple-choice questions related.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines focus unlearning unwanted knowledge autoregressive large language models LLMs through pruning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving focus unlearning unwanted knowledge autoregressive large language models LLMs through pruning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Previous approaches use gradient ascent GA over undesired knowledge inversely optimize LLMs compromises model performance desired knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experiments conducted across five task datasets demonstrate LLM-Eraser effectively unlearns undesirable knowledge-evidenced model near-random performance multiple-choice questions related.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

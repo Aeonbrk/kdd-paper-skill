@@ -1,0 +1,105 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783956",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Generative Large-Scale Pre-trained Models for Automated Ad Bidding Optimization",
+  "doi": "10.1145/3770854.3783956",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417101699",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern auto-bidding systems required balance overall performance diverse advertiser goals real-world constraints reflecting dynamic evolving needs industry..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However generative methods face significant challenges distribution shift between offline online environments limited exploration action space necessity meet.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges propose GRAD Generative Reward-driven Ad-bidding Mixture-of-Experts scalable foundation model auto-bidding combines Action-Mixture-of-Experts module diverse bidding action.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive offline online experiments demonstrate GRAD significantly enhances platform revenue highlighting effectiveness addressing evolving diverse requirements modern advertisers..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern auto-bidding systems required balance overall performance diverse advertiser goals real-world constraints reflecting dynamic evolving needs industry..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However generative methods face significant challenges distribution shift between offline online environments limited exploration action space necessity meet.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges propose GRAD Generative Reward-driven Ad-bidding Mixture-of-Experts scalable foundation model auto-bidding combines Action-Mixture-of-Experts module diverse bidding action.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive offline online experiments demonstrate GRAD significantly enhances platform revenue highlighting effectiveness addressing evolving diverse requirements modern advertisers..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

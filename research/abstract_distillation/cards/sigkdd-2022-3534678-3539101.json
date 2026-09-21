@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539101",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Combo-Fashion: Fashion Clothes Matching CTR Prediction with Item History",
+  "doi": "10.1145/3534678.3539101",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290876920",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines one fundamental trends future development recommender systems Fashion Clothes Matching Recommendation click-through rate CTR prediction has become increasingly.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving task matching effect between two single items plays crucial role greatly influences users preferences however usually neglected previous.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving one fundamental trends future development recommender systems Fashion Clothes Matching Recommendation click-through rate CTR prediction has become increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work tackle problem designing novel algorithm called Combo-Fashion extracts matching effect introducing history combo item two cascaded modules.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving part work release two large-scale datasets consisting 3.56 million 6.01 user behaviors rich context fashion information millions combo.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experimental results over two real-world datasets have demonstrated superiority proposed model significant improvements..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore have deployed Combo-Fashion onto platform Taobao recommend combo items users day online A/B test proved effectiveness improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines one fundamental trends future development recommender systems Fashion Clothes Matching Recommendation click-through rate CTR prediction has become increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving task matching effect between two single items plays crucial role greatly influences users preferences however usually neglected previous.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving one fundamental trends future development recommender systems Fashion Clothes Matching Recommendation click-through rate CTR prediction has become increasingly.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work tackle problem designing novel algorithm called Combo-Fashion extracts matching effect introducing history combo item two cascaded modules.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experimental results over two real-world datasets have demonstrated superiority proposed model significant improvements..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

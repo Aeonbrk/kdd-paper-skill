@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818000",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Joint Global-Local Representations via Relation-Entity Pair Encoding for Hyper-Relational Knowledge Graphs",
+  "doi": "10.1145/3770855.3818000",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196944522",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hyper-relational knowledge graphs HKGs extend qualifiers represent complex n-ary facts..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods often rely relation-agnostic node aggregation mixes heterogeneous multi-hop evidence lead entity-role ambiguity representation collapse fail.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing methods often rely relation-agnostic node aggregation mixes heterogeneous multi-hop evidence lead entity-role ambiguity representation collapse fail.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose GLoRE Global-Local Representations via Relation--Entity pair encoding joint model treats pairs modeling primitive preserve relation identity within-fact.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving provide relation affinity prior based co-occurrence statistics construct weighted graph relations co-occur same fact use refine representations pair.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments JF17K WikiPeople- WD50K achieve state-of-the-art link prediction performance 25% relative improvements MRR ranked-first results across all qualifier.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hyper-relational knowledge graphs HKGs extend qualifiers represent complex n-ary facts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods often rely relation-agnostic node aggregation mixes heterogeneous multi-hop evidence lead entity-role ambiguity representation collapse fail.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing methods often rely relation-agnostic node aggregation mixes heterogeneous multi-hop evidence lead entity-role ambiguity representation collapse fail.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose GLoRE Global-Local Representations via Relation--Entity pair encoding joint model treats pairs modeling primitive preserve relation identity within-fact.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments JF17K WikiPeople- WD50K achieve state-of-the-art link prediction performance 25% relative improvements MRR ranked-first results across all qualifier.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

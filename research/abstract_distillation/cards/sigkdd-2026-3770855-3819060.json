@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819060",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "WISE: Hierarchical Worker Scheduling for Efficient Multi-Source Urban Delivery",
+  "doi": "10.1145/3770855.3819060",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196950483",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Efficient worker scheduling urban delivery applications crucial ensure high service quality reduce transportation-related carbon emissions..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving work explore multi-source urban delivery scenario each worker dynamically select pickup location assigned but unpicked-up orders multiple candidates..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work explore multi-source urban delivery scenario each worker dynamically select pickup location assigned but unpicked-up orders multiple candidates..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving solve challenge propose hierarchical reinforcement learning-based worker scheduling system WISE multi-source urban delivery..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving WISE includes precedence-constrained route planning module generate worker pickup location attention-based encoder-decoder model precedence-aware masking scheme ii mobility-aware.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluation results demonstrate WISE reduces workers total travel distance overdue order rate up 10.6% 53.6% respectively compared.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Efficient worker scheduling urban delivery applications crucial ensure high service quality reduce transportation-related carbon emissions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving work explore multi-source urban delivery scenario each worker dynamically select pickup location assigned but unpicked-up orders multiple candidates..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work explore multi-source urban delivery scenario each worker dynamically select pickup location assigned but unpicked-up orders multiple candidates..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve challenge propose hierarchical reinforcement learning-based worker scheduling system WISE multi-source urban delivery..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluation results demonstrate WISE reduces workers total travel distance overdue order rate up 10.6% 53.6% respectively compared.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817486",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "WebGen-V Bench: Structured Representation for Enhancing Visual Design in LLM-based Web Generation and Evaluation",
+  "doi": "10.1145/3770855.3817486",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415878256",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving WebGen-V contributes three key innovations unbounded extensible agentic crawling framework continuously collects real-world webpages leveraged augment existing benchmarks.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Benchmark resources available https github.com/sony/web gen bench.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving WebGen-V contributes three key innovations unbounded extensible agentic crawling framework continuously collects real-world webpages leveraged augment existing benchmarks.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments state-of-the-art LLMs ablation studies validate effectiveness structured data section-wise evaluation..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving WebGen-V contributes three key innovations unbounded extensible agentic crawling framework continuously collects real-world webpages leveraged augment existing benchmarks.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Witnessed recent advancements leveraging LLM coding multimodal understanding present WebGen-V new benchmark framework instruction-to-HTML generation enhances both data.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

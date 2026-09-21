@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818061",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Temporal Graph Prototype-conditioned Conformal Prediction for Fraud Detection",
+  "doi": "10.1145/3770855.3818061",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196935745",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Conformal prediction CP provides distribution-free coverage guarantees has emerged principled tool uncertainty quantification..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However directly applying existing graph conformal predictors yields inefficient prediction sets due two recurring properties fraud data..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues propose ProtoCP conformal prediction framework edge-level fraud detection temporal graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically leverages learned prototypes suppress benign-dominated noise calibration context introduces neighborhood-relative scoring mechanism temporal score diffusion stable class-conditional.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving ProtoCP improves calibration efficiency focusing fraud-relevant subgraph context producing stable nonconformity scores under class imbalance temporal drift..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments four fraud benchmarks YelpChi S-FFSD FTFD BankSim show ProtoCP achieves target coverage consistently smaller prediction sets state-of-the-art.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Conformal prediction CP provides distribution-free coverage guarantees has emerged principled tool uncertainty quantification..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However directly applying existing graph conformal predictors yields inefficient prediction sets due two recurring properties fraud data..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose ProtoCP conformal prediction framework edge-level fraud detection temporal graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically leverages learned prototypes suppress benign-dominated noise calibration context introduces neighborhood-relative scoring mechanism temporal score diffusion stable class-conditional.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving ProtoCP improves calibration efficiency focusing fraud-relevant subgraph context producing stable nonconformity scores under class imbalance temporal drift..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

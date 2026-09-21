@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539305",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing",
+  "doi": "10.1145/3534678.3539305",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283733706",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines importance building text-to-SQL parsers applied new databases has long been acknowledged critical step achieve goal schema linking i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel framework elicit relational structures large-scale pre-trained language models PLMs via probing procedure based Poincar distance.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Compared commonly-used rule-based methods schema linking found probing relations robustly capture semantic correspondences even when surface forms mentions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments show framework sets new state-of-the-art performance three benchmarks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving importance building text-to-SQL parsers applied new databases has long been acknowledged critical step achieve goal schema linking i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show framework sets new state-of-the-art performance three benchmarks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines importance building text-to-SQL parsers applied new databases has long been acknowledged critical step achieve goal schema linking i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel framework elicit relational structures large-scale pre-trained language models PLMs via probing procedure based Poincar distance.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Compared commonly-used rule-based methods schema linking found probing relations robustly capture semantic correspondences even when surface forms mentions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving importance building text-to-SQL parsers applied new databases has long been acknowledged critical step achieve goal schema linking i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

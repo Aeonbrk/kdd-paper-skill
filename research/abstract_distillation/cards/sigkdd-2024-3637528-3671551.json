@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671551",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Causal Machine Learning for Cost-Effective Allocation of Development Aid",
+  "doi": "10.1145/3637528.3671551",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863146",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper develop causal machine learning framework predicting heterogeneous treatment effects aid disbursements inform effective allocation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically framework comprises three components balancing autoencoder uses representation learning embed high-dimensional country characteristics addressing treatment selection bias.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness framework data official development aid earmarked end HIV/AIDS 105 countries amounting USD 5.2 billion..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then demonstrate framework real-world HIV data..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper develop causal machine learning framework predicting heterogeneous treatment effects aid disbursements inform effective allocation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Sustainable Development Goals SDGs United Nations provide blueprint better future leaving no one behind achieve 2030 poor countries.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

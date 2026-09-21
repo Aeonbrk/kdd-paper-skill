@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737214",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Enhancing Bone Mineral Density Estimation from X-ray Images with Cross-Modal Knowledge Distillation",
+  "doi": "10.1145/3711896.3737214",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877021",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Dual-energy X-ray absorptiometry DXA enables accurate bone mineral density but requires specialized equipment protocols..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Dual-energy X-ray absorptiometry DXA enables accurate bone mineral density but requires specialized equipment protocols..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce cross-modal knowledge distillation BMD prediction framework CMKD-BMD fusing X-ray/CT data enhance X-ray-only prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving model outperforms existing methods both collected dataset comprising 1620 X-rays 280 CT cases publicly available VerSe2019 demonstrating superior.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Furthermore developed OrthoSim orthopedic surgical simulation platform CMKD-BMD has shown promising clinical effectiveness trial evaluations..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving model outperforms existing methods both collected dataset comprising 1620 X-rays 280 CT cases publicly available VerSe2019 demonstrating superior.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore developed OrthoSim orthopedic surgical simulation platform CMKD-BMD has shown promising clinical effectiveness trial evaluations..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Dual-energy X-ray absorptiometry DXA enables accurate bone mineral density but requires specialized equipment protocols..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Dual-energy X-ray absorptiometry DXA enables accurate bone mineral density but requires specialized equipment protocols..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce cross-modal knowledge distillation BMD prediction framework CMKD-BMD fusing X-ray/CT data enhance X-ray-only prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model outperforms existing methods both collected dataset comprising 1620 X-rays 280 CT cases publicly available VerSe2019 demonstrating superior.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving model outperforms existing methods both collected dataset comprising 1620 X-rays 280 CT cases publicly available VerSe2019 demonstrating superior.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

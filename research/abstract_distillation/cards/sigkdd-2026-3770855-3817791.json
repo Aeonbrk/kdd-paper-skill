@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817791",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Parallel Complex Diffusion for Scalable Time Series Generation",
+  "doi": "10.1145/3770855.3817791",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163578143",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Diffusion models learn data distributions indirectly through denoising making difficulty generative modeling closely tied dependency structure data..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing frequency-aware diffusion methods mainly use DFT design estimator blocks under temporal DDPM/SDE frameworks frequency-native paths face.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate burden changing topology diffusion space Discrete Fourier Transform DFT decomposes temporal dependencies spectral modes diagonalizing second-order dependency.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing frequency-aware diffusion methods mainly use DFT design estimator blocks under temporal DDPM/SDE frameworks frequency-native paths face.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose PaCoDi Parallel Complex Diffusion frequency-native framework constructs path spectral domain replacing complex-valued estimator real-valued estimators real imaginary.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments unconditional conditional time series generation demonstrate superior generative quality computational efficiency against SOTA baselines benchmarks respectively..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Full proofs available https arxiv.org/abs/2602.17706..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Diffusion models learn data distributions indirectly through denoising making difficulty generative modeling closely tied dependency structure data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing frequency-aware diffusion methods mainly use DFT design estimator blocks under temporal DDPM/SDE frameworks frequency-native paths face.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate burden changing topology diffusion space Discrete Fourier Transform DFT decomposes temporal dependencies spectral modes diagonalizing second-order dependency.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing frequency-aware diffusion methods mainly use DFT design estimator blocks under temporal DDPM/SDE frameworks frequency-native paths face.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments unconditional conditional time series generation demonstrate superior generative quality computational efficiency against SOTA baselines benchmarks respectively..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

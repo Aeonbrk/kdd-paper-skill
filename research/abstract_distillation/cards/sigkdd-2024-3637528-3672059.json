@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672059",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Offline Imitation Learning with Model-based Reverse Augmentation",
+  "doi": "10.1145/3637528.3672059",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857047",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines offline Imitation Learning IL one main challenges covariate shift between expert observations actual distribution encountered agent because difficult.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However without reward supervision methods often over-conservative out-of-expert-support regions because only states close expert-observed there preferred action enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recently model-free solutions introduced supplementary data identified latent expert-similar samples augment reliable during learning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Model-based solutions build forward dynamic models conservatism quantification then generate additional trajectories neighborhood expert demonstrations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving encourage exploration expert-unobserved states propose novel model-based framework called offline Imitation Learning Self-paced Reverse Augmentation SRA.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving offline Imitation Learning IL one main challenges covariate shift between expert observations actual distribution encountered agent because difficult.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Model-based solutions build forward dynamic models conservatism quantification then generate additional trajectories neighborhood expert demonstrations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically build reverse dynamic model offline demonstrations efficiently generate trajectories leading expert-observed states self-paced style..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines offline Imitation Learning IL one main challenges covariate shift between expert observations actual distribution encountered agent because difficult.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However without reward supervision methods often over-conservative out-of-expert-support regions because only states close expert-observed there preferred action enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recently model-free solutions introduced supplementary data identified latent expert-similar samples augment reliable during learning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Model-based solutions build forward dynamic models conservatism quantification then generate additional trajectories neighborhood expert demonstrations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving offline Imitation Learning IL one main challenges covariate shift between expert observations actual distribution encountered agent because difficult.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

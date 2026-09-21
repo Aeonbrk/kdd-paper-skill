@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671794",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Improved Active Covering via Density-Based Space Transformation",
+  "doi": "10.1145/3637528.3671794",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863308",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines work study active covering variant active-learning problem involves labeling identifying all examples positive label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work study active covering variant active-learning problem involves labeling identifying all examples positive label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose couple algorithms namely Density-Adjusted Non-Adaptive DANA learner Adaptive DAA query labels according distance function adjusted density function..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Under mild assumptions prove algorithms discover all positive labels querying only sublinear number examples support negative constant-dimensional spaces.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Under mild assumptions prove algorithms discover all positive labels querying only sublinear number examples support negative constant-dimensional spaces.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments show champion algorithm DAA consistently improves over prior work some standard benchmark datasets including those used previous.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving instance when measuring performance AUC algorithm best 25 out 27 experiments over different datasets..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines work study active covering variant active-learning problem involves labeling identifying all examples positive label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work study active covering variant active-learning problem involves labeling identifying all examples positive label..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose couple algorithms namely Density-Adjusted Non-Adaptive DANA learner Adaptive DAA query labels according distance function adjusted density function..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Under mild assumptions prove algorithms discover all positive labels querying only sublinear number examples support negative constant-dimensional spaces.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

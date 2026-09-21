@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709393",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "FuzzyLight: A Robust Two-Stage Fuzzy Approach for Traffic Signal Control Works in Real Cities",
+  "doi": "10.1145/3690624.3709393",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149645",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Effective traffic signal control TSC crucial mitigating urban congestion reducing emissions..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing RL algorithms face several real-world challenges hinder practical deployment TSC Sensor accuracy deteriorates increased detection range.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving overcome challenges propose robust two-stage fuzzy approach called FuzzyLight integrates compressed sensing RL TSC deployment..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Experimental results indicate FuzzyLight enhances traffic efficiency 48% compared expert-designed timings real world..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing RL algorithms face several real-world challenges hinder practical deployment TSC Sensor accuracy deteriorates increased detection range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving FuzzyLight offers several key contributions employs fuzzy logic compressed sensing address sensor noise enhances efficiency TSP decisions. maintains.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results indicate FuzzyLight enhances traffic efficiency 48% compared expert-designed timings real world..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Effective traffic signal control TSC crucial mitigating urban congestion reducing emissions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing RL algorithms face several real-world challenges hinder practical deployment TSC Sensor accuracy deteriorates increased detection range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome challenges propose robust two-stage fuzzy approach called FuzzyLight integrates compressed sensing RL TSC deployment..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Experimental results indicate FuzzyLight enhances traffic efficiency 48% compared expert-designed timings real world..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing RL algorithms face several real-world challenges hinder practical deployment TSC Sensor accuracy deteriorates increased detection range.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

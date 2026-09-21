@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818171",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Constraint-Aligned Subspace Transformation for Scalable Kernel Metric Learning in Clustering",
+  "doi": "10.1145/3770855.3818171",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196943361",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Kernel Distance Metric Learning KDML powerful tool enhancing clustering performance adapting data geometry correct structural mismatches..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However traditional global KDML methods suffer severe scalability issues often incurring n3 computational costs memory usage sample size..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose Constraint-Aligned Subspace Transformation CAST novel framework restricts metric adaptation low dimensional strictly induced pairwise constraints..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving orthonormalizing constraint directions reduce learning problem estimating full kernel matrix rank-efficient Linear Program LP.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further derive implicit update formulation enables distance evaluation time effectively reducing memory complexity nr.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving further derive implicit update formulation enables distance evaluation time effectively reducing memory complexity nr.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments diverse datasets demonstrate CAST matches exceeds state-of-the-art KDML competitors downstream clustering tasks dramatically reducing optimization time.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Kernel Distance Metric Learning KDML powerful tool enhancing clustering performance adapting data geometry correct structural mismatches..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However traditional global KDML methods suffer severe scalability issues often incurring n3 computational costs memory usage sample size..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose Constraint-Aligned Subspace Transformation CAST novel framework restricts metric adaptation low dimensional strictly induced pairwise constraints..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving orthonormalizing constraint directions reduce learning problem estimating full kernel matrix rank-efficient Linear Program LP.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving further derive implicit update formulation enables distance evaluation time effectively reducing memory complexity nr.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

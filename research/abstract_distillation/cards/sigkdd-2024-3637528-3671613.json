@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671613",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "FedGTP: Exploiting Inter-Client Spatial Dependency in Federated Graph-based Traffic Prediction",
+  "doi": "10.1145/3637528.3671613",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863551",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph-based methods have witnessed tremendous success traffic prediction largely attributed superior ability capturing modeling spatial dependencies..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However urban-scale traffic data usually distributed among various owners limited sharing due privacy restrictions..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving fill gap propose FedGTP new federated graph-based traffic prediction framework promotes adaptive exploitation inter-client spatial dependencies recover close-to-optimal.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving validate FedGTP via large-scale application-driven experiments real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving validate FedGTP via large-scale application-driven experiments real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive baseline comparison ablation study case demonstrate FedGTP indeed surpasses existing methods through fully recovering inter-client spatial dependencies.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph-based methods have witnessed tremendous success traffic prediction largely attributed superior ability capturing modeling spatial dependencies..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However urban-scale traffic data usually distributed among various owners limited sharing due privacy restrictions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving fill gap propose FedGTP new federated graph-based traffic prediction framework promotes adaptive exploitation inter-client spatial dependencies recover close-to-optimal.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving validate FedGTP via large-scale application-driven experiments real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving validate FedGTP via large-scale application-driven experiments real-world datasets..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

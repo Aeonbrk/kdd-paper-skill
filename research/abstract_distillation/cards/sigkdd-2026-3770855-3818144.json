@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818144",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "EPMD: A Framework for LLM-Enhanced Ad Auctions",
+  "doi": "10.1145/3770855.3818144",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196976140",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address theoretically deconstruct strategic hierarchy prove creative enhancement endogenously align advertiser incentives via monotonicity market outcomes relative bid.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then introduce Equilibrium-Predictive Mechanism Design EPMD framework employs novel dual-network architecture consisting Investment Policy Network IPN Equilibrium Prediction.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirical evaluations real-world datasets GPT-4o-based enhancement demonstrate EPMD increases platform revenue up 1.11% ensuring market stability incentive alignment.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving integration Large Language Models LLMs dynamically enhance ad creatives offers significant market value but presents formidable mechanism design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address theoretically deconstruct strategic hierarchy prove creative enhancement endogenously align advertiser incentives via monotonicity market outcomes relative bid.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirical evaluations real-world datasets GPT-4o-based enhancement demonstrate EPMD increases platform revenue up 1.11% ensuring market stability incentive alignment.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

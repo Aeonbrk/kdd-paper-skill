@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737141",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Swarm Intelligence in Geo-Localization: A Multi-Agent Large Vision-Language Model Collaborative Framework",
+  "doi": "10.1145/3711896.3737141",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825778",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Visual geo-localization demands in-depth knowledge advanced reasoning skills associate images precise real-world geo-graphic locations..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance single LVLM still limited intrinsic knowledge reasoning capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges introduce smileGeo novel visual geo-localization framework leverages multiple Internet-enabled LVLM agents operating within agent-based architecture..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Furthermore framework incorporates dynamic learning strategy optimizes agent communication reducing redundant interactions enhancing overall system efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving validate effectiveness proposed framework conducted experiments three different datasets results show approach significantly outperforms current state-of-the-art methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently Large Vision-Language Models LVLMs have demonstrated capability geo-localization through Visual Question Answering VQA enabling solution does not.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving validate effectiveness proposed framework conducted experiments three different datasets results show approach significantly outperforms current state-of-the-art methods..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Visual geo-localization demands in-depth knowledge advanced reasoning skills associate images precise real-world geo-graphic locations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance single LVLM still limited intrinsic knowledge reasoning capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce smileGeo novel visual geo-localization framework leverages multiple Internet-enabled LVLM agents operating within agent-based architecture..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore framework incorporates dynamic learning strategy optimizes agent communication reducing redundant interactions enhancing overall system efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently Large Vision-Language Models LVLMs have demonstrated capability geo-localization through Visual Question Answering VQA enabling solution does not.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

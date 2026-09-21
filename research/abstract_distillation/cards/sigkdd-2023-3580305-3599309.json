@@ -1,0 +1,88 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599309",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Discovering Dynamic Causal Space for DAG Structure Learning",
+  "doi": "10.1145/3580305.3599309",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568048",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Discovering causal structure purely observational data i.e. discovery aiming identify relationships among variables fundamental task machine learning.The recent.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving result measuring data fitness alone regardless DAG-ness inevitably leads discovering suboptimal DAGs model vulnerabilities..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite great success cutting-edge DAG learners incorporate DAG-ness independent score functions evaluate directed graph candidates lacking considering structure..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving result measuring data fitness alone regardless DAG-ness inevitably leads discovering suboptimal DAGs model vulnerabilities..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Discovering causal structure purely observational data i.e. discovery aiming identify relationships among variables fundamental task machine learning.The recent.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving result measuring data fitness alone regardless DAG-ness inevitably leads discovering suboptimal DAGs model vulnerabilities..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite great success cutting-edge DAG learners incorporate DAG-ness independent score functions evaluate directed graph candidates lacking considering structure..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

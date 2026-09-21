@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780270",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DyMerge-LoRA: On-GPU Post-Merge Fusion for High-Throughput Multi-Tenant Composite LoRA Serving",
+  "doi": "10.1145/3770854.3780270",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172010222",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper consider problem efficiently serving multi-tenant requests large language models LLMs equipped compositions multiple Low-Rank Adaptation LoRA adapters.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper consider problem efficiently serving multi-tenant requests large language models LLMs equipped compositions multiple Low-Rank Adaptation LoRA adapters.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address issues propose DyMerge-LoRA novel inference serving system specifically designed high-throughput multi-tenant scenarios dynamically fusing corresponding LoRA adapters.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving DyMerge-LoRA introduces Base Adapter Manager BAM efficient GPU memory management individual basic adapters LoRA-Aware Greedy Scheduler LAG batching.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental evaluations conducted multiple setups demonstrate DyMerge-LoRA achieves up 1.1 improvement inference throughput compared state-of-the-art methods significantly reduces.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper consider problem efficiently serving multi-tenant requests large language models LLMs equipped compositions multiple Low-Rank Adaptation LoRA adapters.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper consider problem efficiently serving multi-tenant requests large language models LLMs equipped compositions multiple Low-Rank Adaptation LoRA adapters.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues propose DyMerge-LoRA novel inference serving system specifically designed high-throughput multi-tenant scenarios dynamically fusing corresponding LoRA adapters.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental evaluations conducted multiple setups demonstrate DyMerge-LoRA achieves up 1.1 improvement inference throughput compared state-of-the-art methods significantly reduces.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

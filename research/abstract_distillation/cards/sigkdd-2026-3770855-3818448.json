@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818448",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "MixLM: High-Throughput and Effective LLM Ranking via Text-Embedding Mix-Interaction",
+  "doi": "10.1145/3770855.3818448",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196952726",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose MixLM LLM-based ranking framework substantially improves throughput reducing input context length preserving semantic strength cross-encoder interaction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving MixLM introduces mixed-interaction representation combines text tokens learned embedding tokens..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving describe end-to-end training pipeline serving optimizations deploying MixLM production LinkedIn search system..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving propose MixLM LLM-based ranking framework substantially improves throughput reducing input context length preserving semantic strength cross-encoder interaction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Under fixed latency budget comparable relevance metrics MixLM improves throughput 10.0 over strong baselines 75.9 full-text LLM rerankers..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose MixLM LLM-based ranking framework substantially improves throughput reducing input context length preserving semantic strength cross-encoder interaction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving MixLM introduces mixed-interaction representation combines text tokens learned embedding tokens..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language models LLMs capture rich semantic signals achieve strong relevance ranking performance modern search recommendation systems but.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

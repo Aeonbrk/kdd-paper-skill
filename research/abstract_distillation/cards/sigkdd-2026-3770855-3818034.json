@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818034",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "LatentFlow: Discovering Latent Continuous Dynamics across Channels for Multivariate Time Series Anomaly Detection",
+  "doi": "10.1145/3770855.3818034",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196978874",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Effectively modeling complex evolving dependencies among multiple variables key challenge multivariate time series anomaly detection MTSAD.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However they face granularity dilemma window-wise approaches too coarse capture transient local changes whereas fine-grained methods lack constraints.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing methods typically model channel dependencies discrete time steps either window-wise point-wise..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose LatentFlow novel framework treats channel dependency evolution latent continuous dynamic process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically model evolution channel dependencies Ornstein-Uhlenbeck O-U process..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple real-world datasets demonstrate LatentFlow achieves state-of-the-art performance validating effectiveness modeling continuous dynamics dependency evolution..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Effectively modeling complex evolving dependencies among multiple variables key challenge multivariate time series anomaly detection MTSAD.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However they face granularity dilemma window-wise approaches too coarse capture transient local changes whereas fine-grained methods lack constraints.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing methods typically model channel dependencies discrete time steps either window-wise point-wise..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose LatentFlow novel framework treats channel dependency evolution latent continuous dynamic process..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments multiple real-world datasets demonstrate LatentFlow achieves state-of-the-art performance validating effectiveness modeling continuous dynamics dependency evolution..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

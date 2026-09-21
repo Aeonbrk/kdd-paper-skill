@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817533",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "TravelEval: A Comprehensive Benchmarking Framework for Evaluating LLM-Powered Travel Planning Agents",
+  "doi": "10.1145/3770855.3817533",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163529392",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap introduce TravelEval realistic comprehensive benchmark..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving TravelEval features novel six-dimensional evaluation framework holistically assess plans across accuracy compliance temporality spatiality economy utility dimensions highly.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving TravelEval features novel six-dimensional evaluation framework holistically assess plans across accuracy compliance temporality spatiality economy utility dimensions highly.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluating 12 mainstream approaches TravelEval reveals several valuable insights LLMs struggle globally-optimized multi-dimensional planning especially spatio-temporal reasoning budget.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap introduce TravelEval realistic comprehensive benchmark..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving development Large Language Models LLMs has significantly improved travel planning applications yet evaluating limited existing benchmarks limitations overemphasis.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

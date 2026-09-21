@@ -1,0 +1,135 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599513",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "ST-iFGSM: Enhancing Robustness of Human Mobility Signature Identification Model via Spatial-Temporal Iterative FGSM",
+  "doi": "10.1145/3580305.3599513",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568165",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Human Mobility Signature Identification HuMID problem aims determining whether incoming trajectories were generated claimed agent historical movement set.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Therefore paper propose Spatial-Temporal iterative Fast Gradient Sign Method L0 regularization ST-iFGSM detect vulnerability enhance robustness HuMID models..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Extensive experiments real-world taxi trajectory data demonstrate efficiency effectiveness ST-iFGSM algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tested method both ST-SiameseNet LSTM-based HuMID classification model..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Though Deep neural networks DNN based HuMID models spatial-temporal mobility fingerprint similarity demonstrate remarkable performance effectively identifying human.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world taxi trajectory data demonstrate efficiency effectiveness ST-iFGSM algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving generated attacks used augmented data update improve HuMID model accuracy significantly 47.36% 76.18% testing samples after attack 86.25%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Human Mobility Signature Identification HuMID problem aims determining whether incoming trajectories were generated claimed agent historical movement set.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore paper propose Spatial-Temporal iterative Fast Gradient Sign Method L0 regularization ST-iFGSM detect vulnerability enhance robustness HuMID models..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Extensive experiments real-world taxi trajectory data demonstrate efficiency effectiveness ST-iFGSM algorithm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Though Deep neural networks DNN based HuMID models spatial-temporal mobility fingerprint similarity demonstrate remarkable performance effectively identifying human.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

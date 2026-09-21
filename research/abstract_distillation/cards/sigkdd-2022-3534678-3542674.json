@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3542674",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Health Day Papers",
+  "title": "Medical Dialogue Response Generation with Pivotal Information Recalling",
+  "doi": "10.1145/3534678.3542674",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283215536",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Medical dialogue generation important yet challenging task..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods often fail acquire pivotal information long dialogue history yield accurate informative response due fact medical entities.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving mitigate problem propose medical response generation model Pivotal Information Recalling MedPIR built two components i.e. knowledge-aware dialogue graph.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving mitigate problem propose medical response generation model Pivotal Information Recalling MedPIR built two components i.e. knowledge-aware dialogue graph.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Then recall-enhanced generator strengthens usage pivotal information generating summary dialogue before producing actual response..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results two large-scale medical dialogue datasets show MedPIR outperforms strong baselines BLEU scores entities F1 measure..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Medical dialogue generation important yet challenging task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods often fail acquire pivotal information long dialogue history yield accurate informative response due fact medical entities.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate problem propose medical response generation model Pivotal Information Recalling MedPIR built two components i.e. knowledge-aware dialogue graph.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving mitigate problem propose medical response generation model Pivotal Information Recalling MedPIR built two components i.e. knowledge-aware dialogue graph.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

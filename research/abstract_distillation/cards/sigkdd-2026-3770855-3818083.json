@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818083",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Aquavit: Ascending Quantization for Communication-Efficient Vast-Scale Distributed Training",
+  "doi": "10.1145/3770855.3818083",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196947667",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Training Large Foundation Models LFMs including Language Vision-Language massive distributed GPU clusters increasingly bottlenecked communication overhead..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose Noise Equivalent Hypothesis Neophyte inherent weight quantization process plays role functionally analogous stochastic gradient variance present.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving theoretically prove just decaying learning rate essential convergence ascending quantization schedule necessary maintain optimization stability maximizing throughput..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building hypothesis present Aquavit adaptive distributed training framework implements ascending precision schedule model weights..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving overcome hardware limitations discrete bit-widths e.g. jumping bit Aquavit introduces fractional precision via granularity modulation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Training Large Foundation Models LFMs including Language Vision-Language massive distributed GPU clusters increasingly bottlenecked communication overhead..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose Noise Equivalent Hypothesis Neophyte inherent weight quantization process plays role functionally analogous stochastic gradient variance present.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving frameworks like ZeRO++ employ static quantization reduce communication volume they suffer rigid trade-off aggressive low-bit maximizes throughput but.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,118 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818880",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "RainCast: A High-Resolution 72-Hour Short-Term Precipitation Forecasting Model",
+  "doi": "10.1145/3770855.3818880",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196956898",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accurate short-term precipitation forecasting targets predictions up days ahead has long been challenging mainly due extreme sample imbalance.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose RainCast high-resolution framework hourly precipitation forecasting over China up 72 hours ahead 0.05 resolution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving RainCast incorporates two key designs physics-guided feature extractor emulates continuity-equation-based diagnostics extract vorticity divergence vertical-motion-related signals circulation fields.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments show RainCast consistently outperforms baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving heavy rainfall events 50 mm/24 RainCast improves CSI up 62.82% over GFS CRPS 19.35% GEFS..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accurate short-term precipitation forecasting targets predictions up days ahead has long been challenging mainly due extreme sample imbalance.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose RainCast high-resolution framework hourly precipitation forecasting over China up 72 hours ahead 0.05 resolution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving RainCast incorporates two key designs physics-guided feature extractor emulates continuity-equation-based diagnostics extract vorticity divergence vertical-motion-related signals circulation fields.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments show RainCast consistently outperforms baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817942",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Structure Is All You Need to Reuse: Accelerating GraphRAG via Meta-Structure-Aware KV Caching",
+  "doi": "10.1145/3770855.3817942",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197016772",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Retrieval-Augmented Generation over Knowledge Graphs GraphRAG enhances Large Language Models LLMs structured multi-hop evidence..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing GraphRAG systems predominantly linearize retrieved subgraphs long textual prompts forcing LLMs recompute identical schema-level reasoning across.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving text-centric design incurs substantial prefilling latency memory overhead severely limited cache reuse under entity-level variations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving observe although retrieved entities differ across queries underlying logical schemas meta-structures recur high frequency indicating most computational cost.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper propose MetaKV first structure-aware KV caching mechanism explicitly decouples static structural logic dynamic entity semantics GraphRAG inference..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted HotpotQA MetaQA datasets demonstrate MetaKV achieves up 6.4 prefilling speedup 73% effective cache-hit rate maintaining.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Retrieval-Augmented Generation over Knowledge Graphs GraphRAG enhances Large Language Models LLMs structured multi-hop evidence..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing GraphRAG systems predominantly linearize retrieved subgraphs long textual prompts forcing LLMs recompute identical schema-level reasoning across.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving text-centric design incurs substantial prefilling latency memory overhead severely limited cache reuse under entity-level variations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving observe although retrieved entities differ across queries underlying logical schemas meta-structures recur high frequency indicating most computational cost.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments conducted HotpotQA MetaQA datasets demonstrate MetaKV achieves up 6.4 prefilling speedup 73% effective cache-hit rate maintaining.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

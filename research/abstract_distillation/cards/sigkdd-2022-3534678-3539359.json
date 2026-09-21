@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539359",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Knowledge-enhanced Black-box Attacks for Recommendations",
+  "doi": "10.1145/3534678.3539359",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4286750695",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent studies have shown deep neural networks-based recommender systems vulnerable adversarial attacks attackers inject carefully crafted fake user.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However generating high-quality fake user profiles under black-box setting rather challenging limited resources target systems..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenge work introduce novel strategy leveraging items attribute information i.e. knowledge graph publicly accessible provide rich auxiliary.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving specifically propose knowledge graph-enhanced black-box attacking framework KGAttack effectively learn policies through deep reinforcement learning techniques graph seamlessly.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Comprehensive experiments various real-world datasets demonstrate effectiveness proposed attacking framework under black-box setting..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent studies have shown deep neural networks-based recommender systems vulnerable adversarial attacks attackers inject carefully crafted fake user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments various real-world datasets demonstrate effectiveness proposed attacking framework under black-box setting..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent studies have shown deep neural networks-based recommender systems vulnerable adversarial attacks attackers inject carefully crafted fake user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However generating high-quality fake user profiles under black-box setting rather challenging limited resources target systems..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge work introduce novel strategy leveraging items attribute information i.e. knowledge graph publicly accessible provide rich auxiliary.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving specifically propose knowledge graph-enhanced black-box attacking framework KGAttack effectively learn policies through deep reinforcement learning techniques graph seamlessly.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent studies have shown deep neural networks-based recommender systems vulnerable adversarial attacks attackers inject carefully crafted fake user.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

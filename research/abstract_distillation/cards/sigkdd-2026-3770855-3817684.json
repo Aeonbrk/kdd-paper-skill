@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817684",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Geometry-Aware Update Control for Robust Optimization",
+  "doi": "10.1145/3770855.3817684",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196976688",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Training-time corruption persistent source instability deep learning..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving failures often arise directly update space gradients become misaligned descent inject energy irrelevant subspaces exhibit rare but extreme.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Even when model architectures data pipelines fixed small number abnormal optimization steps accumulate drift contaminate optimizer state permanently.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce Geometry-Aware Update Control GAUC optimizer-side mechanism intervenes between backpropagation parameter updates..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving design bounds per-step impact unreliable updates preserving geometry benign descent directions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving GAUC evaluates incoming updates simple geometric consistency signals derived recent descent history selectively constrains influence through projection-based correction.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical results show GAUC consistently stabilizes training under update-space perturbations maintaining performance clean conditions..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Training-time corruption persistent source instability deep learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving failures often arise directly update space gradients become misaligned descent inject energy irrelevant subspaces exhibit rare but extreme.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Even when model architectures data pipelines fixed small number abnormal optimization steps accumulate drift contaminate optimizer state permanently.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Geometry-Aware Update Control GAUC optimizer-side mechanism intervenes between backpropagation parameter updates..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving GAUC evaluates incoming updates simple geometric consistency signals derived recent descent history selectively constrains influence through projection-based correction.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

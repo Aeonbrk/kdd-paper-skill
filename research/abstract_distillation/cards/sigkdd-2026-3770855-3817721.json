@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817721",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Out-of-Distribution Robust Explainer for Graph Neural Networks",
+  "doi": "10.1145/3770855.3817721",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197048042",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Neural Networks GNNs have become widely used analyzing graph-structured data motivating post-hoc explanation methods interpreting pre-trained GNNs..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving setting fragile practical deployment inference time graphs contain newly introduced nodes edges deviate substantially training distribution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Out-of-Distribution OOD entities introduce spurious signals during explanation generation causing explainers highlight unreliable graph components..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments synthetic real-world datasets show ORExplainer consistently provides robust explanations across diverse node-level OOD settings outperforming existing baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Neural Networks GNNs have become widely used analyzing graph-structured data motivating post-hoc explanation methods interpreting pre-trained GNNs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving setting fragile practical deployment inference time graphs contain newly introduced nodes edges deviate substantially training distribution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However most existing explainers have primarily been designed evaluated settings inference graph structurally distributionally similar used train GNN..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

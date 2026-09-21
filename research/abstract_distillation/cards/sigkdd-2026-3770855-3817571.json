@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817571",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs",
+  "doi": "10.1145/3770855.3817571",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196925338",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Clinical decision-making CDM central real-world workflows clinicians infer diagnoses select treatments anticipate future health outcomes under incomplete evidence..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving LLMs increasingly used support decisions due strong language capabilities broad biomedical knowledge efficiency yet reliability real-world clinical decision.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluate CDM models especially LLM-based ideal practical medical decision benchmark should constructed via automated yet reliable pipeline ensure.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Moreover grounding CDM benchmark real patient EHRs better support evaluation practical tasks require substantive biomedical knowledge clinical inference..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gaps introduce EHRBench automated reliable EHR-grounded benchmark evaluating LLM-based clinical decision-making scale..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate CDM models especially LLM-based ideal practical medical decision benchmark should constructed via automated yet reliable pipeline ensure.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover grounding CDM benchmark real patient EHRs better support evaluation practical tasks require substantive biomedical knowledge clinical inference..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving fill gaps introduce EHRBench automated reliable EHR-grounded benchmark evaluating LLM-based clinical decision-making scale..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Clinical decision-making CDM central real-world workflows clinicians infer diagnoses select treatments anticipate future health outcomes under incomplete evidence..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving LLMs increasingly used support decisions due strong language capabilities broad biomedical knowledge efficiency yet reliability real-world clinical decision.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate CDM models especially LLM-based ideal practical medical decision benchmark should constructed via automated yet reliable pipeline ensure.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover grounding CDM benchmark real patient EHRs better support evaluation practical tasks require substantive biomedical knowledge clinical inference..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate CDM models especially LLM-based ideal practical medical decision benchmark should constructed via automated yet reliable pipeline ensure.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671626",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "SentHYMNent: An Interpretable and Sentiment-Driven Model for Algorithmic Melody Harmonization",
+  "doi": "10.1145/3637528.3671626",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863721",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Music composition analysis inherently creative task involving combination heart mind..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However vast majority algorithmic music models completely ignore heart component resulting output often lacks rich emotional direction found.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Models try incorporate musical sentiment rely valence-arousal model insufficiently characterizes emotion two dimensions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving study introduce two major novel elements nuanced mixture-based representation musical sentiment including web tool gather data well sentiment-.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving SentHYMNent employs novel Hidden Markov Model based both key chord transitions well sentiment mixtures provide probabilistic framework learning.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However vast majority algorithmic music models completely ignore heart component resulting output often lacks rich emotional direction found.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore approach leverages compositional principles resulting simpler model significantly reduces computational burden enhances interpretability compared current state-of-the-art algorithmic.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Importantly shown experiments improvements do not come expense harmonization quality..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Music composition analysis inherently creative task involving combination heart mind..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However vast majority algorithmic music models completely ignore heart component resulting output often lacks rich emotional direction found.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Models try incorporate musical sentiment rely valence-arousal model insufficiently characterizes emotion two dimensions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study introduce two major novel elements nuanced mixture-based representation musical sentiment including web tool gather data well sentiment-.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However vast majority algorithmic music models completely ignore heart component resulting output often lacks rich emotional direction found.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

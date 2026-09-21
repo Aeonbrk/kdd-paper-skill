@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671880",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Mastering Long-Tail Complexity on Graphs: Characterization, Learning, and Generalization",
+  "doi": "10.1145/3637528.3671880",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863605",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines context long-tail classification graphs vast majority existing work primarily revolves around development model debiasing strategies intending mitigate class.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving context long-tail classification graphs vast majority existing work primarily revolves around development model debiasing strategies intending mitigate class.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving bridge gap propose generalization bound long-tail classification graphs formulating problem fashion multi-task learning i.e. each task corresponds prediction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon theoretical findings propose novel generic framework HierTail long-tail classification graphs..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving theoretical results show generalization performance long-tail classification dominated overall loss range task complexity..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate effectiveness HierTail characterizing long-tail classes real graphs achieves up 12.9% improvement over leading baseline method.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines context long-tail classification graphs vast majority existing work primarily revolves around development model debiasing strategies intending mitigate class.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving context long-tail classification graphs vast majority existing work primarily revolves around development model debiasing strategies intending mitigate class.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose generalization bound long-tail classification graphs formulating problem fashion multi-task learning i.e. each task corresponds prediction.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving theoretical results show generalization performance long-tail classification dominated overall loss range task complexity..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

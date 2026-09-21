@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709252",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "RELIEF: Reinforcement Learning Empowered Graph Feature Prompt Tuning",
+  "doi": "10.1145/3690624.3709252",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149348",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines advent pre-train prompt paradigm has recently extended generalization ability data efficiency graph representation learning following achievements Natural Language.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However necessity add feature prompts all nodes remains open question..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated findings prompt tuning research NLP domain suggest highly capable pre-trained models need less conditioning signal achieve desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduces combinatorial optimization problem requiring policy decide nodes prompt what specific feature prompts attach..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then address problem framing prompt incorporation process sequential decision-making propose method RELIEF employs Reinforcement Learning RL optimize it..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving advent pre-train prompt paradigm has recently extended generalization ability data efficiency graph representation learning following achievements Natural Language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Motivated findings prompt tuning research NLP domain suggest highly capable pre-trained models need less conditioning signal achieve desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments graph node-level tasks various pre-training strategies few-shot scenarios demonstrate RELIEF outperforms fine-tuning other prompt-based approaches classification.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines advent pre-train prompt paradigm has recently extended generalization ability data efficiency graph representation learning following achievements Natural Language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However necessity add feature prompts all nodes remains open question..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated findings prompt tuning research NLP domain suggest highly capable pre-trained models need less conditioning signal achieve desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduces combinatorial optimization problem requiring policy decide nodes prompt what specific feature prompts attach..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving advent pre-train prompt paradigm has recently extended generalization ability data efficiency graph representation learning following achievements Natural Language.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

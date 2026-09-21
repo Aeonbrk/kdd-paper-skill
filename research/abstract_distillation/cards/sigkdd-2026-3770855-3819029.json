@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819029",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "InfRL: Inference-time Reinforcement Learning for Research Idea Optimization",
+  "doi": "10.1145/3770855.3819029",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196939935",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs possess extensive latent knowledge yet remain largely static inference..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models LLMs possess extensive latent knowledge yet remain largely static inference..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation formally model iterative research idea optimization finite-horizon Markov Decision Process propose InfRL Inference-time Reinforcement Learning framework.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving InfRL coordinates three specialized LLM agents State Transition Agent proposes candidate ideas ii Policy Update learns feedback strategies.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluate InfRL five balanced datasets covering 500 recent research papers health genetics environment neuroscience engineering domains..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address limitation formally model iterative research idea optimization finite-horizon Markov Decision Process propose InfRL Inference-time Reinforcement Learning framework.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate InfRL five balanced datasets covering 500 recent research papers health genetics environment neuroscience engineering domains..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Compared single-pass GPT-4o baseline strong self-reflection InfRL improves novelty generated ideas 3.93% 32.7% feasibility 70.1% 448.6% exhibiting consistent.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs possess extensive latent knowledge yet remain largely static inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models LLMs possess extensive latent knowledge yet remain largely static inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation formally model iterative research idea optimization finite-horizon Markov Decision Process propose InfRL Inference-time Reinforcement Learning framework.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving InfRL coordinates three specialized LLM agents State Transition Agent proposes candidate ideas ii Policy Update learns feedback strategies.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address limitation formally model iterative research idea optimization finite-horizon Markov Decision Process propose InfRL Inference-time Reinforcement Learning framework.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817847",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Constrained Auto-Bidding via Generative Response Modeling",
+  "doi": "10.1145/3770855.3817847",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162769014",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Auto-bidding systems aim maximize advertiser value over long horizons under budget constraints ratio targets cost-per-acquisition yet future traffic.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing approaches face distinct limitations control-based pacing reacts deviations but cannot anticipate future conditions RL generative methods fold.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving shift learning target actions responses Generative Response Model GRM history-conditioned sequence jointly predicts future traffic volume horizon-aggregate cost/value.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving show under mild monotonicity conditions optimality gap relative full per-tick control bounded dispersion marginal value-per-cost..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving prove controller exact single-multiplier problem bound constraint violations under receding-horizon replanning terms prediction error..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments AuctionNet show GRM improves constraint stability overall score compared existing baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Auto-bidding systems aim maximize advertiser value over long horizons under budget constraints ratio targets cost-per-acquisition yet future traffic.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing approaches face distinct limitations control-based pacing reacts deviations but cannot anticipate future conditions RL generative methods fold.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving shift learning target actions responses Generative Response Model GRM history-conditioned sequence jointly predicts future traffic volume horizon-aggregate cost/value.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show under mild monotonicity conditions optimality gap relative full per-tick control bounded dispersion marginal value-per-cost..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments AuctionNet show GRM improves constraint stability overall score compared existing baselines..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

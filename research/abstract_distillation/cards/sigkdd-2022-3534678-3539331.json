@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539331",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities",
+  "doi": "10.1145/3534678.3539331",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281394493",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Entity alignment EA aims finding equivalent entities different knowledge graphs KGs.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However increasing scale KGs renders hard EA models adopt normalization processes thus limiting usage real-world applications..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenge present ClusterEA general framework capable scaling up EA models enhancing results leveraging normalization methods mini-batches high.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based embeddings novel ClusterSampler strategy proposed sampling highly overlapped mini-batches..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments real-life datasets EA benchmarks offer insight proposed framework suggest capable outperforming state-of-the-art scalable up times terms.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving tackle challenge present ClusterEA general framework capable scaling up EA models enhancing results leveraging normalization methods mini-batches high.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-life datasets EA benchmarks offer insight proposed framework suggest capable outperforming state-of-the-art scalable up times terms.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Entity alignment EA aims finding equivalent entities different knowledge graphs KGs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However increasing scale KGs renders hard EA models adopt normalization processes thus limiting usage real-world applications..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenge present ClusterEA general framework capable scaling up EA models enhancing results leveraging normalization methods mini-batches high.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based embeddings novel ClusterSampler strategy proposed sampling highly overlapped mini-batches..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving tackle challenge present ClusterEA general framework capable scaling up EA models enhancing results leveraging normalization methods mini-batches high.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

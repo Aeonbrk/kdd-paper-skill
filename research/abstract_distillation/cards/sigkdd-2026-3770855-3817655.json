@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817655",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Approximate Machine Unlearning through Manifold Representation Forgetting Guided by Self Mode Connectivity",
+  "doi": "10.1145/3770855.3817655",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927075",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Machine unlearning fundamental mechanism enforces right forgotten..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving paper propose ManiF-SMC Manifold Forgetting Self Mode Connectivity motivated observation model retrained remaining data tends classify erased samples.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose ManiF-SMC Manifold Forgetting Self Mode Connectivity motivated observation model retrained remaining data tends classify erased samples.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving begin systematically recasting approximate unlearning pushing each erased sample away original learned manifold representation centroid toward nearest semantic.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Because finding suitable margin unlearning challenging propose self-mode-connectivity module rapidly reconstructs local manifold guide adaptive generation each case..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments four representative datasets show ManiF-SMC achieves unlearning effectiveness comparable state-of-the-art approximate methods operating solely within model.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Machine unlearning fundamental mechanism enforces right forgotten..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving paper propose ManiF-SMC Manifold Forgetting Self Mode Connectivity motivated observation model retrained remaining data tends classify erased samples.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose ManiF-SMC Manifold Forgetting Self Mode Connectivity motivated observation model retrained remaining data tends classify erased samples.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving begin systematically recasting approximate unlearning pushing each erased sample away original learned manifold representation centroid toward nearest semantic.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments four representative datasets show ManiF-SMC achieves unlearning effectiveness comparable state-of-the-art approximate methods operating solely within model.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

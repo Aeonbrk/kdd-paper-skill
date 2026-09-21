@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709343",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "An Efficient Diffusion-based Non-Autoregressive Solver for Traveling Salesman Problem",
+  "doi": "10.1145/3690624.3709343",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149657",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances neural models have shown considerable promise solving Traveling Salesman Problems TSPs without relying much hand-crafted engineering..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However non-autoregressive NAR approaches benefit faster inference through parallelism they typically deliver solutions inferior quality compared autoregressive ones..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving enhance solution quality maintaining fast inference propose DEITSP diffusion model efficient iterations tailored TSP operates NAR manner..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Firstly introduce one-step diffusion model integrates controlled discrete noise addition process self-consistency enhancement enabling optimal solution prediction through.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Secondly design dual-modality graph transformer bolster extraction fusion features node edge modalities further accelerating inference fewer layers..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Thirdly develop efficient iterative strategy alternates between adding removing noise improve exploration compared previous diffusion methods..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world large-scale TSP instances demonstrate DEITSP performs favorably against existing neural approaches terms solution quality inference.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances neural models have shown considerable promise solving Traveling Salesman Problems TSPs without relying much hand-crafted engineering..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However non-autoregressive NAR approaches benefit faster inference through parallelism they typically deliver solutions inferior quality compared autoregressive ones..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving enhance solution quality maintaining fast inference propose DEITSP diffusion model efficient iterations tailored TSP operates NAR manner..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Firstly introduce one-step diffusion model integrates controlled discrete noise addition process self-consistency enhancement enabling optimal solution prediction through.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Thirdly develop efficient iterative strategy alternates between adding removing noise improve exploration compared previous diffusion methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

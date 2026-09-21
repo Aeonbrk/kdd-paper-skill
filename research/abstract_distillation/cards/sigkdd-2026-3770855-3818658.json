@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818658",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "Agent-Didactic Spaces: Mining Multi-Stakeholder Trade-Offs in Educational Pathway Data",
+  "doi": "10.1145/3770855.3818658",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196924742",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Educational pathway recommenders systems suggest courses credentials degree sequences serve multiple stakeholders learners pursuing personal growth institutions safeguarding.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Preliminary results benchmark 18 057 university courses 016 occupations 56 institutional missions show preserving Pareto frontier surfaces 10.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose Agent-Didactic Spaces ADS framework preserves full Pareto structure educational decisions rather scalarizing away..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving ADS introduces three constructs multi-stakeholder embedding architecture each stakeholder modeled agent explicit utility function over shared representation space.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Preliminary results benchmark 18 057 university courses 016 occupations 56 institutional missions show preserving Pareto frontier surfaces 10.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Preliminary results benchmark 18 057 university courses 016 occupations 56 institutional missions show preserving Pareto frontier surfaces 10.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving outline five research frontiers framework opens KDD community spanning scalable Pareto mining over sequential pathways fairness-aware stakeholder modeling.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Educational pathway recommenders systems suggest courses credentials degree sequences serve multiple stakeholders learners pursuing personal growth institutions safeguarding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Preliminary results benchmark 18 057 university courses 016 occupations 56 institutional missions show preserving Pareto frontier surfaces 10.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Agent-Didactic Spaces ADS framework preserves full Pareto structure educational decisions rather scalarizing away..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving ADS introduces three constructs multi-stakeholder embedding architecture each stakeholder modeled agent explicit utility function over shared representation space.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Preliminary results benchmark 18 057 university courses 016 occupations 56 institutional missions show preserving Pareto frontier surfaces 10.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

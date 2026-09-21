@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817975",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Uncertainty-aware Generative Recommendation",
+  "doi": "10.1145/3770855.3817975",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196996498",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative Recommendation has emerged transformative paradigm reformulating end-to-end autoregressive sequence generation task..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving issue manifests neglect model intrinsic generation confidence variation sample learning difficulty lack explicit expression directly leading unstable training.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Despite promise existing preference optimization methods typically rely binary outcome correctness suffering systemic limitation term uncertainty blindness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving issue manifests neglect model intrinsic generation confidence variation sample learning difficulty lack explicit expression directly leading unstable training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose Uncertainty-aware Generative Recommendation UGR unified framework leverages uncertainty critical signal adaptive optimization..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate UGR not only yields superior recommendation performance but fundamentally stabilizes training preventing degradation often observed.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative Recommendation has emerged transformative paradigm reformulating end-to-end autoregressive sequence generation task..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving issue manifests neglect model intrinsic generation confidence variation sample learning difficulty lack explicit expression directly leading unstable training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite promise existing preference optimization methods typically rely binary outcome correctness suffering systemic limitation term uncertainty blindness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving issue manifests neglect model intrinsic generation confidence variation sample learning difficulty lack explicit expression directly leading unstable training.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate UGR not only yields superior recommendation performance but fundamentally stabilizes training preventing degradation often observed.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

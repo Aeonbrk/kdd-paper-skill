@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780239",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Multi-Modal Representation for Spatially Resolved Transcriptomics Based on Global Correlation and Dynamic Cluster Discovery",
+  "doi": "10.1145/3770854.3780239",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172006367",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Constructing effective representations spatial resolved transcriptomics SRT data appropriately characterizing coherence gene expression histology information each sequencing spot.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although much progress has been made existing SRT representation methods typically establish local associative relationships each spot only.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose novel Multi-Modal SRT Representation Learning MMSRL method based global spot correlation dynamic cluster discovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Meanwhile design multi-modal interaction module MMIM make two-modal features interact each other align global correlation information across modalities..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving After develop attention-weighted fusion module AWFM adaptively fuse enhanced intra- inter-modal features obtained above so effectively integrate multi-modal.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Constructing effective representations spatial resolved transcriptomics SRT data appropriately characterizing coherence gene expression histology information each sequencing spot.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although much progress has been made existing SRT representation methods typically establish local associative relationships each spot only.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose novel Multi-Modal SRT Representation Learning MMSRL method based global spot correlation dynamic cluster discovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Meanwhile design multi-modal interaction module MMIM make two-modal features interact each other align global correlation information across modalities..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

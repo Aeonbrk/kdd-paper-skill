@@ -1,0 +1,58 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737038",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "MapExplorer: New Content Generation from Low-Dimensional Visualizations",
+  "doi": "10.1145/3711896.3737038",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877082",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Low-dimensional visualizations projection maps widely used scientific research creative industries interpret largescale complex datasets.These not only support understanding.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Low-dimensional visualizations projection maps widely used scientific research creative industries interpret largescale complex datasets.These not only support understanding.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Low-dimensional visualizations projection maps widely used scientific research creative industries interpret largescale complex datasets.These not only support understanding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Low-dimensional visualizations projection maps widely used scientific research creative industries interpret largescale complex datasets.These not only support understanding.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

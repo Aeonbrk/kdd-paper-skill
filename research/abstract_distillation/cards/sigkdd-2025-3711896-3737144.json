@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737144",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Tackling Size Generalization of Graph Neural Networks on Biological Data from a Spectral Perspective",
+  "doi": "10.1145/3711896.3737144",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825806",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines address key challenge size-induced distribution shifts graph neural networks GNNs impact generalization larger graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address key challenge size-induced distribution shifts graph neural networks GNNs impact generalization larger graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving contrast prior work adopt data-driven approach identify characterize types size-induced distribution shifts explore impact GNN performance spectral standpoint.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Leveraging significant variance graph sizes real biological datasets analyze graphs find spectral differences-driven subgraph patterns e.g. average cycle.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing literature operates under diverse assumptions about distribution shifts resulting varying conclusions generalizability GNNs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments six GNN architectures seven model-agnostic strategies across five datasets show size-intensive attention strategy significantly improves graph.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines address key challenge size-induced distribution shifts graph neural networks GNNs impact generalization larger graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address key challenge size-induced distribution shifts graph neural networks GNNs impact generalization larger graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving contrast prior work adopt data-driven approach identify characterize types size-induced distribution shifts explore impact GNN performance spectral standpoint.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing literature operates under diverse assumptions about distribution shifts resulting varying conclusions generalizability GNNs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

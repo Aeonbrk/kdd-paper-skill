@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737264",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Supervised Learning-enhanced Multi-Group Actor Critic for Live Stream Allocation in Feed",
+  "doi": "10.1145/3711896.3737264",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876962",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines context short video live stream mixed recommendation scenario system RS decides whether allocate most one feed each user.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However traditional RL algorithms often face divergence instability problems restricts application deployment large-scale industrial recommendation systems especially aforementioned.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose novel Supervised Learning-enhanced Multi-Group Actor Critic algorithm SL-MGAC.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically introduce supervised learning-enhanced actor-critic framework incorporates variance reduction techniques multi-task reward learning helps restrict bootstrapping error accumulation.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Additionally design multi-group state decomposition module both actor critic networks reduce prediction variance improve model stability..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Additionally design multi-group state decomposition module both actor critic networks reduce prediction variance improve model stability..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically evaluate SL-MGAC algorithm offline policy evaluation OPE online A/B testing..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate proposed method not only outperforms baseline methods under platform-level constraints but exhibits improved stability online.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines context short video live stream mixed recommendation scenario system RS decides whether allocate most one feed each user.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However traditional RL algorithms often face divergence instability problems restricts application deployment large-scale industrial recommendation systems especially aforementioned.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose novel Supervised Learning-enhanced Multi-Group Actor Critic algorithm SL-MGAC.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically introduce supervised learning-enhanced actor-critic framework incorporates variance reduction techniques multi-task reward learning helps restrict bootstrapping error accumulation.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Additionally design multi-group state decomposition module both actor critic networks reduce prediction variance improve model stability..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

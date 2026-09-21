@@ -1,0 +1,27 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709249",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Understanding and Mitigating Hyperbolic Dimensional Collapse in Graph Contrastive Learning",
+  "doi": "10.1145/3690624.3709249",
+  "reading_level": "abstract_only",
+  "abstract_source": null,
+  "source_locator": null,
+  "retrieved_on": "2026-09-21",
+  "source_units": [],
+  "problem_and_gap": {
+    "problem": null,
+    "gap": null
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [],
+  "candidate_lessons": [],
+  "unknowns": [
+    "No reliable abstract source was available during this run."
+  ],
+  "validation_state": "missing_source",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

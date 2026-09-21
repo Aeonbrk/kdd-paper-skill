@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818177",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Towards Next Graph Token Prediction: Discrete Graph Tokenization for Structural Reasoning in Large Language Models",
+  "doi": "10.1145/3770855.3818177",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196966635",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs empowered autoregressive next-token prediction have demonstrated strong reasoning capabilities..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Extending paradigm graph data requires next token prediction yet existing tokens struggle balance two competing requirements capturing higher-order.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose GraphVulcan novel framework enables discrete reversible semantic-rich tokenization graphs vocabulary canonical graphlets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose three-stage training paradigm Structural Semantic Pretraining learn graph token compositionality Multi-task Fine-tuning large-scale CoT-augmented reasoning examples Reinforcement.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models LLMs empowered autoregressive next-token prediction have demonstrated strong reasoning capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show GraphVulcan outperforms first-order encoding baselines across graph reasoning tasks real-world benchmarks achieving higher computational efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving work demonstrates structure-aware discrete tokenization feasible way toward general-purpose graph language models capable structural reasoning..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs empowered autoregressive next-token prediction have demonstrated strong reasoning capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Extending paradigm graph data requires next token prediction yet existing tokens struggle balance two competing requirements capturing higher-order.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose GraphVulcan novel framework enables discrete reversible semantic-rich tokenization graphs vocabulary canonical graphlets..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose three-stage training paradigm Structural Semantic Pretraining learn graph token compositionality Multi-task Fine-tuning large-scale CoT-augmented reasoning examples Reinforcement.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models LLMs empowered autoregressive next-token prediction have demonstrated strong reasoning capabilities..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

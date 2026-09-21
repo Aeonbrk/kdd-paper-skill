@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817750",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Generalizing Graph Foundation Models via Hyperbolic Retrieval-Augmented Generation",
+  "doi": "10.1145/3770855.3817750",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163637980",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph foundation models GFMs emerged dominant paradigm representation learning leveraging large-scale pre-training cross-domain inference..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However parameterized knowledge encoded within models insufficient cope distribution shifts limiting generalization ability..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate issue retrieval-augmented generation RAG has been introduced incorporate external knowledge inference time..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Nevertheless existing RAG frameworks operating Euclidean space suffer fundamental geometric limitation polynomial volume growth inherently mismatched tree-structured external.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitation propose Hyperbolic Retrieval-Augmented Generation HyRAG framework designed enhance generalization capabilities GFMs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally Dual-path Fusion module achieves effective knowledge integration graph tasks both feature structural levels..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments multiple graph benchmarks demonstrate significant improvements zero-shot setting highlighting generalization method robust GFMs inference..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph foundation models GFMs emerged dominant paradigm representation learning leveraging large-scale pre-training cross-domain inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However parameterized knowledge encoded within models insufficient cope distribution shifts limiting generalization ability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate issue retrieval-augmented generation RAG has been introduced incorporate external knowledge inference time..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nevertheless existing RAG frameworks operating Euclidean space suffer fundamental geometric limitation polynomial volume growth inherently mismatched tree-structured external.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally Dual-path Fusion module achieves effective knowledge integration graph tasks both feature structural levels..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

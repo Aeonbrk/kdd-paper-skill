@@ -1,0 +1,79 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737382",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "ComputAgeBench: Epigenetic Aging Clocks Benchmark",
+  "doi": "10.1145/3711896.3737382",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877187",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Age accelerating condition Healthy control p-value acceleration Blood data lo ic CpG site Dataset Averaging across cells................",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Age accelerating condition Healthy control p-value acceleration Blood data lo ic CpG site Dataset Averaging across cells................",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving CpG CpG...Figure ComputAgeBench first comprehensive framework benchmarking various epigenetic aging clock models.For dataset obtained profiling DNA methylation sites.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Age accelerating condition Healthy control p-value acceleration Blood data lo ic CpG site Dataset Averaging across cells................",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Age accelerating condition Healthy control p-value acceleration Blood data lo ic CpG site Dataset Averaging across cells................",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving CpG CpG...Figure ComputAgeBench first comprehensive framework benchmarking various epigenetic aging clock models.For dataset obtained profiling DNA methylation sites.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

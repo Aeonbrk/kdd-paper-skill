@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817810",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "iLTM: Integrated Large Tabular Model",
+  "doi": "10.1145/3770855.3817810",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4416550209",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Tabular data underpins decisions across science industry public services..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite rapid progress advances deep learning have not fully carried over tabular domain gradient-boosted decision trees GBDTs remain.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present iLTM integrated Large Tabular Model unifies tree-derived embeddings dimensionality-agnostic representations meta-trained hypernetwork multilayer perceptrons MLPs retrieval within.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridging gap between tree-based neural methods iLTM offers new framework tabular foundation models robust adaptable scalable learning..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Pre-trained 800 heterogeneous classification datasets iLTM achieves consistently superior performance across tabular regression tasks small large high-dimensional tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show iLTM outperforms well-tuned GBDTs leading deep tabular models requiring less task-specific tuning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Tabular data underpins decisions across science industry public services..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite rapid progress advances deep learning have not fully carried over tabular domain gradient-boosted decision trees GBDTs remain.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present iLTM integrated Large Tabular Model unifies tree-derived embeddings dimensionality-agnostic representations meta-trained hypernetwork multilayer perceptrons MLPs retrieval within.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridging gap between tree-based neural methods iLTM offers new framework tabular foundation models robust adaptable scalable learning..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Pre-trained 800 heterogeneous classification datasets iLTM achieves consistently superior performance across tabular regression tasks small large high-dimensional tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

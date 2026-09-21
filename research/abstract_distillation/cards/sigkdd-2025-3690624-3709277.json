@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709277",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "UniGraph: Learning a Unified Cross-Domain Foundation Model for Text-Attributed Graphs",
+  "doi": "10.1145/3690624.3709277",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149456",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Foundation models like ChatGPT GPT-4 have revolutionized artificial intelligence exhibiting remarkable abilities generalize across wide array tasks applications.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However graph learning has predominantly focused single-graph models tailored specific tasks datasets lacking ability transfer learned knowledge different.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper recognize text effective unifying medium employ Text-Attributed Graphs TAGs leverage potential..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present UniGraph framework designed learn foundation model TAGs capable generalizing unseen graphs tasks across diverse domains..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose novel cascaded architecture Language Models LMs Graph Neural Networks GNNs backbone networks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving comprehensive experiments across various graph learning tasks domains demonstrate model effectiveness self-supervised representation unseen graphs few-shot in-context transfer.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Foundation models like ChatGPT GPT-4 have revolutionized artificial intelligence exhibiting remarkable abilities generalize across wide array tasks applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However graph learning has predominantly focused single-graph models tailored specific tasks datasets lacking ability transfer learned knowledge different.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper recognize text effective unifying medium employ Text-Attributed Graphs TAGs leverage potential..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present UniGraph framework designed learn foundation model TAGs capable generalizing unseen graphs tasks across diverse domains..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving comprehensive experiments across various graph learning tasks domains demonstrate model effectiveness self-supervised representation unseen graphs few-shot in-context transfer.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

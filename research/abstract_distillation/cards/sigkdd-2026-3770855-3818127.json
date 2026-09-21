@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818127",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Mining Point-of-No-Return Boundaries in Constrained Dynamical Systems via Counterfactual Auditing",
+  "doi": "10.1145/3770855.3818127",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196963867",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Safety-critical failures constrained dynamical environments often detected only after violation occurs outcome metrics e.g. success rate time-to-failure conflate.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Experiments high-fidelity hydrodynamic control testbed canonical bistable system show PoNR precedes observable violation remains stable under up 30%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving formulate failure diagnosis recoverability boundary discovery define Point-of-No-Return PoNR last recoverable snapshot before violation becomes unavoidable under audited.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce Counterfactual PoNR Auditing CPA snapshot-replay framework produces matched rollouts accelerated neural operator surrogate UNO 3.09 end-to-end speedup..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments high-fidelity hydrodynamic control testbed canonical bistable system show PoNR precedes observable violation remains stable under up 30%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Safety-critical failures constrained dynamical environments often detected only after violation occurs outcome metrics e.g. success rate time-to-failure conflate.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Experiments high-fidelity hydrodynamic control testbed canonical bistable system show PoNR precedes observable violation remains stable under up 30%.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formulate failure diagnosis recoverability boundary discovery define Point-of-No-Return PoNR last recoverable snapshot before violation becomes unavoidable under audited.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Counterfactual PoNR Auditing CPA snapshot-replay framework produces matched rollouts accelerated neural operator surrogate UNO 3.09 end-to-end speedup..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments high-fidelity hydrodynamic control testbed canonical bistable system show PoNR precedes observable violation remains stable under up 30%.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

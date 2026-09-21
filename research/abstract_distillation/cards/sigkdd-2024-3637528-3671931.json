@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671931",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System",
+  "doi": "10.1145/3637528.3671931",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863964",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Collaborative filtering recommender systems CF-RecSys have shown successive results enhancing user experience social media e-commerce platforms..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However CF-RecSys struggles under cold scenarios sparse user-item interactions recent strategies have focused leveraging modality information user/items e.g..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite effectiveness under cold scenarios observe they underperform simple traditional collaborative filtering models warm due lack knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work propose efficient All-round LLM-based Recommender system called A-LLMRec excels not only cold scenario but warm scenario..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving approach yields two advantages model-agnostic allowing integration various existing CF-RecSys efficiency eliminating extensive fine-tuning typically required LLM-based recommenders..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Collaborative filtering recommender systems CF-RecSys have shown successive results enhancing user experience social media e-commerce platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive experiments various real-world datasets demonstrate superiority A-LLMRec scenarios including cold/warm few-shot cold user cross-domain scenarios..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Collaborative filtering recommender systems CF-RecSys have shown successive results enhancing user experience social media e-commerce platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However CF-RecSys struggles under cold scenarios sparse user-item interactions recent strategies have focused leveraging modality information user/items e.g..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite effectiveness under cold scenarios observe they underperform simple traditional collaborative filtering models warm due lack knowledge..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose efficient All-round LLM-based Recommender system called A-LLMRec excels not only cold scenario but warm scenario..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Collaborative filtering recommender systems CF-RecSys have shown successive results enhancing user experience social media e-commerce platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

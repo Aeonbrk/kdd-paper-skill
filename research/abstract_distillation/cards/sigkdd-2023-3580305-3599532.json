@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599532",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "κHGCN: Tree-likeness Modeling via Continuous and Discrete Curvature Learning",
+  "doi": "10.1145/3580305.3599532",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568419",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines prevalence tree-like structures encompassing hierarchical power law distributions exists extensively real-world applications including recommendation systems ecosystems financial networks.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However intricate nature real-world tree-like data presents considerable challenge frequently displays heterogeneous composition flat circular regions..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However intricate nature real-world tree-like data presents considerable challenge frequently displays heterogeneous composition flat circular regions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end curvature-aware hyperbolic graph convolutional neural network HGCN proposed utilizes curvature guide message passing improve long-range propagation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Extensive experiments node classification link prediction tasks verify superiority proposal consistently outperforms various competitive models large margin..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving mitigate aforementioned shortage study endeavors explore curvature between discrete structure continuous learning space aiming encoding message conveyed network.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving end curvature-aware hyperbolic graph convolutional neural network HGCN proposed utilizes curvature guide message passing improve long-range propagation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments node classification link prediction tasks verify superiority proposal consistently outperforms various competitive models large margin..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines prevalence tree-like structures encompassing hierarchical power law distributions exists extensively real-world applications including recommendation systems ecosystems financial networks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However intricate nature real-world tree-like data presents considerable challenge frequently displays heterogeneous composition flat circular regions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However intricate nature real-world tree-like data presents considerable challenge frequently displays heterogeneous composition flat circular regions..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end curvature-aware hyperbolic graph convolutional neural network HGCN proposed utilizes curvature guide message passing improve long-range propagation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving mitigate aforementioned shortage study endeavors explore curvature between discrete structure continuous learning space aiming encoding message conveyed network.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

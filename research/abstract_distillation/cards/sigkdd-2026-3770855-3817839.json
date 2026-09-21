@@ -1,0 +1,97 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817839",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AMOS: Active Mining with Observable Steps for Agenda-Driven Review Knowledge Discovery",
+  "doi": "10.1145/3770855.3817839",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196995798",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online reviews inform consumer decisions but right decision agenda relative same restaurant pass value yet fail allergy safety.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Online reviews inform consumer decisions but right decision agenda relative same restaurant pass value yet fail allergy safety.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving formulate Agenda-Driven Review Knowledge Discovery ARKD propose Active Mining Observable Steps AMOS two-phase framework ASC compiles natural-language agendas.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving ARKD-Bench built Yelp data AMOS skips 26% reviews improves Macro-F1 up 47% over strongest LLM baseline yields auditable.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online reviews inform consumer decisions but right decision agenda relative same restaurant pass value yet fail allergy safety.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Online reviews inform consumer decisions but right decision agenda relative same restaurant pass value yet fail allergy safety.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formulate Agenda-Driven Review Knowledge Discovery ARKD propose Active Mining Observable Steps AMOS two-phase framework ASC compiles natural-language agendas.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving ARKD-Bench built Yelp data AMOS skips 26% reviews improves Macro-F1 up 47% over strongest LLM baseline yields auditable.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

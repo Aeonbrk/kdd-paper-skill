@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817666",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Adaptive Momentum by Momentum for Deep Neural Network Training",
+  "doi": "10.1145/3770855.3817666",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196979838",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Heavy-ball momentum accelerates gradient-based optimization methods machine learning..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving standard way use momentum choose fixed hyperparameter but choice often requires extensive tuning..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Motivated optimal heavy-ball momentum quadratic objectives paper proposes new adaptive mechanism reduces burden tuning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving proposed mechanism improves stability SGD Adam under large learning rates leading faster convergence better generalization standard experiments..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving demonstrate effectiveness method wide range machine learning benchmarks including image classification language modeling translation tabular time-series classification..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Relying one-size-fits-all momentum parameter prevent optimizer achieving best performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed mechanism improves stability SGD Adam under large learning rates leading faster convergence better generalization standard experiments..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate effectiveness method wide range machine learning benchmarks including image classification language modeling translation tabular time-series classification..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Heavy-ball momentum accelerates gradient-based optimization methods machine learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving standard way use momentum choose fixed hyperparameter but choice often requires extensive tuning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated optimal heavy-ball momentum quadratic objectives paper proposes new adaptive mechanism reduces burden tuning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed mechanism improves stability SGD Adam under large learning rates leading faster convergence better generalization standard experiments..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Relying one-size-fits-all momentum parameter prevent optimizer achieving best performance..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

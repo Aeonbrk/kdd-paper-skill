@@ -1,0 +1,90 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539466",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "On Missing Labels, Long-tails and Propensities in Extreme Multi-label Classification",
+  "doi": "10.1145/3534678.3539466",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4288728031",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propensity model introduced Jain et al has become standard approach dealing missing long-tail labels extreme multi-label classification XMLC.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propensity model introduced Jain et al has become standard approach dealing missing long-tail labels extreme multi-label classification XMLC.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper critically revise approach showing despite theoretical soundness application contemporary XMLC works debatable..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving exhaustively discuss flaws propensity-based approach present several recipes some them related solutions used search engines recommender systems believe.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propensity model introduced Jain et al has become standard approach dealing missing long-tail labels extreme multi-label classification XMLC.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propensity model introduced Jain et al has become standard approach dealing missing long-tail labels extreme multi-label classification XMLC.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper critically revise approach showing despite theoretical soundness application contemporary XMLC works debatable..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

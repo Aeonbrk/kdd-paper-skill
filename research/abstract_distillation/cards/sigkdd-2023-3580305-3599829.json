@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599829",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "FS-REAL: Towards Real-World Cross-Device Federated Learning",
+  "doi": "10.1145/3580305.3599829",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567870",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Federated Learning FL aims train high-quality models collaboration distributed clients not uploading local data attracts increasing attention both.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However there still considerable gap between flourishing FL research real-world scenarios mainly caused characteristics heterogeneous devices scales..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Moreover challenging conduct research development scale heterogeneous devices due limited resources complex software stacks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving bridge gap paper propose efficient scalable prototyping system real-world cross-device FL FS-REAL..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving demonstrate usability efficiency FS-REAL conduct extensive experiments various device distributions quantify analyze effect heterogeneous scales further provide insights.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Most existing works conduct evaluations homogeneous devices mismatched diversity variability heterogeneous real-world scenarios..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate usability efficiency FS-REAL conduct extensive experiments various device distributions quantify analyze effect heterogeneous scales further provide insights.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Federated Learning FL aims train high-quality models collaboration distributed clients not uploading local data attracts increasing attention both.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However there still considerable gap between flourishing FL research real-world scenarios mainly caused characteristics heterogeneous devices scales..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover challenging conduct research development scale heterogeneous devices due limited resources complex software stacks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap paper propose efficient scalable prototyping system real-world cross-device FL FS-REAL..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Most existing works conduct evaluations homogeneous devices mismatched diversity variability heterogeneous real-world scenarios..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

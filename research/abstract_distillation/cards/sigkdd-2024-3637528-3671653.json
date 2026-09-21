@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671653",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Large Language Model with Curriculum Reasoning for Visual Concept Recognition",
+  "doi": "10.1145/3637528.3671653",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863391",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Visual concept recognition aims capture basic attributes image reason about relationships among them determine whether satisfies certain has.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However realizing goal challenging given performance symbolic representations limited lack annotated reasoning symbols rules most tasks ii LLMs.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose combine large language model LLM explainable symbolic reasoning via curriculum reweighting increase interpretability accuracy visual.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issues paper propose CurLLM-Reasoner curriculum reasoning method based symbolic large language model visual concept recognition..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically propose novel rule enhancement module tool library fully leverage reasoning capability large language models generate human-understandable rules.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving address issue propose combine large language model LLM explainable symbolic reasoning via curriculum reweighting increase interpretability accuracy visual.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments various datasets demonstrate CurLLM-Reasoner achieve state-of-the-art visual concept recognition results explainable rules free human annotations..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Visual concept recognition aims capture basic attributes image reason about relationships among them determine whether satisfies certain has.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However realizing goal challenging given performance symbolic representations limited lack annotated reasoning symbols rules most tasks ii LLMs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose combine large language model LLM explainable symbolic reasoning via curriculum reweighting increase interpretability accuracy visual.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issues paper propose CurLLM-Reasoner curriculum reasoning method based symbolic large language model visual concept recognition..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving address issue propose combine large language model LLM explainable symbolic reasoning via curriculum reweighting increase interpretability accuracy visual.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

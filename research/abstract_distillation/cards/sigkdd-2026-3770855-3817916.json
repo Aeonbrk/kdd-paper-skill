@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817916",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Domain-Specific Data Synthesis for LLMs through Minimal Sufficient Representation Learning",
+  "doi": "10.1145/3770855.3817916",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196945386",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models have demonstrated remarkable progress general-purpose capabilities achieve strong performance specific domains through fine-tuning domain-specific data..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However acquiring high-quality data target domains remains significant challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work tackle underexplored problem domain-specific data synthesis through inductive paradigm target domain defined only set reference examples particularly.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose novel framework DOMINO learns minimal sufficient domain representation reference samples leverages guide generation domain-aligned synthetic data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Theoretically prove DOMINO expands support synthetic data distribution ensuring greater diversity..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models have demonstrated remarkable progress general-purpose capabilities achieve strong performance specific domains through fine-tuning domain-specific data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically challenging coding benchmarks domain definitions implicit fine-tuning data synthesized DOMINO improves Pass accuracy up 4.63% over strong.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models have demonstrated remarkable progress general-purpose capabilities achieve strong performance specific domains through fine-tuning domain-specific data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However acquiring high-quality data target domains remains significant challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work tackle underexplored problem domain-specific data synthesis through inductive paradigm target domain defined only set reference examples particularly.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose novel framework DOMINO learns minimal sufficient domain representation reference samples leverages guide generation domain-aligned synthetic data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models have demonstrated remarkable progress general-purpose capabilities achieve strong performance specific domains through fine-tuning domain-specific data..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

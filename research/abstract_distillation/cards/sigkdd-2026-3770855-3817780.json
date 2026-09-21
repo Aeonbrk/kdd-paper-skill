@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817780",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Self-Evolutionary Reinforced Knowledge Distillation for Multi-Modal Tool-Use Agents",
+  "doi": "10.1145/3770855.3817780",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196932421",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Autonomous multi-modal agents increasingly important real-world applications due ability reason about complex environments orchestrate tool use..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However deploying multi-modal large language models MLLMs tool use often constrained computational cost inference latency creating pressing need.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose two-stage self-evolutionary knowledge distillation framework equips small MLLMs robust adaptive tool-use behaviors..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method combines mutual information-guided trajectory distillation selectively transfers high-utility segments agentic trajectories larger teacher ii reinforcement-driven policy evolution.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving stabilize learning prevent semantic collapse introduce weighted objectives iteratively expand competence through error-driven optimization hybrid experience replay group-relative.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Integrated interactive tool modules approach enables small models achieve strong performance across diverse tool-use benchmarks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments show consistent improvements over single-pass distillation RL baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Autonomous multi-modal agents increasingly important real-world applications due ability reason about complex environments orchestrate tool use..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However deploying multi-modal large language models MLLMs tool use often constrained computational cost inference latency creating pressing need.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose two-stage self-evolutionary knowledge distillation framework equips small MLLMs robust adaptive tool-use behaviors..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving method combines mutual information-guided trajectory distillation selectively transfers high-utility segments agentic trajectories larger teacher ii reinforcement-driven policy evolution.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Integrated interactive tool modules approach enables small models achieve strong performance across diverse tool-use benchmarks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

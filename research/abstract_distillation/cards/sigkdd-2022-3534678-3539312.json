@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539312",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Neural Bandit with Arm Group Graph",
+  "doi": "10.1145/3534678.3539312",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281750729",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Contextual bandits aim identify among set arms optimal one highest reward based information..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Motivated fact arms usually exhibit group behaviors mutual impacts exist among groups introduce new model Arm Graph AGG.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving leverage rich information AGG propose bandit algorithm AGG-UCB neural networks designed estimate rewards utilize graph GNN learn representations.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving solve exploitation-exploration dilemma bandits derive new upper confidence bound UCB built neural networks exploitation exploration..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Furthermore prove AGG-UCB achieve near-optimal regret bound over-parameterized neural networks provide convergence analysis GNN fully-connected layers independent interest..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving end conduct extensive experiments against state-of-the-art baselines multiple public data sets showing effectiveness proposed algorithm..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Contextual bandits aim identify among set arms optimal one highest reward based information..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Motivated fact arms usually exhibit group behaviors mutual impacts exist among groups introduce new model Arm Graph AGG.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving leverage rich information AGG propose bandit algorithm AGG-UCB neural networks designed estimate rewards utilize graph GNN learn representations.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Furthermore prove AGG-UCB achieve near-optimal regret bound over-parameterized neural networks provide convergence analysis GNN fully-connected layers independent interest..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

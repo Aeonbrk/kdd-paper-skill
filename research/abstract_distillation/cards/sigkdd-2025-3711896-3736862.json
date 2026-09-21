@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736862",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Boosting Bot Detection via Heterophily-Aware Representation Learning and Prototype-Guided Cluster Discovery",
+  "doi": "10.1145/3711896.3736862",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825727",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Detecting social media bots essential maintaining security trustworthiness networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Generative Graph Self-Supervised Learning GSL presents promising paradigm overcome limitations yet existing approaches predominantly follow homophily assumption fail.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving end propose BotHP generative GSL framework tailored boost graph-based bot detectors through heterophily-aware representation learning prototype-guided cluster discovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Additionally BotHP incorporates prototype-guided cluster discovery pretext task model latent global consistency bot clusters identify spatially dispersed yet.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contemporary graph-based detection methods demonstrate promising results practical application limited label reliance poor generalization capability across diverse communities..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments two real-world bot detection benchmarks demonstrate BotHP consistently boosts graph-based detectors improving performance alleviating label reliance.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Detecting social media bots essential maintaining security trustworthiness networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Generative Graph Self-Supervised Learning GSL presents promising paradigm overcome limitations yet existing approaches predominantly follow homophily assumption fail.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose BotHP generative GSL framework tailored boost graph-based bot detectors through heterophily-aware representation learning prototype-guided cluster discovery..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contemporary graph-based detection methods demonstrate promising results practical application limited label reliance poor generalization capability across diverse communities..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

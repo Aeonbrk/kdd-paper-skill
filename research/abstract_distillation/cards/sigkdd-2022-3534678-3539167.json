@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539167",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery",
+  "doi": "10.1145/3534678.3539167",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943458",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines On-demand delivery new form logistics customers place orders through online platforms platform arranges couriers deliver them within short.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose Para-Pred indoor status estimation framework based graph neural network directly Predicts effective model Parameters unseen scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving evaluate Para-Pred 109 378 couriers 672 smartphone models 12 merchants on-demand delivery company..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate Para-Pred 109 378 couriers 672 smartphone models 12 merchants on-demand delivery company..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluation results show across environment smartphone model heterogeneities accuracy recall method achieve 93.62% 95.20% outperforming state-of-the-art solutions..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines On-demand delivery new form logistics customers place orders through online platforms platform arranges couriers deliver them within short.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose Para-Pred indoor status estimation framework based graph neural network directly Predicts effective model Parameters unseen scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However environment smartphone model heterogeneities affect status characteristics contained Bluetooth signal resulting decline estimation performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

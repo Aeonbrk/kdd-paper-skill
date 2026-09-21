@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817757",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Learned Lossless Image Compression with Interleaved Parallel Inference and Irregular Causal Reasoning",
+  "doi": "10.1145/3770855.3817757",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197027384",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Lossless image compression typically leverages already decoded pixels reconstruct undecoded ones..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Pixel-by-pixel decoding fully exploits spatial priors but introduces high computational overhead..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Pixel-by-pixel decoding fully exploits spatial priors but introduces high computational overhead..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving balance computational overhead missing spatial priors propose Interleaved Parallel Inference IPI enables decoding across block groups reduce number.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore introduce Irregular Causal Reasoning Module ICRM aligns model inference irregularly available spatial priors induced interleaved parallel decoding.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving contrast block-based decoding improves parallelism but degrades performance due missing spatial priors first step..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore introduce Irregular Causal Reasoning Module ICRM aligns model inference irregularly available spatial priors induced interleaved parallel decoding.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results benchmark datasets three scenarios demonstrate IPI ICRM achieve state-of-the-art compression performance..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Lossless image compression typically leverages already decoded pixels reconstruct undecoded ones..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Pixel-by-pixel decoding fully exploits spatial priors but introduces high computational overhead..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Pixel-by-pixel decoding fully exploits spatial priors but introduces high computational overhead..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving balance computational overhead missing spatial priors propose Interleaved Parallel Inference IPI enables decoding across block groups reduce number.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving contrast block-based decoding improves parallelism but degrades performance due missing spatial priors first step..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818456",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "OnePiece: Bringing Context Engineering and Reasoning to Industrial Cascade Ranking System",
+  "doi": "10.1145/3770855.3818456",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415251121",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose OnePiece unified framework seamlessly integrates LLM-style context engineering reasoning both retrieval ranking models industrial cascaded pipelines..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving OnePiece built pure Transformer backbone further introduces three key innovations structured context engineering augments interaction history preference scenario.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive offline experiments verify effectiveness each core design show OnePiece continues improve larger training spans..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving OnePiece has been deployed main personalized search scenario Shopee achieves 1.80% GMV/UU 3.33% increase advertising revenue..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite growing interest replicating scaled success large language models LLMs industrial search recommender systems most existing efforts remain.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose OnePiece unified framework seamlessly integrates LLM-style context engineering reasoning both retrieval ranking models industrial cascaded pipelines..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive offline experiments verify effectiveness each core design show OnePiece continues improve larger training spans..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

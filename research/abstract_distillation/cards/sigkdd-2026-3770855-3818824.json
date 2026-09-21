@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818824",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MALLES: A Multi-agent LLMs-based Economic Sandbox with Consumer Preference Alignment",
+  "doi": "10.1145/3770855.3818824",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196957077",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines real economy modern decision-making fundamentally challenged high-dimensional multimodal environments further complicated agent heterogeneity combinatorial data sparsity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduces Multi-Agent Large Language Model-based Economic Sandbox MALLES leveraging inherent generalization capabilities large-sacle models establish unified simulation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving enhance simulation stability implement mean-field mechanism designed model dynamic interactions between product environment customer populations effectively stabilizing sampling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore propose multi-agent discussion framework wherein specialized agents collaboratively process extensive product information..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate framework achieves significant improvements product selection accuracy purchase quantity prediction simulation stability compared existing economic financial.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results substantiate potential large language models foundational pillar high-fidelity scalable decision simulation latter analysis real economy based database..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines real economy modern decision-making fundamentally challenged high-dimensional multimodal environments further complicated agent heterogeneity combinatorial data sparsity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces Multi-Agent Large Language Model-based Economic Sandbox MALLES leveraging inherent generalization capabilities large-sacle models establish unified simulation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving enhance simulation stability implement mean-field mechanism designed model dynamic interactions between product environment customer populations effectively stabilizing sampling.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate framework achieves significant improvements product selection accuracy purchase quantity prediction simulation stability compared existing economic financial.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

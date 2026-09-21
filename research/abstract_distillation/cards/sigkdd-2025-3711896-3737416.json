@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737416",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery",
+  "doi": "10.1145/3711896.3737416",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875455",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Metamaterials engineered materials architected structures across multiple length scales offer unprecedented tunable mechanical properties surpass those conventional materials..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However leveraging advanced machine learning ML metamaterial discovery hindered three fundamental challenges C1 Data Heterogeneity Challenge arises heterogeneous.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However leveraging advanced machine learning ML metamaterial discovery hindered three fundamental challenges C1 Data Heterogeneity Challenge arises heterogeneous.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving tackle challenges introduce unified framework named MetamatBench operates three levels. data level integrate standardize heterogeneous multi-modal metamaterial datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving includes comprehensive evaluation suite 12 novel performance metrics plus finite element-based assessment ensure accurate reliable model validation. user.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving includes comprehensive evaluation suite 12 novel performance metrics plus finite element-based assessment ensure accurate reliable model validation. user.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving MetamatBench offers unified platform enables machine learning researchers practitioners develop evaluate new methodologies metamaterial discovery..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Metamaterials engineered materials architected structures across multiple length scales offer unprecedented tunable mechanical properties surpass those conventional materials..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However leveraging advanced machine learning ML metamaterial discovery hindered three fundamental challenges C1 Data Heterogeneity Challenge arises heterogeneous.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However leveraging advanced machine learning ML metamaterial discovery hindered three fundamental challenges C1 Data Heterogeneity Challenge arises heterogeneous.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges introduce unified framework named MetamatBench operates three levels. data level integrate standardize heterogeneous multi-modal metamaterial datasets..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving includes comprehensive evaluation suite 12 novel performance metrics plus finite element-based assessment ensure accurate reliable model validation. user.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

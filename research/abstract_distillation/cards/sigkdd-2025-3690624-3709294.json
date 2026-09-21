@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709294",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Distributional Prototype Learning for Out-of-distribution Detection",
+  "doi": "10.1145/3690624.3709294",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150271",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Out-of-distribution OOD detection has emerged pivotal approach enhancing reliability machine learning models considering potential test data sampled classes.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However modeling finite number prototypes would fail maximally capture intra-class variations..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Out-of-distribution OOD detection has emerged pivotal approach enhancing reliability machine learning models considering potential test data sampled classes.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving motivates us design two feasible formulations Distributional Prototype Learning DPL objective avoid intractable computation exploding parameters caused infinity.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving theoretically analyze both alternatives identifying stable-converging version learning objective..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluations across mainstream OOD detection benchmarks empirically manifest proposed DPL has established new state-of-the-art various settings..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Out-of-distribution OOD detection has emerged pivotal approach enhancing reliability machine learning models considering potential test data sampled classes.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However modeling finite number prototypes would fail maximally capture intra-class variations..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Out-of-distribution OOD detection has emerged pivotal approach enhancing reliability machine learning models considering potential test data sampled classes.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving motivates us design two feasible formulations Distributional Prototype Learning DPL objective avoid intractable computation exploding parameters caused infinity.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluations across mainstream OOD detection benchmarks empirically manifest proposed DPL has established new state-of-the-art various settings..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

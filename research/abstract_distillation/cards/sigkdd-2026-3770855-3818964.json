@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818964",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Hierarchical Reinforcement Learning for Cooperative Air-Ground Delivery in Urban System",
+  "doi": "10.1145/3770855.3818964",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197034394",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Cooperative air-ground delivery has emerged promising logistics paradigm leveraging complementary strengths UAVs ground carriers..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However effective dispatching heterogeneous systems faces two critical challenges heterogeneity between flight road dynamics ii scalability bottleneck raised.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose HRL4AG Hierarchical Reinforcement Learning framework cooperative Air-Ground delivery..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore novel internal reward mechanism designed guide hierarchical policy learning addressing credit assignment problem sparse-reward settings..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments two real-world datasets evaluation platform demonstrate HRL4AG significantly outperforms state-of-the-art baselines improving delivery success rate up.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Cooperative air-ground delivery has emerged promising logistics paradigm leveraging complementary strengths UAVs ground carriers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However effective dispatching heterogeneous systems faces two critical challenges heterogeneity between flight road dynamics ii scalability bottleneck raised.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose HRL4AG Hierarchical Reinforcement Learning framework cooperative Air-Ground delivery..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore novel internal reward mechanism designed guide hierarchical policy learning addressing credit assignment problem sparse-reward settings..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments two real-world datasets evaluation platform demonstrate HRL4AG significantly outperforms state-of-the-art baselines improving delivery success rate up.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

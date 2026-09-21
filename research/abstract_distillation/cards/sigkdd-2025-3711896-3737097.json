@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737097",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Quick Draw Bandits: Quickly Optimizing in Nonstationary Environments with Extremely Many Arms",
+  "doi": "10.1145/3711896.3737097",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825791",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Canonical algorithms multi-armed bandits typically assume stationary reward environment size action space number arms small..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving recently developed methods typically relax only one assumptions existing non-stationary bandit policies designed small number arms Lipschitz linear.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving manuscript propose novel policy learn reward environments over continuous space Gaussian interpolation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving show method efficiently learns continuous Lipschitz reward functions mathcal sqrt cumulative regret..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving finally demonstrate method computationally favorable 100 10000 faster experimentally outperforms sliding Gaussian process policies datasets non-stationarity extremely large.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Canonical algorithms multi-armed bandits typically assume stationary reward environment size action space number arms small..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving recently developed methods typically relax only one assumptions existing non-stationary bandit policies designed small number arms Lipschitz linear.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving manuscript propose novel policy learn reward environments over continuous space Gaussian interpolation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving finally demonstrate method computationally favorable 100 10000 faster experimentally outperforms sliding Gaussian process policies datasets non-stationarity extremely large.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818319",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "AMS: Adaptive Modality Scheduling for Industrial Multi-Scenario CTR Prediction",
+  "doi": "10.1145/3770855.3818319",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197045636",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines increasing diversity recommendation scenarios widespread adoption multi-modal information jointly modeling multi-scenario data has become critical trend industrial click-through.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods primarily focus personalizing user-level modality preferences overlooking varying importance modalities across different scenarios..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose lightweight Adaptive Modality Scheduling AMS framework industrial multi-scenario CTR prediction introduces mask generation network performs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically AMS first performs projection-based alignment multi-modal features then uses hypernetwork-based mask-generation module conditioned scenario modality information model.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition modality fusion module MSR backbone decoupled design allowing AMS flexibly adapted different industrial scenarios..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Finally evaluate AMS through experiments two real-world multi-scenario CTR datasets online A/B tests demonstrating effectiveness generalization capability..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines increasing diversity recommendation scenarios widespread adoption multi-modal information jointly modeling multi-scenario data has become critical trend industrial click-through.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods primarily focus personalizing user-level modality preferences overlooking varying importance modalities across different scenarios..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose lightweight Adaptive Modality Scheduling AMS framework industrial multi-scenario CTR prediction introduces mask generation network performs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically AMS first performs projection-based alignment multi-modal features then uses hypernetwork-based mask-generation module conditioned scenario modality information model.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Finally evaluate AMS through experiments two real-world multi-scenario CTR datasets online A/B tests demonstrating effectiveness generalization capability..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

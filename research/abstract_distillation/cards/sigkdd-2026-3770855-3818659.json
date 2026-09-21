@@ -1,0 +1,110 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818659",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Blue Sky Ideas Track",
+  "title": "The Decision Twin: Metaverse Patient Digital Twins as Executable Clinical Reality",
+  "doi": "10.1145/3770855.3818659",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197046618",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving argue today digital-twin systems XR interfaces foundation-model copilots each address part loop but they fail when deployed separate.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce Metaverse Patient Digital Twin MPDT decision-grade clinical artifact defined one requirement every displayed claim simulated scenario must.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Clinical AI no longer bottlenecked only model performance accountable interaction loop through clinicians patients inspect evidence test alternatives.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving argue today digital-twin systems XR interfaces foundation-model copilots each address part loop but they fail when deployed separate.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

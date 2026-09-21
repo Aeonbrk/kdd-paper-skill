@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818482",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Smallholder Agricultural Landscape Understanding at a National Scale",
+  "doi": "10.1145/3770855.3818482",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196985888",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Comprehensive agricultural landscape understanding critical addressing global challenges food security climate change resource management..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving requires mapping not just crop fields but vital features like trees water bodies form intricate mosaic complex smallholder.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Previous efforts develop land use maps have been limited narrow focus methods field delineation only do not robust.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work addresses limitations presenting first national-scale agricultural mapping system moves beyond simple field delineation enable segmentation instances like.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Fine-grained land use maps generated system publicly accessible via API http agri.withgoogle.com enabling wide range applications precision agriculture.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Further knowledge no prior system smallholder farms has been deployed evaluated national scale..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving system refined real-world application novel post-processing heuristics ensure map consistency accuracy validated through rigorous multi-faceted evaluation process..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Fine-grained land use maps generated system publicly accessible via API http agri.withgoogle.com enabling wide range applications precision agriculture.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Comprehensive agricultural landscape understanding critical addressing global challenges food security climate change resource management..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving requires mapping not just crop fields but vital features like trees water bodies form intricate mosaic complex smallholder.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Previous efforts develop land use maps have been limited narrow focus methods field delineation only do not robust.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work addresses limitations presenting first national-scale agricultural mapping system moves beyond simple field delineation enable segmentation instances like.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Further knowledge no prior system smallholder farms has been deployed evaluated national scale..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

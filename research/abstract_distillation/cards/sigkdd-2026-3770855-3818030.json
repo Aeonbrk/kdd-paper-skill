@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818030",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "StablePFN: Stable Prediction with Causal-Aware Tabular Foundation Model",
+  "doi": "10.1145/3770855.3818030",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196933135",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Pre-trained tabular prediction models based Prior-Data Fitted Networks PFNs TabPFN LimiX have achieved remarkable progress supervised learning demonstrating.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However critical question remains systematically unexplored Does pre-training data generated via causal mechanisms truly endow models ability comprehend.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address fundamental questions propose StablePFN novel tabular foundation model integrates explicit causal awareness stable predictive modeling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Leveraging key yet largely overlooked advantage PFN paradigm availability ground-truth causal structure during synthetic data generation train StablePFN.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving introduce end-to-end Decouple-Discover-Predict architecture utilizes sample decoupling weights guide MB discovery employs hard attention masking mechanism during inference.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Pre-trained tabular prediction models based Prior-Data Fitted Networks PFNs TabPFN LimiX have achieved remarkable progress supervised learning demonstrating.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore models leverage causal information achieve stable prediction across environments.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments both synthetic real-world benchmarks demonstrate StablePFN significantly outperforms state-of-the-art baselines cross-environment prediction settings particularly challenging high-bias.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Pre-trained tabular prediction models based Prior-Data Fitted Networks PFNs TabPFN LimiX have achieved remarkable progress supervised learning demonstrating.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However critical question remains systematically unexplored Does pre-training data generated via causal mechanisms truly endow models ability comprehend.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address fundamental questions propose StablePFN novel tabular foundation model integrates explicit causal awareness stable predictive modeling..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Leveraging key yet largely overlooked advantage PFN paradigm availability ground-truth causal structure during synthetic data generation train StablePFN.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Pre-trained tabular prediction models based Prior-Data Fitted Networks PFNs TabPFN LimiX have achieved remarkable progress supervised learning demonstrating.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

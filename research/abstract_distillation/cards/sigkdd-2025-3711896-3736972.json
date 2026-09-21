@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736972",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Fully Quanvolutional Networks for Time Series Classification",
+  "doi": "10.1145/3711896.3736972",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877214",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite advancements quantum convolution quanvolution challenges persist making scalable efficient applicable multi-dimensional data..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Moreover application quanvolution domain data remains largely unexplored..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose new quanvolution algorithm-Quanv1D-capable processing arbitrary-channel data handling variable kernel sizes generating customizable number feature maps.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving evaluate FQN tested 20 UEA UCR time series datasets both univariate multivariate benchmarked performance against state-of-the-art convolutional models.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving found FQN outperform all compared models terms average accuracy significantly fewer parameters..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate FQN tested 20 UEA UCR time series datasets both univariate multivariate benchmarked performance against state-of-the-art convolutional models.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving found FQN outperform all compared models terms average accuracy significantly fewer parameters..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite advancements quantum convolution quanvolution challenges persist making scalable efficient applicable multi-dimensional data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Moreover application quanvolution domain data remains largely unexplored..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose new quanvolution algorithm-Quanv1D-capable processing arbitrary-channel data handling variable kernel sizes generating customizable number feature maps.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate FQN tested 20 UEA UCR time series datasets both univariate multivariate benchmarked performance against state-of-the-art convolutional models.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate FQN tested 20 UEA UCR time series datasets both univariate multivariate benchmarked performance against state-of-the-art convolutional models.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818066",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Beyond Linear Dynamics: Neural Bilinear Dynamical Models for Time Series Forecasting",
+  "doi": "10.1145/3770855.3818066",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196962378",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time series real-world applications often generated nonlinear dynamical systems making accurate forecasting challenging..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Existing approaches explicitly model system dynamics typically rely linear assumptions Koopman-based linearizations inadequately capture complex nonlinear behaviors lead.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address limitation propose Neural Bilinear Dynamical Model NBDM models nonlinear system dynamics through latent formulation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically NBDM leverages Koopman theory lift original nonlinear dynamics higher-dimensional latent space bilinear dynamical model constructed characterize state.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments five real-world datasets demonstrate NBDM consistently outperforms competitive baselines both given-control missing-control settings particularly multi-step long-horizon forecasting..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time series real-world applications often generated nonlinear dynamical systems making accurate forecasting challenging..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing approaches explicitly model system dynamics typically rely linear assumptions Koopman-based linearizations inadequately capture complex nonlinear behaviors lead.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation propose Neural Bilinear Dynamical Model NBDM models nonlinear system dynamics through latent formulation..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments five real-world datasets demonstrate NBDM consistently outperforms competitive baselines both given-control missing-control settings particularly multi-step long-horizon forecasting..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

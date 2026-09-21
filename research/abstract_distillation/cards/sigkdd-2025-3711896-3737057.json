@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737057",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "MSHTrans: Multi-Scale Hypergraph Transformer with Time-Series Decomposition for Temporal Anomaly Detection",
+  "doi": "10.1145/3711896.3737057",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825842",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time series anomaly detection has garnered significant research attention due growing demands temporal data monitoring across diverse domains..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite rapid advent unsupervised anomaly detection models existing approaches face two critical challenges understanding mechanisms reconstruction-based when handling.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite rapid advent unsupervised anomaly detection models existing approaches face two critical challenges understanding mechanisms reconstruction-based when handling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose novel Multi-Scale Hypergraph Transformer MSHTrans leverages capacity hypergraphs modeling multi-order temporal dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Particularly method employs multi-scale downsampling derive complementary fine-grained coarse-grained representations integrated trainable hypergraph neural networks adaptively learn inter-timestamp.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through synergistic integration learned short-term patterns long-term temporal structures model achieves comprehensive time series reconstruction effective anomaly detection..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate MSHTrans outperforms state-of-the-art competitors average performance improvement 8.21% without point adjustment 3.52%.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time series anomaly detection has garnered significant research attention due growing demands temporal data monitoring across diverse domains..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite rapid advent unsupervised anomaly detection models existing approaches face two critical challenges understanding mechanisms reconstruction-based when handling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite rapid advent unsupervised anomaly detection models existing approaches face two critical challenges understanding mechanisms reconstruction-based when handling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose novel Multi-Scale Hypergraph Transformer MSHTrans leverages capacity hypergraphs modeling multi-order temporal dependencies..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through synergistic integration learned short-term patterns long-term temporal structures model achieves comprehensive time series reconstruction effective anomaly detection..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

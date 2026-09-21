@@ -1,0 +1,74 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736844",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Anytime Algorithms for Approximate Functional Dependencies",
+  "doi": "10.1145/3711896.3736844",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877023",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving propose computational framework identifying approximate functional dependencies AFDs relation leveraging frequency distribution information individual attributes.This operates without requiring.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

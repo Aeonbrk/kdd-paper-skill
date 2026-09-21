@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780298",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Signed Proximity Matters in Graph-based Recommendation",
+  "doi": "10.1145/3770854.3780298",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163584298",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph-based models powerful technique recommendation systems seek leverage graph structure created user-item interactions elevated performance..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Unfortunately former approaches produce sub-par results due lack access global information whereas latter achieve superior performance recommendation but.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving majority them designed unsigned graphs fail exploit negative interactions e.g. dislikes returns users hence incur compromised effectiveness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving bridge gap paper presents SPGNN significantly unleashes capabilities GNNs advances performance top-K recommendation signed graphs through two non-trivial.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Firstly propose upgrade neighborhood aggregation scheme GNNs two novel notions signed local proximity SLP global SGP based weak.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Unfortunately former approaches produce sub-par results due lack access global information whereas latter achieve superior performance recommendation but.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show SPGNN significantly outperforms other unsigned sign-aware models six benchmark datasets up gain 19.42% Recall 28.18%.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph-based models powerful technique recommendation systems seek leverage graph structure created user-item interactions elevated performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Unfortunately former approaches produce sub-par results due lack access global information whereas latter achieve superior performance recommendation but.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving majority them designed unsigned graphs fail exploit negative interactions e.g. dislikes returns users hence incur compromised effectiveness..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap paper presents SPGNN significantly unleashes capabilities GNNs advances performance top-K recommendation signed graphs through two non-trivial.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Unfortunately former approaches produce sub-par results due lack access global information whereas latter achieve superior performance recommendation but.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

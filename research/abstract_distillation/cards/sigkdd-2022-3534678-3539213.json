@@ -1,0 +1,122 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539213",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Graph Neural Networks for Multimodal Single-Cell Data Integration",
+  "doi": "10.1145/3534678.3539213",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4226218349",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances multimodal single-cell technologies have enabled simultaneous acquisitions multiple omics data same cell providing deeper insights cellular.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However challenging learn joint representations multimodal data model relationship between modalities importantly incorporate vast amount single-modality datasets downstream.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However challenging learn joint representations multimodal data model relationship between modalities importantly incorporate vast amount single-modality datasets downstream.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenges correspondingly facilitate multimodal single-cell data analyses three key tasks have been introduced Modality prediction matching andJoint.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work present general Graph Neural Network framework scMoGNN tackle three tasks show demonstrates superior results all compared state-of-the-art.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving work present general Graph Neural Network framework scMoGNN tackle three tasks show demonstrates superior results all compared state-of-the-art.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances multimodal single-cell technologies have enabled simultaneous acquisitions multiple omics data same cell providing deeper insights cellular.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However challenging learn joint representations multimodal data model relationship between modalities importantly incorporate vast amount single-modality datasets downstream.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However challenging learn joint representations multimodal data model relationship between modalities importantly incorporate vast amount single-modality datasets downstream.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges correspondingly facilitate multimodal single-cell data analyses three key tasks have been introduced Modality prediction matching andJoint.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving work present general Graph Neural Network framework scMoGNN tackle three tasks show demonstrates superior results all compared state-of-the-art.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

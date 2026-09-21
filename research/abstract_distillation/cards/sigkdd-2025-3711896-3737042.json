@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737042",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "MDVT: Enhancing Multimodal Recommendation with Model-Agnostic Multimodal-Driven Virtual Triplets",
+  "doi": "10.1145/3711896.3737042",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876849",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines data sparsity problem significantly hinders performance recommender systems traditional models rely limited historical interactions learn user preferences item.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving static warm-up threshold strategy exhaustively searches optimal number epochs but time-consuming computationally intensive..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper propose MDVT model-agnostic approach constructs multimodal-driven virtual triplets provide valuable supervision signals effectively mitigating data sparsity problem.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving ensure high-quality virtual triplets introduce three tailored warm-up threshold strategies static dynamic hybrid..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Once warm-up threshold satisfied virtual triplets used joint model optimization enhanced pair-wise loss function without causing significant gradient.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving dynamic warm-up threshold strategy adjusts period based loss trends improving efficiency but potentially missing optimal performance..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple real-world datasets demonstrate integrating MDVT advanced multimodal recommendation models effectively alleviates data sparsity problem improves.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines data sparsity problem significantly hinders performance recommender systems traditional models rely limited historical interactions learn user preferences item.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving static warm-up threshold strategy exhaustively searches optimal number epochs but time-consuming computationally intensive..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose MDVT model-agnostic approach constructs multimodal-driven virtual triplets provide valuable supervision signals effectively mitigating data sparsity problem.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving ensure high-quality virtual triplets introduce three tailored warm-up threshold strategies static dynamic hybrid..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving dynamic warm-up threshold strategy adjusts period based loss trends improving efficiency but potentially missing optimal performance..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

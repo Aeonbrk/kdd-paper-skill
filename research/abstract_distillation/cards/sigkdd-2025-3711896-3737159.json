@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737159",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "ToolSQL: A Tool-Assisted Agent for SQL Verification and Refinement",
+  "doi": "10.1145/3711896.3737159",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876971",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent Text-to-SQL methods leverage large language models LLMs incorporating feedback database management system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose tool-assisted agent framework SQL verification refinement equipping LLM-based two specialized tools retriever detector designed diagnose.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce SpiderMismatch new dataset specifically constructed reflect condition mismatch problems encountered real-world scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Empirical studies demonstrate effectiveness proposed model Spider Spider-Realistic datasets few-shot settings confirm outperforms baseline methods SpiderMismatch..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirical studies demonstrate effectiveness proposed model Spider Spider-Realistic datasets few-shot settings confirm outperforms baseline methods SpiderMismatch..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent Text-to-SQL methods leverage large language models LLMs incorporating feedback database management system..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose tool-assisted agent framework SQL verification refinement equipping LLM-based two specialized tools retriever detector designed diagnose.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce SpiderMismatch new dataset specifically constructed reflect condition mismatch problems encountered real-world scenarios..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirical studies demonstrate effectiveness proposed model Spider Spider-Realistic datasets few-shot settings confirm outperforms baseline methods SpiderMismatch..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671679",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Enhancing On-Device LLM Inference with Historical Cloud-Based LLM Interactions",
+  "doi": "10.1145/3637528.3671679",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863300",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Many billion-scale large language models LLMs have been released resource-constraint mobile devices provide local LLM inference service when.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However capabilities current on-device LLMs still lag behind those cloud-based how effectively efficiently enhance LLM inference becomes practical.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving thus propose collect user historical interactions cloud-based LLM build external datastore mobile device enhancement nearest neighbors search..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving balance performance efficiency propose select optimal subset full datastore within given size limit optimization objective proven submodular..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further design offline algorithm selects subset after construction full datastore well online performs selection over stream flexibly scheduled..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Nevertheless full datastore improves quality token generation unacceptable expense much slower speed..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving theoretically analyze performance guarantee time complexity offline online designs demonstrate effectiveness scalability..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving finally take three ChatGPT related dialogue datasets four different on-device LLMs evaluation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Many billion-scale large language models LLMs have been released resource-constraint mobile devices provide local LLM inference service when.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However capabilities current on-device LLMs still lag behind those cloud-based how effectively efficiently enhance LLM inference becomes practical.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving thus propose collect user historical interactions cloud-based LLM build external datastore mobile device enhancement nearest neighbors search..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving balance performance efficiency propose select optimal subset full datastore within given size limit optimization objective proven submodular..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Nevertheless full datastore improves quality token generation unacceptable expense much slower speed..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

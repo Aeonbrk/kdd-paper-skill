@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671959",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Explanatory Model Monitoring to Understand the Effects of Feature Shifts on Performance",
+  "doi": "10.1145/3637528.3671959",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863617",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Monitoring maintaining machine learning models among most critical challenges translating recent advances field real-world applications..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However current monitoring methods lack capability provide actionable insights answering question why performance particular model really degraded..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However current monitoring methods lack capability provide actionable insights answering question why performance particular model really degraded..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose novel approach explain behavior black-box model under feature shifts attributing estimated performance change interpretable input characteristics..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving refer method combines concepts Optimal Transport Shapley Values Explanatory Performance Estimation XPE.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving analyze underlying assumptions demonstrate superiority approach over several baselines different data sets across various modalities images audio tabular.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving indicate how generated results lead valuable insights enabling explanatory model monitoring revealing potential root causes deterioration guiding toward.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Monitoring maintaining machine learning models among most critical challenges translating recent advances field real-world applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However current monitoring methods lack capability provide actionable insights answering question why performance particular model really degraded..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However current monitoring methods lack capability provide actionable insights answering question why performance particular model really degraded..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose novel approach explain behavior black-box model under feature shifts attributing estimated performance change interpretable input characteristics..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving analyze underlying assumptions demonstrate superiority approach over several baselines different data sets across various modalities images audio tabular.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

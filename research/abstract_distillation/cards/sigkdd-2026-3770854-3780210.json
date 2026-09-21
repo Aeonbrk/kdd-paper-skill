@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780210",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "BiCD: Learning Conditional Dependence for Continuous Dataset Shift in Regression",
+  "doi": "10.1145/3770854.3780210",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171995815",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines crucial data mining problem domain adaptation DA under dataset shift offers effective paradigm transferring knowledge changing environments i.e..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many real-world complex tasks continuous label spaces e.g. regression conditional information generally intractable shift correction models remain.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving crucial data mining problem domain adaptation DA under dataset shift offers effective paradigm transferring knowledge changing environments i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Recent theoretical advances show learning conditional information crucial successful DA empirical models provable performance have been developed under.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving deal challenges propose information-theoretic learning principle called bi-level conditional dependence BiCD continuous shift setting..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving BiCD characterizes conditional information learned representations two aspects domain dependence label results prove bi-level learning sufficient obtain desired.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically BiCD evaluated standard DA regression datasets significance proposed dependence learning principle validated SOTA performance consistently achieved..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines crucial data mining problem domain adaptation DA under dataset shift offers effective paradigm transferring knowledge changing environments i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many real-world complex tasks continuous label spaces e.g. regression conditional information generally intractable shift correction models remain.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving crucial data mining problem domain adaptation DA under dataset shift offers effective paradigm transferring knowledge changing environments i.e..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent theoretical advances show learning conditional information crucial successful DA empirical models provable performance have been developed under.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving BiCD characterizes conditional information learned representations two aspects domain dependence label results prove bi-level learning sufficient obtain desired.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

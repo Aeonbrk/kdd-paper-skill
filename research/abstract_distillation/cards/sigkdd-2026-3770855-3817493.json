@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817493",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "AFABench: A Generic Framework for Benchmarking Active Feature Acquisition",
+  "doi": "10.1145/3770855.3817493",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4415240915",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines many real-world scenarios acquiring all features data instance expensive impractical due monetary cost latency privacy concerns..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper introduce AFABench first benchmark framework AFA..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving benchmark includes diverse set synthetic real-world datasets supports wide range acquisition policies provides modular design enables easy integration.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving implement evaluate representative algorithms all major categories including static myopic reinforcement learning-based approaches..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results highlight key trade-offs between different AFA strategies provide actionable insights future research..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines many real-world scenarios acquiring all features data instance expensive impractical due monetary cost latency privacy concerns..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce AFABench first benchmark framework AFA..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving numerous methods have been proposed AFA ranging myopic information-theoretic strategies non-myopic reinforcement learning approaches fair systematic evaluation has.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539192",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Friend Recommendations with Self-Rescaling Graph Neural Networks",
+  "doi": "10.1145/3534678.3539192",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290927915",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Friend recommendation service plays important role shaping facilitating growth online social networks..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However observe many GNN variants including LightGCN PPRGo use static pre-defined normalizer neighborhood aggregation decoupled representation learning process.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However observe many GNN variants including LightGCN PPRGo use static pre-defined normalizer neighborhood aggregation decoupled representation learning process.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently Graph Neural Networks GNNs have demonstrated superiority over shallow embedding methods thanks ability explicitly encode neighborhood context..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving verified Xbox friend recommendation scenario some simplified GNNs LightGCN PPRGo achieve best performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving consequence true power GNNs has not yet been fully demonstrated friend recommendations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Friend recommendation service plays important role shaping facilitating growth online social networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However observe many GNN variants including LightGCN PPRGo use static pre-defined normalizer neighborhood aggregation decoupled representation learning process.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However observe many GNN variants including LightGCN PPRGo use static pre-defined normalizer neighborhood aggregation decoupled representation learning process.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently Graph Neural Networks GNNs have demonstrated superiority over shallow embedding methods thanks ability explicitly encode neighborhood context..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

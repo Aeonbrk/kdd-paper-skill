@@ -1,0 +1,105 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709316",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Input Snapshots Fusion for Scalable Discrete-Time Dynamic Graph Neural Networks",
+  "doi": "10.1145/3690624.3709316",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149435",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent years there has been surge research dynamic graph representation learning primarily focusing modeling evolution temporal-spatial patterns real-world.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However within domain discrete-time dynamic graphs exploration temporal edges remains underexplored..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address limitation propose Input Snapshots Fusion based Dynamic Graph Neural Network SFDyG combines Hawkes processes networks capture temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental evaluations eight diverse dynamic graph datasets future link prediction tasks demonstrate SFDyG consistently outperforms existing methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent years there has been surge research dynamic graph representation learning primarily focusing modeling evolution temporal-spatial patterns real-world.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However within domain discrete-time dynamic graphs exploration temporal edges remains underexplored..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitation propose Input Snapshots Fusion based Dynamic Graph Neural Network SFDyG combines Hawkes processes networks capture temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental evaluations eight diverse dynamic graph datasets future link prediction tasks demonstrate SFDyG consistently outperforms existing methods..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

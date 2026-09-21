@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671545",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "FedSecurity: A Benchmark for Attacks and Defenses in Federated Learning and Federated LLMs",
+  "doi": "10.1145/3637528.3671545",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863166",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper introduces FedSecurity end-to-end benchmark serves supplementary component FedML library simulating adversarial attacks corresponding defense mechanisms Federated Learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper introduces FedSecurity end-to-end benchmark serves supplementary component FedML library simulating adversarial attacks corresponding defense mechanisms Federated Learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving FedSecurity eliminates need implementing fundamental FL procedures e.g. training data loading scratch thus enables users focus developing own.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further demonstrate FedSecurity utility adaptability through federated training Large Language Models LLMs showcase potential wide range complex applications..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving further demonstrate FedSecurity utility adaptability through federated training Large Language Models LLMs showcase potential wide range complex applications..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper introduces FedSecurity end-to-end benchmark serves supplementary component FedML library simulating adversarial attacks corresponding defense mechanisms Federated Learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces FedSecurity end-to-end benchmark serves supplementary component FedML library simulating adversarial attacks corresponding defense mechanisms Federated Learning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving FedSecurity eliminates need implementing fundamental FL procedures e.g. training data loading scratch thus enables users focus developing own.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving further demonstrate FedSecurity utility adaptability through federated training Large Language Models LLMs showcase potential wide range complex applications..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

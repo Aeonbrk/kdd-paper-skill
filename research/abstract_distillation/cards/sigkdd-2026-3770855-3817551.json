@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817551",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Beyond Holistic Models: Systematic Component-level Benchmarking of Deep Multivariate Time-Series Forecasting",
+  "doi": "10.1145/3770855.3817551",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162659166",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines previous research multivariate time series forecasting has focused developing complex holistic models work advocates shift toward granular component-level.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving previous research multivariate time series forecasting has focused developing complex holistic models work advocates shift toward granular component-level.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving propose TSCOMP first large-scale benchmark systematically deconstructs deep forecasting methods core fine-grained components--spanning series preprocessing encoding strategies network.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving constrained orthogonal experimental design extensive evaluations conduct multi-view analyses reveal component effectiveness across different backbones data characteristics interactions..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving constrained orthogonal experimental design extensive evaluations conduct multi-view analyses reveal component effectiveness across different backbones data characteristics interactions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Beyond providing insights benchmark establishes fine-grained performance corpus comprising over 20 000 model-dataset evaluations supports learning automated component.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments demonstrate corpus-driven approach despite simplicity consistently outperforms state-of-the-art methods validating soundness evaluation design confirming systematic component selection.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines previous research multivariate time series forecasting has focused developing complex holistic models work advocates shift toward granular component-level.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving previous research multivariate time series forecasting has focused developing complex holistic models work advocates shift toward granular component-level.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose TSCOMP first large-scale benchmark systematically deconstructs deep forecasting methods core fine-grained components--spanning series preprocessing encoding strategies network.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving constrained orthogonal experimental design extensive evaluations conduct multi-view analyses reveal component effectiveness across different backbones data characteristics interactions..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

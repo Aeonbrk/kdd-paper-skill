@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818020",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "RuleTwin: Physics-Constrained Rule Induction for Anomaly Detection in Industrial Multivariate Time Serie",
+  "doi": "10.1145/3770855.3818020",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196952079",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines deep integration industrial internet technologies control systems increasingly exposed cyber attacks malicious behaviors cyberspace propagate physical processes induce.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing data-driven anomaly detection methods identify abnormal patterns but remain limited attack localization interpretation..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose RuleTwin physics-constrained rule induction framework integrates data-driven modeling domain-specific physical constraints through dual-view learning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments industrial benchmark datasets against twelve baseline methods demonstrate RuleTwin achieves superior detection performance accurately localizing compromised actuators.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments industrial benchmark datasets against twelve baseline methods demonstrate RuleTwin achieves superior detection performance accurately localizing compromised actuators.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines deep integration industrial internet technologies control systems increasingly exposed cyber attacks malicious behaviors cyberspace propagate physical processes induce.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing data-driven anomaly detection methods identify abnormal patterns but remain limited attack localization interpretation..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose RuleTwin physics-constrained rule induction framework integrates data-driven modeling domain-specific physical constraints through dual-view learning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Experiments industrial benchmark datasets against twelve baseline methods demonstrate RuleTwin achieves superior detection performance accurately localizing compromised actuators.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments industrial benchmark datasets against twelve baseline methods demonstrate RuleTwin achieves superior detection performance accurately localizing compromised actuators.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,147 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671646",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Intelligent Agents with LLM-based Process Automation",
+  "doi": "10.1145/3637528.3671646",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863345",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines intelligent virtual assistants like Siri Alexa Google Assistant have become ubiquitous modern life they still face limitations ability.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However recent breakthroughs large language models LLMs show promise overcoming existing barriers enhancing natural processing reasoning capabilities..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper proposes novel LLM-based virtual assistant automatically perform multi-step operations within mobile apps based high-level user requests..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Notably work represents first real-world deployment extensive evaluation large language model-based virtual assistant widely used mobile application enormous.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments demonstrate system completing complex mobile operation tasks Alipay based natural language instructions..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving main contributions novel LLMPA architecture optimized app process automation methodology applying LLMs mobile apps demonstrations multi-step task completion.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably work represents first real-world deployment extensive evaluation large language model-based virtual assistant widely used mobile application enormous.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines intelligent virtual assistants like Siri Alexa Google Assistant have become ubiquitous modern life they still face limitations ability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However recent breakthroughs large language models LLMs show promise overcoming existing barriers enhancing natural processing reasoning capabilities..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper proposes novel LLM-based virtual assistant automatically perform multi-step operations within mobile apps based high-level user requests..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Notably work represents first real-world deployment extensive evaluation large language model-based virtual assistant widely used mobile application enormous.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments demonstrate system completing complex mobile operation tasks Alipay based natural language instructions..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818918",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "GatorTrio: Topology-Refined Tri-View Graph Learning for Spatial Domain Identification in Spatial Transcriptomics",
+  "doi": "10.1145/3770855.3818918",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197005756",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Spatial domain identification transcriptomics ST partitions tissue section spatially coherent regions distinct transcriptional programs..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However dropout boundary mixing make neighborhood reliability highly non-uniform across space so fixed graphs propagate signals true boundaries.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose GatorTrio topology-refined tri-view graph learning framework adaptively fuses views per unit via interaction-aware sparse Mixture-of-Experts MoE router..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving refine topology through self-training pruning pseudo-label inconsistent inter-cluster edges re-encoding refined graphs..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving parameter-sharing GNN encoder encodes each graph router fuses resulting view-specific embeddings view dropout learnable missing-view tokens improve robustness.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments diverse ST benchmarks show consistent improvements over ten representative baselines support downstream biological analyses..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Spatial domain identification transcriptomics ST partitions tissue section spatially coherent regions distinct transcriptional programs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However dropout boundary mixing make neighborhood reliability highly non-uniform across space so fixed graphs propagate signals true boundaries.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose GatorTrio topology-refined tri-view graph learning framework adaptively fuses views per unit via interaction-aware sparse Mixture-of-Experts MoE router..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving refine topology through self-training pruning pseudo-label inconsistent inter-cluster edges re-encoding refined graphs..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving parameter-sharing GNN encoder encodes each graph router fuses resulting view-specific embeddings view dropout learnable missing-view tokens improve robustness.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

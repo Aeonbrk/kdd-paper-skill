@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599855",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Applied Data Track Full Papers",
+  "title": "Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge Graph for SMEs Supply Chain Prediction",
+  "doi": "10.1145/3580305.3599855",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568193",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines effectively explore supply chain relationships among Small Medium-sized Enterprises SMEs some remarkable progress relation modeling problem especially knowledge.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However still great challenge existing models seldom them consider both temporal dependency cooperative correlation connectivity pattern along timeline.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Accordingly propose novel framework learn joint relational co-evolution Spatial-Temporal Knowledge Graphs STKG.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically base constructed large-scale financial STKG multi-view relational sequences mining method proposed reveal semantic information ontological concepts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore relational co-evolution learning module developed capture regularity evolving connectivity patterns spatial-temporal view..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Meanwhile multiple random subspace representation learning layer designed improve both compatibility complementarity during knowledge aggregation..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results large-scale SMEs supply chain prediction tasks four real-world industries China have illustrated effectiveness proposed model..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines effectively explore supply chain relationships among Small Medium-sized Enterprises SMEs some remarkable progress relation modeling problem especially knowledge.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However still great challenge existing models seldom them consider both temporal dependency cooperative correlation connectivity pattern along timeline.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Accordingly propose novel framework learn joint relational co-evolution Spatial-Temporal Knowledge Graphs STKG.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically base constructed large-scale financial STKG multi-view relational sequences mining method proposed reveal semantic information ontological concepts..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Meanwhile multiple random subspace representation learning layer designed improve both compatibility complementarity during knowledge aggregation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599534",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "TWIN: Personalized Clinical Trial Digital Twin Generation",
+  "doi": "10.1145/3580305.3599534",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568125",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Clinical trial digital twins virtual patients reflect personal characteristics high degree granularity used simulate various patient outcomes under.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However prior research has mainly focused generating Electronic Healthcare Records EHRs often assume large training data do not.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving benefit drug development process reducing sample size required participant recruitment improving patient outcome predictive modeling mitigating privacy risks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose sample-efficient method TWIN generating personalized clinical trial digital twins..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving compare method various baselines generating real-world patient-level clinical trial data..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving benefit drug development process reducing sample size required participant recruitment improving patient outcome predictive modeling mitigating privacy risks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show TWIN generates synthetic trial data high fidelity facilitate patient outcome predictions low-data scenarios strong privacy protection.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Clinical trial digital twins virtual patients reflect personal characteristics high degree granularity used simulate various patient outcomes under.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However prior research has mainly focused generating Electronic Healthcare Records EHRs often assume large training data do not.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving benefit drug development process reducing sample size required participant recruitment improving patient outcome predictive modeling mitigating privacy risks.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose sample-efficient method TWIN generating personalized clinical trial digital twins..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving benefit drug development process reducing sample size required participant recruitment improving patient outcome predictive modeling mitigating privacy risks.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

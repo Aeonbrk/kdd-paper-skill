@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737255",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Optimizing Recall or Relevance? A Multi-Task Multi-Head Approach for Item-to-Item Retrieval in Recommendation",
+  "doi": "10.1145/3711896.3737255",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876812",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines task item-to-item I2I retrieval identify set relevant highly engaging items based given trigger item..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing I2I retrieval models industry primarily built co-engagement data optimized recall measure overly emphasizes patterns failing capture.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose MTMH Multi-Task Multi-Head I2I retrieval model achieves both high recall semantic relevance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model consists two key components multi-task learning loss formally optimizing trade-off between recall semantic relevance multi-head I2I retrieval.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving evaluate MTMH proprietary data commercial platform serving billions users demonstrate improve recall up 14.4% semantic relevance 56.6% compared.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing I2I retrieval models industry primarily built co-engagement data optimized recall measure overly emphasizes patterns failing capture.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address challenge propose MTMH Multi-Task Multi-Head I2I retrieval model achieves both high recall semantic relevance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving model consists two key components multi-task learning loss formally optimizing trade-off between recall semantic relevance multi-head I2I retrieval.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines task item-to-item I2I retrieval identify set relevant highly engaging items based given trigger item..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing I2I retrieval models industry primarily built co-engagement data optimized recall measure overly emphasizes patterns failing capture.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge propose MTMH Multi-Task Multi-Head I2I retrieval model achieves both high recall semantic relevance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving model consists two key components multi-task learning loss formally optimizing trade-off between recall semantic relevance multi-head I2I retrieval.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing I2I retrieval models industry primarily built co-engagement data optimized recall measure overly emphasizes patterns failing capture.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

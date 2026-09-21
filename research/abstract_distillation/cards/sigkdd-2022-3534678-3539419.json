@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539419",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "RES: A Robust Framework for Guiding Visual Explanation",
+  "doi": "10.1145/3534678.3539419",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4283703617",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However research supervising explanations especially vision-based applications represented through saliency maps early stage due several inherent challenges inaccuracy.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving guide model toward better explanations techniques explanation supervision add signals have started show promising effects improving both generalizability.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving However research supervising explanations especially vision-based applications represented through saliency maps early stage due several inherent challenges inaccuracy.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving guide model toward better explanations techniques explanation supervision add signals have started show promising effects improving both generalizability.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments two real-world image datasets demonstrate effectiveness proposed framework enhancing both reasonability explanation performance backbone DNNs model..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However research supervising explanations especially vision-based applications represented through saliency maps early stage due several inherent challenges inaccuracy.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving guide model toward better explanations techniques explanation supervision add signals have started show promising effects improving both generalizability.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Despite fast progress explanation techniques modern Deep Neural Networks DNNs main focus handling how generate explanations advanced research.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

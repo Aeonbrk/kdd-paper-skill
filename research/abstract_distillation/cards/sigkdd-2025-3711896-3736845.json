@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736845",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks",
+  "doi": "10.1145/3711896.3736845",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876931",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph Prompt Learning GPL has been introduced promising approach uses prompts adapt pre-trained GNN models specific downstream tasks.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing graph backdoor attacks rely modifying model parameters during training but approach impractical GPL GNN encoder frozen after.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Graph Prompt Learning GPL has been introduced promising approach uses prompts adapt pre-trained GNN models specific downstream tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite advantages GPL little attention has been given vulnerability backdoor attacks adversary manipulate model behavior embedding hidden triggers..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing graph backdoor attacks rely modifying model parameters during training but approach impractical GPL GNN encoder frozen after.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving TGPA injects backdoors graph prompts without modifying pre-trained GNN encoders ensures high attack success rates clean accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple datasets under various settings demonstrate effectiveness TGPA compromising GPL models fixed GNN encoders..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph Prompt Learning GPL has been introduced promising approach uses prompts adapt pre-trained GNN models specific downstream tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing graph backdoor attacks rely modifying model parameters during training but approach impractical GPL GNN encoder frozen after.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Graph Prompt Learning GPL has been introduced promising approach uses prompts adapt pre-trained GNN models specific downstream tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite advantages GPL little attention has been given vulnerability backdoor attacks adversary manipulate model behavior embedding hidden triggers..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving TGPA injects backdoors graph prompts without modifying pre-trained GNN encoders ensures high attack success rates clean accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

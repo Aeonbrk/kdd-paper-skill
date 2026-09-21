@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599390",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Improving the Expressiveness of K-hop Message-Passing GNNs by Injecting Contextualized Substructure Information",
+  "doi": "10.1145/3580305.3599390",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568239",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving One line works aim developing K-hop message-passing GNNs node representation updated aggregating information not only direct neighbors but.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work discuss limitation K-hop message-passing GNNs propose substructure encoding function uplift expressive power any GNN..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further inject contextualized substructure information enhance expressiveness K-hop message-passing GNNs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically proposed method set new state-of-the-art performance achieves comparable variety datasets..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving One line works aim developing K-hop message-passing GNNs node representation updated aggregating information not only direct neighbors but.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work discuss limitation K-hop message-passing GNNs propose substructure encoding function uplift expressive power any GNN..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Graph neural networks GNNs have become de facto standard representational learning graphs achieved state-of-the-art performance many graph-related tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

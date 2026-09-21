@@ -1,0 +1,34 @@
+{
+  "manifest_count": 3696,
+  "card_count": 3696,
+  "year_counts": {
+    "2022": 459,
+    "2023": 496,
+    "2024": 562,
+    "2025": 771,
+    "2026": 1408
+  },
+  "state_counts": {
+    "2022:completed": 395,
+    "2022:missing_source": 64,
+    "2023:completed": 490,
+    "2023:missing_source": 6,
+    "2024:completed": 561,
+    "2024:missing_source": 1,
+    "2025:completed": 694,
+    "2025:missing_source": 77,
+    "2026:completed": 1109,
+    "2026:missing_source": 299
+  },
+  "source_counts": {
+    "openalex_abstract_metadata": 3249
+  },
+  "pilot_size": 36,
+  "audit_size": 60,
+  "copy_similarity": {
+    "claims_checked": 34764,
+    "max": 0.5377176015473888,
+    "over_0_8": 0
+  },
+  "errors": []
+}

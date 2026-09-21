@@ -1,0 +1,100 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818959",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "DDIAgents: Mechanism-Conditioned Context Flow for Drug-Drug Interaction Prediction",
+  "doi": "10.1145/3770855.3818959",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197039180",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Drug-drug interaction DDI prediction essential medication safety yet requires reasoning over heterogeneous biomedical evidence whose relevance changes across.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose DDIAgents mechanism-conditioned multi-agent framework performs DDI prediction through dynamic knowledge orchestration..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments realistic DDI prediction benchmarks show DDIAgents consistently outperforms existing feature-based graph-based LLM-based agent-based baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Beyond prediction performance DDIAgents demonstrates how multi-agent systems organize heterogeneous scientific knowledge adaptive interpretable AI4Science reasoning..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Drug-drug interaction DDI prediction essential medication safety yet requires reasoning over heterogeneous biomedical evidence whose relevance changes across.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose DDIAgents mechanism-conditioned multi-agent framework performs DDI prediction through dynamic knowledge orchestration..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments realistic DDI prediction benchmarks show DDIAgents consistently outperforms existing feature-based graph-based LLM-based agent-based baselines..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

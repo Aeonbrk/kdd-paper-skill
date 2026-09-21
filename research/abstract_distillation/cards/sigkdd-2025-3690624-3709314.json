@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709314",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Attribute-Enhanced Similarity Ranking for Sparse Link Prediction",
+  "doi": "10.1145/3690624.3709314",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150078",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Link prediction fundamental problem graph data..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving GNN-based methods treat link prediction binary classification problem handle extreme class imbalance---real graphs very sparse---by sampling uniformly random.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Graph Neural Networks GNNs have become predominant framework link prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However show reported performance GNNs link prediction balanced setting does not translate realistic imbalanced simpler topology-based approaches often.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving findings motivate Gelato similarity-based link-prediction method applies graph learning based node attributes enhance topological heuristic ranking loss addressing.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving GNN-based methods treat link prediction binary classification problem handle extreme class imbalance---real graphs very sparse---by sampling uniformly random.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show Gelato outperforms existing GNN-based alternatives..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Link prediction fundamental problem graph data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving GNN-based methods treat link prediction binary classification problem handle extreme class imbalance---real graphs very sparse---by sampling uniformly random.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Graph Neural Networks GNNs have become predominant framework link prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However show reported performance GNNs link prediction balanced setting does not translate realistic imbalanced simpler topology-based approaches often.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving GNN-based methods treat link prediction binary classification problem handle extreme class imbalance---real graphs very sparse---by sampling uniformly random.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818998",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Co4ICF: Co-evolving Physics-Informed Surrogate and RL-based Pulse Optimizer for Inertial Confinement Fusion",
+  "doi": "10.1145/3770855.3818998",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7168402854",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Offline-trained surrogates Inertial Confinement Fusion ICF suffer well-known failure mode iterative optimizers drive inputs out-of-distribution OOD regions predictions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Here present Co4ICF co-evolving framework couples physics-informed surrogate PPO-based pulse optimizer..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving MULTI environment Co4ICF achieves 146.1% normalized yield based current laser design baseline post-hoc cross-fidelity check optimized pulse further.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving release large-scale MULTI-IFE simulation dataset support future benchmarking..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving MULTI environment Co4ICF achieves 146.1% normalized yield based current laser design baseline post-hoc cross-fidelity check optimized pulse further.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Offline-trained surrogates Inertial Confinement Fusion ICF suffer well-known failure mode iterative optimizers drive inputs out-of-distribution OOD regions predictions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Here present Co4ICF co-evolving framework couples physics-informed surrogate PPO-based pulse optimizer..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving MULTI environment Co4ICF achieves 146.1% normalized yield based current laser design baseline post-hoc cross-fidelity check optimized pulse further.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving MULTI environment Co4ICF achieves 146.1% normalized yield based current laser design baseline post-hoc cross-fidelity check optimized pulse further.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

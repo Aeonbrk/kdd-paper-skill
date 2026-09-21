@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737180",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "When Interpretability Meets Generalization: Delta-GAM for Robust Extrapolation in Out-of-Distribution Settings",
+  "doi": "10.1145/3711896.3737180",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877171",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Out-of-Distribution OOD extrapolation test data feature values extend beyond training range poses significant challenges machine learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose Delta-GAM interpretable Generalized Additive Model GAM achieves robust extrapolation OOD scenarios..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method jointly learns feature-target relationships functional adaptations extrapolating beyond training distribution reformulating GAM fitting second-order interaction problem between.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving theoretically show smooth GAM shape functions induce approximately low-rank structure interactions enabling efficient decomposition via specialized neural network..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving existing solutions often sacrifice interpretability resulting limited applicability high-stakes applications critical requirement..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper propose Delta-GAM interpretable Generalized Additive Model GAM achieves robust extrapolation OOD scenarios..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments synthetic real-world data demonstrate Delta-GAM superior performance OOD extrapolation tasks preserving model interpretability bridging key gap trustworthy.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Out-of-Distribution OOD extrapolation test data feature values extend beyond training range poses significant challenges machine learning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose Delta-GAM interpretable Generalized Additive Model GAM achieves robust extrapolation OOD scenarios..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving method jointly learns feature-target relationships functional adaptations extrapolating beyond training distribution reformulating GAM fitting second-order interaction problem between.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving existing solutions often sacrifice interpretability resulting limited applicability high-stakes applications critical requirement..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817502",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Towards Event-Aware Forecasting in DeFi: Insights from On-chain Automated Market Maker Protocols",
+  "doi": "10.1145/3770855.3817502",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196926118",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Automated Market Makers AMMs core infrastructure decentralized finance DeFi uniquely drive on-chain asset pricing through deterministic reserve ratio.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing research generally neglects micro-structural dynamics AMMs level lacking both comprehensive dataset covering multiple protocols fine-grained event.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However existing research generally neglects micro-structural dynamics AMMs level lacking both comprehensive dataset covering multiple protocols fine-grained event.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gap construct dataset containing 8.9 million on-chain event records four representative AMMs protocols Pendle Uniswap v3 Aave.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore propose Uncertainty Weighted Mean Squared Error UWM loss function incorporates block interval regression term traditional Temporal Point.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments eight advanced TPP architectures across four representative DeFi protocols demonstrate loss function reduces time prediction error.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Automated Market Makers AMMs core infrastructure decentralized finance DeFi uniquely drive on-chain asset pricing through deterministic reserve ratio.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing research generally neglects micro-structural dynamics AMMs level lacking both comprehensive dataset covering multiple protocols fine-grained event.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing research generally neglects micro-structural dynamics AMMs level lacking both comprehensive dataset covering multiple protocols fine-grained event.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving fill gap construct dataset containing 8.9 million on-chain event records four representative AMMs protocols Pendle Uniswap v3 Aave.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments eight advanced TPP architectures across four representative DeFi protocols demonstrate loss function reduces time prediction error.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671756",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Asymmetric Beta Loss for Evidence-Based Safe Semi-Supervised Multi-Label Learning",
+  "doi": "10.1145/3637528.3671756",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863561",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However realistic scenarios unlabeled examples often collected through cost-effective methods inevitably introducing out-of-distribution OOD data leading significant decline.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However realistic scenarios unlabeled examples often collected through cost-effective methods inevitably introducing out-of-distribution OOD data leading significant decline.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose safe semi-supervised multi-label learning framework based theory evidential deep EDL goal achieving robust effective unlabeled data.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper propose safe semi-supervised multi-label learning framework based theory evidential deep EDL goal achieving robust effective unlabeled data.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments multiple benchmark datasets verify effectiveness proposed method both OOD detection SSMLL tasks..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However realistic scenarios unlabeled examples often collected through cost-effective methods inevitably introducing out-of-distribution OOD data leading significant decline.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However realistic scenarios unlabeled examples often collected through cost-effective methods inevitably introducing out-of-distribution OOD data leading significant decline.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving goal semi-supervised multi-label learning SSMLL improve model performance leveraging information unlabeled data..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780336",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Faico: Faithful and Complete Knowledge Graph Augmented Reasoning",
+  "doi": "10.1145/3770854.3780336",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171919609",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs augmented knowledge graphs KGs have exhibited great potential complex reasoning tasks..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches often struggle incomplete subgraph retrieval inaccurate semantic alignment hinder reasoning performance answer quality..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper present Faico KG-enhanced reasoning framework designed achieve both semantic faithfulness structural completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Faico decouples model inference graph traversal integrating fine-tuned LLM-based relation type generator accurate semantic mapping KG retriever reasoning.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Based predicted relation types model reasoning subgraph RS k-bounded edge type k-BET constrains recurrence within paths devise budget-dominance-based.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paper present Faico KG-enhanced reasoning framework designed achieve both semantic faithfulness structural completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive experiments multiple KGQA benchmarks Faico demonstrates improvements both effectiveness efficiency over LLM-native state-of-the-art KG-augmented reasoning baselines.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs augmented knowledge graphs KGs have exhibited great potential complex reasoning tasks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches often struggle incomplete subgraph retrieval inaccurate semantic alignment hinder reasoning performance answer quality..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present Faico KG-enhanced reasoning framework designed achieve both semantic faithfulness structural completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Faico decouples model inference graph traversal integrating fine-tuned LLM-based relation type generator accurate semantic mapping KG retriever reasoning.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paper present Faico KG-enhanced reasoning framework designed achieve both semantic faithfulness structural completeness..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

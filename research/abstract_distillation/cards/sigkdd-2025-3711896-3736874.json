@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736874",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Causal Discovery through Synergizing Large Language Model and Data-Driven Reasoning",
+  "doi": "10.1145/3711896.3736874",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825725",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Revealing underlying causal mechanisms real world critical scientific technical progress..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite advancements over past decades lack high-quality data inability traditional causal discovery algorithms TCDA fully comprehend exact semantics.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue paper proposes novel causal modeling framework LLM-CD integrates metadata-based reasoning capabilities large language models LLMs data-driven.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving utilize large-scale de-identified real patient dataset provided hospital new extracted MIMIC-IV about same disease lung cancer two benchmark.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving utilize large-scale de-identified real patient dataset provided hospital new extracted MIMIC-IV about same disease lung cancer two benchmark.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experimental results confirm effectiveness reliability LLM-CD highest improvement 403.93% Recall 25.77% Ratio metric across four datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Revealing underlying causal mechanisms real world critical scientific technical progress..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite advancements over past decades lack high-quality data inability traditional causal discovery algorithms TCDA fully comprehend exact semantics.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue paper proposes novel causal modeling framework LLM-CD integrates metadata-based reasoning capabilities large language models LLMs data-driven.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving utilize large-scale de-identified real patient dataset provided hospital new extracted MIMIC-IV about same disease lung cancer two benchmark.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving utilize large-scale de-identified real patient dataset provided hospital new extracted MIMIC-IV about same disease lung cancer two benchmark.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

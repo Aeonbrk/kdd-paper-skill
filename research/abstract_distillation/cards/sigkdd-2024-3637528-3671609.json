@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671609",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning",
+  "doi": "10.1145/3637528.3671609",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863706",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Code LLMs have emerged specialized research field remarkable studies dedicated enhancing model coding capabilities through fine-tuning pre-trained models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Code LLMs have emerged specialized research field remarkable studies dedicated enhancing model coding capabilities through fine-tuning pre-trained models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome limitations present multi-task fine-tuning framework MFTCoder enables simultaneous parallel multiple tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving incorporating various loss functions effectively address common challenges multi-task learning data imbalance varying difficulty levels inconsistent convergence speeds..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments have conclusively demonstrated multi-task fine-tuning approach outperforms both individual single tasks mixed ensemble tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover MFTCoder offers efficient training capabilities including data tokenization modes parameter fine-tuning PEFT techniques resulting significantly improved speed.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Code LLMs have emerged specialized research field remarkable studies dedicated enhancing model coding capabilities through fine-tuning pre-trained models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Code LLMs have emerged specialized research field remarkable studies dedicated enhancing model coding capabilities through fine-tuning pre-trained models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitations present multi-task fine-tuning framework MFTCoder enables simultaneous parallel multiple tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments have conclusively demonstrated multi-task fine-tuning approach outperforms both individual single tasks mixed ensemble tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

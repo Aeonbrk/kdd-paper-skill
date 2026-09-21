@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817559",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation",
+  "doi": "10.1145/3770855.3817559",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196939555",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Driven conservative over-provisioning guarantee service reliability resource utilization cloud data centers remains low levels..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Driven conservative over-provisioning guarantee service reliability resource utilization cloud data centers remains low levels..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge gap propose CloudCons comprehensive end-to-end benchmark designed evaluate forecasting models within specific context cloud resource consolidation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving build high-quality datasets cover diverse workloads Huawei Cloud Microsoft Azure Google Borg capturing distinct service characteristics ranging synchronized.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving conduct extensive evaluation statistical deep learning foundation models..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving bridge gap propose CloudCons comprehensive end-to-end benchmark designed evaluate forecasting models within specific context cloud resource consolidation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive evaluation statistical deep learning foundation models..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments reveal pivotal finding foundation models demonstrate superior zero-shot forecasting accuracy advantage does not inherently translate better decision.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Driven conservative over-provisioning guarantee service reliability resource utilization cloud data centers remains low levels..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Driven conservative over-provisioning guarantee service reliability resource utilization cloud data centers remains low levels..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose CloudCons comprehensive end-to-end benchmark designed evaluate forecasting models within specific context cloud resource consolidation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving build high-quality datasets cover diverse workloads Huawei Cloud Microsoft Azure Google Borg capturing distinct service characteristics ranging synchronized.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving bridge gap propose CloudCons comprehensive end-to-end benchmark designed evaluate forecasting models within specific context cloud resource consolidation..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

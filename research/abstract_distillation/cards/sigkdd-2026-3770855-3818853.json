@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818853",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MAPPE: Rethinking and Improving Fairness in LLMs for Medicine via Minimax Preference-based Prompt Evolution",
+  "doi": "10.1145/3770855.3818853",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196924507",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have shown strong potential medical applications question answering clinical prediction. Despite growing adoption fairness.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large Language Models LLMs have shown strong potential medical applications question answering clinical prediction. Despite growing adoption fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper first rethink fairness LLMs medicine clinically grounded utility-based perspective..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Inspired principles health equity medicine introduce universal fairness clinically grounded definition reframes maximizing subgroup-aware diagnostic performance under attribute-conditioned.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving achieve objective practice propose MAPPE training-free minimax prompt optimization framework. theoretically promotes universal fairness directly applicable both closed-source.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Moreover fairness evaluation medical LLMs hindered lack dedicated benchmarks..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving achieve objective practice propose MAPPE training-free minimax prompt optimization framework. theoretically promotes universal fairness directly applicable both closed-source.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving systematically evaluate fairness construct FairMed first attribute-annotated benchmark medical LLMs covering question answering clinical prediction. Experiments both closed-source.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have shown strong potential medical applications question answering clinical prediction. Despite growing adoption fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large Language Models LLMs have shown strong potential medical applications question answering clinical prediction. Despite growing adoption fairness.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper first rethink fairness LLMs medicine clinically grounded utility-based perspective..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired principles health equity medicine introduce universal fairness clinically grounded definition reframes maximizing subgroup-aware diagnostic performance under attribute-conditioned.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Moreover fairness evaluation medical LLMs hindered lack dedicated benchmarks..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

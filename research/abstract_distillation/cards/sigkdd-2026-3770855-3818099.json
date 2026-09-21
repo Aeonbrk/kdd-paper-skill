@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818099",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "VeriHGN: Heterogeneous Graph-Based Congestion Prediction for Chip Layout Verification",
+  "doi": "10.1145/3770855.3818099",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196938244",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Very Large Scale Integration VLSI designs continue size complexity layout verification has become central challenge modern Electronic Design.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However although prior methods incorporate both netlist connectivity layout features they often model two loosely coupled manner primarily.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Very Large Scale Integration VLSI designs continue size complexity layout verification has become central challenge modern Electronic Design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However although prior methods incorporate both netlist connectivity layout features they often model two loosely coupled manner primarily.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose VeriHGN verification framework built enhanced heterogeneous graph unifies circuit components spatial grids single relational representation enabling faithful.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments industrial benchmarks including ISPD2015 CircuitNet-N14 CircuitNet-N28 demonstrate VeriHGN achieves best near-best performance over state-of-the-art methods prediction accuracy.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Very Large Scale Integration VLSI designs continue size complexity layout verification has become central challenge modern Electronic Design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However although prior methods incorporate both netlist connectivity layout features they often model two loosely coupled manner primarily.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Very Large Scale Integration VLSI designs continue size complexity layout verification has become central challenge modern Electronic Design.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However although prior methods incorporate both netlist connectivity layout features they often model two loosely coupled manner primarily.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments industrial benchmarks including ISPD2015 CircuitNet-N14 CircuitNet-N28 demonstrate VeriHGN achieves best near-best performance over state-of-the-art methods prediction accuracy.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

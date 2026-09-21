@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539024",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Three-Stage Root Cause Analysis for Logistics Time Efficiency via Explainable Machine Learning",
+  "doi": "10.1145/3534678.3539024",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290944311",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines performance logistics highly depends time efficiency hence plenty efforts have been devoted ensuring on-time delivery modern industry..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However delay logistics transportation delivery still happen due various practical issues significantly impact quality service..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed solution comprises three stages statistical methods employed first stage analyze pattern on-time delivery rate detect abnormalities induced.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Subsequently machine learning model trained capture underlying correlations between time efficiency potential impacting factors..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed method comprehensively studied real JD Logistics data through experiments identify root causes impact time efficiency delivery high.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving order address issue work investigates root causes impacting time efficiency thereby facilitating operation logistics systems resources appropriately allocated.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving proposed method comprehensively studied real JD Logistics data through experiments identify root causes impact time efficiency delivery high.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore demonstrated outperform baselines including recent state-of-the-art method..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines performance logistics highly depends time efficiency hence plenty efforts have been devoted ensuring on-time delivery modern industry..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However delay logistics transportation delivery still happen due various practical issues significantly impact quality service..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving proposed solution comprises three stages statistical methods employed first stage analyze pattern on-time delivery rate detect abnormalities induced.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Subsequently machine learning model trained capture underlying correlations between time efficiency potential impacting factors..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving order address issue work investigates root causes impacting time efficiency thereby facilitating operation logistics systems resources appropriately allocated.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

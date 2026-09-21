@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_id", "venue", "year", "track", "reading_level", "abstract_source", "source_locator", "retrieved_on", "source_units", "problem_and_gap", "contributions", "stated_novelty", "author_reported_evidence", "narrative_sequence", "candidate_lessons", "unknowns", "validation_state"],
+  "properties": {
+    "paper_id": {"type": "string"},
+    "venue": {"type": "string"},
+    "year": {"type": "integer"},
+    "track": {"type": ["string", "null"]},
+    "reading_level": {"const": "abstract_only"},
+    "abstract_source": {"type": "string"},
+    "source_locator": {"type": "string"},
+    "retrieved_on": {"type": "string"},
+    "source_units": {"type": "array", "items": {"type": "object", "required": ["id", "kind"], "properties": {"id": {"type": "string"}, "kind": {"const": "sentence"}}, "additionalProperties": false}},
+    "problem_and_gap": {"type": "object"},
+    "contributions": {"type": "array"},
+    "stated_novelty": {"type": ["object", "null"]},
+    "author_reported_evidence": {"type": "array"},
+    "narrative_sequence": {"type": "array"},
+    "candidate_lessons": {"type": "array"},
+    "unknowns": {"type": "array", "items": {"type": "string"}},
+    "validation_state": {"enum": ["completed", "missing_source", "failed_validation"]}
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539092",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Deconfounding Duration Bias in Watch-time Prediction for Video Recommendation",
+  "doi": "10.1145/3534678.3539092",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290944246",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Watch-time prediction remains key factor reinforcing user engagement via video recommendations..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Watch-time prediction remains key factor reinforcing user engagement via video recommendations..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper presents first work study duration bias watch-time prediction video recommendation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving employ causal graph illuminating duration confounding factor concurrently affects video exposure watch-time prediction---the first effect causes bias issue.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving remove undesired bias but leverage natural effect propose Duration-Deconfounded Quantile-based D2Q watch-time prediction framework allows scalability perform industry.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving goal improving watch time recommendation always biased towards videos long duration..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Through extensive offline evaluation live experiments showcase effectiveness duration-deconfounding framework significantly outperforming state-of-the-art baselines..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving have fully launched approach Kuaishou App has substantially improved real-time video consumption due accurate watch-time predictions..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Watch-time prediction remains key factor reinforcing user engagement via video recommendations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Watch-time prediction remains key factor reinforcing user engagement via video recommendations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper presents first work study duration bias watch-time prediction video recommendation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving employ causal graph illuminating duration confounding factor concurrently affects video exposure watch-time prediction---the first effect causes bias issue.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving goal improving watch time recommendation always biased towards videos long duration..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

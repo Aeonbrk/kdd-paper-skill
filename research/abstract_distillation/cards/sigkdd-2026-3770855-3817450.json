@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817450",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Machine Unlearning on Trajectory Data: An Experimental Analysis",
+  "doi": "10.1145/3770855.3817450",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196987524",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Machine Learning ML models have become essential trajectory data analysis supporting tasks similarity map matching simplification recovery..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing machine unlearning methods however have been developed almost exclusively Computer Vision CV domain applicability trajectory learning remains.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing machine unlearning methods however have been developed almost exclusively Computer Vision CV domain applicability trajectory learning remains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving work present first systematic study machine unlearning trajectory data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving investigate whether how representative unlearning algorithms adapted trajectory learning models ii evaluate effectiveness iii outcomes vary across datasets.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving investigate whether how representative unlearning algorithms adapted trajectory learning models ii evaluate effectiveness iii outcomes vary across datasets.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving end design comprehensive experimental framework covering ten unlearning algorithms four key trajectory learning tasks multiple evaluation metrics three.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results establish foundation building standardized benchmarks advancing machine unlearning trajectory analytics..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Machine Learning ML models have become essential trajectory data analysis supporting tasks similarity map matching simplification recovery..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing machine unlearning methods however have been developed almost exclusively Computer Vision CV domain applicability trajectory learning remains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing machine unlearning methods however have been developed almost exclusively Computer Vision CV domain applicability trajectory learning remains.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work present first systematic study machine unlearning trajectory data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving investigate whether how representative unlearning algorithms adapted trajectory learning models ii evaluate effectiveness iii outcomes vary across datasets.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

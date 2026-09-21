@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539180",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Graph Meta-Reinforcement Learning for Transferable Autonomous Mobility-on-Demand",
+  "doi": "10.1145/3534678.3539180",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943640",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Autonomous Mobility-on-Demand AMoD systems represent attractive alternative existing transportation paradigms currently challenged urbanization increasing travel needs..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However real-world system operators hardly afford fully re-train AMoD controllers every city they operate could result high number.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose formalize multi-city AMoD problem through lens meta-reinforcement learning meta-RL devise actor-critic algorithm based recurrent graph.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Empirically show how control policies learned through meta-RL able achieve near-optimal performance unseen cities learning rapidly adaptable thus.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However real-world system operators hardly afford fully re-train AMoD controllers every city they operate could result high number.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically show how control policies learned through meta-RL able achieve near-optimal performance unseen cities learning rapidly adaptable thus.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Autonomous Mobility-on-Demand AMoD systems represent attractive alternative existing transportation paradigms currently challenged urbanization increasing travel needs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However real-world system operators hardly afford fully re-train AMoD controllers every city they operate could result high number.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose formalize multi-city AMoD problem through lens meta-reinforcement learning meta-RL devise actor-critic algorithm based recurrent graph.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Empirically show how control policies learned through meta-RL able achieve near-optimal performance unseen cities learning rapidly adaptable thus.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However real-world system operators hardly afford fully re-train AMoD controllers every city they operate could result high number.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

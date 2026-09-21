@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539375",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Spatio-Temporal Trajectory Similarity Learning in Road Networks",
+  "doi": "10.1145/3534678.3539375",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290943894",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deep learning based trajectory similarity computation holds potential improved efficiency adaptability over traditional computation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing learning-based trajectory similarity learning solutions prioritize spatial over temporal making them suboptimal time-aware analyses..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving end propose ST2Vec representation learning based solution considers fine-grained spatial temporal relations between trajectories enable spatio-temporal similarity computation.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically ST2Vec encompasses two steps spatial temporal modeling encode information trajectories generic module proposed first time ii spatio-temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Further under guidance triplet loss ST2Vec employs curriculum learning model optimization improve convergence effectiveness..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Deep learning based trajectory similarity computation holds potential improved efficiency adaptability over traditional computation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Further under guidance triplet loss ST2Vec employs curriculum learning model optimization improve convergence effectiveness..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental study offers evidence ST2Vec outperforms state-of-the-art competitors substantially terms effectiveness efficiency showing low parameter sensitivity good model.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deep learning based trajectory similarity computation holds potential improved efficiency adaptability over traditional computation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing learning-based trajectory similarity learning solutions prioritize spatial over temporal making them suboptimal time-aware analyses..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving end propose ST2Vec representation learning based solution considers fine-grained spatial temporal relations between trajectories enable spatio-temporal similarity computation.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically ST2Vec encompasses two steps spatial temporal modeling encode information trajectories generic module proposed first time ii spatio-temporal.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Deep learning based trajectory similarity computation holds potential improved efficiency adaptability over traditional computation..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709425",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "AddrLLM: Address Rewriting via Large Language Model on Nationwide Logistics Data",
+  "doi": "10.1145/3690624.3709425",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149140",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Textual description physical location commonly known address plays important role location-based services LBS on-demand delivery navigation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However prevalence abnormal addresses those containing inaccuracies fail pinpoint location have led significant costs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving study introduce AddrLLM innovative framework address rewriting built upon retrieval augmented large language model..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving AddrLLM overcomes aforementioned limitations through meticulously designed Supervised Fine-Tuning module Address-centric Retrieval Augmented Generation Bias-free Objective Alignment module..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through comprehensive offline testing real-world data national scale subsequent online deployment AddrLLM has demonstrated superior performance integration existing.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Textual description physical location commonly known address plays important role location-based services LBS on-demand delivery navigation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However prevalence abnormal addresses those containing inaccuracies fail pinpoint location have led significant costs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving study introduce AddrLLM innovative framework address rewriting built upon retrieval augmented large language model..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving AddrLLM overcomes aforementioned limitations through meticulously designed Supervised Fine-Tuning module Address-centric Retrieval Augmented Generation Bias-free Objective Alignment module..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through comprehensive offline testing real-world data national scale subsequent online deployment AddrLLM has demonstrated superior performance integration existing.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

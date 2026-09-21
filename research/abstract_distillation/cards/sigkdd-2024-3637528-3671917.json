@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671917",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Graph Condensation for Open-World Graph Learning",
+  "doi": "10.1145/3637528.3671917",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401856698",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines burgeoning volume graph data presents significant computational challenges training neural networks GNNs critically impeding efficiency various applications..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving real-world scenarios however graphs dynamic constantly evolving new nodes edges being continually integrated..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving burgeoning volume graph data presents significant computational challenges training neural networks GNNs critically impeding efficiency various applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome issue propose open-world graph condensation OpenGC robust GC framework integrates structure-aware distribution shift simulate evolving patterns exploit.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving approach designed extract temporal invariant patterns original graph thereby enhancing generalization capabilities condensed subsequently GNNs trained it..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments both real-world synthetic evolving graphs demonstrate OpenGC outperforms state-of-the-art SOTA GC methods adapting dynamic changes open-world.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines burgeoning volume graph data presents significant computational challenges training neural networks GNNs critically impeding efficiency various applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving real-world scenarios however graphs dynamic constantly evolving new nodes edges being continually integrated..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving burgeoning volume graph data presents significant computational challenges training neural networks GNNs critically impeding efficiency various applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome issue propose open-world graph condensation OpenGC robust GC framework integrates structure-aware distribution shift simulate evolving patterns exploit.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments both real-world synthetic evolving graphs demonstrate OpenGC outperforms state-of-the-art SOTA GC methods adapting dynamic changes open-world.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

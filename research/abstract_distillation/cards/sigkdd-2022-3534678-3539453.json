@@ -1,0 +1,133 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539453",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Disentangled Ontology Embedding for Zero-shot Learning",
+  "doi": "10.1145/3534678.3539453",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281989354",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Knowledge Graph KG variant ontology have been widely used representation shown quite effective augmenting Zero-shot Learning ZSL.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing ZSL methods utilize KGs all neglect intrinsic complexity inter-class relationships represented KGs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper focus ontologies augmenting ZSL propose learn disentangled ontology embeddings guided properties capture utilize fine-grained class relationships different.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving contribute new ZSL framework named DOZSL contains two solutions based generative models graph propagation respectively effectively utilizing disentangled.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluations have been conducted five benchmarks across zero-shot image classification ZS-IMGC KG completion ZS-KGC.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving DOZSL often achieves better performance state-of-the-art components have been verified ablation studies case studies..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Knowledge Graph KG variant ontology have been widely used representation shown quite effective augmenting Zero-shot Learning ZSL.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing ZSL methods utilize KGs all neglect intrinsic complexity inter-class relationships represented KGs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper focus ontologies augmenting ZSL propose learn disentangled ontology embeddings guided properties capture utilize fine-grained class relationships different.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving contribute new ZSL framework named DOZSL contains two solutions based generative models graph propagation respectively effectively utilizing disentangled.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluations have been conducted five benchmarks across zero-shot image classification ZS-IMGC KG completion ZS-KGC.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

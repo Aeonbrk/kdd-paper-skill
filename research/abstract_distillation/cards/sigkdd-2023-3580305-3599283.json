@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599283",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Connecting the Dots -- Density-Connectivity Distance unifies DBSCAN, k-Center and Spectral Clustering",
+  "doi": "10.1145/3580305.3599283",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568201",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite popularity density-based clustering procedural definition makes difficult analyze compared methods minimize loss function..",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving conclude thoroughly analyzing density-connectivity properties task has been elusive thus far literature due lack formal tools..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper reformulate DBSCAN through clean objective function introducing density-connectivity distance dc-dist captures essence density-based clusters endowing minimax concept.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving verify finding pairwise dc-dists gives DBSCAN clusterings across all epsilon-values simplifying problem parameterizing density-based clustering..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving conclude thoroughly analyzing density-connectivity properties task has been elusive thus far literature due lack formal tools..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving code recreates every experiment below https github.com/Andrew-Draganov/dc dist.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite popularity density-based clustering procedural definition makes difficult analyze compared methods minimize loss function..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving conclude thoroughly analyzing density-connectivity properties task has been elusive thus far literature due lack formal tools..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper reformulate DBSCAN through clean objective function introducing density-connectivity distance dc-dist captures essence density-based clusters endowing minimax concept.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving verify finding pairwise dc-dists gives DBSCAN clusterings across all epsilon-values simplifying problem parameterizing density-based clustering..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving code recreates every experiment below https github.com/Andrew-Draganov/dc dist.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

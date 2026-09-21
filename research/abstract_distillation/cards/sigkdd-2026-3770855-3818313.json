@@ -1,0 +1,66 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818313",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Adaptive Ticket Routing through Retrieval-Augmented In-Context Learning from Analyst Behaviour at CERT-EU",
+  "doi": "10.1145/3770855.3818313",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197018644",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Ticket routing critical operational task organisations must triage incoming requests specialised teams typically via queues but policies organisation-specific.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Ticket routing critical operational task organisations must triage incoming requests specialised teams typically via queues but policies organisation-specific.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Ticket routing critical operational task organisations must triage incoming requests specialised teams typically via queues but policies organisation-specific.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Ticket routing critical operational task organisations must triage incoming requests specialised teams typically via queues but policies organisation-specific.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

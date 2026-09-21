@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3785699",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "T-GRAB: A Synthetic Diagnostic Benchmark for Learning on Temporal Graphs",
+  "doi": "10.1145/3770854.3785699",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4414738691",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Dynamic graph learning methods have recently emerged powerful tools modelling relational data evolving through time..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However despite extensive benchmarking efforts remains unclear whether current Temporal Graph Neural Networks TGNNs effectively capture core patterns.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving work introduce Temporal Graph Reasoning Benchmark T-GRAB comprehensive set synthetic tasks designed systematically probe capabilities TGNNs reason across.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving evaluate 11 temporal graph learning methods tasks revealing fundamental shortcomings ability generalize patterns..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving findings offer actionable insights limitations current models highlight challenges hidden traditional real-world benchmarks motivate development architectures stronger temporal.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate 11 temporal graph learning methods tasks revealing fundamental shortcomings ability generalize patterns..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Dynamic graph learning methods have recently emerged powerful tools modelling relational data evolving through time..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However despite extensive benchmarking efforts remains unclear whether current Temporal Graph Neural Networks TGNNs effectively capture core patterns.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce Temporal Graph Reasoning Benchmark T-GRAB comprehensive set synthetic tasks designed systematically probe capabilities TGNNs reason across.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate 11 temporal graph learning methods tasks revealing fundamental shortcomings ability generalize patterns..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate 11 temporal graph learning methods tasks revealing fundamental shortcomings ability generalize patterns..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

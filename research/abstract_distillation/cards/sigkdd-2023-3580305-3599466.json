@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599466",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Physics-Guided Discovery of Highly Nonlinear Parametric Partial Differential Equations",
+  "doi": "10.1145/3580305.3599466",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4378711508",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Partial differential equations PDEs fit scientific data represent physical laws explainable mechanisms various mathematically-oriented subjects physics finance..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving data-driven discovery PDEs scientific data thrives new attempt model complex phenomena nature but effectiveness current practice typically limited.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving data-driven discovery PDEs scientific data thrives new attempt model complex phenomena nature but effectiveness current practice typically limited.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving deal challenge propose novel physics-guided learning method not only encode observation knowledge initial boundary conditions but incorporate basic.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving theoretically show proposed method strictly reduces coefficient estimation error existing baselines robust against noise..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments show proposed method robust against data noise reduce estimation error large margin..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover all PDEs experiments correctly discovered first time able discover three-dimensional highly nonlinear coefficients..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Partial differential equations PDEs fit scientific data represent physical laws explainable mechanisms various mathematically-oriented subjects physics finance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving data-driven discovery PDEs scientific data thrives new attempt model complex phenomena nature but effectiveness current practice typically limited.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving data-driven discovery PDEs scientific data thrives new attempt model complex phenomena nature but effectiveness current practice typically limited.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving deal challenge propose novel physics-guided learning method not only encode observation knowledge initial boundary conditions but incorporate basic.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments show proposed method robust against data noise reduce estimation error large margin..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671632",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Large Scale Hierarchical Industrial Demand Time-Series Forecasting incorporating Sparsity",
+  "doi": "10.1145/3637528.3671632",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863465",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Hierarchical time-series forecasting HTSF important problem many real-world business applications goal simultaneously forecast multiple related each other via.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recent works however do not address two important challenges typically observed many demand forecasting applications large companies..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving resolve both challenges proposing HAILS novel probabilistic hierarchical model enables accurate calibrated forecasts across hierarchy adaptively modeling sparse.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving show scalability effectiveness methods evaluating them against real-world demand forecasting datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving deploy HAILS large chemical manufacturing company product demand forecasting application over ten thousand products observe significant 8.5% improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving show scalability effectiveness methods evaluating them against real-world demand forecasting datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving deploy HAILS large chemical manufacturing company product demand forecasting application over ten thousand products observe significant 8.5% improvement.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving enhanced accuracy scalability make HAILS valuable tool improved business planning customer experience..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Hierarchical time-series forecasting HTSF important problem many real-world business applications goal simultaneously forecast multiple related each other via.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recent works however do not address two important challenges typically observed many demand forecasting applications large companies..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving resolve both challenges proposing HAILS novel probabilistic hierarchical model enables accurate calibrated forecasts across hierarchy adaptively modeling sparse.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show scalability effectiveness methods evaluating them against real-world demand forecasting datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving show scalability effectiveness methods evaluating them against real-world demand forecasting datasets..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

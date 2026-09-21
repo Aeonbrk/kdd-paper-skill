@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737184",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "A Fraudulent Blind Shipment Detection Framework in Logistics",
+  "doi": "10.1145/3711896.3737184",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877112",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines emerging type fraud involves malicious senders exploiting blind shipment cash-on-delivery COD mechanisms dispatching large volumes unsolicited low-cost parcels..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Therefore propose leveraging receivers complaints though not initially collected fraud detection uncover subtle indicators patterns addressing three challenges.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address them design BLOFF Blind shipment detection Framework LO gistics Fraud powered large language models LLMs.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving evaluate BLOFF about 56 000 complaints records collected JD Logistics between January November 2024.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing detection techniques rely extensive labeled cases struggle emerging fraud because receivers unawareness low transaction values discourage complaints.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate BLOFF about 56 000 complaints records collected JD Logistics between January November 2024.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Results show BLOFF outperforms state-of-the-art methods achieving 10.19% improvement precision..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines emerging type fraud involves malicious senders exploiting blind shipment cash-on-delivery COD mechanisms dispatching large volumes unsolicited low-cost parcels..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore propose leveraging receivers complaints though not initially collected fraud detection uncover subtle indicators patterns addressing three challenges.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address them design BLOFF Blind shipment detection Framework LO gistics Fraud powered large language models LLMs.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing detection techniques rely extensive labeled cases struggle emerging fraud because receivers unawareness low transaction values discourage complaints.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818947",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "MUSTANG: Multi-Variable Spatio-Temporal Meta-Learning for Water Data Imputation",
+  "doi": "10.1145/3770855.3818947",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196976410",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines River monitoring stations record multiple hydro-environmental variables over common river-network topology..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However spatio-temporal imputation most existing transfer learning domain adaptation methods focus single-source-to-target setting do not directly address multi-source-to-target.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve problem propose Mustang multi-variable spatio-temporal meta-learning framework hydrological data imputation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically first develop spatio-temporal conditional diffusion model encodes directed river-network prior spatial attention improves inductive bias models data.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Second capture intrinsic cross-variable dependencies equip imputation model meta-learning algorithm allows knowledge transfer multiple source variables enabling reliable.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Specifically first develop spatio-temporal conditional diffusion model encodes directed river-network prior spatial attention improves inductive bias models data.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further test robustness under simulated extreme-sparsity regimes demonstrating meta-learning enables stable target-variable imputation very limited observed target values..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments real-world hydrological time series show Mustang consistently improves target-variable imputation across diverse missing-data scenarios demonstrating benefit jointly.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines River monitoring stations record multiple hydro-environmental variables over common river-network topology..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However spatio-temporal imputation most existing transfer learning domain adaptation methods focus single-source-to-target setting do not directly address multi-source-to-target.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve problem propose Mustang multi-variable spatio-temporal meta-learning framework hydrological data imputation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically first develop spatio-temporal conditional diffusion model encodes directed river-network prior spatial attention improves inductive bias models data.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Specifically first develop spatio-temporal conditional diffusion model encodes directed river-network prior spatial attention improves inductive bias models data.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

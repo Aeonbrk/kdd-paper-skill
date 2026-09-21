@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671742",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Killing Two Birds with One Stone: Cross-modal Reinforced Prompting for Graph and Language Tasks",
+  "doi": "10.1145/3637528.3671742",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401862830",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines recent years Graph Neural Networks GNNs Large Language Models LLMs have exhibited remarkable capability addressing different learning natural.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing studies mainly focused single-domain scenario designing complicated integration techniques manage multimodal data effectively..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However existing studies mainly focused single-domain scenario designing complicated integration techniques manage multimodal data effectively..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Therefore concise generic learning framework multi-domain tasks i.e. graph language domains highly desired yet remains under-exploited due two.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Second not all knowledge demonstrates immediate benefits downstream tasks potentially introducing disruptive noise context-sensitive models like LLMs..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Motivated integrating LLMs GNNs has been increasingly studied acquire transferable knowledge across modalities leads improved empirical performance language.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Second not all knowledge demonstrates immediate benefits downstream tasks potentially introducing disruptive noise context-sensitive models like LLMs..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally extensive empirical justifications over 23 public synthetic datasets demonstrate approach applied diverse multi-domain tasks accurately robustly reasonably.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines recent years Graph Neural Networks GNNs Large Language Models LLMs have exhibited remarkable capability addressing different learning natural.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing studies mainly focused single-domain scenario designing complicated integration techniques manage multimodal data effectively..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing studies mainly focused single-domain scenario designing complicated integration techniques manage multimodal data effectively..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Therefore concise generic learning framework multi-domain tasks i.e. graph language domains highly desired yet remains under-exploited due two.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Motivated integrating LLMs GNNs has been increasingly studied acquire transferable knowledge across modalities leads improved empirical performance language.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

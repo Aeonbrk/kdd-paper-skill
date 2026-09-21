@@ -1,0 +1,128 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817901",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Scale-Invariant Lifelong Cross-Modal Hashing via Gradient Equilibrium",
+  "doi": "10.1145/3770855.3817901",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196963145",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-world multimedia streams exhibit severe task-scale imbalance social media bursts long-tail surveillance events..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving uncover gradient submergence fundamental yet previously unrecognized phenomenon gradients majority task overwhelm those minority leading catastrophic forgetting poor.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose Scale-Invariant Lifelong Cross-Modal Hashing SILCH principled framework achieves gradient equilibrium regardless task-size ratios..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving propose Scale-Invariant Lifelong Cross-Modal Hashing SILCH principled framework achieves gradient equilibrium regardless task-size ratios..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Theoretical analysis gives exact scale-invariance result inverse-scale weights explains stabilizing role smoothing..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments MIRFlickr NUS-WIDE MS-COCO demonstrate SILCH reduces catastrophic forgetting 70% compared state-of-the-art methods achieving up 3.7% MAP.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-world multimedia streams exhibit severe task-scale imbalance social media bursts long-tail surveillance events..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving uncover gradient submergence fundamental yet previously unrecognized phenomenon gradients majority task overwhelm those minority leading catastrophic forgetting poor.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose Scale-Invariant Lifelong Cross-Modal Hashing SILCH principled framework achieves gradient equilibrium regardless task-size ratios..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving propose Scale-Invariant Lifelong Cross-Modal Hashing SILCH principled framework achieves gradient equilibrium regardless task-size ratios..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

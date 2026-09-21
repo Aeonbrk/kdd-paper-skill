@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818937",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Physics-Augmented Graph Transformer for Multi-step Time-Domain Maxwell’s Equations in Electromagnetic Scattering",
+  "doi": "10.1145/3770855.3818937",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196992216",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Spatiotemporal modeling electromagnetic fields governed time-domain Maxwell equations essential simulating understanding wave propagation scattering phenomena..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However accurate long-term predictions remains challenging due stringent numerical stability requirements high computational costs inherent traditional algorithms..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work present GT-MSMW novel specialized framework built upon finite-difference time-domain FDTD paradigm..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving key innovation framework deep integration physical laws design specialized edge features encode discrete gradient curl operators guiding graph.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore framework successfully extended geometries proving capability capture intricate wave scattering behaviors..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Validated complex unstructured meshes GT-MSMW demonstrates SOTA performance scenarios significantly reducing rollout errors compared baseline methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Spatiotemporal modeling electromagnetic fields governed time-domain Maxwell equations essential simulating understanding wave propagation scattering phenomena..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However accurate long-term predictions remains challenging due stringent numerical stability requirements high computational costs inherent traditional algorithms..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work present GT-MSMW novel specialized framework built upon finite-difference time-domain FDTD paradigm..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving key innovation framework deep integration physical laws design specialized edge features encode discrete gradient curl operators guiding graph.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Validated complex unstructured meshes GT-MSMW demonstrates SOTA performance scenarios significantly reducing rollout errors compared baseline methods..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

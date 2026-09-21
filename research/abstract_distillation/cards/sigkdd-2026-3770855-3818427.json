@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818427",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "GRB: A Generative Reinforcement Bidding Framework for Multi-Channel Online Advertising",
+  "doi": "10.1145/3770855.3818427",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196976490",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Auto-bidding has become central component modern advertising platforms..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing generative bidding methods confined single-channel settings extending them multi-channel non-trivial due high-dimensional coupled bid vector cross-slot.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges introduce GRB Generative Reinforcement Bidding large-scale framework Offline-to-On-Policy O2P training paradigm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving mitigate reward hacking further incorporate adaptive constrained exploration module enforces KL trust region around logging policy Lipschitz stability.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Experiments large-scale Tencent Ads dataset spanning five channels together online A/B tests demonstrate GRB consistently outperforms strong offline.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving then performs efficient RL-free on-policy refinement current stochastic policy explores against generative evaluator trajectories selected via baseline-gated criterion.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments large-scale Tencent Ads dataset spanning five channels together online A/B tests demonstrate GRB consistently outperforms strong offline.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Auto-bidding has become central component modern advertising platforms..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing generative bidding methods confined single-channel settings extending them multi-channel non-trivial due high-dimensional coupled bid vector cross-slot.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce GRB Generative Reinforcement Bidding large-scale framework Offline-to-On-Policy O2P training paradigm..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving mitigate reward hacking further incorporate adaptive constrained exploration module enforces KL trust region around logging policy Lipschitz stability.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving then performs efficient RL-free on-policy refinement current stochastic policy explores against generative evaluator trajectories selected via baseline-gated criterion.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

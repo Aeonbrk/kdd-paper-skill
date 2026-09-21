@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817460",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting",
+  "doi": "10.1145/3770855.3817460",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162524447",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Large Language Models LLMs offer transformative path automate complex interdisciplinary workflow through advanced code generation tool usage agentic.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving bridge critical gap introduce BacktestBench first large-scale benchmark automated quantitative backtesting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving propose AutoBacktest robust multi-agent baseline translates natural language strategies reproducible backtests coordinating Summarizer semantic factor extraction Retriever validated.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluation 23 mainstream LLMs complemented targeted ablations identifies key factors influence end-to-end performance highlights importance grounded verification standardized.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large Language Models LLMs offer transformative path automate complex interdisciplinary workflow through advanced code generation tool usage agentic.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge critical gap introduce BacktestBench first large-scale benchmark automated quantitative backtesting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Quantitative backtesting essential evaluating trading strategies but remains hampered high technical barriers limited scalability..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

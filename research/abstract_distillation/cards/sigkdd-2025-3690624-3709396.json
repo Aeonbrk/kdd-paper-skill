@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709396",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "LinkSAGE: Optimizing Job Matching Using Graph Neural Networks",
+  "doi": "10.1145/3690624.3709396",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149721",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present LinkSAGE innovative framework integrates Graph Neural Networks GNNs large-scale personalized job matching systems designed address complex dynamics.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving graph not merely extensive but richly detailed encompassing member job nodes along key attributes thus creating expansive interwoven.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving present LinkSAGE innovative framework integrates Graph Neural Networks GNNs large-scale personalized job matching systems designed address complex dynamics.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving key innovation LinkSAGE training serving methodology effectively combines inductive graph learning heterogeneous evolving encoder-decoder GNN model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving methodology decouples training GNN model existing Deep Neural Network DNN models eliminating need frequent retraining maintaining up-to-date graph.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Validated across multiple online A/B tests diverse product scenarios LinkSAGE demonstrates marked improvements member engagement relevance matching retention.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present LinkSAGE innovative framework integrates Graph Neural Networks GNNs large-scale personalized job matching systems designed address complex dynamics.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving graph not merely extensive but richly detailed encompassing member job nodes along key attributes thus creating expansive interwoven.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present LinkSAGE innovative framework integrates Graph Neural Networks GNNs large-scale personalized job matching systems designed address complex dynamics.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving key innovation LinkSAGE training serving methodology effectively combines inductive graph learning heterogeneous evolving encoder-decoder GNN model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Validated across multiple online A/B tests diverse product scenarios LinkSAGE demonstrates marked improvements member engagement relevance matching retention.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

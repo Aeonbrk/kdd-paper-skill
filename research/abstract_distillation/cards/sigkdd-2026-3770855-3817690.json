@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817690",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Over-squashing as Transport Congestion: A Sandpile Dynamics Perspective",
+  "doi": "10.1145/3770855.3817690",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197014062",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Message-passing graph neural networks MP-GNNs widely used learning relational data..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance drops tasks requiring long-range interactions due over-squash ing exponential information compression overwhelms fixed-width embeddings..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving discrete sandpile model structural proxy show graph bottlenecks force large stabilization cost effectively creating zones high transport congestion..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving characterize stabilization-invariant equivalence classes induced reduced Laplacian derive cut-based lower bounds linking bottlenecks unavoidable stabilization effort..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving theory identifies relevant design factors namely capacity cut size..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving resulting theory discrete whereas implementation continuous vector-valued surrogate..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments long-range benchmarks together congestion collision diagnostics show targeting sandpile-identified bottlenecks mitigates representation collapse improves over standard baselines..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Message-passing graph neural networks MP-GNNs widely used learning relational data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance drops tasks requiring long-range interactions due over-squash ing exponential information compression overwhelms fixed-width embeddings..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving discrete sandpile model structural proxy show graph bottlenecks force large stabilization cost effectively creating zones high transport congestion..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving characterize stabilization-invariant equivalence classes induced reduced Laplacian derive cut-based lower bounds linking bottlenecks unavoidable stabilization effort..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving resulting theory discrete whereas implementation continuous vector-valued surrogate..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

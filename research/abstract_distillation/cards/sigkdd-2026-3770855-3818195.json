@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818195",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "GraphMind: Unveiling Scientific Reasoning through Contextual Graphs for Novelty Assessment",
+  "doi": "10.1145/3770855.3818195",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196950733",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Assessing scientific novelty inherently complex requiring evaluation both paper internal structure contribution within broader research landscape..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing large language model LLM approaches often rely surface-level similarity citation retrieval overlooking integration between paper content contextual.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap introduce SciNova benchmark containing 063 papers both ICLR NeurIPS full content bibliographies peer review scores novelty.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Building benchmark propose GraphMind model jointly processes micro- macro-level structures novelty prediction rationale generation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Assessing scientific novelty inherently complex requiring evaluation both paper internal structure contribution within broader research landscape..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving represents each paper hierarchical graph captures claims methods experiments micro-level related graphs encode both cited semantically similar works.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments show incorporating bi-level graph GraphMind significantly outperforms baseline LLMs both novelty score prediction rationale generation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Assessing scientific novelty inherently complex requiring evaluation both paper internal structure contribution within broader research landscape..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing large language model LLM approaches often rely surface-level similarity citation retrieval overlooking integration between paper content contextual.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap introduce SciNova benchmark containing 063 papers both ICLR NeurIPS full content bibliographies peer review scores novelty.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Assessing scientific novelty inherently complex requiring evaluation both paper internal structure contribution within broader research landscape..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

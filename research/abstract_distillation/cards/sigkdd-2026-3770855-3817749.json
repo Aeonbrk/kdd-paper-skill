@@ -1,0 +1,82 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817749",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Integrating Inductive Biases in Transformers via Distillation for Financial Time Series Forecasting",
+  "doi": "10.1145/3770855.3817749",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196940055",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Transformer-based models have been widely adopted generic time-series forecasting due high representational capacity architectural flexibility..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However many Transformer variants implicitly assume stationarity stable temporal dynamics assumptions routinely violated financial markets characterized regime shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Empirically state-of-the-art time-series Transformers often underperform even vanilla financial tasks simpler architectures distinct inductive biases CNNs RNNs achieve.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Transformer-based models have been widely adopted generic time-series forecasting due high representational capacity architectural flexibility..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However many Transformer variants implicitly assume stationarity stable temporal dynamics assumptions routinely violated financial markets characterized regime shifts.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Empirically state-of-the-art time-series Transformers often underperform even vanilla financial tasks simpler architectures distinct inductive biases CNNs RNNs achieve.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671779",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Neural Manifold Operators for Learning the Evolution of Physical Dynamics",
+  "doi": "10.1145/3637528.3671779",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857636",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modeling evolution physical dynamics foundational problem science engineering regarded operator mapping between infinite-dimensional functional spaces..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However there remains insufficient research how approximate infinite-dimensional operator finite-dimensional parameter space..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address problem present Neural Manifold Operator NMO learn invariant subspace intrinsic dimension parameterize infinite-dimensional underlying operators..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paradigm has demonstrated universal effectiveness across various model structure implementations including Multi-Layer Perceptron Convolutional Neural Networks Transformers..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Experimentally prove intrinsic dimension calculated paradigm optimal dimensional representation underlying operators..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving NMO achieves state-of-the-art performance statistical physical metrics gains 23.35% average improvement three real-world scenarios four equation-governed across wide.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paradigm has demonstrated universal effectiveness across various model structure implementations including Multi-Layer Perceptron Convolutional Neural Networks Transformers..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimentally prove intrinsic dimension calculated paradigm optimal dimensional representation underlying operators..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modeling evolution physical dynamics foundational problem science engineering regarded operator mapping between infinite-dimensional functional spaces..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However there remains insufficient research how approximate infinite-dimensional operator finite-dimensional parameter space..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem present Neural Manifold Operator NMO learn invariant subspace intrinsic dimension parameterize infinite-dimensional underlying operators..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paradigm has demonstrated universal effectiveness across various model structure implementations including Multi-Layer Perceptron Convolutional Neural Networks Transformers..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving NMO achieves state-of-the-art performance statistical physical metrics gains 23.35% average improvement three real-world scenarios four equation-governed across wide.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

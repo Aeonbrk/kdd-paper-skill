@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737109",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Rewarding Graph Reasoning Process makes LLMs more Generalized Reasoners",
+  "doi": "10.1145/3711896.3737109",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877046",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work explore potential PRMs graph reasoning problems domain demands sophisticated multi-step offers opportunities automated step-level data generation established.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving introduce GraphSilo largest dataset graph reasoning problems fine-grained step-wise label built automated Task-oriented Trajectories Monte Carlo Tree Search.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Process Reward Models PRMs have demonstrated exceptional promise enhancing reasoning providing step-wise feedback particularly context mathematical reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building upon dataset train GraphPRM first PRM designed graph reasoning problems evaluate effectiveness two key settings inference-time scaling.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results show GraphPRM significantly improves LLM performance across 13 graph reasoning tasks delivering 9% gain Qwen2.5-7B demonstrating.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite significant advancements Large Language Models LLMs developing advanced reasoning capabilities remains key challenge..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work explore potential PRMs graph reasoning problems domain demands sophisticated multi-step offers opportunities automated step-level data generation established.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Process Reward Models PRMs have demonstrated exceptional promise enhancing reasoning providing step-wise feedback particularly context mathematical reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

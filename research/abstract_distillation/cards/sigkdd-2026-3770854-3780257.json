@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780257",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "EviCare: Enhancing Diagnosis Prediction with Deep Model-Guided Evidence for In-Context Reasoning",
+  "doi": "10.1145/3770854.3780257",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7169716701",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances large language models LLMs have enabled promising progress diagnosis prediction electronic health records EHRs.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing LLM-based approaches tend overfit historically observed diagnoses often overlooking novel yet clinically important conditions critical early.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose EviCare in-context reasoning framework integrates deep model guidance LLM-based diagnosis prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Rather prompting LLMs directly raw EHR inputs EviCare performs deep model inference candidate selection evidential prioritization set-based EHRs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments two real-world EHR benchmarks MIMIC-III MIMIC-IV demonstrate EviCare achieves significant performance gains consistently outperforms both LLM-only.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments two real-world EHR benchmarks MIMIC-III MIMIC-IV demonstrate EviCare achieves significant performance gains consistently outperforms both LLM-only.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improvements particularly notable challenging novel diagnosis prediction yielding average 30.97%.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances large language models LLMs have enabled promising progress diagnosis prediction electronic health records EHRs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing LLM-based approaches tend overfit historically observed diagnoses often overlooking novel yet clinically important conditions critical early.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose EviCare in-context reasoning framework integrates deep model guidance LLM-based diagnosis prediction..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Rather prompting LLMs directly raw EHR inputs EviCare performs deep model inference candidate selection evidential prioritization set-based EHRs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments two real-world EHR benchmarks MIMIC-III MIMIC-IV demonstrate EviCare achieves significant performance gains consistently outperforms both LLM-only.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

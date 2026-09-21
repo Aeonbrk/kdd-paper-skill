@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818072",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "TTMC: Brain-Inspired Test-Time Memory Calibration with Orthogonal Projection for Online Continual Learning",
+  "doi": "10.1145/3770855.3818072",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197005286",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Existing Online Continual Learning OCL methods particularly those based Parameter-Efficient Fine-Tuning PEFT predominantly operate under Static Inference Assumption.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing Online Continual Learning OCL methods particularly those based Parameter-Efficient Fine-Tuning PEFT predominantly operate under Static Inference Assumption.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Furthermore despite computational efficiency current analytic learning approaches reliance Gaussian Random Projection introduces severe geometric distortion feature aliasing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Drawing inspiration Learning Memorize Test Time mechanism Pattern Separation process hippocampus propose Test-Time Memory Calibration TTMC novel gradient-free.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving paradigm ignores inevitable covariate shift non-stationary test streams resulting suboptimal decision boundaries fail adapt immediate testing context..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving empirical evaluation demonstrates TTMC consistently establishes new state-of-the-art across diverse benchmarks..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Existing Online Continual Learning OCL methods particularly those based Parameter-Efficient Fine-Tuning PEFT predominantly operate under Static Inference Assumption.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing Online Continual Learning OCL methods particularly those based Parameter-Efficient Fine-Tuning PEFT predominantly operate under Static Inference Assumption.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Furthermore despite computational efficiency current analytic learning approaches reliance Gaussian Random Projection introduces severe geometric distortion feature aliasing.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving paradigm ignores inevitable covariate shift non-stationary test streams resulting suboptimal decision boundaries fail adapt immediate testing context..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

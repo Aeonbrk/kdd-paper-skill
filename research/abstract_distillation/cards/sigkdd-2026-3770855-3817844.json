@@ -1,0 +1,114 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817844",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "ProgNet: Program-Grounded Evidence Composition for Interpretable Graph Classification",
+  "doi": "10.1145/3770855.3817844",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197023260",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present ProgNet graph learning framework interpretable classification treats explanatory structures first-class reusable components prediction mechanism..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present ProgNet graph learning framework interpretable classification treats explanatory structures first-class reusable components prediction mechanism..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Departing existing methods generate isolated instance-specific explanations ProgNet introduces paradigm reasoning grounded shared vocabulary reusable structural programs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Classification performed via inherently decomposable evidence composition network scores aggregates program-level resulting predictions whose logits admit additive signed.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments eight graph classification benchmarks demonstrate ProgNet achieves competitive predictive accuracy providing faithful explanations..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present ProgNet graph learning framework interpretable classification treats explanatory structures first-class reusable components prediction mechanism..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present ProgNet graph learning framework interpretable classification treats explanatory structures first-class reusable components prediction mechanism..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Departing existing methods generate isolated instance-specific explanations ProgNet introduces paradigm reasoning grounded shared vocabulary reusable structural programs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Classification performed via inherently decomposable evidence composition network scores aggregates program-level resulting predictions whose logits admit additive signed.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

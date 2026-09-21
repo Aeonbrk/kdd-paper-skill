@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671975",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "From Supervised to Generative: A Novel Paradigm for Tabular Deep Learning with Large Language Models",
+  "doi": "10.1145/3637528.3671975",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863746",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Tabular data foundational predictive modeling various crucial industries including healthcare finance retail sustainability etc..",
+      "source_ids": [
+        "S1",
+        "S9"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Through GTL not only foster deeper integration LLMs sophisticated abilities tabular data comprehension application but offer new training.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Here introduce Generative Tabular Learning GTL novel framework integrates advanced functionalities large language models LLMs prompt-based zero-shot generalization.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving GTL-enhanced LLaMA-2 model demonstrates superior zero-shot in-context learning capabilities across numerous classification regression tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Through GTL not only foster deeper integration LLMs sophisticated abilities tabular data comprehension application but offer new training.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving GTL-enhanced LLaMA-2 model demonstrates superior zero-shot in-context learning capabilities across numerous classification regression tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Notably achieves without fine-tuning outperforming traditional methods rivaling state-of-the-art models like GPT-4 certain cases..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Tabular data foundational predictive modeling various crucial industries including healthcare finance retail sustainability etc..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Through GTL not only foster deeper integration LLMs sophisticated abilities tabular data comprehension application but offer new training.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Here introduce Generative Tabular Learning GTL novel framework integrates advanced functionalities large language models LLMs prompt-based zero-shot generalization.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving GTL-enhanced LLaMA-2 model demonstrates superior zero-shot in-context learning capabilities across numerous classification regression tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving GTL-enhanced LLaMA-2 model demonstrates superior zero-shot in-context learning capabilities across numerous classification regression tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

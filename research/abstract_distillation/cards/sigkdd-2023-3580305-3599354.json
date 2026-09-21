@@ -1,0 +1,148 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599354",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "FLAMES2Graph: An Interpretable Federated Multivariate Time Series Classification Framework",
+  "doi": "10.1145/3580305.3599354",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385565707",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Increasing privacy concerns have led decentralized federated machine learning techniques allow individual clients consult train models collaboratively without.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However promising results performance deep learning models black box decisions cannot always guaranteed trusted..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce FLAMES2Graph new horizontal federated learning framework designed interpret deep decisions each client..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving federated learning clients only share temporal evolution graph centralized server instead trained model weights create global graph..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving extensive experiments various datasets well-known multivariate benchmarks indicate FLAMES2Graph framework significantly outperforms other state-of-the-art federated methods keeping privacy.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However promising results performance deep learning models black box decisions cannot always guaranteed trusted..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive experiments various datasets well-known multivariate benchmarks indicate FLAMES2Graph framework significantly outperforms other state-of-the-art federated methods keeping privacy.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Increasing privacy concerns have led decentralized federated machine learning techniques allow individual clients consult train models collaboratively without.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However promising results performance deep learning models black box decisions cannot always guaranteed trusted..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce FLAMES2Graph new horizontal federated learning framework designed interpret deep decisions each client..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving federated learning clients only share temporal evolution graph centralized server instead trained model weights create global graph..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However promising results performance deep learning models black box decisions cannot always guaranteed trusted..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

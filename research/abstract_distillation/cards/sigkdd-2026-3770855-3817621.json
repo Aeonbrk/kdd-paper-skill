@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817621",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Lethe: Plasticity-aware Active Forgetting for Resource-Efficient On-Device Continual Learning",
+  "doi": "10.1145/3770855.3817621",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196943824",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines On-device continual learning CL becoming critical paradigm intelligent agents adapt evolving task streams dynamic edge environments..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing CL methods primarily focus optimizing learning performance neglecting fundamental tension between ever-growing accumulated knowledge limited model.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving However existing CL methods primarily focus optimizing learning performance neglecting fundamental tension between ever-growing accumulated knowledge limited model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address challenge reframe forgetting not problem but potential solution propose Lethe pLasticity-aware active scheme on-device CL..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Specifically fast model adaptation new tasks Lethe proposes forgetting-based plasticity injection perform order-aware selective forgetting neuro-inspired accelerate convergence..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive evaluations demonstrate Lethe consistently outperforms state-of-the-art solutions improving model accuracy up 8.93% reducing computation overhead 53.63% average..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines On-device continual learning CL becoming critical paradigm intelligent agents adapt evolving task streams dynamic edge environments..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing CL methods primarily focus optimizing learning performance neglecting fundamental tension between ever-growing accumulated knowledge limited model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing CL methods primarily focus optimizing learning performance neglecting fundamental tension between ever-growing accumulated knowledge limited model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge reframe forgetting not problem but potential solution propose Lethe pLasticity-aware active scheme on-device CL..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive evaluations demonstrate Lethe consistently outperforms state-of-the-art solutions improving model accuracy up 8.93% reducing computation overhead 53.63% average..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

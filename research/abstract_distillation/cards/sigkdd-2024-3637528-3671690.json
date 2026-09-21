@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671690",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Neural Collapse Anchored Prompt Tuning for Generalizable Vision-Language Models",
+  "doi": "10.1145/3637528.3671690",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857415",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large-scale vision-language V-L models have demonstrated remarkable generalization capabilities downstream tasks through prompt tuning..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However mechanisms behind learned text representations unknown limiting further generalization gains limitations severe when faced prevalent class imbalances.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper make first attempt use NC examining representations V-L models via prompt tuning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving improve representations propose Neural-collapse-anchored Prompt Tuning NPT novel method learns prompts text image satisfy same simplex Equiangular Tight.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large-scale vision-language V-L models have demonstrated remarkable generalization capabilities downstream tasks through prompt tuning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving improve representations propose Neural-collapse-anchored Prompt Tuning NPT novel method learns prompts text image satisfy same simplex Equiangular Tight.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments show NPT consistently help improve existing prompt tuning techniques across 11 datasets both balanced imbalanced settings..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large-scale vision-language V-L models have demonstrated remarkable generalization capabilities downstream tasks through prompt tuning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However mechanisms behind learned text representations unknown limiting further generalization gains limitations severe when faced prevalent class imbalances.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper make first attempt use NC examining representations V-L models via prompt tuning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving improve representations propose Neural-collapse-anchored Prompt Tuning NPT novel method learns prompts text image satisfy same simplex Equiangular Tight.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large-scale vision-language V-L models have demonstrated remarkable generalization capabilities downstream tasks through prompt tuning..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

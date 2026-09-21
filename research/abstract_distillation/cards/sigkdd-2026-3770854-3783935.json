@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783935",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "ASTAFN: Bridging the Gap Between Weather Foundation Models and Accurate Station-Level Forecasting",
+  "doi": "10.1145/3770854.3783935",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171983792",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Weather Foundation Models WFMs have recently attracted significant attention exceptional performance inference efficiency global-scale forecasting..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However coarse spatial resolution inherent biases constrain utility station-level forecasting crucial applications renewable energy management aviation safety..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose Adaptive Spatiotemporal Alignment Fusion Network ASTAFN novel framework designed accurate station-level weather forecasting through synergistic.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving features dynamically fused each forecasting step adaptive strategy effectively compensating WFM biases enhancing predictive accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental evaluations three real-world datasets demonstrate ASTAFN reduces mean absolute error 20% 35% compared baseline WFMs station-level wind.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Weather Foundation Models WFMs have recently attracted significant attention exceptional performance inference efficiency global-scale forecasting..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However coarse spatial resolution inherent biases constrain utility station-level forecasting crucial applications renewable energy management aviation safety..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose Adaptive Spatiotemporal Alignment Fusion Network ASTAFN novel framework designed accurate station-level weather forecasting through synergistic.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving features dynamically fused each forecasting step adaptive strategy effectively compensating WFM biases enhancing predictive accuracy..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

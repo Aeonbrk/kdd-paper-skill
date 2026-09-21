@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539059",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Looper: An End-to-End ML Platform for Product Decisions",
+  "doi": "10.1145/3534678.3539059",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W3206709925",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modern software systems products increasingly rely machine learning models make data-driven decisions based interactions users infrastructure other systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving address shortcomings prior platforms introduce general principles architecture ML platform Looper simple APIs decision-making feedback collection..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Looper covers end-to-end ML lifecycle collecting training data model deployment inference extends support personalization causal evaluation heterogenous treatment.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving sum up experiences platform adopters describe learning curve..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving broader adoption practice must accommodate product engineers without ML backgrounds ii support finegrain product-metric evaluation iii optimize goals..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Looper covers end-to-end ML lifecycle collecting training data model deployment inference extends support personalization causal evaluation heterogenous treatment.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modern software systems products increasingly rely machine learning models make data-driven decisions based interactions users infrastructure other systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address shortcomings prior platforms introduce general principles architecture ML platform Looper simple APIs decision-making feedback collection..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Looper covers end-to-end ML lifecycle collecting training data model deployment inference extends support personalization causal evaluation heterogenous treatment.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving broader adoption practice must accommodate product engineers without ML backgrounds ii support finegrain product-metric evaluation iii optimize goals..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

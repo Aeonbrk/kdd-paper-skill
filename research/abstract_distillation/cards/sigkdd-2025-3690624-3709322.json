@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709322",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Chainlet Orbits: Topological Address Embedding for Blockchain",
+  "doi": "10.1145/3690624.3709322",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158207",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines rise cryptocurrencies like Bitcoin has not only increased trade volumes but broadened use graph machine learning techniques address.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving rise cryptocurrencies like Bitcoin has not only increased trade volumes but broadened use graph machine learning techniques address.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome existing techniques computational interpretability limitations introduce topological approach Chainlet Orbits embeds blockchain addresses leveraging characteristics temporal transactions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving employ innovative address embeddings investigate financial behavior e-crime Bitcoin Ethereum networks focusing distinctive substructures arise user behavior..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model demonstrates exceptional performance node classification experiments compared GNN-based approaches..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving model demonstrates exceptional performance node classification experiments compared GNN-based approaches..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines rise cryptocurrencies like Bitcoin has not only increased trade volumes but broadened use graph machine learning techniques address.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving rise cryptocurrencies like Bitcoin has not only increased trade volumes but broadened use graph machine learning techniques address.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome existing techniques computational interpretability limitations introduce topological approach Chainlet Orbits embeds blockchain addresses leveraging characteristics temporal transactions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving employ innovative address embeddings investigate financial behavior e-crime Bitcoin Ethereum networks focusing distinctive substructures arise user behavior..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving model demonstrates exceptional performance node classification experiments compared GNN-based approaches..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

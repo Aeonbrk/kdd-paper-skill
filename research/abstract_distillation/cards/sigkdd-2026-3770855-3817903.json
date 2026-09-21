@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817903",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Revisiting Graph Autoencoders as Implicit Contrastive Learners",
+  "doi": "10.1145/3770855.3817903",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4403570484",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Graph autoencoders GAEs contrastive learning GCL two major paradigms self-supervised representation graphs yet they often studied isolation treated.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work revisit GAEs through lens contrastive learning show both structure-based feature-based conceptualized implicitly graph learners..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Building insight introduce unified formulation highlights contrastive view design central previously less explored dimension GAEs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving particular identify asymmetric contrastive views arising mismatches subgraph important yet underexplored design axis prior GAE research..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving formalize insight within unified framework conduct systematic experiments representative graph learning tasks examine impact performance efficiency..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show interpreting GAEs implicit contrastive learners offers clearer understanding existing models provides practical guidance designing effective scalable.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Graph autoencoders GAEs contrastive learning GCL two major paradigms self-supervised representation graphs yet they often studied isolation treated.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work revisit GAEs through lens contrastive learning show both structure-based feature-based conceptualized implicitly graph learners..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building insight introduce unified formulation highlights contrastive view design central previously less explored dimension GAEs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving formalize insight within unified framework conduct systematic experiments representative graph learning tasks examine impact performance efficiency..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

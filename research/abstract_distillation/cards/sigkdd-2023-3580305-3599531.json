@@ -1,0 +1,98 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599531",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Treatment Effect Estimation with Adjustment Feature Selection",
+  "doi": "10.1145/3580305.3599531",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385567532",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines causal inference common select subset observed covariates named adjustment features adjusted estimating treatment effect..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance empirical estimations varies lot different extra variables..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving real-world applications abundant covariates usually observed contain extra variables partially correlating treatment treatment-only e.g. instrumental outcome outcome-only precision.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving principle unbiased treatment effect estimation achieved once adjustment features contain all confounders..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving solve issue variable separation/selection treatment effect estimation has received growing attention when extra variables contain instrumental precision variables..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines causal inference common select subset observed covariates named adjustment features adjusted estimating treatment effect..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance empirical estimations varies lot different extra variables..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving real-world applications abundant covariates usually observed contain extra variables partially correlating treatment treatment-only e.g. instrumental outcome outcome-only precision.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

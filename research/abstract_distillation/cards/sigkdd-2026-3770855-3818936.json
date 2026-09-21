@@ -1,0 +1,115 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818936",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "SpectrumWorld: Artificial Intelligence Foundation for Spectroscopy",
+  "doi": "10.1145/3770855.3818936",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197021516",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Deep learning holds immense promise spectroscopy yet research evaluation emerging field often lack standardized formulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address issue introduce SpectrumWorld unified infrastructure AI-driven spectroscopy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving SpectrumWorld consists SpectrumLab pioneering unified platform designed systematize accelerate deep learning research spectroscopy SpectrumAnnotator annotation curation module generates.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving hope SpectrumWorld will serve crucial foundation future advancements deep learning-driven spectroscopy..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Deep learning holds immense promise spectroscopy yet research evaluation emerging field often lack standardized formulations..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Deep learning holds immense promise spectroscopy yet research evaluation emerging field often lack standardized formulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue introduce SpectrumWorld unified infrastructure AI-driven spectroscopy..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving SpectrumWorld consists SpectrumLab pioneering unified platform designed systematize accelerate deep learning research spectroscopy SpectrumAnnotator annotation curation module generates.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Deep learning holds immense promise spectroscopy yet research evaluation emerging field often lack standardized formulations..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

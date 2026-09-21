@@ -1,0 +1,111 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539110",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Counterfactual Phenotyping with Censored Time-to-Events",
+  "doi": "10.1145/3534678.3539110",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4226022680",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Estimation treatment efficacy real-world clinical interventions involves working continuous time-to-event outcomes time-to-death re-hospitalization composite event subject censoring..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper present latent variable approach model heterogeneous treatment effects proposing individual belong one clusters distinct response characteristics..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving show latent structure mediate base survival rates help determine effects intervention..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving demonstrate ability approach discover actionable phenotypes individuals based treatment response multiple large randomized clinical trials originally conducted assess.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving demonstrate ability approach discover actionable phenotypes individuals based treatment response multiple large randomized clinical trials originally conducted assess.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Estimation treatment efficacy real-world clinical interventions involves working continuous time-to-event outcomes time-to-death re-hospitalization composite event subject censoring..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present latent variable approach model heterogeneous treatment effects proposing individual belong one clusters distinct response characteristics..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show latent structure mediate base survival rates help determine effects intervention..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving demonstrate ability approach discover actionable phenotypes individuals based treatment response multiple large randomized clinical trials originally conducted assess.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

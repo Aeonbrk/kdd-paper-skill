@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671877",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Towards Adaptive Neighborhood for Advancing Temporal Interaction Graph Modeling",
+  "doi": "10.1145/3637528.3671877",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857166",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Temporal Graph Networks TGNs have demonstrated remarkable performance modeling interaction graphs..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However inherent limitation existing TGNs reliance onfixed hand-crafted rules neighborhood encoding overlooking necessity adaptive learnable accommodate both personalization.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper aim enhance existing TGNs introducing anadaptive neighborhood encoding mechanism..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present SEAN Selective Encoding Adaptive Neighborhood flexible plug-and-play model seamlessly integrated existing TGNs effectively boosting performance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving achieve decompose adaptive neighborhood encoding process two phases representative neighbor selection ii temporal-aware information aggregation..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Temporal Graph Networks TGNs have demonstrated remarkable performance modeling interaction graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving achieve decompose adaptive neighborhood encoding process two phases representative neighbor selection ii temporal-aware information aggregation..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments integrating SEAN three representative TGNs evaluating performance four public datasets one financial benchmark dataset introduced.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Temporal Graph Networks TGNs have demonstrated remarkable performance modeling interaction graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However inherent limitation existing TGNs reliance onfixed hand-crafted rules neighborhood encoding overlooking necessity adaptive learnable accommodate both personalization.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper aim enhance existing TGNs introducing anadaptive neighborhood encoding mechanism..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present SEAN Selective Encoding Adaptive Neighborhood flexible plug-and-play model seamlessly integrated existing TGNs effectively boosting performance..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Temporal Graph Networks TGNs have demonstrated remarkable performance modeling interaction graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

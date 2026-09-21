@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818340",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Climber-Pilot: A Non-Myopic Generative Recommendation Model Towards Better Instruction-Following",
+  "doi": "10.1145/3770855.3818340",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163183536",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative retrieval has emerged promising paradigm recommender systems offering superior sequence modeling capabilities over traditional dual-tower architectures..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However large-scale industrial scenarios models often suffer inherent myopia due single-step inference strict latency constraints they tend collapse.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work present Climber-Pilot unified generative retrieval framework address both limitations..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First introduce Time-Aware Multi-Item Prediction TAMIP novel training paradigm designed mitigate inherent myopia generative retrieval..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving distilling long-horizon multi-item foresight model parameters through time-aware masking TAMIP alleviates locally optimal predictions preserving efficient single-step inference..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive offline experiments online A/B testing NetEase Cloud Music one largest streaming platforms demonstrate Climber-Pilot consistently outperforms state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative retrieval has emerged promising paradigm recommender systems offering superior sequence modeling capabilities over traditional dual-tower architectures..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However large-scale industrial scenarios models often suffer inherent myopia due single-step inference strict latency constraints they tend collapse.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work present Climber-Pilot unified generative retrieval framework address both limitations..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First introduce Time-Aware Multi-Item Prediction TAMIP novel training paradigm designed mitigate inherent myopia generative retrieval..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive offline experiments online A/B testing NetEase Cloud Music one largest streaming platforms demonstrate Climber-Pilot consistently outperforms state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

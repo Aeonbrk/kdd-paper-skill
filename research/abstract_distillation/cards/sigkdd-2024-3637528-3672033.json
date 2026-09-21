@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672033",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Semi-Supervised Learning for Time Series Collected at a Low Sampling Rate",
+  "doi": "10.1145/3637528.3672033",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863836",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although time-series classification has many applications healthcare manufacturing high cost data collection labeling hinders widespread use..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although time-series classification has many applications healthcare manufacturing high cost data collection labeling hinders widespread use..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving reduce data collection labeling costs maintaining high classification accuracy propose novel problem setting called semi-supervised learning low-sampling-rate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving novel problem scenario develop SemiTSR framework equipped super-resolution module semi-supervised learning module..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving demonstrate SemiTSR significantly outperforms conventional semi-supervised learning techniques assuring high classification accuracy low-sampling-rate time series..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving reduce data collection labeling costs maintaining high classification accuracy propose novel problem setting called semi-supervised learning low-sampling-rate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate SemiTSR significantly outperforms conventional semi-supervised learning techniques assuring high classification accuracy low-sampling-rate time series..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although time-series classification has many applications healthcare manufacturing high cost data collection labeling hinders widespread use..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although time-series classification has many applications healthcare manufacturing high cost data collection labeling hinders widespread use..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving reduce data collection labeling costs maintaining high classification accuracy propose novel problem setting called semi-supervised learning low-sampling-rate time.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving novel problem scenario develop SemiTSR framework equipped super-resolution module semi-supervised learning module..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving reduce data collection labeling costs maintaining high classification accuracy propose novel problem setting called semi-supervised learning low-sampling-rate time.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

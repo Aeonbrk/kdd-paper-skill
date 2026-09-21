@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3783936",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Dynamic Content Moderation in Livestreams: Combining Supervised Classification with MLLM-Boosted Similarity Matching",
+  "doi": "10.1145/3770854.3783936",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417029959",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Content moderation remains critical yet challenging task large-scale user-generated video platforms especially livestreaming environments must timely multimodal robust.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Content moderation remains critical yet challenging task large-scale user-generated video platforms especially livestreaming environments must timely multimodal robust.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present hybrid moderation framework deployed production scale combines supervised classification known violations reference-based similarity matching novel subtle cases..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving hybrid design enables robust detection both explicit violations novel edge cases evade traditional classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Multimodal inputs text audio visual processed through both pipelines large language model MLLM distilling knowledge each boost accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Multimodal inputs text audio visual processed through both pipelines large language model MLLM distilling knowledge each boost accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving production classification pipeline achieves 67% recall 80% precision similarity 76% precision..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results demonstrate scalable adaptable approach multimodal content governance capable addressing both explicit violations emerging adversarial behaviors..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Content moderation remains critical yet challenging task large-scale user-generated video platforms especially livestreaming environments must timely multimodal robust.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Content moderation remains critical yet challenging task large-scale user-generated video platforms especially livestreaming environments must timely multimodal robust.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present hybrid moderation framework deployed production scale combines supervised classification known violations reference-based similarity matching novel subtle cases..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving hybrid design enables robust detection both explicit violations novel edge cases evade traditional classifiers..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Multimodal inputs text audio visual processed through both pipelines large language model MLLM distilling knowledge each boost accuracy.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

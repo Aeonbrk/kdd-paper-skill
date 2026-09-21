@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817642",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Ensembling LLM-Induced Decision Trees for Explainable and Robust Error Detection",
+  "doi": "10.1145/3770855.3817642",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196949778",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Error detection ED aims identify incorrect inconsistent cell values tabular data important ensuring quality..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose LLM-as-an-inducer framework uses LLM induce decision tree ED termed TreeED further ensembles multiple trees consensus.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then leverages Expectation-Maximization-based algorithm jointly estimates tree reliability optimizes consensus ED prediction..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address limitations propose LLM-as-an-inducer framework uses LLM induce decision tree ED termed TreeED further ensembles multiple trees consensus.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically based prompts derived data context decision tree specifications output requirements TreeED queries LLM induce skeleton whose root-to-leaf.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Error detection ED aims identify incorrect inconsistent cell values tabular data important ensuring quality..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address limitations propose LLM-as-an-inducer framework uses LLM induce decision tree ED termed TreeED further ensembles multiple trees consensus.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However LLM-as-a-labeler pipeline outputs raw detection results through implicit black-box process lacks traceability offering little explicit justification why.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

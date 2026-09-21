@@ -1,0 +1,129 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737178",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Utilizing Strategic Pre-training to Reduce Overfitting: Baguan – A Pre-trained Weather Forecasting Model",
+  "doi": "10.1145/3711896.3737178",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876817",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Weather forecasting has long posed significant challenge humanity..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving recent AI-based models have surpassed traditional numerical weather prediction NWP methods global forecasting tasks overfitting remains critical issue.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper explore pre-training methods weather forecasting finding selecting appropriately challenging task introduces locality bias effectively mitigating overfitting enhancing.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce Baguan novel data-driven model medium-range weather forecasting built Siamese Autoencoder pre-trained self-supervised manner fine-tuned different lead times..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results show Baguan outperforms traditional methods delivering accurate forecasts..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally pre-trained Baguan demonstrates robust overfitting control excels downstream tasks subseasonal-to-seasonal S2S modeling regional forecasting after fine-tuning..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Weather forecasting has long posed significant challenge humanity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving recent AI-based models have surpassed traditional numerical weather prediction NWP methods global forecasting tasks overfitting remains critical issue.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper explore pre-training methods weather forecasting finding selecting appropriately challenging task introduces locality bias effectively mitigating overfitting enhancing.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Baguan novel data-driven model medium-range weather forecasting built Siamese Autoencoder pre-trained self-supervised manner fine-tuned different lead times..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results show Baguan outperforms traditional methods delivering accurate forecasts..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

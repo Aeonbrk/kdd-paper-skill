@@ -1,0 +1,85 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671547",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Applied Data Science Track",
+  "title": "Time-Aware Attention-Based Transformer (TAAT) for Cloud Computing System Failure Prediction",
+  "doi": "10.1145/3637528.3671547",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857334",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Log-based failure prediction helps identify mitigate system failures ahead time increasing reliability cloud elastic computing systems.However most existing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

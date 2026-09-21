@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737249",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Multi-Agent Proactive Information Seeking with Adaptive LLM Orchestration for Non-Factoid Question Answering",
+  "doi": "10.1145/3711896.3737249",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876891",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines proliferation complex non-factoid questions modern information seeking systems exposes critical limitations conventional Retrieval-Augmented Generation RAG approaches particularly static.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving proliferation complex non-factoid questions modern information seeking systems exposes critical limitations conventional Retrieval-Augmented Generation RAG approaches particularly static.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Facing limitations present PASS Proactive Agent-driven Search System novel multi-agent framework operationalizes human-like strategies through five specialized agents.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Crucially framework demonstrates remarkable adaptability mid-sized LLMs demonstrating scalability resource-constrained environments..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving comprehensively assess effectiveness proposed framework carry out extensive experiments both mid-sized proprietary large-scale LLMs evaluating response quality complex.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Crucially framework demonstrates remarkable adaptability mid-sized LLMs demonstrating scalability resource-constrained environments..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving comprehensively assess effectiveness proposed framework carry out extensive experiments both mid-sized proprietary large-scale LLMs evaluating response quality complex.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental results offline nugget-based evaluation online A/B Tests confirm substantial improvements answer quality advancing proactive information seeking methodologies.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines proliferation complex non-factoid questions modern information seeking systems exposes critical limitations conventional Retrieval-Augmented Generation RAG approaches particularly static.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving proliferation complex non-factoid questions modern information seeking systems exposes critical limitations conventional Retrieval-Augmented Generation RAG approaches particularly static.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Facing limitations present PASS Proactive Agent-driven Search System novel multi-agent framework operationalizes human-like strategies through five specialized agents.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Crucially framework demonstrates remarkable adaptability mid-sized LLMs demonstrating scalability resource-constrained environments..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Crucially framework demonstrates remarkable adaptability mid-sized LLMs demonstrating scalability resource-constrained environments..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

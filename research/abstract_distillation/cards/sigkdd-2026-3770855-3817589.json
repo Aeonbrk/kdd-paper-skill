@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817589",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Evaluating Long-Horizon Memory for Multi-Party Collaborative Dialogues",
+  "doi": "10.1145/3770855.3817589",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196935077",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Long-term conversational memory practical LLM applications inherently collaborative information produced multiple participants scattered across groups channels revised over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Yet there currently no established benchmark evaluates memory under interaction patterns resembling real-world deployment existing benchmarks largely focus.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper introduce EverMemBench first benchmark designed long-horizon collaborative memory built multi-party multi-group conversations spanning over one million tokens.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving EverMemBench thus represents concrete step toward realistic evaluation LLM memory cornerstone benchmark developing next-generation LLMs reason over time.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Yet there currently no established benchmark evaluates memory under interaction patterns resembling real-world deployment existing benchmarks largely focus.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving EverMemBench evaluates memory systems 400 QA pairs across three dimensions essential real applications fine-grained recall awareness user profile.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluation reveals fundamental limitations current systems multi-hop reasoning collapses under multi-party attribution even oracle evidence 26% accuracy temporal.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Long-term conversational memory practical LLM applications inherently collaborative information produced multiple participants scattered across groups channels revised over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Yet there currently no established benchmark evaluates memory under interaction patterns resembling real-world deployment existing benchmarks largely focus.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce EverMemBench first benchmark designed long-horizon collaborative memory built multi-party multi-group conversations spanning over one million tokens.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Yet there currently no established benchmark evaluates memory under interaction patterns resembling real-world deployment existing benchmarks largely focus.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

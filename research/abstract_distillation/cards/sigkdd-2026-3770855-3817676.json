@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817676",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Federated Domain Generalization for Time-Series Classification via Dynamics-to-Domain Generation",
+  "doi": "10.1145/3770855.3817676",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927215",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Time-series classification supports applications activity recognition health monitoring but non-stationary heterogeneous sensor streams often lead out-of-distribution shifts amplified.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Time-series classification supports applications activity recognition health monitoring but non-stationary heterogeneous sensor streams often lead out-of-distribution shifts amplified.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving revisit challenge through latent segment dynamics interpret domain shift variations fine-grained local behaviors temporal transitions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose FedD2G dynamics-aware generative framework federated domain generalization..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving then introduces Sequence-Fused Transition sampling class-conditioned Markov model assemble descriptors temporally coherent sequences enabling controlled synthesis expands beyond.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments cross-domain federated time-series benchmarks show consistent improvements over strong FL FDG baselines reaching 78.5% average accuracy under.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Time-series classification supports applications activity recognition health monitoring but non-stationary heterogeneous sensor streams often lead out-of-distribution shifts amplified.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Time-series classification supports applications activity recognition health monitoring but non-stationary heterogeneous sensor streams often lead out-of-distribution shifts amplified.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving revisit challenge through latent segment dynamics interpret domain shift variations fine-grained local behaviors temporal transitions..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose FedD2G dynamics-aware generative framework federated domain generalization..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments cross-domain federated time-series benchmarks show consistent improvements over strong FL FDG baselines reaching 78.5% average accuracy under.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

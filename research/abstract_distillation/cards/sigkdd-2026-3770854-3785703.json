@@ -1,0 +1,162 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3785703",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Compliance-to-Code: Enhancing Financial Compliance Checking via Code Generation",
+  "doi": "10.1145/3770854.3785703",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171969925",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Nowadays regulatory compliance has become cornerstone corporate governance ensuring adherence systematic legal frameworks..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance remains suboptimal particularly when applied Chinese-language financial regulations due three key limitations incomplete domain-specific knowledge representation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Nowadays regulatory compliance has become cornerstone corporate governance ensuring adherence systematic legal frameworks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving One promising solution develop domain specific code-oriented dataset model training..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving fill gaps present Compliance-to-Code first large-scale Chinese dataset dedicated financial regulatory compliance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving core financial regulations often comprise highly intricate provisions layered logical structures numerous exceptions inevitably result labor-intensive comprehension challenges..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving demonstrate utility present FinCheck pipeline regulation structuring code generation report generation..",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experimental evaluation shows GLM-4-9B-0414 achieves best performance key task regulation structuring DeepSeek-R1-0528 performs compliance code generation tasks..",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Nowadays regulatory compliance has become cornerstone corporate governance ensuring adherence systematic legal frameworks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance remains suboptimal particularly when applied Chinese-language financial regulations due three key limitations incomplete domain-specific knowledge representation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Nowadays regulatory compliance has become cornerstone corporate governance ensuring adherence systematic legal frameworks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving One promising solution develop domain specific code-oriented dataset model training..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving core financial regulations often comprise highly intricate provisions layered logical structures numerous exceptions inevitably result labor-intensive comprehension challenges..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

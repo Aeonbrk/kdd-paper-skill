@@ -1,0 +1,121 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780181",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Vistar: Enhancing the Perception Capability of LLMs under Imprecise IMU-Text Alignment",
+  "doi": "10.1145/3770854.3780181",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7162955105",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper introduces Vistar novel self-supervised framework inertial measurement unit IMU signal perception designed large language models LLMs.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Even when vision-language models VLMs describe events videos synchronized IMU signals semantic gap remains between high-level visual semantics.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduces Vistar novel self-supervised framework inertial measurement unit IMU signal perception designed large language models LLMs.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving core idea Vistar achieve accurate IMU signal perception through collaborations between offline cross-modal alignment online retrieval-augmented generation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Given enhanced training strategy still fails achieve precise alignment between IMU text during online inference Vistar further employs.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive evaluations three multimodal datasets demonstrate Vistar consistently outperforms state-of-the-art SOTA baselines up 57.45% IMU-to-text retrieval improves generated.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper introduces Vistar novel self-supervised framework inertial measurement unit IMU signal perception designed large language models LLMs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Even when vision-language models VLMs describe events videos synchronized IMU signals semantic gap remains between high-level visual semantics.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduces Vistar novel self-supervised framework inertial measurement unit IMU signal perception designed large language models LLMs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving core idea Vistar achieve accurate IMU signal perception through collaborations between offline cross-modal alignment online retrieval-augmented generation..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

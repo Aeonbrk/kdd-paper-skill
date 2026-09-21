@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780302",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Mining Intrinsic Rewards from LLM Hidden States for Efficient Best-of-N Sampling",
+  "doi": "10.1145/3770854.3780302",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7120197740",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address data efficiency gap introduce SWIFT Simple Weighted Intrinsic Feedback Technique novel lightweight method learns reward function directly.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments standard benchmarks show SWIFT outperforms existing baselines 12.7% higher accuracy EurusRM-7B MATH dataset less 0.005% parameters..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments standard benchmarks show SWIFT outperforms existing baselines 12.7% higher accuracy EurusRM-7B MATH dataset less 0.005% parameters..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address data efficiency gap introduce SWIFT Simple Weighted Intrinsic Feedback Technique novel lightweight method learns reward function directly.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Best-of-N sampling powerful method improving Large Language Model LLM performance but often limited dependence massive text-based reward models..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

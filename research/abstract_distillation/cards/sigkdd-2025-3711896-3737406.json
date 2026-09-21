@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737406",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Datasets and Benchmarks Track",
+  "title": "ClimateIQA: A New Dataset and Benchmark to Advance Vision-Language Models in Meteorology Anomalies Analysis",
+  "doi": "10.1145/3711896.3737406",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4399759109",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Meteorological heatmaps play vital role deciphering extreme weather phenomena yet inherent complexities-marked irregular contours unstructured patterns complex color.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Meteorological heatmaps play vital role deciphering extreme weather phenomena yet inherent complexities-marked irregular contours unstructured patterns complex color.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges introduce Sparse Position Outline Tracking SPOT novel algorithm specifically designed process irregularly shaped colored regions visual.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Building SPOT construct ClimateIQA novel meteorological visual question answering VQA dataset comprising 26 280 high-resolution heatmaps 762 120.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Current state-of-the-art models like GPT-4o Qwen-VL LLaVA 1.6 struggle tasks precise color identification spatial localization resulting inaccurate incomplete.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving ClimateIQA enhances VLM training incorporating spatial cues geographic metadata reanalysis data improving model accuracy interpreting describing extreme weather.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore develop Climate-Zoo suite fine-tuned VLMs based SPOT-empowered ClimateIQA significantly outperforms existing models meteorological heatmap tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Meteorological heatmaps play vital role deciphering extreme weather phenomena yet inherent complexities-marked irregular contours unstructured patterns complex color.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Meteorological heatmaps play vital role deciphering extreme weather phenomena yet inherent complexities-marked irregular contours unstructured patterns complex color.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges introduce Sparse Position Outline Tracking SPOT novel algorithm specifically designed process irregularly shaped colored regions visual.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Current state-of-the-art models like GPT-4o Qwen-VL LLaVA 1.6 struggle tasks precise color identification spatial localization resulting inaccurate incomplete.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

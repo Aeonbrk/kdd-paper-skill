@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3819053",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "ReLU: Refined Chunk Embeddings Learning for Ultra-long SNP Genomic Prediction in Crop Breeding",
+  "doi": "10.1145/3770855.3819053",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196956173",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Genomic prediction accelerate crop breeding predicting phenotypes genome-wide SNP sequences..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving practice task operates severe gg regime hundreds thousands millions SNPs but only samples making end-to-end deep learning prone.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address present ReLU Refined Chunk Embeddings Learning Ultra-long SNP modeling scalable framework refines progressively genomic prediction crop breeding..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving ReLU introduces three key contributions self-supervised adapter produces compressed refined chunk embeddings preserve local SNP information listwise ranking.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments two real-world datasets Rice3K 440 SNPs Maize1404 demonstrate ReLU outperforms baselines across multiple phenotypes..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Genomic prediction accelerate crop breeding predicting phenotypes genome-wide SNP sequences..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving practice task operates severe gg regime hundreds thousands millions SNPs but only samples making end-to-end deep learning prone.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address present ReLU Refined Chunk Embeddings Learning Ultra-long SNP modeling scalable framework refines progressively genomic prediction crop breeding..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving ReLU introduces three key contributions self-supervised adapter produces compressed refined chunk embeddings preserve local SNP information listwise ranking.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments two real-world datasets Rice3K 440 SNPs Maize1404 demonstrate ReLU outperforms baselines across multiple phenotypes..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

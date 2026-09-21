@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737258",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "RankExpert: A Mixture of Textual-and-Behavioral Experts for Multi-Objective Learning-to-Rank in Web Search",
+  "doi": "10.1145/3711896.3737258",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877000",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines modern learning-to-rank LTR systems rely both textual behavioral features essential extend pre-trained language models PLMs text queries webpages.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce RankExpert unified framework holistically models heterogeneous ranking signals integrating PLM-based semantic extraction behavioral cues..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving RankExpert employs lightweight PLM hierarchical distillation efficient query-document representation mixture-of-experts MoE architecture disentangle optimize objectives across relevance quality.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Moreover deploy RankExpert Baidu Search conduct comprehensive online evaluations real-world web traffic demonstrating substantial improvements user satisfaction metrics.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive offline evaluations two large-scale real-world datasets reveal RankExpert significantly outperforms strong competitor models substantial gains key performance.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Moreover deploy RankExpert Baidu Search conduct comprehensive online evaluations real-world web traffic demonstrating substantial improvements user satisfaction metrics.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines modern learning-to-rank LTR systems rely both textual behavioral features essential extend pre-trained language models PLMs text queries webpages.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce RankExpert unified framework holistically models heterogeneous ranking signals integrating PLM-based semantic extraction behavioral cues..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving RankExpert employs lightweight PLM hierarchical distillation efficient query-document representation mixture-of-experts MoE architecture disentangle optimize objectives across relevance quality.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive offline evaluations two large-scale real-world datasets reveal RankExpert significantly outperforms strong competitor models substantial gains key performance.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

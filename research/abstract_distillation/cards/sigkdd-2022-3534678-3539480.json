@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539480",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Stabilizing Voltage in Power Distribution Networks via Multi-Agent Reinforcement Learning with Transformer",
+  "doi": "10.1145/3534678.3539480",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281636288",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines increased integration renewable energy poses slew technical challenges operation power distribution networks..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches based MARL ignore unique nature grid achieve limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper introduce transformer architecture extract representations adapting power network problems propose Transformer-based Multi-Agent Actor-Critic framework T-MAAC stabilize voltage.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving addition adopt novel auxiliary-task training process tailored voltage control task improves sample efficiency facilitating representation learning transformer-based model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving couple T-MAAC different multi-agent actor-critic algorithms consistent improvements active voltage control task demonstrate effectiveness proposed method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing approaches based MARL ignore unique nature grid achieve limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition adopt novel auxiliary-task training process tailored voltage control task improves sample efficiency facilitating representation learning transformer-based model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving couple T-MAAC different multi-agent actor-critic algorithms consistent improvements active voltage control task demonstrate effectiveness proposed method..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines increased integration renewable energy poses slew technical challenges operation power distribution networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches based MARL ignore unique nature grid achieve limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce transformer architecture extract representations adapting power network problems propose Transformer-based Multi-Agent Actor-Critic framework T-MAAC stabilize voltage.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving addition adopt novel auxiliary-task training process tailored voltage control task improves sample efficiency facilitating representation learning transformer-based model..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing approaches based MARL ignore unique nature grid achieve limited performance..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

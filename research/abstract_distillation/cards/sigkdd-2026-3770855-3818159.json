@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818159",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DeMIC: Decentralized Meta In-Context Learning with Refiner-Guided Adaptation",
+  "doi": "10.1145/3770855.3818159",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197029906",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines In-Context Learning ICL empowers Large Language Models adapt novel tasks presenting promising solution privacy-preserving distributed scenarios..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However relying exclusively inference-time ICL suffers inherent instability..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving In-Context Learning ICL empowers Large Language Models adapt novel tasks presenting promising solution privacy-preserving distributed scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving bridge gap propose DeMIC novel decentralized meta-learning framework designed collaboratively optimize intrinsic in-context adaptation mechanism under task heterogeneity.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving constructing contrastive pairs mechanism forces model explore broader parameter spaces learn negative samples..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate significant generalization DeMIC new tasks improving accuracy 11.76% F1-score 10.65% average over all settings..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines In-Context Learning ICL empowers Large Language Models adapt novel tasks presenting promising solution privacy-preserving distributed scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However relying exclusively inference-time ICL suffers inherent instability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving In-Context Learning ICL empowers Large Language Models adapt novel tasks presenting promising solution privacy-preserving distributed scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap propose DeMIC novel decentralized meta-learning framework designed collaboratively optimize intrinsic in-context adaptation mechanism under task heterogeneity.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments demonstrate significant generalization DeMIC new tasks improving accuracy 11.76% F1-score 10.65% average over all settings..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

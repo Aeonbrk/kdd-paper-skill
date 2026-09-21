@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736829",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Adapting Pretrained Language Models for Citation Classification via Self-Supervised Contrastive Learning",
+  "doi": "10.1145/3711896.3736829",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875523",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Citation classification identifies intention behind academic citations pivotal scholarly analysis..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However directly fine-tuning citation classification challenging due labeled data scarcity contextual noise spurious keyphrase correlations..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper present novel framework Citss adapts PLMs overcome challenges..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Citss introduces self-supervised contrastive learning alleviate data scarcity equipped two specialized strategies obtain pairs sentence-level cropping enhances focus.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Compared previous works only designed encoder-based PLMs Citss carefully developed compatible both decoder-based LLMs embrace benefits enlarged pretraining..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments three benchmark datasets both encoder-based PLMs decoder-based LLMs demonstrate superiority compared previous state art..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Citation classification identifies intention behind academic citations pivotal scholarly analysis..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However directly fine-tuning citation classification challenging due labeled data scarcity contextual noise spurious keyphrase correlations..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present novel framework Citss adapts PLMs overcome challenges..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Citss introduces self-supervised contrastive learning alleviate data scarcity equipped two specialized strategies obtain pairs sentence-level cropping enhances focus.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments three benchmark datasets both encoder-based PLMs decoder-based LLMs demonstrate superiority compared previous state art..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

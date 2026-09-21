@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817835",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Topology-Aware Neural Collapse for Generalized Category Discovery on Graphs",
+  "doi": "10.1145/3770855.3817835",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197032660",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Learning stable yet highly discriminative representation space simultaneously recognize known categories discover novel ones limited labeled data fundamental.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However when extending paradigm graph-structured data critical challenge arises..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose TopoNC topology-aware neural collapse framework Graph GCD..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically fixes Simplex ETF prototypes global geometric targets introduces Dual-Stream Encoder decouples topology smoothing feature-discriminative learning adaptively balancing.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition further design Topology-Conditioned Pseudo-Labeling strategy integrates Sinkhorn-based global balancing Old-Class Top-K Admission Masking Neighborhood-Consensus Screening reliably guide.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments several benchmark datasets have demonstrated TopoNC consistently outperforms existing methods highlighting importance topology-aware neural collapse Graph.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Learning stable yet highly discriminative representation space simultaneously recognize known categories discover novel ones limited labeled data fundamental.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However when extending paradigm graph-structured data critical challenge arises..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose TopoNC topology-aware neural collapse framework Graph GCD..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically fixes Simplex ETF prototypes global geometric targets introduces Dual-Stream Encoder decouples topology smoothing feature-discriminative learning adaptively balancing.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments several benchmark datasets have demonstrated TopoNC consistently outperforms existing methods highlighting importance topology-aware neural collapse Graph.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3785689",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "FinWorld: An All-in-One Open-Source Platform for End-to-End Financial AI Research and Deployment",
+  "doi": "10.1145/3770854.3785689",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4417102794",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Financial AI holds great promise transforming modern finance potential support wide range tasks market forecasting portfolio management quantitative.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing platforms remain limited task coverage lack robust multimodal data integration offer insufficient support training deployment large.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving response limitations present FinWorld all-in-one open-source platform provides end-to-end support entire financial AI workflow data acquisition experimentation deployment..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving FinWorld distinguishes itself through native integration heterogeneous financial data unified support diverse AI paradigms advanced agent automation enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Leveraging data representative markets stock pools over 800 million financial points conduct comprehensive experiments key AI tasks..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving response limitations present FinWorld all-in-one open-source platform provides end-to-end support entire financial AI workflow data acquisition experimentation deployment..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Leveraging data representative markets stock pools over 800 million financial points conduct comprehensive experiments key AI tasks..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments systematically evaluate deep learning reinforcement algorithms particular emphasis RL-based finetuning LLMs LLM Agents..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Financial AI holds great promise transforming modern finance potential support wide range tasks market forecasting portfolio management quantitative.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing platforms remain limited task coverage lack robust multimodal data integration offer insufficient support training deployment large.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving response limitations present FinWorld all-in-one open-source platform provides end-to-end support entire financial AI workflow data acquisition experimentation deployment..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving FinWorld distinguishes itself through native integration heterogeneous financial data unified support diverse AI paradigms advanced agent automation enabling.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving response limitations present FinWorld all-in-one open-source platform provides end-to-end support entire financial AI workflow data acquisition experimentation deployment..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

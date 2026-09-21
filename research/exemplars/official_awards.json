@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "year": 2022,
+      "category": "Best Paper Award",
+      "track": "Research Track",
+      "title": "Learning Causal Effects on Hypergraphs",
+      "paper_id": "sigkdd-2022-3534678-3539299",
+      "official_source": "https://www.kdd.org/awards/view/2022-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2022,
+      "category": "Best Paper Award runner-up",
+      "track": "Research Track",
+      "title": "Partial-Quasi-Newton Methods: Efficient Algorithms for Minimax Optimization Problems with Unbalanced Dimensionality",
+      "paper_id": "sigkdd-2022-3534678-3539379",
+      "official_source": "https://www.kdd.org/awards/view/2022-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2022,
+      "category": "Best Student Paper Award",
+      "track": "Research Track",
+      "title": "Flexible Modeling and Multitask Learning using Differentiable Tree Ensembles",
+      "paper_id": "sigkdd-2022-3534678-3539412",
+      "official_source": "https://www.kdd.org/awards/view/2022-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2022,
+      "category": "Best Paper Award",
+      "track": "Applied Data Science Track",
+      "title": "EasyFGL: Towards a Unified, Comprehensive and Efficient Platform for Federated Graph Learning",
+      "paper_id": "sigkdd-2022-3534678-3539112",
+      "official_source": "https://www.kdd.org/awards/view/2022-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2022,
+      "category": "Best Paper Award runner-up",
+      "track": "Applied Data Science Track",
+      "title": "Greykite: Deploying Flexible Forecasting at Scale at LinkedIn",
+      "paper_id": "sigkdd-2022-3534678-3539165",
+      "official_source": "https://www.kdd.org/awards/view/2022-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2023,
+      "category": "Best Paper Award",
+      "track": "Research Track",
+      "title": "All in One: Multi-task Prompting for Graph Neural Networks",
+      "paper_id": "sigkdd-2023-3580305-3599256",
+      "official_source": "https://www.kdd.org/awards/view/2023-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2023,
+      "category": "Best Student Paper Award",
+      "track": "Research Track",
+      "title": "Feature-based Learning for Diverse and Privacy-Preserving Counterfactual Explanations",
+      "paper_id": "sigkdd-2023-3580305-3599343",
+      "official_source": "https://www.kdd.org/awards/view/2023-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2023,
+      "category": "Best Paper Award",
+      "track": "Applied Data Science Track",
+      "title": "Improving Training Stability for Multitask Ranking Models in Recommender Systems",
+      "paper_id": "sigkdd-2023-3580305-3599846",
+      "official_source": "https://www.kdd.org/awards/view/2023-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2024,
+      "category": "Best Paper Award",
+      "track": "Research Track",
+      "title": "CAT: Interpretable Concept-based Taylor Additive Models",
+      "paper_id": "sigkdd-2024-3637528-3672020",
+      "official_source": "https://www.kdd.org/awards/view/2024-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2024,
+      "category": "Best Student Paper Award",
+      "track": "Research Track",
+      "title": "Dataset Regeneration for Sequential Recommendation",
+      "paper_id": "sigkdd-2024-3637528-3671841",
+      "official_source": "https://www.kdd.org/awards/view/2024-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2024,
+      "category": "Best Paper Award",
+      "track": "Applied Data Science Track",
+      "title": "LiGNN: Graph Neural Networks at LinkedIn",
+      "paper_id": "sigkdd-2024-3637528-3671566",
+      "official_source": "https://www.kdd.org/awards/view/2024-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2024,
+      "category": "Best Paper Award runner-up",
+      "track": "Applied Data Science Track",
+      "title": "Nested Fusion: A Method for Learning High Resolution Latent Structure of Multi-Scale Measurement Data on Mars",
+      "paper_id": "sigkdd-2024-3637528-3671596",
+      "official_source": "https://www.kdd.org/awards/view/2024-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award",
+      "track": "Research Track",
+      "title": "Improving Group Robustness on Spurious Correlation via Evidential Alignment",
+      "paper_id": "sigkdd-2025-3711896-3737002",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award runner-up",
+      "track": "Research Track",
+      "title": "Monitoring Robustness and Individual Fairness",
+      "paper_id": "sigkdd-2025-3711896-3737054",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award honorable mention",
+      "track": "Research Track",
+      "title": "SIGEM: A Simple Yet Effective Similarity Based Graph Embedding Method",
+      "paper_id": "sigkdd-2025-3711896-3737128",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Student Paper Award",
+      "track": "Research Track",
+      "title": "Taming Recommendation Bias with Causal Intervention on Evolving Personal Popularity",
+      "paper_id": "sigkdd-2025-3711896-3737146",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Student Paper Award runner-up",
+      "track": "Research Track",
+      "title": "Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention",
+      "paper_id": "sigkdd-2025-3690624-3709226",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Student Paper Award honorable mention",
+      "track": "Research Track",
+      "title": "Verification of Incomplete Graph Unlearning Through Adversarial Perturbations",
+      "paper_id": "sigkdd-2025-3711896-3737179",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award",
+      "track": "Applied Data Science Track",
+      "title": "Evaluating Decision Rules Across Many Weak Experiments",
+      "paper_id": "sigkdd-2025-3711896-3737217",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award runner-up",
+      "track": "Applied Data Science Track",
+      "title": "Put Teacher in Student’s Shoes: Cross-Distillation for Ultra-compact Model Compression Framework",
+      "paper_id": "sigkdd-2025-3711896-3737257",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award honorable mention",
+      "track": "Applied Data Science Track",
+      "title": "Web Scale Graph Mining for Cyber Threat Intelligence",
+      "paper_id": "sigkdd-2025-3711896-3737274",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award honorable mention",
+      "track": "Applied Data Science Track",
+      "title": "VLM as Policy: Common-Law Content Moderation Framework for Short Video Platform",
+      "paper_id": "sigkdd-2025-3711896-3737273",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award",
+      "track": "Datasets and Benchmarks Track",
+      "title": "When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark",
+      "paper_id": "sigkdd-2025-3711896-3737421",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award runner-up",
+      "track": "Datasets and Benchmarks Track",
+      "title": "A Guide to Misinformation Detection Data and Evaluation",
+      "paper_id": "sigkdd-2025-3711896-3737437",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    },
+    {
+      "year": 2025,
+      "category": "Best Paper Award runner-up",
+      "track": "Datasets and Benchmarks Track",
+      "title": "HtFLlib: A Comprehensive Heterogeneous Federated Learning Library and Benchmark",
+      "paper_id": "sigkdd-2025-3711896-3737379",
+      "official_source": "https://www.kdd.org/awards/view/2025-sigkdd-best-paper-award-winners"
+    }
+  ],
+  "unresolved": []
+}

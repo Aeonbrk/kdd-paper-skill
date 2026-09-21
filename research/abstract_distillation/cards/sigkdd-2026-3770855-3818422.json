@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818422",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "Generative Auto-Bidding in Large-Scale Auctions via Diffusion Completer-Aligner",
+  "doi": "10.1145/3770855.3818422",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927664",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Bid optimization strategy auto-bidding central computational advertising achieving notable commercial success optimizing advertisers bids within constraints..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However performance could limited generation uncertainty particularly regarding generations dynamic illegitimacy preference misalignment lead suboptimal bids further cause.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose Causal auto-Bidding method based Diffusion completer-aligner framework termed CBD..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Firstly conduct theoretical analysis propose completer augment training process extra random variable representing decision timestep enhancing dynamic legitimacy.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then employ trajectory-level return model aligner refine generated trajectories inference better alignment advertisers objectives..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Bid optimization strategy auto-bidding central computational advertising achieving notable commercial success optimizing advertisers bids within constraints..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments across diverse settings demonstrate approach not only achieves superior performance large-scale auto-bidding benchmarks 29.9% improvement conversion value.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Bid optimization strategy auto-bidding central computational advertising achieving notable commercial success optimizing advertisers bids within constraints..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However performance could limited generation uncertainty particularly regarding generations dynamic illegitimacy preference misalignment lead suboptimal bids further cause.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose Causal auto-Bidding method based Diffusion completer-aligner framework termed CBD..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Firstly conduct theoretical analysis propose completer augment training process extra random variable representing decision timestep enhancing dynamic legitimacy.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Bid optimization strategy auto-bidding central computational advertising achieving notable commercial success optimizing advertisers bids within constraints..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

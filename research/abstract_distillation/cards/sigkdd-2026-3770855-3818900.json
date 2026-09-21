@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818900",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "HiBrain: Hierarchical Prototype Learning on Multimodal Brain Graphs for Stage-Aware Biomarker Discovery",
+  "doi": "10.1145/3770855.3818900",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196943648",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Neurodegenerative diseases Alzheimer disease AD Parkinson PD characterised progressive stage-dependent disruptions brain connectivity..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing graph-based approaches compress whole-brain networks single global representation limiting capacity model hierarchical connectivity patterns deliver.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However most existing graph-based approaches compress whole-brain networks single global representation limiting capacity model hierarchical connectivity patterns deliver.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work propose HiBrain hierarchical prototype-based framework multimodal brain network analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving proposed framework progressively abstracts representative local connectivity patterns global network representations disease-stage specific prototypes enabling both accurate stage-aware.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments multimodal AD PD datasets demonstrate consistent improvements over state-of-the-art baselines multi-stage classification tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Neurodegenerative diseases Alzheimer disease AD Parkinson PD characterised progressive stage-dependent disruptions brain connectivity..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing graph-based approaches compress whole-brain networks single global representation limiting capacity model hierarchical connectivity patterns deliver.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However most existing graph-based approaches compress whole-brain networks single global representation limiting capacity model hierarchical connectivity patterns deliver.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work propose HiBrain hierarchical prototype-based framework multimodal brain network analysis..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments multimodal AD PD datasets demonstrate consistent improvements over state-of-the-art baselines multi-stage classification tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

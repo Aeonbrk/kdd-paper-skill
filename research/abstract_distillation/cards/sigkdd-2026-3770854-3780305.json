@@ -1,0 +1,126 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780305",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "In-context Learning of Evolving Data Streams with Tabular Foundational Models",
+  "doi": "10.1145/3770854.3780305",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4414844648",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines State-of-the-art data stream mining has long drawn ensembles Very Fast Decision Tree seminal algorithm honored 2015 KDD Test-of-Time.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However emergence large tabular models i.e. transformers designed structured numerical data marks significant paradigm shift..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving State-of-the-art data stream mining has long drawn ensembles Very Fast Decision Tree seminal algorithm honored 2015 KDD Test-of-Time.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However emergence large tabular models i.e. transformers designed structured numerical data marks significant paradigm shift..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving on-the-fly sketches summarize unbounded streaming data one feed information pre-trained model efficient processing..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Exploring real-time model adaptation research demonstrates TabPFN coupled simple sliding memory strategy consistently outperforms ensembles Hoeffding trees Adaptive.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines State-of-the-art data stream mining has long drawn ensembles Very Fast Decision Tree seminal algorithm honored 2015 KDD Test-of-Time.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However emergence large tabular models i.e. transformers designed structured numerical data marks significant paradigm shift..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving State-of-the-art data stream mining has long drawn ensembles Very Fast Decision Tree seminal algorithm honored 2015 KDD Test-of-Time.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However emergence large tabular models i.e. transformers designed structured numerical data marks significant paradigm shift..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Exploring real-time model adaptation research demonstrates TabPFN coupled simple sliding memory strategy consistently outperforms ensembles Hoeffding trees Adaptive.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

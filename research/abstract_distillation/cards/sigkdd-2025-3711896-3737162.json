@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737162",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Towards Efficient Few-shot Graph Neural Architecture Search via Partitioning Gradient Contribution",
+  "doi": "10.1145/3711896.3737162",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876882",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines address weight coupling problem certain studies introduced few-shot Neural Architecture Search NAS methods partition supernet multiple sub-supernets..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However methods often suffer computational inefficiency tend provide suboptimal partitioning schemes..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address weight coupling problem certain studies introduced few-shot Neural Architecture Search NAS methods partition supernet multiple sub-supernets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address problem effectively analyze weight coupling novel perspective primarily stems distinct modules succeeding layers imposing conflicting gradient directions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based perspective propose Gradient Contribution GC method efficiently computes cosine similarity directions among modules decomposing Vector-Jacobian Product during.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving experimental results demonstrate GC achieves state-of-the-art SOTA performance supernet partitioning quality time efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving addition architectures searched UGAS+GC outperform both manually designed GNNs those obtained existing NAS methods..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally ablation studies further demonstrate effectiveness all proposed methods..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines address weight coupling problem certain studies introduced few-shot Neural Architecture Search NAS methods partition supernet multiple sub-supernets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However methods often suffer computational inefficiency tend provide suboptimal partitioning schemes..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address weight coupling problem certain studies introduced few-shot Neural Architecture Search NAS methods partition supernet multiple sub-supernets..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address problem effectively analyze weight coupling novel perspective primarily stems distinct modules succeeding layers imposing conflicting gradient directions.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving experimental results demonstrate GC achieves state-of-the-art SOTA performance supernet partitioning quality time efficiency..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

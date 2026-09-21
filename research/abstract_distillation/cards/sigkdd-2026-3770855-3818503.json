@@ -1,0 +1,131 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818503",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Applied Data Science Track",
+  "title": "UniNote: A Unified Embedding Model for Multimodal Representation and Ranking",
+  "doi": "10.1145/3770855.3818503",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197041002",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Item-to-Item I2I retrieval fundamental part modern content platforms supporting critical industrial workflows recommendation engines auditing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving multimodal embedding methods have advanced general retrieval they often falter I2I scenarios due challenges balancing global content representation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving solve issues propose UniNote unified embedding model designed industrial I2I retrieval..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Tailored retrieval strategies introduced support representation learning over complex multimodal content varying granularities..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving multimodal embedding methods have advanced general retrieval they often falter I2I scenarios due challenges balancing global content representation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results show UniNote achieves SOTA performance across diverse I2I tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Deployed Xiaohongshu integrated Matryoshka Representation Learning MRL UniNote achieved significant improvements retrieval quality cost efficiency large-scale applications..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Item-to-Item I2I retrieval fundamental part modern content platforms supporting critical industrial workflows recommendation engines auditing..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving multimodal embedding methods have advanced general retrieval they often falter I2I scenarios due challenges balancing global content representation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving solve issues propose UniNote unified embedding model designed industrial I2I retrieval..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving multimodal embedding methods have advanced general retrieval they often falter I2I scenarios due challenges balancing global content representation.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

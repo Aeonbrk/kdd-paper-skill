@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599515",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Task-Equivariant Graph Few-shot Learning",
+  "doi": "10.1145/3580305.3599515",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4379251290",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although Graph Neural Networks GNNs have been successful node classification tasks performance heavily relies availability sufficient number labeled.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although Graph Neural Networks GNNs have been successful node classification tasks performance heavily relies availability sufficient number labeled.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving real-world situations not all classes have many labeled nodes there instances model needs classify new making manual labeling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge meta-learning based few-shot learning FSL propose new approach Task-Equivariant Graph TEG framework..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving TEG framework enables model learn transferable task-adaptation strategies limited number training meta-tasks allowing acquire meta-knowledge wide range meta-tasks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Previous episodic meta-learning based methods have demonstrated success few-shot node classification but findings suggest optimal performance only achieved.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving result TEG achieves state-of-the-art performance limited training meta-tasks..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experiments various benchmark datasets demonstrate TEG superiority terms accuracy generalization ability even when minimal meta-training data highlighting effectiveness.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although Graph Neural Networks GNNs have been successful node classification tasks performance heavily relies availability sufficient number labeled.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although Graph Neural Networks GNNs have been successful node classification tasks performance heavily relies availability sufficient number labeled.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving real-world situations not all classes have many labeled nodes there instances model needs classify new making manual labeling.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge meta-learning based few-shot learning FSL propose new approach Task-Equivariant Graph TEG framework..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Previous episodic meta-learning based methods have demonstrated success few-shot node classification but findings suggest optimal performance only achieved.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

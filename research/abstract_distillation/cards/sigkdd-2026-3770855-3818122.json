@@ -1,0 +1,154 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818122",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Reasoning over Semantic IDs Enhances Generative Recommendation",
+  "doi": "10.1145/3770855.3818122",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196997908",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent advances generative recommendation have leveraged pretrained LLMs formulating sequential autoregressive generation over unified token space comprising language.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Meanwhile breakthroughs LLM reasoning motivate reasoning-enhanced recommendation yet effective over SIDs remains underexplored challenging..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose SIDReasoner two-stage framework elicits reasoning over SIDs strengthening SID language alignment unlock transferable LLM rather.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Concretely SIDReasoner first enhances SID-language alignment via multi-task training enriched SID-centered corpus synthesized stronger teacher model grounding itemic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building enhanced alignment SIDReasoner further improves recommendation reasoning through outcome-driven reinforced optimization guides model toward effective trajectories without.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Itemic tokens not natively meaningful LLMs moreover recommendation-oriented SID reasoning hard evaluate making high-quality supervision scarce..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building enhanced alignment SIDReasoner further improves recommendation reasoning through outcome-driven reinforced optimization guides model toward effective trajectories without.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments three real-world datasets demonstrate effectiveness reasoning-augmented SID-based generative recommendation..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent advances generative recommendation have leveraged pretrained LLMs formulating sequential autoregressive generation over unified token space comprising language.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Meanwhile breakthroughs LLM reasoning motivate reasoning-enhanced recommendation yet effective over SIDs remains underexplored challenging..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose SIDReasoner two-stage framework elicits reasoning over SIDs strengthening SID language alignment unlock transferable LLM rather.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Concretely SIDReasoner first enhances SID-language alignment via multi-task training enriched SID-centered corpus synthesized stronger teacher model grounding itemic.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Itemic tokens not natively meaningful LLMs moreover recommendation-oriented SID reasoning hard evaluate making high-quality supervision scarce..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

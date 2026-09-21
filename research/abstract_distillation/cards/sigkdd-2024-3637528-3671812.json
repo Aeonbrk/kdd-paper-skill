@@ -1,0 +1,85 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671812",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Handling Varied Objectives by Online Decision Making",
+  "doi": "10.1145/3637528.3671812",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863615",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Conventional machine learning typically assume fixed objective throughout process.However real-world tasks open dynamic environments objectives change frequently.For example.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,137 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817834",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "ReSOT: Re-balance Semantic ID with Optimal Transport for Generative Recommendation",
+  "doi": "10.1145/3770855.3817834",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196969120",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generative recommendation GR reformulates sequential autoregressive generation problem items represented discrete semantic IDs..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However learning effective item tokenization critical yet remains challenging..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving identify two main sources distortion point-wise reconstruction losses insufficient preserve item--item relations collision-mitigation--driven code assignment disrupts semantic neighborhoods.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address issue propose ReSOT unified framework Re-balances Semantic ID learning via Optimal Transport GR..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving ReSOT consists two complementary components structure-aware reconstruction module aligns item relations between original reconstructed embedding space unbalanced optimal.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments real-world datasets show ReSOT provides principled tokenization scheme preserves relational structure assigning codes collision-aware semantics-consistent manner..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generative recommendation GR reformulates sequential autoregressive generation problem items represented discrete semantic IDs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However learning effective item tokenization critical yet remains challenging..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify two main sources distortion point-wise reconstruction losses insufficient preserve item--item relations collision-mitigation--driven code assignment disrupts semantic neighborhoods.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose ReSOT unified framework Re-balances Semantic ID learning via Optimal Transport GR..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving ReSOT consists two complementary components structure-aware reconstruction module aligns item relations between original reconstructed embedding space unbalanced optimal.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

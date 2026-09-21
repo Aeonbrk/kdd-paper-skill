@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599455",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Online Level-wise Hierarchical Clustering",
+  "doi": "10.1145/3580305.3599455",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568416",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online hierarchical clustering algorithms compared scalable batch setting counterparts typically provide limited accuracy efficiency performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper presents family new algorithms online hierarchical clustering combine high quality trees fast per-point insertion time--made possible through.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving analyze methods under assumptions about data separability clusters..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Empirically find proposed algorithms yield state-of-the-art results hierarchical clustering dendrogram purity building compressed prototypes k-nearest representative classifier..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Online hierarchical clustering algorithms compared scalable batch setting counterparts typically provide limited accuracy efficiency performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirically find proposed algorithms yield state-of-the-art results hierarchical clustering dendrogram purity building compressed prototypes k-nearest representative classifier..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online hierarchical clustering algorithms compared scalable batch setting counterparts typically provide limited accuracy efficiency performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper presents family new algorithms online hierarchical clustering combine high quality trees fast per-point insertion time--made possible through.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving analyze methods under assumptions about data separability clusters..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Online hierarchical clustering algorithms compared scalable batch setting counterparts typically provide limited accuracy efficiency performance..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

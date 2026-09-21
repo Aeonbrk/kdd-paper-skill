@@ -1,0 +1,106 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539455",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "KRATOS: Context-Aware Cell Type Classification and Interpretation using Joint Dimensionality Reduction and Clustering",
+  "doi": "10.1145/3534678.3539455",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290877247",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines common workflow single-cell RNA-sequencing sc-RNA-seq data analysis orchestrate three-step pipeline..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving system KRATOS alter three-step workflow two-step one jointly optimize first two steps add third interpretability step form integrated.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving show compact workflow KRATOS extracts marker genes better discriminate target cluster distilling underlying mechanisms guiding membership..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving doing so KRATOS significantly better two SOTA baselines compare against specifically 5.62% superior Global Counterfactual Explanation GCE ICML-20.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines common workflow single-cell RNA-sequencing sc-RNA-seq data analysis orchestrate three-step pipeline..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving system KRATOS alter three-step workflow two-step one jointly optimize first two steps add third interpretability step form integrated.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show compact workflow KRATOS extracts marker genes better discriminate target cluster distilling underlying mechanisms guiding membership..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result.",
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

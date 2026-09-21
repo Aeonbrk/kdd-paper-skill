@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736933",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Enhanced Subgraph Learning in 2-FWL GNNs via Local Connectivity, Spectral, and Distance Encodings",
+  "doi": "10.1145/3711896.3736933",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825989",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite theoretical expressiveness dimensional Folklore Weisfeiler-Lehman FWL Graph Neural Networks GNNs significant gap persists between capacity practical performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving bridge gap identify critical limitation current Graph Structural Encodings GSEs insufficient sensitivity subtle variations particularly local connectivity spectral.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving show widely used GSEs-such Relative Random Walk Probability RRWP monomial-based methods-lack full sensitivity across spectral frequency bands long-range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address limitations propose CSDGSE Connectivity Spectral Distance Graph Structural Encoding novel GSE framework jointly enhances sensitivity exact local.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments show CSDGSE outperforms existing GSEs capturing complex structural patterns achieving state-of-the-art results molecular property prediction benchmarks.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite theoretical expressiveness dimensional Folklore Weisfeiler-Lehman FWL Graph Neural Networks GNNs significant gap persists between capacity practical performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving bridge gap identify critical limitation current Graph Structural Encodings GSEs insufficient sensitivity subtle variations particularly local connectivity spectral.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving show widely used GSEs-such Relative Random Walk Probability RRWP monomial-based methods-lack full sensitivity across spectral frequency bands long-range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments show CSDGSE outperforms existing GSEs capturing complex structural patterns achieving state-of-the-art results molecular property prediction benchmarks.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,143 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818027",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DREAM: LLM-based Dynamic Role-playing via Event-Aware Memory Graph",
+  "doi": "10.1145/3770855.3818027",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196922640",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Role-playing agents RPAs have emerged key application large language models enabling immersive high-fidelity character simulation..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Accurate role-playing established characters requires not only stylistic imitation but temporally consistent causally grounded behavioral reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce DREAM structured memory framework role-playing agents inspired Activating Event--Belief--Consequence ABC cognitive model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving further propose Temporal Causal Memory TCM benchmark evaluate consistency long-range narrative coherence..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving further propose Temporal Causal Memory TCM benchmark evaluate consistency long-range narrative coherence..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving DREAM achieves state-of-the-art competitive performance across CoSER LIFECHOICE TCM outperforming multiple strong baselines..",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving approach demonstrates effectiveness structured memory enhancing interpretability consistency role-playing agents..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Role-playing agents RPAs have emerged key application large language models enabling immersive high-fidelity character simulation..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Accurate role-playing established characters requires not only stylistic imitation but temporally consistent causally grounded behavioral reasoning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce DREAM structured memory framework role-playing agents inspired Activating Event--Belief--Consequence ABC cognitive model..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further propose Temporal Causal Memory TCM benchmark evaluate consistency long-range narrative coherence..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving further propose Temporal Causal Memory TCM benchmark evaluate consistency long-range narrative coherence..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

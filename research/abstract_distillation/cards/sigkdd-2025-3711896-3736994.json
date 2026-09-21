@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736994",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "GuardFGL: Similarity-driven Federated Graph Learning with Adversarial Robustness and Membership Privacy",
+  "doi": "10.1145/3711896.3736994",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412875466",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines emerging Federated Graph Learning FGL offers promising collaborative training distributed data..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However malicious actors contaminate data streams falsifying node relationships clients conduct adversarial attacks edge servers causing degraded inference.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address important challenges propose GuardFGL novel similarity-driven FGL extracts minimal-sufficient information polluted data maintain strong adversarial robustness protect.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving First incorporate structural-aware feature-selection learning explore target-relevant edges features avoiding privacy leakage raw data..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Next design original Federated Graph Information Bottleneck FGIB principle supervise extracting well-compressed mitigating interference polluted data streams..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving real-world testbed benchmark graph datasets extensive experiments demonstrate GuardFGL achieve superior robust prediction better protect membership privacy state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines emerging Federated Graph Learning FGL offers promising collaborative training distributed data..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However malicious actors contaminate data streams falsifying node relationships clients conduct adversarial attacks edge servers causing degraded inference.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address important challenges propose GuardFGL novel similarity-driven FGL extracts minimal-sufficient information polluted data maintain strong adversarial robustness protect.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving First incorporate structural-aware feature-selection learning explore target-relevant edges features avoiding privacy leakage raw data..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving real-world testbed benchmark graph datasets extensive experiments demonstrate GuardFGL achieve superior robust prediction better protect membership privacy state-of-the-art.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

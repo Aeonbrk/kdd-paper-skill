@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736987",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Gradients as An Action: Towards Communication-Efficient Federated Recommender Systems via Adaptive Action Sharing",
+  "doi": "10.1145/3711896.3736987",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877149",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines promising privacy-aware collaborative model training paradigm Federated Learning FL becoming popular design distributed recommender systems..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However Federated Recommender Systems FedRecs greatly suffer two major problems extremely high communication overhead due massive item embeddings.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving promising privacy-aware collaborative model training paradigm Federated Learning FL becoming popular design distributed recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although existing methods attempt employ various compression techniques reduce communication overhead due parameter errors introduced model they inevitably.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving simultaneously address above problems paper presents communication-efficient FedRec framework named FedRAS adopts action-sharing strategy cluster gradients item embedding.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments well-known datasets demonstrate FedRAS reduce size communication payloads up 96.88% not sacrificing recommendation performance within various.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines promising privacy-aware collaborative model training paradigm Federated Learning FL becoming popular design distributed recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However Federated Recommender Systems FedRecs greatly suffer two major problems extremely high communication overhead due massive item embeddings.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving promising privacy-aware collaborative model training paradigm Federated Learning FL becoming popular design distributed recommender systems..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although existing methods attempt employ various compression techniques reduce communication overhead due parameter errors introduced model they inevitably.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comprehensive experiments well-known datasets demonstrate FedRAS reduce size communication payloads up 96.88% not sacrificing recommendation performance within various.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

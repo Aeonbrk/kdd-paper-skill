@@ -1,0 +1,101 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818040",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Trajectory-Aware Clinical Risk Prediction via Severity-Grounded Knowledge Graphs and Retrieval-Augmented Generation",
+  "doi": "10.1145/3770855.3818040",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196927393",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Electronic Health Records EHRs offer wealth clinical data effectively augmenting patient heterogeneous external knowledge predict risk remains significant.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Electronic Health Records EHRs offer wealth clinical data effectively augmenting patient heterogeneous external knowledge predict risk remains significant.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose TRACER trajectory-aware clinically grounded prediction framework constructs medical knowledge graph enriched severity information literature retrieves.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experiments MIMIC-III MIMIC-IV datasets demonstrate large gains over state-of-the-art baselines up 28.5% increase Macro F1 score mortality prediction.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Electronic Health Records EHRs offer wealth clinical data effectively augmenting patient heterogeneous external knowledge predict risk remains significant.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Electronic Health Records EHRs offer wealth clinical data effectively augmenting patient heterogeneous external knowledge predict risk remains significant.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose TRACER trajectory-aware clinically grounded prediction framework constructs medical knowledge graph enriched severity information literature retrieves.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experiments MIMIC-III MIMIC-IV datasets demonstrate large gains over state-of-the-art baselines up 28.5% increase Macro F1 score mortality prediction.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

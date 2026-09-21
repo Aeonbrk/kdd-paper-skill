@@ -1,0 +1,127 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818889",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Coarse-to-Fine Multi-Resolution Diffusion Models for Trajectory Generation in Urban Systems",
+  "doi": "10.1145/3770855.3818889",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197016490",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Understanding human mobility critical wide range urban applications including traffic management epidemic control planning..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However due privacy concerns availability large-scale public trajectory data remains limited posing challenges downstream mobility analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges propose novel multi-resolution diffusion framework MR-Traj large-scale trajectory generation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition introducing stochasticity multiple resolution levels MR-Traj generates diverse trajectories empirically reduces trajectory linkage risk under seed-guided data.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Experimental results demonstrate MR-Traj achieves comparable performance state-of-the-art methods terms global distribution similarity consistently outperforming them modeling fine-resolution.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Understanding human mobility critical wide range urban applications including traffic management epidemic control planning..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However due privacy concerns availability large-scale public trajectory data remains limited posing challenges downstream mobility analysis..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges propose novel multi-resolution diffusion framework MR-Traj large-scale trajectory generation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving addition introducing stochasticity multiple resolution levels MR-Traj generates diverse trajectories empirically reduces trajectory linkage risk under seed-guided data.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Experimental results demonstrate MR-Traj achieves comparable performance state-of-the-art methods terms global distribution similarity consistently outperforming them modeling fine-resolution.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

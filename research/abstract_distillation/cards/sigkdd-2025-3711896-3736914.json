@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3736914",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Does Vector Quantization Fail in Spatio-Temporal Forecasting? Exploring a Differentiable Sparse Soft-Vector Quantization Approach",
+  "doi": "10.1145/3711896.3736914",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825826",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Spatio-temporal forecasting crucial various fields requires careful balance between identifying subtle patterns filtering out noise..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although VQ has shown promise various computer vision tasks surprisingly falls short enhancing accuracy spatio-temporal forecasting..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving attribute two main issues inaccurate optimization due non-differentiability limited representation power caused hard-VQ structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges introduce Differentiable Sparse Soft-Vector Quantization SVQ first VQ method enhance spatio-temporal forecasting..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method employs two-layer MLP extensive codebook streamline sparse regression process significantly cutting computational costs simplifying training improving performance..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although VQ has shown promise various computer vision tasks surprisingly falls short enhancing accuracy spatio-temporal forecasting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving method employs two-layer MLP extensive codebook streamline sparse regression process significantly cutting computational costs simplifying training improving performance..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Empirical studies five spatio-temporal benchmark datasets show SVQ achieves state-of-the-art results including 7.9% improvement WeatherBench-S temperature dataset average.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Spatio-temporal forecasting crucial various fields requires careful balance between identifying subtle patterns filtering out noise..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although VQ has shown promise various computer vision tasks surprisingly falls short enhancing accuracy spatio-temporal forecasting..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving attribute two main issues inaccurate optimization due non-differentiability limited representation power caused hard-VQ structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges introduce Differentiable Sparse Soft-Vector Quantization SVQ first VQ method enhance spatio-temporal forecasting..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although VQ has shown promise various computer vision tasks surprisingly falls short enhancing accuracy spatio-temporal forecasting..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

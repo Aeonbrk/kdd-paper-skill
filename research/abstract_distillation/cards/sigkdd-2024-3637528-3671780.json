@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671780",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Dual-Assessment Driven Pruning: Iterative Optimizing Layer-wise Sparsity for Large Language Model",
+  "doi": "10.1145/3637528.3671780",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401864397",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Numerous efforts have been dedicated reducing parameter count models without compromising performance employing technique known model pruning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address oversight first propose dual-assessment driven pruning strategy employs both intra-layer metric global performance comprehensively evaluate impact pruning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Then method leverages iterative optimization algorithm find optimal layer-wise sparsity distribution thereby minimally impacting model performance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving address oversight first propose dual-assessment driven pruning strategy employs both intra-layer metric global performance comprehensively evaluate impact pruning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive benchmark evaluations state-of-the-art LLM architectures LLaMAv2 OPT across variety NLP tasks demonstrate effectiveness approach..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Numerous efforts have been dedicated reducing parameter count models without compromising performance employing technique known model pruning..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address oversight first propose dual-assessment driven pruning strategy employs both intra-layer metric global performance comprehensively evaluate impact pruning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large Language Models LLMs have demonstrated efficacy various domains but deploying economically challenging due extensive parameter counts..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

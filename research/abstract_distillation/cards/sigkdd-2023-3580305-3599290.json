@@ -1,0 +1,125 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599290",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "CounterNet: End-to-End Training of Prediction Aware Counterfactual Explanations",
+  "doi": "10.1145/3580305.3599290",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385568033",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines work presents CounterNet novel end-to-end learning framework integrates Machine ML model training generation corresponding counterfactual CF explanations single.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work presents CounterNet novel end-to-end learning framework integrates Machine ML model training generation corresponding counterfactual CF explanations single.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Counterfactual explanations offer contrastive case i.e. they attempt find smallest modification feature values instance changes prediction ML model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Prior techniques generating CF explanations suffer two major limitations all them post-hoc methods designed use proprietary ML models.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Prior techniques generating CF explanations suffer two major limitations all them post-hoc methods designed use proprietary ML models.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving extensive experiments multiple real-world datasets show CounterNet generates high-quality predictions consistently achieves 100% CF validity low proximity scores.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines work presents CounterNet novel end-to-end learning framework integrates Machine ML model training generation corresponding counterfactual CF explanations single.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work presents CounterNet novel end-to-end learning framework integrates Machine ML model training generation corresponding counterfactual CF explanations single.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Counterfactual explanations offer contrastive case i.e. they attempt find smallest modification feature values instance changes prediction ML model.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Prior techniques generating CF explanations suffer two major limitations all them post-hoc methods designed use proprietary ML models.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

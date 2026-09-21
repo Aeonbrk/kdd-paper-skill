@@ -1,0 +1,142 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599381",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "How does the Memorization of Neural Networks Impact Adversarial Robust Models?",
+  "doi": "10.1145/3580305.3599381",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4385562519",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recent studies suggest memorization one necessary factor overparameterized deep neural networks DNNs achieve optimal performance..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However adversarially trained models always suffer poor generalization both relatively low clean accuracy robustness test set..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving work study effect memorization adversarial trained DNNs disclose two important findings Memorizing atypical samples only effective improve DNN.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Based two findings propose Benign Adversarial Training BAT facilitate avoid fitting harmful atypical samples fit possible..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving experiments validate effectiveness BAT show achieve better clean accuracy vs. robustness trade-off baseline methods benchmark datasets image classification..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent studies suggest memorization one necessary factor overparameterized deep neural networks DNNs achieve optimal performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving DNNs optimized via adversarial training algorithms achieve perfect performance memorizing labels atypical samples well adversarially perturbed samples..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving However adversarially trained models always suffer poor generalization both relatively low clean accuracy robustness test set..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recent studies suggest memorization one necessary factor overparameterized deep neural networks DNNs achieve optimal performance..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However adversarially trained models always suffer poor generalization both relatively low clean accuracy robustness test set..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work study effect memorization adversarial trained DNNs disclose two important findings Memorizing atypical samples only effective improve DNN.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based two findings propose Benign Adversarial Training BAT facilitate avoid fitting harmful atypical samples fit possible..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent studies suggest memorization one necessary factor overparameterized deep neural networks DNNs achieve optimal performance..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

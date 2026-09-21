@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817582",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Causal Scaffolding for Physical Reasoning: A Benchmark for Causally-Informed Physical World Understanding in VLMs",
+  "doi": "10.1145/3770855.3817582",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196998592",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Understanding reasoning about physical world foundation intelligent behavior yet state-of-the-art vision-language models VLMs still fail causal often producing.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Understanding reasoning about physical world foundation intelligent behavior yet state-of-the-art vision-language models VLMs still fail causal often producing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving address gap introduce CausalPhys benchmark over 000 carefully curated video- image-based questions spanning four domains Perception Anticipation Intervention.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Building formulate causal-graph-grounded metric quantitatively measures how well model chain-of-thought reasoning aligns correct causal relations moving beyond answer-only.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving metric conduct comprehensive analysis leading VLMs revealing systematic gaps capturing causal dependencies underscoring need causality-aware learning..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Each question paired expert-annotated causal graph capturing object attribute event dependencies enabling interpretable fine-grained evaluation understanding..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Building formulate causal-graph-grounded metric quantitatively measures how well model chain-of-thought reasoning aligns correct causal relations moving beyond answer-only.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments demonstrate CRFT substantially enhances both reasoning accuracy interpretability across multiple model backbones..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Understanding reasoning about physical world foundation intelligent behavior yet state-of-the-art vision-language models VLMs still fail causal often producing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Understanding reasoning about physical world foundation intelligent behavior yet state-of-the-art vision-language models VLMs still fail causal often producing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap introduce CausalPhys benchmark over 000 carefully curated video- image-based questions spanning four domains Perception Anticipation Intervention.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building formulate causal-graph-grounded metric quantitatively measures how well model chain-of-thought reasoning aligns correct causal relations moving beyond answer-only.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Each question paired expert-annotated causal graph capturing object attribute event dependencies enabling interpretable fine-grained evaluation understanding..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

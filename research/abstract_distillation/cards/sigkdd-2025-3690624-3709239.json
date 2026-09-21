@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709239",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Augmented Contrastive Clustering with Uncertainty-Aware Prototyping for Time Series Test Time Adaptation",
+  "doi": "10.1145/3690624.3709239",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158864",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Test-time adaptation aims adapt pre-trained deep neural networks solely online unlabelled test data during inference..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although TTA has shown promise visual applications potential time series contexts remains largely unexplored..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing TTA methods originally designed visual tasks not effectively handle complex temporal dynamics real-world time series data resulting.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address gap propose Augmented Contrastive Clustering Uncertainty-aware Prototyping ACCUP straightforward yet effective TTA method time series data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Additionally introduce entropy comparison scheme selectively acquire confident predictions enhancing reliability pseudo labels..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Existing TTA methods originally designed visual tasks not effectively handle complex temporal dynamics real-world time series data resulting.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally introduce entropy comparison scheme selectively acquire confident predictions enhancing reliability pseudo labels..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted three real-world time series datasets demonstrate effectiveness generalization potential proposed method advancing underexplored realm TTA.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Test-time adaptation aims adapt pre-trained deep neural networks solely online unlabelled test data during inference..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although TTA has shown promise visual applications potential time series contexts remains largely unexplored..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing TTA methods originally designed visual tasks not effectively handle complex temporal dynamics real-world time series data resulting.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address gap propose Augmented Contrastive Clustering Uncertainty-aware Prototyping ACCUP straightforward yet effective TTA method time series data..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Existing TTA methods originally designed visual tasks not effectively handle complex temporal dynamics real-world time series data resulting.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

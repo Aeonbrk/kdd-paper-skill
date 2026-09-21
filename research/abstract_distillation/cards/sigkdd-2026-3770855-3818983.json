@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818983",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "An Infectious Disease Spread Simulation Based on Large Language Model Decision Making",
+  "doi": "10.1145/3770855.3818983",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196939675",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Modelling individual decision-making during infectious disease outbreaks crucial understanding behavioural dynamics informing effective public health interventions..",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Results reveal income education dominant drivers reporting rate variation smaller but consistent effects geography LLM model choice message.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving build foundation spatially grounded agent-based simulation framework integrates LLM-generated decisions about self-reported influenza-like illness census-based synthetic population agents..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving implement compare three decision scenarios independent reasoning household influence message framing simulate self-reporting outcomes San Francisco Atlanta..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Results reveal income education dominant drivers reporting rate variation smaller but consistent effects geography LLM model choice message.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Results reveal income education dominant drivers reporting rate variation smaller but consistent effects geography LLM model choice message.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Modelling individual decision-making during infectious disease outbreaks crucial understanding behavioural dynamics informing effective public health interventions..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Results reveal income education dominant drivers reporting rate variation smaller but consistent effects geography LLM model choice message.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving build foundation spatially grounded agent-based simulation framework integrates LLM-generated decisions about self-reported influenza-like illness census-based synthetic population agents..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving implement compare three decision scenarios independent reasoning household influence message framing simulate self-reporting outcomes San Francisco Atlanta..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Results reveal income education dominant drivers reporting rate variation smaller but consistent effects geography LLM model choice message.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737172",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Unlocking the Power of Diffusion Models in Sequential Recommendation: A Simple and Effective Approach",
+  "doi": "10.1145/3711896.3737172",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412825900",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper focus often-overlooked issue embedding collapse existing diffusion-based sequential recommendation models propose ADRec innovative framework designed mitigate problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper focus often-overlooked issue embedding collapse existing diffusion-based sequential recommendation models propose ADRec innovative framework designed mitigate problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving dual approach enables model effectively capture both sequence dynamics item representations overcoming limitations existing methods..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving further mitigate embedding collapse propose three-stage training strategy pre-training weights aligning ADRec backbone fine-tuning model..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving comprehensive empirical evaluation across six datasets underscores effectiveness ADRec enhancing both accuracy efficiency diffusion-based sequential recommendation systems..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper focus often-overlooked issue embedding collapse existing diffusion-based sequential recommendation models propose ADRec innovative framework designed mitigate problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper focus often-overlooked issue embedding collapse existing diffusion-based sequential recommendation models propose ADRec innovative framework designed mitigate problem..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving dual approach enables model effectively capture both sequence dynamics item representations overcoming limitations existing methods..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving comprehensive empirical evaluation across six datasets underscores effectiveness ADRec enhancing both accuracy efficiency diffusion-based sequential recommendation systems..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

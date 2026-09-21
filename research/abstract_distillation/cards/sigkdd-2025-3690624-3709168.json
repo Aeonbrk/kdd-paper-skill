@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709168",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Reasoning-Enhanced Object-Centric Learning for Videos",
+  "doi": "10.1145/3690624.3709168",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409150028",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Object-centric learning aims break down complex visual scenes manageable object representations enhancing understanding reasoning abilities machine systems toward.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Recently slot-based video models have demonstrated remarkable proficiency segmenting tracking objects but they overlook importance effective reasoning module..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Inspired designed novel reasoning module called Slot-based Time-Space Transformer Memory buffer STATM enhance model perception ability complex scenes..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover predictive model STATM module performs well downstream prediction Visual Question Answering VQA tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving will release codes data https github.com/intell-sci-comput/STATM..",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recently slot-based video models have demonstrated remarkable proficiency segmenting tracking objects but they overlook importance effective reasoning module..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results various datasets indicate STATM module significantly enhance capabilities multiple state-of-the-art object-centric learning models video..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Object-centric learning aims break down complex visual scenes manageable object representations enhancing understanding reasoning abilities machine systems toward.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Recently slot-based video models have demonstrated remarkable proficiency segmenting tracking objects but they overlook importance effective reasoning module..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Inspired designed novel reasoning module called Slot-based Time-Space Transformer Memory buffer STATM enhance model perception ability complex scenes..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Moreover predictive model STATM module performs well downstream prediction Visual Question Answering VQA tasks..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recently slot-based video models have demonstrated remarkable proficiency segmenting tracking objects but they overlook importance effective reasoning module..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

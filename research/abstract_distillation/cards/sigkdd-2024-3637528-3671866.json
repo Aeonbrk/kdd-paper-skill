@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671866",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "ControlTraj: Controllable Trajectory Generation with Topology-Constrained Diffusion Model",
+  "doi": "10.1145/3637528.3671866",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863560",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Generating trajectory data among promising solutions addressing privacy concerns collection costs proprietary restrictions usually associated human mobility analyses..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing trajectory generation methods still infancy due inherent diversity unpredictability human activities grappling issues fidelity flexibility generalizability..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving overcome obstacles propose ControlTraj Controllable Trajectory generation framework topology-constrained diffusion model..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Distinct prior approaches ControlTraj utilizes diffusion model generate high-fidelity trajectories integrating structural constraints road network topology guide geographical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically develop novel road segment autoencoder extract fine-grained embedding..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Through experimentation across three real-world data settings ControlTraj demonstrates ability produce human-directed high-fidelity trajectory generation adaptability unexplored geographical.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Generating trajectory data among promising solutions addressing privacy concerns collection costs proprietary restrictions usually associated human mobility analyses..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing trajectory generation methods still infancy due inherent diversity unpredictability human activities grappling issues fidelity flexibility generalizability..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome obstacles propose ControlTraj Controllable Trajectory generation framework topology-constrained diffusion model..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Distinct prior approaches ControlTraj utilizes diffusion model generate high-fidelity trajectories integrating structural constraints road network topology guide geographical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Through experimentation across three real-world data settings ControlTraj demonstrates ability produce human-directed high-fidelity trajectory generation adaptability unexplored geographical.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

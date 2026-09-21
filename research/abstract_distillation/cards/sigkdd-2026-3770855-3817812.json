@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817812",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AutoSchema: Self-Prompted Schema Induction and Evidence-Grounded Extraction for Materials Science Literature",
+  "doi": "10.1145/3770855.3817812",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196956905",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Recent LLM-based extraction flexible but often still depends manual schema prompt design specifies target fields extract table..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving present AutoSchema iterative literature-mining pipeline bootstraps both retrieval schema induction small set seed papers then freezes induced scalable.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving covalent organic frameworks COF case study Phase expands literature 656 paper corpus II applies frozen schema 200 sample..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Across five independent seed sets lightweight canonicalization semantic normalization substantially improve schema agreement mean pairwise Jaccard similarity 19.97%.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Compared ChemDataExtractor AutoSchema improves coverage yields verifiable extractions evidence-grounded ChatExtract-style baseline manually specified field list provides stronger evidence.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Recent LLM-based extraction flexible but often still depends manual schema prompt design specifies target fields extract table..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present AutoSchema iterative literature-mining pipeline bootstraps both retrieval schema induction small set seed papers then freezes induced scalable.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Scientific papers materials science contain critical experimental details e.g. reagents synthesis conditions measured properties building structured databases enabling.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

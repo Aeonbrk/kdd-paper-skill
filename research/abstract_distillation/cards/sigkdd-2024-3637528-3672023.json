@@ -1,0 +1,130 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672023",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Learning Flexible Time-windowed Granger Causality Integrating Heterogeneous Interventional Time Series Data",
+  "doi": "10.1145/3637528.3672023",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4399794188",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Granger causality commonly used inferring causal structures time series data has been adopted widespread applications across various fields.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods have yet explored context imperfect interventions unknown targets common often beneficial wide range real-world applications..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work presents theoretically-grounded method infers Granger causal structure identifies unknown targets leveraging heterogeneous interventional time series data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving further illustrate learning Granger causal structure recovering interventional targets mutually promote each other..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Comparative experiments demonstrate method outperforms several robust baseline methods learning Granger causal structure interventional time series data..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Comparative experiments demonstrate method outperforms several robust baseline methods learning Granger causal structure interventional time series data..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Granger causality commonly used inferring causal structures time series data has been adopted widespread applications across various fields.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods have yet explored context imperfect interventions unknown targets common often beneficial wide range real-world applications..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work presents theoretically-grounded method infers Granger causal structure identifies unknown targets leveraging heterogeneous interventional time series data..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving further illustrate learning Granger causal structure recovering interventional targets mutually promote each other..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Comparative experiments demonstrate method outperforms several robust baseline methods learning Granger causal structure interventional time series data..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671820",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Revisiting Local PageRank Estimation on Undirected Graphs: Simple and Optimal",
+  "doi": "10.1145/3637528.3671820",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863958",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines propose simple optimal algorithm BackMC local PageRank estimation undirected graphs given arbitrary target node graph comprising nodes edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving propose simple optimal algorithm BackMC local PageRank estimation undirected graphs given arbitrary target node graph comprising nodes edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Compared previously best upper bound log min dt m1/2 VLDB 23 derived significantly complex algorithm analysis BackMC improves.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Furthermore establish matching lower bound dmin min dt m1/2 any algorithm attempts solve problem local PageRank estimation demonstrating.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Compared previously best upper bound log min dt m1/2 VLDB 23 derived significantly complex algorithm analysis BackMC improves.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore establish matching lower bound dmin min dt m1/2 any algorithm attempts solve problem local PageRank estimation demonstrating.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments various large-scale real-world synthetic graphs BackMC consistently shows superior performance..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines propose simple optimal algorithm BackMC local PageRank estimation undirected graphs given arbitrary target node graph comprising nodes edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving propose simple optimal algorithm BackMC local PageRank estimation undirected graphs given arbitrary target node graph comprising nodes edges.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Compared previously best upper bound log min dt m1/2 VLDB 23 derived significantly complex algorithm analysis BackMC improves.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Compared previously best upper bound log min dt m1/2 VLDB 23 derived significantly complex algorithm analysis BackMC improves.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

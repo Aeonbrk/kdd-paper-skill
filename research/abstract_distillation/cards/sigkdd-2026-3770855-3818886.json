@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818886",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Mask-Proof: An LLM-based Automated Data Curation Pipeline on Mathematical Proofs",
+  "doi": "10.1145/3770855.3818886",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196958335",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Existing evaluations often emphasize final answers rely costly expert grading end-to-end proof generation remains open-ended hard verify automatically..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving introduce Mask-Proof pipeline turns real proofs automatically checkable masked-step tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving masks key formula steps provides necessary surrounding context evaluates model reconstructions LLM-based equivalence judge repeated votes stability..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluation gap limits trustworthy AI assistance proof-certified scientific progress..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Existing evaluations often emphasize final answers rely costly expert grading end-to-end proof generation remains open-ended hard verify automatically..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Existing evaluations often emphasize final answers rely costly expert grading end-to-end proof generation remains open-ended hard verify automatically..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce Mask-Proof pipeline turns real proofs automatically checkable masked-step tasks..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Large language models LLMs increasingly capable mathematical problem solving even assist research-level proofs yet still lack scalable reproducible.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

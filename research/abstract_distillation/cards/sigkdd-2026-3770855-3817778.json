@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817778",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "TRACER: Physics-Guided Causal Evidence Construction for Zero-Shot Traffic Anomaly Diagnosis",
+  "doi": "10.1145/3770855.3817778",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196926570",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Identifying root causes non-recurrent traffic congestion critical maintaining urban mobility resilience..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However accurate diagnosis large-scale networks remains formidable challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving tackle challenges present TRACER Traffic Root Anomaly Causal Evidence Reasoner training-free agent framework zero-shot diagnosis..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Instead feeding raw data directly model TRACER employs Physics-Grounded Evidence Construction mechanism synthesizing kinematic shockwave tracing statistical verification.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Extensive experiments SUMO simulations PeMS-BAY dataset demonstrate TRACER achieves 32.6% relative improvement Hit accuracy over state-of-the-art baselines reducing.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments SUMO simulations PeMS-BAY dataset demonstrate TRACER achieves 32.6% relative improvement Hit accuracy over state-of-the-art baselines reducing.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Furthermore closed-loop evaluations confirm interventions guided agent significantly accelerate traffic recovery..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Identifying root causes non-recurrent traffic congestion critical maintaining urban mobility resilience..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However accurate diagnosis large-scale networks remains formidable challenge..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenges present TRACER Traffic Root Anomaly Causal Evidence Reasoner training-free agent framework zero-shot diagnosis..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Instead feeding raw data directly model TRACER employs Physics-Grounded Evidence Construction mechanism synthesizing kinematic shockwave tracing statistical verification.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments SUMO simulations PeMS-BAY dataset demonstrate TRACER achieves 32.6% relative improvement Hit accuracy over state-of-the-art baselines reducing.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,94 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709200",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "DimCL: Dimension-Aware Augmentation in Contrastive Learning for Recommendation",
+  "doi": "10.1145/3690624.3709200",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409158199",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Contrastive learning CL has achieved remarkable success addressing data sparsity issues collaborative filtering CF recommender systems RSs.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However prior endeavors mainly focus performing augmentation via stochastic functions e.g. injecting perturbations different hidden dimensions uniformly..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Contrastive learning CL has achieved remarkable success addressing data sparsity issues collaborative filtering CF recommender systems RSs.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Contrastive learning CL has achieved remarkable success addressing data sparsity issues collaborative filtering CF recommender systems RSs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However prior endeavors mainly focus performing augmentation via stochastic functions e.g. injecting perturbations different hidden dimensions uniformly..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Contrastive learning CL has achieved remarkable success addressing data sparsity issues collaborative filtering CF recommender systems RSs.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

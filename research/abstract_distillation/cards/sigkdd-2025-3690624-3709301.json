@@ -1,0 +1,132 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709301",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Fast and Effective GNN Training through Sequences of Random Path Graphs",
+  "doi": "10.1145/3690624.3709301",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149380",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present GERN novel scalable framework training GNNs node classification tasks based effective resistance standard tool spectral graph theory..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving not only enhances scalability but improves accuracy subsequent test phases especially under small training set regimes great practical.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present GERN novel scalable framework training GNNs node classification tasks based effective resistance standard tool spectral graph theory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving method progressively refines GNN weights sequence random spanning trees suitably transformed path graphs despite simplicity shown retain essential.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving settings framework yields very good results effectively counters training deterioration caused overfitting when set small..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving not only enhances scalability but improves accuracy subsequent test phases especially under small training set regimes great practical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving settings framework yields very good results effectively counters training deterioration caused overfitting when set small..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present GERN novel scalable framework training GNNs node classification tasks based effective resistance standard tool spectral graph theory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving not only enhances scalability but improves accuracy subsequent test phases especially under small training set regimes great practical.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present GERN novel scalable framework training GNNs node classification tasks based effective resistance standard tool spectral graph theory..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving method progressively refines GNN weights sequence random spanning trees suitably transformed path graphs despite simplicity shown retain essential.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving not only enhances scalability but improves accuracy subsequent test phases especially under small training set regimes great practical.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

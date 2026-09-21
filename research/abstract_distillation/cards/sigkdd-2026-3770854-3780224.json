@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780224",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "DiLA: Enhancing LLM Tool Learning with Differential Logic Layer",
+  "doi": "10.1145/3770854.3780224",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171977352",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Considering challenges faced large language models LLMs logical reasoning planning prior efforts have sought augment access external solvers..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving progress has been made simple reasoning problems solving classical constraint satisfaction Boolean satisfiability problem SAT graph coloring GCP.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel differential logic layer-aided language modeling DiLA approach logical constraints integrated forward backward passes network layer.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving evaluate performance DiLA three classic constraint satisfaction problems empirically demonstrate consistent outperformance against existing prompt-based solver-aided approaches..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate performance DiLA three classic constraint satisfaction problems empirically demonstrate consistent outperformance against existing prompt-based solver-aided approaches..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Considering challenges faced large language models LLMs logical reasoning planning prior efforts have sought augment access external solvers..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving progress has been made simple reasoning problems solving classical constraint satisfaction Boolean satisfiability problem SAT graph coloring GCP.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel differential logic layer-aided language modeling DiLA approach logical constraints integrated forward backward passes network layer.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving evaluate performance DiLA three classic constraint satisfaction problems empirically demonstrate consistent outperformance against existing prompt-based solver-aided approaches..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate performance DiLA three classic constraint satisfaction problems empirically demonstrate consistent outperformance against existing prompt-based solver-aided approaches..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

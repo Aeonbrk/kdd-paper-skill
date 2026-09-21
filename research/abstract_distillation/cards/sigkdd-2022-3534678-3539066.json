@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539066",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "Large-Scale Acoustic Automobile Fault Detection: Diagnosing Engines Through Sound",
+  "doi": "10.1145/3534678.3539066",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4291125429",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper present AMPNet acoustic abnormality detection model deployed ACV Auctions automatically identify engine faults vehicles listed platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving paper present AMPNet acoustic abnormality detection model deployed ACV Auctions automatically identify engine faults vehicles listed platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving investigate problem engine fault detection discuss approach deep-learning based audio classification large-scale automobile dataset collected ACV Auctions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Specifically discuss data collection pipeline challenges dataset preprocessing training procedures deployment trained models production setting..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving perform empirical evaluations AMPNet demonstrate framework able successfully capture various engine anomalies agnostic vehicle type..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Finally demonstrate effectiveness impact AMPNet real world specifically showing 20.85% reduction vehicle arbitrations ACV Auctions live auction platform..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper present AMPNet acoustic abnormality detection model deployed ACV Auctions automatically identify engine faults vehicles listed platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present AMPNet acoustic abnormality detection model deployed ACV Auctions automatically identify engine faults vehicles listed platform..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving investigate problem engine fault detection discuss approach deep-learning based audio classification large-scale automobile dataset collected ACV Auctions..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving perform empirical evaluations AMPNet demonstrate framework able successfully capture various engine anomalies agnostic vehicle type..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

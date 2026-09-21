@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539077",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "ADS Track Papers",
+  "title": "TAG: Toward Accurate Social Media Content Tagging with a Concept Graph",
+  "doi": "10.1145/3534678.3539077",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W3205467272",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Although conceptualization has been widely studied semantics knowledge representation still challenging find most accurate concept terms tag fast-growing.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although conceptualization has been widely studied semantics knowledge representation still challenging find most accurate concept terms tag fast-growing.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper present TAG high-quality concept matching dataset consisting 10 000 labeled pairs fine-grained concepts web-styled natural language sentences.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving concepts provide trending terms social media have right granularity define user interests e.g. highly educated actors instead just.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving evaluate wide range neural text matching models well pre-trained language concept task TAG point out insufficiency social media.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving evaluate wide range neural text matching models well pre-trained language concept task TAG point out insufficiency social media.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving further propose novel graph-graph matching framework demonstrates superior abstraction generalization performance better utilizing both structural information concept graph.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Although conceptualization has been widely studied semantics knowledge representation still challenging find most accurate concept terms tag fast-growing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although conceptualization has been widely studied semantics knowledge representation still challenging find most accurate concept terms tag fast-growing.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper present TAG high-quality concept matching dataset consisting 10 000 labeled pairs fine-grained concepts web-styled natural language sentences.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving concepts provide trending terms social media have right granularity define user interests e.g. highly educated actors instead just.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving evaluate wide range neural text matching models well pre-trained language concept task TAG point out insufficiency social media.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

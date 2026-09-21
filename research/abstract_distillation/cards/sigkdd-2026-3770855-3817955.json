@@ -1,0 +1,95 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817955",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "A Unified Model for Personalization: Language-Steerable Generative Recommendation, Search, and User Understanding",
+  "doi": "10.1145/3770855.3817955",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197007200",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving tool-augmented recommender systems address parts problem they introduce orchestration complexity limit end-to-end optimization..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Large language models LLMs increasingly applied recommendation retrieval reasoning yet deploying single end-to-end model jointly support behaviors over.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tool-augmented recommender systems address parts problem they introduce orchestration complexity limit end-to-end optimization..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not report a concrete evaluation or theoretical result."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

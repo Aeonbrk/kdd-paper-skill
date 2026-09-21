@@ -1,0 +1,144 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817798",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "A Product Manifold Method for Feature Selection",
+  "doi": "10.1145/3770855.3817798",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196957156",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Feature selection indispensable mitigating overfitting reducing redundancy high-dimensional scenarios..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However most existing approaches rely unstable overall separability sample-wise geometry thereby neglecting stable class-specific discriminative structures leading poor.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Although product manifolds provide natural geometric framework model distinctive different classes potential feature selection largely unexplored e.g. theoretical.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel supervised feature selection method named PRISM leverages product manifold theoretically disentangle class-specific features shared structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Grounded spectral analysis product manifolds explicitly model feature space distinguish between shared class-specific structures..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Crucially bridge theoretical gap spectral analysis provide guarantee method deriving asymptotic convergence proof under product manifold setting guaranteeing.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Comprehensive experiments demonstrate PRISM not only improves generalization performance robustness small sample size over leading baselines but achieves.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Feature selection indispensable mitigating overfitting reducing redundancy high-dimensional scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However most existing approaches rely unstable overall separability sample-wise geometry thereby neglecting stable class-specific discriminative structures leading poor.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although product manifolds provide natural geometric framework model distinctive different classes potential feature selection largely unexplored e.g. theoretical.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel supervised feature selection method named PRISM leverages product manifold theoretically disentangle class-specific features shared structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Crucially bridge theoretical gap spectral analysis provide guarantee method deriving asymptotic convergence proof under product manifold setting guaranteeing.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

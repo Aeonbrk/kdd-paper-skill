@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780332",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Mixture of Meta-Policies for Cross-Environment Meta-Reinforcement Learning",
+  "doi": "10.1145/3770854.3780332",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7172023103",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Meta-Reinforcement Learning Meta-RL aims enable agents rapidly adapt new tasks leveraging prior experience related ones..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing approaches typically assume consistent state action spaces across tasks limiting ability Meta-RL methods generalize environments diverse.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address propose Mixture Meta-Policies MoMP modular scalable Meta-RL framework designed effective knowledge transfer across structurally heterogeneous environments..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Sparse activation enables targeted reuse prior knowledge mitigating interference improving both adaptation speed long-term retention..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments across diverse MuJoCo agents show MoMP significantly outperforms strong meta-RL baselines highlighting effectiveness cross-environment generalization efficient meta-policy.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Meta-Reinforcement Learning Meta-RL aims enable agents rapidly adapt new tasks leveraging prior experience related ones..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing approaches typically assume consistent state action spaces across tasks limiting ability Meta-RL methods generalize environments diverse.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address propose Mixture Meta-Policies MoMP modular scalable Meta-RL framework designed effective knowledge transfer across structurally heterogeneous environments..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Sparse activation enables targeted reuse prior knowledge mitigating interference improving both adaptation speed long-term retention..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

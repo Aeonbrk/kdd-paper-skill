@@ -1,0 +1,152 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3542672",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Health Day Papers",
+  "title": "Scalable Online Disease Diagnosis via Multi-Model-Fused Actor-Critic Reinforcement Learning",
+  "doi": "10.1145/3534678.3542672",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4281650428",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines those seeking healthcare advice online AI based dialogue agents capable interacting patients perform automatic disease diagnosis viable option..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving They perform well when feature space small number symptoms diagnosable disease categories limited but frequently fail assignments large.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving formulated problem sequential feature symptom selection classification reinforcement learning RL approaches have been proposed natural solution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenge propose Multi-Model-Fused Actor-Critic MMF-AC RL framework consists generative actor network diagnostic critic network..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving actor incorporates Variational AutoEncoder VAE model uncertainty induced partial observations features thereby facilitating making appropriate inquiries..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving conduct extensive experiments both synthetic real-world datasets empirical evaluations..",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving results demonstrate approach outperforms state-of-the-art methods terms diagnostic accuracy interaction efficiency being effectively scalable large search spaces..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines those seeking healthcare advice online AI based dialogue agents capable interacting patients perform automatic disease diagnosis viable option..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving They perform well when feature space small number symptoms diagnosable disease categories limited but frequently fail assignments large.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving formulated problem sequential feature symptom selection classification reinforcement learning RL approaches have been proposed natural solution..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenge propose Multi-Model-Fused Actor-Critic MMF-AC RL framework consists generative actor network diagnostic critic network..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving conduct extensive experiments both synthetic real-world datasets empirical evaluations..",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

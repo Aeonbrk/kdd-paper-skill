@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817451",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Datasets and Benchmarks Track",
+  "title": "Investigating Reasoning in Large Language Models with Counterfactual Knowledge Graphs",
+  "doi": "10.1145/3770855.3817451",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7197043108",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Despite success Large Language Models LLMs reasoning benchmarks remains unclear whether performance stems genuine logical deduction memorization training.",
+      "source_ids": [
+        "S1",
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Despite success Large Language Models LLMs reasoning benchmarks remains unclear whether performance stems genuine logical deduction memorization training.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving paper propose novel diagnostic benchmark decouple knowledge memorization logical reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Built DBpedia KG framework constructs multi-hop reasoning chains Q1 Q5 across three task dimensions Factural Questions FQ Counterfactual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving core hypothesis genuine reasoning demonstrated only when model follows logical rules despite conflicting prior knowledge..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Built DBpedia KG framework constructs multi-hop reasoning chains Q1 Q5 across three task dimensions Factural Questions FQ Counterfactual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving core hypothesis genuine reasoning demonstrated only when model follows logical rules despite conflicting prior knowledge..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Evaluating seven state-of-the-art LLMs ultra-large reveals strong prior knowledge dependence performance degrading sharply counterfactual tasks reasoning depth grows..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Despite success Large Language Models LLMs reasoning benchmarks remains unclear whether performance stems genuine logical deduction memorization training.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Despite success Large Language Models LLMs reasoning benchmarks remains unclear whether performance stems genuine logical deduction memorization training.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel diagnostic benchmark decouple knowledge memorization logical reasoning..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Built DBpedia KG framework constructs multi-hop reasoning chains Q1 Q5 across three task dimensions Factural Questions FQ Counterfactual.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Built DBpedia KG framework constructs multi-hop reasoning chains Q1 Q5 across three task dimensions Factural Questions FQ Counterfactual.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

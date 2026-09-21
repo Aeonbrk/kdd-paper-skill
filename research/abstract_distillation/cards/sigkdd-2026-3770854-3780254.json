@@ -1,0 +1,117 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780254",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "VaLUH: Fast Algorithms for the Configuration Model of Vertex-Labeled Undirected Hypergraphs",
+  "doi": "10.1145/3770854.3780254",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7171919730",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines present VaLUH suite Markov-Chain-Monte-Carlo algorithms uniformly sampling non-degenerate vertex-labeled undirected hypergraphs prescribed vertex degrees hyperedge sizes hypergraph micro-canonical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving present VaLUH suite Markov-Chain-Monte-Carlo algorithms uniformly sampling non-degenerate vertex-labeled undirected hypergraphs prescribed vertex degrees hyperedge sizes hypergraph micro-canonical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving theoretically show algorithms require many fewer steps converge stationary distribution existing ones because they higher Peskun order..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving obtain improvement carefully defining state space graph Markov chains optimizing transition probabilities Metropolis-Hastings approach..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving obtain improvement carefully defining state space graph Markov chains optimizing transition probabilities Metropolis-Hastings approach..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental evaluation real networks shows methods up faster number steps wall-clock time existing approaches they require less computation.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines present VaLUH suite Markov-Chain-Monte-Carlo algorithms uniformly sampling non-degenerate vertex-labeled undirected hypergraphs prescribed vertex degrees hyperedge sizes hypergraph micro-canonical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving present VaLUH suite Markov-Chain-Monte-Carlo algorithms uniformly sampling non-degenerate vertex-labeled undirected hypergraphs prescribed vertex degrees hyperedge sizes hypergraph micro-canonical.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving theoretically show algorithms require many fewer steps converge stationary distribution existing ones because they higher Peskun order..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving obtain improvement carefully defining state space graph Markov chains optimizing transition probabilities Metropolis-Hastings approach..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

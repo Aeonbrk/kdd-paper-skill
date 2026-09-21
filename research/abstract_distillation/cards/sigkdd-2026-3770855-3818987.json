@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3818987",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "AI for Sciences Track",
+  "title": "Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation",
+  "doi": "10.1145/3770855.3818987",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163537565",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Structural modeling fundamental component computational engineering science even minor physical inconsistencies specification violations invalidate downstream simulations..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However non-executable physically inconsistent outputs remain prevalent under stringent engineering constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving framework physics-consistent automatic building modeling therefore proposed integrating domain knowledge construction constraint-oriented model alignment verification-driven evaluation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving CivilInstruct introduced domain-specific dataset formalizes structural engineering knowledge constraint reasoning enable simulation-ready model generation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving MBEval presented verification-driven benchmark evaluates executability structural dynamics consistency through closed-loop validation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving potential large language models LLMs automatic generation modeling code has been demonstrated..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving framework physics-consistent automatic building modeling therefore proposed integrating domain knowledge construction constraint-oriented model alignment verification-driven evaluation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving MBEval presented verification-driven benchmark evaluates executability structural dynamics consistency through closed-loop validation..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Structural modeling fundamental component computational engineering science even minor physical inconsistencies specification violations invalidate downstream simulations..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However non-executable physically inconsistent outputs remain prevalent under stringent engineering constraints..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving framework physics-consistent automatic building modeling therefore proposed integrating domain knowledge construction constraint-oriented model alignment verification-driven evaluation..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving CivilInstruct introduced domain-specific dataset formalizes structural engineering knowledge constraint reasoning enable simulation-ready model generation..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving potential large language models LLMs automatic generation modeling code has been demonstrated..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

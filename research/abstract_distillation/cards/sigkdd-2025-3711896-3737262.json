@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737262",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "ROMA: Recommendation-Oriented Language Model Adaptation Using Multi-Modal Multi-Domain Item Sequences",
+  "doi": "10.1145/3711896.3737262",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877062",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Sequential recommendation SR aims capture dynamic user preferences users historical behaviors..",
+      "source_ids": [
+        "S1",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although promising improving performance transferability few existing text-enhanced SR studies have analyzed differences between PLMs recommenders restricting ability.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper make in-depth comparison conclude discrepancies representation knowledge level respectively caused different multi-modal content task-oriented capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Based propose Recommendation-Oriented Language Model Adaptation framework named ROMA multi-modal multi-domain item sequences..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving empower PLMs rational understanding user/item modeling recommendation task ROMA partitions PLM bottom top layers respectively allowing representation-level task-level.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although promising improving performance transferability few existing text-enhanced SR studies have analyzed differences between PLMs recommenders restricting ability.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving paper make in-depth comparison conclude discrepancies representation knowledge level respectively caused different multi-modal content task-oriented capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving experimental results public benchmarks demonstrate effectiveness transferability framework..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Sequential recommendation SR aims capture dynamic user preferences users historical behaviors..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although promising improving performance transferability few existing text-enhanced SR studies have analyzed differences between PLMs recommenders restricting ability.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper make in-depth comparison conclude discrepancies representation knowledge level respectively caused different multi-modal content task-oriented capabilities..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Based propose Recommendation-Oriented Language Model Adaptation framework named ROMA multi-modal multi-domain item sequences..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although promising improving performance transferability few existing text-enhanced SR studies have analyzed differences between PLMs recommenders restricting ability.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

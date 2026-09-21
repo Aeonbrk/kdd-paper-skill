@@ -1,0 +1,138 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817851",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AdaKoop: Efficient Modeling of Nonlinear Dynamics from Nonstationary Data Streams with Koopman Operator Regression",
+  "doi": "10.1145/3770855.3817851",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7163715325",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Real-time data analysis requires ability accurately adaptively address nonlinear dynamics nonstationary stream preserving computational efficiency..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However nonlinear dynamics so complex capturing dynamically changing patterns utilizing them downstream tasks under strict time constraints nontrivial..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Building upon finite-dimensional approximations operator present AdaKoop efficient streaming algorithm modeling nonlinear dynamics over nonstationary data streams..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving approach utilizes probabilistic framework grounded Koopman operator theory treating both raw observations reproducing kernel Hilbert space RKHS features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Furthermore address nonstationarity data streams AdaKoop adaptively detects switching patterns via statistical hypothesis testing abrupt pattern shifts incrementally.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments total 71 practical benchmark datasets across various domains demonstrate AdaKoop outperforms state-of-the-art methods terms real-time forecasting.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Real-time data analysis requires ability accurately adaptively address nonlinear dynamics nonstationary stream preserving computational efficiency..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However nonlinear dynamics so complex capturing dynamically changing patterns utilizing them downstream tasks under strict time constraints nontrivial..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Building upon finite-dimensional approximations operator present AdaKoop efficient streaming algorithm modeling nonlinear dynamics over nonstationary data streams..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving approach utilizes probabilistic framework grounded Koopman operator theory treating both raw observations reproducing kernel Hilbert space RKHS features.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments total 71 practical benchmark datasets across various domains demonstrate AdaKoop outperforms state-of-the-art methods terms real-time forecasting.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

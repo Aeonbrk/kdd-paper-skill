@@ -1,0 +1,99 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671978",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Expander Hierarchies for Normalized Cuts on Graphs",
+  "doi": "10.1145/3637528.3671978",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4399911504",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Expander decompositions graphs have significantly advanced understanding many classical graph problems led numerous fundamental theoretical results..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However adoption practice has been hindered due inherent intricacies large hidden factors asymptotic running times..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Here introduce first practically efficient algorithm computing expander decompositions hierarchies demonstrate effectiveness utility incorporating core component novel solver.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Expander decompositions graphs have significantly advanced understanding many classical graph problems led numerous fundamental theoretical results..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Here introduce first practically efficient algorithm computing expander decompositions hierarchies demonstrate effectiveness utility incorporating core component novel solver.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Expander decompositions graphs have significantly advanced understanding many classical graph problems led numerous fundamental theoretical results..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However adoption practice has been hindered due inherent intricacies large hidden factors asymptotic running times..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Here introduce first practically efficient algorithm computing expander decompositions hierarchies demonstrate effectiveness utility incorporating core component novel solver.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Expander decompositions graphs have significantly advanced understanding many classical graph problems led numerous fundamental theoretical results..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

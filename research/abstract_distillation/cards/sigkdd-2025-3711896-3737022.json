@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737022",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Learning Reliable and Intuitive Temporal Logic Rules for Interpretable Time Series Classification",
+  "doi": "10.1145/3711896.3737022",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877009",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Recently rule-based time series classification models widely used safety-critical scenarios demanding strong interpretability through providing explicit rigorous rationales..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However due discrepancy between discrete rules continuous neural networks generated not completely consistent actual decision-making process rendering users.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However due discrepancy between discrete rules continuous neural networks generated not completely consistent actual decision-making process rendering users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose novel neuro-symbolic model named TemporalRule aiming automatically learn Signal Temporal Logic STL rules interpretable time series.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving model directly optimizes neural networks representing discrete rules via gradient grafting producing reliable exactly determine classification results..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving model directly optimizes neural networks representing discrete rules via gradient grafting producing reliable exactly determine classification results..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments diverse real-world datasets safety-critical domains show TemporalRule achieves superior stable classification accuracy compared state-of-the-art rule-based approaches.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Recently rule-based time series classification models widely used safety-critical scenarios demanding strong interpretability through providing explicit rigorous rationales..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However due discrepancy between discrete rules continuous neural networks generated not completely consistent actual decision-making process rendering users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However due discrepancy between discrete rules continuous neural networks generated not completely consistent actual decision-making process rendering users.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose novel neuro-symbolic model named TemporalRule aiming automatically learn Signal Temporal Logic STL rules interpretable time series.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving model directly optimizes neural networks representing discrete rules via gradient grafting producing reliable exactly determine classification results..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

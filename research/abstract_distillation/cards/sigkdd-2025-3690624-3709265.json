@@ -1,0 +1,134 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709265",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Enhancing Black-Box Adversarial Attacks on Discrete Sequential Data via Bilevel Bayesian Optimization in Hybrid Spaces",
+  "doi": "10.1145/3690624.3709265",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149136",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Black-box attacks have emerged significant threat deep neural networks..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However relies solely alignment information i.e. positional differences within RBF kernel not fully capture statistical structural semantic inherent.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving overcome limitation paper proposes novel bilevel Bayesian optimization approach adaptively learn hybrid space better captures similarity between discrete.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving Specifically introduce multi-kernel mechanism incorporates multiple types information creating comprehensive similarity measure..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Moreover develop bilevel Bayesian optimization algorithm outer-level objective determines optimal weights multiple kernels inner-level identifies adversarial sequence..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted discrete sequential data demonstrate approach ensures secure multi-kernel selection achieves higher attack success rate only.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Black-box attacks have emerged significant threat deep neural networks..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However relies solely alignment information i.e. positional differences within RBF kernel not fully capture statistical structural semantic inherent.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving overcome limitation paper proposes novel bilevel Bayesian optimization approach adaptively learn hybrid space better captures similarity between discrete.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Specifically introduce multi-kernel mechanism incorporates multiple types information creating comprehensive similarity measure..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Extensive experiments conducted discrete sequential data demonstrate approach ensures secure multi-kernel selection achieves higher attack success rate only.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

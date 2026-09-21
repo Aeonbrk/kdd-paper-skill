@@ -1,0 +1,146 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539448",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Robust Inverse Framework using Knowledge-guided Self-Supervised Learning: An application to Hydrology",
+  "doi": "10.1145/3534678.3539448",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4290875830",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Machine Learning beginning provide state-of-the-art performance range environmental applications streamflow prediction hydrologic basin..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However building accurate broad-scale models streamflow remains challenging practice due variability dominant hydrologic processes best captured sets process-related.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Existing basin characteristics suffer noise uncertainty among many other things adversely impact model performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving tackle above challenges paper propose novel Knowledge-guided Self-Supervised Learning KGSSL inverse framework extract system characteristics driver input response.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving first-of-its-kind framework achieves robust performance even when characteristics corrupted missing..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving first-of-its-kind framework achieves robust performance even when characteristics corrupted missing..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving evaluate KGSSL framework context stream flow modeling CAMELS Catchment Attributes MEteorology Large-sample Studies widely used hydrology benchmark dataset..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Specifically KGSSL outperforms baseline 16% predicting missing characteristics..",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Machine Learning beginning provide state-of-the-art performance range environmental applications streamflow prediction hydrologic basin..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However building accurate broad-scale models streamflow remains challenging practice due variability dominant hydrologic processes best captured sets process-related.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Existing basin characteristics suffer noise uncertainty among many other things adversely impact model performance..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle above challenges paper propose novel Knowledge-guided Self-Supervised Learning KGSSL inverse framework extract system characteristics driver input response.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving first-of-its-kind framework achieves robust performance even when characteristics corrupted missing..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

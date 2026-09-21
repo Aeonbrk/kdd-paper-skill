@@ -1,0 +1,123 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709429",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "Beyond Item Dissimilarities: Diversifying by Intent in Recommender Systems",
+  "doi": "10.1145/3690624.3709429",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149350",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines has become increasingly clear recommender systems overly focus short-term engagement prevents users exploring diverse interests ultimately hurting long-term.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving tackle challenge numerous diversification algorithms have been proposed final stage recommender systems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines has become increasingly clear recommender systems overly focus short-term engagement prevents users exploring diverse interests ultimately hurting long-term.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving tackle challenge numerous diversification algorithms have been proposed final stage recommender systems..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However work demonstrate benefits going beyond item-level similarities utilizing higher-level user understanding-specifically intents persist across multiple interactions recommendation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

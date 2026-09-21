@@ -1,0 +1,149 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671677",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Noisy Label Removal for Partial Multi-Label Learning",
+  "doi": "10.1145/3637528.3671677",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857453",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines paper addresses problem partial multi-label learning PML challenging weakly supervised framework each sample associated candidate label set comprising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper addresses problem partial multi-label learning PML challenging weakly supervised framework each sample associated candidate label set comprising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving theoretically reveal increased number noisy labels candidate label set leads enlarged generalization error bound consequently degrading classification performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving achieve objective leverage prior knowledge about noisy labels PML suggests they only exist within candidate label set possess.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve objective leverage prior knowledge about noisy labels PML suggests they only exist within candidate label set possess.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments conducted real-world partial multi-label data sets synthetic employing various evaluation metrics demonstrate method significantly outperforms state-of-the-art.",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines paper addresses problem partial multi-label learning PML challenging weakly supervised framework each sample associated candidate label set comprising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper addresses problem partial multi-label learning PML challenging weakly supervised framework each sample associated candidate label set comprising.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving theoretically reveal increased number noisy labels candidate label set leads enlarged generalization error bound consequently degrading classification performance..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve objective leverage prior knowledge about noisy labels PML suggests they only exist within candidate label set possess.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

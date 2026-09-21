@@ -1,0 +1,78 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672026",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Efficient and Effective Implicit Dynamic Graph Neural Network",
+  "doi": "10.1145/3637528.3672026",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401857076",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Implicit graph neural networks have gained popularity recent years they capture long-range dependencies improving predictive performance static graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Despite tussle between performance degradation due oversmoothing learned embeddings long-range dependency being pronounced dynamic graphs features aggregated both.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Implicit graph neural networks have gained popularity recent years they capture long-range dependencies improving predictive performance static graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Implicit graph neural networks have gained popularity recent years they capture long-range dependencies improving predictive performance static graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Despite tussle between performance degradation due oversmoothing learned embeddings long-range dependency being pronounced dynamic graphs features aggregated both.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Implicit graph neural networks have gained popularity recent years they capture long-range dependencies improving predictive performance static graphs..",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

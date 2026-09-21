@@ -1,0 +1,136 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817687",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "On Optimizing Route-Responsive Urban Tree Placement in City-Scale Pedestrian Networks",
+  "doi": "10.1145/3770855.3817687",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196990924",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Urban tree siting widely studied environmental science planning yet comparatively less explored algorithmic optimization perspective..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving introduce modeling framework shade-aware tree siting formulate Route-responsive Urban Optimization RUTO problem selects planting sites maximize pedestrians expected.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Describes a contribution involving Building bounds instantiate sandwich approximation SA framework yields solution-dependent guarantees..",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Experiments synthetic grids real-world pedestrian networks show SA-based algorithms proxy heuristics match direct greedy baseline objective value being.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Urban tree siting widely studied environmental science planning yet comparatively less explored algorithmic optimization perspective..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving introduce modeling framework shade-aware tree siting formulate Route-responsive Urban Optimization RUTO problem selects planting sites maximize pedestrians expected.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Although resulting objective non-submodular show admits submodular upper lower bounds capture max-coverage structure..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737064",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks",
+  "doi": "10.1145/3711896.3737064",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412877060",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Conformal prediction graph neural networks GNNs offers promising framework quantifying uncertainty enhancing GNN reliability high-stakes applications..",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods predominantly focus static graphs neglecting evolving nature real-world graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Conformal prediction graph neural networks GNNs offers promising framework quantifying uncertainty enhancing GNN reliability high-stakes applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving address challenges paper introduce NCPNET novel end-to-end conformal prediction framework tailored temporal graphs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving achieve propose diffusion-based non-conformity score captures both topological temporal uncertainties within evolving networks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve propose diffusion-based non-conformity score captures both topological temporal uncertainties within evolving networks..",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Additionally develop efficiency-aware optimization algorithm improves conformal prediction process enhancing computational efficiency reducing coverage violations..",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments diverse real-world temporal graphs including WIKI REDDIT DBLP IBM Anti-Money Laundering dataset demonstrate NCPNET capability ensure.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Conformal prediction graph neural networks GNNs offers promising framework quantifying uncertainty enhancing GNN reliability high-stakes applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods predominantly focus static graphs neglecting evolving nature real-world graphs..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Conformal prediction graph neural networks GNNs offers promising framework quantifying uncertainty enhancing GNN reliability high-stakes applications..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address challenges paper introduce NCPNET novel end-to-end conformal prediction framework tailored temporal graphs..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve propose diffusion-based non-conformity score captures both topological temporal uncertainties within evolving networks..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

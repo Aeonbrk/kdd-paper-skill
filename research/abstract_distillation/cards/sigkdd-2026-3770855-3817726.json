@@ -1,0 +1,119 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817726",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Compress the Easy, Explore the Hard: Difficulty-Aware Entropy Regularization for Efficient LLM Reasoning",
+  "doi": "10.1145/3770855.3817726",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196943434",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Chain-of-Thought CoT has substantially empowered Large Language Models LLMs tackle complex reasoning tasks yet verbose nature explicit steps.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving identify critical failure mode approaches explicitly optimizing shorter trajectories triggers rapid entropy collapse prematurely shrinks exploration space stifles.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving address issue propose Compress responses Easy questions Explore Hard ones CEEH difficulty-aware approach RL-based efficient reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving addition introduce dynamic optimal-length penalty anchored historically shortest correct response effectively counteracts entropy-induced length inflation stabilizes reward signal..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Across six reasoning benchmarks CEEH consistently reduces response length maintaining accuracy comparable base model improves Pass relative length-only.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Chain-of-Thought CoT has substantially empowered Large Language Models LLMs tackle complex reasoning tasks yet verbose nature explicit steps.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving identify critical failure mode approaches explicitly optimizing shorter trajectories triggers rapid entropy collapse prematurely shrinks exploration space stifles.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving address issue propose Compress responses Easy questions Explore Hard ones CEEH difficulty-aware approach RL-based efficient reasoning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Across six reasoning benchmarks CEEH consistently reduces response length maintaining accuracy comparable base model improves Pass relative length-only.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

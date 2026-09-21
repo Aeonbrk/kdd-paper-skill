@@ -1,0 +1,140 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709313",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Contextual Generative Auction with Permutation-level Externalities for Online Advertising",
+  "doi": "10.1145/3690624.3709313",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149967",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Online advertising has become core revenue driver internet industry ad auctions playing crucial role ensuring platform advertiser incentives..",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving work introduce Contextual Generative Auction CGA novel framework incorporates permutation-level externalities multi-slot ad auctions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving construct autoregressive generative model allocation reformulate incentive compatibility IC constraint minimizing ex-post regret supports gradient computation enabling end-to-end.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive offline online experiments demonstrate CGA significantly enhances platform revenue CTR compared existing methods effectively approximates optimal auction.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Online advertising has become core revenue driver internet industry ad auctions playing crucial role ensuring platform advertiser incentives..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving work introduce Contextual Generative Auction CGA novel framework incorporates permutation-level externalities multi-slot ad auctions..",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving However existing methods limited prediction-before-allocation design paradigm models set-level externalities within candidate ads fails consider context final allocation.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

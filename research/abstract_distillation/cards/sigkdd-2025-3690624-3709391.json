@@ -1,0 +1,158 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709391",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "DynST: Dynamic Sparse Training for Resource-Constrained Spatio-Temporal Forecasting",
+  "doi": "10.1145/3690624.3709391",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4409149451",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines ever-increasing sensor service though opening precious path providing deluge earth system data deep-learning-oriented science sadly introduce daunting obstacle.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Frames a limitation involving Concretely earth science systems rely heavily extensive deployment sensors however data collection constrained complex geographical social factors making.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving ever-increasing sensor service though opening precious path providing deluge earth system data deep-learning-oriented science sadly introduce daunting obstacle.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving alleviate obstacle traditional approaches sensor deployment utilize specific algorithms design deploy sensors..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving Worse still complex technical design ultimately lead model weak generalizability..",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Concretely earth science systems rely heavily extensive deployment sensors however data collection constrained complex geographical social factors making.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Regrettably formulating activation strategy generally based historical observations geographic characteristics make methods resultant models were neither simple nor.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving achieve goal employ dynamic merge technology along ingenious dimensional mapping mitigate potential impacts caused temporal aspect..",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines ever-increasing sensor service though opening precious path providing deluge earth system data deep-learning-oriented science sadly introduce daunting obstacle.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Frames a limitation involving Concretely earth science systems rely heavily extensive deployment sensors however data collection constrained complex geographical social factors making.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving ever-increasing sensor service though opening precious path providing deluge earth system data deep-learning-oriented science sadly introduce daunting obstacle.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving alleviate obstacle traditional approaches sensor deployment utilize specific algorithms design deploy sensors..",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Concretely earth science systems rely heavily extensive deployment sensors however data collection constrained complex geographical social factors making.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

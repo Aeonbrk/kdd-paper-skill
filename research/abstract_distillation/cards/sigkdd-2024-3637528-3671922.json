@@ -1,0 +1,74 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671922",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "STEMO: Early Spatio-temporal Forecasting with Multi-Objective Reinforcement Learning",
+  "doi": "10.1145/3637528.3671922",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4401863523",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "resource",
+      "claim": "Describes a contribution involving Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Accuracy timeliness indeed often conflicting goals prediction tasks.Premature predictions yield higher rate false alarms whereas delaying gather information.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

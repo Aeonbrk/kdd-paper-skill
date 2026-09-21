@@ -1,0 +1,139 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737208",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Applied Data Science Track",
+  "title": "DiMA: An LLM-Powered Ride-Hailing Assistant at DiDi",
+  "doi": "10.1145/3711896.3737208",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W4412876967",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines On-demand ride-hailing services like DiDi Uber Lyft have transformed urban transportation offering unmatched convenience flexibility..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving paper introduce DiMA LLM-powered ride-hailing assistant deployed DiDi Chuxing..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving achieve propose spatiotemporal-aware order planning module leverages external tools precise spatiotemporal reasoning progressive planning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Describes a contribution involving Additionally develop cost-effective dialogue system integrates multi-type dialog repliers cost-aware LLM configurations handle diverse conversation goals trade-off response.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving achieve propose spatiotemporal-aware order planning module leverages external tools precise spatiotemporal reasoning progressive planning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Since deployment DiDi application DiMA has demonstrated exceptional performance achieving 93% accuracy order planning 92% response generation during.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Offline experiments further validate DiMA capabilities showing improvements up 70.23% order planning 321.27% response generation compared three state-of-the-art.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines On-demand ride-hailing services like DiDi Uber Lyft have transformed urban transportation offering unmatched convenience flexibility..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper introduce DiMA LLM-powered ride-hailing assistant deployed DiDi Chuxing..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving achieve propose spatiotemporal-aware order planning module leverages external tools precise spatiotemporal reasoning progressive planning..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving achieve propose spatiotemporal-aware order planning module leverages external tools precise spatiotemporal reasoning progressive planning..",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}

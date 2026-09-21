@@ -1,0 +1,128 @@
+{
+  "paper_id": "sigkdd-2026-3770855-3817683",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "RePatch: Learning Entropy-Guided Patch Structures with Quantized Representations for Time Series Forecasting",
+  "doi": "10.1145/3770855.3817683",
+  "reading_level": "abstract_only",
+  "abstract_source": "openalex_abstract_metadata",
+  "source_locator": "https://openalex.org/W7196996704",
+  "retrieved_on": "2026-09-21",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Examines Multivariate time series forecasting fundamental yet challenging task due non-stationary dynamics evolving temporal structures limited generalization across scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": null
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Describes a contribution involving paper propose RePatch two-stage framework learns adaptive reusable temporal representations time series forecasting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "contribution",
+      "claim": "Describes a contribution involving During self-supervised pretraining RePatch introduces Dynamic Patcher adaptively segments time series variable-length patches guided entropy-based objective enabling precise.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report evidence involving Recent patch-based methods improve long-range modeling segmenting sequences local units..",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Temporal Interaction Module further captures both local global dependencies maps resulting representations structured discrete latent space via vector.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report evidence involving Extensive experiments across 14 real-world datasets demonstrate RePatch achieves state-of-the-art performance most benchmarks consistently generalizes well diverse transfer.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Examines Multivariate time series forecasting fundamental yet challenging task due non-stationary dynamics evolving temporal structures limited generalization across scenarios..",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving paper propose RePatch two-stage framework learns adaptive reusable temporal representations time series forecasting..",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "contribution",
+      "summary": "Describes a contribution involving During self-supervised pretraining RePatch introduces Dynamic Patcher adaptively segments time series variable-length patches guided entropy-based objective enabling precise.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "role": "reported evidence",
+      "summary": "The authors report evidence involving Recent patch-based methods improve long-range modeling segmenting sequences local units..",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The abstract does not state a distinct limitation of prior work."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "bounded_rule_extractor_v1"
+}
