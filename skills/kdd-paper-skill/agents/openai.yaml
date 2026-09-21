@@ -1,0 +1,4 @@
+interface:
+  display_name: "KDD Paper Skill"
+  short_description: "Compare research work with source-linked KDD examples"
+  default_prompt: "Use $kdd-paper-skill to compare my research artifact with a small, relevant SIGKDD evidence set and suggest up to three concrete changes, or teach one checked KDD practice."
