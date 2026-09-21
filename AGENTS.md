@@ -20,9 +20,7 @@ PaperWarehouse corpus.
 
 Read `docs/distillation.md` before changing extraction or synthesis artifacts.
 
-## SCOPE LIMITS
-
-These bound what you PROPOSE, never what you look for.
+## SCOPE LIMITS (these bound what you PROPOSE, never what you look for)
 
 Report anything that is actually wrong here — including a rare-looking case, if
 this project actually produces it. Then keep the fix in scope:

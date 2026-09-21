@@ -23,9 +23,10 @@
   "source_counts": {
     "openalex_abstract_metadata": 3249
   },
-  "pilot_size": 36,
-  "audit_size": 60,
+  "structural_source_linkage_checked": 3249,
+  "semantic_fidelity_audit": "not_performed",
   "copy_similarity": {
+    "status": "checked",
     "claims_checked": 34764,
     "max": 0.5377176015473888,
     "over_0_8": 0

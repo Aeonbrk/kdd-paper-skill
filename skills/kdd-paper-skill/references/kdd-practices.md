@@ -1,7 +1,10 @@
 # KDD practices
 
-The current checked practice set lives in
-`research/synthesis/practices.md`. Read the relevant section only. It records
-the observed pattern, interpretation, application, exception, and source
-reading level for each practice. Do not treat the set as a scorecard or as a
-complete account of all SIGKDD papers.
+The current source-linked practice set lives in
+`research/synthesis/practices.md`. Read the relevant section only. Its examples
+use recorded full-text locators when the guidance depends on experimental,
+methodological, system, or resource detail.
+
+Corpus retrieval cards are discovery aids, not measured prevalence or semantic
+accuracy evidence. Inspect the source at the stated reading level before using
+an attributed comparison.

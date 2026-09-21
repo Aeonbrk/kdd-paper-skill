@@ -1,5 +1,11 @@
-Extract one compact evidence card from one supplied SIGKDD paper identity and
-its numbered abstract units. Return only JSON matching the card schema.
+Semantic extraction prompt for an actual source-reading pass.
+
+This file is not invoked by `run_extraction.py`; the current corpus cards are
+produced by `bounded_rule_extractor_v1` and serve as retrieval aids.
+
+For a semantic extraction pass, extract one compact evidence card from one
+supplied SIGKDD paper identity and its numbered abstract units. Return only JSON
+matching the card schema.
 
 Use only the supplied source units. Do not browse, import memory about the
 paper, infer unseen experiments, or treat award status as evidence. Preserve

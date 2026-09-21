@@ -8,7 +8,8 @@ description: Compare a research idea, manuscript, or experiment plan with releva
 Use this skill to help an author learn from inspected SIGKDD papers while
 preserving the author's scientific purpose and judgment. PaperWarehouse is the
 neutral identity and discovery warehouse. This downstream repository owns
-study cards, checked examples, practices, and manuscript comparison guidance.
+study-specific retrieval cards, checked examples, practices, and manuscript
+comparison guidance.
 
 ## Evidence boundary
 
@@ -18,16 +19,18 @@ through `research/synthesis/practices.md` when applying a practice. Read
 [archetypes](references/archetypes.md) before comparing papers with different
 contribution types.
 
-Abstract cards are `abstract_only`. They support problem framing, stated
-contributions, and author-reported evidence. They do not verify experimental
-adequacy, proof correctness, figure design, reproducibility, or full-text
-limitations. Use [full-text checks](../../research/exemplars/full_text_checks.md)
-when a recommendation depends on those details.
+The corpus cards are abstract-linked retrieval aids produced by a bounded rule
+extractor. Their source-unit IDs establish traceability, not semantic fidelity.
+Before attributing an abstract-level claim from a card, inspect the underlying
+abstract at the recorded source locator. Use
+[full-text checks](../../research/exemplars/full_text_checks.md) when a
+recommendation depends on experimental, methodological, proof, figure, table,
+or reproducibility detail.
 
 Keep four things distinct:
 
-- source observation: what the paper or official venue page reports;
-- interpretation: why that pattern may help an author;
+- source observation: what the inspected paper or official venue page reports;
+- interpretation: why that observation may help an author;
 - recommendation: what the user could change or check;
 - unknown: what the inspected source does not establish.
 
@@ -37,20 +40,20 @@ verdicts, or a universal checklist.
 
 ## Select evidence
 
-Use the frozen corpus manifest and retrieve a small comparison set. Select by
-problem structure, contribution type, evidence need, evaluation setting, and
-resource constraints. Do not select by fame or award status alone. Keep Research,
-Applied Data Science, Datasets and Benchmarks, AI for Sciences, Blue Sky Ideas,
-Health Day, and other tracks distinct when their evidence questions differ.
-Do not enumerate or load the full card directory for one request. Use the
-manifest, track/year fields, award manifest, and targeted title or paper-ID
-lookups to choose the few cards needed.
+Use the frozen corpus manifest and retrieval cards to find a small comparison
+set. Select by problem structure, contribution type, evidence need, evaluation
+setting, and resource constraints. Do not select by fame or award status alone.
+Keep Research, Applied Data Science, Datasets and Benchmarks, AI for Sciences,
+Blue Sky Ideas, Health Day, and other tracks distinct when their evidence
+questions differ.
 
-If the local cards do not answer the question, retrieve the actual abstract or
-full text from the recorded source locator. Do not use PaperWarehouse's
-discovery synopsis as a replacement for the source. Do not use search snippets
-as semantic evidence. When a source cannot be inspected, label any statement
-as general guidance and omit the citation.
+Do not enumerate or load the full card directory for one request. Use targeted
+manifest, track/year, award, title, and paper-ID lookups. Then inspect the
+underlying source for every attributed comparison that matters to the advice.
+
+Do not use PaperWarehouse discovery synopses or search snippets as semantic
+evidence. When a source cannot be inspected, label the statement as general
+research guidance and omit source attribution.
 
 ## Mode A: compare and improve
 
@@ -63,15 +66,15 @@ experiment plan, results section, or manuscript.
 3. Return at most three high-priority improvements by default. For each one,
    connect:
 
-   `user artifact location → source observation and locator → concrete change or feasible next check → why it applies → important difference or limit`
+   `user artifact location → inspected source observation and locator → concrete change or feasible next check → why it applies → important difference or limit`
 
-4. Keep paper observations separate from your proposed action. Preserve
-   metrics, populations, horizons, information budgets, model classes, and
-   guarantee conditions beside conclusions.
+4. Keep source observation separate from the proposed action. Preserve metrics,
+   populations, horizons, information budgets, model classes, and guarantee
+   conditions beside conclusions.
 
 Do not manufacture a gap. If the artifact already has adequate support, say so.
-If a suggestion depends on a full-text experiment or figure, name the exact
-locator or ask for the source instead of inferring it from an abstract.
+If a suggestion depends on a full-text experiment or figure, use an inspected
+locator instead of inferring it from an abstract.
 
 ## Mode B: learn and reflect
 
@@ -90,24 +93,21 @@ template.
 
 ## KDD context
 
-Official KDD CFP guidance is context, not a score. The [KDD 2025 Research
-Track CFP](https://kdd2025.kdd.org/research-track-call-for-papers/) and [KDD
-2026 Research Track CFP](https://kdd2026.kdd.org/research-track-call-for-papers/)
-mention technical merit, originality, potential impact, quality of execution
-and presentation, related work, reproducibility, and ethics, and says the first
+Official KDD CFP guidance is context, not a score. The [KDD 2025 Research Track
+CFP](https://kdd2025.kdd.org/research-track-call-for-papers/) and [KDD 2026
+Research Track CFP](https://kdd2026.kdd.org/research-track-call-for-papers/)
+mention technical merit, originality, potential impact, quality of execution and
+presentation, related work, reproducibility, and ethics, and say the first
 eight content pages should be self-contained. Cite the official page when using
-that context. Keep it separate from observed paper patterns and from advice to
-the user.
+that context. Keep it separate from paper evidence and advice to the user.
 
-Official award metadata is selection metadata. It can help choose a clear
+Official award metadata is selection metadata. It can help locate a clear
 exemplar, but it is not evidence that the example caused recognition or that
-the user should copy it. Test-of-Time awards are outside this 2022–2026 skill
-corpus.
+the user should copy it. Test-of-Time awards are outside this 2022–2026 corpus.
 
 ## Writing discipline
 
-Use concrete paper-specific language. Avoid generic claims such as
-"important problem," "innovative framework," "extensive experiments," and
-"valuable insights." Do not silently upgrade an author's claim into an
-independent conclusion. Keep unknowns unknown and state when evidence is
-abstract-only.
+Use concrete paper-specific language. Avoid generic claims such as "important
+problem," "innovative framework," "extensive experiments," and "valuable
+insights." Do not silently upgrade an author's claim into an independent
+conclusion. Keep unknowns unknown and state the actual reading level.
