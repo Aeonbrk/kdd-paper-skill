@@ -18,10 +18,8 @@ downstream run did not change PaperWarehouse.
 | Total | 3,696 | 3,249 | 447 |
 
 All completed cards use `openalex_abstract_metadata` and retain an OpenAlex
-work locator. Exact-title arXiv fallback queries were attempted for records
-without a usable OpenAlex abstract; they did not produce an additional card in
-this run. PaperWarehouse discovery synopses were not used as semantic source
-text.
+work locator. No completed card uses the arXiv fallback in this run. PaperWarehouse discovery
+synopses were not used as semantic source text.
 
 ## Verification
 

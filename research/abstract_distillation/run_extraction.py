@@ -123,8 +123,7 @@ def openalex_records(records: list[dict]) -> dict[str, dict]:
     cached = {}
     if cache_path.exists():
         cached = json.loads(cache_path.read_text(encoding="utf-8"))
-        # The first pilot cache used only the ACM suffix. Normalize it in
-        # memory so the record DOI remains the stable lookup key.
+        # Normalize cached DOI keys to the canonical DOI form used by records.
         cached = {
             (key if key.startswith("10.") else "10.1145/" + key): value
             for key, value in cached.items()
@@ -257,9 +256,6 @@ def arxiv_title_search(record: dict) -> tuple[str, str] | None:
         if title_match(title, record["title"]) >= 0.94:
             return abstract, locator
     return None
-    if title_match(title, record["title"]) < 0.90 or not abstract:
-        return None
-    return abstract, f"https://arxiv.org/abs/{arxiv_id}"
 
 
 def sentences(abstract: str) -> list[str]:
