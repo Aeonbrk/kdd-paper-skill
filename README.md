@@ -19,10 +19,11 @@ abstract in the completed retrieval run. Research Track has 2,314 identities,
 abstract. A 40-paper semantic pilot produced 38 PASS, 2 MINOR, and 0 MATERIAL
 fidelity judgments before Research Track scaling.
 
-Cold-start retrieval passed 8 of 8 fresh cases without a retrieval helper. The
-current behavior evidence has 3 PASS and 2 MIXED fresh-context cases. The two
-mixed cases concern source binding in final recommendations, not corpus
-enumeration or semantic-card scaling.
+Cold-start retrieval passed 8 of 8 fresh cases without a retrieval helper. Five
+fresh-context behavior cases produced 3 PASS and 2 MIXED outcomes. One confirmed
+source-binding defect is missing paper names in source observations. The other
+historical MIXED case has no retained prompt or answer, so its cause is
+unresolved.
 
 See `Handoff.md` for the current next decision, `docs/distillation.md` for the
 evidence contract, and `skills/kdd-paper-skill/SKILL.md` for user-facing

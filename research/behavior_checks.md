@@ -40,11 +40,11 @@ contexts without comparator IDs or exemplar names in the prompts.
   one temporal split. It linked three actual abstracts and kept cold-start
   analysis optional, but did not name the compared papers in its source
   observations. MIXED.
-- Retrospective policy-result interpretation: linked three full texts and
-  preserved recommendation-versus-clinical transfer limits. It attributed
-  subgroup-effect analysis to the MRSA paper, which does not report subgroup
-  analysis, and gave a section range that omitted the cited positivity
-  assumption. MIXED.
+- Retrospective policy-result interpretation: historical outcome MIXED. The
+  exact prompt and answer are unavailable, so the source-attribution and locator
+  failure mechanism remains unresolved. The linked MRSA paper reports
+  patient-subpopulation treatment effects in §4.9/Table 3 and hospital-unit
+  estimates in Table 4 ([full text](https://arxiv.org/html/2307.08237)).
 - Resource and model contribution: separated a healthcare benchmark claim
   from its model claim, linked KDD resource and evaluation examples, and
   bounded the “first” and partial-release claims. PASS.
@@ -55,3 +55,23 @@ contexts without comparator IDs or exemplar names in the prompts.
 Three cases passed and two were mixed. Retrieval found comparable KDD records
 without supplied IDs. No retrieval helper was added. These checks do not
 establish general retrieval or scientific accuracy.
+
+## Source-attribution regression
+
+Date: 2026-09-23.
+
+- Artifact: cross-plant anomaly-detection dataset and graph method; windows from
+  every plant are randomly split, with one-run average AUROC and no per-failure
+  counts.
+- *Diverse Intra- and Inter-Domain Activity Style Fusion for Cross-Person
+  Generalization in Activity Recognition* (DI2SDiff): the answer attributed
+  cross-person source/target grouping to this paper; §6.1 and Appendix E.1
+  support that observation ([full text](https://arxiv.org/html/2406.04609)).
+- *HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based
+  Human Activity Recognition*: the answer attributed dataset dimensions, OOD
+  scenarios, and class-varying results to this paper; Table 2, §4, and
+  §6.1/Figure 4 support those observations ([full text](https://arxiv.org/html/2512.10807)).
+  The answer kept activity-recognition evidence distinct from equipment-failure
+  claims.
+- PASS for paper naming, attribution, and locator coverage. This does not
+  reproduce either historical MIXED case.

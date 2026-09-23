@@ -61,10 +61,13 @@ Do not use PaperWarehouse discovery synopses or search snippets as semantic
 evidence. When a source cannot be inspected, label the statement as general
 research guidance and omit source attribution.
 
-For every KDD-derived observation, name the paper and link the direct abstract
-or inspected full-text locator. A program or table-of-contents page, retrieval
-card, or search result can locate a candidate but is not a semantic evidence
-locator. Do not report an attributed source comparison without that link.
+For every KDD-derived observation, name the paper and link its direct abstract
+or inspected full-text locator beside the observation. The locator must support
+the observation and every condition attached to it. Do not combine observations
+from different papers under one source label. A program or table-of-contents
+page, retrieval card, or search result can locate a candidate but is not a
+semantic evidence locator. General reasoning that is not attributed to a KDD
+paper does not need a KDD citation.
 
 ## Mode A: compare and improve
 
@@ -77,7 +80,9 @@ experiment plan, results section, or manuscript.
 3. Return at most three high-priority improvements by default. For each one,
    connect:
 
-   `user artifact location → inspected source observation and locator → concrete change or feasible next check → why it applies → important difference or limit`
+   Name the paper and locator beside the exact observation. Connect them to the
+   artifact location, a concrete change or check, why it applies, and an
+   important difference or limit.
 
 4. Keep source observation separate from the proposed action. Preserve metrics,
    populations, horizons, information budgets, model classes, and guarantee

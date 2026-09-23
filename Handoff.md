@@ -25,30 +25,23 @@ Do not reopen corpus enumeration, retrieval architecture, semantic-card scaling,
 missing-abstract recovery, or synthesis breadth without new evidence that one of
 those layers caused a user-visible failure.
 
-Five fresh-context behavior cases produced 3 PASS and 2 MIXED outcomes. The
-remaining blocker is final source binding.
+Five fresh-context behavior cases produced 3 PASS and 2 MIXED outcomes. One
+confirmed defect is that a recommender experiment-design answer omitted paper
+names from its source observations. The other MIXED result is historical only;
+its exact prompt and answer are unavailable, so its failure mechanism is
+unresolved.
 
-The two concrete failures are:
+The linked MRSA paper reports patient-subpopulation treatment effects in
+§4.9/Table 3 and hospital-unit estimates in Table 4. Do not treat those
+observations as unsupported.
 
-1. One experiment-design answer used valid sources but omitted paper names in
-   its source observations.
-2. One result-interpretation answer attributed an analysis to the wrong paper
-   and used a locator that did not cover the condition cited by the
-   recommendation.
+## Source-attribution regression
 
-## Next action
-
-Inspect only those two mixed cases first. Trace each failure through the
-retrieved paper, evidence record, selected source observation, locator, and
-final recommendation. Find the first layer where the evidence and output
-diverge, then fix that layer only.
-
-After the smallest fix, rerun the two failing cases and at most three genuinely
-fresh regression cases. Include one case where no substantive change is
-warranted.
-
-If the source-binding failures are gone and no new material failure appears,
-stop.
+One new fresh-context multi-paper case passed the scoped checks: both papers
+were named, observations were attributed to the correct paper, and the cited
+sections/tables supported the claims and conditions. The historical second
+MIXED case remains unresolved; its prompt and answer are unavailable. This
+regression does not reproduce or resolve it.
 
 ## Known limitations
 

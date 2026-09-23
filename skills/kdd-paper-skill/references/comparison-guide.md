@@ -8,9 +8,11 @@ For a comparison request, make the user's artifact the unit of analysis.
    contribution type, evidence need, evaluation setting, and resource limits.
    Use targeted manifest and paper-ID lookups; do not enumerate the full card
    directory for a single request.
-3. For each proposed change, connect the artifact location to a source
-   observation, a concrete revision or next check, the reason it applies, and
-   an important difference or limit.
+3. For each proposed change, connect the artifact location to a separately
+   bound source observation. Keep the paper title, exact observation, and direct
+   locator together. The locator must support the observation and every
+   condition attached to it. Then state a concrete revision or next check, why
+   it applies, and an important difference or limit.
 4. Give at most three high-priority improvements unless the user asks for a
    different scope. It is valid to find no useful gap.
 
