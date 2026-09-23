@@ -1,0 +1,233 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672006",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Spuriousness-Aware Meta-Learning for Learning Robust Classifiers",
+  "doi": "10.1145/3637528.3672006",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4401862767",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Deep image classifiers can rely on spurious correlations and generalize poorly when those correlations do not hold.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Existing mitigation often requires annotations of spurious correlations, which is a strong practical assumption.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "SPUME is a meta-learning framework for training image classifiers to be robust to spurious correlations.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The framework uses a pre-trained vision-language model to extract text-format image attributes, curates data with varied class-attribute correlations, and introduces a metric for measuring their spuriousness.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The framework meta-trains classifiers on tasks whose support and query sets contain different highly spurious correlations, aiming to learn invariance to those correlations.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe SPUME and its spuriousness metric as novel.",
+    "source_ids": [
+      "S4",
+      "S7"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report that the method is robust to spurious correlations without knowing them a priori.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report the best performance on five benchmark datasets across different robustness measures.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report that code is available online.",
+      "source_ids": [
+        "S11"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Spurious correlations are brittle input-attribute and target associations that image classifiers may exploit.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "role": "motivation",
+      "summary": "Robust mitigation is important but commonly depends on spurious-correlation annotations.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "framework",
+      "summary": "The paper proposes SPUME, which iteratively detects and mitigates excessively relied-upon spurious correlations.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "role": "data_and_metric",
+      "summary": "A pre-trained vision-language model supplies text-format attributes for curating varied class-attribute correlations and measuring their spuriousness.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "training_and_result",
+      "summary": "Spuriousness-aware meta-learning tasks are used to learn invariance, with reported robustness and benchmark performance gains.",
+      "source_ids": [
+        "S8",
+        "S9",
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The method curates support and query sets with different highly spurious correlations.",
+        "source_ids": [
+          "S8"
+        ]
+      },
+      "interpretation": {
+        "claim": "Training across deliberately shifted nuisance correlations may encourage classifiers to rely less on brittle attributes.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      },
+      "application": {
+        "claim": "For robustness work, construct training tasks that expose controlled variation in suspected nuisance-feature correlations when annotations are unavailable.",
+        "source_ids": [
+          "S3",
+          "S8"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether this strategy works across domains or shifts beyond the reported benchmarks.",
+        "source_ids": [
+          "S10"
+        ]
+      }
+    },
+    {
+      "source_observation": {
+        "claim": "Text-format attributes extracted by a pre-trained vision-language model are used to curate correlation-varied data.",
+        "source_ids": [
+          "S6",
+          "S7"
+        ]
+      },
+      "interpretation": {
+        "claim": "A pretrained multimodal model can provide a practical route to approximate nuisance attributes without direct annotations.",
+        "source_ids": [
+          "S3",
+          "S6"
+        ]
+      },
+      "application": {
+        "claim": "Use pretrained representation models to generate candidate attribute descriptions for robustness-oriented data analysis.",
+        "source_ids": [
+          "S6"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not specify attribute-extraction accuracy, failure cases, or sensitivity to model bias.",
+        "source_ids": [
+          "S6",
+          "S7"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "No quantitative results, baselines, or dataset names are provided.",
+    "The abstract does not describe the spuriousness metric, task-construction algorithm, or computational cost.",
+    "No limitations or failure cases are reported."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

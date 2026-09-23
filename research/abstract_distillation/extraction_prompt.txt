@@ -1,15 +1,19 @@
 Semantic extraction prompt for an actual source-reading pass.
 
-This file is not invoked by `run_extraction.py`; the current corpus cards are
-produced by `bounded_rule_extractor_v1` and serve as retrieval aids.
+This file is not invoked by `run_extraction.py`; cards under
+`research/abstract_distillation/cards/` are produced by
+`bounded_rule_extractor_v1` and serve as retrieval aids.
 
 For a semantic extraction pass, extract one compact evidence card from one
-supplied SIGKDD paper identity and its numbered abstract units. Return only JSON
-matching the card schema.
+supplied SIGKDD paper identity and its numbered abstract units. Return only
+JSON matching the card schema below. Copy every supplied identity field
+(`paper_id`, `venue`, `year`, `track`, `title`, `doi`, `reading_level`,
+`abstract_source`, `source_locator`, and `retrieved_on`) into the output exactly.
+Do not omit identity fields.
 
 Use only the supplied source units. Do not browse, import memory about the
 paper, infer unseen experiments, or treat award status as evidence. Preserve
-conditions and numbers. Every substantive field needs the smallest supporting
+conditions and numbers. Every substantive claim needs the smallest supporting
 source ID. Unknown is valid; null and [] are valid.
 
 The card is abstract-only evidence. Contributions may be method, theory,
@@ -17,6 +21,26 @@ empirical finding, system, resource, application, position, or another accurate
 type. Stated novelty is null unless the authors explicitly distinguish a new
 contribution. Author-reported evidence is not independent verification.
 
-Candidate lessons must separate source_observation, interpretation, application,
-and exception. Omit generic advice. Do not claim acceptance causes, venue laws,
-proof correctness, reproducibility, or full-text findings.
+Use these exact representations:
+
+- `source_units`: an array of `{ "id": "S1", "kind": "sentence" }` objects;
+  do not copy source-unit text into the card.
+- `problem_and_gap`: an object whose `problem` and `gap` values are either null
+  or `{ "claim": "...", "source_ids": ["S1"] }`.
+- `contributions`: 0–3 objects with `type`, `claim`, and `source_ids`.
+- `stated_novelty`: either null or `{ "claim": "...", "source_ids": ["S1"] }`;
+  include it only when the authors explicitly distinguish a new contribution.
+- `author_reported_evidence`: 0–3 `{ "claim": "...", "source_ids": [...] }`
+  objects; describe author reports without upgrading them to verification.
+- `narrative_sequence`: 2–5 `{ "role": "...", "summary": "...",
+  "source_ids": [...] }` objects in source order.
+- `candidate_lessons`: 0–2 objects with `source_observation`, `interpretation`,
+  `application`, and `exception`; each value is `{ "claim": "...",
+  "source_ids": [...] }`.
+- `unknowns`: an array of concise strings for material omissions only.
+- `validation_state`: the string `completed`.
+- `extraction_method`: the string `semantic_model_pilot_v1`.
+
+Do not add status objects, copied source text, independent-verification fields,
+acceptance causes, venue laws, proof correctness, reproducibility claims, or
+full-text findings.

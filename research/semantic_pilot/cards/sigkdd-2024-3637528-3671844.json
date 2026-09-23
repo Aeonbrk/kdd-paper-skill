@@ -1,0 +1,216 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671844",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "MSPipe: Efficient Temporal GNN Training via Staleness-Aware Pipeline",
+  "doi": "10.1145/3637528.3671844",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4392182051",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Memory-based temporal GNNs must iteratively read and update node memory according to temporal dependencies, creating substantial overhead and limiting training throughput.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Optimizations for static GNNs do not directly address the training paradigm, architecture, memory module, and temporal-dependency challenges of memory-based temporal GNNs.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "system",
+      "claim": "MSPipe is a general framework for efficient memory-based temporal GNN training that targets higher throughput while maintaining model accuracy.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "MSPipe integrates staleness into the memory module and uses online pipeline scheduling to break temporal dependencies with minimal staleness while delaying memory fetching for fresher states.",
+      "source_ids": [
+        "S7",
+        "S9"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "MSPipe includes a staleness mitigation mechanism and provides convergence analysis.",
+      "source_ids": [
+        "S11",
+        "S12"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report that the scheduling approach avoids stalling the MTGNN training stage and resource contention.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report that MSPipe maintains the same convergence rate as vanilla sampling-based GNN training.",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "Experiments report up to 2.45× speed-up without sacrificing accuracy.",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Memory-based temporal GNNs use node memory to retain long-term temporal dependencies and can outperform memory-less counterparts.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "Temporal memory reading and updating introduces overhead and limits training throughput.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Static-GNN optimizations are not effective for the distinct architecture and temporal dependencies of memory-based temporal GNNs.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "role": "approach",
+      "summary": "MSPipe combines staleness-aware memory handling, online pipeline scheduling, delayed fetching, and staleness mitigation.",
+      "source_ids": [
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "role": "evidence",
+      "summary": "The authors report convergence-rate preservation and up to 2.45× speed-up without sacrificing accuracy.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Introducing a fixed staleness bound may cause suboptimal performance and poor generalizability across models and datasets.",
+        "source_ids": [
+          "S8"
+        ]
+      },
+      "interpretation": {
+        "claim": "Staleness controls should adapt to runtime or workload conditions rather than rely solely on a universal predefined bound.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      },
+      "application": {
+        "claim": "For systems with dependency-constrained state updates, use online scheduling to trade limited staleness for throughput while seeking fresher state when possible.",
+        "source_ids": [
+          "S9",
+          "S10"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish when online scheduling is preferable across specific models, datasets, hardware, or workloads.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "Specific datasets, models, hardware, baselines, and experimental settings are not provided.",
+    "The convergence-analysis assumptions and proof details are not provided.",
+    "The scheduling algorithm and staleness-mitigation mechanism are not described in implementation detail.",
+    "The distribution of speed-ups and accuracy measurements beyond the reported maximum are not provided."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

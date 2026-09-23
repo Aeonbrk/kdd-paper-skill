@@ -1,0 +1,178 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780323",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Certified Defense on the Fairness of Graph Neural Networks",
+  "doi": "10.1145/3770854.3780323",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W7172034475",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "GNN prediction fairness can be corrupted by attackers that perturb input graph data.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "The paper addresses the need to study certifiable defenses for GNN fairness.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "The paper proposes ELEGANT, a framework for certifiable defense of GNN fairness.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "The paper presents a theoretical certification analysis for GNN fairness.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "ELEGANT is designed as a plug-and-play framework that can use any GNN backbone without assumptions about its structure or parameters or requiring retraining.",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The paper characterizes certifiable defense on the fairness level of GNNs as a novel problem.",
+    "source_ids": [
+      "S3"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report satisfactory practical effectiveness through extensive experiments on real-world datasets across different GNN backbones and parameter settings.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "GNNs are prominent models for graph-based tasks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "threat",
+      "summary": "Input-graph perturbations can corrupt the fairness of GNN predictions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "The paper studies certifiable defense for GNN fairness.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "ELEGANT provides a theoretical certification framework intended to protect fairness under specified attacker perturbation budgets without backbone assumptions or retraining.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "evidence",
+      "summary": "The authors report experiments on real-world datasets using varied GNN backbones and parameter settings.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "A defense framework is described as applicable to any GNN backbone without retraining.",
+        "source_ids": [
+          "S5",
+          "S6",
+          "S7"
+        ]
+      },
+      "interpretation": {
+        "claim": "Compatibility and deployment effort are treated as design objectives alongside certification.",
+        "source_ids": [
+          "S6",
+          "S7"
+        ]
+      },
+      "application": {
+        "claim": "When designing robustness mechanisms for existing models, favor interfaces that preserve the deployed model and minimize structural assumptions.",
+        "source_ids": [
+          "S6",
+          "S7"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not specify the exact perturbation model, budget conditions, or applicability limits.",
+        "source_ids": [
+          "S5"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify the fairness definition or protected attributes.",
+    "The abstract does not state the exact certification conditions or perturbation budgets.",
+    "The abstract does not identify datasets, baselines, metrics, or quantitative results."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

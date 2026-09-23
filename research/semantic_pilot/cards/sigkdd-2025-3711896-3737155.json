@@ -1,0 +1,187 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737155",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "TIDFormer: Exploiting Temporal and Interactive Dynamics Makes A Great Dynamic Graph Transformer",
+  "doi": "10.1145/3711896.3737155",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4412876995",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Dynamic graph neural networks need to capture sequential evolution and both temporal and interactive dynamics in dynamic graphs.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Existing Transformer-based dynamic graph neural networks vary substantially in effectiveness and efficiency, and their self-attention mechanisms have been defined opaquely on dynamic graphs.",
+      "source_ids": [
+        "S2",
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "TIDFormer is a dynamic graph Transformer designed to exploit temporal and interactive dynamics efficiently.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "interpretability",
+      "claim": "The authors clarify and verify the interpretability of the proposed self-attention mechanism for dynamic graphs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The model represents temporal dynamics with calendar-based time partitions, interaction dynamics with sampled first-order-neighbor embeddings for bipartite and non-bipartite graphs, and jointly models them through a simple decomposition.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report extensive experiments on several dynamic graph datasets.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report that TIDFormer outperforms state-of-the-art models across most datasets and experimental settings.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report significant efficiency advantages over previous Transformer-based methods.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Transformer architectures are used in dynamic graph neural networks to capture sequential graph evolution.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "Prior Transformer-based approaches differ in effectiveness and efficiency, motivating better self-attention definitions and comprehensive encoding of dynamic information.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "TIDFormer combines an interpretable self-attention mechanism with calendar-based temporal partitioning, sampled-neighbor interaction embeddings, and decomposition-based joint modeling.",
+      "source_ids": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "Experiments on several dynamic graph datasets are reported to show effectiveness and efficiency, including broad performance and efficiency gains.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The model represents temporal and interactive dynamics using calendar-based partitions, sampled first-order neighbors, and a simple decomposition.",
+        "source_ids": [
+          "S5",
+          "S6"
+        ]
+      },
+      "interpretation": {
+        "claim": "Careful feature construction and simple joint modeling may capture multiple dynamic aspects without adding complex modules.",
+        "source_ids": [
+          "S2",
+          "S5",
+          "S6"
+        ]
+      },
+      "application": {
+        "claim": "For dynamic graph modeling, consider explicit temporal partitioning and interaction representations before introducing additional complex architectural components.",
+        "source_ids": [
+          "S2",
+          "S5",
+          "S6"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether these design choices transfer to other graph tasks, datasets, or settings.",
+        "source_ids": [
+          "S7",
+          "S8"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify the datasets, tasks, metrics, baselines, or quantitative results.",
+    "The abstract does not provide the decomposition details or complexity measurements.",
+    "The abstract does not describe ablations or limitations."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

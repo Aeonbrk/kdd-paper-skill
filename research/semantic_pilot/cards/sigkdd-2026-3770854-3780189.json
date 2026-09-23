@@ -1,0 +1,193 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780189",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "AnchorGK: Anchor-based Incremental and Stratified Graph Learning Framework for Inductive Spatio-Temporal Kriging",
+  "doi": "10.1145/3770854.3780189",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W7172003623",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Spatio-temporal kriging must estimate conditions in sensor networks despite sparse sensor deployment.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Existing studies often overlook sparse spatial distributions and incomplete features across locations.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "AnchorGK is an anchor-based incremental and stratified graph learning framework for inductive spatio-temporal kriging.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The framework constructs feature-availability-based anchor locations and establishes strata from those anchors to represent spatial correlations and integrate available features.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "A dual-view graph learning layer integrates feature and location information, learns stratum-specific representations, and supports kriging from those representations.",
+      "source_ids": [
+        "S7",
+        "S8"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The framework includes a novel incremental representation method for using available features across different strata.",
+    "source_ids": [
+      "S6"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments on multiple benchmark datasets reportedly show that AnchorGK consistently outperforms existing state-of-the-art methods.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "claim": "The authors report providing code, datasets, and related materials.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Spatio-temporal kriging is important in sensor networks because deployed sensors are sparse.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Prior studies often neglect sparse spatial distributions and incomplete location features.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "proposal",
+      "summary": "The paper proposes AnchorGK to address these issues.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "mechanism",
+      "summary": "Anchor-based stratification, incremental representations, and dual-view graph learning model spatial, temporal, feature, and stratum-specific information.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "outcome",
+      "summary": "Kriging uses the learned stratum representations, with reported improvements on multiple benchmark datasets.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Stratifying locations by feature availability is used to organize sparse spatial information and support incremental feature representation.",
+        "source_ids": [
+          "S4",
+          "S5",
+          "S6"
+        ]
+      },
+      "interpretation": {
+        "claim": "When observations and features are unevenly distributed, explicit grouping may help preserve locality while incorporating heterogeneous information.",
+        "source_ids": [
+          "S5",
+          "S6"
+        ]
+      },
+      "application": {
+        "claim": "Consider availability-aware strata and incremental representations in spatial prediction systems with missing observations or features.",
+        "source_ids": [
+          "S5",
+          "S6"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether this strategy transfers beyond the reported kriging setting or datasets.",
+        "source_ids": [
+          "S9"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The benchmark datasets, evaluation metrics, baseline methods, and quantitative results are unspecified.",
+    "The abstract does not describe the model architecture, training procedure, computational cost, or ablation results."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

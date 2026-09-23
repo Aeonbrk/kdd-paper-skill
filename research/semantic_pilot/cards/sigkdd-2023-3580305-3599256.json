@@ -1,0 +1,195 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599256",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "All in One: Multi-Task Prompting for Graph Neural Networks",
+  "doi": "10.1145/3580305.3599256",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4383468961",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Graph tasks at node, edge, and graph levels are highly diversified.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Pre-training pretexts can be incompatible with multiple graph tasks and may cause negative transfer to specific applications.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "A multi-task prompting method for graph models is proposed.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The method unifies graph and language prompt formats through prompt tokens, token structure, and inserting patterns.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The method studies the task space of graph applications, reformulates downstream problems as graph-level tasks, and uses meta-learning to learn an initialization for multi-task graph prompts.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors describe their multi-task prompting method for graph models as novel.",
+    "source_ids": [
+      "S5"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report conducting extensive experiments.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "The authors report that the experimental results demonstrate the superiority of their method.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Pre-training and fine-tuning are presented as a standard workflow for graph tasks because general graph knowledge can alleviate limited application-specific annotations.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "Diverse node-, edge-, and graph-level tasks make pre-training pretexts potentially incompatible, with possible negative transfer.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "role": "motivation",
+      "summary": "Prompt learning in NLP motivates prompting for graphs to bridge pre-trained models and varied graph tasks.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "The proposed framework unifies graph and language prompt formats, reformulates downstream problems as graph-level tasks, and applies meta-learning for prompt initialization.",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "role": "evidence",
+      "summary": "The authors report extensive experiments showing superiority of the method.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Different graph task levels can make a shared pre-training pretext incompatible and can produce negative transfer.",
+        "source_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      "interpretation": {
+        "claim": "A reusable graph-learning framework should explicitly account for task heterogeneity and transfer failure modes.",
+        "source_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      "application": {
+        "claim": "When adapting a pre-trained graph model across task levels, consider prompt-based task reformulation and task-aware initialization.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish that this strategy works for every graph task or application.",
+        "source_ids": [
+          "S8",
+          "S10"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "Datasets, baselines, evaluation metrics, and quantitative results are not specified.",
+    "The prompt architecture, task-space formulation, and meta-learning procedure are not detailed.",
+    "No limitations, computational costs, or independent verification are reported."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

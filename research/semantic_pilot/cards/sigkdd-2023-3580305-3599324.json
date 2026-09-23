@@ -1,0 +1,87 @@
+{
+  "paper_id": "sigkdd-2023-3580305-3599324",
+  "venue": "SIGKDD",
+  "year": 2023,
+  "track": "Research Track Full Papers",
+  "title": "Efficient Bi-Level Optimization for Recommendation Denoising",
+  "doi": "10.1145/3580305.3599324",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4385562552",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Explicit user feedback is difficult to acquire, while implicit feedback is noisy and can undermine recommendation quality.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Existing implicit-feedback weighting methods calculate weights without accounting for previous iterations and often depend on prior knowledge that may be unavailable or not universally applicable.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "acquisition_challenge",
+      "summary": "Real-world recommender systems often struggle to obtain explicit user feedback because it requires active user involvement.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "substitute",
+      "summary": "Implicit feedback generated during browsing is used as a substitute for explicit feedback.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "limitation",
+      "summary": "Implicit feedback contains substantial noise that reduces recommendation quality.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "existing_method_gap",
+      "summary": "Prior weighting methods do not account for inter-iteration influence and may require unavailable or non-general prior knowledge.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [],
+  "unknowns": [
+    "The proposed method is not described.",
+    "No theoretical results, experiments, datasets, baselines, metrics, or quantitative findings are supplied.",
+    "The meaning of bi-level optimization and its relationship to denoising is not specified in the source units."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

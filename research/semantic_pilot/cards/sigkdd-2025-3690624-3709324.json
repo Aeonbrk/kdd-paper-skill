@@ -1,0 +1,178 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709324",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Understanding Oversmoothing in Diffusion-Based GNNs From the Perspective of Operator Semigroup Theory",
+  "doi": "10.1145/3690624.3709324",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4409158678",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "The paper studies the oversmoothing issue in diffusion-based graph neural networks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Prior work established the existence of oversmoothing but did not provide its specific mathematical form.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "The paper develops an operator semigroup theory framework for analyzing oversmoothing beyond random walk and particle-system approaches.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "theoretical finding",
+      "claim": "The framework links oversmoothing intrinsically to the ergodicity of the diffusion operator and gives a quantitative form based on ergodicity and the operator's invariant measure.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The paper proposes a general ergodicity-breaking condition for relieving oversmoothing and provides a probabilistic interpretation connecting the theory with prior work.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors distinguish their operator-semigroup perspective and general ergodicity-breaking condition as broader and more universal than prior specific approaches.",
+    "source_ids": [
+      "S2",
+      "S5"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments report that the ergodicity-breaking term mitigates oversmoothing as measured by Dirichlet energy.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "Experiments report improved performance on node classification tasks when using the ergodicity-breaking term.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "problem",
+      "summary": "The paper analyzes oversmoothing in diffusion-based GNNs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "approach",
+      "summary": "It applies operator semigroup theory to the problem, extending beyond random walk and particle-system analyses.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "theory",
+      "summary": "The analysis connects oversmoothing to diffusion-operator ergodicity and quantitatively characterizes the smoothing feature.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "role": "implication",
+      "summary": "The theory yields a general ergodicity-breaking condition and a probabilistic interpretation.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "evidence",
+      "summary": "Reported experiments show reduced Dirichlet-energy oversmoothing and improved node classification performance.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Oversmoothing is linked to the ergodicity of the diffusion operator.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "interpretation": {
+        "claim": "Analyzing the operator's long-run behavior may provide a principled explanation for oversmoothing.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "application": {
+        "claim": "For diffusion-based GNNs, examine ergodicity and invariant measures when diagnosing or mitigating oversmoothing.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether this guidance applies beyond diffusion-based GNNs.",
+        "source_ids": [
+          "S1",
+          "S3"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify datasets, architectures, baselines, or experimental settings.",
+    "The abstract does not provide quantitative result values or details of the ergodicity-breaking term."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

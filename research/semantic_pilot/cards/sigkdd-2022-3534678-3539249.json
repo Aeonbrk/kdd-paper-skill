@@ -1,0 +1,217 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539249",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "GPPT: Graph Pre-training and Prompt Tuning to Generalize Graph Neural Networks",
+  "doi": "10.1145/3534678.3539249",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4290877635",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Supervised GNN training requires large amounts of labeled data for each application.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Existing graph pre-training methods often leave a training-objective gap between pretext and downstream tasks, making adaptation costly and potentially harming downstream performance.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "GPPT introduces a graph transfer-learning paradigm that combines graph pre-training with prompt tuning.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The method pre-trains GNNs with masked edge prediction and uses a graph prompting function to convert node classification into an edge-prediction-like task.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The prompting representation forms a token pair from a candidate label class and a node entity, enabling downstream classification through linking-probability evaluation without tedious fine-tuning.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe GPPT as a novel transfer-learning paradigm for generalizing GNNs.",
+    "source_ids": [
+      "S7"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments on eight benchmark datasets reportedly show an average improvement of 4.29% in few-shot graph analysis.",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The authors report accelerating model convergence by up to 4.32X.",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "The code is reported to be available in the linked GitHub repository.",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "GNN representation learning is promising, but supervised training needs substantial labeled data per application.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "prior_approach",
+      "summary": "Graph transfer learning uses accessible information to pre-train GNNs and fine-tune them with few downstream labels.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Pretext and downstream objectives often differ, causing costly adaptation, poor knowledge elicitation, and possible downstream deterioration.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "GPPT addresses the gap with masked-edge pre-training and prompting that reformulates node classification as edge prediction over label-class and node-entity token pairs.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "role": "reported_result",
+      "summary": "The authors report gains across eight benchmark datasets and faster convergence, with code availability stated.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Aligning the downstream task format with the pre-training objective may reduce the need for costly fine-tuning.",
+        "source_ids": [
+          "S4",
+          "S5",
+          "S9",
+          "S11"
+        ]
+      },
+      "interpretation": {
+        "claim": "Task-interface alignment can be a useful design principle for transferring pre-trained representations.",
+        "source_ids": [
+          "S9",
+          "S11"
+        ]
+      },
+      "application": {
+        "claim": "When adapting a pre-trained model to a low-label task, consider reformulating the downstream input or output to match the pre-training task.",
+        "source_ids": [
+          "S9",
+          "S11"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish that this alignment works across tasks, datasets, or settings beyond the reported experiments.",
+        "source_ids": [
+          "S12"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify the eight benchmark datasets, baselines, or experimental protocols.",
+    "The abstract does not provide statistical uncertainty, per-dataset results, or details of the pre-training and prompting implementation."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

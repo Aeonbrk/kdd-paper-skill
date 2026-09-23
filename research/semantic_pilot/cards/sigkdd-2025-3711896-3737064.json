@@ -1,0 +1,191 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737064",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks",
+  "doi": "10.1145/3711896.3737064",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4412877060",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Temporal dependencies in graph structure, node attributes, and ground-truth labels violate the exchangeability assumption used by standard conformal prediction methods.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Existing conformal prediction methods for GNNs predominantly focus on static graphs and do not address evolving real-world graphs.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "NCPNET is an end-to-end conformal prediction framework tailored for temporal graphs.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The framework uses a diffusion-based non-conformity score capturing topological and temporal uncertainties in evolving networks.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "An efficiency-aware optimization algorithm improves computational efficiency and reduces coverage violations in the conformal prediction process.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe NCPNET as a novel framework for temporal graphs.",
+    "source_ids": [
+      "S4"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report extensive experiments on WIKI, REDDIT, DBLP, and IBM Anti-Money Laundering temporal-graph datasets.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report guaranteed coverage in temporal graphs and up to a 31% reduction in prediction set size on WIKI.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report improved efficiency compared with state-of-the-art methods and make the data and code available.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Conformal prediction can quantify uncertainty and improve GNN reliability in high-stakes applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Existing methods focus mainly on static graphs, while temporal dependencies violate standard exchangeability assumptions.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "The paper introduces NCPNET, extending conformal prediction to dynamic settings with a diffusion-based non-conformity score.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "optimization",
+      "summary": "An efficiency-aware optimization algorithm targets computational efficiency and coverage violations.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "Experiments on diverse real-world temporal graphs report coverage, prediction-set-size, and efficiency results, with data and code availability.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Temporal dependencies can invalidate exchangeability assumptions underlying standard conformal prediction.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "interpretation": {
+        "claim": "Uncertainty methods may need explicit adaptation when data-generating structure evolves over time.",
+        "source_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      "application": {
+        "claim": "For temporal graph prediction, consider modeling both temporal and topological uncertainty in the non-conformity score.",
+        "source_ids": [
+          "S6"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not specify the conditions under which the reported coverage guarantees hold.",
+        "source_ids": [
+          "S8"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify the prediction task, model architecture, or evaluation protocol.",
+    "The abstract does not provide baseline identities, numerical coverage values, or results beyond the reported WIKI reduction.",
+    "The abstract does not detail the theoretical assumptions or proof of the coverage guarantee."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

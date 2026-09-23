@@ -1,0 +1,215 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3672020",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "CAT: Interpretable Concept-based Taylor Additive Models",
+  "doi": "10.1145/3637528.3672020",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4400142106",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Feature-based generalized additive models require many parameters, are prone to overfitting, are difficult to train and scale, and become less interpretable for humans on datasets with many features.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Existing concept-based interpretable methods require extensive domain-expert annotation of concept names and ground-truth values.",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "CAT is an interpretable concept-based Taylor additive model that simplifies concept-based explanation without requiring expert concept annotations.",
+      "source_ids": [
+        "S7",
+        "S8"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "CAT groups input features, embeds each group into a one-dimensional high-level concept representation, and processes those representations with a white-box Taylor Neural Network using polynomial relationships.",
+      "source_ids": [
+        "S9",
+        "S10",
+        "S11"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe CAT as a novel interpretable concept-based Taylor additive model.",
+    "source_ids": [
+      "S7"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Across multiple benchmarks, CAT reportedly outperforms or competes with baselines while using fewer extensive model parameters.",
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "claim": "CAT reportedly explains model predictions effectively through high-level concepts.",
+      "source_ids": [
+        "S13"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Generalized Additive Models use neural networks to learn feature-wise nonlinear functions combined by a linear model for prediction.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "Feature-based GAM explanations face parameter, overfitting, scalability, and human-interpretability limitations, while concept-based methods impose extensive expert-labeling requirements.",
+      "source_ids": [
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "CAT avoids expert concept annotations by using user-defined broad feature groups, one-dimensional concept representations, and a polynomial Taylor Neural Network.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "role": "evidence",
+      "summary": "The authors report competitive or superior benchmark performance, reduced parameter requirements, and effective high-level concept explanations.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "role": "availability",
+      "summary": "The abstract states that source code is available.",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Broad user-provided feature groups can replace extensive expert annotation while supporting high-level concept representations.",
+        "source_ids": [
+          "S8",
+          "S9",
+          "S10"
+        ]
+      },
+      "interpretation": {
+        "claim": "Interpretability workflows may reduce annotation cost by shifting from precise concept labels to lightweight feature organization.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      },
+      "application": {
+        "claim": "For high-dimensional tabular modeling, begin with metadata-based feature grouping and evaluate whether grouped representations preserve useful explanatory structure.",
+        "source_ids": [
+          "S3",
+          "S9",
+          "S10"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish that broad grouping is sufficient across domains or that it preserves explanation quality under all feature configurations.",
+        "source_ids": [
+          "S9",
+          "S12",
+          "S13"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The specific benchmarks, baselines, metrics, and comparison conditions are not reported.",
+    "The magnitude of parameter reduction and performance differences is not reported.",
+    "The procedure and quality criteria for selecting feature groups are not reported.",
+    "Training details, computational costs, and limitations are not reported."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

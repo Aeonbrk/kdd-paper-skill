@@ -1,24 +1,137 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["paper_id", "venue", "year", "track", "reading_level", "abstract_source", "source_locator", "retrieved_on", "source_units", "problem_and_gap", "contributions", "stated_novelty", "author_reported_evidence", "narrative_sequence", "candidate_lessons", "unknowns", "validation_state"],
+  "required": [
+    "paper_id",
+    "venue",
+    "year",
+    "track",
+    "title",
+    "doi",
+    "reading_level",
+    "abstract_source",
+    "source_locator",
+    "retrieved_on",
+    "source_units",
+    "problem_and_gap",
+    "contributions",
+    "stated_novelty",
+    "author_reported_evidence",
+    "narrative_sequence",
+    "candidate_lessons",
+    "unknowns",
+    "validation_state",
+    "extraction_method"
+  ],
   "properties": {
     "paper_id": {"type": "string"},
     "venue": {"type": "string"},
     "year": {"type": "integer"},
     "track": {"type": ["string", "null"]},
+    "title": {"type": "string"},
+    "doi": {"type": ["string", "null"]},
     "reading_level": {"const": "abstract_only"},
-    "abstract_source": {"type": "string"},
-    "source_locator": {"type": "string"},
+    "abstract_source": {"type": ["string", "null"]},
+    "source_locator": {"type": ["string", "null"]},
     "retrieved_on": {"type": "string"},
-    "source_units": {"type": "array", "items": {"type": "object", "required": ["id", "kind"], "properties": {"id": {"type": "string"}, "kind": {"const": "sentence"}}, "additionalProperties": false}},
-    "problem_and_gap": {"type": "object"},
-    "contributions": {"type": "array"},
-    "stated_novelty": {"type": ["object", "null"]},
-    "author_reported_evidence": {"type": "array"},
-    "narrative_sequence": {"type": "array"},
-    "candidate_lessons": {"type": "array"},
+    "source_units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^S[1-9][0-9]*$"},
+          "kind": {"const": "sentence"}
+        }
+      }
+    },
+    "problem_and_gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["problem", "gap"],
+      "properties": {
+        "problem": {"$ref": "#/$defs/claimOrNull"},
+        "gap": {"$ref": "#/$defs/claimOrNull"}
+      }
+    },
+    "contributions": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"$ref": "#/$defs/typedClaim"}
+    },
+    "stated_novelty": {"$ref": "#/$defs/claimOrNull"},
+    "author_reported_evidence": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"$ref": "#/$defs/claim"}
+    },
+    "narrative_sequence": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "summary", "source_ids"],
+        "properties": {
+          "role": {"type": "string"},
+          "summary": {"type": "string"},
+          "source_ids": {"$ref": "#/$defs/sourceIds"}
+        }
+      }
+    },
+    "candidate_lessons": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_observation", "interpretation", "application", "exception"],
+        "properties": {
+          "source_observation": {"$ref": "#/$defs/claim"},
+          "interpretation": {"$ref": "#/$defs/claim"},
+          "application": {"$ref": "#/$defs/claim"},
+          "exception": {"$ref": "#/$defs/claim"}
+        }
+      }
+    },
     "unknowns": {"type": "array", "items": {"type": "string"}},
-    "validation_state": {"enum": ["completed", "missing_source", "failed_validation"]}
+    "validation_state": {
+      "enum": ["completed", "missing_source", "failed_validation"]
+    },
+    "extraction_method": {"type": "string"}
+  },
+  "$defs": {
+    "sourceIds": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^S[1-9][0-9]*$"}
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim", "source_ids"],
+      "properties": {
+        "claim": {"type": "string"},
+        "source_ids": {"$ref": "#/$defs/sourceIds"}
+      }
+    },
+    "claimOrNull": {
+      "anyOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/claim"}
+      ]
+    },
+    "typedClaim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "claim", "source_ids"],
+      "properties": {
+        "type": {"type": "string"},
+        "claim": {"type": "string"},
+        "source_ids": {"$ref": "#/$defs/sourceIds"}
+      }
+    }
   }
 }

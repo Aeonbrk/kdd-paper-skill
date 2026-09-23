@@ -1,0 +1,165 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671950",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Counterfactual Generative Models for Time-Varying Treatments",
+  "doi": "10.1145/3637528.3671950",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4401857099",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Counterfactual outcome estimation becomes difficult with sequential time-varying treatments and high-dimensional outcomes, while average treatment effect estimation may miss individual disparities.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "gap": {
+      "claim": "Conventional average treatment effect estimation does not capture disparities in individuals for high-dimensional outcomes.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "A conditional generative framework produces counterfactual samples under time-varying treatment without explicit density estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The method addresses observed-counterfactual distribution mismatch with an inverse-probability-reweighting loss and integrates with guided diffusion and conditional variational autoencoder models.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe the proposed conditional generative framework as novel.",
+    "source_ids": [
+      "S4"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report a thorough evaluation on synthetic and real-world data.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report that the method generates high-quality counterfactual samples and outperforms state-of-the-art baselines.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "motivation",
+      "summary": "Counterfactual outcome estimation is important for decision-making.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "challenge",
+      "summary": "Time-varying treatments create exponentially many counterfactual outcomes, and high-dimensional outcomes expose limitations of average treatment effects.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "The proposed framework generates counterfactual samples and handles distribution mismatch through inverse probability re-weighting.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "The method is evaluated on synthetic and real-world data, with reported gains over state-of-the-art baselines.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Time-varying treatments can produce an exponentially large counterfactual space.",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      "interpretation": {
+        "claim": "Methods that generate counterfactual samples may scale more naturally than explicitly enumerating outcomes.",
+        "source_ids": [
+          "S2",
+          "S4"
+        ]
+      },
+      "application": {
+        "claim": "Consider conditional generative approaches for individual-level counterfactual analysis under sequential treatments.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish performance or suitability outside the reported synthetic and real-world evaluations.",
+        "source_ids": [
+          "S6",
+          "S7"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify datasets, baselines, metrics, or numerical results.",
+    "The abstract does not describe treatment, outcome, or model assumptions.",
+    "The abstract does not provide implementation or reproducibility details."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

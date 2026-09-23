@@ -1,0 +1,104 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539389",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Subset Node Anomaly Tracking over Large Dynamic Graphs",
+  "doi": "10.1145/3534678.3539389",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4281384964",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "The abstract treats monitoring selected nodes as a practical use case when graph structure changes over time.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "Existing approaches focus on anomalous edges or streaming anomaly graph snapshots, while failing to quantify individual node changes over time or requiring computationally inefficient whole-graph representations.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "motivation",
+      "summary": "Targeted subset node anomaly tracking in evolving graphs is important for real-world applications.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "prior_work",
+      "summary": "Existing methods generally identify anomalous edges or anomaly graph snapshots in a streaming setting.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "limitation",
+      "summary": "Edge-oriented methods cannot quantify individual node changes over time, while whole-graph representation methods are computationally inefficient.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Methods focused on anomalous edges do not quantify how individual nodes change over time.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "interpretation": {
+        "claim": "Anomaly tracking objectives should align with the entity level at which change needs to be measured.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "application": {
+        "claim": "For evolving graphs, consider node-level tracking when monitoring a targeted subset of entities.",
+        "source_ids": [
+          "S1",
+          "S3"
+        ]
+      },
+      "exception": {
+        "claim": "The supplied abstract units do not specify when edge-level detection or whole-graph representations would be preferable.",
+        "source_ids": [
+          "S2",
+          "S3"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The proposed method or system is not described.",
+    "No experiments, datasets, baselines, metrics, or quantitative results are supplied.",
+    "The targeted node subset and evolving-graph setting are not operationally defined."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

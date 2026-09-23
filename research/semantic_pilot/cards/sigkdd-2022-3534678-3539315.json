@@ -1,0 +1,181 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539315",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "Compressing Deep Graph Neural Networks via Adversarial Knowledge Distillation",
+  "doi": "10.1145/3534678.3539315",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4281560842",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Overstacked deep graph neural network architectures are difficult to deploy and rapidly test on mobile or embedded systems.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Using the same predefined distance for graphs with varied structures may be unsuitable, and determining the optimal distance formulation is difficult.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "The paper proposes GraphAKD, an adversarial knowledge distillation framework for graph models that adaptively detects and decreases teacher-student discrepancy.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "GraphAKD criticizes inherited knowledge from node-level and class-level views using a trainable discriminator, with the student GNN acting as a generator that attempts to fool the discriminator.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe GraphAKD as a novel adversarial knowledge distillation framework for graph models.",
+    "source_ids": [
+      "S5"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments on node-level and graph-level classification benchmarks report that GraphAKD improves student performance by a large margin.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The results are reported to indicate precise knowledge transfer from a complicated teacher GNN to a compact student GNN.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Deep GNNs are expressive for graph-structured data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "problem",
+      "summary": "Their overstacked architectures hinder deployment and rapid testing on mobile or embedded systems.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "prior_approach_and_gap",
+      "summary": "Knowledge distillation uses teacher-student discrepancy measurements, but a shared distance may not fit graphs with different structures and the optimal formulation is hard to determine.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "role": "proposed_method",
+      "summary": "GraphAKD uses adversarial training with a discriminator and generator to adaptively reduce discrepancy, focusing on node-level and class-level knowledge.",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "reported_result",
+      "summary": "Benchmark experiments report large-margin student-performance improvements and precise transfer from complicated teachers to compact students.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The framework adapts discrepancy detection and reduction through adversarial training rather than relying on one predefined distance.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      "interpretation": {
+        "claim": "Adaptive comparison may better accommodate structural variation across graph data.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      "application": {
+        "claim": "For graph-model compression, consider adversarially learning how student knowledge should be compared with teacher knowledge.",
+        "source_ids": [
+          "S5",
+          "S7"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether the approach is effective beyond the reported node-level and graph-level classification benchmarks.",
+        "source_ids": [
+          "S8"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not specify benchmark datasets, baselines, quantitative results, or experimental settings.",
+    "The abstract does not describe computational costs, compression ratios, or deployment measurements.",
+    "The abstract does not establish independent verification or reproducibility."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

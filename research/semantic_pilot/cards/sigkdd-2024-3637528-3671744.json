@@ -1,0 +1,214 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671744",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "IDEA: A Flexible Framework of Certified Unlearning for Graph Neural Networks",
+  "doi": "10.1145/3637528.3671744",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4401863495",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    },
+    {
+      "id": "S10",
+      "kind": "sentence"
+    },
+    {
+      "id": "S11",
+      "kind": "sentence"
+    },
+    {
+      "id": "S12",
+      "kind": "sentence"
+    },
+    {
+      "id": "S13",
+      "kind": "sentence"
+    },
+    {
+      "id": "S14",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Trained GNNs may encode sensitive personal information in their parameters, creating a risk of privacy leakage when deployed.",
+      "source_ids": [
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    "gap": {
+      "claim": "Existing certified GNN unlearning methods generally handle only node and edge requests and are tailored to specific GNN designs or training objectives, limiting flexibility.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "framework",
+      "claim": "The paper proposes IDEA, a framework for flexible and certified unlearning in GNNs.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "IDEA instantiates four types of graph unlearning requests and uses an approximation approach to handle them across diverse GNNs.",
+      "source_ids": [
+        "S11"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "The paper provides a theoretical guarantee certifying the effectiveness of the proposed unlearning approach.",
+      "source_ids": [
+        "S12"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "Unlike existing alternatives, IDEA is not designed for a specific GNN or optimization objective and is intended to generalize easily.",
+    "source_ids": [
+      "S13"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments on real-world datasets report superiority for IDEA across multiple key perspectives.",
+      "source_ids": [
+        "S14"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "GNNs are widely deployed, while their training data may contain sensitive personal information.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "role": "risk",
+      "summary": "Sensitive information can be encoded in trained GNN parameters and exposed through privacy leakage.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "role": "existing_response",
+      "summary": "Machine unlearning, especially certified unlearning, aims to remove personal information with theoretical effectiveness guarantees.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "Existing certified methods have limited request coverage and flexibility across GNN designs and training objectives.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "role": "proposed_work",
+      "summary": "IDEA addresses flexibility through multiple request types, diverse-GNN handling, certification, and reported real-world dataset experiments.",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Existing certified unlearning approaches are limited by narrow request coverage and dependence on particular model designs or objectives.",
+        "source_ids": [
+          "S7",
+          "S8",
+          "S9"
+        ]
+      },
+      "interpretation": {
+        "claim": "A flexible unlearning system should vary both the supported request types and the underlying GNN or training objective.",
+        "source_ids": [
+          "S7",
+          "S8",
+          "S9",
+          "S11",
+          "S13"
+        ]
+      },
+      "application": {
+        "claim": "When designing privacy-removal mechanisms for graph models, support multiple graph-level request types and avoid unnecessary coupling to one architecture or objective.",
+        "source_ids": [
+          "S11",
+          "S13"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish that architecture- or objective-agnostic designs are optimal for every deployment setting.",
+        "source_ids": [
+          "S13"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The four unlearning request types are not enumerated.",
+    "The approximation method and certification theorem are not specified.",
+    "The evaluated datasets, baselines, metrics, and reported superiority perspectives are not described.",
+    "The privacy threat model and attacker capabilities are not specified."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

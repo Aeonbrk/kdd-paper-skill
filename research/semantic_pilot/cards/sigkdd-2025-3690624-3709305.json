@@ -1,0 +1,116 @@
+{
+  "paper_id": "sigkdd-2025-3690624-3709305",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Progressive Generalization Risk Reduction for Data-Efficient Causal Effect Estimation",
+  "doi": "10.1145/3690624.3709305",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4409158336",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Causal effect estimation aims to predict unobserved counterfactual outcomes and is often applied to high-stakes domains such as medical treatment effect prediction.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Fully labelled observational datasets of adequate size are difficult to gather, and small training datasets make low generalization risk difficult to achieve for causal effect estimation algorithms.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    }
+  },
+  "contributions": [],
+  "stated_novelty": null,
+  "author_reported_evidence": [],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Causal effect estimation predicts unobserved counterfactual outcomes for entities.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "motivation",
+      "summary": "Using observational data avoids the impractical requirement for perfect counterfactual samples and supports high-stakes applications.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "challenge",
+      "summary": "Collecting sufficiently sized, fully labelled observational datasets is difficult because of cost, ethics, expertise, and time constraints.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "consequence",
+      "summary": "Small training datasets make low generalization risk difficult to achieve across causal effect estimation algorithms.",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Small training datasets make low generalization risk difficult to achieve in causal effect estimation.",
+        "source_ids": [
+          "S4"
+        ]
+      },
+      "interpretation": {
+        "claim": "Data scarcity is a central reliability challenge for causal effect estimation.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "application": {
+        "claim": "Data-efficient causal effect estimation methods should explicitly address generalization risk under limited labelled observational data.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "exception": {
+        "claim": "The supplied abstract units do not specify which methods, datasets, or settings address this challenge.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The proposed method or system is not described.",
+    "No experiments, datasets, baselines, quantitative results, or limitations are supplied."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

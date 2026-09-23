@@ -1,0 +1,173 @@
+{
+  "paper_id": "sigkdd-2024-3637528-3671820",
+  "venue": "SIGKDD",
+  "year": 2024,
+  "track": "Research Track",
+  "title": "Revisiting Local PageRank Estimation on Undirected Graphs: Simple and Optimal",
+  "doi": "10.1145/3637528.3671820",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4401863958",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Estimate the PageRank score of an arbitrary target node in an undirected graph with small relative error and high success probability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "The previous best upper bound was O(log n ⋅ min(dt, m1/2)) and came from a significantly more complex algorithm and analysis.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "BackMC is proposed as a simple algorithm for local PageRank estimation in undirected graphs, with a worst-case complexity upper bound of O(1/dmin ⋅ min(dt, m1/2)).",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "A matching lower bound of Ω(1/dmin ⋅ min(dt, m1/2)) is established for any algorithm solving local PageRank estimation.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "empirical finding",
+      "claim": "Experiments are conducted on large-scale real-world and synthetic graphs, with BackMC reported as consistently superior.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "Compared with the previous best upper bound, BackMC improves computational complexity by a factor of Θ(log n/dmin) while using a much simpler algorithm; the matching lower bound establishes theoretical optimality.",
+    "source_ids": [
+      "S3",
+      "S4"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "BackMC is reported to accurately estimate the target node's PageRank score with small relative error and high success probability.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "BackMC is reported to consistently show superior performance on various large-scale real-world and synthetic graphs.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "problem_and_method",
+      "summary": "The paper proposes BackMC for local PageRank estimation on undirected graphs.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "complexity_bound",
+      "summary": "The algorithm has a worst-case upper bound of O(1/dmin ⋅ min(dt, m1/2)).",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "comparison",
+      "summary": "BackMC improves on the prior upper bound by Θ(log n/dmin) with a simpler algorithm.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "optimality",
+      "summary": "A matching lower bound is established, supporting theoretical optimality.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "empirical_evidence",
+      "summary": "Experiments on real-world and synthetic graphs report consistently superior performance.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "A simpler algorithm is paired with an improved complexity upper bound and a matching lower bound.",
+        "source_ids": [
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      "interpretation": {
+        "claim": "Combining algorithmic simplification with tight complexity analysis can strengthen a method's theoretical contribution.",
+        "source_ids": [
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      "application": {
+        "claim": "When revisiting an established estimation problem, evaluate both whether the algorithm can be simplified and whether its complexity can be matched by a lower bound.",
+        "source_ids": [
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether this approach generalizes beyond undirected graphs or local PageRank estimation.",
+        "source_ids": [
+          "S1",
+          "S4"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The algorithmic details of BackMC are not provided.",
+    "The exact error and success-probability parameters are not specified.",
+    "Experimental datasets, baselines, metrics, and quantitative results are not reported.",
+    "The proof techniques for the upper and lower bounds are not described."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

@@ -1,0 +1,196 @@
+{
+  "paper_id": "sigkdd-2022-3534678-3539418",
+  "venue": "SIGKDD",
+  "year": 2022,
+  "track": "Research Track Full Papers",
+  "title": "How does Heterophily Impact the Robustness of Graph Neural Networks?: Theoretical Connections and Practical Implications",
+  "doi": "10.1145/3534678.3539418",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4287119647",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "The paper studies how heterophily of node labels relates to the robustness of graph neural networks to adversarial attacks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "The relation between graph heterophily and GNN robustness to adversarial attacks requires formal theoretical and empirical analysis.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "theory",
+      "claim": "The paper formalizes the relation between node-label heterophily and GNN robustness to adversarial attacks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "type": "empirical finding",
+      "claim": "The analyses characterize how impactful structural attacks change homophily differently in homophilous and heterophilous graphs.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The paper identifies separate aggregation of ego- and neighbor-embeddings as a design that can improve GNN robustness, especially when combined with explicit adversarial defenses.",
+      "source_ids": [
+        "S3",
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "For homophilous graph data, impactful structural attacks always reduce homophily, whereas for heterophilous graph data the homophily change depends on node degrees.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "GNNs using separate aggregators for ego- and neighbor-embeddings achieve improved empirical and certifiable robustness compared with the best-performing unvaccinated model.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "claim": "Combining separate aggregators with explicit adversarial defenses yields up to an 18.33% performance increase under attacks compared with the best-performing vaccinated model.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "problem",
+      "summary": "The paper connects node-label heterophily with GNN robustness to adversarial attacks.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "analysis",
+      "summary": "It analyzes how structural attacks affect homophily under homophilous and heterophilous graph conditions.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "implication",
+      "summary": "It proposes separate aggregators for ego- and neighbor-embeddings as a practical robustness design principle.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "Experiments report improved empirical and certifiable robustness over the best-performing unvaccinated model.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "role": "extension",
+      "summary": "Combining the design with explicit defenses is reported to improve attacked performance by up to 18.33% over the best-performing vaccinated model.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The effect of structural attacks on homophily depends on whether the graph is homophilous or heterophilous, and in heterophilous graphs it depends on node degrees.",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      "interpretation": {
+        "claim": "Robustness analysis should account for graph label structure and degree-dependent effects rather than assume a uniform attack impact.",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      "application": {
+        "claim": "Use heterophily and node-degree conditions when analyzing or designing defenses for adversarial attacks on graph models.",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not specify which degree conditions produce particular homophily changes.",
+        "source_ids": [
+          "S2"
+        ]
+      }
+    },
+    {
+      "source_observation": {
+        "claim": "Separate aggregators for ego- and neighbor-embeddings are reported to improve robustness, and combining them with explicit defenses yields up to an 18.33% performance increase under attacks.",
+        "source_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      "interpretation": {
+        "claim": "Architectural handling of ego and neighbor information can complement dedicated adversarial defense mechanisms.",
+        "source_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      "application": {
+        "claim": "Consider separate ego- and neighbor-embedding aggregation as part of a layered robustness strategy for GNNs.",
+        "source_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not identify the datasets, attack settings, or conditions associated with the reported performance increase.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The specific theoretical assumptions and formal results are not provided.",
+    "The datasets, attack types, evaluation metrics, and experimental settings are not provided.",
+    "The identities of the best-performing unvaccinated and vaccinated models are not provided."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

@@ -1,0 +1,185 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780166",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Stein-type Estimator Assisted by Dynamics",
+  "doi": "10.1145/3770854.3780166",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W7171966261",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Estimating equilibrium parameters of environmental systems is difficult because sensor data are sparse and noisy.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "gap": {
+      "claim": "The standard Maximum Likelihood Estimator is statistically inefficient in high dimensions.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "Introduces STEADY, an estimator that integrates physical knowledge to generalise Stein's paradox.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "theory",
+      "claim": "Derives STEADY from an empirical Bayes model whose equilibrium prior follows from stationary properties of the governing differential equations.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "Uses adaptive shrinkage modulated by the physical stability of the measured system.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "The authors explicitly describe the adaptive shrinkage mechanism as novel.",
+    "source_ids": [
+      "S5"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report a frequentist analysis proving that STEADY dominates the MLE and is minimax under certain conditions.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "claim": "The authors report validation on synthetic data and utility on the global Argo ocean float dataset, where STEADY filters noise to reveal the North Atlantic Warming Hole.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "The authors report that source code is available.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "problem",
+      "summary": "Environmental equilibrium-parameter estimation is challenged by sparse, noisy sensor data.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "role": "limitation",
+      "summary": "MLE is intuitive but can be inefficient in high-dimensional settings.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "role": "method",
+      "summary": "STEADY integrates physical knowledge through an empirical Bayes formulation and stability-modulated shrinkage.",
+      "source_ids": [
+        "S3",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "role": "theoretical_claim",
+      "summary": "The authors report dominance over MLE and minimaxity under certain conditions.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "The authors report synthetic and Argo-dataset validation, including recovery of the North Atlantic Warming Hole.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The estimator's shrinkage is modulated by the physical stability of the measured system.",
+        "source_ids": [
+          "S5"
+        ]
+      },
+      "interpretation": {
+        "claim": "Domain-derived stability information can make statistical regularization adaptive to system conditions.",
+        "source_ids": [
+          "S5"
+        ]
+      },
+      "application": {
+        "claim": "For noisy environmental estimation, use governing-system properties to tune shrinkage rather than applying uniform regularization.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish whether this approach applies when the governing dynamics or stability properties are unavailable or poorly specified.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The conditions required for minimaxity are not specified.",
+    "The abstract does not provide quantitative results, baselines, or evaluation details for the synthetic and Argo experiments.",
+    "The abstract does not describe the scope of the theoretical dominance result beyond the reported claim."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

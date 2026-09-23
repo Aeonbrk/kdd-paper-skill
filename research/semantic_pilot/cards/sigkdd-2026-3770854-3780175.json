@@ -1,0 +1,186 @@
+{
+  "paper_id": "sigkdd-2026-3770854-3780175",
+  "venue": "SIGKDD",
+  "year": 2026,
+  "track": "Research Track",
+  "title": "Bayesian Robust Financial Trading with Adversarial Synthetic Market Data",
+  "doi": "10.1145/3770854.3780175",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W7161812513",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    },
+    {
+      "id": "S9",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Algorithmic trading models can degrade under evolving and rapidly shifting real-world market regimes.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Existing policies lack robustness to high-level market uncertainty, while training environments lack realistic diversity and cause policy overfitting.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "framework",
+      "claim": "A Bayesian Robust Framework integrates a macro-conditioned generative model with robust policy learning.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "type": "resource",
+      "claim": "A macro-conditioned GAN-based generator synthesizes market data controlled by macroeconomic indicators and intended to preserve temporal, cross-instrument, and macro correlations.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "The trading process is modeled as a two-player zero-sum Bayesian Markov game with adversarial regime perturbations, quantile-belief state tracking, and Bayesian neural fictitious self-play.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": null,
+  "author_reported_evidence": [
+    {
+      "claim": "Experiments on 9 financial instruments report that the framework outperforms 9 state-of-the-art baselines.",
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "claim": "The authors report improved profitability and risk management during extreme events such as the COVID pandemic.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Algorithmic trading uses machine learning models for trading decisions, but their performance can degrade as market regimes evolve.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "role": "gap",
+      "summary": "The mismatch is attributed to insufficient policy robustness and unrealistic, insufficiently diverse simulation environments that promote overfitting.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "role": "framework",
+      "summary": "The proposed framework combines macro-conditioned synthetic data generation with robust policy learning.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "role": "policy_learning",
+      "summary": "Adversarial macroeconomic perturbations, Bayesian belief updates, and fictitious self-play are used to seek robust equilibrium behavior.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "The authors report improvements over baselines and under extreme market events across financial instruments.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "The method couples controllable synthetic data generation with adversarial policy training to represent changing market conditions.",
+        "source_ids": [
+          "S4",
+          "S5",
+          "S6"
+        ]
+      },
+      "interpretation": {
+        "claim": "Robustness may benefit from varying both the training environment and the policy's uncertainty model.",
+        "source_ids": [
+          "S5",
+          "S6"
+        ]
+      },
+      "application": {
+        "claim": "For sequential decision systems facing distribution shift, combine condition-controlled simulation with adversarial or uncertainty-aware policy learning.",
+        "source_ids": [
+          "S4",
+          "S6"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not establish which component is responsible for the reported gains or whether the approach transfers beyond the evaluated financial instruments.",
+        "source_ids": [
+          "S8",
+          "S9"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "Specific datasets, time periods, and preprocessing are not stated.",
+    "Evaluation metrics, baseline identities, and statistical significance are not stated.",
+    "Ablation results and implementation or reproducibility details are not stated.",
+    "The abstract does not independently verify the reported performance claims."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}

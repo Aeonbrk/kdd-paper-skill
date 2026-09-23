@@ -1,0 +1,176 @@
+{
+  "paper_id": "sigkdd-2025-3711896-3737054",
+  "venue": "SIGKDD",
+  "year": 2025,
+  "track": "Research Track",
+  "title": "Monitoring Robustness and Individual Fairness",
+  "doi": "10.1145/3711896.3737054",
+  "reading_level": "abstract_only",
+  "abstract_source": "OpenAlex abstract metadata",
+  "source_locator": "https://openalex.org/W4412825870",
+  "retrieved_on": "2026-09-22",
+  "source_units": [
+    {
+      "id": "S1",
+      "kind": "sentence"
+    },
+    {
+      "id": "S2",
+      "kind": "sentence"
+    },
+    {
+      "id": "S3",
+      "kind": "sentence"
+    },
+    {
+      "id": "S4",
+      "kind": "sentence"
+    },
+    {
+      "id": "S5",
+      "kind": "sentence"
+    },
+    {
+      "id": "S6",
+      "kind": "sentence"
+    },
+    {
+      "id": "S7",
+      "kind": "sentence"
+    },
+    {
+      "id": "S8",
+      "kind": "sentence"
+    }
+  ],
+  "problem_and_gap": {
+    "problem": {
+      "claim": "Automated decision-makers should remain robust to slight input perturbations, including forms such as adversarial robustness, semantic robustness, and individual fairness.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    "gap": {
+      "claim": "Existing fixed-radius nearest-neighbor methods lack suitable online solutions for runtime monitoring.",
+      "source_ids": [
+        "S5"
+      ]
+    }
+  },
+  "contributions": [
+    {
+      "type": "method",
+      "claim": "A runtime-monitoring approach for detecting input-output robustness violations in deployed black-box AI models from one long execution sequence.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "type": "system",
+      "claim": "Clemont, a tool providing lightweight monitors, including monitors based on upgraded online FRNN algorithms and a binary-decision-diagram-based algorithm.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "type": "method",
+      "claim": "A parallelization technique for monitors using the L∞ distance between input-output pairs.",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "stated_novelty": {
+    "claim": "One Clemont monitor uses an explicitly novel algorithm based on binary decision diagrams.",
+    "source_ids": [
+      "S6"
+    ]
+  },
+  "author_reported_evidence": [
+    {
+      "claim": "The authors report that their parallelization technique can substantially reduce monitor computation time for L∞-based distances.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "claim": "On standard benchmarks covering adversarial robustness, semantic robustness, and individual fairness, the authors report that Clemont monitors effectively detect robustness violations at runtime.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "narrative_sequence": [
+    {
+      "role": "context",
+      "summary": "Input-output robustness is presented as a desirable property with several forms in prior literature.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "role": "proposal",
+      "summary": "The paper proposes runtime monitoring of robustness in deployed black-box models to complement offline robustification.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "role": "technicalization",
+      "summary": "The monitoring problem is formulated as FRNN search, and Clemont provides lightweight monitors plus parallelization for L∞-based distances.",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "role": "evaluation",
+      "summary": "Different Clemont monitors are compared on standard robustness and fairness benchmarks for runtime violation detection.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "candidate_lessons": [
+    {
+      "source_observation": {
+        "claim": "Runtime monitoring can identify when similar inputs produce dissimilar outputs during a model's execution.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "interpretation": {
+        "claim": "Online behavioral checks can complement offline robustness-improvement methods for deployed black-box systems.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "application": {
+        "claim": "Use runtime monitoring when deployment-time behavior may differ from what offline robustness analysis captures.",
+        "source_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      "exception": {
+        "claim": "The abstract does not specify the monitor's detection guarantees, thresholds, or behavior outside the evaluated settings.",
+        "source_ids": [
+          "S3",
+          "S8"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "The abstract does not provide quantitative results or benchmark names.",
+    "The abstract does not specify monitor overhead, detection latency, false-positive behavior, or formal guarantees.",
+    "The abstract does not detail the novel algorithm or the online FRNN variants."
+  ],
+  "validation_state": "completed",
+  "extraction_method": "semantic_model_pilot_v1"
+}
