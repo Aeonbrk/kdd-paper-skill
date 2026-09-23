@@ -1,124 +1,61 @@
-# KDD practice synthesis
+# KDD Research Track practice synthesis
 
-The current practice set is bounded source-linked guidance for manuscript
-comparison. Corpus retrieval cards help locate candidate examples; their
-frequency is not treated as measured prevalence. The examples below rely on
-bounded full-text checks when the guidance depends on experimental,
-methodological, or resource detail.
+This synthesis draws bounded examples from Research Track semantic cards across 2022–2026 and five full-text checks. The selected examples do not estimate prevalence, explain acceptance, or rank papers.
 
-## State the changed object and the research tension
+## Name the task, limitation, and changed object
 
-Observed example: CAT makes the changed representation and interpretability
-objective legible before its evaluation. The full-text check covers Sections
-4.1–4.2 and 5.5.
+Observed pattern: Several abstracts state a concrete constraint before describing the operation that addresses it. PSMC identifies motif-instance enumeration and graph-scale costs, then introduces a locally computable Motif Resident metric and dynamic updates. DEXA describes data scarcity and a semantic gap in modular extreme-classification training before adding auxiliary parameters to encoder training. The incentive-policy paper identifies the failure to identify “Always Buyers” before proposing counterfactual strata and estimators.
 
-Why it may help: A reader can see what the work changes before deciding whether
-the change matters. This is an editorial interpretation, not a measured cause
-of acceptance.
+Supporting sources:
 
-Try this: Name the task constraint, the prior object or operation, the precise
-change, and what the change is meant to enable. Keep an explanation or novelty
-claim attributed unless the supplied evidence establishes it.
+- PSMC, `sigkdd-2024-3637528-3671666`, [abstract metadata](https://openalex.org/W4401863181), source units S3–S11.
+- Deep Encoders with Auxiliary Parameters for Extreme Classification, `sigkdd-2023-3580305-3599301`, [abstract metadata](https://openalex.org/W4385567541), source units S2–S7.
+- Who Should Be Given Incentives?, `sigkdd-2023-3580305-3599550`, [abstract metadata](https://openalex.org/W4385562472), source units S3–S8.
 
-Use when: The draft introduces a module or framework but the contribution delta
-is hard to state without the method name.
+Variation and boundary: Dual-view Molecular Pre-training states a molecular-representation task but does not identify a distinct prior-work limitation in its abstract; its semantic card leaves the gap absent (`sigkdd-2023-3580305-3599317`, [abstract metadata](https://openalex.org/W4385567824), source unit S1). A gap should remain unknown when the source does not state one.
 
-Exception: A resource or descriptive finding may contribute through coverage,
-measurement, or characterization rather than replacing a prior method.
+Interpretation: Naming the task and the stated limitation makes the intended role of a proposed mechanism easier to inspect.
 
-Example:
+Possible application: State the task, the source-supported limitation, and the object or operation changed before describing a module or framework.
 
-- [CAT: Interpretable Concept-based Taylor Additive Models](https://doi.org/10.1145/3637528.3672020), `sigkdd-2024-3637528-3672020`, full text, Sections 4.1–4.2 and 5.5.
+Applicability boundary: Abstracts report the authors’ framing. They do not establish that a claimed gap holds across the field or that the proposed mechanism resolves it.
 
-## Keep the measured condition beside the conclusion
+## Keep operating conditions beside reported results
 
-Observed examples: CAT reports task-specific regression and classification
-metrics across six benchmarks. Greykite reports horizon- and frequency-specific
-comparisons and separately describes LinkedIn deployment conditions.
+Observed pattern: Abstracts sometimes bind a result to the regime that gives it meaning. Matrix Profile XXIV reports exact left-discord computation at up to 300,000 Hz on a commodity desktop and describes datasets with trillions of datapoints. DEXA reports different accuracy improvements on benchmark and proprietary datasets and says it scales to 40 million labels. Conformal Counterfactual Inference reports marginal coverage under hidden confounding and a split-conformal variant with lower computational cost.
 
-Why it may help: Removing the condition can turn a bounded observation into a
-claim about a broader capability than the evidence covers.
+Supporting sources:
 
-Try this: Put the metric, unit, data population, forecast horizon, model class,
-or guarantee regime in the same sentence as the result. If a condition is
-absent, narrow the claim or mark the missing check.
+- Matrix Profile XXIV, `sigkdd-2022-3534678-3539271`, [abstract metadata](https://openalex.org/W4290878309), source units S7–S9.
+- Deep Encoders with Auxiliary Parameters for Extreme Classification, `sigkdd-2023-3580305-3599301`, [abstract metadata](https://openalex.org/W4385567541), source unit S6.
+- Conformal Counterfactual Inference under Hidden Confounding, `sigkdd-2024-3637528-3671976`, [abstract metadata](https://openalex.org/W4401863895), source units S4, S7, and S9.
 
-Use when: The draft says a method is better, robust, efficient, or general but
-does not identify the comparison boundary.
+Variation and boundary: GEO reports up to 40% greater visibility and says strategy effectiveness varies by domain (`sigkdd-2024-3637528-3671900`, [abstract metadata](https://openalex.org/W4401864200), source units S8–S10). These performance claims use different tasks and measures; they cannot be combined into a common ranking.
 
-Exception: A formal statement may have a different boundary from an empirical
-result. Do not add experimental qualifiers to a theorem or imply a guarantee
-that the source does not state.
+Interpretation: A result without its dataset, assumption, resource limit, or operating regime can imply broader support than the abstract provides.
 
-Examples:
+Possible application: Keep the metric, dataset or population, model scale, assumption, and resource condition in the sentence that states a result. If the abstract omits a condition, leave it unknown.
 
-- [CAT: Interpretable Concept-based Taylor Additive Models](https://doi.org/10.1145/3637528.3672020), `sigkdd-2024-3637528-3672020`, full text, Table 3 and Section 5.4.
-- [Greykite: Deploying Flexible Forecasting at Scale at LinkedIn](https://doi.org/10.1145/3534678.3539165), `sigkdd-2022-3534678-3539165`, full text, Section 5.2.2, Tables 1–2, and Section 6.1.
+Applicability boundary: These are author-reported abstract claims, not independent checks of the result or its operating limits.
 
-## Choose comparisons that answer the stated claim
+## Match evidence to the contribution
 
-Observed examples: CAT compares interpretable and black-box models and reports
-parameter and throughput tables. Evidential Alignment compares worst-group
-accuracy, average accuracy, and the accuracy gap across image and text datasets.
-Evaluating Decision Rules Across Many Weak Experiments keeps the estimand and
-proxy conditions beside the decision rule.
+Observed pattern: The evidence form varies with the claim. The incentive-policy paper reports estimator properties and a policy-reward bound alongside experiments on three real-world datasets and two incentive scenarios. Numerical Tuple Extraction introduces a finance dataset of 19,264 tables and 604,000 tuples for evaluating a relation-extraction framework. GEO separates a visibility-optimization method from GEO-bench, a benchmark of queries and web sources, and reports domain variation in strategy effectiveness.
 
-Why it may help: A comparison is useful when its design distinguishes the claim
-from plausible alternative explanations.
+Supporting sources:
 
-Try this: Write the decision the comparison should resolve, then name what is
-held fixed, what changes, the outcome, and the interpretation for each result.
-Use a component ablation only when attribution is the decision. Compare
-delivered systems when the claim concerns the system as used.
+- Who Should Be Given Incentives?, `sigkdd-2023-3580305-3599550`, [abstract metadata](https://openalex.org/W4385562472), source units S6–S9.
+- Numerical Tuple Extraction from Tables with Pre-training, `sigkdd-2022-3534678-3539460`, [abstract metadata](https://openalex.org/W4290876141), source units S9–S13.
+- GEO: Generative Engine Optimization, `sigkdd-2024-3637528-3671900`, [abstract metadata](https://openalex.org/W4401864200), source units S7–S10.
 
-Use when: A proposed experiment lists baselines or ablations without saying what
-each comparison is meant to decide.
+Variation and boundary: A dataset contribution needs evidence about the resource and its evaluation use; a theoretical claim needs its stated assumptions and guarantee; a method claim needs task-appropriate comparisons. An abstract may describe only part of those details, as in the tuple-extraction paper, whose abstract gives dataset size and a baseline comparison but does not establish dataset coverage or access conditions.
 
-Exception: A resource, theory, or position paper may need coverage, theorem
-conditions, or argument comparison rather than a model leaderboard.
+Interpretation: A baseline comparison alone does not test every kind of contribution. Evidence should address the claim the paper makes.
 
-Examples:
+Possible application: For each manuscript claim, name the evidence that could distinguish it: theorem conditions for formal claims, task-specific measurements for empirical methods, and coverage or access details for resources.
 
-- [CAT: Interpretable Concept-based Taylor Additive Models](https://doi.org/10.1145/3637528.3672020), `sigkdd-2024-3637528-3672020`, full text, Section 5.2, Tables 3–4, Appendix A.2/Table 7.
-- [Improving Group Robustness on Spurious Correlation via Evidential Alignment](https://doi.org/10.1145/3711896.3737002), `sigkdd-2025-3711896-3737002`, full text, Sections 5.1–5.5, Tables 2–4.
-- [Evaluating Decision Rules Across Many Weak Experiments](https://doi.org/10.1145/3711896.3737217), `sigkdd-2025-3711896-3737217`, full text, Sections 3–4.3.
+Applicability boundary: These examples show how the authors describe their evidence. They do not verify proofs, data quality, benchmark completeness, or full experimental results.
 
-## Treat systems and resources as bounded research contributions
+## Full-text boundary
 
-Observed examples: Greykite ties forecast configuration to operational
-dashboards and forecast horizons. H2GB records dataset domains, split policy,
-metrics, baseline groups, and reproducibility configuration.
-
-Why it may help: A resource or deployed system can be evaluated on what it
-enables and under which conditions, without forcing it into a new-algorithm
-template.
-
-Try this: State the units, construction or interface, access status, intended
-use, demonstrated use, and the boundary that remains untested.
-
-Use when: The contribution is a dataset, benchmark, library, deployment, or
-system rather than only a predictive component.
-
-Exception: Do not claim broad coverage, validity, or production impact from a
-small demonstration or a source that does not report the relevant detail.
-
-Examples:
-
-- [When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark](https://doi.org/10.1145/3711896.3737421), `sigkdd-2025-3711896-3737421`, full text, Sections 3.2–3.4, Table 1, Section 5.1.
-- [Greykite: Deploying Flexible Forecasting at Scale at LinkedIn](https://doi.org/10.1145/3534678.3539165), `sigkdd-2022-3534678-3539165`, full text, Sections 5.2.2 and 6.1–6.2.
-
-## Use official guidance as context, not as a score
-
-Observed venue guidance: KDD 2025 and 2026 Research Track CFP material lists
-technical merit, originality, potential impact, quality of execution and
-presentation, related work, reproducibility, and ethics, and says that the
-first eight content pages should be self-contained. The pages do not define a
-numeric weighting or acceptance function.
-
-Try this: Use the guidance to decide what context a manuscript section must make
-legible, then use comparable paper evidence to choose a concrete revision.
-
-Exception: Guidance does not override the contribution type or prove that a
-particular paper choice caused acceptance.
-
-Sources: [KDD 2025 Research Track CFP](https://kdd2025.kdd.org/research-track-call-for-papers/) and [KDD 2026 Research Track CFP](https://kdd2026.kdd.org/research-track-call-for-papers/).
+The five [full-text checks](../exemplars/full_text_checks.md) used for synthesis cover the method, experiment, and reporting details needed by these bounded examples. The three additional checks listed there were used for a fresh-context behavior case, not for this synthesis.

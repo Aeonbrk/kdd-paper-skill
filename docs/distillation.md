@@ -14,10 +14,16 @@ or evaluation questions differ.
 
 ## Evidence levels
 
-Cards use `reading_level: abstract_only`. The current corpus cards are produced
-by `bounded_rule_extractor_v1` from verified abstract metadata. They preserve
-paper identity, source locators, sentence-unit IDs, and compact retrieval cues.
-They are not semantic source review and do not establish corpus-wide prevalence,
+All cards use `reading_level: abstract_only`. The general corpus cards are
+produced by `bounded_rule_extractor_v1` from verified abstract metadata. They
+preserve paper identity, source locators, sentence-unit IDs, and compact
+retrieval cues for targeted discovery; they are not semantic source review.
+
+Research Track papers with a reliable abstract also have semantic evidence
+cards produced one paper per extraction context by `semantic_model_pilot_v1`.
+These cards contain source-grounded problem/gap, contribution,
+author-reported-evidence, narrative, lesson, and unknown fields. They remain
+abstract-only evidence and do not establish corpus-wide prevalence,
 experimental adequacy, proof correctness, reproducibility, or full-paper
 limitations.
 
@@ -33,7 +39,7 @@ synopses are not semantic evidence for extraction.
 
 ## Card contract
 
-Each completed card contains:
+Each retrieval card contains:
 
 - PaperWarehouse identity, venue, year, and track;
 - `reading_level: abstract_only`, abstract source, locator, and retrieval date;
@@ -42,6 +48,13 @@ Each completed card contains:
 - source-unit IDs for every generated cue;
 - explicit unknowns;
 - a validation state.
+
+Each Research Track semantic card contains the same identity and source
+locator fields plus source-unit IDs and the semantic fields defined by
+`research/abstract_distillation/extraction.schema.json`. Every substantive
+semantic claim cites one or more supplied source-unit IDs. Author-reported
+evidence is kept separate from independent verification, and null or empty
+fields are valid when the abstract does not support a claim.
 
 Null and empty arrays are valid. A card does not become a venue rule,
 independent scientific verification, or an acceptance explanation.
@@ -53,12 +66,16 @@ independent scientific verification, or an acceptance explanation.
    responses only under an ignored cache.
 3. Produce one bounded retrieval card per available abstract and keep
    missing-source records explicit.
-4. Verify corpus identity, source locators, source-unit references, and
-   accidental large verbatim reuse.
-5. Use cards to locate candidate comparisons, then inspect the underlying
+4. For Research Track papers with available abstracts, produce one semantic
+   card per paper after the bounded pilot passes; keep other tracks on the
+   retrieval-card/source-on-demand path.
+5. Verify corpus identity, source locators, source-unit references, and
+   accidental large verbatim reuse. Review semantic-card fidelity against the
+   supplied abstract units for the pilot and any bounded redesign.
+6. Use cards to locate candidate comparisons, then inspect the underlying
    abstract or full text before making an attributed semantic claim.
-6. Keep synthesis track-aware and bounded.
-7. Use full text when a recommendation depends on experimental, methodological,
+7. Keep synthesis track-aware and bounded.
+8. Use full text when a recommendation depends on experimental, methodological,
    proof, figure, table, or reproducibility detail.
 
 Failed validation, missing source, and completed cards remain distinguishable.
@@ -72,8 +89,8 @@ large verbatim overlap. It does not determine whether a paraphrased claim is
 semantically faithful to the source sentence.
 
 A semantic source audit requires comparing card claims with the underlying
-abstract units. Until such an audit is performed, structural checks are not
-semantic extraction accuracy.
+abstract units. The 40-paper pilot was reviewed this way; structural checks on
+the scaled corpus do not establish population-wide semantic accuracy.
 
 ## Official guidance and awards
 

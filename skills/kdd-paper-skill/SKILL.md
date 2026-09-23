@@ -19,10 +19,13 @@ through `research/synthesis/practices.md` when applying a practice. Read
 [archetypes](references/archetypes.md) before comparing papers with different
 contribution types.
 
-The corpus cards are abstract-linked retrieval aids produced by a bounded rule
-extractor. Their source-unit IDs establish traceability, not semantic fidelity.
-Before attributing an abstract-level claim from a card, inspect the underlying
-abstract at the recorded source locator. Use
+The general corpus cards are abstract-linked retrieval aids produced by a
+bounded rule extractor. Their source-unit IDs establish traceability, not
+semantic fidelity. Research Track papers with available abstracts also have
+one-paper semantic cards under `research/semantic_cards/research_track/`.
+Those cards are source-grounded abstract evidence, not full-text reading.
+Before attributing an abstract-level claim from either card surface, inspect
+the underlying abstract at the recorded source locator. Use
 [full-text checks](../../research/exemplars/full_text_checks.md) when a
 recommendation depends on experimental, methodological, proof, figure, table,
 or reproducibility detail.
@@ -40,20 +43,28 @@ verdicts, or a universal checklist.
 
 ## Select evidence
 
-Use the frozen corpus manifest and retrieval cards to find a small comparison
-set. Select by problem structure, contribution type, evidence need, evaluation
-setting, and resource constraints. Do not select by fame or award status alone.
-Keep Research, Applied Data Science, Datasets and Benchmarks, AI for Sciences,
-Blue Sky Ideas, Health Day, and other tracks distinct when their evidence
-questions differ.
+Use the frozen corpus manifest and targeted retrieval or semantic cards to find
+a small comparison set. Select by problem structure, contribution type,
+evidence need, evaluation setting, and resource constraints. Do not select by
+fame or award status alone. Use Research Track semantic cards when available;
+for other tracks, use retrieval cards and inspect the source on demand. Keep
+Research, Applied Data Science, Datasets and Benchmarks, AI for Sciences, Blue
+Sky Ideas, Health Day, and other tracks distinct when their evidence questions
+differ.
 
-Do not enumerate or load the full card directory for one request. Use targeted
-manifest, track/year, award, title, and paper-ID lookups. Then inspect the
-underlying source for every attributed comparison that matters to the advice.
+Do not enumerate or load the full retrieval or semantic card directories for
+one request. Use targeted manifest, track/year, award, title, and paper-ID
+lookups. Then inspect the underlying source for every attributed comparison
+that matters to the advice.
 
 Do not use PaperWarehouse discovery synopses or search snippets as semantic
 evidence. When a source cannot be inspected, label the statement as general
 research guidance and omit source attribution.
+
+For every KDD-derived observation, name the paper and link the direct abstract
+or inspected full-text locator. A program or table-of-contents page, retrieval
+card, or search result can locate a candidate but is not a semantic evidence
+locator. Do not report an attributed source comparison without that link.
 
 ## Mode A: compare and improve
 
